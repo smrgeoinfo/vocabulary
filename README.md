@@ -2,7 +2,7 @@
 
 ## GSQ vocabulary (lithology.ttl) 
 Hosted in GitHub  https://github.com/geological-survey-of-queensland/vocabularies/blob/master/vocabularies-gsq/lithology.ttl
-Derived from the IUGS classification scheme, CGI SImple Lithology, British Geological Survey, Meteoritical Society, accumulated GSQ information, and consultation with the Queensland Resources Industry, with cross referencing to mindat.org.
+Derived from the IUGS classification scheme, CGI SImple Lithology, British Geological Survey, Meteoritical Society, accumulated GSQ information, and consultation with the Queensland Resources Industry, with cross referencing to mindat.org. skos match relations link to CGI Simple Lithology classes.
 SKOS, rock types are skos:Concept instances. skos:broader relations denote hierarchy. 2968 skos:Concept instances (assume each is a lithology class)
 
 ## BGS Rock Names (earth-material-class.nt)
