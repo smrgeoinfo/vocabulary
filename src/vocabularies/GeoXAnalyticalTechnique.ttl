@@ -20,7 +20,7 @@ analt:instrument
   dcterms:publisher "TBD" ;
   dcterms:source "Compiled from GeoX vocabulary spreadsheet, version of 2023-09-08" ;
   rdfs:label "Instruments used to analyze geologic samples"@en ;
-  skos:definition "This concept scheme contains skos concepts for instruments used to characterize geologic samples."@en ;
+  skos:definition "This concept scheme contains skos concepts for instruments used to characterize geologic samples ."@en ;
   skos:hasTopConcept inst:analyticalinstrument ;
   skos:prefLabel "Instruments used to analyze geologic samples"@en ;
 .
