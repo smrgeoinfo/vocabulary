@@ -864,7 +864,7 @@ meth:highperformanceliquidchromatography
   rdfs:isDefinedBy <http://w3id.org/def/geox/analyticaltechnique> ;
   rdfs:label "High Performance Liquid Chromatography"@en ;
   skos:broader meth:liquidchromatography ;
-  skos:definition "Chromatography in which the mobile phase is a liquid. Note 2: Liquid column chromatography utilizing small particles (2–20 μm) and a relatively high inlet pressure (up to 50 MPa (500 bar)) is often characterized by the term high-performance liquid chromatography  and the acronym HPLC. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111)"@en ;
+  skos:definition "Chromatography in which the mobile phase is a liquid. Note 2: Liquid column chromatography utilizing small particles (2–20 micron) and a relatively high inlet pressure (up to 50 MPa (500 bar)) is often characterized by the term high-performance liquid chromatography  and the acronym HPLC. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111)"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "High Performance Liquid Chromatography"@en ;
 .
@@ -944,7 +944,7 @@ meth:microxrayfluorescencespectroscopy
   rdfs:isDefinedBy <http://w3id.org/def/geox/analyticaltechnique> ;
   rdfs:label "Micro-X-Ray Fluorescence Spectroscopy"@en ;
   skos:broader meth:xrayfluorescencespectroscopy ;
-  skos:definition "Measurement method of X-ray fluorescence used to measure amounts of elements in a material. Micro-XRF (μ-XRF) analysis uses highly brilliant X-ray sources (synchrotron source and spot size 100 nm to 2 μm) and microfocussing X-ray optics to give femtogram to attogram detection limits. (Source: IUPAC; https://doi.org/10.1515/pac-2019-0302). "@en ;
+  skos:definition "Measurement method of X-ray fluorescence used to measure amounts of elements in a material. Micro-XRF analysis uses highly brilliant X-ray sources (synchrotron source and spot size 100 nm to 2 micron) and microfocussing X-ray optics to give femtogram to attogram detection limits. (Source: IUPAC; https://doi.org/10.1515/pac-2019-0302). "@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Micro-X-Ray Fluorescence Spectroscopy"@en ;
 .
