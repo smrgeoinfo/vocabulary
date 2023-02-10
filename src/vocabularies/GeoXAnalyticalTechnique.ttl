@@ -42,6 +42,7 @@ inst:analyticalinstrument
   skos:definition "top concept for instruments"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Analytical Instrument"@en ;
+  skos:topConceptOf analt:instrument ;
 .
 inst:anemometers
   rdf:type skos:Concept ;
@@ -675,6 +676,7 @@ meth:analyticalmethod
   skos:definition "top concept for methods"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Analytical Method"@en ;
+  skos:topConceptOf analt:method ;
 .
 meth:atomicabsorptionspectroscopy
   rdf:type skos:Concept ;
@@ -1417,6 +1419,7 @@ wrkf:workflowcomponent
   skos:definition "top concept for scheme"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Workflow Component"@en ;
+  skos:topConceptOf analt:workflow ;
 .
 <http://w3id.org/def/geox/analyticaltechnique>
   rdf:type owl:ontology ;
