@@ -85,8 +85,8 @@ inst:binocular
   dcterms:source "NASA" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Binocular"@en ;
-  skos:altLabel " Stereo Microscope" ;
   skos:altLabel "Binocular Microscope" ;
+  skos:altLabel "Stereo Microscope" ;
   skos:broader inst:opticalinstrument ;
   skos:definition "A pair of identical or mirror-symmetrical telescopes mounted side-by-side and aligned to point accurately in the same direction, allowing the viewer to use both eyes (binocular vision) when viewing distant objects. Most are sized to be held using both hands, although sizes vary widely from opera glasses to large pedestal mounted military models.. . "@en ;
   skos:inScheme analt:instrument ;
@@ -1699,7 +1699,7 @@ meth:highperformanceliquidchromatographyseparation
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "High Performance Liquid Chromatography Separation"@en ;
   skos:broader wrkf:liquidchromatographyseparation ;
-  skos:definition "Chromatography in which the mobile phase is a liquid. Note 2: Liquid column chromatography utilizing small particles (2–20 μm) and a relatively high inlet pressure (up to 50 MPa (500 bar)) is often characterized by the term high-performance liquid chromatography  and the acronym HPLC. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111) {@en} This technique is preparative, the eluate is taken for further analysis in a complete workflow."@en ;
+  skos:definition "Chromatography in which the mobile phase is a liquid. Note 2: Liquid column chromatography utilizing small particles (2–20 micron) and a relatively high inlet pressure (up to 50 MPa (500 bar)) is often characterized by the term high-performance liquid chromatography  and the acronym HPLC. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111) {@en} This technique is preparative, the eluate is taken for further analysis in a complete workflow."@en ;
   skos:inScheme analt:method ;
   skos:notation "HPLC" ;
   skos:prefLabel "High Performance Liquid Chromatography Separation"@en ;
@@ -1845,6 +1845,7 @@ meth:infraredopticalspectrometry
   rdfs:label "Infrared optical spectrometry"@en ;
   skos:broader meth:infraredspectrometry ;
   skos:inScheme analt:method ;
+  skos:prefLabel "Infrared optical spectrometry"@en ;
 .
 meth:infraredphotometry
   rdf:type skos:Concept ;
@@ -2172,7 +2173,7 @@ meth:microxrayfluorescencespectroscopy
   skos:altLabel " X-ray Fluorescence Spectroscopy" ;
   skos:altLabel "Micro X-ray Fluorescence" ;
   skos:broader meth:synchrotonxrayfluorescencespectrometry ;
-  skos:definition "Measurement method of X-ray fluorescence used to measure amounts of elements in a material. Micro-XRF (μ-XRF) analysis uses highly brilliant X-ray sources (synchrotron source and spot size 100 nm to 2 μm) and microfocussing X-ray optics to give femtogram to attogram detection limits. (Source: IUPAC; https://doi.org/10.1515/pac-2019-0302). "@en ;
+  skos:definition "Measurement method of X-ray fluorescence used to measure amounts of elements in a material. Micro-XRF analysis uses highly brilliant X-ray sources (synchrotron source and spot size 100 nm to 2 micron) and microfocussing X-ray optics to give femtogram to attogram detection limits. (Source: IUPAC; https://doi.org/10.1515/pac-2019-0302). "@en ;
   skos:inScheme analt:method ;
   skos:notation "microXRF" ;
   skos:prefLabel "Micro-X-Ray Fluorescence Spectroscopy"@en ;
