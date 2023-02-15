@@ -138,7 +138,7 @@ inst:confocallaserscanningmicroscope
   dcterms:source "Own" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Confocal Laser Scanning Microscope"@en ;
-  skos:altLabel " Laser Confocal Scanning Microscope" ;
+  skos:altLabel "Laser Confocal Scanning Microscope" ;
   skos:altLabel "Confocal Microscope" ;
   skos:broader inst:microscope ;
   skos:definition "optical imaging instrument that increases  optical resolution and contrast by means of a spatial pinhole to block out-of-focus light in image formation. Capturing multiple two-dimensional images at different depths in a sample enables the reconstruction of three-dimensional structures (a process known as optical sectioning) within an object. A confocal microscope focuses a small beam of light at one narrow depth level at a time to achieve a controlled and highly limited depth of field.  The point illumination and a pinhole in an optically conjugate plane in front of the detector eliminate out-of-focus signal – the name 'confocal' stems from this configuration. As only light from  very close to the focal plane can be detected, the image's optical resolution, particularly in the sample depth direction, is much better than that of wide-field microscopes. Much of the light is blocked at the pinhole resulting in decreased signal intensity, so long exposures are often required. To offset this drop in signal after the pinhole, the light intensity is detected by a sensitive detector, usually a photomultiplier tube (PMT) or avalanche photodiode, transforming the light signal into an electrical one.  As only one point in the sample is illuminated at a time, 2D or 3D imaging requires scanning over a regular raster in the specimen.  (https://en.wikipedia.org/wiki/Confocal_microscopy)  "@en ;
@@ -191,8 +191,8 @@ inst:electronmicroprobe
   dcterms:source "NASA" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electron Microprobe"@en ;
-  skos:altLabel " Electron Micro Probe Analyzer" ;
-  skos:altLabel " X-ray-Microanalyzer" ;
+  skos:altLabel "Electron Micro Probe Analyzer" ;
+  skos:altLabel "X-ray-Microanalyzer" ;
   skos:altLabel "Electron Probe Microanalyzer" ;
   skos:broader inst:electronorionopticalinstrument ;
   skos:definition "An electron microprobe is an electron microscope designed for the non-destructive x-ray microanalysis and imaging of solid materials. It is capable of high spatial resolution and relatively high analytical sensitivity. [Source: Caltech]. This is a general term for instruments using bombardment of a solid specimen by electrons to generate a variety of signals providing the basis for a number of different analytical techniques. (Source: IUPAC; https://media.iupac.org/publications/analytical_compendium/)"@en ;
@@ -391,7 +391,7 @@ inst:multicollectorinductivelycoupledplasmamassspectrometer
   dcterms:source "NASA" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Multicollector Inductively Coupled Plasma Mass Spectrometer"@en ;
-  skos:altLabel " Multi-Collector Inductively Coupled Plasma Mass Spectrometer" ;
+  skos:altLabel "Multi-Collector Inductively Coupled Plasma Mass Spectrometer" ;
   skos:altLabel "Multiple Collector Mass Spectrometer" ;
   skos:broader inst:inductivelycoupledplasmamassspectrometer ;
   skos:definition "The Multicollector Inductively Coupled Plasma Mass Spectrometry (MCICPMS) spectrometer is a double focusing instrument that provides high precision and accurate isotope ratio determinations, coupled with flexibility and ease of use. [Source: University of Alberta.].  Mass spectrograph based on a double-focusing magnetic analyzer that spatially disperses ions of different m/z values on to an array of Faraday cup detectors, generally used with inductively coupled plasma ion sources for isotopic composition measurements. (Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06)"@en ;
@@ -442,7 +442,7 @@ inst:phsensitiveelectrode
   dcterms:source "DFG" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "pH-sensitive electrode"@en ;
-  skos:altLabel " Glass Electrode" ;
+  skos:altLabel "Glass Electrode" ;
   skos:altLabel "pH Electrode" ;
   skos:broader inst:electrochemicalinstrument ;
   skos:definition "Potentiometric electrochemical sensor that measures pH as a linear function of electrode potential. Measurement principles or methods include the use of an ion-selective electrode (see glass pH-sensitive electrode), ion-selective field effect transistor, metal-metal oxide electrodes, or redox electrode (e.g. hydrogen electrode, quinhydrone electrode). (Source: IUPAC;  https://doi.org/10.1515/pac-2018-0109). "@en ;
@@ -694,7 +694,7 @@ meth:acceleratormassspectrometry
   dcterms:source "Astromat" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Accelerator mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -706,7 +706,7 @@ meth:acidreactioncarbonateanalysis
   dcterms:source "smr add" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Acid reaction carbonate analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:wetchemistry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -779,7 +779,6 @@ meth:amperometry
 meth:analyticalmethod
   rdf:type skos:Concept ;
   dcterms:source "SMR add general categories" ;
-  dcterms:source "add parent" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Analytical method"@en ;
   skos:altLabel "Analytical technique"@en ;
@@ -794,7 +793,7 @@ meth:angleofreposemeasurement
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Angle of Repose Measurement"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:physicalpropertymeasurementtechniques ;
   skos:definition "A granular sample is poured to create a cone or slope at the maximum angle of stability. This slope could be directly measured with a angle tool, or better yet should be analyzed from a 3d reconstruction of the scene. Various techniques might be used to reconstruct the shape of the cone."@en ;
   skos:inScheme analt:method ;
@@ -806,7 +805,7 @@ meth:anionchromatography
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Anion Chromatography"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:ionchromatography ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -818,7 +817,7 @@ meth:atomicabsorptionspectroscopy
   dcterms:source "NASA" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Atomic Absorption Spectroscopy"@en ;
-  skos:altLabel " Atomic Absorption Spectrophotometry" ;
+  skos:altLabel "Atomic Absorption Spectrophotometry" ;
   skos:altLabel "Atomic Absorption Spectrometry" ;
   skos:broader meth:opticalspectrometry ;
   skos:definition "analytical technique used to measure a wide range of elements in materials such as metals, pottery and glass. Although it is a destructive technique (unlike ED-XRF), the sample size needed is very small (typically about 10 milligrams - i.e. one hundredth of a gram) and its removal causes little damage. The sample is accurately weighed and then dissolved, often using strong acids. The resulting solution is sprayed into the flame of the instrument and atomized. Light of a suitable wavelength for a particular element is shone through the flame, and some of this light is absorbed by the atoms of the sample. The amount of light absorbed is proportional to the concentration of the element in the solution, and hence in the original object. Measurements are made separately for each element of interest in turn to achieve a complete analysis of an object, and thus the technique is relatively slow to use. However, it is very sensitive and it can measure trace elements down to the part per million level, as well as being able to measure elements present in minor and major amounts. Additional information available at http://www.thebritishmuseum.ac.uk/science/text/techniques/sr-tech-aas-t.html,  https://doi.org/10.1515/pac-2017-0410"@en ;
@@ -831,7 +830,7 @@ meth:atomprobetomography
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Atom probe tomography"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:other ;
   skos:definition "To conduct an atom probe experiment a very sharp needle shaped specimen is placed in an ultra high vacuum chamber. After introduction into the vacuum system, the sample is reduced to cryogenic temperatures (typically 20-100 K) and manipulated such that the needle's point is aimed towards an ion detector. A high voltage is applied to the specimen, and either a laser pulse is applied to the specimen or a voltage pulse (typically 1-2 kV) with pulse repetition rates in the hundreds of kilohertz range is applied to a counter electrode. The application of the pulse to the sample allows for individual atoms at the sample surface to be ejected as an ion from the sample surface at a known time. Typically the pulse amplitude and the high voltage on the specimen are computer controlled to encourage only one atom to ionize at a time, but multiple ionizations are possible. The delay between application of the pulse and detection of the ion(s) at the detector allow for the computation of a mass-to-charge ratio. The method is destructive in nature removing ions from a sample surface in order to image and identify them, generating magnifications sufficient to observe individual atoms as they are removed from the sample surface. Through coupling of this magnification method with time of flight mass spectrometry, ions evaporated by application of electric pulses can have their mass-to-charge ratio computed. Through successive evaporation of material, layers of atoms are removed from a specimen, allowing for probing not only of the surface, but also through the material itself.The instrument allows the three-dimensional reconstruction of up to billions of atoms from a sharp tip (corresponding to specimen volumes of 10,000-10,000,000 nm3). (https://en.wikipedia.org/wiki/Atom_probe)"@en ;
   skos:inScheme analt:method ;
@@ -843,7 +842,7 @@ meth:augerelectronspectroscopy
   dcterms:source "Astromat" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Auger electron spectroscopy"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:electronspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -926,7 +925,7 @@ meth:catalyticcombustionanalysis
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Catalytic combustion analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:infraredopticalspectrometry ;
   skos:definition "hasPart"@en ;
   skos:inScheme analt:method ;
@@ -938,7 +937,7 @@ meth:cationchromatography
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Cation Chromatography"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:ionchromatography ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1027,7 +1026,7 @@ meth:continuousflowisotoperatiomassspectrometry
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Continuous flow isotope ratio mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition "hasPart"@en ;
   skos:inScheme analt:method ;
@@ -1040,7 +1039,7 @@ meth:coulometricalanalysis
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Coulometrical analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:electrochemicaltechniques ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1063,7 +1062,7 @@ meth:dietrichfruhlingcalcimetry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Dietrich-Fruhling calcimetry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:acidreactioncarbonateanalysis ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1077,8 +1076,8 @@ meth:differentialscanningcalorimetry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Differential Scanning Calorimetry"@en ;
-  skos:altLabel " Power Compensation DSC" ;
-  skos:altLabel ""@en ;
+  skos:altLabel "Power Compensation DSC" ;
+  
   skos:altLabel "Heat-flow DSC" ;
   skos:broader meth:thermalanalysis ;
   skos:definition ""@en ;
@@ -1107,7 +1106,7 @@ meth:directcurrentplasmaspectrometry
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Direct current plasma spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:plasmaopticalspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1140,7 +1139,7 @@ meth:dualinletisotoperatiomassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Dual-inlet isotope-ratio mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1175,7 +1174,7 @@ meth:electrochemicaltechniques
   dcterms:source "add parent methods" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electrochemical Techniques"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1188,7 +1187,7 @@ meth:electromagneticanalysis
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electromagnetic analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1202,7 +1201,7 @@ meth:electronbackscatterdiffraction
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electron Backscatter Diffraction"@en ;
   rdfs:label "Electron backscatter diffraction"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:electrondiffraction ;
   skos:definition " a flat/polished crystalline specimen is placed in the SEM chamber at a highly tilted angle (~70degree from horizontal) towards the diffraction camera, to increase the contrast in the resultant electron backscatter diffraction pattern. The phosphor screen is located within the specimen chamber of the SEM at an angle of approximately 90degree to the pole piece and is coupled to a compact lens which focuses the image from the phosphor screen onto the CCD camera. In this configuration, some of the electrons which enter the sample backscatter and may escape. As these electrons leave the sample, they may exit at the Bragg condition related to the spacing of the periodic atomic lattice planes of the crystalline structure and diffract. These diffracted electrons can escape the material and some will collide and excite the phosphor causing it to fluoresce."@en ;
   skos:definition ""@en ;
@@ -1233,7 +1232,7 @@ meth:electroninducedxrayspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electron induced X-ray spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:particleinducedxrayspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1261,7 +1260,7 @@ meth:electronspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electron spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:particlespectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1285,7 +1284,7 @@ meth:electrothermalabsorptionspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electrothermal absorption spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:absorptionspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1297,7 +1296,7 @@ meth:elementalanalysisisotoperatiomassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Elemental analysis - isotope ratio mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1320,7 +1319,7 @@ meth:elementalanalyzermassspectrometry
   dcterms:source "Astromat" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Elemental analyzer mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition "hasPart"@en ;
   skos:inScheme analt:method ;
@@ -1390,9 +1389,8 @@ meth:epithermalneutronactivationanalysis
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Epithermal neutron activation analysis"@en ;
-  skos:altLabel "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Epithermal neutrons have energies greater than thermal neutrons, but less than fast neutrons,  0.5 eV to 0.5 MeV.  They can be described as incompletely moderated neutrons which are destined to become thermalised."@en ;
+  skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Epithermal neutrons have energies greater than thermal neutrons, but less than fast neutrons,  0.5 eV to 0.5 MeV.  They can be described as incompletely moderated neutrons which are destined to become thermalised."@en ;
   skos:broader meth:neutronactivationanalysis ;
-  skos:definition "hasPart"@en ;
   skos:inScheme analt:method ;
   skos:notation "ENAA" ;
   skos:prefLabel "Epithermal neutron activation analysis"@en ;
@@ -1526,7 +1524,7 @@ meth:fouriertransformioncyclotronresonancemassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Fourier Transform Ion Cyclotron Resonance Mass Spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1579,7 +1577,7 @@ meth:gaschromatographycombustionisotopicratiomassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1604,7 +1602,7 @@ meth:gaschromatographymassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gas Chromatography Mass Spectrometry"@en ;
   rdfs:label "Gas Chromatography-Mass Spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:definition "Technique by which a mixture is separated into individual components by gas chromatography, followed by detection with a mass spectrometer. (Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06)"@en ;
@@ -1660,7 +1658,7 @@ meth:gradientionchromatography
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gradient ion chromatography"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:ionchromatography ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1674,7 +1672,7 @@ meth:gravimetry
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gravimetry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:wetchemistry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1709,7 +1707,7 @@ meth:highresolutioncathodoluminescence
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "High Resolution Cathodoluminescence"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:imagingtechniques ;
   skos:definition "Cathodoluminescence can provide observation of an emission energy range of 0.5 to 6 eV. Many trace elements or dopants can be sensitively detected with CL because they have different optical transitions than the bulk materials they are embedded in. It is possible to look at crystal defects as these can alter the local optical properties of the material.  CL  can also image optical resonances and guided modes in a range of (resonant) photonic and plasmonic systems. (https://www.delmic.com/en/techniques/cathodoluminescence)"@en ;
   skos:inScheme analt:method ;
@@ -1737,7 +1735,7 @@ meth:highresolutionsecondaryionizationmassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "High-resolution secondary ionization mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:secondaryionizationmassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1779,7 +1777,7 @@ meth:inductivelycoupledplasmaemissionspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Inductively coupled plasma emission spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:plasmaemissionspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1933,7 +1931,7 @@ meth:isotoperatiomassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Isotope ratio mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition "hasPart"@en ;
   skos:inScheme analt:method ;
@@ -1965,7 +1963,7 @@ meth:laserablationmassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Laser ablation mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -1977,7 +1975,7 @@ meth:laserabsorptionspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Laser absorption spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:absorptionspectrometry ;
   skos:definition "hasPart"@en ;
   skos:inScheme analt:method ;
@@ -2044,7 +2042,7 @@ meth:liquidchromatographymassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Liquid Chromatography-Mass Spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:liquidchromatographyanalysis ;
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
@@ -2095,7 +2093,7 @@ meth:manometry
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Manometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:wetchemistry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2110,7 +2108,7 @@ meth:massspectrometry
   dcterms:source "add parent methods" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:particlespectrometry ;
   skos:broader meth:spectrometry ;
   skos:definition "atomic mass spectrometric analysis involves: (1) atomization, (2) conversion of a substantial fraction of the atoms formed in step 1 to a stream of ions (usually singly charged positive ions), (3) separating the ions formed in step 2 on the basis of their mass-to-charge ratio (m/z), where m is the mass number of the ion and z is the number of fundamental charges that it bears, and (4) counting the number of ions of each type or measuring the ion current produced when the ions formed from the sample strike a suitable transducer.  (Skoog, Holler & Crouch, p. 253).  Molecular mass spectrometry is used to determine the structures of inorganic, organic, and biological molecules and the qualitative and quantitative composition of complex mixtures; The appearance of mass spectra for a given molecular species strongly depends on the method used for ion formation. That these methods fall into three major categories: gas-phase sources, desorption sources, and ambient desorption sources. (Skoog, Holler & Crouch, p. 502)"@en ;
@@ -2123,7 +2121,7 @@ meth:micromassmultiprepmassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Micromass multiprep mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2135,7 +2133,7 @@ meth:microprobetwosteplasermassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Microprobe Two-Step Laser Mass Spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2169,8 +2167,8 @@ meth:microxrayfluorescencespectroscopy
   dcterms:source "Own" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Micro-X-Ray Fluorescence Spectroscopy"@en ;
-  skos:altLabel " X-ray Fluorescence Analysis" ;
-  skos:altLabel " X-ray Fluorescence Spectroscopy" ;
+  skos:altLabel "X-ray Fluorescence Analysis" ;
+  skos:altLabel "X-ray Fluorescence Spectroscopy" ;
   skos:altLabel "Micro X-ray Fluorescence" ;
   skos:broader meth:synchrotonxrayfluorescencespectrometry ;
   skos:definition "Measurement method of X-ray fluorescence used to measure amounts of elements in a material. Micro-XRF analysis uses highly brilliant X-ray sources (synchrotron source and spot size 100 nm to 2 micron) and microfocussing X-ray optics to give femtogram to attogram detection limits. (Source: IUPAC; https://doi.org/10.1515/pac-2019-0302). "@en ;
@@ -2183,7 +2181,7 @@ meth:minicryogenfreemeasurementsystemforthermalconductivity
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Mini Cryogen-Free Measurement System for Thermal Conductivity"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:thermalanalysis ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2209,7 +2207,7 @@ meth:mossbauerspectroscopy
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Mossbauer Spectroscopy"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:gammarayspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2221,7 +2219,7 @@ meth:multicollectorinductivelycoupledplasmamassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Multi-Collector Inductively Coupled Plasma Mass Spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2244,7 +2242,7 @@ meth:nanoscalesecondaryionmassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Nanoscale secondary ion mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:secondaryionizationmassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2309,8 +2307,8 @@ meth:nextgenerationsequencing
   dcterms:source "IUPAC" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Next Generation Sequencing"@en ;
-  skos:altLabel " Massively Parallel Sequencing" ;
-  skos:altLabel " Second Generation Sequencing" ;
+  skos:altLabel "Massively Parallel Sequencing" ;
+  skos:altLabel "Second Generation Sequencing" ;
   skos:altLabel "Massive Parallel Sequencing" ;
   skos:broader meth:bioanalyticalmethod ;
   skos:definition "Determination of nucleotide sequence (the DNA primary structure) using non-Sanger-based high-throughput DNA sequencing technologies where millions of DNA strands can be sequenced in parallel. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
@@ -2323,7 +2321,7 @@ meth:noblegasmassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Noble Gas Mass Spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:raregasmassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2361,7 +2359,7 @@ meth:nuclearparticletrackcounting
   dcterms:source "Astromat" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Nuclear particle track counting"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:trackcounting ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2385,7 +2383,7 @@ meth:opticalemissionspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Optical emission spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:opticalspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2414,7 +2412,7 @@ meth:other
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Other"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2426,7 +2424,7 @@ meth:particlebeamexcitation
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Particle beam excitation"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:definition "Analytical techniques that involve exposing the sample to a beam of accelerated particles (ions or electrons), and detecting and measureing radiation or emitted particles resulting from interaction of the beam with the sample."@en ;
   skos:inScheme analt:method ;
@@ -2474,7 +2472,7 @@ meth:particleinducedxrayspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Particle induced X-ray spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:particlebeamexcitation ;
   skos:broader meth:xrayspectrometry ;
   skos:definition ""@en ;
@@ -2487,7 +2485,7 @@ meth:particlespectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Particle spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:spectrometry ;
   skos:definition "Analysis of the energy distribution of particles emitted from a sample."@en ;
   skos:inScheme analt:method ;
@@ -2594,7 +2592,7 @@ meth:plasmaopticalspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Plasma optical spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:opticalspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2606,7 +2604,7 @@ meth:plasmasourcemassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Plasma source mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2631,7 +2629,7 @@ meth:polarography
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Polarography"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:voltammetry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2653,7 +2651,7 @@ meth:positiveionthermalionizationmassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Positive ion thermal ionization mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:thermalionizationmassspectrometry ;
   skos:definition "- x"@en ;
   skos:inScheme analt:method ;
@@ -2668,7 +2666,7 @@ meth:potentiometry
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Potentiometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:electrochemicaltechniques ;
   skos:definition "Technique in which the potential difference between an indicator electrode and a reference electrode is measured. Application: gas-sensing electrodes (e.g., for CO2, NH3, NOx), determination of oxygen in the gas phase (lambda probe) or ions in water solutions (pH sensitive electrodes, ion-sensitive electrodes). (Source: IUPAC;  https://doi.org/10.1515/pac-2018-0109)."@en ;
   skos:definition "x"@en ;
@@ -2683,7 +2681,7 @@ meth:promptgammaneutronactivationanalysis
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Prompt Gamma Neutron Activation Analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:neutronactivationanalysis ;
   skos:definition "NAA technique based on measurement of the gamma rays during irradiation. (Skoog, Holler & Crouch, p. 842)"@en ;
   skos:inScheme analt:method ;
@@ -2736,7 +2734,7 @@ meth:quantitativeanalysisparticleinducedxrayspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Quantitative analysis particle-induced X-ray spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:particleinducedxrayspectrometry ;
   skos:definition "Within a given sample, once the x-ray intensities of each element of interest are \"counted\" in a detector at a specific beam current, the count rates are compared to those of standards containing known values of the elements of interest. Counting is typically done using wavelength-dispersive spectrometry. In turn, the x-ray intensities must be corrected for matrix effects associated with atomic number (Z), absorption (A) and fluorescence (F). This correction procedure is performed within a computer program that takes the raw counting rates of each element, compares these to standards, computes the ZAF correction (or similar type of correction) and displays the results as a function of the weight % of the oxides or elements. (https://serc.carleton.edu/research_education/geochemsheets/wds.html)"@en ;
   skos:inScheme analt:method ;
@@ -2748,8 +2746,8 @@ meth:quantitativepolymerasechainreaction
   dcterms:source "IUPAC" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Quantitative Polymerase Chain Reaction"@en ;
-  skos:altLabel " DNA Amplification" ;
-  skos:altLabel " DNA Enrichment" ;
+  skos:altLabel "DNA Amplification" ;
+  skos:altLabel "DNA Enrichment" ;
   skos:altLabel "Quantitative PCR" ;
   skos:broader meth:bioanalyticalmethod ;
   skos:definition "Polymerase chain reaction to quantify target nucleotide sequences of interest. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262).  Quantitative PCR adds two elements to the standard Polymerase Chain Reaction (PCR) process: 1)Fluorescent dye and 2) Fluorometer. These two elements turn qPCR to a measurement technique in its own right. The fluorometer detects  fluorescence in real time as the thermal cycler runs, giving readings throughout the amplification process of the PCR.  As a result, quantitative PCR is also called real-time PCR or RT-PCR. (https://www.thermofisher.com/blog/ask-a-scientist/what-is-qpcr/)"@en ;
@@ -2762,7 +2760,7 @@ meth:quantitativereflectanceimagingsystem
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Quantitative Reflectance Imaging System"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:imagingtechniques ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2815,7 +2813,7 @@ meth:raregasmassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Rare-gas mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition "x"@en ;
   skos:inScheme analt:method ;
@@ -2837,7 +2835,7 @@ meth:resonanceionizationtimeofflightnoblegasmassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Resonance ionization time of flight noble gas mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:raregasmassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2860,7 +2858,7 @@ meth:scanningthermalmicroscopywithafm
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Scanning Thermal Microscopy with AFM"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:definition "Scanning thermal microscopy (SThM) is a Contact Atomic Force Microscopy (AFM) technique that allows spatial mapping of temperature or thermal conductivity across a sample surface in addition to topography. (C.Daniel Frisbie, in Encyclopedia of Physical Science and Technology (Third Edition), 2003). This is a type of Scanning probe microscopy (SPM), a branch of microscopy that forms images of surfaces using a physical probe that scans the specimen (https://en.wikipedia.org/wiki/Scanning_probe_microscopy). When the tip is placed in contact with the sample, heat flows from the tip to sample. As the probe is scanned, the amount of heat flow changes. By monitoring the heat flow, one can create a thermal map of the sample, revealing spatial variations in thermal conductivity in a sample. (https://en.wikipedia.org/wiki/Scanning_thermal_microscopy)"@en ;
   skos:inScheme analt:method ;
@@ -2915,7 +2913,7 @@ meth:secondaryneutralmassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Secondary neutral mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2927,7 +2925,7 @@ meth:seismicvelocitiesandrockultrasonicelasticconstants
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Seismic Velocities and Rock Ultrasonic Elastic Constants"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:physicalpropertymeasurementtechniques ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -2963,8 +2961,8 @@ meth:singlecrystalxraydiffraction
   dcterms:source "DFG" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Single Crystal X-Ray Diffraction"@en ;
-  skos:altLabel " X-ray Crystallography" ;
-  skos:altLabel " X-ray Diffraction Analysis" ;
+  skos:altLabel "X-ray Crystallography" ;
+  skos:altLabel "X-ray Diffraction Analysis" ;
   skos:altLabel "X-ray Diffraction" ;
   skos:broader meth:xraydiffraction ;
   skos:definition "Single-crystal X-ray Diffraction is a non-destructive analytical technique which provides detailed information about the internal lattice of crystalline substances, including unit cell dimensions, bond-lengths, bond-angles, and details of site-ordering. X-ray diffraction is based on constructive interference of monochromatic X-rays and a crystalline sample. These X-rays are generated by a cathode ray tube, filtered to produce monochromatic radiation, collimated to concentrate, and directed toward the sample. The interaction of the incident rays with the sample produces constructive interference (and a diffracted ray) when conditions satisfy Bragg's Law (n*'lambda'=2d*sin(theta)). This law relates the wavelength of electromagnetic radiation to the diffraction angle and the lattice spacing in a crystalline sample. These diffracted X-rays are then detected, processed and counted. By changing the geometry of the incident rays, the orientation of the centered crystal and the detector, all possible diffraction directions of the lattice should be attained. Single-crystal diffractometers use either 3- or 4-circle goniometers. These circles refer to the four angles (2*theta, 'chi', 'phi', and 'omega') that define the relationship between the crystal lattice, the incident ray and detector. Samples are mounted on thin glass fibers which are attached to brass pins and mounted onto goniometer heads. Adjustment of the X, Y and Z orthogonal directions allows centering of the crystal within the X-ray beam. Single-crystal X-ray diffraction is most commonly used for precise determination of a unit cell, including cell dimensions and positions of atoms within the lattice. (https://serc.carleton.edu/research_education/geochemsheets/techniques/SXD.html)"@en ;
@@ -2976,7 +2974,7 @@ meth:solidsourcemassspectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Solid source mass spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:massspectrometry ;
   skos:definition "x"@en ;
   skos:inScheme analt:method ;
@@ -2988,7 +2986,7 @@ meth:solidstatenuclearmagneticresonancespectroscopy
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Solid-State Nuclear Magnetic Resonance Spectroscopy"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:nuclearmagneticresonancespectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3044,7 +3042,7 @@ meth:sphericalcellbulkthermalconductivityanalysis
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Spherical Cell Bulk Thermal Conductivity Analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:thermalanalysis ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3056,7 +3054,7 @@ meth:steppedheatingcarbonandnitrogenisotopiccompositions
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Stepped Heating Carbon and Nitrogen Isotopic Compositions"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3068,7 +3066,7 @@ meth:structuredlightscanning
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Structured Light Scanning"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:imagingtechniques ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3080,7 +3078,7 @@ meth:surfaceanalysis
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Surface analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3104,7 +3102,7 @@ meth:temperatureprogrammeddesorptionelectronprobeanalysis
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Temperature programmed desorption electron probe analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:surfaceanalysis ;
   skos:definition "carried out by placing a catalyst inside a reactor and pushing an inert gas into the chamber. Alternatively the sample can be located in a UHV chamber with no carrier gas. The sample is dosed with a probe gas such as CO, NH3, H2 etc. The sample is then increased in temperature at a linear ramp rate and the desorption products analysed by a mass spectrometer. This technique is powerful and effective in obtaining information about surface chemistry. (https://www.hidenanalytical.com/blog/what-temperature-programmed-desorption-tpd/)"@en ;
   skos:inScheme analt:method ;
@@ -3128,7 +3126,7 @@ meth:thermalanalysis
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Thermal Analysis"@en ;
   rdfs:label "Thermal analysis"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:broader meth:physicalpropertymeasurementtechniques ;
   skos:definition ""@en ;
@@ -3163,7 +3161,7 @@ meth:thermogravimetryanddifferentialanalyzer
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Thermogravimetry and Differential analyzer"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:thermalanalysis ;
   skos:definition "x"@en ;
   skos:inScheme analt:method ;
@@ -3201,7 +3199,7 @@ meth:totalreflectionxrayfluorescencespectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Total reflection X-ray fluorescence spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:xrayfluorescencespectrometry ;
   skos:definition "a surface elemental analysis technique often used for the ultra-trace analysis of particles, residues, and impurities on smooth surfaces. TXRF is essentially an energy dispersive XRF technique arranged in a special geometry. An incident beam impinges upon a polished flat sample carrier at angles below the critical angle of external total reflection for X-rays, resulting in the reflection of most of the excitation beam photons at this surface. Since Total Reflection angle depends on the energy of the photon, one can use this effect to eliminate the high energy photons from the excitation spectrum and minimize their contribution to the background in the measured spectra, thus making possible to achieve better detection limits. Due to this configuration, the measured spectral background in TXRF is less than in conventional XRF. This reduction results in increased signal to noise ratio. (https://www-pub.iaea.org/MTCD/publications/PDF/TCS-51/html/pdf/Section%201.pdf)"@en ;
   skos:inScheme analt:method ;
@@ -3213,7 +3211,7 @@ meth:trackcounting
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Track counting"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:analyticalmethod ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3226,7 +3224,7 @@ meth:transmissionelectronmicroscopy
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Transmission electron microscopy"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:electronmicroscopy ;
   skos:definition "technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. Multiple operating modes based on electron imaging include conventional imaging, scanning TEM imaging (STEM), and electron diffraction. (https://en.wikipedia.org/wiki/Transmission_electron_microscopy)"@en ;
   skos:inScheme analt:method ;
@@ -3238,7 +3236,7 @@ meth:transmissionspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Transmission spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:photonspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3250,7 +3248,7 @@ meth:ultravioletemissionspectrometry
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Ultraviolet emission spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:emissionspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3262,7 +3260,7 @@ meth:visiblelightmicroscopy
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Visible Light Microscopy"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:microscopy ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3274,7 +3272,7 @@ meth:visiblenearinfraredandmidinfraredimaging
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Visible, near-infrared, and mid-infrared imaging"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:imagingtechniques ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3338,7 +3336,7 @@ meth:xrayabsorptionspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "X-ray absorption spectrometry"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:xrayspectrometry ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3350,7 +3348,7 @@ meth:xraycomputedtomography
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "X-ray computed tomography"@en ;
-  skos:altLabel ""@en ;
+  
   skos:broader meth:xrayimaging ;
   skos:definition ""@en ;
   skos:inScheme analt:method ;
@@ -3366,7 +3364,7 @@ meth:xraydiffraction
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "X-Ray Diffraction"@en ;
   rdfs:label "X-ray diffraction"@en ;
-  skos:altLabel " X-ray Diffraction Analysis" ;
+  skos:altLabel "X-ray Diffraction Analysis" ;
   skos:altLabel "X-RAY DIFFRACTION SPECTROMETRY"@en ;
   skos:broader meth:analyticalmethod ;
   skos:definition ""@en ;
@@ -3424,8 +3422,8 @@ meth:xraypowderdiffraction
   dcterms:source "IUPAC" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "X-Ray Powder Diffraction"@en ;
-  skos:altLabel " X-ray Diffraction Analysis" ;
-  skos:altLabel " X-ray Diffraction" ;
+  skos:altLabel "X-ray Diffraction Analysis" ;
+  skos:altLabel "X-ray Diffraction" ;
   skos:altLabel "Powder X-ray Diffraction" ;
   skos:broader meth:xraydiffraction ;
   skos:definition "X-ray powder diffraction (XRD) is a rapid analytical technique primarily used for phase identification of a crystalline material and can provide information on unit cell dimensions. The analyzed material is finely ground, homogenized, and average bulk composition is determined. The geometry of an X-ray diffractometer is such that the sample rotates in the path of the collimated X-ray beam at an angle theta while the X-ray detector is mounted on an arm to collect the diffracted X-rays and rotates at an angle of 2*theta. The instrument used to maintain the angle and rotate the sample is termed a goniometer. For typical powder patterns, data is collected at 2theta from ~5degree to 70degree, angles that are preset in the X-ray scan. X-ray powder diffraction is most widely used for the identification of unknown crystalline materials (e.g. minerals, inorganic compounds). (https://serc.carleton.edu/research_education/geochemsheets/techniques/XRD.html)"@en ;
@@ -3511,7 +3509,7 @@ wrkf:dnafragmentation
   dcterms:source "IUPAC" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "DNA Fragmentation"@en ;
-  skos:altLabel " Sonication" ;
+  skos:altLabel "Sonication" ;
   skos:altLabel "DNA Shearing" ;
   skos:broader wrkf:bioanalyticalsamplepreparation ;
   skos:definition "Breaking and/or separation of large DNA molecules into smaller pieces (fragments). Note 1: DNA fragmentation is usually achieved via cleavage with restriction endonucleases at specific sites or non-specifically by, for example, sonication. Note 2: DNA fragmentation is also a consequence of damage to DNA. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
@@ -3595,7 +3593,7 @@ wrkf:polymerasechainreaction
   dcterms:source "IUPAC" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Polymerase Chain Reaction"@en ;
-  skos:altLabel " DNA Amplification" ;
+  skos:altLabel "DNA Amplification" ;
   skos:altLabel "DNA Enrichment" ;
   skos:broader wrkf:bioanalyticalsamplepreparation ;
   skos:definition "Laboratory technique for rapid amplification and pre-determination of regions of double-stranded DNA using DNA polymerase. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
