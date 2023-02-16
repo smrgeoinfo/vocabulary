@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-16T13:40:21.011798+00:00"
+This file generated at: "2023-02-16T15:48:07.357161+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -1249,10 +1249,9 @@ Namespace:
         - [Redox Potential Measurement](#redoxpotentialmeasurement)
         - [Voltammetry](#voltammetry)
             - [Polarography](#polarography)
-    - [Electromagnetic analysis](#electromagneticanalysis)
-        - [Induction heating analysis](#inductionheatinganalysis)
     - [Electron Diffraction](#electrondiffraction)
         - [Electron Backscatter Diffraction](#electronbackscatterdiffraction)
+        - [Transmitted Electron Diffraction](#transmittedelectrondiffraction)
     - [Magnetic Field Measurement ](#magneticfieldmeasurement)
     - [Microscopy](#microscopy)
         - [Fluorescence Microscopy](#fluorescencemicroscopy)
@@ -1302,24 +1301,23 @@ Namespace:
         - [Tensiometry](#tensiometry)
         - [Thermal analysis](#thermalanalysis)
             - [Differential Scanning Calorimetry](#differentialscanningcalorimetry)
+            - [Induction heating analysis](#inductionheatinganalysis)
             - [Mini Cryogen-Free Measurement System for Thermal Conductivity](#minicryogenfreemeasurementsystemforthermalconductivity)
             - [Spherical Cell Bulk Thermal Conductivity Analysis](#sphericalcellbulkthermalconductivityanalysis)
             - [Thermogravimetry and Differential analyzer](#thermogravimetryanddifferentialanalyzer)
-    - [Scanning Thermal Microscopy with AFM](#scanningthermalmicroscopywithafm)
     - [Spectrometry](#spectrometry)
-        - [Electron-spin resonance age analysis](#electronspinresonanceageanalysis)
-        - [Fluorescence Spectroscopy](#fluorescencespectroscopy)
         - [Mass spectrometry](#massspectrometry)
             - [Accelerator mass spectrometry](#acceleratormassspectrometry)
-            - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
             - [Elemental analyzer mass spectrometry](#elementalanalyzermassspectrometry)
+                - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
             - [Fourier Transform Ion Cyclotron Resonance Mass Spectrometry](#fouriertransformioncyclotronresonancemassspectrometry)
             - [Gas Chromatography Mass Spectrometry](#gaschromatographymassspectrometry)
                 - [Pyrolysis Gas Chromatography Mass Spectrometry](#pyrolysisgaschromatographymassspectrometry)
+                    - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
             - [Isotope ratio mass spectrometry](#isotoperatiomassspectrometry)
                 - [Continuous flow isotope ratio mass spectrometry](#continuousflowisotoperatiomassspectrometry)
                 - [Dual-inlet isotope-ratio mass spectrometry](#dualinletisotoperatiomassspectrometry)
-                - [Elemental analysis - isotope ratio mass spectrometry](#elementalanalysisisotoperatiomassspectrometry)
+                - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
                 - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
                 - [Laser fluorination analysis](#laserfluorinationanalysis)
                 - [Stepped Heating Carbon and Nitrogen Isotopic Compositions](#steppedheatingcarbonandnitrogenisotopiccompositions)
@@ -1327,23 +1325,19 @@ Namespace:
             - [Laser ionization mass spectrometry](#laserionizationmassspectrometry)
             - [Liquid Chromatography-Mass Spectrometry](#liquidchromatographymassspectrometry)
             - [Micromass multiprep mass spectrometry](#micromassmultiprepmassspectrometry)
-            - [Microprobe Two-Step Laser Mass Spectrometry](#microprobetwosteplasermassspectrometry)
-            - [Multi-Collector Inductively Coupled Plasma Mass Spectrometry](#multicollectorinductivelycoupledplasmamassspectrometry)
             - [Plasma source mass spectrometry](#plasmasourcemassspectrometry)
                 - [Inductively coupled plasma mass spectrometry](#inductivelycoupledplasmamassspectrometry)
                     - [High resolution inductively coupled plasma mass spectrometry](#highresolutioninductivelycoupledplasmamassspectrometry)
                     - [Laser ablation inductively coupled plasma mass spectrometry](#laserablationinductivelycoupledplasmamassspectrometry)
                     - [Liquid inlet inductively coupled plasma mass spectrometry](#liquidinletinductivelycoupledplasmamassspectrometry)
+                    - [Multi-Collector Inductively Coupled Plasma Mass Spectrometry](#multicollectorinductivelycoupledplasmamassspectrometry)
             - [Rare-gas mass spectrometry](#raregasmassspectrometry)
                 - [Noble Gas Mass Spectrometry](#noblegasmassspectrometry)
                     - [Neutron irradiation noble gas mass spectrometry](#neutronirradiationnoblegasmassspectrometry)
                     - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
             - [Secondary ionization mass spectrometry](#secondaryionizationmassspectrometry)
-                - [High-resolution secondary ionization mass spectrometry](#highresolutionsecondaryionizationmassspectrometry)
-                - [Nanoscale secondary ion mass spectrometry](#nanoscalesecondaryionmassspectrometry)
-                - [Sensitive high mass-resolution ion microprobe](#sensitivehighmassresolutionionmicroprobe)
-            - [Secondary Ion Mass Spectrometry](#secondaryionmassspectrometry)
-            - [Secondary neutral mass spectrometry](#secondaryneutralmassspectrometry)
+                - [Secondary neutral mass spectrometry](#secondaryneutralmassspectrometry)
+                    - [Microprobe Two-Step Laser Mass Spectrometry](#microprobetwosteplasermassspectrometry)
             - [Solid source mass spectrometry](#solidsourcemassspectrometry)
             - [Spark source mass spectrometry](#sparksourcemassspectrometry)
             - [Thermal ionization mass spectrometry](#thermalionizationmassspectrometry)
@@ -1351,28 +1345,6 @@ Namespace:
                 - [Positive ion thermal ionization mass spectrometry](#positiveionthermalionizationmassspectrometry)
         - [Nuclear Magnetic Resonance Spectrometry](#nuclearmagneticresonancespectrometry)
             - [Solid-State Nuclear Magnetic Resonance Spectroscopy](#solidstatenuclearmagneticresonancespectroscopy)
-        - [Optical spectrometry](#opticalspectrometry)
-            - [Absorption spectrometry](#absorptionspectrometry)
-                - [Electrothermal absorption spectrometry](#electrothermalabsorptionspectrometry)
-                - [Infrared absorption spectrometry](#infraredabsorptionspectrometry)
-                - [Laser absorption spectrometry](#laserabsorptionspectrometry)
-            - [Atomic Absorption Spectroscopy](#atomicabsorptionspectroscopy)
-            - [Colormetric analysis](#colormetricanalysis)
-            - [Emission spectrometry](#emissionspectrometry)
-                - [Fire assay emission spectrometry](#fireassayemissionspectrometry)
-                - [Flame emission spectrometry](#flameemissionspectrometry)
-                - [Plasma emission spectrometry](#plasmaemissionspectrometry)
-                    - [Direct current plasma emission spectrometry](#directcurrentplasmaemissionspectrometry)
-                    - [Inductively coupled plasma emission spectrometry](#inductivelycoupledplasmaemissionspectrometry)
-                        - [Inductively coupled plasma optical emission spectrometry](#inductivelycoupledplasmaopticalemissionspectrometry)
-                    - [Plasma optical emission spectrometry](#plasmaopticalemissionspectrometry)
-                - [Ultraviolet emission spectrometry](#ultravioletemissionspectrometry)
-            - [Fluorescence spectrometry](#fluorescencespectrometry)
-            - [Optical emission spectrometry](#opticalemissionspectrometry)
-                - [Plasma optical emission spectrometry](#plasmaopticalemissionspectrometry)
-            - [Plasma optical spectrometry](#plasmaopticalspectrometry)
-                - [Direct current plasma spectrometry](#directcurrentplasmaspectrometry)
-            - [Spectrophotometry](#spectrophotometry)
         - [Particle spectrometry](#particlespectrometry)
             - [Alpha particle spectrometry](#alphaparticlespectrometry)
             - [Electron spectrometry](#electronspectrometry)
@@ -1380,15 +1352,16 @@ Namespace:
                 - [X-ray photoelectron spectrometery](#xrayphotoelectronspectrometery)
             - [Mass spectrometry](#massspectrometry)
                 - [Accelerator mass spectrometry](#acceleratormassspectrometry)
-                - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
                 - [Elemental analyzer mass spectrometry](#elementalanalyzermassspectrometry)
+                    - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
                 - [Fourier Transform Ion Cyclotron Resonance Mass Spectrometry](#fouriertransformioncyclotronresonancemassspectrometry)
                 - [Gas Chromatography Mass Spectrometry](#gaschromatographymassspectrometry)
                     - [Pyrolysis Gas Chromatography Mass Spectrometry](#pyrolysisgaschromatographymassspectrometry)
+                        - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
                 - [Isotope ratio mass spectrometry](#isotoperatiomassspectrometry)
                     - [Continuous flow isotope ratio mass spectrometry](#continuousflowisotoperatiomassspectrometry)
                     - [Dual-inlet isotope-ratio mass spectrometry](#dualinletisotoperatiomassspectrometry)
-                    - [Elemental analysis - isotope ratio mass spectrometry](#elementalanalysisisotoperatiomassspectrometry)
+                    - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
                     - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
                     - [Laser fluorination analysis](#laserfluorinationanalysis)
                     - [Stepped Heating Carbon and Nitrogen Isotopic Compositions](#steppedheatingcarbonandnitrogenisotopiccompositions)
@@ -1396,23 +1369,19 @@ Namespace:
                 - [Laser ionization mass spectrometry](#laserionizationmassspectrometry)
                 - [Liquid Chromatography-Mass Spectrometry](#liquidchromatographymassspectrometry)
                 - [Micromass multiprep mass spectrometry](#micromassmultiprepmassspectrometry)
-                - [Microprobe Two-Step Laser Mass Spectrometry](#microprobetwosteplasermassspectrometry)
-                - [Multi-Collector Inductively Coupled Plasma Mass Spectrometry](#multicollectorinductivelycoupledplasmamassspectrometry)
                 - [Plasma source mass spectrometry](#plasmasourcemassspectrometry)
                     - [Inductively coupled plasma mass spectrometry](#inductivelycoupledplasmamassspectrometry)
                         - [High resolution inductively coupled plasma mass spectrometry](#highresolutioninductivelycoupledplasmamassspectrometry)
                         - [Laser ablation inductively coupled plasma mass spectrometry](#laserablationinductivelycoupledplasmamassspectrometry)
                         - [Liquid inlet inductively coupled plasma mass spectrometry](#liquidinletinductivelycoupledplasmamassspectrometry)
+                        - [Multi-Collector Inductively Coupled Plasma Mass Spectrometry](#multicollectorinductivelycoupledplasmamassspectrometry)
                 - [Rare-gas mass spectrometry](#raregasmassspectrometry)
                     - [Noble Gas Mass Spectrometry](#noblegasmassspectrometry)
                         - [Neutron irradiation noble gas mass spectrometry](#neutronirradiationnoblegasmassspectrometry)
                         - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
                 - [Secondary ionization mass spectrometry](#secondaryionizationmassspectrometry)
-                    - [High-resolution secondary ionization mass spectrometry](#highresolutionsecondaryionizationmassspectrometry)
-                    - [Nanoscale secondary ion mass spectrometry](#nanoscalesecondaryionmassspectrometry)
-                    - [Sensitive high mass-resolution ion microprobe](#sensitivehighmassresolutionionmicroprobe)
-                - [Secondary Ion Mass Spectrometry](#secondaryionmassspectrometry)
-                - [Secondary neutral mass spectrometry](#secondaryneutralmassspectrometry)
+                    - [Secondary neutral mass spectrometry](#secondaryneutralmassspectrometry)
+                        - [Microprobe Two-Step Laser Mass Spectrometry](#microprobetwosteplasermassspectrometry)
                 - [Solid source mass spectrometry](#solidsourcemassspectrometry)
                 - [Spark source mass spectrometry](#sparksourcemassspectrometry)
                 - [Thermal ionization mass spectrometry](#thermalionizationmassspectrometry)
@@ -1420,6 +1389,7 @@ Namespace:
                     - [Positive ion thermal ionization mass spectrometry](#positiveionthermalionizationmassspectrometry)
             - [Nuclear reaction spectrometry](#nuclearreactionspectrometry)
         - [Photon spectrometry](#photonspectrometry)
+            - [Fluorescence spectrometry](#fluorescencespectrometry)
             - [Gamma ray spectrometry](#gammarayspectrometry)
                 - [Mossbauer Spectroscopy](#mossbauerspectroscopy)
                 - [Nuclear reaction spectrometry](#nuclearreactionspectrometry)
@@ -1432,24 +1402,22 @@ Namespace:
                 - [Infrared transmission spectrometry](#infraredtransmissionspectrometry)
                 - [LECO furnace analysis](#lecofurnaceanalysis)
             - [Optical spectrometry](#opticalspectrometry)
-                - [Absorption spectrometry](#absorptionspectrometry)
+                - [Atomic Absorption Spectrometry](#atomicabsorptionspectrometry)
                     - [Electrothermal absorption spectrometry](#electrothermalabsorptionspectrometry)
                     - [Infrared absorption spectrometry](#infraredabsorptionspectrometry)
                     - [Laser absorption spectrometry](#laserabsorptionspectrometry)
-                - [Atomic Absorption Spectroscopy](#atomicabsorptionspectroscopy)
                 - [Colormetric analysis](#colormetricanalysis)
                 - [Emission spectrometry](#emissionspectrometry)
                     - [Fire assay emission spectrometry](#fireassayemissionspectrometry)
                     - [Flame emission spectrometry](#flameemissionspectrometry)
+                    - [Optical emission spectrometry](#opticalemissionspectrometry)
+                        - [Plasma optical emission spectrometry](#plasmaopticalemissionspectrometry)
                     - [Plasma emission spectrometry](#plasmaemissionspectrometry)
                         - [Direct current plasma emission spectrometry](#directcurrentplasmaemissionspectrometry)
                         - [Inductively coupled plasma emission spectrometry](#inductivelycoupledplasmaemissionspectrometry)
                             - [Inductively coupled plasma optical emission spectrometry](#inductivelycoupledplasmaopticalemissionspectrometry)
                         - [Plasma optical emission spectrometry](#plasmaopticalemissionspectrometry)
                     - [Ultraviolet emission spectrometry](#ultravioletemissionspectrometry)
-                - [Fluorescence spectrometry](#fluorescencespectrometry)
-                - [Optical emission spectrometry](#opticalemissionspectrometry)
-                    - [Plasma optical emission spectrometry](#plasmaopticalemissionspectrometry)
                 - [Plasma optical spectrometry](#plasmaopticalspectrometry)
                     - [Direct current plasma spectrometry](#directcurrentplasmaspectrometry)
                 - [Spectrophotometry](#spectrophotometry)
@@ -1474,9 +1442,11 @@ Namespace:
                     - [Total reflection X-ray fluorescence spectrometry](#totalreflectionxrayfluorescencespectrometry)
         - [Raman spectrometry](#ramanspectrometry)
     - [Surface analysis](#surfaceanalysis)
+        - [Scanning Thermal Microscopy with AFM](#scanningthermalmicroscopywithafm)
         - [Temperature programmed desorption electron probe analysis](#temperatureprogrammeddesorptionelectronprobeanalysis)
     - [Thermal analysis](#thermalanalysis)
         - [Differential Scanning Calorimetry](#differentialscanningcalorimetry)
+        - [Induction heating analysis](#inductionheatinganalysis)
         - [Mini Cryogen-Free Measurement System for Thermal Conductivity](#minicryogenfreemeasurementsystemforthermalconductivity)
         - [Spherical Cell Bulk Thermal Conductivity Analysis](#sphericalcellbulkthermalconductivityanalysis)
         - [Thermogravimetry and Differential analyzer](#thermogravimetryanddifferentialanalyzer)
@@ -2285,55 +2255,6 @@ GeoRoc
 - Concept URI token: polarography
 
 
-[]{#electromagneticanalysis}
-
-###  Electromagnetic analysis
-
-
-- Child of:
- [`analyticalmethod`](#analyticalmethod)
-
-- Techniques based on measurement of the effects of electromagnetic
-radiation on a sample to determine physical or chemical properties
-
-- **Source:**
-SMR add general categories
-
-- Concept URI token: electromagneticanalysis
-
-
-[]{#inductionheatinganalysis}
-
-####  Induction heating analysis
-
-
-- Child of:
- [`electromagneticanalysis`](#electromagneticanalysis)
-
-- a technique for evaluation of the self-heating characteristics of
-particles? [based on interpretation of
-https://pubs.acs.org/doi/10.1021/acsomega.0c03332, not much online
-about this technique]. See also
-https://iris.unipv.it/bitstream/11571/1178389/6/After_revision.pdf .
-[would appear to be methods of analyzing the effectiveness of heating
-objects by electromagnetic induction] 'Induction heating (IH) is
-commonly used for heating and heat treatment. An accurate prediction
-of temperature distribution is required to optimize the heating
-parameters.... temperature-dependent B (magnetic flux density)-H
-(magnetic field strength) curves and changes in phase transformation
-under rapid heating were measured and used for IH analysis' (
-https://doi.org/10.2355/isijinternational.ISIJINT-2018-552)
-
-- **Alternate labels:**
-INDUCTION HEATING
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: inductionheatinganalysis
-
-
 []{#electrondiffraction}
 
 ###  Electron Diffraction
@@ -2385,6 +2306,30 @@ DFG,
 O-REx techniques, 
 
 - Concept URI token: electronbackscatterdiffraction
+
+
+[]{#transmittedelectrondiffraction}
+
+####  Transmitted Electron Diffraction
+
+
+- Child of:
+ [`electrondiffraction`](#electrondiffraction)
+
+- In a transmission electron microscope, the electron beam passes
+through a thin film of the examined material. As it interacts with the
+sample, part of the beam is diffracted and part is transmitted through
+the sample without changing its direction. Below the sample, the beam
+is controlled by another set of magnetic lens and apertures. Each set
+of initially parallel rays is focused by the first lens Objective
+(optics) to a certain point in the back focal plane of the first lens,
+forming a spot. The location of these spots is related to the
+interplanar distance in the sample. Other lenses below the sample can
+be used to produce a magnified image of the spots for all the
+different directions that the electrons leave the sample, a
+diffraction pattern.  (https://en.wikipedia.org/wiki/Electron_diffract
+ion#In_a_transmission_electron_microscope)
+- Concept URI token: transmittedelectrondiffraction
 
 
 []{#magneticfieldmeasurement}
@@ -2746,8 +2691,9 @@ O-REx techniques,
  [`particlebeamexcitation`](#particlebeamexcitation)
 
 - Production of images by scanning an ion beam in a raster across a
-sample surface. Instrument used is typically an electron microscope
-that has an additional ion beam excitation source.
+sample surface and detecting secondary or backscattered electrons from
+each point to generate an image. Instrument used is typically an
+electron microscope that has an additional ion beam excitation source.
 
 - **Source:**
 O-REx techniques
@@ -3559,6 +3505,38 @@ O-REx techniques,
 - Concept URI token: differentialscanningcalorimetry
 
 
+[]{#inductionheatinganalysis}
+
+#####  Induction heating analysis
+
+
+- Child of:
+ [`thermalanalysis`](#thermalanalysis)
+
+- a technique for evaluation of the self-heating characteristics of
+particles? [based on interpretation of
+https://pubs.acs.org/doi/10.1021/acsomega.0c03332, not much online
+about this technique]. See also
+https://iris.unipv.it/bitstream/11571/1178389/6/After_revision.pdf .
+[would appear to be methods of analyzing the effectiveness of heating
+objects by electromagnetic induction] 'Induction heating (IH) is
+commonly used for heating and heat treatment. An accurate prediction
+of temperature distribution is required to optimize the heating
+parameters.... temperature-dependent B (magnetic flux density)-H
+(magnetic field strength) curves and changes in phase transformation
+under rapid heating were measured and used for IH analysis' (
+https://doi.org/10.2355/isijinternational.ISIJINT-2018-552)
+
+- **Alternate labels:**
+INDUCTION HEATING
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: inductionheatinganalysis
+
+
 []{#minicryogenfreemeasurementsystemforthermalconductivity}
 
 #####  Mini Cryogen-Free Measurement System for Thermal Conductivity
@@ -3634,34 +3612,6 @@ GeoRoc
 - Concept URI token: thermogravimetryanddifferentialanalyzer
 
 
-[]{#scanningthermalmicroscopywithafm}
-
-###  Scanning Thermal Microscopy with AFM
-
-
-- Child of:
- [`analyticalmethod`](#analyticalmethod)
-
-- Scanning thermal microscopy (SThM) is a Contact Atomic Force
-Microscopy (AFM) technique that allows spatial mapping of temperature
-or thermal conductivity across a sample surface in addition to
-topography. (C.Daniel Frisbie, in Encyclopedia of Physical Science and
-Technology (Third Edition), 2003). This is a type of Scanning probe
-microscopy (SPM), a branch of microscopy that forms images of surfaces
-using a physical probe that scans the specimen
-(https://en.wikipedia.org/wiki/Scanning_probe_microscopy). When the
-tip is placed in contact with the sample, heat flows from the tip to
-sample. As the probe is scanned, the amount of heat flow changes. By
-monitoring the heat flow, one can create a thermal map of the sample,
-revealing spatial variations in thermal conductivity in a sample.
-(https://en.wikipedia.org/wiki/Scanning_thermal_microscopy)
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: scanningthermalmicroscopywithafm
-
-
 []{#spectrometry}
 
 ###  Spectrometry
@@ -3687,64 +3637,6 @@ PetDb,
 add parent methods, 
 
 - Concept URI token: spectrometry
-
-
-[]{#electronspinresonanceageanalysis}
-
-####  Electron-spin resonance age analysis
-
-
-- Child of:
- [`spectrometry`](#spectrometry)
-
-- a technique used to date materials by measuring the amount of
-unpaired electrons in crystalline structures that were previously
-exposed to natural radiation. The age of a substance can be determined
-by measuring the dosage of radiation since the time of its formation.
-(https://en.wikipedia.org/wiki/Electron_spin_resonance_dating).
-electron spin resonance (ESR) spectroscopy is a method for studying
-materials that have unpaired electrons. The basic concepts of EPR are
-analogous to those of nuclear magnetic resonance (NMR), but the spins
-excited are those of the electrons instead of the atomic nuclei.
-(https://en.wikipedia.org/wiki/Electron_paramagnetic_resonance)
-
-- **Alternate labels:**
-ELECTRON-SPIN RESONANCE AGE
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: electronspinresonanceageanalysis
-
-
-[]{#fluorescencespectroscopy}
-
-####  Fluorescence Spectroscopy
-
-
-- Child of:
- [`spectrometry`](#spectrometry)
-
-- measurement the [energy, power?] of fluorescent radiation produced
-by a sample exposed to monochromatic radiation, used to identify the
-presence and the amount of specific molecules in a sample
-(https://en.wikipedia.org/wiki/Fluorometer).  A type of
-electromagnetic spectroscopy that analyzes fluorescence from a sample.
-It involves using a beam of light, usually ultraviolet light, that
-excites the electrons in molecules of certain compounds and causes
-them to emit light; typically, but not necessarily, visible light
-(https://en.wikipedia.org/wiki/Fluorescence_spectroscopy)
-
-- **Alternate labels:**
-Fluorimetry, 
-Spectrofluorometry, 
-
-
-- **Source:**
-NASA
-
-- Concept URI token: fluorescencespectroscopy
 
 
 []{#massspectrometry}
@@ -3790,10 +3682,7 @@ add parent methods,
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- Mass spectrometry technique. Components: 1) sample preparation:
-chemical concentration of analyte; 2) ionization: ion beam; 3) mass
-analyzer: accelerator Mass spectrometer; 4) detector: not specified.
-In this technique, the target element is first chemically separated
+- In this technique, the target element is first chemically separated
 from the sample before it is placed in a sample holder in the AMS
 instrument. The sample element is then bombarded by cesium ions to
 sputter the analyte element from the sample as negative ions. The
@@ -3806,31 +3695,14 @@ magnetic and electrostatic mass filters, the ion beam containing all
 isotopes of the analyte element is then separated into separate beams
 containing the (usually unstable) isotope of interest and other
 isotopes, and each of the isotopes is counted by a separate detector.
-(Skoog, Holler & Crouch, p. 271)
+(Skoog, Holler & Crouch, p. 271). Components: 1) sample preparation:
+chemical concentration of analyte; 2) ionization: ion beam; 3) mass
+analyzer: accelerator Mass spectrometer; 4) detector: not specified.
 
 - **Source:**
 Astromat
 
 - Concept URI token: acceleratormassspectrometry
-
-
-[]{#elementalanalyzerisotoperatiomassspectrometry}
-
-#####  Elemental Analyzer Isotope Ratio Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Measurement and study of the relative abundances of the different
-isotopes of an element in a material using a mass spectrometer which
-is coupled with an elemental analyzer. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06).
-
-- **Source:**
-Earth Chem
-
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
 
 
 []{#elementalanalyzermassspectrometry}
@@ -3847,6 +3719,32 @@ Earth Chem
 Astromat
 
 - Concept URI token: elementalanalyzermassspectrometry
+
+
+[]{#elementalanalyzerisotoperatiomassspectrometry}
+
+######  Elemental Analyzer Isotope Ratio Mass Spectrometry
+
+
+- Child of:
+ [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
+
+- Measurement and study of the relative abundances of the different
+isotopes of an element in a material using a mass spectrometer which
+is coupled with an elemental analyzer. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
+analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
+
+- **Alternate labels:**
+Elemental analysis - isotope ratio mass spectrometry
+
+
+- **Source:**
+Earth Chem, 
+O-REx techniques, 
+
+- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
 
 
 []{#fouriertransformioncyclotronresonancemassspectrometry}
@@ -3911,6 +3809,44 @@ IUPAC
 - Concept URI token: pyrolysisgaschromatographymassspectrometry
 
 
+[]{#gaschromatographycombustionisotopicratiomassspectrometry}
+
+#######  Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry
+
+
+- Child of:
+ [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
+ [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
+
+- Gas chromatography combustion isotope ratio mass spectrometry
+(GC/C/IRMS) is a highly specialised instrumental technique used to
+ascertain the realative ratio of light stable isotopes of carbon
+(13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
+individual compounds separated from often complex mixtures of
+components. the sample solution is injected into the GC inlet where it
+is vaporized and swept onto a chromatographic column by the carrier
+gas (usually helium). The sample flows through the column and the
+compounds comprising the mixture of interest are separated by virtue
+of their relative interaction with the coating of the column
+(stationary phase) and the carrier gas (mobile phase). Carbon and
+nitrogen compounds eluting from the chromatographic column then pass
+through a combustion reactor (an alumina tube containing Cu, Ni and Pt
+wires maintained at 940 ºC) where they are oxidatively combusted. This
+is followed by a reduction reactor (an alumina tube containing three
+Cu wires maintained at 600 ºC) to reduce any nitrogen oxides to
+nitrogen. For hydrogen and oxygen a high temperature thermal
+conversion reactor is required. Water is then removed in a water
+separator by passing the gas stream through a tube constructed from a
+water permeable nafion membrane. The sample is then introduced into
+the ion source of the mass analyzer by an open split interface, and
+particles with m/z ratios of interest are counted by detectors..
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: gaschromatographycombustionisotopicratiomassspectrometry
+
+
 []{#isotoperatiomassspectrometry}
 
 #####  Isotope ratio mass spectrometry
@@ -3969,20 +3905,30 @@ GeoRoc
 - Concept URI token: dualinletisotoperatiomassspectrometry
 
 
-[]{#elementalanalysisisotoperatiomassspectrometry}
+[]{#elementalanalyzerisotoperatiomassspectrometry}
 
-######  Elemental analysis - isotope ratio mass spectrometry
+######  Elemental Analyzer Isotope Ratio Mass Spectrometry
 
 
 - Child of:
+ [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
-- isotope and chemical analysis of H, C, N, O and S in a sample.
+- Measurement and study of the relative abundances of the different
+isotopes of an element in a material using a mass spectrometer which
+is coupled with an elemental analyzer. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
+analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
+
+- **Alternate labels:**
+Elemental analysis - isotope ratio mass spectrometry
+
 
 - **Source:**
-O-REx techniques
+Earth Chem, 
+O-REx techniques, 
 
-- Concept URI token: elementalanalysisisotoperatiomassspectrometry
+- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
 
 
 []{#gaschromatographycombustionisotopicratiomassspectrometry}
@@ -3992,6 +3938,7 @@ O-REx techniques
 
 - Child of:
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
+ [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
 
 - Gas chromatography combustion isotope ratio mass spectrometry
 (GC/C/IRMS) is a highly specialised instrumental technique used to
@@ -4189,55 +4136,6 @@ GeoRoc
 - Concept URI token: micromassmultiprepmassspectrometry
 
 
-[]{#microprobetwosteplasermassspectrometry}
-
-#####  Microprobe Two-Step Laser Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Microprobe two-step laser mass spectrometry (microL2MS) is a
-technique that allows the detection and characterization of organic
-molecules.  Output for point analyses consist of time-of-flight
-spectra and where appropriate low resolution optical location images.
-Each spectrum represent the time varying signal recorded by the
-microchannel plate (MCP) detector assembly in microL2MS instrument
-following laser photoionization of neutral species liberated from the
-surface a sample by a preceeding laser desorption pulse.  microL2MS
-instrument output data products will consist of a variable number of
-spectra and image files depending on the nature of the sample and
-number of analysis locations.This is the raw instrument output, binary
-spectrum file, in Galactic Universal Data Format (check licensing..);
-Thermo Scientific SPC file format is a generic format used in all of
-Thermo Scientific's software products; If you would like more
-information on this format, please email the GRAMS Sales Team
-sales@gramssuite.com.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: microprobetwosteplasermassspectrometry
-
-
-[]{#multicollectorinductivelycoupledplasmamassspectrometry}
-
-#####  Multi-Collector Inductively Coupled Plasma Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Quadrupole and Multi-Collector (MC) Inductively Coupled Plasma Mass
-Spectrometry (ICP-MS) are grouped into one 'analtyical technique' in
-SEI-6
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: multicollectorinductivelycoupledplasmamassspectrometry
-
-
 []{#plasmasourcemassspectrometry}
 
 #####  Plasma source mass spectrometry
@@ -4383,6 +4281,24 @@ GeoRoc
 - Concept URI token: liquidinletinductivelycoupledplasmamassspectrometry
 
 
+[]{#multicollectorinductivelycoupledplasmamassspectrometry}
+
+#######  Multi-Collector Inductively Coupled Plasma Mass Spectrometry
+
+
+- Child of:
+ [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
+
+- Quadrupole and Multi-Collector (MC) Inductively Coupled Plasma Mass
+Spectrometry (ICP-MS) are grouped into one 'analtyical technique' in
+SEI-6
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: multicollectorinductivelycoupledplasmamassspectrometry
+
+
 []{#raregasmassspectrometry}
 
 #####  Rare-gas mass spectrometry
@@ -4497,123 +4413,35 @@ primary ion-beam diameter ranges from 0.3 to 5 mm. Double-focusing,
 single-focusing, time-of-flight, and quadrupole spectrometers are used
 for mass determination. Typical transducers for SIMS are electron
 multipliers, Faraday cups, and imaging detectors. (Skoog, Holler &
-Crouch, p. 549)
+Crouch, p. 549) Measure method in which a focused beam of primary ions
+produces secondary ions by sputtering from a solid surface. The
+secondary ions are analyzed by mass spectrometry. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06)
 
 - **Alternate labels:**
 MULTI-COLLECTOR SECONDARY IONIZATION MASS SPECTROMETRY, 
 NANO SECONDARY IONIZATION MASS SPECTROMETRY, 
 SECONDARY ION MASS SPECTROMETRY, 
+Secondary Ion Mass Spectrometry, 
 
 
 - **Source:**
 Astromat, 
 GeoRoc, 
+NASA, 
 O-REx techniques, 
 PetDb, 
 
 - Concept URI token: secondaryionizationmassspectrometry
 
 
-[]{#highresolutionsecondaryionizationmassspectrometry}
-
-######  High-resolution secondary ionization mass spectrometry
-
-
-- Child of:
- [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
-
-- Mass spectrometry technique in which a spot on the sample surface is
-bombarded with a beam of accelerated ions to excavate and ionize atoms
-from the sample for subsequet introduction into a mass analyzer. High
-resolution mass analyzers have adjustable slits to increase mass
-resolution. Components: 1) sample processing- polished surface; 2)
-ionization: secondary ionization.
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: highresolutionsecondaryionizationmassspectrometry
-
-
-[]{#nanoscalesecondaryionmassspectrometry}
-
-######  Nanoscale secondary ion mass spectrometry
-
-
-- Child of:
- [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
-
-- images are formed by rastering the primary ion beam over an area of
-interest in the sample (usually <400 micron2). The resultant image
-shows the distribution of ions (isotopes) within the rastered area.
-Each pixel in the image correspond to a given ion counts.   The
-distributions of isotopes are shown in maps that represent
-concentrations as colors, very much like a weather radar map.  Note--
-should this product reference a data cube that is a collection of
-NanoSIMS spot analyses? Is that what is in the .shift and .dl files?
-Why not make that a collection of text/plain;type=camecananosimsraw
-like delivered with spot analysis?
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: nanoscalesecondaryionmassspectrometry
-
-
-[]{#sensitivehighmassresolutionionmicroprobe}
-
-######  Sensitive high mass-resolution ion microprobe
-
-
-- Child of:
- [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
-
-- SHRIMP (large-diameter, double-focusing secondary ion mass
-spectrometer (SIMS) sector instrument produced by Australian
-Scientific Instruments in Canberra, Australia.) is an instrument.
-Technique is essentially SIMS. Components: 1) Sample preparation:
-polished surface; 2) ionization: secondary ion; 3) mass analyzer: dual
-focus electrostatic then magnetic; 4) detector: electron multiplier
-used for U-Pb work. (https://en.wikipedia.org/wiki/Sensitive_high-
-resolution_ion_microprobe).
-
-- **Alternate labels:**
-SENSITIVE HIGH-MASS-RESOLUTION ION MICROPROBE-REVERSE GEOMETRY ANALYSIS
-
-
-- **Source:**
-GeoRoc, 
-O-REx techniques, 
-
-- Concept URI token: sensitivehighmassresolutionionmicroprobe
-
-
-[]{#secondaryionmassspectrometry}
-
-#####  Secondary Ion Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Measure method in which a focused beam of primary ions produces
-secondary ions by sputtering from a solid surface. The secondary ions
-are analyzed by mass spectrometry. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06)
-
-- **Source:**
-NASA
-
-- Concept URI token: secondaryionmassspectrometry
-
-
 []{#secondaryneutralmassspectrometry}
 
-#####  Secondary neutral mass spectrometry
+######  Secondary neutral mass spectrometry
 
 
 - Child of:
- [`massspectrometry`](#massspectrometry)
+ [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
 
 - Mass spectrometer that separates the processes of emission and
 ionisation of sputtered particles are strictly separated. The
@@ -4650,6 +4478,32 @@ O-REx techniques
 - Concept URI token: secondaryneutralmassspectrometry
 
 
+[]{#microprobetwosteplasermassspectrometry}
+
+#######  Microprobe Two-Step Laser Mass Spectrometry
+
+
+- Child of:
+ [`secondaryneutralmassspectrometry`](#secondaryneutralmassspectrometry)
+
+- Microprobe two-step laser mass spectrometry (microL2MS) is a
+technique that allows the detection and characterization of organic
+molecules.  Output for point analyses consist of time-of-flight
+spectra and where appropriate low resolution optical location images.
+Each spectrum represent the time varying signal recorded by the
+microchannel plate (MCP) detector assembly in microL2MS instrument
+following laser photoionization of neutral species liberated from the
+surface a sample by a preceeding laser desorption pulse.  microL2MS
+instrument output data products will consist of a variable number of
+spectra and image files depending on the nature of the sample and
+number of analysis locations.
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: microprobetwosteplasermassspectrometry
+
+
 []{#solidsourcemassspectrometry}
 
 #####  Solid source mass spectrometry
@@ -4658,7 +4512,7 @@ O-REx techniques
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- technique for analysis of elements or isotopes in a solid material.
+- Technique for analysis of elements or isotopes in a solid material.
 Doesn't specify anything about technique
 
 - **Source:**
@@ -4851,554 +4705,6 @@ O-REx techniques
 - Concept URI token: solidstatenuclearmagneticresonancespectroscopy
 
 
-[]{#opticalspectrometry}
-
-####  Optical spectrometry
-
-
-- Child of:
- [`photonspectrometry`](#photonspectrometry)
- [`spectrometry`](#spectrometry)
-
-- analytical techniques in which the spectra of visible or ultraviolet
-light emitted or absobed by, or transmitted through a sample is
-analyzed to obtain information about the composition of the sample.
-
-- **Alternate labels:**
-OPTICAL SPECTROSCOPY, 
-SPECTROPHOTOMETRY, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-add parent, 
-
-- Concept URI token: opticalspectrometry
-
-
-[]{#absorptionspectrometry}
-
-#####  Absorption spectrometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- Atomic absorption spectrometry (AAS) detects elements in either
-liquid or solid samples through the application of characteristic
-wavelengths of electromagnetic radiation from a light source.
-Individual elements will absorb wavelengths differently, and these
-absorbances are measured against standards.
-(https://www.thermofisher.com/us/en/home/industrial/spectroscopy-
-elemental-isotope-analysis/spectroscopy-elemental-isotope-analysis-
-learning-center/trace-elemental-analysis-tea-information/atomic-
-absorption-aa-information.html). Atomic absorption spectroscopy is
-based on absorption of light by free metallic ions. It requires
-standards with known analyte content to establish the relation between
-the measured absorbance and the analyte concentration and relies
-therefore on the Beer-Lambert law. In order to analyze a sample for
-its atomic constituents, it has to be atomized. The atomizers most
-commonly used nowadays are flames and electrothermal (graphite tube)
-atomizers. The atoms should then be irradiated by optical radiation,
-and the radiation source could be an element-specific line radiation
-source or a continuum radiation source. The radiation then passes
-through a monochromator in order to separate the element-specific
-radiation from any other radiation emitted by the radiation source,
-which is finally measured by a detector.
-(https://en.wikipedia.org/wiki/Atomic_absorption_spectroscopy)
-
-- **Alternate labels:**
-ATOMIC ABSORPTION SPECTROMETRY, 
-MICROABSORPTION ANALYSIS, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: absorptionspectrometry
-
-
-[]{#electrothermalabsorptionspectrometry}
-
-######  Electrothermal absorption spectrometry
-
-
-- Child of:
- [`absorptionspectrometry`](#absorptionspectrometry)
-
-- A type of atomic absorption spectrometry where the sample is
-atomised using a probe which is rapidly heated by passing a current
-through it.
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: electrothermalabsorptionspectrometry
-
-
-[]{#infraredabsorptionspectrometry}
-
-######  Infrared absorption spectrometry
-
-
-- Child of:
- [`absorptionspectrometry`](#absorptionspectrometry)
- [`infraredspectrometry`](#infraredspectrometry)
-
-- Identify composition of gas(es) in a sample by detecting the
-absorption of infrared wavelengths that are characteristic of that
-gas.  Infrared energy is emitted from a heated filament. By optically
-filtering the energy, the radiation spectrum is limited to the
-absorption band of the gas being measured. A detector measures the
-energy after the infrared energy has passed through the gas to be
-measured. This is compared to the energy at reference condition of no
-absorption. (https://en.wikipedia.org/wiki/Infrared_gas_analyzer)
-
-- **Alternate labels:**
-INFRARED ABSORPTION SPECTROSCOPY, 
-INFRARED GAS ANALYSIS, 
-INFRARED GAS ANALYZER, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: infraredabsorptionspectrometry
-
-
-[]{#laserabsorptionspectrometry}
-
-######  Laser absorption spectrometry
-
-
-- Child of:
- [`absorptionspectrometry`](#absorptionspectrometry)
-
-- hasPart
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: laserabsorptionspectrometry
-
-
-[]{#atomicabsorptionspectroscopy}
-
-#####  Atomic Absorption Spectroscopy
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- analytical technique used to measure a wide range of elements in
-materials such as metals, pottery and glass. Although it is a
-destructive technique (unlike ED-XRF), the sample size needed is very
-small (typically about 10 milligrams - i.e. one hundredth of a gram)
-and its removal causes little damage. The sample is accurately weighed
-and then dissolved, often using strong acids. The resulting solution
-is sprayed into the flame of the instrument and atomized. Light of a
-suitable wavelength for a particular element is shone through the
-flame, and some of this light is absorbed by the atoms of the sample.
-The amount of light absorbed is proportional to the concentration of
-the element in the solution, and hence in the original object.
-Measurements are made separately for each element of interest in turn
-to achieve a complete analysis of an object, and thus the technique is
-relatively slow to use. However, it is very sensitive and it can
-measure trace elements down to the part per million level, as well as
-being able to measure elements present in minor and major amounts.
-Additional information available at
-http://www.thebritishmuseum.ac.uk/science/text/techniques/sr-tech-
-aas-t.html,  https://doi.org/10.1515/pac-2017-0410
-
-- **Alternate labels:**
-Atomic Absorption Spectrometry, 
-Atomic Absorption Spectrophotometry, 
-
-
-- **Source:**
-NASA
-
-- Concept URI token: atomicabsorptionspectroscopy
-
-
-[]{#colormetricanalysis}
-
-#####  Colormetric analysis
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
- [`wetchemistry`](#wetchemistry)
-
-- A method of chemical analysis in which reagents are added to a
-solution to form coloured compounds with specific elements. The
-intensity of the colour, measured on a spectrophotometer, is
-proportional to the concentration of the element. ('colorimetric
-analysis .' A Dictionary of Earth Sciences. . Encyclopedia.com. 21
-Dec. 2022 <https://www.encyclopedia.com>.)
-
-- **Alternate labels:**
-COLORIMETRY
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: colormetricanalysis
-
-
-[]{#emissionspectrometry}
-
-#####  Emission spectrometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- is a method of chemical analysis that uses the intensity of light
-emitted from a flame, plasma, arc, or spark at a particular wavelength
-to determine the quantity of an element in a sample. The wavelength of
-the atomic spectral line in the emission spectrum gives the identity
-of the element while the intensity of the emitted light is
-proportional to the number of atoms of the element. The sample may be
-excited by various methods: flame, inductively coupled plasma, and
-spark being the most common.
-(https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy)
-
-- **Alternate labels:**
-DIRECT READING OPTICAL EMISSIONS SPECTROSCOPY, 
-DROES, 
-
-
-- **Source:**
-Astromat, 
-PetDb, 
-
-- Concept URI token: emissionspectrometry
-
-
-[]{#fireassayemissionspectrometry}
-
-######  Fire assay emission spectrometry
-
-
-- Child of:
- [`emissionspectrometry`](#emissionspectrometry)
- [`wetchemistry`](#wetchemistry)
-
-- {@en}
-
-- **Alternate labels:**
-NICKEL SULFIDE FIRE ASSAY ISOTOPE DILUTION ANALYSIS
-
-
-- **Source:**
-PetDb
-
-- Concept URI token: fireassayemissionspectrometry
-
-
-[]{#flameemissionspectrometry}
-
-######  Flame emission spectrometry
-
-
-- Child of:
- [`emissionspectrometry`](#emissionspectrometry)
-
-- Emission spectrometry in which emission of photons is induced by
-introducing the sample into a flame.
-
-- **Alternate labels:**
-FLAME PHOTOMETRY
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: flameemissionspectrometry
-
-
-[]{#plasmaemissionspectrometry}
-
-######  Plasma emission spectrometry
-
-
-- Child of:
- [`emissionspectrometry`](#emissionspectrometry)
-
-- an emission spectrometry technique in which emission of photons is
-induced by introducing sample into a plasma. There are various
-techniques for generating plasma.
-
-- **Alternate labels:**
-MICROWAVE PLASMA EMISSION SPECTROMETRY
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: plasmaemissionspectrometry
-
-
-[]{#directcurrentplasmaemissionspectrometry}
-
-#######  Direct current plasma emission spectrometry
-
-
-- Child of:
- [`plasmaemissionspectrometry`](#plasmaemissionspectrometry)
-
-- A type of atomic emission spectrometry where a plasma generated by
-passing an electrical discharge between two electrodes is used as the
-excitation source. (https://www.rsc.org/publishing/journals/prospect/o
-ntology.asp?id=CMO:0000265&MSID=b200027j)
-
-- **Alternate labels:**
-DIRECT-CURRENT PLASMA ATOMIC EMISSION SPECTROMETRY
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-
-- Concept URI token: directcurrentplasmaemissionspectrometry
-
-
-[]{#inductivelycoupledplasmaemissionspectrometry}
-
-#######  Inductively coupled plasma emission spectrometry
-
-
-- Child of:
- [`plasmaemissionspectrometry`](#plasmaemissionspectrometry)
-
-- technique for determining the composition of a sample by heating it
-to the point that the material emits photons, and analyzing the
-wavelenth of the emitted photons.  The sample is heated to emission
-temperatures using and inductively coupled plasma
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: inductivelycoupledplasmaemissionspectrometry
-
-
-[]{#inductivelycoupledplasmaopticalemissionspectrometry}
-
-########  Inductively coupled plasma optical emission spectrometry
-
-
-- Child of:
- [`inductivelycoupledplasmaemissionspectrometry`](#inductivelycoupledplasmaemissionspectrometry)
-
-- technique for determining the composition of a sample by heating it
-to the point that the material emits light, and analyzing the
-wavelenth of the emitted ultraviolet to visible wavelength light.  The
-sample is heated to emission temperatures using and inductively
-coupled plasma. The ICP-OES is an optical emission spectrophotometric
-technique that requires samples to be in solution form. The solution
-gets introduced to the hot plasma, which excites the electrons that
-emit energy at a given wavelength as they return to ground state. Each
-element emits energy at a specific wavelength according to its
-chemical character. The intensity of the energy emitted at a specific
-wavelength is proportional to the concentration of that particular
-sample. The elemental composition can be determined by comparing to a
-set of reference standards. The final elemental composition can be
-expressed as ppm or mg/L.
-
-- **Alternate labels:**
-INDUCTIVELY COUPLED PLASMA OPTICAL EMISSION SPECTROMETRY
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-PetDb, 
-
-- Concept URI token: inductivelycoupledplasmaopticalemissionspectrometry
-
-
-[]{#plasmaopticalemissionspectrometry}
-
-#######  Plasma optical emission spectrometry
-
-
-- Child of:
- [`opticalemissionspectrometry`](#opticalemissionspectrometry)
- [`plasmaemissionspectrometry`](#plasmaemissionspectrometry)
-
-- an emission spectrometry technique in which emission of ultraviolet
-or visible light is induced by introducing sample into a plasma. There
-are various techniques for generating plasma.
-
-- **Alternate labels:**
-DIRECTLY COUPLED PLASMA OPTICAL EMISSION SPECTROSCOPY, 
-PLASMA OPTICAL EMISSION SPECTROSCOPY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: plasmaopticalemissionspectrometry
-
-
-[]{#ultravioletemissionspectrometry}
-
-######  Ultraviolet emission spectrometry
-
-
-- Child of:
- [`emissionspectrometry`](#emissionspectrometry)
-
-- Technique based on spectrometer analysis of light emitted in the
-ultraviolet frequence range.
-
-- **Source:**
-PetDb
-
-- Concept URI token: ultravioletemissionspectrometry
-
-
-[]{#fluorescencespectrometry}
-
-#####  Fluorescence spectrometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- measurement the [energy, power?] of fluorescent radiation produced
-by a sample exposed to monochromatic radiation, used to identify the
-presence and the amount of specific molecules in a sample
-(https://en.wikipedia.org/wiki/Fluorometer).  A type of
-electromagnetic spectroscopy that analyzes fluorescence from a sample.
-It involves using a beam of light, usually ultraviolet light, that
-excites the electrons in molecules of certain compounds and causes
-them to emit light; typically, but not necessarily, visible light
-(https://en.wikipedia.org/wiki/Fluorescence_spectroscopy)
-
-- **Alternate labels:**
-ATOMIC FLUORESCENCE SPECTROMETRY, 
-FLUOROMETRY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: fluorescencespectrometry
-
-
-[]{#opticalemissionspectrometry}
-
-#####  Optical emission spectrometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- chemical analysis technique in which sample is heated to
-temperatures at which atoms emit light at characteristic wavelengths;
-the light is analyzed spectroscopically and compared with standards to
-determine composition
-
-- **Source:**
-SMR add general categories
-
-- Concept URI token: opticalemissionspectrometry
-
-
-[]{#plasmaopticalemissionspectrometry}
-
-######  Plasma optical emission spectrometry
-
-
-- Child of:
- [`opticalemissionspectrometry`](#opticalemissionspectrometry)
- [`plasmaemissionspectrometry`](#plasmaemissionspectrometry)
-
-- an emission spectrometry technique in which emission of ultraviolet
-or visible light is induced by introducing sample into a plasma. There
-are various techniques for generating plasma.
-
-- **Alternate labels:**
-DIRECTLY COUPLED PLASMA OPTICAL EMISSION SPECTROSCOPY, 
-PLASMA OPTICAL EMISSION SPECTROSCOPY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: plasmaopticalemissionspectrometry
-
-
-[]{#plasmaopticalspectrometry}
-
-#####  Plasma optical spectrometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- Emission, absorption, or transmission spectroscopy to analyze
-properties of sample atomized using a plasma. Plasma might be
-generated by different methods, e.g. inductive coupling, laser
-resonance, spark.
-
-- **Source:**
-SMR add general categories
-
-- Concept URI token: plasmaopticalspectrometry
-
-
-[]{#directcurrentplasmaspectrometry}
-
-######  Direct current plasma spectrometry
-
-
-- Child of:
- [`plasmaopticalspectrometry`](#plasmaopticalspectrometry)
-
-- A type of  spectrometry where a plasma generated by passing an
-electrical discharge between two electrodes is used as the excitation
-source. Could be absorption, emission or transmission spectral
-analysis.
-
-- **Source:**
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: directcurrentplasmaspectrometry
-
-
-[]{#spectrophotometry}
-
-#####  Spectrophotometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- measurement of the intensity of electromagnetic radiation as a
-function of frequency (or wavelength) of the radiation; radiation
-enters the meter through a slit and is dispersed by means of a prism.
-(Source: NASA; UUID: 3f7c8cc2-e3c3-4dfd-a17f-9d480f1f7179)
-
-- **Source:**
-NASA
-
-- Concept URI token: spectrophotometry
-
-
 []{#particlespectrometry}
 
 ####  Particle spectrometry
@@ -5563,10 +4869,7 @@ add parent methods,
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- Mass spectrometry technique. Components: 1) sample preparation:
-chemical concentration of analyte; 2) ionization: ion beam; 3) mass
-analyzer: accelerator Mass spectrometer; 4) detector: not specified.
-In this technique, the target element is first chemically separated
+- In this technique, the target element is first chemically separated
 from the sample before it is placed in a sample holder in the AMS
 instrument. The sample element is then bombarded by cesium ions to
 sputter the analyte element from the sample as negative ions. The
@@ -5579,31 +4882,14 @@ magnetic and electrostatic mass filters, the ion beam containing all
 isotopes of the analyte element is then separated into separate beams
 containing the (usually unstable) isotope of interest and other
 isotopes, and each of the isotopes is counted by a separate detector.
-(Skoog, Holler & Crouch, p. 271)
+(Skoog, Holler & Crouch, p. 271). Components: 1) sample preparation:
+chemical concentration of analyte; 2) ionization: ion beam; 3) mass
+analyzer: accelerator Mass spectrometer; 4) detector: not specified.
 
 - **Source:**
 Astromat
 
 - Concept URI token: acceleratormassspectrometry
-
-
-[]{#elementalanalyzerisotoperatiomassspectrometry}
-
-######  Elemental Analyzer Isotope Ratio Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Measurement and study of the relative abundances of the different
-isotopes of an element in a material using a mass spectrometer which
-is coupled with an elemental analyzer. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06).
-
-- **Source:**
-Earth Chem
-
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
 
 
 []{#elementalanalyzermassspectrometry}
@@ -5620,6 +4906,32 @@ Earth Chem
 Astromat
 
 - Concept URI token: elementalanalyzermassspectrometry
+
+
+[]{#elementalanalyzerisotoperatiomassspectrometry}
+
+#######  Elemental Analyzer Isotope Ratio Mass Spectrometry
+
+
+- Child of:
+ [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
+
+- Measurement and study of the relative abundances of the different
+isotopes of an element in a material using a mass spectrometer which
+is coupled with an elemental analyzer. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
+analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
+
+- **Alternate labels:**
+Elemental analysis - isotope ratio mass spectrometry
+
+
+- **Source:**
+Earth Chem, 
+O-REx techniques, 
+
+- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
 
 
 []{#fouriertransformioncyclotronresonancemassspectrometry}
@@ -5684,6 +4996,44 @@ IUPAC
 - Concept URI token: pyrolysisgaschromatographymassspectrometry
 
 
+[]{#gaschromatographycombustionisotopicratiomassspectrometry}
+
+########  Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry
+
+
+- Child of:
+ [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
+ [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
+
+- Gas chromatography combustion isotope ratio mass spectrometry
+(GC/C/IRMS) is a highly specialised instrumental technique used to
+ascertain the realative ratio of light stable isotopes of carbon
+(13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
+individual compounds separated from often complex mixtures of
+components. the sample solution is injected into the GC inlet where it
+is vaporized and swept onto a chromatographic column by the carrier
+gas (usually helium). The sample flows through the column and the
+compounds comprising the mixture of interest are separated by virtue
+of their relative interaction with the coating of the column
+(stationary phase) and the carrier gas (mobile phase). Carbon and
+nitrogen compounds eluting from the chromatographic column then pass
+through a combustion reactor (an alumina tube containing Cu, Ni and Pt
+wires maintained at 940 ºC) where they are oxidatively combusted. This
+is followed by a reduction reactor (an alumina tube containing three
+Cu wires maintained at 600 ºC) to reduce any nitrogen oxides to
+nitrogen. For hydrogen and oxygen a high temperature thermal
+conversion reactor is required. Water is then removed in a water
+separator by passing the gas stream through a tube constructed from a
+water permeable nafion membrane. The sample is then introduced into
+the ion source of the mass analyzer by an open split interface, and
+particles with m/z ratios of interest are counted by detectors..
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: gaschromatographycombustionisotopicratiomassspectrometry
+
+
 []{#isotoperatiomassspectrometry}
 
 ######  Isotope ratio mass spectrometry
@@ -5742,20 +5092,30 @@ GeoRoc
 - Concept URI token: dualinletisotoperatiomassspectrometry
 
 
-[]{#elementalanalysisisotoperatiomassspectrometry}
+[]{#elementalanalyzerisotoperatiomassspectrometry}
 
-#######  Elemental analysis - isotope ratio mass spectrometry
+#######  Elemental Analyzer Isotope Ratio Mass Spectrometry
 
 
 - Child of:
+ [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
-- isotope and chemical analysis of H, C, N, O and S in a sample.
+- Measurement and study of the relative abundances of the different
+isotopes of an element in a material using a mass spectrometer which
+is coupled with an elemental analyzer. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
+analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
+
+- **Alternate labels:**
+Elemental analysis - isotope ratio mass spectrometry
+
 
 - **Source:**
-O-REx techniques
+Earth Chem, 
+O-REx techniques, 
 
-- Concept URI token: elementalanalysisisotoperatiomassspectrometry
+- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
 
 
 []{#gaschromatographycombustionisotopicratiomassspectrometry}
@@ -5765,6 +5125,7 @@ O-REx techniques
 
 - Child of:
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
+ [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
 
 - Gas chromatography combustion isotope ratio mass spectrometry
 (GC/C/IRMS) is a highly specialised instrumental technique used to
@@ -5962,55 +5323,6 @@ GeoRoc
 - Concept URI token: micromassmultiprepmassspectrometry
 
 
-[]{#microprobetwosteplasermassspectrometry}
-
-######  Microprobe Two-Step Laser Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Microprobe two-step laser mass spectrometry (microL2MS) is a
-technique that allows the detection and characterization of organic
-molecules.  Output for point analyses consist of time-of-flight
-spectra and where appropriate low resolution optical location images.
-Each spectrum represent the time varying signal recorded by the
-microchannel plate (MCP) detector assembly in microL2MS instrument
-following laser photoionization of neutral species liberated from the
-surface a sample by a preceeding laser desorption pulse.  microL2MS
-instrument output data products will consist of a variable number of
-spectra and image files depending on the nature of the sample and
-number of analysis locations.This is the raw instrument output, binary
-spectrum file, in Galactic Universal Data Format (check licensing..);
-Thermo Scientific SPC file format is a generic format used in all of
-Thermo Scientific's software products; If you would like more
-information on this format, please email the GRAMS Sales Team
-sales@gramssuite.com.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: microprobetwosteplasermassspectrometry
-
-
-[]{#multicollectorinductivelycoupledplasmamassspectrometry}
-
-######  Multi-Collector Inductively Coupled Plasma Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Quadrupole and Multi-Collector (MC) Inductively Coupled Plasma Mass
-Spectrometry (ICP-MS) are grouped into one 'analtyical technique' in
-SEI-6
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: multicollectorinductivelycoupledplasmamassspectrometry
-
-
 []{#plasmasourcemassspectrometry}
 
 ######  Plasma source mass spectrometry
@@ -6156,6 +5468,24 @@ GeoRoc
 - Concept URI token: liquidinletinductivelycoupledplasmamassspectrometry
 
 
+[]{#multicollectorinductivelycoupledplasmamassspectrometry}
+
+########  Multi-Collector Inductively Coupled Plasma Mass Spectrometry
+
+
+- Child of:
+ [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
+
+- Quadrupole and Multi-Collector (MC) Inductively Coupled Plasma Mass
+Spectrometry (ICP-MS) are grouped into one 'analtyical technique' in
+SEI-6
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: multicollectorinductivelycoupledplasmamassspectrometry
+
+
 []{#raregasmassspectrometry}
 
 ######  Rare-gas mass spectrometry
@@ -6270,123 +5600,35 @@ primary ion-beam diameter ranges from 0.3 to 5 mm. Double-focusing,
 single-focusing, time-of-flight, and quadrupole spectrometers are used
 for mass determination. Typical transducers for SIMS are electron
 multipliers, Faraday cups, and imaging detectors. (Skoog, Holler &
-Crouch, p. 549)
+Crouch, p. 549) Measure method in which a focused beam of primary ions
+produces secondary ions by sputtering from a solid surface. The
+secondary ions are analyzed by mass spectrometry. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06)
 
 - **Alternate labels:**
 MULTI-COLLECTOR SECONDARY IONIZATION MASS SPECTROMETRY, 
 NANO SECONDARY IONIZATION MASS SPECTROMETRY, 
 SECONDARY ION MASS SPECTROMETRY, 
+Secondary Ion Mass Spectrometry, 
 
 
 - **Source:**
 Astromat, 
 GeoRoc, 
+NASA, 
 O-REx techniques, 
 PetDb, 
 
 - Concept URI token: secondaryionizationmassspectrometry
 
 
-[]{#highresolutionsecondaryionizationmassspectrometry}
-
-#######  High-resolution secondary ionization mass spectrometry
-
-
-- Child of:
- [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
-
-- Mass spectrometry technique in which a spot on the sample surface is
-bombarded with a beam of accelerated ions to excavate and ionize atoms
-from the sample for subsequet introduction into a mass analyzer. High
-resolution mass analyzers have adjustable slits to increase mass
-resolution. Components: 1) sample processing- polished surface; 2)
-ionization: secondary ionization.
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: highresolutionsecondaryionizationmassspectrometry
-
-
-[]{#nanoscalesecondaryionmassspectrometry}
-
-#######  Nanoscale secondary ion mass spectrometry
-
-
-- Child of:
- [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
-
-- images are formed by rastering the primary ion beam over an area of
-interest in the sample (usually <400 micron2). The resultant image
-shows the distribution of ions (isotopes) within the rastered area.
-Each pixel in the image correspond to a given ion counts.   The
-distributions of isotopes are shown in maps that represent
-concentrations as colors, very much like a weather radar map.  Note--
-should this product reference a data cube that is a collection of
-NanoSIMS spot analyses? Is that what is in the .shift and .dl files?
-Why not make that a collection of text/plain;type=camecananosimsraw
-like delivered with spot analysis?
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: nanoscalesecondaryionmassspectrometry
-
-
-[]{#sensitivehighmassresolutionionmicroprobe}
-
-#######  Sensitive high mass-resolution ion microprobe
-
-
-- Child of:
- [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
-
-- SHRIMP (large-diameter, double-focusing secondary ion mass
-spectrometer (SIMS) sector instrument produced by Australian
-Scientific Instruments in Canberra, Australia.) is an instrument.
-Technique is essentially SIMS. Components: 1) Sample preparation:
-polished surface; 2) ionization: secondary ion; 3) mass analyzer: dual
-focus electrostatic then magnetic; 4) detector: electron multiplier
-used for U-Pb work. (https://en.wikipedia.org/wiki/Sensitive_high-
-resolution_ion_microprobe).
-
-- **Alternate labels:**
-SENSITIVE HIGH-MASS-RESOLUTION ION MICROPROBE-REVERSE GEOMETRY ANALYSIS
-
-
-- **Source:**
-GeoRoc, 
-O-REx techniques, 
-
-- Concept URI token: sensitivehighmassresolutionionmicroprobe
-
-
-[]{#secondaryionmassspectrometry}
-
-######  Secondary Ion Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Measure method in which a focused beam of primary ions produces
-secondary ions by sputtering from a solid surface. The secondary ions
-are analyzed by mass spectrometry. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06)
-
-- **Source:**
-NASA
-
-- Concept URI token: secondaryionmassspectrometry
-
-
 []{#secondaryneutralmassspectrometry}
 
-######  Secondary neutral mass spectrometry
+#######  Secondary neutral mass spectrometry
 
 
 - Child of:
- [`massspectrometry`](#massspectrometry)
+ [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
 
 - Mass spectrometer that separates the processes of emission and
 ionisation of sputtered particles are strictly separated. The
@@ -6423,6 +5665,32 @@ O-REx techniques
 - Concept URI token: secondaryneutralmassspectrometry
 
 
+[]{#microprobetwosteplasermassspectrometry}
+
+########  Microprobe Two-Step Laser Mass Spectrometry
+
+
+- Child of:
+ [`secondaryneutralmassspectrometry`](#secondaryneutralmassspectrometry)
+
+- Microprobe two-step laser mass spectrometry (microL2MS) is a
+technique that allows the detection and characterization of organic
+molecules.  Output for point analyses consist of time-of-flight
+spectra and where appropriate low resolution optical location images.
+Each spectrum represent the time varying signal recorded by the
+microchannel plate (MCP) detector assembly in microL2MS instrument
+following laser photoionization of neutral species liberated from the
+surface a sample by a preceeding laser desorption pulse.  microL2MS
+instrument output data products will consist of a variable number of
+spectra and image files depending on the nature of the sample and
+number of analysis locations.
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: microprobetwosteplasermassspectrometry
+
+
 []{#solidsourcemassspectrometry}
 
 ######  Solid source mass spectrometry
@@ -6431,7 +5699,7 @@ O-REx techniques
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- technique for analysis of elements or isotopes in a solid material.
+- Technique for analysis of elements or isotopes in a solid material.
 Doesn't specify anything about technique
 
 - **Source:**
@@ -6590,6 +5858,39 @@ SMR add general categories,
 add parent methods, 
 
 - Concept URI token: photonspectrometry
+
+
+[]{#fluorescencespectrometry}
+
+#####  Fluorescence spectrometry
+
+
+- Child of:
+ [`photonspectrometry`](#photonspectrometry)
+
+- measurement the [energy, power?] of fluorescent radiation produced
+by a sample exposed to monochromatic radiation, used to identify the
+presence and the amount of specific molecules in a sample
+(https://en.wikipedia.org/wiki/Fluorometer).  A type of
+electromagnetic spectroscopy that analyzes fluorescence from a sample.
+It involves using a beam of light, usually ultraviolet light, that
+excites the electrons in molecules of certain compounds and causes
+them to emit light; typically, but not necessarily, visible light
+(https://en.wikipedia.org/wiki/Fluorescence_spectroscopy)
+
+- **Alternate labels:**
+ATOMIC FLUORESCENCE SPECTROMETRY, 
+FLUOROMETRY, 
+Fluorescence Spectroscopy, 
+Fluorimetry, 
+Spectrofluorometry, 
+
+
+- **Source:**
+GeoRoc, 
+NASA, 
+
+- Concept URI token: fluorescencespectrometry
 
 
 []{#gammarayspectrometry}
@@ -6771,7 +6072,7 @@ PetDb,
 
 
 - Child of:
- [`absorptionspectrometry`](#absorptionspectrometry)
+ [`atomicabsorptionspectrometry`](#atomicabsorptionspectrometry)
  [`infraredspectrometry`](#infraredspectrometry)
 
 - Identify composition of gas(es) in a sample by detecting the
@@ -6879,7 +6180,6 @@ GeoRoc
 
 - Child of:
  [`photonspectrometry`](#photonspectrometry)
- [`spectrometry`](#spectrometry)
 
 - analytical techniques in which the spectra of visible or ultraviolet
 light emitted or absobed by, or transmitted through a sample is
@@ -6899,9 +6199,9 @@ add parent,
 - Concept URI token: opticalspectrometry
 
 
-[]{#absorptionspectrometry}
+[]{#atomicabsorptionspectrometry}
 
-######  Absorption spectrometry
+######  Atomic Absorption Spectrometry
 
 
 - Child of:
@@ -6929,18 +6229,39 @@ through a monochromator in order to separate the element-specific
 radiation from any other radiation emitted by the radiation source,
 which is finally measured by a detector.
 (https://en.wikipedia.org/wiki/Atomic_absorption_spectroscopy)
+- analytical technique used to measure a wide range of elements in
+materials such as metals, pottery and glass. Although it is a
+destructive technique (unlike ED-XRF), the sample size needed is very
+small (typically about 10 milligrams - i.e. one hundredth of a gram)
+and its removal causes little damage. The sample is accurately weighed
+and then dissolved, often using strong acids. The resulting solution
+is sprayed into the flame of the instrument and atomized. Light of a
+suitable wavelength for a particular element is shone through the
+flame, and some of this light is absorbed by the atoms of the sample.
+The amount of light absorbed is proportional to the concentration of
+the element in the solution, and hence in the original object.
+Measurements are made separately for each element of interest in turn
+to achieve a complete analysis of an object, and thus the technique is
+relatively slow to use. However, it is very sensitive and it can
+measure trace elements down to the part per million level, as well as
+being able to measure elements present in minor and major amounts.
+Additional information available at
+http://www.thebritishmuseum.ac.uk/science/text/techniques/sr-tech-
+aas-t.html,  https://doi.org/10.1515/pac-2017-0410
 
 - **Alternate labels:**
-ATOMIC ABSORPTION SPECTROMETRY, 
+Atomic Absorption Spectrophotometry, 
+Atomic Absorption Spectroscopy, 
 MICROABSORPTION ANALYSIS, 
 
 
 - **Source:**
 Astromat, 
 GeoRoc, 
+NASA, 
 PetDb, 
 
-- Concept URI token: absorptionspectrometry
+- Concept URI token: atomicabsorptionspectrometry
 
 
 []{#electrothermalabsorptionspectrometry}
@@ -6949,7 +6270,7 @@ PetDb,
 
 
 - Child of:
- [`absorptionspectrometry`](#absorptionspectrometry)
+ [`atomicabsorptionspectrometry`](#atomicabsorptionspectrometry)
 
 - A type of atomic absorption spectrometry where the sample is
 atomised using a probe which is rapidly heated by passing a current
@@ -6967,7 +6288,7 @@ GeoRoc
 
 
 - Child of:
- [`absorptionspectrometry`](#absorptionspectrometry)
+ [`atomicabsorptionspectrometry`](#atomicabsorptionspectrometry)
  [`infraredspectrometry`](#infraredspectrometry)
 
 - Identify composition of gas(es) in a sample by detecting the
@@ -6997,7 +6318,7 @@ GeoRoc
 
 
 - Child of:
- [`absorptionspectrometry`](#absorptionspectrometry)
+ [`atomicabsorptionspectrometry`](#atomicabsorptionspectrometry)
 
 - hasPart
 
@@ -7005,45 +6326,6 @@ GeoRoc
 GeoRoc
 
 - Concept URI token: laserabsorptionspectrometry
-
-
-[]{#atomicabsorptionspectroscopy}
-
-######  Atomic Absorption Spectroscopy
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- analytical technique used to measure a wide range of elements in
-materials such as metals, pottery and glass. Although it is a
-destructive technique (unlike ED-XRF), the sample size needed is very
-small (typically about 10 milligrams - i.e. one hundredth of a gram)
-and its removal causes little damage. The sample is accurately weighed
-and then dissolved, often using strong acids. The resulting solution
-is sprayed into the flame of the instrument and atomized. Light of a
-suitable wavelength for a particular element is shone through the
-flame, and some of this light is absorbed by the atoms of the sample.
-The amount of light absorbed is proportional to the concentration of
-the element in the solution, and hence in the original object.
-Measurements are made separately for each element of interest in turn
-to achieve a complete analysis of an object, and thus the technique is
-relatively slow to use. However, it is very sensitive and it can
-measure trace elements down to the part per million level, as well as
-being able to measure elements present in minor and major amounts.
-Additional information available at
-http://www.thebritishmuseum.ac.uk/science/text/techniques/sr-tech-
-aas-t.html,  https://doi.org/10.1515/pac-2017-0410
-
-- **Alternate labels:**
-Atomic Absorption Spectrometry, 
-Atomic Absorption Spectrophotometry, 
-
-
-- **Source:**
-NASA
-
-- Concept URI token: atomicabsorptionspectroscopy
 
 
 []{#colormetricanalysis}
@@ -7146,6 +6428,49 @@ GeoRoc,
 PetDb, 
 
 - Concept URI token: flameemissionspectrometry
+
+
+[]{#opticalemissionspectrometry}
+
+#######  Optical emission spectrometry
+
+
+- Child of:
+ [`emissionspectrometry`](#emissionspectrometry)
+
+- chemical analysis technique in which sample is heated to
+temperatures at which atoms emit light at characteristic wavelengths;
+the light is analyzed spectroscopically and compared with standards to
+determine composition
+
+- **Source:**
+SMR add general categories
+
+- Concept URI token: opticalemissionspectrometry
+
+
+[]{#plasmaopticalemissionspectrometry}
+
+########  Plasma optical emission spectrometry
+
+
+- Child of:
+ [`opticalemissionspectrometry`](#opticalemissionspectrometry)
+ [`plasmaemissionspectrometry`](#plasmaemissionspectrometry)
+
+- an emission spectrometry technique in which emission of ultraviolet
+or visible light is induced by introducing sample into a plasma. There
+are various techniques for generating plasma.
+
+- **Alternate labels:**
+DIRECTLY COUPLED PLASMA OPTICAL EMISSION SPECTROSCOPY, 
+PLASMA OPTICAL EMISSION SPECTROSCOPY, 
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: plasmaopticalemissionspectrometry
 
 
 []{#plasmaemissionspectrometry}
@@ -7288,78 +6613,6 @@ ultraviolet frequence range.
 PetDb
 
 - Concept URI token: ultravioletemissionspectrometry
-
-
-[]{#fluorescencespectrometry}
-
-######  Fluorescence spectrometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- measurement the [energy, power?] of fluorescent radiation produced
-by a sample exposed to monochromatic radiation, used to identify the
-presence and the amount of specific molecules in a sample
-(https://en.wikipedia.org/wiki/Fluorometer).  A type of
-electromagnetic spectroscopy that analyzes fluorescence from a sample.
-It involves using a beam of light, usually ultraviolet light, that
-excites the electrons in molecules of certain compounds and causes
-them to emit light; typically, but not necessarily, visible light
-(https://en.wikipedia.org/wiki/Fluorescence_spectroscopy)
-
-- **Alternate labels:**
-ATOMIC FLUORESCENCE SPECTROMETRY, 
-FLUOROMETRY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: fluorescencespectrometry
-
-
-[]{#opticalemissionspectrometry}
-
-######  Optical emission spectrometry
-
-
-- Child of:
- [`opticalspectrometry`](#opticalspectrometry)
-
-- chemical analysis technique in which sample is heated to
-temperatures at which atoms emit light at characteristic wavelengths;
-the light is analyzed spectroscopically and compared with standards to
-determine composition
-
-- **Source:**
-SMR add general categories
-
-- Concept URI token: opticalemissionspectrometry
-
-
-[]{#plasmaopticalemissionspectrometry}
-
-#######  Plasma optical emission spectrometry
-
-
-- Child of:
- [`opticalemissionspectrometry`](#opticalemissionspectrometry)
- [`plasmaemissionspectrometry`](#plasmaemissionspectrometry)
-
-- an emission spectrometry technique in which emission of ultraviolet
-or visible light is induced by introducing sample into a plasma. There
-are various techniques for generating plasma.
-
-- **Alternate labels:**
-DIRECTLY COUPLED PLASMA OPTICAL EMISSION SPECTROSCOPY, 
-PLASMA OPTICAL EMISSION SPECTROSCOPY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: plasmaopticalemissionspectrometry
 
 
 []{#plasmaopticalspectrometry}
@@ -8013,6 +7266,34 @@ SMR add general categories
 - Concept URI token: surfaceanalysis
 
 
+[]{#scanningthermalmicroscopywithafm}
+
+####  Scanning Thermal Microscopy with AFM
+
+
+- Child of:
+ [`surfaceanalysis`](#surfaceanalysis)
+
+- Scanning thermal microscopy (SThM) is a Contact Atomic Force
+Microscopy (AFM) technique that allows spatial mapping of temperature
+or thermal conductivity across a sample surface in addition to
+topography. (C.Daniel Frisbie, in Encyclopedia of Physical Science and
+Technology (Third Edition), 2003). This is a type of Scanning probe
+microscopy (SPM), a branch of microscopy that forms images of surfaces
+using a physical probe that scans the specimen
+(https://en.wikipedia.org/wiki/Scanning_probe_microscopy). When the
+tip is placed in contact with the sample, heat flows from the tip to
+sample. As the probe is scanned, the amount of heat flow changes. By
+monitoring the heat flow, one can create a thermal map of the sample,
+revealing spatial variations in thermal conductivity in a sample.
+(https://en.wikipedia.org/wiki/Scanning_thermal_microscopy)
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: scanningthermalmicroscopywithafm
+
+
 []{#temperatureprogrammeddesorptionelectronprobeanalysis}
 
 ####  Temperature programmed desorption electron probe analysis
@@ -8096,6 +7377,38 @@ Geo-X,
 O-REx techniques, 
 
 - Concept URI token: differentialscanningcalorimetry
+
+
+[]{#inductionheatinganalysis}
+
+####  Induction heating analysis
+
+
+- Child of:
+ [`thermalanalysis`](#thermalanalysis)
+
+- a technique for evaluation of the self-heating characteristics of
+particles? [based on interpretation of
+https://pubs.acs.org/doi/10.1021/acsomega.0c03332, not much online
+about this technique]. See also
+https://iris.unipv.it/bitstream/11571/1178389/6/After_revision.pdf .
+[would appear to be methods of analyzing the effectiveness of heating
+objects by electromagnetic induction] 'Induction heating (IH) is
+commonly used for heating and heat treatment. An accurate prediction
+of temperature distribution is required to optimize the heating
+parameters.... temperature-dependent B (magnetic flux density)-H
+(magnetic field strength) curves and changes in phase transformation
+under rapid heating were measured and used for IH analysis' (
+https://doi.org/10.2355/isijinternational.ISIJINT-2018-552)
+
+- **Alternate labels:**
+INDUCTION HEATING
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: inductionheatinganalysis
 
 
 []{#minicryogenfreemeasurementsystemforthermalconductivity}
@@ -8653,7 +7966,6 @@ PetDb,
 []{#xraydiffraction}
 
 ###  X-Ray Diffraction
-* `X-ray diffraction`
 
 
 - Child of:
@@ -8675,9 +7987,9 @@ incident rays, the sample, and the detector, all possible diffraction
 directions of the lattice should be attained.(https://serc.carleton.ed
 u/research_education/geochemsheets/techniques/XRD.html) Copper K-a
 radiation (l = 0.15406 nm, E = 8.04 keV) is typically used for routine
-XRD. (Source: IUPAC; https://doi.org/10.1515/pac-2019-0302)
-- technique based on observing the scattered intensity of an X-ray
-beam hitting a sample as a function of incident and scattered angle,
+XRD. (Source: IUPAC; https://doi.org/10.1515/pac-2019-0302).
+Technique based on observing the scattered intensity of an X-ray beam
+hitting a sample as a function of incident and scattered angle,
 polarization, and wavelength or energy where the scattering is elastic
 and the scattering object is crystalline, so that the resulting
 pattern contains sharp spots analyzed by X-ray crystallography..
