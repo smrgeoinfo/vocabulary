@@ -184,11 +184,8 @@ def listVocabularies(g):
 def getVocabRoot(g, v):
     """Get top concept of the specific vocabulary
     """
-#    q = rdflib.plugins.sparql.processor.prepareQuery(PFX + """SELECT ?s
     q = PFX + """SELECT ?s   WHERE { ?s skos:topConceptOf ?vocabulary . }"""
     qres = g.query(q, initBindings={'vocabulary': v})
-    #q = "Select ?s WHERE { ?s skos:topConceptOf <" + v + "> . }"
-    #qres = g.query(q)
     res = []
     for row in qres:
         res.append(row[0])
@@ -232,6 +229,7 @@ def _labelToLink(label):
 
 def termTree(g, v, r, depth=0):
     label = getObjects(g, r, skosT("prefLabel"))
+#    print(label)
     llabel = _labelToLink(r)
     res = [f"{'    ' * depth}- [{label[0]}](#{llabel})"]
     for term in getNarrower(g, v, r):
@@ -257,6 +255,11 @@ def termJsonTree(g, v, r, depth=0):
 def describeTerm(g, t, depth=0, level=1):
     res = []
     labels = getObjects(g, t, skosT('prefLabel'))
+# anchor to link to this term
+    _target = t.split("/")[-1]
+    res.append("[]{" + f"#{_labelToLink(_target)}" + "}")
+    res.append("")
+# heading for this term
     hl = f"{'#' * (depth + 1)} "
     if len(labels) < 1:
         res.append(f"{hl} `{t}`")
@@ -265,15 +268,11 @@ def describeTerm(g, t, depth=0, level=1):
         for label in labels[1:]:
             res.append(f"* `{label}`")
         res.append("")
-    _target = t.split("/")[-1]
-    res.append("[]{" + f"#{_labelToLink(_target)}" + "}")
-    res.append("")
-#    res.append(f"Concept: [`{t.split('/')[-1]}`]({t})")
-    res.append(f"Concept URI token: {t.split('/')[-1]}")
+
     broader = getObjects(g, t, skosT('broader'))
     if len(broader) > 0:
         res.append("")
-        res.append("Child of:")
+        res.append(f"- Child of:")
         for b in broader:
             bt = b.split('/')[-1]
             res.append(f" [`{bt}`](#{bt})")
@@ -282,9 +281,9 @@ def describeTerm(g, t, depth=0, level=1):
     # skos:definition. 
     comments = []
     for comment in getObjects(g, t, rdfsT('comment')):
-        comments.append(comment)
+        comments.append(f"- {comment}")
     for comment in getObjects(g, t, skosT('definition')):
-        comments.append(comment)
+        comments.append(f"- {comment}")
     for comment in comments:
         lines = textwrap.wrap(
             comment,
@@ -294,31 +293,37 @@ def describeTerm(g, t, depth=0, level=1):
     seealsos = getObjects(g, t, rdfsT('seeAlso'))
     if len(seealsos) > 0:
         res.append("")
-        res.append("See Also:")
-        res.append("")
+        res.append(f"- See Also:")
         for seealso in seealsos:
             res.append(f"* [{seealso.n3(g.namespace_manager)}]({seealso})")
     altlabels = []
     for altlabel in getObjects(g, t, skosT('altLabel')):
-        altlabels.append(altLabel)
+        altlabels.append(altlabel)
     if len(altlabels) > 0:
+        delimiter = ""
+        if len(altlabels) > 1:
+            delimiter = ", "
         res.append("")
-        res.append("Alternate labels:")
-        res.append("")
+        res.append(f"- **Alternate labels:**")
         for altlabel in altlabels:
-            res.append(f"* {altlabel})")
-            res.append("")
+            res.append(f"{altlabel}{delimiter}")
+        res.append("")
 
     sources = []
     for source in getObjects(g, t, dctT('source')):
         sources.append(source)
     if len(sources) > 0:
+        delimiter = ""
+        if len(sources) > 1:
+            delimiter = ", "
         res.append("")
-        res.append("Source:")
-        res.append("")
+        res.append(f"- **Source:**")
         for source in sources:
-            res.append(f"* {source}")
-            res.append("")
+            res.append(f"{source}{delimiter}")
+        res.append("")
+
+    res.append(f"- Concept URI token: {t.split('/')[-1]}")
+    res.append("")
 
     return res
 
@@ -339,15 +344,28 @@ def describeVocabulary(G, V):
     title = getObjects(G, V, skosT("prefLabel"))[0]
     res.append("---")
     res.append("comment: | \n  WARNING: This file is generated. Any edits will be lost!")
-    res.append(f"title: \"{title.strip()}\"")
-    res.append(f"date: \"{datetime.datetime.now().replace(tzinfo=datetime.timezone.utc).isoformat()}\"")
-    res.append("subtitle: |")
-    for comment in getObjects(G, V, skosT("definition")) + getObjects(G, V, rdfsT("comment")):
-        res.append(f"  {comment.strip()}")
+#    res.append(f"title: \"{title.strip()}\"")
+
     res.append("execute:")
     res.append("  echo: false")
-    res.append("categories: [\"vocabulary\"]")
+#    res.append("categories: [\"vocabulary\"]")
     res.append("---")
+    res.append("")
+
+    scheme = getObjects(G, V, skosT("prefLabel"))[0]
+    lscheme = scheme.replace(" ","")
+    res.append("[]{" + f"#{lscheme}" + "}")
+    res.append("")
+    res.append(f"# **Concept scheme:** {scheme}")
+    res.append("")
+
+    modified = getObjects(G, V, dctT("modified"))[0]
+    res.append(f"Vocabulary last modified:  {modified}")
+    res.append("")
+
+    res.append("subtitle: ")
+    for comment in getObjects(G, V, skosT("definition")) + getObjects(G, V, rdfsT("comment")):
+        res.append(f"  {comment.strip()}")
     res.append("")
     res.append("Namespace: ")
     res.append(f"[`{V}`]({V})")
@@ -357,10 +375,10 @@ def describeVocabulary(G, V):
     for history in getObjects(G, V, skosT("historyNote")):
         res.append(f"* {history}")
     res.append("")
-    res.append("**Concepts**")
-    res.append("")
+
     depth = 1
     roots = getVocabRoot(G, V)
+#
     for root in roots:
         res += termTree(G, V, root, depth=0)
         res.append("")
@@ -370,6 +388,8 @@ def describeVocabulary(G, V):
     # res.append(f"vocab_terms=JSON.parse({json.dumps(json.dumps(termJsonTree(G, V, roots[0], depth=0)))});")
     # res.append(TREE_CHART_BLOCK)
     # res.append("```")
+    res.append("**Concepts**")
+    res.append("")
     for aroot in roots:
         res += describeTerm(G, aroot, depth=depth, level=level)
         res.append("")
@@ -377,12 +397,29 @@ def describeVocabulary(G, V):
         res.append("")
     return res
 
+def conceptschemelist(G):
+    vocabs = listVocabularies(G)
+    res = []
+    res.append("")
+    res.append(f"# Concept Schemes in this file")
+    res.append("")
+    for vocab in vocabs:
+        label = getObjects(G, vocab, skosT("prefLabel"))
+        llabel = label[0].replace(" ", "")
+        res.append(f"[{label[0]}](#{llabel})")
+        res.append("")
 
-#@click.command()
-#@click.argument("ttl")
+    res.append("")
+    res.append(
+        f"This file generated at: \"{datetime.datetime.now().replace(tzinfo=datetime.timezone.utc).isoformat()}\"")
+
+    return res
+
+@click.command()
+@click.argument("ttl")
 
 
-def main():
+def main(ttl):
     # ttl is argument, remove for debugging
     """Generate Pandoc markdown from a SKOS vocabulary in Turtle.
 
@@ -391,7 +428,7 @@ def main():
     Output to STDOUT.
     """
     #for debugging
-    ttl = "https://raw.githubusercontent.com/smrgeoinfo/vocabulary/main/src/GeoXAnalyticalTechnique.ttl"
+    #ttl = "https://raw.githubusercontent.com/smrgeoinfo/vocabulary/main/geochemistry/AnalyticalTechniqueMerg2.ttl"
 
     vgraph = rdflib.ConjunctiveGraph()
     vgraph.parse(ttl, format="text/turtle")
@@ -399,8 +436,12 @@ def main():
         vgraph.bind(k, v)
     vocabs = listVocabularies(vgraph)
     res = []
+
+    res.append(conceptschemelist(vgraph))
+
     for vocab in vocabs:
         res.append(describeVocabulary(vgraph, vocab))
+
     for doc in res:
         for line in doc:
             print(line)
