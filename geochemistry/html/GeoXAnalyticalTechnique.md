@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-16T08:28:44.359595+00:00"
+This file generated at: "2023-02-16T10:11:23.852727+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -582,7 +582,7 @@ the interaction of the electrons with the sample as the beam is
 transmitted through the specimen. Multiple operating modes based on
 electron imaging include conventional imaging, scanning TEM imaging
 (STEM), and electron diffraction. In STEM the electron beam is focused
-to a fine spot (with the typical spot size 0.05 – 0.2 nm) which is
+to a fine spot (with the typical spot size 0.05 -- 0.2 nm) which is
 then scanned over the sample in a raster illumination system
 constructed so that the sample is illuminated at each point with the
 beam parallel to the optical axis.
@@ -874,7 +874,7 @@ an object. A confocal microscope focuses a small beam of light at one
 narrow depth level at a time to achieve a controlled and highly
 limited depth of field.  The point illumination and a pinhole in an
 optically conjugate plane in front of the detector eliminate out-of-
-focus signal – the name 'confocal' stems from this configuration. As
+focus signal -- the name 'confocal' stems from this configuration. As
 only light from  very close to the focal plane can be detected, the
 image's optical resolution, particularly in the sample depth
 direction, is much better than that of wide-field microscopes. Much of
@@ -1506,8 +1506,9 @@ IUPAC
 
 - Method for determining nucleotide sequence of DNA based on
 incorporating chain-terminating dideoxynucleotides. Note: The method
-is named after Frederick Sanger (1918–2013, awarded the Nobel Prize in
-1958 and 1980). (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)
+is named after Frederick Sanger (1918--2013, awarded the Nobel Prize
+in 1958 and 1980). (Source: IUPAC;
+https://doi.org/10.1515/iupac.90.0262)
 
 - **Source:**
 IUPAC
@@ -1659,7 +1660,7 @@ add parent methods
  [`liquidchromatography`](#liquidchromatography)
 
 - Chromatography in which the mobile phase is a liquid. Note 2: Liquid
-column chromatography utilizing small particles (2–20 micron) and a
+column chromatography utilizing small particles (2--20 micron) and a
 relatively high inlet pressure (up to 50 MPa (500 bar)) is often
 characterized by the term high-performance liquid chromatography  and
 the acronym HPLC. (Source: IUPAC;
@@ -1702,7 +1703,7 @@ NASA
 - Child of:
  [`liquidchromatography`](#liquidchromatography)
 
-- Liquid chromatography – organic carbon detection (LC-OCD) is an
+- Liquid chromatography -- organic carbon detection (LC-OCD) is an
 analytical technique for identification and quantification of natural
 organic matter (NOM) constituents in aquatic environments and water-
 soluble synthetic organic matter in water.
@@ -2174,7 +2175,7 @@ electronic structure of a molecule and its individual functional
 groups. The electromagnetic waves emitted by the nuclei of the sample
 as a result of perturbation by a weak oscillating magnetic field are
 detected with sensitive radio receivers. Upon excitation of the sample
-with a radio frequency (60–1000 MHz) pulse, a nuclear magnetic
+with a radio frequency (60--1000 MHz) pulse, a nuclear magnetic
 resonance response - a free induction decay (FID) - is obtained. It is
 a very weak signal, and requires sensitive radio receivers to pick up.
 A Fourier transform is carried out to extract the frequency-domain
