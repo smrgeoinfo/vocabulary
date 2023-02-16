@@ -1976,7 +1976,7 @@ meth:laserionizationmassspectrometry
   skos:altLabel "LASER PLASMA IONIZATION MASS SPECTROMETRY"@en ;
   skos:altLabel "RESONANCE-IONIZATION MASS SPECTROMETRY"@en ;
   skos:broader meth:massspectrometry ;
-  skos:definition "An airborne high repetition rate laser-induced plasma ionization source for mass-spectrometric determinations of polar and nonpolar analytes in solution. The laser plasma was sustained between a pneumatic nebulizer and the inlet capillary of an Orbitrap mass spectrometer. To maintain stable conditions in the droplet-rich spray environment, the plasma was directly fed by the fundamental output (λ = 1064 nm) of a laser. Ionization by the laser-driven plasma resulted in signals of intact analyte ions of several chemical categories. (https://doi.org/10.1021/acs.analchem.9b00329)"@en ;
+  skos:definition "An airborne high repetition rate laser-induced plasma ionization source for mass-spectrometric determinations of polar and nonpolar analytes in solution. The laser plasma was sustained between a pneumatic nebulizer and the inlet capillary of an Orbitrap mass spectrometer. To maintain stable conditions in the droplet-rich spray environment, the plasma was directly fed by the fundamental output (lambda = 1064 nm) of a laser. Ionization by the laser-driven plasma resulted in signals of intact analyte ions of several chemical categories. (https://doi.org/10.1021/acs.analchem.9b00329)"@en ;
   skos:inScheme analt:method ;
   skos:notation "LIMS" ;
   skos:prefLabel "Laser ionization mass spectrometry"@en ;
