@@ -1,5 +1,23 @@
 # directories here:
 
+## Geochemistry folder
+Vocabularies for for analytical techniques in geochemistry (work started 2/2023).  The directory contains SKOS vocabulary drafts, serialized using turtle (ttl). HTML versions are generated on the pages branch in this repo using the scripts in the scripts folder on the pages branch.  The html is accessible on the github.io pages for the repo, links included in vocabulary descriptions.
+
+## AnalyticalTechniqueMerg2.ttl
+SKOS vocabualary, serialized using Turtle.  Merged analytical techniques from GeoX, GeoRock, PetDb, OSIRIS-REX.  General technique concepts added to generate hierarchy by SMR. This is a work in progress, please add comments and suggestions in the GitHub issue tracker. Some of the definitions got lost in transfer from spreadsheet compilations to SKOS, I've been reviewing and cleaning up manually, I'm about half way through.
+[HTML view of Analytical Techniques Merged vocabulary draft]( https://smrgeoinfo.github.io/vocabulary/geochemistry/html/AnalyticalTechniqueMerg2.html)
+
+## GeoXAnalyticalTechnique.ttl
+SKOS vocabualary, serialized using Turtle. Based on Geo-X spreadsheet from Marthe Klöcking, with some general categories added to fill out the hierarchy. This is input to AnalyticalTechniqueMerg2.ttl.
+
+
+## pages branch 
+
+### scripts
+https://github.com/smrgeoinfo/vocabulary/tree/pages/scripts
+Shell script and python code from Dave Vieglais. Generates Markdown view of the SKOS, and then renders that to html using quarto. To run you'll need a python environment with click and rdflib loaded. Instructions at https://github.com/isamplesorg/isamplesorg.github.io/blob/main/README.md are helpful. The html gets put in the html folder in the appropriate vocabulary subfolder. The scripts access the vocabulary using http from the github repository.  To run check out the repo, create a branch for your work, load your python environment, run the .sh script (in windows you might need to get WSL (Windows Subsystem for Linux) running, (https://linuxhint.com/run-sh-file-windows/ might be helpful). Then push changes to your branch (or fork if permissions don't allow). If it looks good, put in a pull request to merge into master.
+
+
 # lithology
 
 ## GSQ vocabulary (lithology.ttl) 
@@ -20,15 +38,3 @@ skos:broader and skos:narrower relations in the RockName namespace denote a subs
 
 ## GSO_Geologic_Rock_Material.ttl
 This is an owl ontology module in the GSO ontology, with hand-sample scale material types represented as owl:Class.  Hierarchy is represented with owl:subClassOf relations. This classification is inherited from the CGI Simple_Lithology vocabulary (some info at 10.5281/zenodo.7412250.), with the skos:Concept converted to owl:Class, and skos:broader converted to owl:subClassOf. The top Concept is gsog:Rock_Material, which is imported from another ontology module in the GSO ontology (DOI: 10.5281/zenodo.4750707).   Some classes have been added based on requirements discovered working with the Loop3D and other projects. There are ~300 classes. Sources for definitions are cited with dcterms:source. Hosted on Github: https://github.com/Loop3D/GKM/blob/master/Loop3D-GSO/Modules/GSO-Geologic_Rock_Material.ttl
-
-# Geochemistry folder
-contains development for analytical techniques in geochemistry (work started 2/2023).
-
-## AnalyticalTechniqueMerg2.ttl
-SKOS vocabualary, serialized using Turtle.  Merged analytical techniques from GeoX, GeoRock, PetDb, OSIRIS-REX.  General technique concepts added to generate hierarchy by SMR. This is a work in progress, please add comments and suggestions in the GitHub issue tracker. Some of the definitions got lost in transfer from spreadsheet compilations to SKOS, I've been reviewing and cleaning up manually, I'm about half way through.
-
-## GeoXAnalyticalTechnique.ttl
-SKOS vocabualary, serialized using Turtle. Based on Geo-X spreadsheet from Marthe Klöcking, with some general categories added to fill out the hierarchy. This is input to AnalyticalTechniqueMerg2.ttl.
-
-# scripts
-shell script and python code from Dave Vieglais. Generates Markdown view of the SKOS, and then renders that to html using quarto. To run you'll need a python environment with click and rdflib loaded. Instructions at https://github.com/isamplesorg/isamplesorg.github.io/blob/main/README.md are helpful. The html gets put in the html folder in the appropriate vocabulary subfolder. The scripts access the vocabulary using http from the github repository.  To run check out the repo, create a branch for your work, load your python environment, run the .sh script (in windows you might need to get WSL (Windows Subsystem for Linux) running, (https://linuxhint.com/run-sh-file-windows/ might be helpful). Then push changes to your branch (or fork if permissions don't allow). If it looks good, put in a pull request to merge into master.
