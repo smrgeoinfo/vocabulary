@@ -51,7 +51,7 @@ inst:analyticalinstrument
   dcterms:source "add top concept" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Analytical Instrument"@en ;
-  skos:definition "top concept for instruments"@en ;
+  skos:definition "Any instrument"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Analytical Instrument"@en ;
   skos:topConceptOf analt:instrument ;
@@ -246,7 +246,7 @@ inst:fluorescencemicroscope
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Fluorescence Microscope"@en ;
   skos:broader inst:microscope ;
-  skos:definition ""@en ;
+  skos:definition "Microscope equiped with light source to induce fluorescence in a sample being observed at high magnification."@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Fluorescence Microscope"@en ;
 .
@@ -286,7 +286,7 @@ inst:gaschromatographyflameionizationdetector
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gas Chromatography Flame Ionization Detector"@en ;
   skos:broader inst:gaschromatographycolumn ;
-  skos:definition ""@en ;
+  skos:definition "A gas chromatography analysis system that uses a flame ionization detector to analyze the eluate"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Gas Chromatography Flame Ionization Detector"@en ;
 .
@@ -296,7 +296,7 @@ inst:gaschromatographymassspectrometer
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gas Chromatography Mass Spectrometer"@en ;
   skos:broader inst:gaschromatographycolumn ;
-  skos:definition ""@en ;
+  skos:definition "A gas chromatography analysis system that uses a mass spectrometer to analyze the eluate"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Gas Chromatography Mass Spectrometer"@en ;
 .
@@ -306,7 +306,7 @@ inst:gaschromatographythermalconductivitydetector
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gas Chromatography Thermal Conductivity Detector"@en ;
   skos:broader inst:gaschromatographycolumn ;
-  skos:definition ""@en ;
+  skos:definition "A gas chromatography analysis system that uses a thermal conductivity detector to analyze the eluate"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Gas Chromatography Thermal Conductivity Detector"@en ;
 .
@@ -473,8 +473,8 @@ inst:pyrolysisgaschromatographyflameionizationdetector
   dcterms:source "method instruments" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Pyrolysis Gas Chromatography Flame Ionization Detector"@en ;
-  skos:broader inst:gaschromatographycolumn ;
-  skos:definition ""@en ;
+  skos:broader inst:gaschromatographyflameionizationdetector ;
+  skos:definition "A gas chromatography analysis system that uses a pyrolysis technique to process sample to generate gas that is introducted into the chromatography column, and uses a flame ionization detector to analyze the eluate"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Pyrolysis Gas Chromatography Flame Ionization Detector"@en ;
 .
@@ -483,8 +483,8 @@ inst:pyrolysisgaschromatographymassspectrometer
   dcterms:source "method instruments" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Pyrolysis Gas Chromatography Mass Spectrometer"@en ;
-  skos:broader inst:gaschromatographycolumn ;
-  skos:definition ""@en ;
+  skos:broader inst:gaschromatographymassspectrometer ;
+  skos:definition "A gas chromatography analysis system that uses a pyrolysis technique to process sample to generate gas that is introducted into the chromatography column, and uses a mass spectrometer to analyze the eluate"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Pyrolysis Gas Chromatography Mass Spectrometer"@en ;
 .
@@ -535,7 +535,7 @@ inst:secondaryionmassspectrometer
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Secondary Ion Mass Spectrometer"@en ;
   skos:broader inst:massspectrometer ;
-  skos:definition ""@en ;
+  skos:definition "A mass spectrometer that includes and ion gun that generates a beam of 5- to 20-keV ions used to bombard a sample surface, causing the surface layer of atoms of the sample to be stripped (sputtered) off, largely as neutral atoms. A small fraction, however, forms as positive (or negative) secondary ions that are drawn into the mass analyzer part of the system for analysis. The primary ion-beam diameter ranges from 0.3 to 5 mm. Double-focusing, single-focusing, time-of-flight, and quadrupole mass analyzers are used for mass determination. Typical transducers for SIMS are electron multipliers, Faraday cups, and imaging detectors. Used for general surface analysis and for depth profiling (Skoog, Holler & Crouch, p. 549)"@en ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Secondary Ion Mass Spectrometer"@en ;
 .
@@ -780,7 +780,7 @@ meth:analyticalmethod
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Analytical method"@en ;
   skos:altLabel "Analytical technique"@en ;
-  skos:definition "top concept for methods"@en ;
+  skos:definition "Any method."@en ;
   skos:inScheme analt:method ;
   skos:notation "xGT" ;
   skos:prefLabel "Analytical method"@en ;
@@ -875,7 +875,7 @@ meth:broadbeamxrayspectrometry
   rdfs:label "Broad beam X-ray spectrometry"@en ;
   skos:altLabel "BROAD BEAM ANALYSIS"@en ;
   skos:broader meth:xrayspectrometry ;
-  skos:definition "x"@en ;
+  skos:definition "Technique to induce x-ray emission using a broad (large diameter) ion or electron beam as the excitation. [inferred from https://inis.iaea.org/collection/NCLCollectionStore/_Public/30/060/30060365.pdf, but not really clear what is meant here...]"@en ;
   skos:inScheme analt:method ;
   skos:notation "XRBB" ;
   skos:prefLabel "Broad beam X-ray spectrometry"@en ;
@@ -896,7 +896,7 @@ meth:capillaryelectrophoresis
   dcterms:source "DFG" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Capillary Electrophoresis"@en ;
-  skos:broader wrkf:electromigrationtechnique ;
+  skos:broader meth:analyticalmethod ;
   skos:definition "Separation method based solely on the differences in the electrophoretic mobilities of charged species in capillaries. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111) An electrokinetic separation method performed in submillimeter diameter capillaries or micro- and nanofluidic channels. Sample is introduced into a capillary. The migration of the analytes is initiated by an electric field applied between the source and destination vials. In the most common mode, all ions, positive or negative, are pulled through the capillary in the same direction by electroosmotic flow. The analytes separate as they migrate due to their electrophoretic mobility, and are detected near the outlet end of the capillary. The output of the detector is sent to a data output and handling device such as an integrator or computer. The data is displayed as an electropherogram, which reports detector response as a function of time. Separated chemical compounds appear as peaks with different migration times in an electropherogram."@en ;
   skos:inScheme analt:workflow ;
   skos:notation "CE" ;
@@ -1138,7 +1138,7 @@ meth:electricalconductivitymeasurement
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electrical Conductivity Measurement"@en ;
   skos:broader meth:electrochemicaltechniques ;
-  skos:definition ""@en ;
+  skos:definition "Methods used to measure the electrical conductivity of a sample in an electrochemistry cell."@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Electrical Conductivity Measurement"@en ;
 .
@@ -1161,7 +1161,7 @@ meth:electrochemicaltechniques
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electrochemical Techniques"@en ;
   skos:broader meth:analyticalmethod ;
-  skos:definition ""@en ;
+  skos:definition "Techniques that use electron movement in an oxidation or reduction reaction at a polarized electrode surface to determin chemical properties of an analyte. Each analyte is oxidized or reduced at a specific potential and the current measured is proportional to concentration. Electrochemistry is widely used for measurement of a wide range of analytes. (Bhavik A. Patel, in Electrochemistry for Bioanalysis, 2020)"@en ;
   skos:inScheme analt:method ;
   skos:notation "xEC" ;
   skos:prefLabel "Electrochemical Techniques"@en ;
@@ -1625,7 +1625,7 @@ meth:geochronology40ar39ar
   rdfs:label "40Ar-39Ar geochronology"@en ;
   skos:altLabel "40Ar/39Ar geochronology and thermochronology"@en ;
   skos:broader meth:geochronology ;
-  skos:definition ""@en ;
+  skos:definition "determination of cooling age of a sample through one of several workflows.  All the workflows involve irradiating the sample to produce Ar39 from K39, and then measuring the ratio of Ar40 to Ar39 in the irradiated sample. The Ar39 is a proxy for the potassium concentration, allowing determination of the temporal duration of K decay to accumulate radiogenic Ar since cooling of the sample below argon retention temperature."@en ;
   skos:inScheme analt:method ;
   skos:notation "ARGT" ;
   skos:prefLabel "40Ar-39Ar geochronology"@en ;
@@ -2050,7 +2050,7 @@ meth:magneticfieldmeasurement
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Magnetic Field Measurement "@en ;
   skos:broader meth:analyticalmethod ;
-  skos:definition ""@en ;
+  skos:definition "Techniques for measuring magnetic field. [TBD--what are the actual techniques...]"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Magnetic Field Measurement "@en ;
 .
@@ -2122,7 +2122,7 @@ meth:microscopy
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Microscopy"@en ;
   skos:broader meth:analyticalmethod ;
-  skos:definition ""@en ;
+  skos:definition "Observation of samples using visible light optical systems"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Microscopy"@en ;
 .
@@ -2256,8 +2256,8 @@ meth:neutronirradiationnoblegasmassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Neutron irradiation noble gas mass spectrometry"@en ;
   skos:altLabel "NOBLE-GAS METHOD"@en ;
-  skos:broader meth:raregasmassspectrometry ;
-  skos:definition "hasPart"@en ;
+  skos:broader meth:noblegasmassspectrometry ;
+  skos:definition "Techique that exposes sample to neutron-irradiation to produce noble gas isotopes from halogen isotopes within the sample. NI-NGMS requires only small sample masses (~1 mg). The method provides information on the abundances and ratios of the halogen (Cl, Br and I) and the noble gas (Ar, Kr and Xe) elements. (OSIRIS-REx confluence). Technique to measure the abundances of Cl, K, Br, I, Ca, Ba and U, in which samples are exposed to a high neutron fluence to produce nucleogenic noble gas isotopes in abundances proportional to those of the parent elements.  (https://goldschmidtabstracts.info/2014/2145.pdf).  The noble gas isotopes are liberated from the sample by heating and analyzed with a mass spectrometer (https://www.sciencedirect.com/science/article/pii/S0009254116302339)"@en ;
   skos:inScheme analt:method ;
   skos:notation "NINGMS" ;
   skos:prefLabel "Neutron irradiation noble gas mass spectrometry"@en ;
@@ -2282,7 +2282,7 @@ meth:noblegasmassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Noble Gas Mass Spectrometry"@en ;
   skos:broader meth:raregasmassspectrometry ;
-  skos:definition ""@en ;
+  skos:definition "Noble gases are extracted from samples by heating in a vacuum with an IR laser or in a heated crucible. The extracted gases are purified using hot metals or alloys (and cold traps). Noble gas elements can be separated using cryogenic traps and sequentially analyzed by separation of the ions according to their mass/charge ratio and a collection block consisting of single or multiple Faraday cups and/or electron multipliers.  (OSIRIS-REx confluence)"@en ;
   skos:inScheme analt:method ;
   skos:notation "NGMS" ;
   skos:prefLabel "Noble Gas Mass Spectrometry"@en ;
@@ -2453,7 +2453,7 @@ meth:penfieldmethodanalysis
   rdfs:label "Penfield method analysis"@en ;
   skos:altLabel "PENFIELD METHOD"@en ;
   skos:broader meth:wetchemistry ;
-  skos:definition "x"@en ;
+  skos:definition "[Penfield was mineralogist at Yale, late 1800-1906, developed methods for analyzing fluorine. Can't tell exactly what this technique is supposed to be]"@en ;
   skos:inScheme analt:method ;
   skos:notation "PEN" ;
   skos:prefLabel "Penfield method analysis"@en ;
@@ -2464,7 +2464,7 @@ meth:phmeasurement
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "pH Measurement"@en ;
   skos:broader meth:electrochemicaltechniques ;
-  skos:definition ""@en ;
+  skos:definition "Measurement of hydrogen ion concentration in a liquid. Various techniques are used."@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "pH Measurement"@en ;
 .
@@ -2617,7 +2617,6 @@ meth:potentiometry
   rdfs:label "Potentiometry"@en ;
   skos:broader meth:electrochemicaltechniques ;
   skos:definition "Technique in which the potential difference between an indicator electrode and a reference electrode is measured. Application: gas-sensing electrodes (e.g., for CO2, NH3, NOx), determination of oxygen in the gas phase (lambda probe) or ions in water solutions (pH sensitive electrodes, ion-sensitive electrodes). (Source: IUPAC;  https://doi.org/10.1515/pac-2018-0109)."@en ;
-  skos:definition "x"@en ;
   skos:inScheme analt:method ;
   skos:notation "POT" ;
   skos:prefLabel "Potentiometry"@en ;
@@ -2707,20 +2706,10 @@ meth:quantitativereflectanceimagingsystem
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Quantitative Reflectance Imaging System"@en ;
   skos:broader meth:imagingtechniques ;
-  skos:definition ""@en ;
+  skos:definition "Images acquired for a particular spectral channel [need more information]"@en ;
   skos:inScheme analt:method ;
   skos:notation "QRIS" ;
   skos:prefLabel "Quantitative Reflectance Imaging System"@en ;
-.
-meth:quantitatvechemicalanalysis
-  rdf:type skos:Concept ;
-  dcterms:source "add general method categories" ;
-  rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Quantitatve chemical analysis"@en ;
-  skos:broader meth:analyticalmethod ;
-  skos:definition ""@en ;
-  skos:inScheme analt:method ;
-  skos:prefLabel "Quantitatve chemical analysis"@en ;
 .
 meth:radiochemicalneutronactivationanalysis
   rdf:type skos:Concept ;
@@ -2759,7 +2748,7 @@ meth:raregasmassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Rare-gas mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
-  skos:definition "x"@en ;
+  skos:definition "Mass spectrometry technique designed to analyze 'rare gas'; guess this means He, Ne, Ar, Kr, Xe (https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf).  This category specifies the observation result, not the technique"@en ;
   skos:inScheme analt:method ;
   skos:notation "MSRG" ;
   skos:prefLabel "Rare-gas mass spectrometry"@en ;
@@ -2779,8 +2768,8 @@ meth:resonanceionizationtimeofflightnoblegasmassspectrometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Resonance ionization time of flight noble gas mass spectrometry"@en ;
-  skos:broader meth:raregasmassspectrometry ;
-  skos:definition ""@en ;
+  skos:broader meth:noblegasmassspectrometry ;
+  skos:definition "Noble gas mass spectrometry technique that atomizes and ionizes samples using laser resonance to generate a plasma, and a time-of-flight mass analyzer."@en ;
   skos:inScheme analt:method ;
   skos:notation "RI-TOF-NGMS" ;
   skos:prefLabel "Resonance ionization time of flight noble gas mass spectrometry"@en ;
@@ -2856,7 +2845,7 @@ meth:secondaryneutralmassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Secondary neutral mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
-  skos:definition ""@en ;
+  skos:definition "Mass spectrometer that separates the processes of emission and ionisation of sputtered particles are strictly separated. The sputtered neutral particles, atoms and atomic clusters are detected by a mass spectrometer after post sputtering ionisation, which can be performed by an electron beam, electron gas or laser beam. Of these, the most efficient way to ionise the emitted neutral particles is laser beam ionisation. (https://www.spectroscopyeurope.com/system/files/pdf/SNMS_21_4.pdf) Laser ionization mass nanoscope or LIMAS, a nano-beam time-of-flight secondary neutral mass spectrometry system. The primary ion beam column is a Ga liquid metal ion source, with aberration correction optics can generate a primary ion beam was down to 40 nm in diameter under a current of 100 pA with an energy of 20 keV. The sputtered neutral particles are ionized by a femtosecond laser. The ions are introduced into a multi-turn mass analyzer. This instrument would be effective for ultrahigh sensitive analysis of nanosized particles such as return samples from asteroids, comets, and planets. (Ebata, Ishihara, Uchino, Itose;  http://dx.doi.org/10.1002/sia.4857Laser ionization mass nanoscope or LIMAS, a nano-beam time-of-flight secondary neutral mass spectrometry system. The primary ion beam column is a Ga liquid metal ion source, with aberration correction optics can generate a primary ion beam was down to 40 nm in diameter under a current of 100 pA with an energy of 20 keV. The sputtered neutral particles are ionized by a femtosecond laser. The ions are introduced into a multi-turn mass analyzer. This instrument would be effective for ultrahigh sensitive analysis of nanosized particles such as return samples from asteroids, comets, and planets. (Ebata, Ishihara, Uchino, Itose;  http://dx.doi.org/10.1002/sia.4857"@en ;
   skos:inScheme analt:method ;
   skos:notation "SNMS" ;
   skos:prefLabel "Secondary neutral mass spectrometry"@en ;
@@ -2867,7 +2856,7 @@ meth:seismicvelocitiesandrockultrasonicelasticconstants
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Seismic Velocities and Rock Ultrasonic Elastic Constants"@en ;
   skos:broader meth:physicalpropertymeasurementtechniques ;
-  skos:definition ""@en ;
+  skos:definition "The compression (p) and shear (s) wave velocities in rock may be determined using a pulse generator and p and s-wave ultrasonic transducers.  The transducers are placed on opposite sides of a rock slab and the transit time is measured. (OSIRIS-REx confluence)"@en ;
   skos:inScheme analt:method ;
   skos:notation "SV-RUEC" ;
   skos:prefLabel "Seismic Velocities and Rock Ultrasonic Elastic Constants"@en ;
@@ -2915,7 +2904,7 @@ meth:solidsourcemassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Solid source mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
-  skos:definition "x"@en ;
+  skos:definition "technique for analysis of elements or isotopes in a solid material. Doesn't specify anything about technique"@en ;
   skos:inScheme analt:method ;
   skos:notation "SOSMS" ;
   skos:prefLabel "Solid source mass spectrometry"@en ;
@@ -2981,7 +2970,8 @@ meth:sphericalcellbulkthermalconductivityanalysis
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Spherical Cell Bulk Thermal Conductivity Analysis"@en ;
   skos:broader meth:thermalanalysis ;
-  skos:definition ""@en ;
+  skos:definition "Technique for measuring thermal conductivity, results based on a finite element model of observation data."@en ;
+  skos:editorialNote "apparently a new technique being developed by an OSIRIS-REx sample analysis workgroup team, need more information to characterize. No hits on Google."@en ;
   skos:inScheme analt:method ;
   skos:notation "SCBTCA" ;
   skos:prefLabel "Spherical Cell Bulk Thermal Conductivity Analysis"@en ;
@@ -2992,7 +2982,7 @@ meth:steppedheatingcarbonandnitrogenisotopiccompositions
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Stepped Heating Carbon and Nitrogen Isotopic Compositions"@en ;
   skos:broader meth:isotoperatiomassspectrometry ;
-  skos:definition ""@en ;
+  skos:definition "Stepped combustion technique on the FINESSE  highly sensitive mass spectrometric complex (a single gas extraction and purification system coupled with three mass spectrometers operating in static mode). Sample is crushed to powder and loaded in the mass spectrometer extraction system, then heated incrementally (step heating) from 200 to 1400 degree C in the presence of oxygen derived from thermal decomposition, at 930 degree C, of CuO present in a separately heated unit with an inlet into the furnace, resulting in the liberation of individual components. Carbon (in the form of CO2) and molecular nitrogen are cryogenically separated from each other before analysis. Simultaneous analysis is possible by using multiple mass spectrometers connected to a common extraction line: two magnetic sector mass spectrometers for determination of carbon isotopes and nitrogen abundance, and a quadrupole mass spectrometer for nitrogen isotopes. (https://doi.org/10.1016/S0012-821X(02)00592-7)"@en ;
   skos:inScheme analt:method ;
   skos:notation "FINESSE" ;
   skos:prefLabel "Stepped Heating Carbon and Nitrogen Isotopic Compositions"@en ;
@@ -3003,7 +2993,7 @@ meth:structuredlightscanning
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Structured Light Scanning"@en ;
   skos:broader meth:imagingtechniques ;
-  skos:definition ""@en ;
+  skos:definition "Determination of the three-dimensional shape of an object using projected light patterns, a camera system, and digital processing. The light source from the scanner head projects a series of parallel patterns onto the scan target. When light projects onto the object's surface, the patterns become distorted. The cameras capture these images and send them to the 3D scanning software for processing."@en ;
   skos:inScheme analt:method ;
   skos:notation "SLS" ;
   skos:prefLabel "Structured Light Scanning"@en ;
@@ -3091,7 +3081,7 @@ meth:thermogravimetryanddifferentialanalyzer
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Thermogravimetry and Differential analyzer"@en ;
   skos:broader meth:thermalanalysis ;
-  skos:definition "x"@en ;
+  skos:definition "[two methods? ] Thermogravimetric analysis is a method in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction). The thermogravimetric data collected from a thermal reaction is compiled into a plot of mass or percentage of initial mass on the y axis versus either temperature or time on the x-axis. This plot can be used for materials characterization through analysis of characteristic decomposition patterns.   Differential thermal analysis (DTA) is a technique in which the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference. This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample. DTA is similar to differential scanning calorimetry."@en ;
   skos:inScheme analt:method ;
   skos:notation "TDTA" ;
   skos:prefLabel "Thermogravimetry and Differential analyzer"@en ;
@@ -3117,7 +3107,7 @@ meth:totalorganiccarbonanalysis
   dcterms:source "add instrument related methods" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Total Organic Carbon Analysis"@en ;
-  skos:broader meth:quantitatvechemicalanalysis ;
+  skos:broader meth:analyticalmethod ;
   skos:definition "Total Organic Carbon (TOC) analysis is a well-defined and commonly used methodology that measures the carbon content of dissolved and particulate organic matter present in water.  E.g. https://nepis.epa.gov/Exe/ZyPDF.cgi/P100KJHK.PDF?Dockey=P100KJHK.PDF   [Summary provided by the EPA] (Source: NASA; UUID: 58ac7544-7271-4957-a70a-ea7c1a1ae094) {@en}"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Total Organic Carbon Analysis"@en ;
@@ -3184,7 +3174,7 @@ meth:visiblelightmicroscopy
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Visible Light Microscopy"@en ;
   skos:broader meth:microscopy ;
-  skos:definition ""@en ;
+  skos:definition "observation of samples at high magnification using transmitted or reflected light in human-visible part of the spectrum."@en ;
   skos:inScheme analt:method ;
   skos:notation "VLM" ;
   skos:prefLabel "Visible Light Microscopy"@en ;
@@ -3209,7 +3199,7 @@ meth:voltammetry
   skos:altLabel "INVERSION VOLT-AMPEROMETRY"@en ;
   skos:altLabel "VOLTAMETRY"@en ;
   skos:broader meth:electrochemicaltechniques ;
-  skos:definition "x spelling"@en ;
+  skos:definition "Voltammetry is based on the measurement of the current that develops in an electrochemical cell under conditions where concentration polarization exists. Voltammetry comprises a group of electroanalytical methods in which information about the analyte is obtained by measuring current as a function of applied potential under conditions that promote polarization of an indicator, or working, electrode. [Skooge, Holler & Crouch, p. 653)."@en ;
   skos:inScheme analt:method ;
   skos:notation "VOLT" ;
   skos:prefLabel "Voltammetry"@en ;
@@ -3269,7 +3259,7 @@ meth:xraycomputedtomography
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "X-ray computed tomography"@en ;
   skos:broader meth:xrayimaging ;
-  skos:definition ""@en ;
+  skos:definition "2D Radiograph collected as a stack of planar surfaces by focusing  x-rays at progressively greater depth throught the sample. The stack is then used for the reconstruction process to create a 3D volume."@en ;
   skos:inScheme analt:method ;
   skos:notation "XCT" ;
   skos:prefLabel "X-ray computed tomography"@en ;
@@ -3390,7 +3380,7 @@ wrkf:analyticalseparation
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Analytical separation"@en ;
   skos:broader wrkf:workflowcomponent ;
-  skos:definition ""@en ;
+  skos:definition "Workflow component used to isolate some part of a sample for further analysis"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Analytical separation"@en ;
 .
@@ -3400,7 +3390,7 @@ wrkf:bioanalyticalsamplepreparation
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Bioanalytical sample preparation"@en ;
   skos:broader wrkf:samplepreparation ;
-  skos:definition ""@en ;
+  skos:definition "workflow component used in proparation of biological samples for further analysis"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Bioanalytical sample preparation"@en ;
 .
@@ -3450,21 +3440,12 @@ wrkf:electromigrationtechnique
   rdf:type skos:Concept ;
   dcterms:source "add parent workflow component" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Electromigration Technique"@en ;
-  skos:broader meth:analyticalmethod ;
-  skos:definition ""@en ;
-  skos:inScheme analt:workflow ;
-  skos:prefLabel "Electromigration Technique"@en ;
-.
-wrkf:extraction
-  rdf:type skos:Concept ;
-  dcterms:source "add parent workflow component" ;
-  rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Extraction"@en ;
+  rdfs:label "Electrokinetic separation"@en ;
+  skos:altLabel "Electromigration techniques"@en ;
   skos:broader wrkf:analyticalseparation ;
-  skos:definition ""@en ;
+  skos:definition "a technique to transport charged particles and fluid in an electric potential by applying an electrical current from direct power source to electrodes placed in a sample (typically liquid), resulting in migration of ions. Although many types of migrations occur in tandem with the current there are two driving migrations within electrokinetics; ionic migration and electrophoresis. The migration of the analytes is initiated by an electric field applied between the source and destination vials. In the most common mode, all ions, positive or negative, are pulled through a conductive medium in the same direction by electroosmotic flow. The analytes separate as they migrate due to their electrophoretic mobility. (https://iopscience.iop.org/article/10.1088/1757-899X/226/1/012075/pdf, https://en.wikipedia.org/wiki/Electrokinetic_remediation, https://doi.org/10.1515/pac-2017-0111) Most common application seems to be remmoval of contaminants in soil."@en ;
   skos:inScheme analt:workflow ;
-  skos:prefLabel "Extraction"@en ;
+  skos:prefLabel "Electrokinetic separation"@en ;
 .
 wrkf:gaschromatographyseparation
   rdf:type skos:Concept ;
@@ -3538,7 +3519,7 @@ wrkf:samplepreparation
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Sample preparation"@en ;
   skos:broader wrkf:workflowcomponent ;
-  skos:definition ""@en ;
+  skos:definition "workflow components that involve physical processes to prepare a sample for analysis. E.g. thin sectioning, polishing surface."@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Sample preparation"@en ;
 .
@@ -3547,7 +3528,7 @@ wrkf:solidphaseextraction
   dcterms:source "IUPAC" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Solid-Phase Extraction "@en ;
-  skos:broader wrkf:extraction ;
+  skos:broader wrkf:analyticalseparation ;
   skos:definition "Extraction of analytes from a gas, liquid, or fluid by transfer to a solid sorbent. (Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)"@en ;
   skos:inScheme analt:workflow ;
   skos:notation "SPE" ;
@@ -3558,7 +3539,7 @@ wrkf:workflowcomponent
   dcterms:source "add parent workflow component" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Workflow Component"@en ;
-  skos:definition "top concept for scheme"@en ;
+  skos:definition "Any workflow"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Workflow Component"@en ;
   skos:topConceptOf analt:workflow ;
