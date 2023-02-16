@@ -2050,7 +2050,7 @@ exhaustively convert an analyte from one oxidation state to another at
 the working electrode. In these experiments, the total current passed
 is measured directly or indirectly to determine the number of
 electrons passed. Knowing the number of electrons passed, extract the
-concentration of the analyte (Timothée Houssin, ... Vincent Senez, in
+concentration of the analyte (Timothee Houssin, ... Vincent Senez, in
 Waterborne Pathogens (Second Edition), 2021)
 
 - **Source:**
