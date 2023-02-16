@@ -7,6 +7,8 @@ SCRIPT_FOLDER="$(dirname ${0})"
 SOURCE_BASE="https://raw.githubusercontent.com/smrgeoinfo/vocabulary/main/geochemistry/"
 SOURCES=("GeoXAnalyticalTechnique.ttl"  "AnalyticalTechniqueMerg2.ttl" )
 DEST_FOLDER="../geochemistry/html/"
+
+git switch pages  #markdown and html should be on the pages branch
 mkdir -p "${DEST_FOLDER}"
 for src in ${SOURCES[@]}; do
     fname="${src%%.*}.md"
