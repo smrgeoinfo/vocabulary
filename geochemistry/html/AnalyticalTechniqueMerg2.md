@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-16T15:48:07.357161+00:00"
+This file generated at: "2023-02-17T08:24:26.516940+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -3820,7 +3820,7 @@ IUPAC
 
 - Gas chromatography combustion isotope ratio mass spectrometry
 (GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the realative ratio of light stable isotopes of carbon
+ascertain the relative ratio of light stable isotopes of carbon
 (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
 individual compounds separated from often complex mixtures of
 components. the sample solution is injected into the GC inlet where it
@@ -3831,15 +3831,16 @@ of their relative interaction with the coating of the column
 (stationary phase) and the carrier gas (mobile phase). Carbon and
 nitrogen compounds eluting from the chromatographic column then pass
 through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 ºC) where they are oxidatively combusted. This
-is followed by a reduction reactor (an alumina tube containing three
-Cu wires maintained at 600 ºC) to reduce any nitrogen oxides to
-nitrogen. For hydrogen and oxygen a high temperature thermal
-conversion reactor is required. Water is then removed in a water
-separator by passing the gas stream through a tube constructed from a
-water permeable nafion membrane. The sample is then introduced into
-the ion source of the mass analyzer by an open split interface, and
-particles with m/z ratios of interest are counted by detectors..
+wires maintained at 940 degree C) where they are oxidatively
+combusted. This is followed by a reduction reactor (an alumina tube
+containing three Cu wires maintained at 600 degree C) to reduce any
+nitrogen oxides to nitrogen. For hydrogen and oxygen a high
+temperature thermal conversion reactor is required. Water is then
+removed in a water separator by passing the gas stream through a tube
+constructed from a water permeable nafion membrane. The sample is then
+introduced into the ion source of the mass analyzer by an open split
+interface, and particles with m/z ratios of interest are counted by
+detectors..
 
 - **Source:**
 O-REx techniques
@@ -3942,7 +3943,7 @@ O-REx techniques,
 
 - Gas chromatography combustion isotope ratio mass spectrometry
 (GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the realative ratio of light stable isotopes of carbon
+ascertain the relative ratio of light stable isotopes of carbon
 (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
 individual compounds separated from often complex mixtures of
 components. the sample solution is injected into the GC inlet where it
@@ -3953,15 +3954,16 @@ of their relative interaction with the coating of the column
 (stationary phase) and the carrier gas (mobile phase). Carbon and
 nitrogen compounds eluting from the chromatographic column then pass
 through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 ºC) where they are oxidatively combusted. This
-is followed by a reduction reactor (an alumina tube containing three
-Cu wires maintained at 600 ºC) to reduce any nitrogen oxides to
-nitrogen. For hydrogen and oxygen a high temperature thermal
-conversion reactor is required. Water is then removed in a water
-separator by passing the gas stream through a tube constructed from a
-water permeable nafion membrane. The sample is then introduced into
-the ion source of the mass analyzer by an open split interface, and
-particles with m/z ratios of interest are counted by detectors..
+wires maintained at 940 degree C) where they are oxidatively
+combusted. This is followed by a reduction reactor (an alumina tube
+containing three Cu wires maintained at 600 degree C) to reduce any
+nitrogen oxides to nitrogen. For hydrogen and oxygen a high
+temperature thermal conversion reactor is required. Water is then
+removed in a water separator by passing the gas stream through a tube
+constructed from a water permeable nafion membrane. The sample is then
+introduced into the ion source of the mass analyzer by an open split
+interface, and particles with m/z ratios of interest are counted by
+detectors..
 
 - **Source:**
 O-REx techniques
@@ -5007,7 +5009,7 @@ IUPAC
 
 - Gas chromatography combustion isotope ratio mass spectrometry
 (GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the realative ratio of light stable isotopes of carbon
+ascertain the relative ratio of light stable isotopes of carbon
 (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
 individual compounds separated from often complex mixtures of
 components. the sample solution is injected into the GC inlet where it
@@ -5018,15 +5020,16 @@ of their relative interaction with the coating of the column
 (stationary phase) and the carrier gas (mobile phase). Carbon and
 nitrogen compounds eluting from the chromatographic column then pass
 through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 ºC) where they are oxidatively combusted. This
-is followed by a reduction reactor (an alumina tube containing three
-Cu wires maintained at 600 ºC) to reduce any nitrogen oxides to
-nitrogen. For hydrogen and oxygen a high temperature thermal
-conversion reactor is required. Water is then removed in a water
-separator by passing the gas stream through a tube constructed from a
-water permeable nafion membrane. The sample is then introduced into
-the ion source of the mass analyzer by an open split interface, and
-particles with m/z ratios of interest are counted by detectors..
+wires maintained at 940 degree C) where they are oxidatively
+combusted. This is followed by a reduction reactor (an alumina tube
+containing three Cu wires maintained at 600 degree C) to reduce any
+nitrogen oxides to nitrogen. For hydrogen and oxygen a high
+temperature thermal conversion reactor is required. Water is then
+removed in a water separator by passing the gas stream through a tube
+constructed from a water permeable nafion membrane. The sample is then
+introduced into the ion source of the mass analyzer by an open split
+interface, and particles with m/z ratios of interest are counted by
+detectors..
 
 - **Source:**
 O-REx techniques
@@ -5129,7 +5132,7 @@ O-REx techniques,
 
 - Gas chromatography combustion isotope ratio mass spectrometry
 (GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the realative ratio of light stable isotopes of carbon
+ascertain the relative ratio of light stable isotopes of carbon
 (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
 individual compounds separated from often complex mixtures of
 components. the sample solution is injected into the GC inlet where it
@@ -5140,15 +5143,16 @@ of their relative interaction with the coating of the column
 (stationary phase) and the carrier gas (mobile phase). Carbon and
 nitrogen compounds eluting from the chromatographic column then pass
 through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 ºC) where they are oxidatively combusted. This
-is followed by a reduction reactor (an alumina tube containing three
-Cu wires maintained at 600 ºC) to reduce any nitrogen oxides to
-nitrogen. For hydrogen and oxygen a high temperature thermal
-conversion reactor is required. Water is then removed in a water
-separator by passing the gas stream through a tube constructed from a
-water permeable nafion membrane. The sample is then introduced into
-the ion source of the mass analyzer by an open split interface, and
-particles with m/z ratios of interest are counted by detectors..
+wires maintained at 940 degree C) where they are oxidatively
+combusted. This is followed by a reduction reactor (an alumina tube
+containing three Cu wires maintained at 600 degree C) to reduce any
+nitrogen oxides to nitrogen. For hydrogen and oxygen a high
+temperature thermal conversion reactor is required. Water is then
+removed in a water separator by passing the gas stream through a tube
+constructed from a water permeable nafion membrane. The sample is then
+introduced into the ion source of the mass analyzer by an open split
+interface, and particles with m/z ratios of interest are counted by
+detectors..
 
 - **Source:**
 O-REx techniques
@@ -6990,7 +6994,7 @@ be excited (0.1-100 keV). When the incident x-ray energy is larger
 than the electron binding energy, there is a sharp increase in
 absorption (an edge). The edge positions are related to the core
 electron that is excited. Each element has its own edge energy, and an
-element’s valence can be measured even in a heterogeneous sample.
+element's valence can be measured even in a heterogeneous sample.
 There are three main regions found on a spectrum generated by XAS data
 which are treated as separate spectroscopic techniques: 1) absorption
 threshold determined by the transition to the lowest unoccupied
@@ -7022,7 +7026,7 @@ SMR add general categories
 which an electron interacts with an incident x-ray to acquire a time
 dependent acceleration. The electron may then be promoted from a core-
 orbital to an unoccupied bound or continuum state with an intensity
-given by Fermi’s Golden Rule. By varying the energy of a
+given by Fermi's Golden Rule. By varying the energy of a
 monochromatized beam of incident photons, a spectrum of the absorption
 cross section can be generated. The probability of an excitation
 sharply increases when the energy of the incident photon reaches the
