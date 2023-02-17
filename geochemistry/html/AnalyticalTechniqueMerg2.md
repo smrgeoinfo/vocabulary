@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-17T08:24:26.516940+00:00"
+This file generated at: "2023-02-17T10:29:50.904201+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -2045,7 +2045,7 @@ exhaustively convert an analyte from one oxidation state to another at
 the working electrode. In these experiments, the total current passed
 is measured directly or indirectly to determine the number of
 electrons passed. Knowing the number of electrons passed, extract the
-concentration of the analyte (Timothée Houssin, ... Vincent Senez, in
+concentration of the analyte (Timothee Houssin, ... Vincent Senez, in
 Waterborne Pathogens (Second Edition), 2021)
 
 - **Source:**
@@ -3713,7 +3713,10 @@ Astromat
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- hasPart
+- Mass spectrometry method that uses an elemental analyzer (typically
+a pyrolysis process to extract volatile components in the sample) to
+extract the aliquots (typically as gas) to be atomized and passed to
+the mass analyzer.
 
 - **Source:**
 Astromat
@@ -3856,7 +3859,17 @@ O-REx techniques
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- hasPart
+- Isotope ratio mass spectrometry (IRMS) leverages magnetic sector
+mass spectrometry to enable high-precision measurement of the stable
+isotope content of a sample. Typical measurements target hydrogen,
+carbon, nitrogen, and oxygen analyses, although elements with masses
+up to and including sulfur can be measured. Solid, liquid, or gas
+phase samples are converted to simple gases then introduced to the
+IRMS. During analysis, an electron impact source ionizes sample-
+derived gas which is then accelerated down a flight tube, separated by
+mass, and quantified using a series of Faraday cups.
+(https://www.emsl.pnnl.gov/science/related-instrument/isotope-ratio-
+mass-spectrometry/1795)
 
 - **Source:**
 GeoRoc
@@ -3872,7 +3885,11 @@ GeoRoc
 - Child of:
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
-- hasPart
+- Isotope-Ratio mass spectrometry that extracts analytes from a sample
+using elemental analyzer with a contintuous flow of gas to be
+atomized, ionized and passed to the mass analyzer. Components: 1)
+elemental analyzer; 2) continuous flow input. 3) mass analyzer 4)
+detectors.  Analyzed aliquots are gas.
 
 - **Source:**
 Astromat, 
@@ -4902,7 +4919,10 @@ Astromat
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- hasPart
+- Mass spectrometry method that uses an elemental analyzer (typically
+a pyrolysis process to extract volatile components in the sample) to
+extract the aliquots (typically as gas) to be atomized and passed to
+the mass analyzer.
 
 - **Source:**
 Astromat
@@ -5045,7 +5065,17 @@ O-REx techniques
 - Child of:
  [`massspectrometry`](#massspectrometry)
 
-- hasPart
+- Isotope ratio mass spectrometry (IRMS) leverages magnetic sector
+mass spectrometry to enable high-precision measurement of the stable
+isotope content of a sample. Typical measurements target hydrogen,
+carbon, nitrogen, and oxygen analyses, although elements with masses
+up to and including sulfur can be measured. Solid, liquid, or gas
+phase samples are converted to simple gases then introduced to the
+IRMS. During analysis, an electron impact source ionizes sample-
+derived gas which is then accelerated down a flight tube, separated by
+mass, and quantified using a series of Faraday cups.
+(https://www.emsl.pnnl.gov/science/related-instrument/isotope-ratio-
+mass-spectrometry/1795)
 
 - **Source:**
 GeoRoc
@@ -5061,7 +5091,11 @@ GeoRoc
 - Child of:
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
-- hasPart
+- Isotope-Ratio mass spectrometry that extracts analytes from a sample
+using elemental analyzer with a contintuous flow of gas to be
+atomized, ionized and passed to the mass analyzer. Components: 1)
+elemental analyzer; 2) continuous flow input. 3) mass analyzer 4)
+detectors.  Analyzed aliquots are gas.
 
 - **Source:**
 Astromat, 
@@ -6016,7 +6050,10 @@ PetDb,
 - Child of:
  [`infraredspectrometry`](#infraredspectrometry)
 
-- hasPart
+- Composite process, with combustion of sample and infrared
+spectrographic analysis of constituents. [Need more information --
+?emission or absorption?, is light from the combution analyzed, or
+does it produce an extract that is then passed to the spectrometer? ]
 
 - **Alternate labels:**
 COMBUSTION-INFRARED ANALYSIS, 
@@ -6123,7 +6160,17 @@ SMR add general types
 - Child of:
  [`infraredopticalspectrometry`](#infraredopticalspectrometry)
 
-- hasPart
+- [might be:] The 680 degree C combustion catalytic oxidation method
+achieves total combustion of samples by heating them to 680 degree C
+in an oxygen-rich environment inside TC combustion tubes filled with a
+platinum catalyst. Since this utilizes the simple principle of
+oxidation through heating and combustion, pretreatment and post-
+treatment using oxidizing agents are unnecessary, which enhances
+operability. The carbon dioxide generated by oxidation is detected
+using an infrared gas analyzer (NDIR).
+(https://www.shimadzu.eu.com/680-%C2%B0c-combustion-catalytic-
+oxidation-method-measurement-principles; https://www.sciencedirect.com
+/science/article/abs/pii/0304420388900436)
 
 - **Source:**
 GeoRoc
@@ -6165,7 +6212,14 @@ GeoRoc
 - Child of:
  [`infraredspectrometry`](#infraredspectrometry)
 
-- hasPart
+- LECO analysis uses infrared absorption and thermal conductivity to
+measure combustion gases from sample. This process determines the
+presence and concentration of carbon, sulfur, oxygen, nitrogen or
+hydrogen. LECO analysis converts the elements from a sample into their
+oxidized form by utilizing either the gas fusion method (Hydrogen,
+Nitrogen, and Oxygen) or the combustion method (Carbon and Sulfur).
+(https://www.element.com/materials-testing-services/chemical-analysis-
+labs/leco-analysis)
 
 - **Alternate labels:**
 LECO FURNACE
@@ -6324,7 +6378,12 @@ GeoRoc
 - Child of:
  [`atomicabsorptionspectrometry`](#atomicabsorptionspectrometry)
 
-- hasPart
+- Related resource [could not find clear definition of technique]:
+Liquid-Water Isotope Analyzer uses tunable, off-axis integrated-cavity
+High-Resolution Laser Absorption Spectroscopy to measure hydrogen and
+oxygen isotopic composition (delta 18O and delta 2H) in liquid water
+samples. (https://eal.ucmerced.edu/instrumentation/water-isotope-
+analyzer; https://inis.iaea.org/search/search.aspx?orig_q=RN:43008377)
 
 - **Source:**
 GeoRoc
@@ -7752,7 +7811,26 @@ PetDb,
 - Child of:
  [`wetchemistry`](#wetchemistry)
 
-- hasPart
+- Technique for determination of empirical and molecular formulas for
+compounds that contain only carbon and hydrogen (CaHb) or carbon,
+hydrogen, and oxygen (CaHbOc). The steps for this procedure are: 1)
+Weigh a sample of the compound to be analyzed; 2) Burn the compound
+completely. 3)  H2O and CO2 are drawn through two tubes. One tube
+contains a substance that absorbs water, and the other contains a
+substance that absorbs carbon dioxide. Weigh each of these tubes
+before and after the combustion. The increase in mass in the first
+tube is the mass of H2O that formed in the combustion, and the
+increase in mass for the second tube is the mass of CO2 formed. Assume
+that all the carbon in the compound has been converted to CO2 and
+trapped in the second tube. Calculate the mass of carbon in the
+compound from the mass of carbon in the measured mass of CO2 formed.
+Assume that all of the hydrogen in the compound has been converted to
+H2O and trapped in the first tube. Calculate the mass of hydrogen in
+the compound from the mass of hydrogen in the measured mass of water.
+If the compound contains oxygen as well as carbon and hydrogen,
+calculate the mass of the oxygen by subtracting the mass of carbon and
+hydrogen from the total mass of the original sample of compound.
+(https://preparatorychemistry.com/Bishop_Combustion_Analysis.htm)
 
 - **Alternate labels:**
 COMBUSTION
