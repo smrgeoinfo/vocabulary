@@ -8,7 +8,7 @@ SKOS vocabualary, serialized using Turtle.  Merged analytical techniques from Ge
 [HTML view of Analytical Techniques Merged vocabulary draft]( https://smrgeoinfo.github.io/vocabulary/geochemistry/html/AnalyticalTechniqueMerg2.html)
 
 ### GeoXAnalyticalTechnique.ttl
-SKOS vocabualary, serialized using Turtle. Based on Geo-X spreadsheet from Marthe Klöcking, with some general categories added to fill out the hierarchy. This is input to AnalyticalTechniqueMerg2.ttl.
+SKOS vocabualary, serialized using Turtle. Based on Geo-X spreadsheet from Manja Luzi (GFZ Potsdam), with some general categories added to fill out the hierarchy. This is input to AnalyticalTechniqueMerg2.ttl.
 [HTML view of GeoX Analytical Techniques vocabulary draft]( https://smrgeoinfo.github.io/vocabulary/geochemistry/html/GeoXAnalyticalTechnique.html)
 
 ## pages branch 
