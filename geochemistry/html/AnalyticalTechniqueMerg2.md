@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-17T10:29:50.904201+00:00"
+This file generated at: "2023-02-17T11:51:18.965292+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -1263,7 +1263,7 @@ Namespace:
         - [Moisture analysis](#moistureanalysis)
         - [Point counting](#pointcounting)
     - [Particle beam excitation](#particlebeamexcitation)
-        - [Electron microscopy](#electronmicroscopy)
+        - [Electron microscopy imaging](#electronmicroscopyimaging)
             - [Backscattered electron microscopy](#backscatteredelectronmicroscopy)
             - [Transmission electron microscopy](#transmissionelectronmicroscopy)
         - [Focused ion beam-scanning microscopy](#focusedionbeamscanningmicroscopy)
@@ -1288,7 +1288,7 @@ Namespace:
     - [Photometry](#photometry)
         - [Infrared photometry](#infraredphotometry)
         - [Infrared reflectance](#infraredreflectance)
-    - [Physical property techniques](#physicalpropertymeasurementtechniques)
+    - [Physical property measurement](#physicalpropertymeasurement)
         - [Angle of Repose Measurement](#angleofreposemeasurement)
         - [Capacitance Dilatometry](#capacitancedilatometry)
         - [Compression test](#compressiontest)
@@ -1304,7 +1304,7 @@ Namespace:
             - [Induction heating analysis](#inductionheatinganalysis)
             - [Mini Cryogen-Free Measurement System for Thermal Conductivity](#minicryogenfreemeasurementsystemforthermalconductivity)
             - [Spherical Cell Bulk Thermal Conductivity Analysis](#sphericalcellbulkthermalconductivityanalysis)
-            - [Thermogravimetry and Differential analyzer](#thermogravimetryanddifferentialanalyzer)
+            - [Thermogravimetry Analysis](#thermogravimetryanalysis)
     - [Spectrometry](#spectrometry)
         - [Mass spectrometry](#massspectrometry)
             - [Accelerator mass spectrometry](#acceleratormassspectrometry)
@@ -1320,21 +1320,21 @@ Namespace:
                 - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
                 - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
                 - [Laser fluorination analysis](#laserfluorinationanalysis)
-                - [Stepped Heating Carbon and Nitrogen Isotopic Compositions](#steppedheatingcarbonandnitrogenisotopiccompositions)
+                - [Stepped Heating Carbon and Nitrogen Isotopic Analysis](#steppedheatingcarbonandnitrogenisotopicanalysis)
             - [Laser ablation mass spectrometry](#laserablationmassspectrometry)
-            - [Laser ionization mass spectrometry](#laserionizationmassspectrometry)
             - [Liquid Chromatography-Mass Spectrometry](#liquidchromatographymassspectrometry)
             - [Micromass multiprep mass spectrometry](#micromassmultiprepmassspectrometry)
+            - [Noble Gas Mass Spectrometry](#noblegasmassspectrometry)
+                - [Neutron irradiation noble gas mass spectrometry](#neutronirradiationnoblegasmassspectrometry)
+                - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
             - [Plasma source mass spectrometry](#plasmasourcemassspectrometry)
                 - [Inductively coupled plasma mass spectrometry](#inductivelycoupledplasmamassspectrometry)
                     - [High resolution inductively coupled plasma mass spectrometry](#highresolutioninductivelycoupledplasmamassspectrometry)
                     - [Laser ablation inductively coupled plasma mass spectrometry](#laserablationinductivelycoupledplasmamassspectrometry)
                     - [Liquid inlet inductively coupled plasma mass spectrometry](#liquidinletinductivelycoupledplasmamassspectrometry)
                     - [Multi-Collector Inductively Coupled Plasma Mass Spectrometry](#multicollectorinductivelycoupledplasmamassspectrometry)
-            - [Rare-gas mass spectrometry](#raregasmassspectrometry)
-                - [Noble Gas Mass Spectrometry](#noblegasmassspectrometry)
-                    - [Neutron irradiation noble gas mass spectrometry](#neutronirradiationnoblegasmassspectrometry)
-                    - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
+                - [Laser ionization mass spectrometry](#laserionizationmassspectrometry)
+                - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
             - [Secondary ionization mass spectrometry](#secondaryionizationmassspectrometry)
                 - [Secondary neutral mass spectrometry](#secondaryneutralmassspectrometry)
                     - [Microprobe Two-Step Laser Mass Spectrometry](#microprobetwosteplasermassspectrometry)
@@ -1364,21 +1364,21 @@ Namespace:
                     - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
                     - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
                     - [Laser fluorination analysis](#laserfluorinationanalysis)
-                    - [Stepped Heating Carbon and Nitrogen Isotopic Compositions](#steppedheatingcarbonandnitrogenisotopiccompositions)
+                    - [Stepped Heating Carbon and Nitrogen Isotopic Analysis](#steppedheatingcarbonandnitrogenisotopicanalysis)
                 - [Laser ablation mass spectrometry](#laserablationmassspectrometry)
-                - [Laser ionization mass spectrometry](#laserionizationmassspectrometry)
                 - [Liquid Chromatography-Mass Spectrometry](#liquidchromatographymassspectrometry)
                 - [Micromass multiprep mass spectrometry](#micromassmultiprepmassspectrometry)
+                - [Noble Gas Mass Spectrometry](#noblegasmassspectrometry)
+                    - [Neutron irradiation noble gas mass spectrometry](#neutronirradiationnoblegasmassspectrometry)
+                    - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
                 - [Plasma source mass spectrometry](#plasmasourcemassspectrometry)
                     - [Inductively coupled plasma mass spectrometry](#inductivelycoupledplasmamassspectrometry)
                         - [High resolution inductively coupled plasma mass spectrometry](#highresolutioninductivelycoupledplasmamassspectrometry)
                         - [Laser ablation inductively coupled plasma mass spectrometry](#laserablationinductivelycoupledplasmamassspectrometry)
                         - [Liquid inlet inductively coupled plasma mass spectrometry](#liquidinletinductivelycoupledplasmamassspectrometry)
                         - [Multi-Collector Inductively Coupled Plasma Mass Spectrometry](#multicollectorinductivelycoupledplasmamassspectrometry)
-                - [Rare-gas mass spectrometry](#raregasmassspectrometry)
-                    - [Noble Gas Mass Spectrometry](#noblegasmassspectrometry)
-                        - [Neutron irradiation noble gas mass spectrometry](#neutronirradiationnoblegasmassspectrometry)
-                        - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
+                    - [Laser ionization mass spectrometry](#laserionizationmassspectrometry)
+                    - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
                 - [Secondary ionization mass spectrometry](#secondaryionizationmassspectrometry)
                     - [Secondary neutral mass spectrometry](#secondaryneutralmassspectrometry)
                         - [Microprobe Two-Step Laser Mass Spectrometry](#microprobetwosteplasermassspectrometry)
@@ -1449,8 +1449,7 @@ Namespace:
         - [Induction heating analysis](#inductionheatinganalysis)
         - [Mini Cryogen-Free Measurement System for Thermal Conductivity](#minicryogenfreemeasurementsystemforthermalconductivity)
         - [Spherical Cell Bulk Thermal Conductivity Analysis](#sphericalcellbulkthermalconductivityanalysis)
-        - [Thermogravimetry and Differential analyzer](#thermogravimetryanddifferentialanalyzer)
-    - [Total Organic Carbon Analysis](#totalorganiccarbonanalysis)
+        - [Thermogravimetry Analysis](#thermogravimetryanalysis)
     - [Track counting](#trackcounting)
         - [Alpha-recoil track counting](#alpharecoiltrackcounting)
         - [Fission track counting](#fissiontrackcounting)
@@ -2599,9 +2598,9 @@ SMR add general categories
 - Concept URI token: particlebeamexcitation
 
 
-[]{#electronmicroscopy}
+[]{#electronmicroscopyimaging}
 
-####  Electron microscopy
+####  Electron microscopy imaging
 
 
 - Child of:
@@ -2622,7 +2621,7 @@ GeoRoc,
 O-REx techniques, 
 PetDb, 
 
-- Concept URI token: electronmicroscopy
+- Concept URI token: electronmicroscopyimaging
 
 
 []{#backscatteredelectronmicroscopy}
@@ -2631,7 +2630,7 @@ PetDb,
 
 
 - Child of:
- [`electronmicroscopy`](#electronmicroscopy)
+ [`electronmicroscopyimaging`](#electronmicroscopyimaging)
 
 - Techniques that involve bombarding a sample with an accelerated
 electron beam to produce backscattered electrons. An image is formed
@@ -2663,7 +2662,7 @@ PetDb,
 
 
 - Child of:
- [`electronmicroscopy`](#electronmicroscopy)
+ [`electronmicroscopyimaging`](#electronmicroscopyimaging)
 
 - technique in which a beam of electrons is transmitted through a
 specimen to form an image. The specimen is most often an ultrathin
@@ -3216,9 +3215,9 @@ GeoRoc
 - Concept URI token: infraredreflectance
 
 
-[]{#physicalpropertymeasurementtechniques}
+[]{#physicalpropertymeasurement}
 
-###  Physical property techniques
+###  Physical property measurement
 
 
 - Child of:
@@ -3230,7 +3229,7 @@ sample.
 - **Source:**
 add general method categories
 
-- Concept URI token: physicalpropertymeasurementtechniques
+- Concept URI token: physicalpropertymeasurement
 
 
 []{#angleofreposemeasurement}
@@ -3239,7 +3238,7 @@ add general method categories
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - A granular sample is poured to create a cone or slope at the maximum
 angle of stability. This slope could be directly measured with a angle
@@ -3259,7 +3258,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - Measurement of the linear coefficient of thermal expansion in a
 solid material, using  a parallel plate capacitor with a one
@@ -3281,7 +3280,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - Uniaxial squeezing a single mm to sub-mm sample particle between two
 rigid metallic pistons for quantitative determination of mechanical
@@ -3300,7 +3299,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - A shear stress is applied to a cubic sample until it fails
 (subdivides) by shear fracturing. The ultimate shear strength of the
@@ -3319,7 +3318,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - Measurement of the volume of a solid object, employing some method
 of gas displacement and the volume:pressure relationship known as
@@ -3352,7 +3351,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - determine mechanical properties of materials from the load versus
 displacement curves as a micro indentor is pressed into the sample
@@ -3370,7 +3369,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - Measurement of cohesive force between dust-sized particles that are
 close or in direct contact is measured with an Atomic Force
@@ -3395,7 +3394,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - Porosimetry is an analytical technique used to determine various
 quantifiable aspects of a material's porous structure, such as pore
@@ -3414,7 +3413,7 @@ add instrument related methods
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - The compression (p) and shear (s) wave velocities in rock may be
 determined using a pulse generator and p and s-wave ultrasonic
@@ -3433,7 +3432,7 @@ O-REx techniques
 
 
 - Child of:
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - measurement of soil moisture tension in the vadose zone, typically
 using a tensiometer.
@@ -3451,7 +3450,7 @@ add instrument related methods
 
 - Child of:
  [`analyticalmethod`](#analyticalmethod)
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - analysis techniques that measure the thermal properties of a sample,
 e.g. conductivity, specific heat.
@@ -3546,10 +3545,11 @@ GeoRoc
  [`thermalanalysis`](#thermalanalysis)
 
 - measure the bulk thermal conductivity of a bar-shaped sample
-specimen across a wide range of temperatures. A data delivery for
-mCMFS Thermal Conductivity consists of a table with thermal
-conductivity vs temperature and related metadata data.  Both raw data
-and processed products are delivered in a single CSV file.
+specimen across a wide range of temperatures, producing a table with
+thermal conductivity vs temperature. (OSIRIS-REx confluence).  The
+label implies that the technique measures thermal conductivity at low
+temperatures, using a device that does not require liquid nitrogen or
+liquid helium for cooling. [need more information]
 
 - **Source:**
 O-REx techniques
@@ -3574,42 +3574,30 @@ O-REx techniques
 - Concept URI token: sphericalcellbulkthermalconductivityanalysis
 
 
-[]{#thermogravimetryanddifferentialanalyzer}
+[]{#thermogravimetryanalysis}
 
-#####  Thermogravimetry and Differential analyzer
+#####  Thermogravimetry Analysis
 
 
 - Child of:
  [`thermalanalysis`](#thermalanalysis)
 
-- [two methods? ] Thermogravimetric analysis is a method in which the
-mass of a sample is measured over time as the temperature changes.
-This measurement provides information about physical phenomena, such
-as phase transitions, absorption, adsorption and desorption; as well
-as chemical phenomena including chemisorptions, thermal decomposition,
+- Thermogravimetric analysis is a method in which the mass of a sample
+is measured over time as the temperature changes. This measurement
+provides information about physical phenomena, such as phase
+transitions, absorption, adsorption and desorption; as well as
+chemical phenomena including chemisorptions, thermal decomposition,
 and solid-gas reactions (e.g., oxidation or reduction). The
 thermogravimetric data collected from a thermal reaction is compiled
 into a plot of mass or percentage of initial mass on the y axis versus
 either temperature or time on the x-axis. This plot can be used for
 materials characterization through analysis of characteristic
-decomposition patterns.   Differential thermal analysis (DTA) is a
-technique in which the material under study and an inert reference are
-made to undergo identical thermal cycles, (i.e., same cooling or
-heating programme) while recording any temperature difference between
-sample and reference. This differential temperature is then plotted
-against time, or against temperature (DTA curve, or thermogram).
-Changes in the sample, either exothermic or endothermic, can be
-detected relative to the inert reference. Thus, a DTA curve provides
-data on the transformations that have occurred, such as glass
-transitions, crystallization, melting and sublimation. The area under
-a DTA peak is the enthalpy change and is not affected by the heat
-capacity of the sample. DTA is similar to differential scanning
-calorimetry.
+decomposition patterns.
 
 - **Source:**
 GeoRoc
 
-- Concept URI token: thermogravimetryanddifferentialanalyzer
+- Concept URI token: thermogravimetryanalysis
 
 
 []{#spectrometry}
@@ -3821,29 +3809,27 @@ IUPAC
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
  [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
 
-- Gas chromatography combustion isotope ratio mass spectrometry
-(GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the relative ratio of light stable isotopes of carbon
-(13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
-individual compounds separated from often complex mixtures of
-components. the sample solution is injected into the GC inlet where it
-is vaporized and swept onto a chromatographic column by the carrier
-gas (usually helium). The sample flows through the column and the
-compounds comprising the mixture of interest are separated by virtue
-of their relative interaction with the coating of the column
-(stationary phase) and the carrier gas (mobile phase). Carbon and
-nitrogen compounds eluting from the chromatographic column then pass
-through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 degree C) where they are oxidatively
-combusted. This is followed by a reduction reactor (an alumina tube
-containing three Cu wires maintained at 600 degree C) to reduce any
-nitrogen oxides to nitrogen. For hydrogen and oxygen a high
-temperature thermal conversion reactor is required. Water is then
-removed in a water separator by passing the gas stream through a tube
-constructed from a water permeable nafion membrane. The sample is then
-introduced into the ion source of the mass analyzer by an open split
-interface, and particles with m/z ratios of interest are counted by
-detectors..
+- Technique used to ascertain the relative ratio of light stable
+isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or
+oxygen (18O/160) in individual compounds separated from often complex
+mixtures of components. The sample solution is injected into the gas
+chromatography (GC) inlet where it is vaporized and swept onto a
+chromatographic column by the carrier gas (usually helium). The sample
+flows through the column and the compounds comprising the mixture of
+interest are separated by virtue of their relative interaction with
+the coating of the column (stationary phase) and the carrier gas
+(mobile phase). Carbon and nitrogen compounds eluting from the
+chromatographic column then pass through a combustion reactor (an
+alumina tube containing Cu, Ni and Pt wires maintained at 940 degree
+C) where they are oxidatively combusted. This is followed by a
+reduction reactor (an alumina tube containing three Cu wires
+maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen.
+For hydrogen and oxygen a high temperature thermal conversion reactor
+is required. Water is then removed in a water separator by passing the
+gas stream through a tube constructed from a water permeable nafion
+membrane. The sample is then introduced into the ion source of the
+mass analyzer by an open split interface, and particles with m/z
+ratios of interest are counted by detectors.
 
 - **Source:**
 O-REx techniques
@@ -3958,29 +3944,27 @@ O-REx techniques,
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
  [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
 
-- Gas chromatography combustion isotope ratio mass spectrometry
-(GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the relative ratio of light stable isotopes of carbon
-(13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
-individual compounds separated from often complex mixtures of
-components. the sample solution is injected into the GC inlet where it
-is vaporized and swept onto a chromatographic column by the carrier
-gas (usually helium). The sample flows through the column and the
-compounds comprising the mixture of interest are separated by virtue
-of their relative interaction with the coating of the column
-(stationary phase) and the carrier gas (mobile phase). Carbon and
-nitrogen compounds eluting from the chromatographic column then pass
-through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 degree C) where they are oxidatively
-combusted. This is followed by a reduction reactor (an alumina tube
-containing three Cu wires maintained at 600 degree C) to reduce any
-nitrogen oxides to nitrogen. For hydrogen and oxygen a high
-temperature thermal conversion reactor is required. Water is then
-removed in a water separator by passing the gas stream through a tube
-constructed from a water permeable nafion membrane. The sample is then
-introduced into the ion source of the mass analyzer by an open split
-interface, and particles with m/z ratios of interest are counted by
-detectors..
+- Technique used to ascertain the relative ratio of light stable
+isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or
+oxygen (18O/160) in individual compounds separated from often complex
+mixtures of components. The sample solution is injected into the gas
+chromatography (GC) inlet where it is vaporized and swept onto a
+chromatographic column by the carrier gas (usually helium). The sample
+flows through the column and the compounds comprising the mixture of
+interest are separated by virtue of their relative interaction with
+the coating of the column (stationary phase) and the carrier gas
+(mobile phase). Carbon and nitrogen compounds eluting from the
+chromatographic column then pass through a combustion reactor (an
+alumina tube containing Cu, Ni and Pt wires maintained at 940 degree
+C) where they are oxidatively combusted. This is followed by a
+reduction reactor (an alumina tube containing three Cu wires
+maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen.
+For hydrogen and oxygen a high temperature thermal conversion reactor
+is required. Water is then removed in a water separator by passing the
+gas stream through a tube constructed from a water permeable nafion
+membrane. The sample is then introduced into the ion source of the
+mass analyzer by an open split interface, and particles with m/z
+ratios of interest are counted by detectors.
 
 - **Source:**
 O-REx techniques
@@ -4000,9 +3984,9 @@ O-REx techniques
 - laser fluorination is a chemical process wherein oxygen is
 quantitatively extracted from oxygen-bearing compounds, without
 isotopic fractionation, and simultaneously converted to diatomic
-oxygen (O2) gas. This O2 gas may then be analyzed by IRMS to determine
-its d17O and d18O ratios. (https://sil.uoregon.edu/laser-
-fluorination/)
+oxygen (O2) gas. This O2 gas may then be analyzed with isotope-ration
+mass spectrometer (IRMS) to determine its delta 17O and delta 18O
+ratios. (https://sil.uoregon.edu/laser-fluorination/)
 
 - **Alternate labels:**
 LASER FLUORINATION, 
@@ -4017,9 +4001,9 @@ O-REx techniques,
 - Concept URI token: laserfluorinationanalysis
 
 
-[]{#steppedheatingcarbonandnitrogenisotopiccompositions}
+[]{#steppedheatingcarbonandnitrogenisotopicanalysis}
 
-######  Stepped Heating Carbon and Nitrogen Isotopic Compositions
+######  Stepped Heating Carbon and Nitrogen Isotopic Analysis
 
 
 - Child of:
@@ -4041,10 +4025,14 @@ spectrometers for determination of carbon isotopes and nitrogen
 abundance, and a quadrupole mass spectrometer for nitrogen isotopes.
 (https://doi.org/10.1016/S0012-821X(02)00592-7)
 
+- **Alternate labels:**
+Stepped Heating Carbon and Nitrogen Isotopic Compositions
+
+
 - **Source:**
 O-REx techniques
 
-- Concept URI token: steppedheatingcarbonandnitrogenisotopiccompositions
+- Concept URI token: steppedheatingcarbonandnitrogenisotopicanalysis
 
 
 []{#laserablationmassspectrometry}
@@ -4065,36 +4053,6 @@ analysis.
 GeoRoc
 
 - Concept URI token: laserablationmassspectrometry
-
-
-[]{#laserionizationmassspectrometry}
-
-#####  Laser ionization mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- An airborne high repetition rate laser-induced plasma ionization
-source for mass-spectrometric determinations of polar and nonpolar
-analytes in solution. The laser plasma was sustained between a
-pneumatic nebulizer and the inlet capillary of an Orbitrap mass
-spectrometer. To maintain stable conditions in the droplet-rich spray
-environment, the plasma was directly fed by the fundamental output
-(lambda = 1064 nm) of a laser. Ionization by the laser-driven plasma
-resulted in signals of intact analyte ions of several chemical
-categories. (https://doi.org/10.1021/acs.analchem.9b00329)
-
-- **Alternate labels:**
-ISOTOPE-DILUTION RESONANCE-IONIZATION MASS SPECTROMETRY, 
-LASER PLASMA IONIZATION MASS SPECTROMETRY, 
-RESONANCE-IONIZATION MASS SPECTROMETRY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: laserionizationmassspectrometry
 
 
 []{#liquidchromatographymassspectrometry}
@@ -4144,7 +4102,7 @@ O-REx techniques
 powdered biogenic or mineral carbonate material with phosphoric acid
 or to equilibrate water samples with carbon dioxide or
 hydrogen.(Micromass is the instrument manufacturer). Output from
-multiprep goes to mass spec. Example systems e.g.
+multiprep goes to mass spectrometer. Example systems e.g.
 https://www.atmos.albany.edu/geology/webpages/sirmslab.html are doing
 stable isotope analyses. Components: 1) sample preparation: multiprep
 device
@@ -4153,6 +4111,87 @@ device
 GeoRoc
 
 - Concept URI token: micromassmultiprepmassspectrometry
+
+
+[]{#noblegasmassspectrometry}
+
+#####  Noble Gas Mass Spectrometry
+
+
+- Child of:
+ [`massspectrometry`](#massspectrometry)
+
+- Noble gases (He, Ne, Ar, Kr, Xe ) are extracted from samples by
+heating in a vacuum with an IR laser or in a heated crucible. The
+extracted gases are purified using hot metals or alloys (and cold
+traps). Noble gas elements can be separated using cryogenic traps and
+sequentially analyzed by separation of the ions according to their
+mass/charge ratio and a collection block consisting of single or
+multiple Faraday cups and/or electron multipliers.  (OSIRIS-REx
+confluence;
+(https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf))
+
+- **Alternate labels:**
+Rare-gas mass spectrometry
+
+
+- **Source:**
+GeoRoc, 
+O-REx techniques, 
+
+- Concept URI token: noblegasmassspectrometry
+
+
+[]{#neutronirradiationnoblegasmassspectrometry}
+
+######  Neutron irradiation noble gas mass spectrometry
+
+
+- Child of:
+ [`noblegasmassspectrometry`](#noblegasmassspectrometry)
+
+- Techique that exposes sample to neutron-irradiation to produce noble
+gas isotopes from halogen isotopes within the sample. NI-NGMS requires
+only small sample masses (~1 mg). The method provides information on
+the abundances and ratios of the halogen (Cl, Br and I) and the noble
+gas (Ar, Kr and Xe) elements. (OSIRIS-REx confluence). Technique to
+measure the abundances of Cl, K, Br, I, Ca, Ba and U, in which samples
+are exposed to a high neutron fluence to produce nucleogenic noble gas
+isotopes in abundances proportional to those of the parent elements.
+(https://goldschmidtabstracts.info/2014/2145.pdf).  The noble gas
+isotopes are liberated from the sample by heating and analyzed with a
+mass spectrometer
+(https://www.sciencedirect.com/science/article/pii/S0009254116302339)
+
+- **Alternate labels:**
+NOBLE-GAS METHOD
+
+
+- **Source:**
+Astromat, 
+GeoRoc, 
+O-REx techniques, 
+
+- Concept URI token: neutronirradiationnoblegasmassspectrometry
+
+
+[]{#resonanceionizationtimeofflightnoblegasmassspectrometry}
+
+######  Resonance ionization time of flight noble gas mass spectrometry
+
+
+- Child of:
+ [`noblegasmassspectrometry`](#noblegasmassspectrometry)
+ [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
+
+- Noble gas mass spectrometry technique that atomizes and ionizes
+samples using laser resonance to generate a plasma, and a time-of-
+flight mass analyzer.
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: resonanceionizationtimeofflightnoblegasmassspectrometry
 
 
 []{#plasmasourcemassspectrometry}
@@ -4318,87 +4357,44 @@ O-REx techniques
 - Concept URI token: multicollectorinductivelycoupledplasmamassspectrometry
 
 
-[]{#raregasmassspectrometry}
+[]{#laserionizationmassspectrometry}
 
-#####  Rare-gas mass spectrometry
+######  Laser ionization mass spectrometry
 
 
 - Child of:
- [`massspectrometry`](#massspectrometry)
+ [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
 
-- Mass spectrometry technique designed to analyze 'rare gas'; guess
-this means He, Ne, Ar, Kr, Xe
-(https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf).
-This category specifies the observation result, not the technique
+- Technique that uses laser to induce plasma ionization. The laser
+plasma is sustained between a pneumatic nebulizer and the inlet
+capillary of the mass analyzer. To maintain stable conditions in the
+droplet-rich spray environment, the plasma was directly fed by the
+fundamental output (lambda = 1064 nm) of a laser. Ionization by the
+laser-driven plasma resulted in signals of intact analyte ions of
+several chemical categories. Use for mass-spectrometric determinations
+of polar and nonpolar analytes in solution.
+(https://doi.org/10.1021/acs.analchem.9b00329)
+
+- **Alternate labels:**
+ISOTOPE-DILUTION RESONANCE-IONIZATION MASS SPECTROMETRY, 
+LASER PLASMA IONIZATION MASS SPECTROMETRY, 
+RESONANCE-IONIZATION MASS SPECTROMETRY, 
+
 
 - **Source:**
 GeoRoc
 
-- Concept URI token: raregasmassspectrometry
-
-
-[]{#noblegasmassspectrometry}
-
-######  Noble Gas Mass Spectrometry
-
-
-- Child of:
- [`raregasmassspectrometry`](#raregasmassspectrometry)
-
-- Noble gases are extracted from samples by heating in a vacuum with
-an IR laser or in a heated crucible. The extracted gases are purified
-using hot metals or alloys (and cold traps). Noble gas elements can be
-separated using cryogenic traps and sequentially analyzed by
-separation of the ions according to their mass/charge ratio and a
-collection block consisting of single or multiple Faraday cups and/or
-electron multipliers.  (OSIRIS-REx confluence)
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: noblegasmassspectrometry
-
-
-[]{#neutronirradiationnoblegasmassspectrometry}
-
-#######  Neutron irradiation noble gas mass spectrometry
-
-
-- Child of:
- [`noblegasmassspectrometry`](#noblegasmassspectrometry)
-
-- Techique that exposes sample to neutron-irradiation to produce noble
-gas isotopes from halogen isotopes within the sample. NI-NGMS requires
-only small sample masses (~1 mg). The method provides information on
-the abundances and ratios of the halogen (Cl, Br and I) and the noble
-gas (Ar, Kr and Xe) elements. (OSIRIS-REx confluence). Technique to
-measure the abundances of Cl, K, Br, I, Ca, Ba and U, in which samples
-are exposed to a high neutron fluence to produce nucleogenic noble gas
-isotopes in abundances proportional to those of the parent elements.
-(https://goldschmidtabstracts.info/2014/2145.pdf).  The noble gas
-isotopes are liberated from the sample by heating and analyzed with a
-mass spectrometer
-(https://www.sciencedirect.com/science/article/pii/S0009254116302339)
-
-- **Alternate labels:**
-NOBLE-GAS METHOD
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-
-- Concept URI token: neutronirradiationnoblegasmassspectrometry
+- Concept URI token: laserionizationmassspectrometry
 
 
 []{#resonanceionizationtimeofflightnoblegasmassspectrometry}
 
-#######  Resonance ionization time of flight noble gas mass spectrometry
+######  Resonance ionization time of flight noble gas mass spectrometry
 
 
 - Child of:
  [`noblegasmassspectrometry`](#noblegasmassspectrometry)
+ [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
 
 - Noble gas mass spectrometry technique that atomizes and ionizes
 samples using laser resonance to generate a plasma, and a time-of-
@@ -5027,29 +5023,27 @@ IUPAC
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
  [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
 
-- Gas chromatography combustion isotope ratio mass spectrometry
-(GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the relative ratio of light stable isotopes of carbon
-(13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
-individual compounds separated from often complex mixtures of
-components. the sample solution is injected into the GC inlet where it
-is vaporized and swept onto a chromatographic column by the carrier
-gas (usually helium). The sample flows through the column and the
-compounds comprising the mixture of interest are separated by virtue
-of their relative interaction with the coating of the column
-(stationary phase) and the carrier gas (mobile phase). Carbon and
-nitrogen compounds eluting from the chromatographic column then pass
-through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 degree C) where they are oxidatively
-combusted. This is followed by a reduction reactor (an alumina tube
-containing three Cu wires maintained at 600 degree C) to reduce any
-nitrogen oxides to nitrogen. For hydrogen and oxygen a high
-temperature thermal conversion reactor is required. Water is then
-removed in a water separator by passing the gas stream through a tube
-constructed from a water permeable nafion membrane. The sample is then
-introduced into the ion source of the mass analyzer by an open split
-interface, and particles with m/z ratios of interest are counted by
-detectors..
+- Technique used to ascertain the relative ratio of light stable
+isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or
+oxygen (18O/160) in individual compounds separated from often complex
+mixtures of components. The sample solution is injected into the gas
+chromatography (GC) inlet where it is vaporized and swept onto a
+chromatographic column by the carrier gas (usually helium). The sample
+flows through the column and the compounds comprising the mixture of
+interest are separated by virtue of their relative interaction with
+the coating of the column (stationary phase) and the carrier gas
+(mobile phase). Carbon and nitrogen compounds eluting from the
+chromatographic column then pass through a combustion reactor (an
+alumina tube containing Cu, Ni and Pt wires maintained at 940 degree
+C) where they are oxidatively combusted. This is followed by a
+reduction reactor (an alumina tube containing three Cu wires
+maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen.
+For hydrogen and oxygen a high temperature thermal conversion reactor
+is required. Water is then removed in a water separator by passing the
+gas stream through a tube constructed from a water permeable nafion
+membrane. The sample is then introduced into the ion source of the
+mass analyzer by an open split interface, and particles with m/z
+ratios of interest are counted by detectors.
 
 - **Source:**
 O-REx techniques
@@ -5164,29 +5158,27 @@ O-REx techniques,
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
  [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
 
-- Gas chromatography combustion isotope ratio mass spectrometry
-(GC/C/IRMS) is a highly specialised instrumental technique used to
-ascertain the relative ratio of light stable isotopes of carbon
-(13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in
-individual compounds separated from often complex mixtures of
-components. the sample solution is injected into the GC inlet where it
-is vaporized and swept onto a chromatographic column by the carrier
-gas (usually helium). The sample flows through the column and the
-compounds comprising the mixture of interest are separated by virtue
-of their relative interaction with the coating of the column
-(stationary phase) and the carrier gas (mobile phase). Carbon and
-nitrogen compounds eluting from the chromatographic column then pass
-through a combustion reactor (an alumina tube containing Cu, Ni and Pt
-wires maintained at 940 degree C) where they are oxidatively
-combusted. This is followed by a reduction reactor (an alumina tube
-containing three Cu wires maintained at 600 degree C) to reduce any
-nitrogen oxides to nitrogen. For hydrogen and oxygen a high
-temperature thermal conversion reactor is required. Water is then
-removed in a water separator by passing the gas stream through a tube
-constructed from a water permeable nafion membrane. The sample is then
-introduced into the ion source of the mass analyzer by an open split
-interface, and particles with m/z ratios of interest are counted by
-detectors..
+- Technique used to ascertain the relative ratio of light stable
+isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or
+oxygen (18O/160) in individual compounds separated from often complex
+mixtures of components. The sample solution is injected into the gas
+chromatography (GC) inlet where it is vaporized and swept onto a
+chromatographic column by the carrier gas (usually helium). The sample
+flows through the column and the compounds comprising the mixture of
+interest are separated by virtue of their relative interaction with
+the coating of the column (stationary phase) and the carrier gas
+(mobile phase). Carbon and nitrogen compounds eluting from the
+chromatographic column then pass through a combustion reactor (an
+alumina tube containing Cu, Ni and Pt wires maintained at 940 degree
+C) where they are oxidatively combusted. This is followed by a
+reduction reactor (an alumina tube containing three Cu wires
+maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen.
+For hydrogen and oxygen a high temperature thermal conversion reactor
+is required. Water is then removed in a water separator by passing the
+gas stream through a tube constructed from a water permeable nafion
+membrane. The sample is then introduced into the ion source of the
+mass analyzer by an open split interface, and particles with m/z
+ratios of interest are counted by detectors.
 
 - **Source:**
 O-REx techniques
@@ -5206,9 +5198,9 @@ O-REx techniques
 - laser fluorination is a chemical process wherein oxygen is
 quantitatively extracted from oxygen-bearing compounds, without
 isotopic fractionation, and simultaneously converted to diatomic
-oxygen (O2) gas. This O2 gas may then be analyzed by IRMS to determine
-its d17O and d18O ratios. (https://sil.uoregon.edu/laser-
-fluorination/)
+oxygen (O2) gas. This O2 gas may then be analyzed with isotope-ration
+mass spectrometer (IRMS) to determine its delta 17O and delta 18O
+ratios. (https://sil.uoregon.edu/laser-fluorination/)
 
 - **Alternate labels:**
 LASER FLUORINATION, 
@@ -5223,9 +5215,9 @@ O-REx techniques,
 - Concept URI token: laserfluorinationanalysis
 
 
-[]{#steppedheatingcarbonandnitrogenisotopiccompositions}
+[]{#steppedheatingcarbonandnitrogenisotopicanalysis}
 
-#######  Stepped Heating Carbon and Nitrogen Isotopic Compositions
+#######  Stepped Heating Carbon and Nitrogen Isotopic Analysis
 
 
 - Child of:
@@ -5247,10 +5239,14 @@ spectrometers for determination of carbon isotopes and nitrogen
 abundance, and a quadrupole mass spectrometer for nitrogen isotopes.
 (https://doi.org/10.1016/S0012-821X(02)00592-7)
 
+- **Alternate labels:**
+Stepped Heating Carbon and Nitrogen Isotopic Compositions
+
+
 - **Source:**
 O-REx techniques
 
-- Concept URI token: steppedheatingcarbonandnitrogenisotopiccompositions
+- Concept URI token: steppedheatingcarbonandnitrogenisotopicanalysis
 
 
 []{#laserablationmassspectrometry}
@@ -5271,36 +5267,6 @@ analysis.
 GeoRoc
 
 - Concept URI token: laserablationmassspectrometry
-
-
-[]{#laserionizationmassspectrometry}
-
-######  Laser ionization mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- An airborne high repetition rate laser-induced plasma ionization
-source for mass-spectrometric determinations of polar and nonpolar
-analytes in solution. The laser plasma was sustained between a
-pneumatic nebulizer and the inlet capillary of an Orbitrap mass
-spectrometer. To maintain stable conditions in the droplet-rich spray
-environment, the plasma was directly fed by the fundamental output
-(lambda = 1064 nm) of a laser. Ionization by the laser-driven plasma
-resulted in signals of intact analyte ions of several chemical
-categories. (https://doi.org/10.1021/acs.analchem.9b00329)
-
-- **Alternate labels:**
-ISOTOPE-DILUTION RESONANCE-IONIZATION MASS SPECTROMETRY, 
-LASER PLASMA IONIZATION MASS SPECTROMETRY, 
-RESONANCE-IONIZATION MASS SPECTROMETRY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: laserionizationmassspectrometry
 
 
 []{#liquidchromatographymassspectrometry}
@@ -5350,7 +5316,7 @@ O-REx techniques
 powdered biogenic or mineral carbonate material with phosphoric acid
 or to equilibrate water samples with carbon dioxide or
 hydrogen.(Micromass is the instrument manufacturer). Output from
-multiprep goes to mass spec. Example systems e.g.
+multiprep goes to mass spectrometer. Example systems e.g.
 https://www.atmos.albany.edu/geology/webpages/sirmslab.html are doing
 stable isotope analyses. Components: 1) sample preparation: multiprep
 device
@@ -5359,6 +5325,87 @@ device
 GeoRoc
 
 - Concept URI token: micromassmultiprepmassspectrometry
+
+
+[]{#noblegasmassspectrometry}
+
+######  Noble Gas Mass Spectrometry
+
+
+- Child of:
+ [`massspectrometry`](#massspectrometry)
+
+- Noble gases (He, Ne, Ar, Kr, Xe ) are extracted from samples by
+heating in a vacuum with an IR laser or in a heated crucible. The
+extracted gases are purified using hot metals or alloys (and cold
+traps). Noble gas elements can be separated using cryogenic traps and
+sequentially analyzed by separation of the ions according to their
+mass/charge ratio and a collection block consisting of single or
+multiple Faraday cups and/or electron multipliers.  (OSIRIS-REx
+confluence;
+(https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf))
+
+- **Alternate labels:**
+Rare-gas mass spectrometry
+
+
+- **Source:**
+GeoRoc, 
+O-REx techniques, 
+
+- Concept URI token: noblegasmassspectrometry
+
+
+[]{#neutronirradiationnoblegasmassspectrometry}
+
+#######  Neutron irradiation noble gas mass spectrometry
+
+
+- Child of:
+ [`noblegasmassspectrometry`](#noblegasmassspectrometry)
+
+- Techique that exposes sample to neutron-irradiation to produce noble
+gas isotopes from halogen isotopes within the sample. NI-NGMS requires
+only small sample masses (~1 mg). The method provides information on
+the abundances and ratios of the halogen (Cl, Br and I) and the noble
+gas (Ar, Kr and Xe) elements. (OSIRIS-REx confluence). Technique to
+measure the abundances of Cl, K, Br, I, Ca, Ba and U, in which samples
+are exposed to a high neutron fluence to produce nucleogenic noble gas
+isotopes in abundances proportional to those of the parent elements.
+(https://goldschmidtabstracts.info/2014/2145.pdf).  The noble gas
+isotopes are liberated from the sample by heating and analyzed with a
+mass spectrometer
+(https://www.sciencedirect.com/science/article/pii/S0009254116302339)
+
+- **Alternate labels:**
+NOBLE-GAS METHOD
+
+
+- **Source:**
+Astromat, 
+GeoRoc, 
+O-REx techniques, 
+
+- Concept URI token: neutronirradiationnoblegasmassspectrometry
+
+
+[]{#resonanceionizationtimeofflightnoblegasmassspectrometry}
+
+#######  Resonance ionization time of flight noble gas mass spectrometry
+
+
+- Child of:
+ [`noblegasmassspectrometry`](#noblegasmassspectrometry)
+ [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
+
+- Noble gas mass spectrometry technique that atomizes and ionizes
+samples using laser resonance to generate a plasma, and a time-of-
+flight mass analyzer.
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: resonanceionizationtimeofflightnoblegasmassspectrometry
 
 
 []{#plasmasourcemassspectrometry}
@@ -5524,87 +5571,44 @@ O-REx techniques
 - Concept URI token: multicollectorinductivelycoupledplasmamassspectrometry
 
 
-[]{#raregasmassspectrometry}
+[]{#laserionizationmassspectrometry}
 
-######  Rare-gas mass spectrometry
+#######  Laser ionization mass spectrometry
 
 
 - Child of:
- [`massspectrometry`](#massspectrometry)
+ [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
 
-- Mass spectrometry technique designed to analyze 'rare gas'; guess
-this means He, Ne, Ar, Kr, Xe
-(https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf).
-This category specifies the observation result, not the technique
+- Technique that uses laser to induce plasma ionization. The laser
+plasma is sustained between a pneumatic nebulizer and the inlet
+capillary of the mass analyzer. To maintain stable conditions in the
+droplet-rich spray environment, the plasma was directly fed by the
+fundamental output (lambda = 1064 nm) of a laser. Ionization by the
+laser-driven plasma resulted in signals of intact analyte ions of
+several chemical categories. Use for mass-spectrometric determinations
+of polar and nonpolar analytes in solution.
+(https://doi.org/10.1021/acs.analchem.9b00329)
+
+- **Alternate labels:**
+ISOTOPE-DILUTION RESONANCE-IONIZATION MASS SPECTROMETRY, 
+LASER PLASMA IONIZATION MASS SPECTROMETRY, 
+RESONANCE-IONIZATION MASS SPECTROMETRY, 
+
 
 - **Source:**
 GeoRoc
 
-- Concept URI token: raregasmassspectrometry
-
-
-[]{#noblegasmassspectrometry}
-
-#######  Noble Gas Mass Spectrometry
-
-
-- Child of:
- [`raregasmassspectrometry`](#raregasmassspectrometry)
-
-- Noble gases are extracted from samples by heating in a vacuum with
-an IR laser or in a heated crucible. The extracted gases are purified
-using hot metals or alloys (and cold traps). Noble gas elements can be
-separated using cryogenic traps and sequentially analyzed by
-separation of the ions according to their mass/charge ratio and a
-collection block consisting of single or multiple Faraday cups and/or
-electron multipliers.  (OSIRIS-REx confluence)
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: noblegasmassspectrometry
-
-
-[]{#neutronirradiationnoblegasmassspectrometry}
-
-########  Neutron irradiation noble gas mass spectrometry
-
-
-- Child of:
- [`noblegasmassspectrometry`](#noblegasmassspectrometry)
-
-- Techique that exposes sample to neutron-irradiation to produce noble
-gas isotopes from halogen isotopes within the sample. NI-NGMS requires
-only small sample masses (~1 mg). The method provides information on
-the abundances and ratios of the halogen (Cl, Br and I) and the noble
-gas (Ar, Kr and Xe) elements. (OSIRIS-REx confluence). Technique to
-measure the abundances of Cl, K, Br, I, Ca, Ba and U, in which samples
-are exposed to a high neutron fluence to produce nucleogenic noble gas
-isotopes in abundances proportional to those of the parent elements.
-(https://goldschmidtabstracts.info/2014/2145.pdf).  The noble gas
-isotopes are liberated from the sample by heating and analyzed with a
-mass spectrometer
-(https://www.sciencedirect.com/science/article/pii/S0009254116302339)
-
-- **Alternate labels:**
-NOBLE-GAS METHOD
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-
-- Concept URI token: neutronirradiationnoblegasmassspectrometry
+- Concept URI token: laserionizationmassspectrometry
 
 
 []{#resonanceionizationtimeofflightnoblegasmassspectrometry}
 
-########  Resonance ionization time of flight noble gas mass spectrometry
+#######  Resonance ionization time of flight noble gas mass spectrometry
 
 
 - Child of:
  [`noblegasmassspectrometry`](#noblegasmassspectrometry)
+ [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
 
 - Noble gas mass spectrometry technique that atomizes and ionizes
 samples using laser resonance to generate a plasma, and a time-of-
@@ -7388,7 +7392,7 @@ GeoRoc
 
 - Child of:
  [`analyticalmethod`](#analyticalmethod)
- [`physicalpropertymeasurementtechniques`](#physicalpropertymeasurementtechniques)
+ [`physicalpropertymeasurement`](#physicalpropertymeasurement)
 
 - analysis techniques that measure the thermal properties of a sample,
 e.g. conductivity, specific heat.
@@ -7483,10 +7487,11 @@ GeoRoc
  [`thermalanalysis`](#thermalanalysis)
 
 - measure the bulk thermal conductivity of a bar-shaped sample
-specimen across a wide range of temperatures. A data delivery for
-mCMFS Thermal Conductivity consists of a table with thermal
-conductivity vs temperature and related metadata data.  Both raw data
-and processed products are delivered in a single CSV file.
+specimen across a wide range of temperatures, producing a table with
+thermal conductivity vs temperature. (OSIRIS-REx confluence).  The
+label implies that the technique measures thermal conductivity at low
+temperatures, using a device that does not require liquid nitrogen or
+liquid helium for cooling. [need more information]
 
 - **Source:**
 O-REx techniques
@@ -7511,63 +7516,30 @@ O-REx techniques
 - Concept URI token: sphericalcellbulkthermalconductivityanalysis
 
 
-[]{#thermogravimetryanddifferentialanalyzer}
+[]{#thermogravimetryanalysis}
 
-####  Thermogravimetry and Differential analyzer
+####  Thermogravimetry Analysis
 
 
 - Child of:
  [`thermalanalysis`](#thermalanalysis)
 
-- [two methods? ] Thermogravimetric analysis is a method in which the
-mass of a sample is measured over time as the temperature changes.
-This measurement provides information about physical phenomena, such
-as phase transitions, absorption, adsorption and desorption; as well
-as chemical phenomena including chemisorptions, thermal decomposition,
+- Thermogravimetric analysis is a method in which the mass of a sample
+is measured over time as the temperature changes. This measurement
+provides information about physical phenomena, such as phase
+transitions, absorption, adsorption and desorption; as well as
+chemical phenomena including chemisorptions, thermal decomposition,
 and solid-gas reactions (e.g., oxidation or reduction). The
 thermogravimetric data collected from a thermal reaction is compiled
 into a plot of mass or percentage of initial mass on the y axis versus
 either temperature or time on the x-axis. This plot can be used for
 materials characterization through analysis of characteristic
-decomposition patterns.   Differential thermal analysis (DTA) is a
-technique in which the material under study and an inert reference are
-made to undergo identical thermal cycles, (i.e., same cooling or
-heating programme) while recording any temperature difference between
-sample and reference. This differential temperature is then plotted
-against time, or against temperature (DTA curve, or thermogram).
-Changes in the sample, either exothermic or endothermic, can be
-detected relative to the inert reference. Thus, a DTA curve provides
-data on the transformations that have occurred, such as glass
-transitions, crystallization, melting and sublimation. The area under
-a DTA peak is the enthalpy change and is not affected by the heat
-capacity of the sample. DTA is similar to differential scanning
-calorimetry.
+decomposition patterns.
 
 - **Source:**
 GeoRoc
 
-- Concept URI token: thermogravimetryanddifferentialanalyzer
-
-
-[]{#totalorganiccarbonanalysis}
-
-###  Total Organic Carbon Analysis
-
-
-- Child of:
- [`analyticalmethod`](#analyticalmethod)
-
-- Total Organic Carbon (TOC) analysis is a well-defined and commonly
-used methodology that measures the carbon content of dissolved and
-particulate organic matter present in water.  E.g.
-https://nepis.epa.gov/Exe/ZyPDF.cgi/P100KJHK.PDF?Dockey=P100KJHK.PDF
-[Summary provided by the EPA] (Source: NASA; UUID:
-58ac7544-7271-4957-a70a-ea7c1a1ae094) {@en}
-
-- **Source:**
-add instrument related methods
-
-- Concept URI token: totalorganiccarbonanalysis
+- Concept URI token: thermogravimetryanalysis
 
 
 []{#trackcounting}
@@ -7933,9 +7905,9 @@ GeoRoc
 - laser fluorination is a chemical process wherein oxygen is
 quantitatively extracted from oxygen-bearing compounds, without
 isotopic fractionation, and simultaneously converted to diatomic
-oxygen (O2) gas. This O2 gas may then be analyzed by IRMS to determine
-its d17O and d18O ratios. (https://sil.uoregon.edu/laser-
-fluorination/)
+oxygen (O2) gas. This O2 gas may then be analyzed with isotope-ration
+mass spectrometer (IRMS) to determine its delta 17O and delta 18O
+ratios. (https://sil.uoregon.edu/laser-fluorination/)
 
 - **Alternate labels:**
 LASER FLUORINATION, 
