@@ -803,7 +803,7 @@ meth:angleofreposemeasurement
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Angle of Repose Measurement"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "A granular sample is poured to create a cone or slope at the maximum angle of stability. This slope could be directly measured with a angle tool, or better yet should be analyzed from a 3d reconstruction of the scene. Various techniques might be used to reconstruct the shape of the cone."@en ;
   skos:inScheme analt:method ;
   skos:notation "ARM" ;
@@ -869,7 +869,7 @@ meth:backscatteredelectronmicroscopy
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Backscattered electron microscopy"@en ;
   skos:altLabel "Backscatter electron imaging"@en ;
-  skos:broader meth:electronmicroscopy ;
+  skos:broader meth:electronmicroscopyimaging ;
   skos:definition "Techniques that involve bombarding a sample with an accelerated electron beam to produce backscattered electrons. An image is formed by scanning the beam in a raster across the sample surface and measuring the intensity (count?) of backscattered electrons at each sample point. BSEs are reflected back after elastic interactions between the beam and the sample. BSE images show high sensitivity to differences in atomic number; the higher the atomic number, the brighter the material appears in the image. (https://www.thermofisher.com/blog/materials/sem-signal-types-electrons-and-the-information-they-provide/)"@en ;
   skos:inScheme analt:method ;
   skos:notation "BSE" ;
@@ -902,22 +902,22 @@ meth:capacitancedilatometry
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Capacitance Dilatometry"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "Measurement of the linear coefficient of thermal expansion in a solid material, using  a parallel plate capacitor with a one stationary plate, and one moveable plate. When the sample length changes, it moves the moveable plate, which changes the gap between the plates. The capacitance is inversely proportional to the gap. Changes in length of 10 picometres can be detected. (https://en.wikipedia.org/wiki/Dilatometer)"@en ;
   skos:inScheme analt:method ;
   skos:notation "CAPD" ;
   skos:prefLabel "Capacitance Dilatometry"@en ;
 .
-meth:capillaryelectrophoresis
+meth:capillaryelectrophoresisanalysis
   rdf:type skos:Concept ;
   dcterms:source "DFG" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Capillary Electrophoresis"@en ;
+  rdfs:label "Capillary Electrophoresis Analysis"@en ;
   skos:broader meth:analyticalmethod ;
-  skos:definition "Separation method based solely on the differences in the electrophoretic mobilities of charged species in capillaries. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111) An electrokinetic separation method performed in submillimeter diameter capillaries or micro- and nanofluidic channels. Sample is introduced into a capillary. The migration of the analytes is initiated by an electric field applied between the source and destination vials. In the most common mode, all ions, positive or negative, are pulled through the capillary in the same direction by electroosmotic flow. The analytes separate as they migrate due to their electrophoretic mobility, and are detected near the outlet end of the capillary. The output of the detector is sent to a data output and handling device such as an integrator or computer. The data is displayed as an electropherogram, which reports detector response as a function of time. Separated chemical compounds appear as peaks with different migration times in an electropherogram."@en ;
+  skos:definition "Analytical technique that uses the differences in the electrophoretic mobilities of charged species in submillimeter diameter capillaries or micro- and nanofluidic channels. Sample is introduced into a capillary. The migration of the analytes is initiated by an electric field applied between the source and destination vials. In the most common mode, all ions, positive or negative, are pulled through the capillary in the same direction by electroosmotic flow. The analytes separate as they migrate due to their electrophoretic mobility, and are detected near the outlet end of the capillary. The output of the detector is sent to a data output and handling device such as an integrator or computer. The data is displayed as an electropherogram, which reports detector response as a function of time. Separated chemical compounds appear as peaks with different migration times in an electropherogram.   (IUPAC; https://doi.org/10.1515/pac-2017-0111)"@en ;
   skos:inScheme analt:workflow ;
   skos:notation "CE" ;
-  skos:prefLabel "Capillary Electrophoresis"@en ;
+  skos:prefLabel "Capillary Electrophoresis Analysis"@en ;
 .
 meth:carbonatebombanalysis
   rdf:type skos:Concept ;
@@ -941,6 +941,18 @@ meth:catalyticcombustionanalysis
   skos:inScheme analt:method ;
   skos:notation "CCOMB" ;
   skos:prefLabel "Catalytic combustion analysis"@en ;
+.
+meth:cathodoluminescenceimaging
+  rdf:type skos:Concept ;
+  dcterms:source "O-REx techniques" ;
+  rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
+  rdfs:label "Cathodoluminescence Imaging"@en ;
+  skos:altLabel "High Resolution Cathodoluminescence"@en ;
+  skos:broader meth:imagingtechniques ;
+  skos:definition "In a vacuum chamber containing the sample of interest, an electron beam is focused on the sample, causing cathodoluminescence (CL), the generation of electromagnetic radiation ranging from the ultraviolet (UV) to the near-infrared (NIR) regime of the electromagnetic spectrum. The light is collected with a collection optic (e.g. mirror or objective) and directed to a light detection unit, or directly captured by a detector in the chamber. This detector output is used to characterize various aspects of the light signal such as its intensity, color, and more.  Many trace elements or dopants can be sensitively detected with CL because they have different optical transitions than the bulk materials they are embedded in. It is possible to look at crystal defects as these can alter the local optical properties of the material.  CL  can also image optical resonances and guided modes in a range of (resonant) photonic and plasmonic systems. (https://www.delmic.com/en/techniques/cathodoluminescence)"@en ;
+  skos:inScheme analt:method ;
+  skos:notation "" ;
+  skos:prefLabel "Cathodoluminescence Imaging"@en ;
 .
 meth:cationchromatography
   rdf:type skos:Concept ;
@@ -1022,7 +1034,7 @@ meth:compressiontest
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Compression test"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "Uniaxial squeezing a single mm to sub-mm sample particle between two rigid metallic pistons for quantitative determination of mechanical properties (elastic modulus, crushing strength, critical flaw length at failure, and fracture behavior)."@en ;
   skos:inScheme analt:method ;
   skos:notation "COMPT" ;
@@ -1092,6 +1104,14 @@ meth:differentialscanningcalorimetry
   skos:notation "xDSC" ;
   skos:prefLabel "Differential Scanning Calorimetry"@en ;
 .
+meth:differentialthermalanalyis
+  rdf:type skos:Concept ;
+  dcterms:source "GeoRoc" ;
+  rdfs:label "Differential Thermal Analysis"@en ;
+  skos:broader meth:thermalanalysis ;
+  skos:definition "Differential thermal analysis (DTA) is a technique in which the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference. This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample. DTA is similar to differential scanning calorimetry."@en ;
+  skos:prefLabel "Differential Thermal Analysis"@en ;
+.
 meth:directcurrentplasmaemissionspectrometry
   rdf:type skos:Concept ;
   dcterms:source "Astromat" ;
@@ -1122,7 +1142,7 @@ meth:directshearstrengthmeasurement
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Direct Shear Strength Measurement"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "A shear stress is applied to a cubic sample until it fails (subdivides) by shear fracturing. The ultimate shear strength of the sample is determined from the peak of the resulting shear stress versus shear displacement curve"@en ;
   skos:inScheme analt:method ;
   skos:notation "DSSM" ;
@@ -1231,21 +1251,21 @@ meth:electroninducedxrayspectrometry
   skos:notation "xEIXS" ;
   skos:prefLabel "Electron induced X-ray spectrometry"@en ;
 .
-meth:electronmicroscopy
+meth:electronmicroscopyimaging
   rdf:type skos:Concept ;
   dcterms:source "Astromat" ;
   dcterms:source "GeoRoc" ;
   dcterms:source "O-REx techniques" ;
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Electron microscopy"@en ;
+  rdfs:label "Electron microscopy imaging"@en ;
   skos:altLabel "ANAYTICAL ELECTRON MICROSCOPY"@en ;
   skos:broader meth:imagingtechniques ;
   skos:broader meth:particlebeamexcitation ;
   skos:definition "Technique that produces images by scanning an electron beam over a sample surface and measureing the intensity of electrons emitted from or transmitted through the sample."@en ;
   skos:inScheme analt:method ;
   skos:notation "AEM" ;
-  skos:prefLabel "Electron microscopy"@en ;
+  skos:prefLabel "Electron microscopy imaging"@en ;
 .
 meth:electronspectrometry
   rdf:type skos:Concept ;
@@ -1559,7 +1579,7 @@ meth:gaschromatographycombustionisotopicratiomassspectrometry
   rdfs:label "Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry"@en ;
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:broader meth:pyrolysisgaschromatographymassspectrometry ;
-  skos:definition "Gas chromatography combustion isotope ratio mass spectrometry (GC/C/IRMS) is a highly specialised instrumental technique used to ascertain the relative ratio of light stable isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in individual compounds separated from often complex mixtures of components. the sample solution is injected into the GC inlet where it is vaporized and swept onto a chromatographic column by the carrier gas (usually helium). The sample flows through the column and the compounds comprising the mixture of interest are separated by virtue of their relative interaction with the coating of the column (stationary phase) and the carrier gas (mobile phase). Carbon and nitrogen compounds eluting from the chromatographic column then pass through a combustion reactor (an alumina tube containing Cu, Ni and Pt wires maintained at 940 degree C) where they are oxidatively combusted. This is followed by a reduction reactor (an alumina tube containing three Cu wires maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen. For hydrogen and oxygen a high temperature thermal conversion reactor is required. Water is then removed in a water separator by passing the gas stream through a tube constructed from a water permeable nafion membrane. The sample is then introduced into the ion source of the mass analyzer by an open split interface, and particles with m/z ratios of interest are counted by detectors.."@en ;
+  skos:definition "Technique used to ascertain the relative ratio of light stable isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in individual compounds separated from often complex mixtures of components. The sample solution is injected into the gas chromatography (GC) inlet where it is vaporized and swept onto a chromatographic column by the carrier gas (usually helium). The sample flows through the column and the compounds comprising the mixture of interest are separated by virtue of their relative interaction with the coating of the column (stationary phase) and the carrier gas (mobile phase). Carbon and nitrogen compounds eluting from the chromatographic column then pass through a combustion reactor (an alumina tube containing Cu, Ni and Pt wires maintained at 940 degree C) where they are oxidatively combusted. This is followed by a reduction reactor (an alumina tube containing three Cu wires maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen. For hydrogen and oxygen a high temperature thermal conversion reactor is required. Water is then removed in a water separator by passing the gas stream through a tube constructed from a water permeable nafion membrane. The sample is then introduced into the ion source of the mass analyzer by an open split interface, and particles with m/z ratios of interest are counted by detectors."@en ;
   skos:inScheme analt:method ;
   skos:notation "GC-C-IRMS" ;
   skos:prefLabel "Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry"@en ;
@@ -1606,7 +1626,7 @@ meth:gaspycnometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gas pycnometry"@en ;
   skos:altLabel "helium pycnometer"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "Measurement of the volume of a solid object, employing some method of gas displacement and the volume:pressure relationship known as Boyle's Law. The methods uses two chambers, one (with a removable gas-tight lid) to hold the sample and a second chamber of fixed, known (via calibration) internal volume -- referred to as the reference volume or added volume. The device has a valve to admit a gas under pressure to one of the chambers, a pressure measuring device -- usually a transducer -- connected to the first chamber, a valved pathway connecting the two chambers, and a valved vent from the second of the chambers. The volume of the sample is calculated from the known volumne of the empty sample chamber, the volume of the reference volume chamber, the pressure after gas is admitted to the sample chamber, and the pressure after expansion of the gas into both chambers. (https://en.wikipedia.org/wiki/Gas_pycnometer)"@en ;
   skos:inScheme analt:method ;
   skos:notation "GPYC" ;
@@ -1677,17 +1697,6 @@ meth:highperformanceliquidchromatographyseparation
   skos:inScheme analt:method ;
   skos:notation "HPLC" ;
   skos:prefLabel "High Performance Liquid Chromatography Separation"@en ;
-.
-meth:highresolutioncathodoluminescence
-  rdf:type skos:Concept ;
-  dcterms:source "O-REx techniques" ;
-  rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "High Resolution Cathodoluminescence"@en ;
-  skos:broader meth:imagingtechniques ;
-  skos:definition "Cathodoluminescence can provide observation of an emission energy range of 0.5 to 6 eV. Many trace elements or dopants can be sensitively detected with CL because they have different optical transitions than the bulk materials they are embedded in. It is possible to look at crystal defects as these can alter the local optical properties of the material.  CL  can also image optical resonances and guided modes in a range of (resonant) photonic and plasmonic systems. (https://www.delmic.com/en/techniques/cathodoluminescence)"@en ;
-  skos:inScheme analt:method ;
-  skos:notation "" ;
-  skos:prefLabel "High Resolution Cathodoluminescence"@en ;
 .
 meth:highresolutioninductivelycoupledplasmamassspectrometry
   rdf:type skos:Concept ;
@@ -1952,7 +1961,7 @@ meth:laserfluorinationanalysis
   skos:altLabel "Laser Assisted Fluorination for Bulk Oxygen Isotope Ratio Measurements"@en ;
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:broader meth:wetchemistry ;
-  skos:definition "laser fluorination is a chemical process wherein oxygen is quantitatively extracted from oxygen-bearing compounds, without isotopic fractionation, and simultaneously converted to diatomic oxygen (O2) gas. This O2 gas may then be analyzed by IRMS to determine its d17O and d18O ratios. (https://sil.uoregon.edu/laser-fluorination/)"@en ;
+  skos:definition "laser fluorination is a chemical process wherein oxygen is quantitatively extracted from oxygen-bearing compounds, without isotopic fractionation, and simultaneously converted to diatomic oxygen (O2) gas. This O2 gas may then be analyzed with isotope-ration mass spectrometer (IRMS) to determine its delta 17O and delta 18O ratios. (https://sil.uoregon.edu/laser-fluorination/)"@en ;
   skos:inScheme analt:method ;
   skos:notation "LF" ;
   skos:prefLabel "Laser fluorination analysis"@en ;
@@ -1965,8 +1974,8 @@ meth:laserionizationmassspectrometry
   skos:altLabel "ISOTOPE-DILUTION RESONANCE-IONIZATION MASS SPECTROMETRY"@en ;
   skos:altLabel "LASER PLASMA IONIZATION MASS SPECTROMETRY"@en ;
   skos:altLabel "RESONANCE-IONIZATION MASS SPECTROMETRY"@en ;
-  skos:broader meth:massspectrometry ;
-  skos:definition "An airborne high repetition rate laser-induced plasma ionization source for mass-spectrometric determinations of polar and nonpolar analytes in solution. The laser plasma was sustained between a pneumatic nebulizer and the inlet capillary of an Orbitrap mass spectrometer. To maintain stable conditions in the droplet-rich spray environment, the plasma was directly fed by the fundamental output (lambda = 1064 nm) of a laser. Ionization by the laser-driven plasma resulted in signals of intact analyte ions of several chemical categories. (https://doi.org/10.1021/acs.analchem.9b00329)"@en ;
+  skos:broader meth:plasmasourcemassspectrometry ;
+  skos:definition "Technique that uses laser to induce plasma ionization. The laser plasma is sustained between a pneumatic nebulizer and the inlet capillary of the mass analyzer. To maintain stable conditions in the droplet-rich spray environment, the plasma was directly fed by the fundamental output (lambda = 1064 nm) of a laser. Ionization by the laser-driven plasma resulted in signals of intact analyte ions of several chemical categories. Use for mass-spectrometric determinations of polar and nonpolar analytes in solution. (https://doi.org/10.1021/acs.analchem.9b00329)"@en ;
   skos:inScheme analt:method ;
   skos:notation "LIMS" ;
   skos:prefLabel "Laser ionization mass spectrometry"@en ;
@@ -2078,7 +2087,7 @@ meth:micromassmultiprepmassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Micromass multiprep mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
-  skos:definition "Multiprep automated sample preparation device is used to digest powdered biogenic or mineral carbonate material with phosphoric acid or to equilibrate water samples with carbon dioxide or hydrogen.(Micromass is the instrument manufacturer). Output from multiprep goes to mass spec. Example systems e.g. https://www.atmos.albany.edu/geology/webpages/sirmslab.html are doing stable isotope analyses. Components: 1) sample preparation: multiprep device"@en ;
+  skos:definition "Multiprep automated sample preparation device is used to digest powdered biogenic or mineral carbonate material with phosphoric acid or to equilibrate water samples with carbon dioxide or hydrogen.(Micromass is the instrument manufacturer). Output from multiprep goes to mass spectrometer. Example systems e.g. https://www.atmos.albany.edu/geology/webpages/sirmslab.html are doing stable isotope analyses. Components: 1) sample preparation: multiprep device"@en ;
   skos:inScheme analt:method ;
   skos:notation "MMMS" ;
   skos:prefLabel "Micromass multiprep mass spectrometry"@en ;
@@ -2136,7 +2145,7 @@ meth:minicryogenfreemeasurementsystemforthermalconductivity
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Mini Cryogen-Free Measurement System for Thermal Conductivity"@en ;
   skos:broader meth:thermalanalysis ;
-  skos:definition "measure the bulk thermal conductivity of a bar-shaped sample specimen across a wide range of temperatures. A data delivery for mCMFS Thermal Conductivity consists of a table with thermal conductivity vs temperature and related metadata data.  Both raw data and processed products are delivered in a single CSV file."@en ;
+  skos:definition "measure the bulk thermal conductivity of a bar-shaped sample specimen across a wide range of temperatures, producing a table with thermal conductivity vs temperature. (OSIRIS-REx confluence).  The label implies that the technique measures thermal conductivity at low temperatures, using a device that does not require liquid nitrogen or liquid helium for cooling. [need more information]"@en ;
   skos:inScheme analt:method ;
   skos:notation "MCFMS" ;
   skos:prefLabel "Mini Cryogen-Free Measurement System for Thermal Conductivity"@en ;
@@ -2182,7 +2191,7 @@ meth:nanoindentationandmicroindentation
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Nanoindentation and Microindentation"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "determine mechanical properties of materials from the load versus displacement curves as a micro indentor is pressed into the sample surface"@en ;
   skos:inScheme analt:method ;
   skos:notation "NI-MI" ;
@@ -2257,12 +2266,15 @@ meth:nextgenerationsequencing
 .
 meth:noblegasmassspectrometry
   rdf:type skos:Concept ;
+  dcterms:source "GeoRoc" ;
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Noble Gas Mass Spectrometry"@en ;
-  skos:broader meth:raregasmassspectrometry ;
-  skos:definition "Noble gases are extracted from samples by heating in a vacuum with an IR laser or in a heated crucible. The extracted gases are purified using hot metals or alloys (and cold traps). Noble gas elements can be separated using cryogenic traps and sequentially analyzed by separation of the ions according to their mass/charge ratio and a collection block consisting of single or multiple Faraday cups and/or electron multipliers.  (OSIRIS-REx confluence)"@en ;
+  skos:altLabel "Rare-gas mass spectrometry"@en ;
+  skos:broader meth:massspectrometry ;
+  skos:definition "Noble gases (He, Ne, Ar, Kr, Xe ) are extracted from samples by heating in a vacuum with an IR laser or in a heated crucible. The extracted gases are purified using hot metals or alloys (and cold traps). Noble gas elements can be separated using cryogenic traps and sequentially analyzed by separation of the ions according to their mass/charge ratio and a collection block consisting of single or multiple Faraday cups and/or electron multipliers.  (OSIRIS-REx confluence;  (https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf))"@en ;
   skos:inScheme analt:method ;
+  skos:notation "MSRG" ;
   skos:notation "NGMS" ;
   skos:prefLabel "Noble Gas Mass Spectrometry"@en ;
 .
@@ -2370,7 +2382,7 @@ meth:particlecohesiondetermination
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Particle cohesion determination"@en ;
   skos:altLabel "Atomic force microscopy"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "Measurement of cohesive force between dust-sized particles that are close or in direct contact is measured with an Atomic Force Microprobe. One particle is affixed to the pin on the cantilever arm of an AFM, while the second particle is fixed to a substrate. Particles should be characterized in SEM to determine particle shape and local radii at size of contact."@en ;
   skos:inScheme analt:method ;
   skos:notation "PCD-AFM" ;
@@ -2482,15 +2494,15 @@ meth:photonspectrometry
   skos:notation "xPHSP" ;
   skos:prefLabel "Photon spectrometry"@en ;
 .
-meth:physicalpropertymeasurementtechniques
+meth:physicalpropertymeasurement
   rdf:type skos:Concept ;
   dcterms:source "add general method categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Physical property techniques"@en ;
+  rdfs:label "Physical property measurement"@en ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Various techniques used to measure the physical properties of a sample."@en ;
   skos:inScheme analt:method ;
-  skos:prefLabel "Physical property techniques"@en ;
+  skos:prefLabel "Physical property measurement"@en ;
 .
 meth:plasmaemissionspectrometry
   rdf:type skos:Concept ;
@@ -2569,7 +2581,7 @@ meth:porosimetry
   dcterms:source "add instrument related methods" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Porosimetry"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "Porosimetry is an analytical technique used to determine various quantifiable aspects of a material's porous structure, such as pore diameter, total pore volume, surface area, and bulk and absolute densities. (https://en.wikipedia.org/wiki/Porosimetry)"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Porosimetry"@en ;
@@ -2720,17 +2732,6 @@ meth:ramanspectrometry
   skos:notation "RAMAN" ;
   skos:prefLabel "Raman spectrometry"@en ;
 .
-meth:raregasmassspectrometry
-  rdf:type skos:Concept ;
-  dcterms:source "GeoRoc" ;
-  rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Rare-gas mass spectrometry"@en ;
-  skos:broader meth:massspectrometry ;
-  skos:definition "Mass spectrometry technique designed to analyze 'rare gas'; guess this means He, Ne, Ar, Kr, Xe (https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf).  This category specifies the observation result, not the technique"@en ;
-  skos:inScheme analt:method ;
-  skos:notation "MSRG" ;
-  skos:prefLabel "Rare-gas mass spectrometry"@en ;
-.
 meth:redoxpotentialmeasurement
   rdf:type skos:Concept ;
   dcterms:source "DFG" ;
@@ -2747,6 +2748,7 @@ meth:resonanceionizationtimeofflightnoblegasmassspectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Resonance ionization time of flight noble gas mass spectrometry"@en ;
   skos:broader meth:noblegasmassspectrometry ;
+  skos:broader meth:plasmasourcemassspectrometry ;
   skos:definition "Noble gas mass spectrometry technique that atomizes and ionizes samples using laser resonance to generate a plasma, and a time-of-flight mass analyzer."@en ;
   skos:inScheme analt:method ;
   skos:notation "RI-TOF-NGMS" ;
@@ -2784,7 +2786,7 @@ meth:scanningtransmissionelectronmicroscopy
 meth:secondaryelectronmicroscopy
   rdf:type skos:Concept ;
   rdfs:label "Secondary electron microscopy"@en ;
-  skos:broader meth:electronmicroscopy ;
+  skos:broader meth:electronmicroscopyimaging ;
   skos:definition "Techniques that involve bombarding a sample with an accelerated electron or ion beam to produce secondary electrons. An image is formed by scanning the beam in a raster across the sample surface and measuring the intensity (count?) of secondary electrons emitted at each sample point.  Secondary electrons are a result of inelastic interactions between the excitation beam and atoms in the sample; they originate from the surface region of the sample. Secondary electron imaging can provide detailed surface information. (https://www.thermofisher.com/blog/materials/sem-signal-types-electrons-and-the-information-they-provide/)"@en ;
   skos:notation "SE" ;
   skos:prefLabel "Secondary electron microscopy"@en ;
@@ -2824,7 +2826,7 @@ meth:seismicvelocitiesandrockultrasonicelasticconstants
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Seismic Velocities and Rock Ultrasonic Elastic Constants"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "The compression (p) and shear (s) wave velocities in rock may be determined using a pulse generator and p and s-wave ultrasonic transducers.  The transducers are placed on opposite sides of a rock slab and the transit time is measured. (OSIRIS-REx confluence)"@en ;
   skos:inScheme analt:method ;
   skos:notation "SV-RUEC" ;
@@ -2945,16 +2947,17 @@ meth:sphericalcellbulkthermalconductivityanalysis
   skos:notation "SCBTCA" ;
   skos:prefLabel "Spherical Cell Bulk Thermal Conductivity Analysis"@en ;
 .
-meth:steppedheatingcarbonandnitrogenisotopiccompositions
+meth:steppedheatingcarbonandnitrogenisotopicanalysis
   rdf:type skos:Concept ;
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Stepped Heating Carbon and Nitrogen Isotopic Compositions"@en ;
+  rdfs:label "Stepped Heating Carbon and Nitrogen Isotopic Analysis"@en ;
+  skos:altLabel "Stepped Heating Carbon and Nitrogen Isotopic Compositions"@en ;
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition "Stepped combustion technique on the FINESSE  highly sensitive mass spectrometric complex (a single gas extraction and purification system coupled with three mass spectrometers operating in static mode). Sample is crushed to powder and loaded in the mass spectrometer extraction system, then heated incrementally (step heating) from 200 to 1400 degree C in the presence of oxygen derived from thermal decomposition, at 930 degree C, of CuO present in a separately heated unit with an inlet into the furnace, resulting in the liberation of individual components. Carbon (in the form of CO2) and molecular nitrogen are cryogenically separated from each other before analysis. Simultaneous analysis is possible by using multiple mass spectrometers connected to a common extraction line: two magnetic sector mass spectrometers for determination of carbon isotopes and nitrogen abundance, and a quadrupole mass spectrometer for nitrogen isotopes. (https://doi.org/10.1016/S0012-821X(02)00592-7)"@en ;
   skos:inScheme analt:method ;
   skos:notation "FINESSE" ;
-  skos:prefLabel "Stepped Heating Carbon and Nitrogen Isotopic Compositions"@en ;
+  skos:prefLabel "Stepped Heating Carbon and Nitrogen Isotopic Analysis"@en ;
 .
 meth:structuredlightscanning
   rdf:type skos:Concept ;
@@ -3006,7 +3009,7 @@ meth:tensiometry
   dcterms:source "add instrument related methods" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Tensiometry"@en ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "measurement of soil moisture tension in the vadose zone, typically using a tensiometer."@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Tensiometry"@en ;
@@ -3017,7 +3020,7 @@ meth:thermalanalysis
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Thermal analysis"@en ;
   skos:broader meth:analyticalmethod ;
-  skos:broader meth:physicalpropertymeasurementtechniques ;
+  skos:broader meth:physicalpropertymeasurement ;
   skos:definition "analysis techniques that measure the thermal properties of a sample, e.g. conductivity, specific heat."@en ;
   skos:inScheme analt:method ;
   skos:notation "xTA" ;
@@ -3044,16 +3047,16 @@ meth:thermalionizationmassspectrometry
   skos:notation "TIMS" ;
   skos:prefLabel "Thermal ionization mass spectrometry"@en ;
 .
-meth:thermogravimetryanddifferentialanalyzer
+meth:thermogravimetryanalysis
   rdf:type skos:Concept ;
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Thermogravimetry and Differential analyzer"@en ;
+  rdfs:label "Thermogravimetry Analysis"@en ;
   skos:broader meth:thermalanalysis ;
-  skos:definition "[two methods? ] Thermogravimetric analysis is a method in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction). The thermogravimetric data collected from a thermal reaction is compiled into a plot of mass or percentage of initial mass on the y axis versus either temperature or time on the x-axis. This plot can be used for materials characterization through analysis of characteristic decomposition patterns.   Differential thermal analysis (DTA) is a technique in which the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference. This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample. DTA is similar to differential scanning calorimetry."@en ;
+  skos:definition "Thermogravimetric analysis is a method in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction). The thermogravimetric data collected from a thermal reaction is compiled into a plot of mass or percentage of initial mass on the y axis versus either temperature or time on the x-axis. This plot can be used for materials characterization through analysis of characteristic decomposition patterns."@en ;
   skos:inScheme analt:method ;
   skos:notation "TDTA" ;
-  skos:prefLabel "Thermogravimetry and Differential analyzer"@en ;
+  skos:prefLabel "Thermogravimetry Analysis"@en ;
 .
 meth:titration
   rdf:type skos:Concept ;
@@ -3070,16 +3073,6 @@ meth:titration
   skos:inScheme analt:method ;
   skos:notation "TIT" ;
   skos:prefLabel "Titration"@en ;
-.
-meth:totalorganiccarbonanalysis
-  rdf:type skos:Concept ;
-  dcterms:source "add instrument related methods" ;
-  rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Total Organic Carbon Analysis"@en ;
-  skos:broader meth:analyticalmethod ;
-  skos:definition "Total Organic Carbon (TOC) analysis is a well-defined and commonly used methodology that measures the carbon content of dissolved and particulate organic matter present in water.  E.g. https://nepis.epa.gov/Exe/ZyPDF.cgi/P100KJHK.PDF?Dockey=P100KJHK.PDF   [Summary provided by the EPA] (Source: NASA; UUID: 58ac7544-7271-4957-a70a-ea7c1a1ae094) {@en}"@en ;
-  skos:inScheme analt:method ;
-  skos:prefLabel "Total Organic Carbon Analysis"@en ;
 .
 meth:totalreflectionxrayfluorescencespectrometry
   rdf:type skos:Concept ;
@@ -3109,7 +3102,7 @@ meth:transmissionelectronmicroscopy
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Transmission electron microscopy"@en ;
-  skos:broader meth:electronmicroscopy ;
+  skos:broader meth:electronmicroscopyimaging ;
   skos:definition "technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. Multiple operating modes based on electron imaging include conventional imaging, scanning TEM imaging (STEM), and electron diffraction. (https://en.wikipedia.org/wiki/Transmission_electron_microscopy)"@en ;
   skos:inScheme analt:method ;
   skos:notation "TEM" ;
