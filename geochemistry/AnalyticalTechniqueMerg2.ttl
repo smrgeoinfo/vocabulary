@@ -1097,8 +1097,7 @@ meth:differentialscanningcalorimetry
   skos:altLabel "Heat-flow DSC" ;
   skos:altLabel "Power Compensation DSC" ;
   skos:broader meth:thermalanalysis ;
-  skos:definition "Technique where either 1) the difference between heat flow rates into a sample and a reference material is measured (heat-flow DSC) or 2) the difference between the electrical powers into a sample and a reference material is measured (power compensation DSC). (Source: IUPAC; https://doi.org/10.1515/pac-2012-0609). "@en ;
-  skos:definition "a technique in which the difference in the amount of heat required to increase the temperature of a sample and reference is measured as a function of temperature. Both the sample and reference are maintained at nearly the same temperature throughout the experiment. Generally, the temperature program for a DSC analysis is designed such that the sample holder temperature increases linearly as a function of time. The reference sample should have a well-defined heat capacity over the range of temperatures to be scanned. By observing the difference in heat flow between the sample and reference, differential scanning calorimeters are able to measure the amount of heat absorbed or released during phase transitions. DSC may also be used to observe more subtle physical changes, such as glass transitions. It is widely used in industrial settings as a quality control instrument due to its applicability in evaluating sample purity and for studying polymer curing. (https://en.wikipedia.org/wiki/Differential_scanning_calorimetry)"@en ;
+  skos:definition "Technique where either  the difference between heat flow rates into a sample and a reference material is measured (heat-flow DSC) or the difference between the electrical powers into a sample and a reference material is measured (power compensation DSC). (Source: IUPAC; https://doi.org/10.1515/pac-2012-0609).   A technique in which the difference in the amount of heat required to increase the temperature of a sample and reference is measured as a function of temperature. Both the sample and reference are maintained at nearly the same temperature throughout the experiment. Generally, the temperature program for a DSC analysis is designed such that the sample holder temperature increases linearly as a function of time. The reference sample should have a well-defined heat capacity over the range of temperatures to be scanned. By observing the difference in heat flow between the sample and reference, differential scanning calorimeters are able to measure the amount of heat absorbed or released during phase transitions. DSC may also be used to observe more subtle physical changes, such as glass transitions. It is widely used in industrial settings as a quality control instrument due to its applicability in evaluating sample purity and for studying polymer curing. (https://en.wikipedia.org/wiki/Differential_scanning_calorimetry)"@en ;
   skos:inScheme analt:method ;
   skos:notation "DSC" ;
   skos:notation "xDSC" ;
@@ -1923,6 +1922,7 @@ meth:laserablationinductivelycoupledplasmamassspectrometry
   skos:altLabel "LASER ABLATION PLASMA IONISATION MULTI-COLLECTOR MASS SPECTROMETRY"@en ;
   skos:altLabel "LASER ABLATION QUADRUPOLE INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY"@en ;
   skos:broader meth:inductivelycoupledplasmamassspectrometry ;
+  skos:broader meth:laserablationmassspectrometry ;
   skos:definition "Mass spectrometry technique in which a laser beam is focused on a spot on the sample surface to atomize sample material from that spot, for subsequent introduction in to inductively coupled plasma to ionize for inlet into mass analyzer. Compononets 1) sample prepartion: polished surface 2) ionization: laser, inductively coupled plasma. Point analysis."@en ;
   skos:inScheme analt:method ;
   skos:notation "LAICPMS" ;
@@ -3019,7 +3019,6 @@ meth:thermalanalysis
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Thermal analysis"@en ;
-  skos:broader meth:analyticalmethod ;
   skos:broader meth:physicalpropertymeasurement ;
   skos:definition "analysis techniques that measure the thermal properties of a sample, e.g. conductivity, specific heat."@en ;
   skos:inScheme analt:method ;
