@@ -3,12 +3,12 @@
 
 [Instruments used to analyze geologic samples](#Instrumentsusedtoanalyzegeologicsamples)
 
-[Analytical methods for geochemistry](#Analyticalmethodsforgeochemistry)
-
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
+[Analytical methods for geochemistry](#Analyticalmethodsforgeochemistry)
 
-This file generated at: "2023-02-17T11:51:10.875412+00:00"
+
+This file generated at: "2023-02-21T14:35:19.911093+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -20,7 +20,7 @@ execute:
 
 # **Concept scheme:** Instruments used to analyze geologic samples
 
-Vocabulary last modified:  2023-02-09
+Vocabulary last modified:  2023-02-17
 
 subtitle: 
   This concept scheme contains skos concepts for instruments used to characterize geologic samples.
@@ -1257,11 +1257,416 @@ execute:
   echo: false
 ---
 
+[]{#Workflowcomponentsingeologicalsampleanalysismethods}
+
+# **Concept scheme:** Workflow components in geological sample analysis methods
+
+Vocabulary last modified:  2023-02-17
+
+subtitle: 
+  This concept scheme contains skos concepts for workflow components in geological sample analysis methods.
+
+Namespace: 
+[`http://w3id.org/def/geochem/analyticaltechnique/workflow`](http://w3id.org/def/geochem/analyticaltechnique/workflow)
+
+**History**
+
+
+- [Workflow Component](#workflowcomponent)
+    - [Analytical separation](#analyticalseparation)
+        - [Acid Digestion](#aciddigestion)
+        - [Chromatography](#chromatography)
+            - [Column Chromatography](#columnchromatography)
+            - [Gas Chromatography](#gaschromatography)
+                - [Pyrolysis Gas Chromatography](#pyrolysisgaschromatography)
+            - [Liquid Chromatography](#liquidchromatography)
+                - [Medium Pressure Liquid Chromatography](#mediumpressureliquidchromatography)
+        - [Electromigration Technique](#electromigrationtechnique)
+            - [Capillary Electrophoresis](#capillaryelectrophoresis)
+        - [Extraction](#extraction)
+            - [Solid-Phase Extraction ](#solidphaseextraction)
+    - [sample preparation](#samplepreparation)
+        - [Bioanalytical sample preparation](#bioanalyticalsamplepreparation)
+            - [DNA Fragmentation](#dnafragmentation)
+            - [DNA Library Preparation](#dnalibrarypreparation)
+            - [Polymerase Chain Reaction](#polymerasechainreaction)
+        - [Microtomy](#microtomy)
+
+**Concepts**
+
+[]{#workflowcomponent}
+
+##  Workflow Component
+
+
+- top concept for scheme
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: workflowcomponent
+
+
+[]{#analyticalseparation}
+
+###  Analytical separation
+
+
+- Child of:
+ [`workflowcomponent`](#workflowcomponent)
+
+-
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: analyticalseparation
+
+
+[]{#aciddigestion}
+
+####  Acid Digestion
+
+
+- Child of:
+ [`analyticalseparation`](#analyticalseparation)
+
+- Process in which the sample (analyte and matrix) is dissolved by an
+acid. Acid digestion can also be used to remove a matrix constituent
+by selective volatilization, e.g. silicon by the use of hydrofluoric
+acid. Acid digestion can be performed in closed or open vessels.
+(Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)
+
+- **Source:**
+IUPAC
+
+- Concept URI token: aciddigestion
+
+
+[]{#chromatography}
+
+####  Chromatography
+
+
+- Child of:
+ [`analyticalseparation`](#analyticalseparation)
+
+-
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: chromatography
+
+
+[]{#columnchromatography}
+
+#####  Column Chromatography
+
+
+- Child of:
+ [`chromatography`](#chromatography)
+
+- Chromatography  in which the chromatographic bed is within a tube.
+(Source IUPAC: https://doi.org/10.1515/pac-2017-0111).
+
+- **Source:**
+IUPAC
+
+- Concept URI token: columnchromatography
+
+
+[]{#gaschromatography}
+
+#####  Gas Chromatography
+
+
+- Child of:
+ [`chromatography`](#chromatography)
+
+- Gas chromatography involves a sample being vaporized and injected
+onto the head of the chromatographic column. The sample is transported
+through the column by the flow of inert, gaseous mobile phase. The
+column itself contains a liquid stationary phase which is adsorbed
+onto the surface of an inert solid. Column chromatography in which the
+mobile phase is a gas. (Note 1: Gas chromatography is always carried
+out in a column.) (Source: IUPAC;
+https://doi.org/10.1515/pac-2017-0111)
+
+- **Source:**
+NASA
+
+- Concept URI token: gaschromatography
+
+
+[]{#pyrolysisgaschromatography}
+
+######  Pyrolysis Gas Chromatography
+
+
+- Child of:
+ [`gaschromatography`](#gaschromatography)
+
+- Chromatography in which an analytical sample is thermally decomposed
+to smaller fragments before entering the column. (Source: IUPAC;
+https://doi.org/10.1515/pac-2017-0111).
+
+- **Source:**
+DFG
+
+- Concept URI token: pyrolysisgaschromatography
+
+
+[]{#liquidchromatography}
+
+#####  Liquid Chromatography
+
+
+- Child of:
+ [`chromatography`](#chromatography)
+
+-
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: liquidchromatography
+
+
+[]{#mediumpressureliquidchromatography}
+
+######  Medium Pressure Liquid Chromatography
+
+
+- Child of:
+ [`liquidchromatography`](#liquidchromatography)
+
+- an effcient technique for preparative separation of organic
+compounds.   The distinction between low pressure, medium pressure and
+high pressure LC is based on the pressure ranges applied in these
+techniques and the overlap is often considerable. MPLC allows
+purification of large compound quantities and, unlike opencolumn
+chromatography and Sash chromatography, faster and improved
+separations are obtained. Packing of material with lower particle size
+under pressure enhances separation quality and moreover the solid
+phase can be reused. Particle size: 15-40 micron; Pressure: 5-20 bar;
+Flow rate (ml/min) 3-16;  Sample mass:  0.05-100 g. (https://www.theve
+spiary.org/library/Files_Uploaded_by_Users/Sedit/Chemical%20Analysis/E
+ncyclopedia%20of%20Separation%20Science/Level%20III%20-
+%20Practical%20Applications/MEDIUM%20PRESSURE%20LIQUID%20CHROMATOGRAPH
+Y.pdf)
+
+- **Source:**
+Own
+
+- Concept URI token: mediumpressureliquidchromatography
+
+
+[]{#electromigrationtechnique}
+
+####  Electromigration Technique
+
+
+- Child of:
+ [`analyticalseparation`](#analyticalseparation)
+
+-
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: electromigrationtechnique
+
+
+[]{#capillaryelectrophoresis}
+
+#####  Capillary Electrophoresis
+
+
+- Child of:
+ [`electromigrationtechnique`](#electromigrationtechnique)
+
+- Separation method based solely on the differences in the
+electrophoretic mobilities of charged species in capillaries. (Source:
+IUPAC; https://doi.org/10.1515/pac-2017-0111) An electrokinetic
+separation method performed in submillimeter diameter capillaries or
+micro- and nanofluidic channels. Sample is introduced into a
+capillary. The migration of the analytes is initiated by an electric
+field applied between the source and destination vials. In the most
+common mode, all ions, positive or negative, are pulled through the
+capillary in the same direction by electroosmotic flow. The analytes
+separate as they migrate due to their electrophoretic mobility, and
+are detected near the outlet end of the capillary. The output of the
+detector is sent to a data output and handling device such as an
+integrator or computer. The data is displayed as an electropherogram,
+which reports detector response as a function of time. Separated
+chemical compounds appear as peaks with different migration times in
+an electropherogram.
+
+- **Source:**
+DFG
+
+- Concept URI token: capillaryelectrophoresis
+
+
+[]{#extraction}
+
+####  Extraction
+
+
+- Child of:
+ [`analyticalseparation`](#analyticalseparation)
+
+-
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: extraction
+
+
+[]{#solidphaseextraction}
+
+#####  Solid-Phase Extraction
+
+
+- Child of:
+ [`extraction`](#extraction)
+
+- Extraction of analytes from a gas, liquid, or fluid by transfer to a
+solid sorbent. (Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)
+
+- **Source:**
+IUPAC
+
+- Concept URI token: solidphaseextraction
+
+
+[]{#samplepreparation}
+
+###  sample preparation
+
+
+- Child of:
+ [`workflowcomponent`](#workflowcomponent)
+
+-
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: samplepreparation
+
+
+[]{#bioanalyticalsamplepreparation}
+
+####  Bioanalytical sample preparation
+
+
+- Child of:
+ [`samplepreparation`](#samplepreparation)
+
+-
+
+- **Source:**
+add parent workflow component
+
+- Concept URI token: bioanalyticalsamplepreparation
+
+
+[]{#dnafragmentation}
+
+#####  DNA Fragmentation
+
+
+- Child of:
+ [`bioanalyticalsamplepreparation`](#bioanalyticalsamplepreparation)
+
+- Breaking and/or separation of large DNA molecules into smaller
+pieces (fragments). Note 1: DNA fragmentation is usually achieved via
+cleavage with restriction endonucleases at specific sites  or non-
+specifically by, for example, sonication. Note 2: DNA fragmentation is
+also a consequence of damage to DNA. (Source: IUPAC;
+https://doi.org/10.1515/iupac.90.0262)
+- Breaking and/or separation of large DNA molecules into smaller
+pieces (fragments). Note 1: DNA fragmentation is usually achieved via
+cleavage with restriction endonucleases at specific sites or non-
+specifically by, for example, sonication. Note 2: DNA fragmentation is
+also a consequence of damage to DNA. (Source: IUPAC;
+https://doi.org/10.1515/iupac.90.0262)
+
+- **Source:**
+IUPAC
+
+- Concept URI token: dnafragmentation
+
+
+[]{#dnalibrarypreparation}
+
+#####  DNA Library Preparation
+
+
+- Child of:
+ [`bioanalyticalsamplepreparation`](#bioanalyticalsamplepreparation)
+
+- Next generation sequencing methods require a DNA library preparation
+prior to processing. (Own definition)
+
+- **Source:**
+Own
+
+- Concept URI token: dnalibrarypreparation
+
+
+[]{#polymerasechainreaction}
+
+#####  Polymerase Chain Reaction
+
+
+- Child of:
+ [`bioanalyticalsamplepreparation`](#bioanalyticalsamplepreparation)
+
+- Laboratory technique for rapid amplification and pre-determination
+of regions of double-stranded DNA using DNA polymerase. (Source:
+IUPAC; https://doi.org/10.1515/iupac.90.0262)
+
+- **Source:**
+IUPAC
+
+- Concept URI token: polymerasechainreaction
+
+
+[]{#microtomy}
+
+####  Microtomy
+
+
+- Child of:
+ [`samplepreparation`](#samplepreparation)
+
+- Laboratory methods using special instruments (microtomes) to cut
+very thin slices of specimens for microscopic studies. (Source: USGS;
+https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2).
+
+- **Source:**
+DFG
+
+- Concept URI token: microtomy
+
+
+
+---
+comment: | 
+  WARNING: This file is generated. Any edits will be lost!
+execute:
+  echo: false
+---
+
 []{#Analyticalmethodsforgeochemistry}
 
 # **Concept scheme:** Analytical methods for geochemistry
 
-Vocabulary last modified:  2023-02-09
+Vocabulary last modified:  2023-02-17
 
 subtitle: 
   This concept scheme contains skos concepts for analysis methods used to characterize geologic samples and some related methods.
@@ -2493,411 +2898,6 @@ RD.html)
 IUPAC
 
 - Concept URI token: xraypowderdiffraction
-
-
-
----
-comment: | 
-  WARNING: This file is generated. Any edits will be lost!
-execute:
-  echo: false
----
-
-[]{#Workflowcomponentsingeologicalsampleanalysismethods}
-
-# **Concept scheme:** Workflow components in geological sample analysis methods
-
-Vocabulary last modified:  2023-02-09
-
-subtitle: 
-  This concept scheme contains skos concepts for workflow components in geological sample analysis methods.
-
-Namespace: 
-[`http://w3id.org/def/geochem/analyticaltechnique/workflow`](http://w3id.org/def/geochem/analyticaltechnique/workflow)
-
-**History**
-
-
-- [Workflow Component](#workflowcomponent)
-    - [Analytical separation](#analyticalseparation)
-        - [Acid Digestion](#aciddigestion)
-        - [Chromatography](#chromatography)
-            - [Column Chromatography](#columnchromatography)
-            - [Gas Chromatography](#gaschromatography)
-                - [Pyrolysis Gas Chromatography](#pyrolysisgaschromatography)
-            - [Liquid Chromatography](#liquidchromatography)
-                - [Medium Pressure Liquid Chromatography](#mediumpressureliquidchromatography)
-        - [Electromigration Technique](#electromigrationtechnique)
-            - [Capillary Electrophoresis](#capillaryelectrophoresis)
-        - [Extraction](#extraction)
-            - [Solid-Phase Extraction ](#solidphaseextraction)
-    - [sample preparation](#samplepreparation)
-        - [Bioanalytical sample preparation](#bioanalyticalsamplepreparation)
-            - [DNA Fragmentation](#dnafragmentation)
-            - [DNA Library Preparation](#dnalibrarypreparation)
-            - [Polymerase Chain Reaction](#polymerasechainreaction)
-        - [Microtomy](#microtomy)
-
-**Concepts**
-
-[]{#workflowcomponent}
-
-##  Workflow Component
-
-
-- top concept for scheme
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: workflowcomponent
-
-
-[]{#analyticalseparation}
-
-###  Analytical separation
-
-
-- Child of:
- [`workflowcomponent`](#workflowcomponent)
-
--
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: analyticalseparation
-
-
-[]{#aciddigestion}
-
-####  Acid Digestion
-
-
-- Child of:
- [`analyticalseparation`](#analyticalseparation)
-
-- Process in which the sample (analyte and matrix) is dissolved by an
-acid. Acid digestion can also be used to remove a matrix constituent
-by selective volatilization, e.g. silicon by the use of hydrofluoric
-acid. Acid digestion can be performed in closed or open vessels.
-(Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)
-
-- **Source:**
-IUPAC
-
-- Concept URI token: aciddigestion
-
-
-[]{#chromatography}
-
-####  Chromatography
-
-
-- Child of:
- [`analyticalseparation`](#analyticalseparation)
-
--
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: chromatography
-
-
-[]{#columnchromatography}
-
-#####  Column Chromatography
-
-
-- Child of:
- [`chromatography`](#chromatography)
-
-- Chromatography  in which the chromatographic bed is within a tube.
-(Source IUPAC: https://doi.org/10.1515/pac-2017-0111).
-
-- **Source:**
-IUPAC
-
-- Concept URI token: columnchromatography
-
-
-[]{#gaschromatography}
-
-#####  Gas Chromatography
-
-
-- Child of:
- [`chromatography`](#chromatography)
-
-- Gas chromatography involves a sample being vaporized and injected
-onto the head of the chromatographic column. The sample is transported
-through the column by the flow of inert, gaseous mobile phase. The
-column itself contains a liquid stationary phase which is adsorbed
-onto the surface of an inert solid. Column chromatography in which the
-mobile phase is a gas. (Note 1: Gas chromatography is always carried
-out in a column.) (Source: IUPAC;
-https://doi.org/10.1515/pac-2017-0111)
-
-- **Source:**
-NASA
-
-- Concept URI token: gaschromatography
-
-
-[]{#pyrolysisgaschromatography}
-
-######  Pyrolysis Gas Chromatography
-
-
-- Child of:
- [`gaschromatography`](#gaschromatography)
-
-- Chromatography in which an analytical sample is thermally decomposed
-to smaller fragments before entering the column. (Source: IUPAC;
-https://doi.org/10.1515/pac-2017-0111).
-
-- **Source:**
-DFG
-
-- Concept URI token: pyrolysisgaschromatography
-
-
-[]{#liquidchromatography}
-
-#####  Liquid Chromatography
-
-
-- Child of:
- [`chromatography`](#chromatography)
-
--
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: liquidchromatography
-
-
-[]{#mediumpressureliquidchromatography}
-
-######  Medium Pressure Liquid Chromatography
-
-
-- Child of:
- [`liquidchromatography`](#liquidchromatography)
-
-- an effcient technique for preparative separation of organic
-compounds.   The distinction between low pressure, medium pressure and
-high pressure LC is based on the pressure ranges applied in these
-techniques and the overlap is often considerable. MPLC allows
-purification of large compound quantities and, unlike opencolumn
-chromatography and Sash chromatography, faster and improved
-separations are obtained. Packing of material with lower particle size
-under pressure enhances separation quality and moreover the solid
-phase can be reused. Particle size: 15-40 micron; Pressure: 5-20 bar;
-Flow rate (ml/min) 3-16;  Sample mass:  0.05-100 g. (https://www.theve
-spiary.org/library/Files_Uploaded_by_Users/Sedit/Chemical%20Analysis/E
-ncyclopedia%20of%20Separation%20Science/Level%20III%20-
-%20Practical%20Applications/MEDIUM%20PRESSURE%20LIQUID%20CHROMATOGRAPH
-Y.pdf)
-
-- **Source:**
-Own
-
-- Concept URI token: mediumpressureliquidchromatography
-
-
-[]{#electromigrationtechnique}
-
-####  Electromigration Technique
-
-
-- Child of:
- [`analyticalseparation`](#analyticalseparation)
-
--
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: electromigrationtechnique
-
-
-[]{#capillaryelectrophoresis}
-
-#####  Capillary Electrophoresis
-
-
-- Child of:
- [`electromigrationtechnique`](#electromigrationtechnique)
-
-- Separation method based solely on the differences in the
-electrophoretic mobilities of charged species in capillaries. (Source:
-IUPAC; https://doi.org/10.1515/pac-2017-0111) An electrokinetic
-separation method performed in submillimeter diameter capillaries or
-micro- and nanofluidic channels. Sample is introduced into a
-capillary. The migration of the analytes is initiated by an electric
-field applied between the source and destination vials. In the most
-common mode, all ions, positive or negative, are pulled through the
-capillary in the same direction by electroosmotic flow. The analytes
-separate as they migrate due to their electrophoretic mobility, and
-are detected near the outlet end of the capillary. The output of the
-detector is sent to a data output and handling device such as an
-integrator or computer. The data is displayed as an electropherogram,
-which reports detector response as a function of time. Separated
-chemical compounds appear as peaks with different migration times in
-an electropherogram.
-
-- **Source:**
-DFG
-
-- Concept URI token: capillaryelectrophoresis
-
-
-[]{#extraction}
-
-####  Extraction
-
-
-- Child of:
- [`analyticalseparation`](#analyticalseparation)
-
--
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: extraction
-
-
-[]{#solidphaseextraction}
-
-#####  Solid-Phase Extraction
-
-
-- Child of:
- [`extraction`](#extraction)
-
-- Extraction of analytes from a gas, liquid, or fluid by transfer to a
-solid sorbent. (Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)
-
-- **Source:**
-IUPAC
-
-- Concept URI token: solidphaseextraction
-
-
-[]{#samplepreparation}
-
-###  sample preparation
-
-
-- Child of:
- [`workflowcomponent`](#workflowcomponent)
-
--
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: samplepreparation
-
-
-[]{#bioanalyticalsamplepreparation}
-
-####  Bioanalytical sample preparation
-
-
-- Child of:
- [`samplepreparation`](#samplepreparation)
-
--
-
-- **Source:**
-add parent workflow component
-
-- Concept URI token: bioanalyticalsamplepreparation
-
-
-[]{#dnafragmentation}
-
-#####  DNA Fragmentation
-
-
-- Child of:
- [`bioanalyticalsamplepreparation`](#bioanalyticalsamplepreparation)
-
-- Breaking and/or separation of large DNA molecules into smaller
-pieces (fragments). Note 1: DNA fragmentation is usually achieved via
-cleavage with restriction endonucleases at specific sites  or non-
-specifically by, for example, sonication. Note 2: DNA fragmentation is
-also a consequence of damage to DNA. (Source: IUPAC;
-https://doi.org/10.1515/iupac.90.0262)
-- Breaking and/or separation of large DNA molecules into smaller
-pieces (fragments). Note 1: DNA fragmentation is usually achieved via
-cleavage with restriction endonucleases at specific sites or non-
-specifically by, for example, sonication. Note 2: DNA fragmentation is
-also a consequence of damage to DNA. (Source: IUPAC;
-https://doi.org/10.1515/iupac.90.0262)
-
-- **Source:**
-IUPAC
-
-- Concept URI token: dnafragmentation
-
-
-[]{#dnalibrarypreparation}
-
-#####  DNA Library Preparation
-
-
-- Child of:
- [`bioanalyticalsamplepreparation`](#bioanalyticalsamplepreparation)
-
-- Next generation sequencing methods require a DNA library preparation
-prior to processing. (Own definition)
-
-- **Source:**
-Own
-
-- Concept URI token: dnalibrarypreparation
-
-
-[]{#polymerasechainreaction}
-
-#####  Polymerase Chain Reaction
-
-
-- Child of:
- [`bioanalyticalsamplepreparation`](#bioanalyticalsamplepreparation)
-
-- Laboratory technique for rapid amplification and pre-determination
-of regions of double-stranded DNA using DNA polymerase. (Source:
-IUPAC; https://doi.org/10.1515/iupac.90.0262)
-
-- **Source:**
-IUPAC
-
-- Concept URI token: polymerasechainreaction
-
-
-[]{#microtomy}
-
-####  Microtomy
-
-
-- Child of:
- [`samplepreparation`](#samplepreparation)
-
-- Laboratory methods using special instruments (microtomes) to cut
-very thin slices of specimens for microscopic studies. (Source: USGS;
-https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2).
-
-- **Source:**
-DFG
-
-- Concept URI token: microtomy
 
 
 
