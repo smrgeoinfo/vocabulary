@@ -1,4 +1,5 @@
 # baseURI: http://w3id.org/def/geox/analyticaltechnique
+# imports: http://purl.org/dc/elements/1.1/
 
 @prefix analt: <http://w3id.org/def/geochem/analyticaltechnique/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -15,14 +16,41 @@
 analt:instrument
   rdf:type skos:ConceptScheme ;
   dcterms:created "2023-02-09"^^xsd:date ;
-  dcterms:creator "Astromat, GeoRock, GeoX, and EarthChem team" ;
-  dcterms:modified "2023-02-09"^^xsd:date ;
+  dcterms:creator "Manja Luzi orcid:0000-0002-5765-0245" ;
+  dcterms:contributor "Stephen M. Richard orcid:0000-0001-6041-5302"; 
+  dcterms:modified "2023-02-17"^^xsd:date ;
   dcterms:publisher "TBD" ;
   dcterms:source "Compiled from GeoX vocabulary spreadsheet, version of 2023-09-08" ;
   rdfs:label "Instruments used to analyze geologic samples"@en ;
   skos:definition "This concept scheme contains skos concepts for instruments used to characterize geologic samples."@en ;
   skos:hasTopConcept inst:analyticalinstrument ;
   skos:prefLabel "Instruments used to analyze geologic samples"@en ;
+.
+analt:workflow
+  rdf:type skos:ConceptScheme ;
+  dcterms:created "2023-02-09"^^xsd:date ;
+  dcterms:creator "Manja Luzi orcid:0000-0002-5765-0245" ;
+  dcterms:contributor "Stephen M. Richard orcid:0000-0001-6041-5302"; 
+  dcterms:modified "2023-02-17"^^xsd:date ;
+  dcterms:publisher "TBD" ;
+  dcterms:source "Compiled from GeoX vocabulary spreadsheet, version of 2023-09-08" ;
+  rdfs:label "Workflow components in geological sample analysis methods"@en ;
+  skos:definition "This concept scheme contains skos concepts for workflow components in geological sample analysis methods."@en ;
+  skos:hasTopConcept wrkf:workflowcomponent ;
+  skos:prefLabel "Workflow components in geological sample analysis methods"@en ;
+.
+analt:method
+  rdf:type skos:ConceptScheme ;
+  dcterms:created "2023-02-09"^^xsd:date ;
+  dcterms:creator "Manja Luzi orcid:0000-0002-5765-0245" ;
+  dcterms:contributor "Stephen M. Richard orcid:0000-0001-6041-5302"; 
+  dcterms:modified "2023-02-17"^^xsd:date ;
+  dcterms:publisher "TBD" ;
+  dcterms:source "Compiled from GeoX vocabulary spreadsheet, version of 2023-09-08" ;
+  rdfs:label "Analytical methods for geochemistry"@en ;
+  skos:definition "This concept scheme contains skos concepts for analysis methods used to characterize geologic samples and some related methods."@en ;
+  skos:hasTopConcept meth:analyticalmethod ;
+  skos:prefLabel "Analytical methods for geochemistry"@en ;
 .
 inst:amperometricsensor
   rdf:type skos:Concept ;
@@ -646,18 +674,7 @@ inst:xraypowderdiffractometer
   skos:inScheme analt:instrument ;
   skos:prefLabel "X-Ray Powder Diffractometer"@en ;
 .
-analt:method
-  rdf:type skos:ConceptScheme ;
-  dcterms:created "2023-02-09"^^xsd:date ;
-  dcterms:creator "Astromat, GeoRock, GeoX, and EarthChem team" ;
-  dcterms:modified "2023-02-09"^^xsd:date ;
-  dcterms:publisher "TBD" ;
-  dcterms:source "Compiled from GeoX vocabulary spreadsheet, version of 2023-09-08" ;
-  rdfs:label "Analytical methods for geochemistry"@en ;
-  skos:definition "This concept scheme contains skos concepts for analysis methods used to characterize geologic samples and some related methods."@en ;
-  skos:hasTopConcept meth:analyticalmethod ;
-  skos:prefLabel "Analytical methods for geochemistry"@en ;
-.
+
 meth:amperometry
   rdf:type skos:Concept ;
   dcterms:source "IUPAC" ;
@@ -1218,18 +1235,7 @@ meth:xraypowderdiffraction
   skos:inScheme analt:method ;
   skos:prefLabel "X-Ray Powder Diffraction"@en ;
 .
-analt:workflow
-  rdf:type skos:ConceptScheme ;
-  dcterms:created "2023-02-09"^^xsd:date ;
-  dcterms:creator "Astromat, GeoRock, GeoX, and EarthChem team" ;
-  dcterms:modified "2023-02-09"^^xsd:date ;
-  dcterms:publisher "TBD" ;
-  dcterms:source "Compiled from GeoX vocabulary spreadsheet, version of 2023-09-08" ;
-  rdfs:label "Workflow components in geological sample analysis methods"@en ;
-  skos:definition "This concept scheme contains skos concepts for workflow components in geological sample analysis methods."@en ;
-  skos:hasTopConcept wrkf:workflowcomponent ;
-  skos:prefLabel "Workflow components in geological sample analysis methods"@en ;
-.
+
 wrkf:aciddigestion
   rdf:type skos:Concept ;
   dcterms:source "IUPAC" ;
@@ -1422,6 +1428,7 @@ wrkf:workflowcomponent
   skos:topConceptOf analt:workflow ;
 .
 <http://w3id.org/def/geox/analyticaltechnique>
+  rdf:type owl:Ontology ;
   rdf:type owl:ontology ;
   dcterms:created "2023-02-09"^^xsd:date ;
   dcterms:creator "Astromat, GeoRock, GeoX, and EarthChem team" ;
@@ -1429,6 +1436,7 @@ wrkf:workflowcomponent
   dcterms:publisher "TBD" ;
   dcterms:source "Compiled from GeoX vocabulary spreadsheet, version of 2023-09-08" ;
   rdfs:label "Analytical techniques for geochemistry"@en ;
+  owl:imports <http://purl.org/dc/elements/1.1/> ;
   skos:definition "This file contains three SKOS concept schemes: instruments, methods, and workflow components. "@en ;
   skos:prefLabel "Analytical techniques for geochemistry"@en ;
 .
