@@ -6,7 +6,9 @@ Based on configuration set up by Dave Vieglais for the iSamples project, https:/
 
 ## Tools:
 •	**Python code**. The code imports import **sys, textwrap, click, rdflib**, and **datetime**. This code reads a turtle file from a URL and writes a markdown file to the stdout.   The markdown uses some special syntax that is interpreted by Quarto for better html rendering. 
+
 •	**Quarto**. Software that converts files from Quarto-flavor Markdown to various output formats. Quarto is ‘built on Pandoc’.   In the course of debugging, I installed both Quarto (https://quarto.org/docs/get-started/) and Pandoc, but I’m not sure I needed to install Pandoc.
+
 •	**Bash shell script**.  The source URL and target file for the markdown output are defined here. The script executes the python code, then runs Quarto on the python output to generate html. Currently the markdown output and the html representation are saved in the same output directory. Note that I added the call to Quarto to render the markdown to html in the loop that does the markdown transformation. In Dave's original workflow, this is a separate step. 
 
 ## Workflow
