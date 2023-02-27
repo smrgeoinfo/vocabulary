@@ -50,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="#Instrumentsusedtoanalyzegeologicsamples">Instruments used to analyze geologic samples</a></p>
 <p><a href="#Analyticalmethodsforgeochemistry">Analytical methods for geochemistry</a></p>
 <p><a href="#Workflowcomponentsingeologicalsampleanalysismethods">Workflow components in geological sample analysis methods</a></p>
-<p>This file generated at: “2023-02-27T12:44:14.909227+00:00”</p>
+<p>This file generated at: “2023-02-27T13:22:16.743743+00:00”</p>
 <p><span id="Instrumentsusedtoanalyzegeologicsamples"></span></p>
 </section>
 <section id="concept-scheme-instruments-used-to-analyze-geologic-samples" class="level1">
@@ -65,8 +65,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="#atomicprobeinstrument">Atomic probe instrument</a>
 <ul>
+<li><a href="#atomicforcemicroprobe">Atomic Force Microprobe</a></li>
 <li><a href="#nanoscaleinfraredspectrometer">Nanoscale infrared spectrometer (nanoIR)</a></li>
 </ul></li>
+<li><a href="#atomprobe">Atom probe</a></li>
 <li><a href="#bioanalyticalinstrument">Bioanalytical instrument</a>
 <ul>
 <li><a href="#flowcytometer">Flow Cytometer</a></li>
@@ -107,7 +109,10 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#electronorionopticalinstrument">Electron or Ion Optical Instrument</a>
 <ul>
 <li><a href="#electronmicroprobe">Electron Microprobe</a></li>
-<li><a href="#scanningelectronmicroscope">Scanning Electron Microscope</a></li>
+<li><a href="#scanningelectronmicroscope">Scanning Electron Microscope</a>
+<ul>
+<li><a href="#focusedionbeamscanningelectronmicroscope">Focused ion beam scanning electron microscope</a></li>
+</ul></li>
 <li><a href="#transmissionelectronmicroscope">Transmission Electron Microscope</a></li>
 </ul></li>
 <li><a href="#elementalanalyzer">Elemental Analyzer</a>
@@ -138,13 +143,26 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="#massspectrometer">Mass Spectrometer</a>
 <ul>
+<li><a href="#acceleratormassspectrometer">Accelerator Mass Spectrometer</a></li>
 <li><a href="#fouriertransformioncyclotronresonancemassspectrometer">Fourier-transform ion cyclotron resonance mass spectrometer</a></li>
 <li><a href="#inductivelycoupledplasmamassspectrometer">Inductively Coupled Plasma Mass Spectrometer</a>
 <ul>
 <li><a href="#multicollectorinductivelycoupledplasmamassspectrometer">Multicollector Inductively Coupled Plasma Mass Spectrometer</a></li>
 </ul></li>
+<li><a href="#orbitrapmassspectrometer">Orbitrap Mass Spectrometer</a></li>
 <li><a href="#quadrupolemassspectrometer">Quadrupole Mass Spectrometer</a></li>
 <li><a href="#secondaryionmassspectrometer">Secondary Ion Mass Spectrometer</a></li>
+<li><a href="#sectormassspectrometer">Sector Mass Spectrometer</a></li>
+<li><a href="#timeofflightmassspectrometer">Time of Flight Mass Spectrometer</a></li>
+</ul></li>
+<li><a href="#photonspectrometer">Photon spectrometer</a>
+<ul>
+<li><a href="#fluorometer">Fluorometer</a></li>
+<li><a href="#ramanspectrometer">Raman Spectrometer</a></li>
+<li><a href="#spectrofluorometer">Spectrofluorometer</a></li>
+<li><a href="#spectrophotometer">Spectrophotometer</a></li>
+<li><a href="#spectroradiometer">Spectroradiometer</a></li>
+<li><a href="#xrayspectrometer">X-Ray Spectrometer</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#xraydiffractometer">X-Ray Diffractometer</a>
@@ -172,7 +190,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> SMR add general instrument type</p></li>
 <li><p>Concept URI token: atomicprobeinstrument</p></li>
 </ul>
+<p><span id="atomicforcemicroprobe"></span></p>
+<section id="atomic-force-microprobe" class="level4">
+<h4 class="anchored" data-anchor-id="atomic-force-microprobe">Atomic Force Microprobe</h4>
+<ul>
+<li><p>Child of: <a href="#atomicprobeinstrument"><code>atomicprobeinstrument</code></a></p></li>
+<li><p>An instrument that measures the interaction between a microscopic tip and the sample. The tip is mounted on a cantiliver, and interaction with the sample is transduced into changes of the motion of cantilever. Several different aspects of the cantilever motion can be used to quantify the interaction between the tip and sample, most commonly the value of the deflection. A detector measures the deflection (displacement with respect to the equilibrium position) of the cantilever and converts it into an electrical signal. The intensity of this signal will be proportional to the displacement of the cantilever. Various methods of detection can be used, e.g. interferometry, optical levers, the piezoelectric method, and STM- based detectors. Other interactions between tip and sample are changes in the amplitude of an imposed oscillation of the cantilever, or the shift in resonance frequency of the cantilever. When using the AFM to image a sample, the tip is brought into contact with the sample, and the sample is raster scanned along an x-y grid. (https://en.wikipedia.org/wiki/Atomic_force_microscopy)</p></li>
+<li><p><strong>Alternate labels:</strong> Scanning force microscope</p></li>
+<li><p>Concept URI token: atomicforcemicroprobe</p></li>
+</ul>
 <p><span id="nanoscaleinfraredspectrometer"></span></p>
+</section>
 <section id="nanoscale-infrared-spectrometer-nanoir" class="level4">
 <h4 class="anchored" data-anchor-id="nanoscale-infrared-spectrometer-nanoir">Nanoscale infrared spectrometer (nanoIR)</h4>
 <ul>
@@ -181,8 +209,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> O-REx techniques</p></li>
 <li><p>Concept URI token: nanoscaleinfraredspectrometer</p></li>
 </ul>
-<p><span id="bioanalyticalinstrument"></span></p>
+<p><span id="atomprobe"></span></p>
 </section>
+</section>
+<section id="atom-probe" class="level3">
+<h3 class="anchored" data-anchor-id="atom-probe">Atom probe</h3>
+<ul>
+<li><p>Child of: <a href="#analyticalinstrument"><code>analyticalinstrument</code></a></p></li>
+<li><p>Instrument for atom probe tomography investigation of needle-like micro samples. Through successive evaporation of material, layers of atoms are removed from a specimen, allowing for probing not only of the surface, but also through the material itself. The instrument allows the three-dimensional reconstruction of up to billions of atoms from a sharp tip (corresponding to specimen volumes of 10,000-10,000,000 nm3). (https://en.wikipedia.org/wiki/Atom_probe). A laser or voltage pulse acts on the tip of the specimen to trigger field evaporation of ions which are accelerated to impact a detector. The detector allows to simultaneously measure: 1) the Time Of Flight of the ions: measuring the time between the laser or voltage pulse and the arrival on the PSD allows to determine the m/q ratio (mass over charge ratio); and 2) the (X,Y) position of the ion impact on the detector: measuring the X-Y position and the order of arrival of the ions on the PSD allows to reconstruct the original position of the atoms on the tip. By repeating this sequence, the atoms are progressively removed from the tip, and a 3D image of the material can be reconstructed at the atomic scale. (https://www.cameca.com/products/apt/technique)</p></li>
+<li><p>Concept URI token: atomprobe</p></li>
+</ul>
+<p><span id="bioanalyticalinstrument"></span></p>
 </section>
 <section id="bioanalytical-instrument" class="level3">
 <h3 class="anchored" data-anchor-id="bioanalytical-instrument">Bioanalytical instrument</h3>
@@ -424,7 +461,16 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> NASA</p></li>
 <li><p>Concept URI token: scanningelectronmicroscope</p></li>
 </ul>
+<p><span id="focusedionbeamscanningelectronmicroscope"></span></p>
+<section id="focused-ion-beam-scanning-electron-microscope" class="level5">
+<h5 class="anchored" data-anchor-id="focused-ion-beam-scanning-electron-microscope">Focused ion beam scanning electron microscope</h5>
+<ul>
+<li><p>Child of: <a href="#scanningelectronmicroscope"><code>scanningelectronmicroscope</code></a></p></li>
+<li><p>a scientific instrument that resembles a scanning electron microscope (SEM). However, while the SEM uses a focused beam of electrons to image the sample in the chamber, a FIB setup uses a focused beam of ions instead. Most widespread instruments are using liquid metal ion sources (LMIS), especially gallium ion sources. Ion sources based on elemental gold and iridium are also available. FIB instruments have two imaging modes, using secondary electrons and secondary ions, both produced by the primary ion beam. Also used for ablation of material from sample surface, e.g.&nbsp;to create TEM samples. (https://en.wikipedia.org/wiki/Focused_ion_beam)</p></li>
+<li><p>Concept URI token: focusedionbeamscanningelectronmicroscope</p></li>
+</ul>
 <p><span id="transmissionelectronmicroscope"></span></p>
+</section>
 </section>
 <section id="transmission-electron-microscope" class="level4">
 <h4 class="anchored" data-anchor-id="transmission-electron-microscope">Transmission Electron Microscope</h4>
@@ -622,7 +668,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> NASA</p></li>
 <li><p>Concept URI token: massspectrometer</p></li>
 </ul>
+<p><span id="acceleratormassspectrometer"></span></p>
+<section id="accelerator-mass-spectrometer" class="level5">
+<h5 class="anchored" data-anchor-id="accelerator-mass-spectrometer">Accelerator Mass Spectrometer</h5>
+<ul>
+<li><p>Child of: <a href="#massspectrometer"><code>massspectrometer</code></a></p></li>
+<li><p>A Mass spectrometer that works by accelerating negative ions through a large (mega-volt) potential, followed by charge exchange and acceleration back to ground. During charge exchange, interfering species can be effectively removed. In addition, the high energy of the beam allows the use of energy-loss detectors, that can distinguish between species with the same mass/charge ratio. Together, these processes allow the analysis of extreme isotope ratios above 10e12. (https://en.wikipedia.org/wiki/Isotope- ratio_mass_spectrometry#Accelerator_mass_spectrometry)</p></li>
+<li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
+<li><p>Concept URI token: acceleratormassspectrometer</p></li>
+</ul>
 <p><span id="fouriertransformioncyclotronresonancemassspectrometer"></span></p>
+</section>
 <section id="fourier-transform-ion-cyclotron-resonance-mass-spectrometer" class="level5">
 <h5 class="anchored" data-anchor-id="fourier-transform-ion-cyclotron-resonance-mass-spectrometer">Fourier-transform ion cyclotron resonance mass spectrometer</h5>
 <ul>
@@ -651,8 +707,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> NASA</p></li>
 <li><p>Concept URI token: multicollectorinductivelycoupledplasmamassspectrometer</p></li>
 </ul>
-<p><span id="quadrupolemassspectrometer"></span></p>
+<p><span id="orbitrapmassspectrometer"></span></p>
 </section>
+</section>
+<section id="orbitrap-mass-spectrometer" class="level5">
+<h5 class="anchored" data-anchor-id="orbitrap-mass-spectrometer">Orbitrap Mass Spectrometer</h5>
+<ul>
+<li><p>Child of: <a href="#massspectrometer"><code>massspectrometer</code></a></p></li>
+<li><p>Mass spectrometer with an ion trap mass analyzer consisting of an outer barrel-like electrode and a coaxial inner spindle-like electrode that traps ions in an orbital motion around the spindle. The image current from the trapped ions is detected and converted to a mass spectrum using the Fourier transform of the frequency signal. (https://en.wikipedia.org/wiki/Orbitrap)</p></li>
+<li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
+<li><p>Concept URI token: orbitrapmassspectrometer</p></li>
+</ul>
+<p><span id="quadrupolemassspectrometer"></span></p>
 </section>
 <section id="quadrupole-mass-spectrometer" class="level5">
 <h5 class="anchored" data-anchor-id="quadrupole-mass-spectrometer">Quadrupole Mass Spectrometer</h5>
@@ -670,6 +736,95 @@ ul.task-list li input[type="checkbox"] {
 <li><p>A mass spectrometer that includes and ion gun that generates a beam of 5- to 20-keV ions used to bombard a sample surface, causing the surface layer of atoms of the sample to be stripped (sputtered) off, largely as neutral atoms. A small fraction, however, forms as positive (or negative) secondary ions that are drawn into the mass analyzer part of the system for analysis. The primary ion-beam diameter ranges from 0.3 to 5 mm. Double-focusing, single-focusing, time-of-flight, and quadrupole mass analyzers are used for mass determination. Typical transducers for SIMS are electron multipliers, Faraday cups, and imaging detectors. Used for general surface analysis and for depth profiling (Skoog, Holler &amp; Crouch, p.&nbsp;549)</p></li>
 <li><p><strong>Source:</strong> method instruments</p></li>
 <li><p>Concept URI token: secondaryionmassspectrometer</p></li>
+</ul>
+<p><span id="sectormassspectrometer"></span></p>
+</section>
+<section id="sector-mass-spectrometer" class="level5">
+<h5 class="anchored" data-anchor-id="sector-mass-spectrometer">Sector Mass Spectrometer</h5>
+<ul>
+<li><p>Child of: <a href="#massspectrometer"><code>massspectrometer</code></a></p></li>
+<li><p>class of mass spectrometer that uses a static electric (E) or magnetic (B) sector or some combination of the two (separately in space) as a mass analyzer. (https://en.wikipedia.org/wiki/Sector_mass_spectrometer)</p></li>
+<li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
+<li><p>Concept URI token: sectormassspectrometer</p></li>
+</ul>
+<p><span id="timeofflightmassspectrometer"></span></p>
+</section>
+<section id="time-of-flight-mass-spectrometer" class="level5">
+<h5 class="anchored" data-anchor-id="time-of-flight-mass-spectrometer">Time of Flight Mass Spectrometer</h5>
+<ul>
+<li><p>Child of: <a href="#massspectrometer"><code>massspectrometer</code></a></p></li>
+<li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
+<li><p>Concept URI token: timeofflightmassspectrometer</p></li>
+</ul>
+<p><span id="photonspectrometer"></span></p>
+</section>
+</section>
+<section id="photon-spectrometer" class="level4">
+<h4 class="anchored" data-anchor-id="photon-spectrometer">Photon spectrometer</h4>
+<ul>
+<li><p>Child of: <a href="#spectrometer"><code>spectrometer</code></a></p></li>
+<li><p>instrument that measures the energy distribution of photons; includes x-ray, ultraviolet, visible, infrared spectrometers.</p></li>
+<li><p>Concept URI token: photonspectrometer</p></li>
+</ul>
+<p><span id="fluorometer"></span></p>
+<section id="fluorometer" class="level5">
+<h5 class="anchored" data-anchor-id="fluorometer">Fluorometer</h5>
+<ul>
+<li><p>Child of: <a href="#photonspectrometer"><code>photonspectrometer</code></a></p></li>
+<li><p>A fluorometer is an instrument that measures the amount of fluorescent radiation produced by a sample exposed to monochromatic radiation. Additional information available at ‘http://gcmd.gsfc.nasa.gov/cgi-bin/createsensorsupweb’ [Summary provided by NOAA]. Own comment: For Bioanalytics a fluorometer is used to measure quantity and quality of DNA.</p></li>
+<li><p><strong>Alternate labels:</strong> Fluorimeter</p></li>
+<li><p><strong>Source:</strong> NASA</p></li>
+<li><p>Concept URI token: fluorometer</p></li>
+</ul>
+<p><span id="ramanspectrometer"></span></p>
+</section>
+<section id="raman-spectrometer" class="level5">
+<h5 class="anchored" data-anchor-id="raman-spectrometer">Raman Spectrometer</h5>
+<ul>
+<li><p>Child of: <a href="#photonspectrometer"><code>photonspectrometer</code></a></p></li>
+<li><p>A Raman microscope begins with a standard optical microscope, and adds an excitation laser, a monochromator or polychromator, and a sensitive detector (such as a charge-coupled device (CCD), or photomultiplier tube (PMT)). Instrument provides a source of monochromatic electromagnetic radiation that illuminates a spot on the analyzed sample; interaction with atoms in the sample results in the energy of the incident photons being shifted up or down. The magnitude of the Raman effect correlates with polarizability of the electrons in a molecule. The light source is typically a laser in the visible, near infrared, or near ultraviolet range, although X-rays can also be used. The shift in energy from the incident source gives information about the vibrational modes in the analyzed sample. Electromagnetic radiation from the illuminated spot is collected with a lens and sent through a monochromator. Elastic scattered radiation at the wavelength corresponding to the incident excitation is filtered out, while the rest of the collected light is dispersed onto a detector. (https://en.wikipedia.org/wiki/Raman_spectroscopy)</p></li>
+<li><p><strong>Source:</strong> method instruments</p></li>
+<li><p>Concept URI token: ramanspectrometer</p></li>
+</ul>
+<p><span id="spectrofluorometer"></span></p>
+</section>
+<section id="spectrofluorometer" class="level5">
+<h5 class="anchored" data-anchor-id="spectrofluorometer">Spectrofluorometer</h5>
+<ul>
+<li><p>Child of: <a href="#photonspectrometer"><code>photonspectrometer</code></a></p></li>
+<li><p>an instrument which takes advantage of fluorescent properties of some compounds in order to provide information regarding their concentration and chemical environment in a sample. A certain excitation wavelength is selected, and the emission is observed either at a single wavelength, or a scan is performed to record the intensity versus wavelength, also called an emission spectrum.[1] The instrument is used in fluorescence spectroscopy. (https://en.wikipedia.org/wiki/Spectrofluorometer)</p></li>
+<li><p><strong>Source:</strong> method instruments</p></li>
+<li><p>Concept URI token: spectrofluorometer</p></li>
+</ul>
+<p><span id="spectrophotometer"></span></p>
+</section>
+<section id="spectrophotometer" class="level5">
+<h5 class="anchored" data-anchor-id="spectrophotometer">Spectrophotometer</h5>
+<ul>
+<li><p>Child of: <a href="#photonspectrometer"><code>photonspectrometer</code></a></p></li>
+<li><p>Instrument that can measure the intensity of a light beam at different wavelengths. Although spectrophotometry is most commonly applied to ultraviolet, visible, and infrared radiation, modern spectrophotometers can interrogate wide swaths of the electromagnetic spectrum, including x-ray, ultraviolet, visible, infrared, and/or microwave wavelengths. A spectrophotometer is commonly used for the measurement of transmittance or reflectance of solutions, transparent or opaque solids, such as polished glass, or gases. (https://en.wikipedia.org/wiki/Spectrophotometry) If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. (https://en.wikipedia.org/wiki/Optical_spectrometer)</p></li>
+<li><p><strong>Source:</strong> method instruments</p></li>
+<li><p>Concept URI token: spectrophotometer</p></li>
+</ul>
+<p><span id="spectroradiometer"></span></p>
+</section>
+<section id="spectroradiometer" class="level5">
+<h5 class="anchored" data-anchor-id="spectroradiometer">Spectroradiometer</h5>
+<ul>
+<li><p>Child of: <a href="#photonspectrometer"><code>photonspectrometer</code></a></p></li>
+<li><p>A spectroradiometer is an instrument for measuring the energy distribution of emitted radiation. Portable spectroradiometers provide field measurements for a variety of applications including geological remote sensing, ground truthing, spectral remote sensing, environmental and climate research, crop and soil research, vegetative studies, forestry and canopy studies, radiometric calibration transfer, upwelling and downwelling measurement.. . SPECTRORADIOMETERS are a combination of a spectroscope and a radiometer in one single unit. (Source: NASA; UUID: 937585ae-67a1-44a5-b88a-612667d353ea). A radiometer is a device for measuring the radiant flux (power) of electromagnetic radiation. (https://en.wikipedia.org/wiki/Radiometer). The Spectrometer is the base unit of a Spectroradiometer. Spectroradiometers include input optics and calibrations that allow the spectrometer to take calibrated readings of power, intensity, and irradiance/radiance in optical units or lux/nm, lumens/nm, watts/nm, W/cm2/sr/nm etc. Though to be clear, many people interchange the terms calibrated spectrometer, spectrometer and spectroradiometer. (https://www.intl-lighttech.com/blog/what-difference-between- spectrometer-spectroradiometer-and-radiometer)</p></li>
+<li><p><strong>Source:</strong> NASA</p></li>
+<li><p>Concept URI token: spectroradiometer</p></li>
+</ul>
+<p><span id="xrayspectrometer"></span></p>
+</section>
+<section id="x-ray-spectrometer" class="level5">
+<h5 class="anchored" data-anchor-id="x-ray-spectrometer">X-Ray Spectrometer</h5>
+<ul>
+<li><p>Child of: <a href="#photonspectrometer"><code>photonspectrometer</code></a></p></li>
+<li><p>Spectrometer to measure the energy vs.&nbsp;frequency spectrum in the x-ray range of electromagnetic radiation.</p></li>
+<li><p><strong>Source:</strong> method instruments</p></li>
+<li><p>Concept URI token: xrayspectrometer</p></li>
 </ul>
 <p><span id="xraydiffractometer"></span></p>
 </section>
@@ -770,6 +925,46 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#electronbackscatterdiffraction">Electron Backscatter Diffraction</a></li>
 <li><a href="#transmittedelectrondiffraction">Transmitted Electron Diffraction</a></li>
 </ul></li>
+<li><a href="#geochronology">Geochronology techiques</a>
+<ul>
+<li><a href="#alpharecoiltrackcounting">Alpha-recoil track counting</a></li>
+<li><a href="#electronspinresonanceageanalysis">Electron-spin resonance age analysis</a></li>
+<li><a href="#fissiontrackcounting">Fission track counting</a></li>
+<li><a href="#geochronology40ar39ar">40Ar-39Ar geochronology</a></li>
+</ul></li>
+<li><a href="#imagingtechniques">Imaging techniques</a>
+<ul>
+<li><a href="#afmtopographyimaging">AFM topography imaging</a></li>
+<li><a href="#cathodoluminescenceimaging">Cathodoluminescence Imaging</a></li>
+<li><a href="#electronmicroscopyimaging">Electron microscopy imaging</a>
+<ul>
+<li><a href="#backscatteredelectrongrainboundarymap">Backscattered electron grain boundary map</a></li>
+<li><a href="#backscatteredelectronimaging">Backscattered electron imaging</a></li>
+<li><a href="#secondaryelectronimaging">Secondary electron imaging</a></li>
+<li><a href="#transmissionelectronimaging">Transmission electron imaging</a>
+<ul>
+<li><a href="#energyfilteredtransmissionelectronimaging">Energy-filtered transmission electron imaging</a></li>
+<li><a href="#scanningtransmissionelectronimaging">Scanning transmission electron imaging</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#focusedionbeamscanningmicroscopy">Focused ion beam-scanning microscopy</a></li>
+<li><a href="#quantitativereflectanceimagingsystem">Quantitative Reflectance Imaging System</a></li>
+<li><a href="#structuredlightscanning">Structured Light Scanning</a></li>
+<li><a href="#visiblenearinfraredandmidinfraredimaging">Visible, near-infrared, and mid-infrared imaging</a></li>
+<li><a href="#xrayimaging">X-ray imaging</a>
+<ul>
+<li><a href="#microscopicxrayimaging">Microscopic X-ray imaging</a></li>
+<li><a href="#xraycomputedtomography">X-ray computed tomography</a>
+<ul>
+<li><a href="#synchrotronxrayfluorescencetomography">Synchrotron X-ray Fluorescence Tomography</a></li>
+</ul></li>
+<li><a href="#xraymap">X-Ray composition map</a>
+<ul>
+<li><a href="#energydispersivexrayspectraraster">Energy dispersive X-ray spectral data 2D raster</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#xrayphotoelectronspectroscopycompositionmap">X-ray Photoelectron Spectrometry Composition Map</a></li>
+</ul></li>
 <li><a href="#magneticfieldmeasurement">Magnetic Field Measurement</a></li>
 <li><a href="#microscopy">Microscopy</a>
 <ul>
@@ -789,10 +984,12 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><a href="#particlebeamexcitation">Particle beam excitation</a>
 <ul>
+<li><a href="#electronenergylossspectrometry">Electron energy loss spectrometry</a></li>
 <li><a href="#electronmicroscopyimaging">Electron microscopy imaging</a>
 <ul>
 <li><a href="#backscatteredelectrongrainboundarymap">Backscattered electron grain boundary map</a></li>
 <li><a href="#backscatteredelectronimaging">Backscattered electron imaging</a></li>
+<li><a href="#secondaryelectronimaging">Secondary electron imaging</a></li>
 <li><a href="#transmissionelectronimaging">Transmission electron imaging</a>
 <ul>
 <li><a href="#energyfilteredtransmissionelectronimaging">Energy-filtered transmission electron imaging</a></li>
@@ -807,6 +1004,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="#energydispersiveelectroninducedxrayspectrometry">Energy Dispersive electron-induced X-ray spectrometry</a></li>
 <li><a href="#quantitativeanalysiselectroninducedxrayspectrometry">Quantitative analysis electron-induced X-ray spectrometry</a></li>
+<li><a href="#wavelengthdispersiveelectroninducedxrayspectrometry">Wavelength Dispersive electron induced X-Ray Spectrometry</a></li>
 </ul></li>
 <li><a href="#quantitativeanalysisparticleinducedxrayspectrometry">Quantitative analysis particle-induced X-ray spectrometry</a>
 <ul>
@@ -851,6 +1049,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#thermalanalysis">Thermal analysis</a>
 <ul>
 <li><a href="#differentialscanningcalorimetry">Differential Scanning Calorimetry</a></li>
+<li><a href="#differentialthermalanalyis">Differential Thermal Analysis</a></li>
 <li><a href="#inductionheatinganalysis">Induction heating analysis</a></li>
 <li><a href="#lockinthermography">Lock in thermography</a></li>
 <li><a href="#minicryogenfreemeasurementsystemforthermalconductivity">Mini Cryogen-Free Measurement System for Thermal Conductivity</a></li>
@@ -870,6 +1069,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#electronspectrometry">Electron spectrometry</a>
 <ul>
 <li><a href="#augerelectronspectroscopy">Auger electron spectroscopy</a></li>
+<li><a href="#electronenergylossspectrometry">Electron energy loss spectrometry</a></li>
 <li><a href="#xrayphotoelectronspectrometery">X-ray photoelectron spectrometery</a></li>
 </ul></li>
 <li><a href="#massspectrometry">Mass spectrometry</a>
@@ -1013,6 +1213,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="#energydispersiveelectroninducedxrayspectrometry">Energy Dispersive electron-induced X-ray spectrometry</a></li>
 <li><a href="#quantitativeanalysiselectroninducedxrayspectrometry">Quantitative analysis electron-induced X-ray spectrometry</a></li>
+<li><a href="#wavelengthdispersiveelectroninducedxrayspectrometry">Wavelength Dispersive electron induced X-Ray Spectrometry</a></li>
 </ul></li>
 <li><a href="#quantitativeanalysisparticleinducedxrayspectrometry">Quantitative analysis particle-induced X-ray spectrometry</a>
 <ul>
@@ -1025,6 +1226,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><a href="#xrayfluorescencespectrometry">X-ray fluorescence spectrometry</a>
 <ul>
+<li><a href="#confocalxrayfluorescencespectrometry">Confocal X-Ray Fluorescence Spectrometry</a></li>
 <li><a href="#energydispersivexrayfluorescencespectrometry">Energy dispersive X-ray fluorescence spectrometry</a></li>
 <li><a href="#synchrotonxrayfluorescencespectrometry">Synchroton X-ray fluorescence spectrometry</a>
 <ul>
@@ -1194,7 +1396,7 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="gas-chromatography-analysis">Gas Chromatography Analysis</h4>
 <ul>
 <li><p>Child of: <a href="#chromatographyanalysis"><code>chromatographyanalysis</code></a></p></li>
-<li><p>A chromatography analysis in which the mobile phase is a gas</p></li>
+<li><p>A chromatography analysis in which the mobile phase is a gas. Subclasses are differentiated on the sample preparation workflow (e.g. pyrolysis) and the type of detector used to analyze the eluates. This vocabulary does not define an exhaustive set of subclasses.</p></li>
 <li><p><strong>Source:</strong> Astromat, GeoRoc, PetDb, add parent methods,</p></li>
 <li><p>Concept URI token: gaschromatographyanalysis</p></li>
 </ul>
@@ -1445,6 +1647,279 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> O-REx products</p></li>
 <li><p>Concept URI token: transmittedelectrondiffraction</p></li>
 </ul>
+<p><span id="geochronology"></span></p>
+</section>
+</section>
+<section id="geochronology-techiques" class="level3">
+<h3 class="anchored" data-anchor-id="geochronology-techiques">Geochronology techiques</h3>
+<ul>
+<li><p>Child of: <a href="#analyticalmethod"><code>analyticalmethod</code></a></p></li>
+<li><p>Analytical techniques that have results interpreted to indicate the time interval since some event occurred in the history of a sample. Typically used to estimate crystallization ages, cooling ages (thermochronology), or exposure ages.</p></li>
+<li><p>Concept URI token: geochronology</p></li>
+</ul>
+<p><span id="alpharecoiltrackcounting"></span></p>
+<section id="alpha-recoil-track-counting" class="level4">
+<h4 class="anchored" data-anchor-id="alpha-recoil-track-counting">Alpha-recoil track counting</h4>
+<ul>
+<li><p>Child of: <a href="#geochronology"><code>geochronology</code></a> <a href="#trackcounting"><code>trackcounting</code></a></p></li>
+<li><p>Like fission-track dating, alpha-recoil track (ART) dating is based on the accumulation of nuclear particles that are released by natural radioactivity and produce etchable tracks in solids. ARTs are formed during the alpha-decay of uranium and thorium as well as of their daughter nuclei. When emitting an alpha-particle, the heavy remaining nucleus recoils 30-40 nm, leaving behind a trail of radiation damage. Through etching the ART tracks become visible with interference phase- contrast microscopy. Alpha-recoil dating has a great potential for Quaternary chronometry and tephrochronology. (https://doi.org/10.1016/S0009-2541(99)00185-0)</p></li>
+<li><p><strong>Alternate labels:</strong> ALPHA-RECOIL TRACKS DATING</p></li>
+<li><p><strong>Source:</strong> GeoRoc</p></li>
+<li><p>Concept URI token: alpharecoiltrackcounting</p></li>
+</ul>
+<p><span id="electronspinresonanceageanalysis"></span></p>
+</section>
+<section id="electron-spin-resonance-age-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="electron-spin-resonance-age-analysis">Electron-spin resonance age analysis</h4>
+<ul>
+<li><p>Child of: <a href="#geochronology"><code>geochronology</code></a></p></li>
+<li><p>a technique used to date materials by measuring the amount of unpaired electrons in crystalline structures that were previously exposed to natural radiation. The age of a substance can be determined by measuring the dosage of radiation since the time of its formation. (https://en.wikipedia.org/wiki/Electron_spin_resonance_dating). electron spin resonance (ESR) spectroscopy is a method for studying materials that have unpaired electrons. The basic concepts of EPR are analogous to those of nuclear magnetic resonance (NMR), but the spins excited are those of the electrons instead of the atomic nuclei. (https://en.wikipedia.org/wiki/Electron_paramagnetic_resonance)</p></li>
+<li><p><strong>Alternate labels:</strong> ELECTRON-SPIN RESONANCE AGE</p></li>
+<li><p><strong>Source:</strong> GeoRoc</p></li>
+<li><p>Concept URI token: electronspinresonanceageanalysis</p></li>
+</ul>
+<p><span id="fissiontrackcounting"></span></p>
+</section>
+<section id="fission-track-counting" class="level4">
+<h4 class="anchored" data-anchor-id="fission-track-counting">Fission track counting</h4>
+<ul>
+<li><p>Child of: <a href="#geochronology"><code>geochronology</code></a> <a href="#trackcounting"><code>trackcounting</code></a></p></li>
+<li><p>Fission track age with correction applied for partial annealing using Isothermal plateau correction (https://doi.org/10.1016/1040-6182(92)90017-V)</p></li>
+<li><p><strong>Alternate labels:</strong> FISSION TRACK, ISOTHERMAL PLATEAU FISSION TRACK ANALYSIS,</p></li>
+<li><p><strong>Source:</strong> GeoRoc, PetDb,</p></li>
+<li><p>Concept URI token: fissiontrackcounting</p></li>
+</ul>
+<p><span id="geochronology40ar39ar"></span></p>
+</section>
+<section id="ar-39ar-geochronology" class="level4">
+<h4 class="anchored" data-anchor-id="ar-39ar-geochronology">40Ar-39Ar geochronology</h4>
+<ul>
+<li><p>Child of: <a href="#geochronology"><code>geochronology</code></a></p></li>
+<li><p>determination of cooling age of a sample through one of several workflows. All the workflows involve irradiating the sample to produce Ar39 from K39, and then measuring the ratio of Ar40 to Ar39 in the irradiated sample. The Ar39 is a proxy for the potassium concentration, allowing determination of the temporal duration of K decay to accumulate radiogenic Ar since cooling of the sample below argon retention temperature.</p></li>
+<li><p><strong>Alternate labels:</strong> 40Ar/39Ar geochronology and thermochronology</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: geochronology40ar39ar</p></li>
+</ul>
+<p><span id="imagingtechniques"></span></p>
+</section>
+</section>
+<section id="imaging-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="imaging-techniques">Imaging techniques</h3>
+<ul>
+<li><p>Child of: <a href="#analyticalmethod"><code>analyticalmethod</code></a></p></li>
+<li><p>Methods that produce 2-D or 3-D rasters that contain information about a sample.</p></li>
+<li><p>Concept URI token: imagingtechniques</p></li>
+</ul>
+<p><span id="afmtopographyimaging"></span></p>
+<section id="afm-topography-imaging" class="level4">
+<h4 class="anchored" data-anchor-id="afm-topography-imaging">AFM topography imaging</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a> <a href="#surfaceanalysis"><code>surfaceanalysis</code></a></p></li>
+<li><p>a sharp probe tip mounted on a microcantilever scans over the specimen line by line, whereby the topographic image of the sample surface is generated by ‘feeling’ rather than ‘looking.’ (https://doi.org/10.1007/978-3-642-16712-6_496). As the tip approaches the surface, the close-range, attractive forces between the surface and the tip causes the cantilever to deflect towards the surface. However, as the cantilever is brought even closer to the surface, until the tip makes contact with it, increasingly repulsive forces takes over and causes the cantilever to deflect away from the surface. (https://lnf- wiki.eecs.umich.edu/wiki/Atomic_force_microscopy)</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: afmtopographyimaging</p></li>
+</ul>
+<p><span id="cathodoluminescenceimaging"></span></p>
+</section>
+<section id="cathodoluminescence-imaging" class="level4">
+<h4 class="anchored" data-anchor-id="cathodoluminescence-imaging">Cathodoluminescence Imaging</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a></p></li>
+<li><p>In a vacuum chamber containing the sample of interest, an electron beam is focused on the sample, causing cathodoluminescence (CL), the generation of electromagnetic radiation ranging from the ultraviolet (UV) to the near-infrared (NIR) regime of the electromagnetic spectrum. The light is collected with a collection optic (e.g.&nbsp;mirror or objective) and directed to a light detection unit, or directly captured by a detector in the chamber. This detector output is used to characterize various aspects of the light signal such as its intensity, color, and more. Many trace elements or dopants can be sensitively detected with CL because they have different optical transitions than the bulk materials they are embedded in. It is possible to look at crystal defects as these can alter the local optical properties of the material. CL can also image optical resonances and guided modes in a range of (resonant) photonic and plasmonic systems. (https://www.delmic.com/en/techniques/cathodoluminescence)</p></li>
+<li><p><strong>Alternate labels:</strong> High Resolution Cathodoluminescence</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: cathodoluminescenceimaging</p></li>
+</ul>
+<p><span id="electronmicroscopyimaging"></span></p>
+</section>
+<section id="electron-microscopy-imaging" class="level4">
+<h4 class="anchored" data-anchor-id="electron-microscopy-imaging">Electron microscopy imaging</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a> <a href="#particlebeamexcitation"><code>particlebeamexcitation</code></a></p></li>
+<li><p>Technique that produces images by scanning an electron beam over a sample surface and measureing the intensity of electrons emitted from or transmitted through the sample.</p></li>
+<li><p><strong>Alternate labels:</strong> ANAYTICAL ELECTRON MICROSCOPY</p></li>
+<li><p><strong>Source:</strong> Astromat, GeoRoc, O-REx techniques, PetDb,</p></li>
+<li><p>Concept URI token: electronmicroscopyimaging</p></li>
+</ul>
+<p><span id="backscatteredelectrongrainboundarymap"></span></p>
+<section id="backscattered-electron-grain-boundary-map" class="level5">
+<h5 class="anchored" data-anchor-id="backscattered-electron-grain-boundary-map">Backscattered electron grain boundary map</h5>
+<ul>
+<li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
+<li><p>Image showing grain boundaries generated by detecting crytallographic orientation changes in a raster of backscattered electron diffraction data points.</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: backscatteredelectrongrainboundarymap</p></li>
+</ul>
+<p><span id="backscatteredelectronimaging"></span></p>
+</section>
+<section id="backscattered-electron-imaging" class="level5">
+<h5 class="anchored" data-anchor-id="backscattered-electron-imaging">Backscattered electron imaging</h5>
+<ul>
+<li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
+<li><p>Techniques that involve bombarding a sample with an accelerated electron beam to produce backscattered electrons. An image is formed by scanning the beam in a raster across the sample surface and measuring the intensity (count?) of backscattered electrons at each sample point. BSEs are reflected back after elastic interactions between the beam and the sample. BSE images show high sensitivity to differences in atomic number; the higher the atomic number, the brighter the material appears in the image. (https://www.thermofisher.com/blog/materials/sem-signal-types- electrons-and-the-information-they-provide/)</p></li>
+<li><p><strong>Alternate labels:</strong> Backscatter electron microscopy</p></li>
+<li><p><strong>Source:</strong> Astromat, GeoRoc, O-REx techniques, PetDb,</p></li>
+<li><p>Concept URI token: backscatteredelectronimaging</p></li>
+</ul>
+<p><span id="secondaryelectronimaging"></span></p>
+</section>
+<section id="secondary-electron-imaging" class="level5">
+<h5 class="anchored" data-anchor-id="secondary-electron-imaging">Secondary electron imaging</h5>
+<ul>
+<li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
+<li><p>Techniques that involve bombarding a sample with an accelerated electron or ion beam to produce secondary electrons. An image is formed by scanning the beam in a raster across the sample surface and measuring the intensity (count?) of secondary electrons emitted at each sample point. Secondary electrons are a result of inelastic interactions between the excitation beam and atoms in the sample; they originate from the surface region of the sample. Secondary electron imaging can provide detailed surface information. (https://www.thermofisher.com/blog/materials/sem-signal-types- electrons-and-the-information-they-provide/)</p></li>
+<li><p><strong>Alternate labels:</strong> Secondary electron microscopy</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: secondaryelectronimaging</p></li>
+</ul>
+<p><span id="transmissionelectronimaging"></span></p>
+</section>
+<section id="transmission-electron-imaging" class="level5">
+<h5 class="anchored" data-anchor-id="transmission-electron-imaging">Transmission electron imaging</h5>
+<ul>
+<li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
+<li><p>technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. Multiple operating modes based on electron imaging include conventional imaging, scanning TEM imaging (STEM), and electron diffraction. (https://en.wikipedia.org/wiki/Transmission_electron_microscopy)</p></li>
+<li><p><strong>Alternate labels:</strong> Transmission electron microscopy</p></li>
+<li><p><strong>Source:</strong> GeoRoc, O-REx techniques,</p></li>
+<li><p>Concept URI token: transmissionelectronimaging</p></li>
+</ul>
+<p><span id="energyfilteredtransmissionelectronimaging"></span></p>
+<section id="energy-filtered-transmission-electron-imaging" class="level6">
+<h6 class="anchored" data-anchor-id="energy-filtered-transmission-electron-imaging">Energy-filtered transmission electron imaging</h6>
+<ul>
+<li><p>Child of: <a href="#transmissionelectronimaging"><code>transmissionelectronimaging</code></a></p></li>
+<li><p>The principle is to illuminate a very thin specimen with a beam of high energy electrons. Some of these electrons will interact with the specimen and result in elastic or inelastic scattering. Inelastic scattering results in both a loss of energy and a change in momentum, which in the case of inner shell ionization, the energy loss is characteristic of the element the electron interacted with. After the electron energy loss spectrum forms in the energy filter, an adjustable energy slit allows only electrons that have not lost energy to pass through to form the image. This is known as zero-loss filtering. The filtering prevents inelastically scattered electrons from contributing to the image plus enhances contrast image and resolution. In addition to zero-loss filtering, you can adjust the system to select electrons that have lost a specific amount of energy to obtain additional contrast effects and compositionally sensitive images. (https://eels.info/about/techniques/eftem)</p></li>
+<li><p><strong>Alternate labels:</strong> Energy-filtered transmission electron microscopy</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: energyfilteredtransmissionelectronimaging</p></li>
+</ul>
+<p><span id="scanningtransmissionelectronimaging"></span></p>
+</section>
+<section id="scanning-transmission-electron-imaging" class="level6">
+<h6 class="anchored" data-anchor-id="scanning-transmission-electron-imaging">Scanning transmission electron imaging</h6>
+<ul>
+<li><p>Child of: <a href="#transmissionelectronimaging"><code>transmissionelectronimaging</code></a></p></li>
+<li><p>In STEM the electron beam is focused to a fine spot (with the typical spot size 0.05 – 0.2 nm) which is then scanned over the sample in a raster illumination system constructed so that the sample is illuminated at each point with the beam parallel to the optical axis. (https://en.wikipedia.org/wiki/Transmission_electron_microscopy). In TEM parallel electron beams are focused perpendicular to the sample plane, in STEM the beam is focused at a large angle and is converged into a focal point. The transmitted signal is collected as a function of the beam location as it is rastered across the sample. There are multiple detectors for STEM imaging: 1) BF (bright-field) detector: small angles (0-10 mrad). These images are similar to the bright-field images obtained using TEM; 2) ADF (annular dark-field ) detector: larger angles (10-50 mrad); 3) HAADF (high-angle annular dark-field) detector: Angles greater than 50mrad. (https://chem.libretexts.org/Cou rses/Franklin_and_Marshall_College/Introduction_to_Materials_Character ization_<em>CHM_412_Collaborative_Text/Electron_and_Probe_Microscopy/Tran smission_electron_microscopy</em>(TEM)%3A_TEM_versus_STEM_and_HAADF )</p></li>
+<li><p><strong>Alternate labels:</strong> Scanning transmission electron microscopy</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: scanningtransmissionelectronimaging</p></li>
+</ul>
+<p><span id="focusedionbeamscanningmicroscopy"></span></p>
+</section>
+</section>
+</section>
+<section id="focused-ion-beam-scanning-microscopy" class="level4">
+<h4 class="anchored" data-anchor-id="focused-ion-beam-scanning-microscopy">Focused ion beam-scanning microscopy</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a> <a href="#particlebeamexcitation"><code>particlebeamexcitation</code></a></p></li>
+<li><p>Production of images by scanning an ion beam in a raster across a sample surface and detecting secondary or backscattered electrons from each point to generate an image. Instrument used is typically an electron microscope that has an additional ion beam excitation source.</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: focusedionbeamscanningmicroscopy</p></li>
+</ul>
+<p><span id="quantitativereflectanceimagingsystem"></span></p>
+</section>
+<section id="quantitative-reflectance-imaging-system" class="level4">
+<h4 class="anchored" data-anchor-id="quantitative-reflectance-imaging-system">Quantitative Reflectance Imaging System</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a></p></li>
+<li><p>Images acquired for a particular spectral channel [need more information]</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: quantitativereflectanceimagingsystem</p></li>
+</ul>
+<p><span id="structuredlightscanning"></span></p>
+</section>
+<section id="structured-light-scanning" class="level4">
+<h4 class="anchored" data-anchor-id="structured-light-scanning">Structured Light Scanning</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a></p></li>
+<li><p>Determination of the three-dimensional shape of an object using projected light patterns, a camera system, and digital processing. The light source from the scanner head projects a series of parallel patterns onto the scan target. When light projects onto the object’s surface, the patterns become distorted. The cameras capture these images and send them to the 3D scanning software for processing.</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: structuredlightscanning</p></li>
+</ul>
+<p><span id="visiblenearinfraredandmidinfraredimaging"></span></p>
+</section>
+<section id="visible-near-infrared-and-mid-infrared-imaging" class="level4">
+<h4 class="anchored" data-anchor-id="visible-near-infrared-and-mid-infrared-imaging">Visible, near-infrared, and mid-infrared imaging</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a></p></li>
+<li><p>Visualization of infrared spectra data collected at a raster of points on a sample surface by selecting particular spectral intervals normalizing and mapping the measured intensity in the interval to an image channel; gray scale image based on a single spectral interval, color image with three intervals mapped to R,G,B channels.</p></li>
+<li><p><strong>Alternate labels:</strong> Visible, near-infrared, and mid-infrared (VNMIR) 2D spectral raster SwRI micro-FTIR</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: visiblenearinfraredandmidinfraredimaging</p></li>
+</ul>
+<p><span id="xrayimaging"></span></p>
+</section>
+<section id="x-ray-imaging" class="level4">
+<h4 class="anchored" data-anchor-id="x-ray-imaging">X-ray imaging</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a></p></li>
+<li><p>As X-rays pass through an object, X-rays of a particular wavelength are attentuated more or less depending on the materials through which the X-rays pass and the thickness of the material. The attenuation of X-rays passing through the object makes a ‘shadow pattern’ which can be captured for study on photographic film, or by a reusable phosphor screen which can be read by a digital scanner, or directly by a digital detector. The resulting X-radiographs enable visualizing features hidden below an object’s surface. The different attenuation values can also be used to distinguish between materials which look the same under visible light but have different X-ray absorptions. (https://www.fieldmuseum.org/science/research/area/conserving- collections/examination-documentation/x-radiography)</p></li>
+<li><p><strong>Alternate labels:</strong> X-RADIOGRAPHY</p></li>
+<li><p><strong>Source:</strong> GeoRoc</p></li>
+<li><p>Concept URI token: xrayimaging</p></li>
+</ul>
+<p><span id="microscopicxrayimaging"></span></p>
+<section id="microscopic-x-ray-imaging" class="level5">
+<h5 class="anchored" data-anchor-id="microscopic-x-ray-imaging">Microscopic X-ray imaging</h5>
+<ul>
+<li><p>Child of: <a href="#xrayimaging"><code>xrayimaging</code></a></p></li>
+<li><p>Technique uses electromagnetic radiation in the X-ray band to produce magnified images of objects. Since X-rays penetrate most objects, there is no need to specially prepare them for X-ray microscopy observations. Because X-rays do not reflect or refract easily and are invisible to the human eye an X-ray microscope exposes film or uses a charge-coupled device (CCD) detector to detect X-rays that pass through the specimen. It is a contrast imaging technology using the difference in absorption of soft X-rays in the water window region (wavelengths: 2.34-4.4 nm, energies: 280-530 eV) by the carbon atom (main element composing the living cell) and the oxygen atom (an element of water). (https://en.wikipedia.org/wiki/X-ray_microscope)</p></li>
+<li><p><strong>Alternate labels:</strong> X-RAY MICROSCOPY ANALYSIS</p></li>
+<li><p><strong>Source:</strong> Astromat</p></li>
+<li><p>Concept URI token: microscopicxrayimaging</p></li>
+</ul>
+<p><span id="xraycomputedtomography"></span></p>
+</section>
+<section id="x-ray-computed-tomography" class="level5">
+<h5 class="anchored" data-anchor-id="x-ray-computed-tomography">X-ray computed tomography</h5>
+<ul>
+<li><p>Child of: <a href="#xrayimaging"><code>xrayimaging</code></a></p></li>
+<li><p>2D Radiograph collected as a stack of planar surfaces by focusing x-rays at progressively greater depth throught the sample. The stack is then used for the reconstruction process to create a 3D volume.</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: xraycomputedtomography</p></li>
+</ul>
+<p><span id="synchrotronxrayfluorescencetomography"></span></p>
+<section id="synchrotron-x-ray-fluorescence-tomography" class="level6">
+<h6 class="anchored" data-anchor-id="synchrotron-x-ray-fluorescence-tomography">Synchrotron X-ray Fluorescence Tomography</h6>
+<ul>
+<li><p>Child of: <a href="#synchrotonxrayfluorescencespectrometry"><code>synchrotonxrayfluorescencespectrometry</code></a> <a href="#xraycomputedtomography"><code>xraycomputedtomography</code></a></p></li>
+<li><p>X-ray flourescence spectrometery focused to extract inforamtion from inside the volume of a sample, with x-rays sourced from a synchrotron.</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: synchrotronxrayfluorescencetomography</p></li>
+</ul>
+<p><span id="xraymap"></span></p>
+</section>
+</section>
+<section id="x-ray-composition-map" class="level5">
+<h5 class="anchored" data-anchor-id="x-ray-composition-map">X-Ray composition map</h5>
+<ul>
+<li><p>Child of: <a href="#xrayimaging"><code>xrayimaging</code></a></p></li>
+<li><p>image produced using composition data derived from x-ray spectra analysis at a raster of points on a sample surface. Might be based on EDS or WDS data</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: xraymap</p></li>
+</ul>
+<p><span id="energydispersivexrayspectraraster"></span></p>
+<section id="energy-dispersive-x-ray-spectral-data-2d-raster" class="level6">
+<h6 class="anchored" data-anchor-id="energy-dispersive-x-ray-spectral-data-2d-raster">Energy dispersive X-ray spectral data 2D raster</h6>
+<ul>
+<li><p>Child of: <a href="#xraymap"><code>xraymap</code></a></p></li>
+<li><p>production of composition-related images by selecting particular x-ray wavelength intervals from a set of EDS spectra acquired in a raster on a sample surface. If one wavelenth interval is rpresented, get gray scale image. Can combine data from 3 intervals to generate more informative RGB images.</p></li>
+<li><p><strong>Alternate labels:</strong> Energy-dispersive X-ray spectral data (EDS) - 2D raster</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: energydispersivexrayspectraraster</p></li>
+</ul>
+<p><span id="xrayphotoelectronspectroscopycompositionmap"></span></p>
+</section>
+</section>
+</section>
+<section id="x-ray-photoelectron-spectrometry-composition-map" class="level4">
+<h4 class="anchored" data-anchor-id="x-ray-photoelectron-spectrometry-composition-map">X-ray Photoelectron Spectrometry Composition Map</h4>
+<ul>
+<li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a></p></li>
+<li><p>Technique based on irradiation of the sample surface with monochromatic X-radiation (Skoog, Holler, Crouch p540) resulting in emission of electrons. The emitted electron energy spectra are obtained and chemical states are inferred from the measurement of the kinetic energy and the number of the ejected electrons. A typical XPS spectrum is a plot of the number of electrons detected at a specific binding energy. Each element produces a set of characteristic XPS peaks. Image produced from a raster of X-ray Photoelectron Spectrometer data, with image channels mapped to 1 or three characteristic energy peaks.</p></li>
+<li><p><strong>Alternate labels:</strong> X-ray Photoelectron Spectroscopy (XPS) Elemental/Chemical Maps</p></li>
+<li><p>Concept URI token: xrayphotoelectronspectroscopycompositionmap</p></li>
+</ul>
 <p><span id="magneticfieldmeasurement"></span></p>
 </section>
 </section>
@@ -1568,9 +2043,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> SMR add general categories</p></li>
 <li><p>Concept URI token: particlebeamexcitation</p></li>
 </ul>
+<p><span id="electronenergylossspectrometry"></span></p>
+<section id="electron-energy-loss-spectrometry" class="level4">
+<h4 class="anchored" data-anchor-id="electron-energy-loss-spectrometry">Electron energy loss spectrometry</h4>
+<ul>
+<li><p>Child of: <a href="#electronspectrometry"><code>electronspectrometry</code></a> <a href="#particlebeamexcitation"><code>particlebeamexcitation</code></a></p></li>
+<li><p>a material is exposed to a beam of electrons with a known, narrow range of kinetic energies. Some of the electrons will undergo inelastic scattering, which means that they lose energy and have their paths slightly and randomly deflected. The amount of energy loss can be measured via an electron spectrometer and interpreted in terms of what caused the energy loss. With some care, and looking at a wide range of energy losses, one can determine the types of atoms, and the numbers of atoms of each type, being struck by the beam. The scattering angle (that is, the amount that the electron’s path is deflected) can also be measured, giving information about the dispersion relation of whatever material excitation caused the inelastic scattering. Most common approach today is transmission EELS, in which the incident electrons pass entirely through the material sample. Usually this occurs in a transmission electron microscope (TEM), although some dedicated systems exist which enable extreme resolution in terms of energy and momentum transfer at the expense of spatial resolution. (https://en.wikipedia.org/wiki/Electron_energy_loss_spectroscopy, https://eels.info/about/techniques/eels-0)</p></li>
+<li><p>Concept URI token: electronenergylossspectrometry</p></li>
+</ul>
 <p><span id="electronmicroscopyimaging"></span></p>
-<section id="electron-microscopy-imaging" class="level4">
-<h4 class="anchored" data-anchor-id="electron-microscopy-imaging">Electron microscopy imaging</h4>
+</section>
+<section id="electron-microscopy-imaging-1" class="level4">
+<h4 class="anchored" data-anchor-id="electron-microscopy-imaging-1">Electron microscopy imaging</h4>
 <ul>
 <li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a> <a href="#particlebeamexcitation"><code>particlebeamexcitation</code></a></p></li>
 <li><p>Technique that produces images by scanning an electron beam over a sample surface and measureing the intensity of electrons emitted from or transmitted through the sample.</p></li>
@@ -1579,8 +2063,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Concept URI token: electronmicroscopyimaging</p></li>
 </ul>
 <p><span id="backscatteredelectrongrainboundarymap"></span></p>
-<section id="backscattered-electron-grain-boundary-map" class="level5">
-<h5 class="anchored" data-anchor-id="backscattered-electron-grain-boundary-map">Backscattered electron grain boundary map</h5>
+<section id="backscattered-electron-grain-boundary-map-1" class="level5">
+<h5 class="anchored" data-anchor-id="backscattered-electron-grain-boundary-map-1">Backscattered electron grain boundary map</h5>
 <ul>
 <li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
 <li><p>Image showing grain boundaries generated by detecting crytallographic orientation changes in a raster of backscattered electron diffraction data points.</p></li>
@@ -1589,8 +2073,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><span id="backscatteredelectronimaging"></span></p>
 </section>
-<section id="backscattered-electron-imaging" class="level5">
-<h5 class="anchored" data-anchor-id="backscattered-electron-imaging">Backscattered electron imaging</h5>
+<section id="backscattered-electron-imaging-1" class="level5">
+<h5 class="anchored" data-anchor-id="backscattered-electron-imaging-1">Backscattered electron imaging</h5>
 <ul>
 <li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
 <li><p>Techniques that involve bombarding a sample with an accelerated electron beam to produce backscattered electrons. An image is formed by scanning the beam in a raster across the sample surface and measuring the intensity (count?) of backscattered electrons at each sample point. BSEs are reflected back after elastic interactions between the beam and the sample. BSE images show high sensitivity to differences in atomic number; the higher the atomic number, the brighter the material appears in the image. (https://www.thermofisher.com/blog/materials/sem-signal-types- electrons-and-the-information-they-provide/)</p></li>
@@ -1598,10 +2082,21 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> Astromat, GeoRoc, O-REx techniques, PetDb,</p></li>
 <li><p>Concept URI token: backscatteredelectronimaging</p></li>
 </ul>
+<p><span id="secondaryelectronimaging"></span></p>
+</section>
+<section id="secondary-electron-imaging-1" class="level5">
+<h5 class="anchored" data-anchor-id="secondary-electron-imaging-1">Secondary electron imaging</h5>
+<ul>
+<li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
+<li><p>Techniques that involve bombarding a sample with an accelerated electron or ion beam to produce secondary electrons. An image is formed by scanning the beam in a raster across the sample surface and measuring the intensity (count?) of secondary electrons emitted at each sample point. Secondary electrons are a result of inelastic interactions between the excitation beam and atoms in the sample; they originate from the surface region of the sample. Secondary electron imaging can provide detailed surface information. (https://www.thermofisher.com/blog/materials/sem-signal-types- electrons-and-the-information-they-provide/)</p></li>
+<li><p><strong>Alternate labels:</strong> Secondary electron microscopy</p></li>
+<li><p><strong>Source:</strong> O-REx products</p></li>
+<li><p>Concept URI token: secondaryelectronimaging</p></li>
+</ul>
 <p><span id="transmissionelectronimaging"></span></p>
 </section>
-<section id="transmission-electron-imaging" class="level5">
-<h5 class="anchored" data-anchor-id="transmission-electron-imaging">Transmission electron imaging</h5>
+<section id="transmission-electron-imaging-1" class="level5">
+<h5 class="anchored" data-anchor-id="transmission-electron-imaging-1">Transmission electron imaging</h5>
 <ul>
 <li><p>Child of: <a href="#electronmicroscopyimaging"><code>electronmicroscopyimaging</code></a></p></li>
 <li><p>technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. Multiple operating modes based on electron imaging include conventional imaging, scanning TEM imaging (STEM), and electron diffraction. (https://en.wikipedia.org/wiki/Transmission_electron_microscopy)</p></li>
@@ -1610,8 +2105,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Concept URI token: transmissionelectronimaging</p></li>
 </ul>
 <p><span id="energyfilteredtransmissionelectronimaging"></span></p>
-<section id="energy-filtered-transmission-electron-imaging" class="level6">
-<h6 class="anchored" data-anchor-id="energy-filtered-transmission-electron-imaging">Energy-filtered transmission electron imaging</h6>
+<section id="energy-filtered-transmission-electron-imaging-1" class="level6">
+<h6 class="anchored" data-anchor-id="energy-filtered-transmission-electron-imaging-1">Energy-filtered transmission electron imaging</h6>
 <ul>
 <li><p>Child of: <a href="#transmissionelectronimaging"><code>transmissionelectronimaging</code></a></p></li>
 <li><p>The principle is to illuminate a very thin specimen with a beam of high energy electrons. Some of these electrons will interact with the specimen and result in elastic or inelastic scattering. Inelastic scattering results in both a loss of energy and a change in momentum, which in the case of inner shell ionization, the energy loss is characteristic of the element the electron interacted with. After the electron energy loss spectrum forms in the energy filter, an adjustable energy slit allows only electrons that have not lost energy to pass through to form the image. This is known as zero-loss filtering. The filtering prevents inelastically scattered electrons from contributing to the image plus enhances contrast image and resolution. In addition to zero-loss filtering, you can adjust the system to select electrons that have lost a specific amount of energy to obtain additional contrast effects and compositionally sensitive images. (https://eels.info/about/techniques/eftem)</p></li>
@@ -1621,8 +2116,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><span id="scanningtransmissionelectronimaging"></span></p>
 </section>
-<section id="scanning-transmission-electron-imaging" class="level6">
-<h6 class="anchored" data-anchor-id="scanning-transmission-electron-imaging">Scanning transmission electron imaging</h6>
+<section id="scanning-transmission-electron-imaging-1" class="level6">
+<h6 class="anchored" data-anchor-id="scanning-transmission-electron-imaging-1">Scanning transmission electron imaging</h6>
 <ul>
 <li><p>Child of: <a href="#transmissionelectronimaging"><code>transmissionelectronimaging</code></a></p></li>
 <li><p>In STEM the electron beam is focused to a fine spot (with the typical spot size 0.05 – 0.2 nm) which is then scanned over the sample in a raster illumination system constructed so that the sample is illuminated at each point with the beam parallel to the optical axis. (https://en.wikipedia.org/wiki/Transmission_electron_microscopy). In TEM parallel electron beams are focused perpendicular to the sample plane, in STEM the beam is focused at a large angle and is converged into a focal point. The transmitted signal is collected as a function of the beam location as it is rastered across the sample. There are multiple detectors for STEM imaging: 1) BF (bright-field) detector: small angles (0-10 mrad). These images are similar to the bright-field images obtained using TEM; 2) ADF (annular dark-field ) detector: larger angles (10-50 mrad); 3) HAADF (high-angle annular dark-field) detector: Angles greater than 50mrad. (https://chem.libretexts.org/Cou rses/Franklin_and_Marshall_College/Introduction_to_Materials_Character ization_<em>CHM_412_Collaborative_Text/Electron_and_Probe_Microscopy/Tran smission_electron_microscopy</em>(TEM)%3A_TEM_versus_STEM_and_HAADF )</p></li>
@@ -1634,8 +2129,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 </section>
-<section id="focused-ion-beam-scanning-microscopy" class="level4">
-<h4 class="anchored" data-anchor-id="focused-ion-beam-scanning-microscopy">Focused ion beam-scanning microscopy</h4>
+<section id="focused-ion-beam-scanning-microscopy-1" class="level4">
+<h4 class="anchored" data-anchor-id="focused-ion-beam-scanning-microscopy-1">Focused ion beam-scanning microscopy</h4>
 <ul>
 <li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a> <a href="#particlebeamexcitation"><code>particlebeamexcitation</code></a></p></li>
 <li><p>Production of images by scanning an ion beam in a raster across a sample surface and detecting secondary or backscattered electrons from each point to generate an image. Instrument used is typically an electron microscope that has an additional ion beam excitation source.</p></li>
@@ -1692,6 +2187,15 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Alternate labels:</strong> ELECTRON MICROPROBE ANALYSIS, ELECTRON MICROPROBE, FIELD EMISSION ELECTRON MICROPROBE ANALYSIS, FIELD EMISSION ELECTRON MICROPROBE,</p></li>
 <li><p><strong>Source:</strong> Astromat, GeoRoc, PetDb,</p></li>
 <li><p>Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry</p></li>
+</ul>
+<p><span id="wavelengthdispersiveelectroninducedxrayspectrometry"></span></p>
+</section>
+<section id="wavelength-dispersive-electron-induced-x-ray-spectrometry" class="level6">
+<h6 class="anchored" data-anchor-id="wavelength-dispersive-electron-induced-x-ray-spectrometry">Wavelength Dispersive electron induced X-Ray Spectrometry</h6>
+<ul>
+<li><p>Child of: <a href="#electroninducedxrayspectrometry"><code>electroninducedxrayspectrometry</code></a></p></li>
+<li><p>X-rays are generated in the sample by interaction with the excitation electron beam, and are selected using an analytical crystal(s) with specific lattice spacing(s). When X-rays encounter the analytical crystal at a specific angle theta, only those X-rays that satisfy Bragg’s Law are reflected and a single wavelength is passed on to the detector. The wavelength of the X-rays reflected into the detector may be varied by changing the position of the analyzing crystal relative to the sample i.e.&nbsp;the X-ray source-crystal distance is a linear function of the wavelength. Consequently, X-rays from only one element at a time can be measured on the spectrometer and the position of a given analytical crystal must be changed in order to adjust to a wavelength characteristic of another element. There is commonly more than a single analytical crystal in a WD spectrometer and, in the case of most EPMA instruments, there are typically multiple spectrometers with a suite of analytical crystals so that the spectrometers can reach all of the elemental wavelengths of interest and it will optimize performance in different wavelength ranges. X-rays of specific wavelengths from the analytical crystal are passed on to the X-ray detector. (https://serc.carleton.edu/research_education/geochemsheets/wds.html)</p></li>
+<li><p>Concept URI token: wavelengthdispersiveelectroninducedxrayspectrometry</p></li>
 </ul>
 <p><span id="quantitativeanalysisparticleinducedxrayspectrometry"></span></p>
 </section>
@@ -2003,6 +2507,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> DFG, Geo-X, O-REx techniques,</p></li>
 <li><p>Concept URI token: differentialscanningcalorimetry</p></li>
 </ul>
+<p><span id="differentialthermalanalyis"></span></p>
+</section>
+<section id="differential-thermal-analysis" class="level5">
+<h5 class="anchored" data-anchor-id="differential-thermal-analysis">Differential Thermal Analysis</h5>
+<ul>
+<li><p>Child of: <a href="#thermalanalysis"><code>thermalanalysis</code></a></p></li>
+<li><p>Differential thermal analysis (DTA) is a technique in which the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference. This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample. DTA is similar to differential scanning calorimetry.</p></li>
+<li><p><strong>Alternate labels:</strong> Differential analyzer</p></li>
+<li><p><strong>Source:</strong> GeoRoc</p></li>
+<li><p>Concept URI token: differentialthermalanalyis</p></li>
+</ul>
 <p><span id="inductionheatinganalysis"></span></p>
 </section>
 <section id="induction-heating-analysis" class="level5">
@@ -2126,6 +2641,15 @@ ul.task-list li input[type="checkbox"] {
 <li><p>a form of electron spectroscopy that relies on the Auger effect, based on the analysis of energetic electrons emitted from an excited atom after a series of internal relaxation events.Surface sensitivity in Auger electron spectroscopy (AES) arises from the fact that emitted electrons usually have energies ranging from 50 eV to 3 keV and at these values, electrons have a short mean free path in a solid. The escape depth of electrons is therefore localized to within a few nanometers of the target surface, giving AES an extreme sensitivity to surface species (https://en.wikipedia.org/wiki/Auger_electron_spectroscopy)</p></li>
 <li><p><strong>Source:</strong> Astromat</p></li>
 <li><p>Concept URI token: augerelectronspectroscopy</p></li>
+</ul>
+<p><span id="electronenergylossspectrometry"></span></p>
+</section>
+<section id="electron-energy-loss-spectrometry-1" class="level6">
+<h6 class="anchored" data-anchor-id="electron-energy-loss-spectrometry-1">Electron energy loss spectrometry</h6>
+<ul>
+<li><p>Child of: <a href="#electronspectrometry"><code>electronspectrometry</code></a> <a href="#particlebeamexcitation"><code>particlebeamexcitation</code></a></p></li>
+<li><p>a material is exposed to a beam of electrons with a known, narrow range of kinetic energies. Some of the electrons will undergo inelastic scattering, which means that they lose energy and have their paths slightly and randomly deflected. The amount of energy loss can be measured via an electron spectrometer and interpreted in terms of what caused the energy loss. With some care, and looking at a wide range of energy losses, one can determine the types of atoms, and the numbers of atoms of each type, being struck by the beam. The scattering angle (that is, the amount that the electron’s path is deflected) can also be measured, giving information about the dispersion relation of whatever material excitation caused the inelastic scattering. Most common approach today is transmission EELS, in which the incident electrons pass entirely through the material sample. Usually this occurs in a transmission electron microscope (TEM), although some dedicated systems exist which enable extreme resolution in terms of energy and momentum transfer at the expense of spatial resolution. (https://en.wikipedia.org/wiki/Electron_energy_loss_spectroscopy, https://eels.info/about/techniques/eels-0)</p></li>
+<li><p>Concept URI token: electronenergylossspectrometry</p></li>
 </ul>
 <p><span id="xrayphotoelectronspectrometery"></span></p>
 </section>
@@ -3054,6 +3578,15 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> Astromat, GeoRoc, PetDb,</p></li>
 <li><p>Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry</p></li>
 </ul>
+<p><span id="wavelengthdispersiveelectroninducedxrayspectrometry"></span></p>
+</section>
+<section id="wavelength-dispersive-electron-induced-x-ray-spectrometry-1" class="level8">
+<p class="heading">Wavelength Dispersive electron induced X-Ray Spectrometry</p>
+<ul>
+<li><p>Child of: <a href="#electroninducedxrayspectrometry"><code>electroninducedxrayspectrometry</code></a></p></li>
+<li><p>X-rays are generated in the sample by interaction with the excitation electron beam, and are selected using an analytical crystal(s) with specific lattice spacing(s). When X-rays encounter the analytical crystal at a specific angle theta, only those X-rays that satisfy Bragg’s Law are reflected and a single wavelength is passed on to the detector. The wavelength of the X-rays reflected into the detector may be varied by changing the position of the analyzing crystal relative to the sample i.e.&nbsp;the X-ray source-crystal distance is a linear function of the wavelength. Consequently, X-rays from only one element at a time can be measured on the spectrometer and the position of a given analytical crystal must be changed in order to adjust to a wavelength characteristic of another element. There is commonly more than a single analytical crystal in a WD spectrometer and, in the case of most EPMA instruments, there are typically multiple spectrometers with a suite of analytical crystals so that the spectrometers can reach all of the elemental wavelengths of interest and it will optimize performance in different wavelength ranges. X-rays of specific wavelengths from the analytical crystal are passed on to the X-ray detector. (https://serc.carleton.edu/research_education/geochemsheets/wds.html)</p></li>
+<li><p>Concept URI token: wavelengthdispersiveelectroninducedxrayspectrometry</p></li>
+</ul>
 <p><span id="quantitativeanalysisparticleinducedxrayspectrometry"></span></p>
 </section>
 </section>
@@ -3109,7 +3642,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Source:</strong> Astromat, GeoRoc, NASA, O-REx techniques, PetDb,</p></li>
 <li><p>Concept URI token: xrayfluorescencespectrometry</p></li>
 </ul>
+<p><span id="confocalxrayfluorescencespectrometry"></span></p>
+<section id="confocal-x-ray-fluorescence-spectrometry" class="level7">
+<p class="heading">Confocal X-Ray Fluorescence Spectrometry</p>
+<ul>
+<li><p>Child of: <a href="#xrayfluorescencespectrometry"><code>xrayfluorescencespectrometry</code></a></p></li>
+<li><p>The confocal geometry uses two polycapillary focusing optics for enhanced applications of XRF elemental analysis. An excitation optic focuses a small X-ray beam onto the specimen. A detection optic collects fluorescent X-rays from the sample. Specifically, elemental concentrations are measured within the small probe volume (‘confocal volume’) defined by the intersection of the output focal spot of the excitation optic and the input focal spot of the collection optic. The polycapillary focusing optics act as spatial filters to eliminate background radiation from the sample and increase detection sensitivity for sample elements of interest. Additionally, confocal XRF can be used for elemental depth profiling. Confocal XRF acts as a material probe by exciting and detecting emitted characteristic X-ray photons from within the confocal analysis volume as this volume is through the sample. In this way elemental concentrations can be measured on the object’s surface and throughout the object’s interior. (https://www.xos.com/Confocal-XRF)</p></li>
+<li><p><strong>Source:</strong> O-REx techniques</p></li>
+<li><p>Concept URI token: confocalxrayfluorescencespectrometry</p></li>
+</ul>
 <p><span id="energydispersivexrayfluorescencespectrometry"></span></p>
+</section>
 <section id="energy-dispersive-x-ray-fluorescence-spectrometry" class="level7">
 <p class="heading">Energy dispersive X-ray fluorescence spectrometry</p>
 <ul>
@@ -3142,7 +3685,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><span id="synchrotronxrayfluorescencetomography"></span></p>
 </section>
-<section id="synchrotron-x-ray-fluorescence-tomography" class="level8">
+<section id="synchrotron-x-ray-fluorescence-tomography-1" class="level8">
 <p class="heading">Synchrotron X-ray Fluorescence Tomography</p>
 <ul>
 <li><p>Child of: <a href="#synchrotonxrayfluorescencespectrometry"><code>synchrotonxrayfluorescencespectrometry</code></a> <a href="#xraycomputedtomography"><code>xraycomputedtomography</code></a></p></li>
@@ -3187,8 +3730,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Concept URI token: surfaceanalysis</p></li>
 </ul>
 <p><span id="afmtopographyimaging"></span></p>
-<section id="afm-topography-imaging" class="level4">
-<h4 class="anchored" data-anchor-id="afm-topography-imaging">AFM topography imaging</h4>
+<section id="afm-topography-imaging-1" class="level4">
+<h4 class="anchored" data-anchor-id="afm-topography-imaging-1">AFM topography imaging</h4>
 <ul>
 <li><p>Child of: <a href="#imagingtechniques"><code>imagingtechniques</code></a> <a href="#surfaceanalysis"><code>surfaceanalysis</code></a></p></li>
 <li><p>a sharp probe tip mounted on a microcantilever scans over the specimen line by line, whereby the topographic image of the sample surface is generated by ‘feeling’ rather than ‘looking.’ (https://doi.org/10.1007/978-3-642-16712-6_496). As the tip approaches the surface, the close-range, attractive forces between the surface and the tip causes the cantilever to deflect towards the surface. However, as the cantilever is brought even closer to the surface, until the tip makes contact with it, increasingly repulsive forces takes over and causes the cantilever to deflect away from the surface. (https://lnf- wiki.eecs.umich.edu/wiki/Atomic_force_microscopy)</p></li>
@@ -3227,8 +3770,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Concept URI token: trackcounting</p></li>
 </ul>
 <p><span id="alpharecoiltrackcounting"></span></p>
-<section id="alpha-recoil-track-counting" class="level4">
-<h4 class="anchored" data-anchor-id="alpha-recoil-track-counting">Alpha-recoil track counting</h4>
+<section id="alpha-recoil-track-counting-1" class="level4">
+<h4 class="anchored" data-anchor-id="alpha-recoil-track-counting-1">Alpha-recoil track counting</h4>
 <ul>
 <li><p>Child of: <a href="#geochronology"><code>geochronology</code></a> <a href="#trackcounting"><code>trackcounting</code></a></p></li>
 <li><p>Like fission-track dating, alpha-recoil track (ART) dating is based on the accumulation of nuclear particles that are released by natural radioactivity and produce etchable tracks in solids. ARTs are formed during the alpha-decay of uranium and thorium as well as of their daughter nuclei. When emitting an alpha-particle, the heavy remaining nucleus recoils 30-40 nm, leaving behind a trail of radiation damage. Through etching the ART tracks become visible with interference phase- contrast microscopy. Alpha-recoil dating has a great potential for Quaternary chronometry and tephrochronology. (https://doi.org/10.1016/S0009-2541(99)00185-0)</p></li>
@@ -3238,8 +3781,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><span id="fissiontrackcounting"></span></p>
 </section>
-<section id="fission-track-counting" class="level4">
-<h4 class="anchored" data-anchor-id="fission-track-counting">Fission track counting</h4>
+<section id="fission-track-counting-1" class="level4">
+<h4 class="anchored" data-anchor-id="fission-track-counting-1">Fission track counting</h4>
 <ul>
 <li><p>Child of: <a href="#geochronology"><code>geochronology</code></a> <a href="#trackcounting"><code>trackcounting</code></a></p></li>
 <li><p>Fission track age with correction applied for partial annealing using Isothermal plateau correction (https://doi.org/10.1016/1040-6182(92)90017-V)</p></li>
@@ -3493,6 +4036,8 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#electrosprayionization">Electrospray ionization</a></li>
 <li><a href="#inductivelycoupledplasma">Inductively Coupled Plasma</a></li>
 <li><a href="#laserablationsource">Laser Ablation Source</a></li>
+<li><a href="#secondaryionsource">Secondary Ion Source</a></li>
+<li><a href="#thermalionization">Thermal ionization</a></li>
 </ul></li>
 <li><a href="#samplepreparation">Sample preparation</a>
 <ul>
@@ -3640,7 +4185,7 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="inductively-coupled-plasma">Inductively Coupled Plasma</h4>
 <ul>
 <li><p>Child of: <a href="#ionsource"><code>ionsource</code></a></p></li>
-<li><p>A plasma source in which the energy is supplied by electric currents which are produced by electromagnetic induction, that is, by time- varying magnetic fields. Plasma electron temperatures can range between ~6,000 K and ~10,000 K (~6 eV - ~100 eV). Used as an ion source for mass spectrometery and emission spectrometry. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)</p></li>
+<li><p>A plasma source in which the energy is supplied by electric currents which are produced by electromagnetic induction, that is, by time- varying magnetic fields. Plasma electron temperatures can range between ~6,000 K and ~10,000 K (~6 eV � ~100 eV). Used as an ion source for mass spectrometery and emission spectrometry. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)</p></li>
 <li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
 <li><p>Concept URI token: inductivelycoupledplasma</p></li>
 </ul>
@@ -3653,6 +4198,26 @@ ul.task-list li input[type="checkbox"] {
 <li><p>a pulsed UV laser is focused on the sample and creates a plume of ablated material which can be swept into a plasma or other ionization component for subsequent analysis. (https://en.wikipedia.org/wiki/Indu ctively_coupled_plasma_mass_spectrometry#Sample_introduction)</p></li>
 <li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
 <li><p>Concept URI token: laserablationsource</p></li>
+</ul>
+<p><span id="secondaryionsource"></span></p>
+</section>
+<section id="secondary-ion-source" class="level4">
+<h4 class="anchored" data-anchor-id="secondary-ion-source">Secondary Ion Source</h4>
+<ul>
+<li><p>Child of: <a href="#ionsource"><code>ionsource</code></a></p></li>
+<li><p>focusing a primary ion beam on a sample in order to generate a series of secondary positive ions that can be focused and measured based on their mass/charge ratios. (https://en.wikipedia.org/wiki/Isotope- ratio_mass_spectrometry#Secondary-ion_mass_spectrometry)</p></li>
+<li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
+<li><p>Concept URI token: secondaryionsource</p></li>
+</ul>
+<p><span id="thermalionization"></span></p>
+</section>
+<section id="thermal-ionization" class="level4">
+<h4 class="anchored" data-anchor-id="thermal-ionization">Thermal ionization</h4>
+<ul>
+<li><p>Child of: <a href="#ionsource"><code>ionsource</code></a></p></li>
+<li><p>Ionization by placing a the analyte of interest on a filament that is then heated with an electric current to desorb and ionized the analyte.</p></li>
+<li><p><strong>Source:</strong> reorganize mass spectrometer classes [SMR]</p></li>
+<li><p>Concept URI token: thermalionization</p></li>
 </ul>
 <p><span id="samplepreparation"></span></p>
 </section>

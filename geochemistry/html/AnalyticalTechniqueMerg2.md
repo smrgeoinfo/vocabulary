@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-27T12:44:14.909227+00:00"
+This file generated at: "2023-02-27T13:22:16.743743+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -34,7 +34,9 @@ Namespace:
 
 - [Analytical Instrument](#analyticalinstrument)
     - [Atomic probe instrument](#atomicprobeinstrument)
+        - [Atomic Force Microprobe](#atomicforcemicroprobe)
         - [Nanoscale infrared spectrometer (nanoIR)](#nanoscaleinfraredspectrometer)
+    - [Atom probe](#atomprobe)
     - [Bioanalytical instrument](#bioanalyticalinstrument)
         - [Flow Cytometer](#flowcytometer)
         - [qPCR Cycler](#qpcrcycler)
@@ -59,6 +61,7 @@ Namespace:
     - [Electron or Ion Optical Instrument](#electronorionopticalinstrument)
         - [Electron Microprobe](#electronmicroprobe)
         - [Scanning Electron Microscope](#scanningelectronmicroscope)
+            - [Focused ion beam scanning electron microscope](#focusedionbeamscanningelectronmicroscope)
         - [Transmission Electron Microscope](#transmissionelectronmicroscope)
     - [Elemental Analyzer](#elementalanalyzer)
         - [Carbon Analyzer](#carbonanalyzer)
@@ -78,11 +81,22 @@ Namespace:
     - [Photometer](#photometer)
     - [Spectrometer](#spectrometer)
         - [Mass Spectrometer](#massspectrometer)
+            - [Accelerator Mass Spectrometer](#acceleratormassspectrometer)
             - [Fourier-transform ion cyclotron resonance mass spectrometer](#fouriertransformioncyclotronresonancemassspectrometer)
             - [Inductively Coupled Plasma Mass Spectrometer](#inductivelycoupledplasmamassspectrometer)
                 - [Multicollector Inductively Coupled Plasma Mass Spectrometer](#multicollectorinductivelycoupledplasmamassspectrometer)
+            - [Orbitrap Mass Spectrometer](#orbitrapmassspectrometer)
             - [Quadrupole Mass Spectrometer](#quadrupolemassspectrometer)
             - [Secondary Ion Mass Spectrometer](#secondaryionmassspectrometer)
+            - [Sector Mass Spectrometer](#sectormassspectrometer)
+            - [Time of Flight Mass Spectrometer ](#timeofflightmassspectrometer)
+        - [Photon spectrometer](#photonspectrometer)
+            - [Fluorometer](#fluorometer)
+            - [Raman Spectrometer](#ramanspectrometer)
+            - [Spectrofluorometer](#spectrofluorometer)
+            - [Spectrophotometer](#spectrophotometer)
+            - [Spectroradiometer](#spectroradiometer)
+            - [X-Ray Spectrometer](#xrayspectrometer)
     - [X-Ray Diffractometer ](#xraydiffractometer)
         - [Single Crystal X-Ray Diffractometer](#singlecrystalxraydiffractometer)
         - [X-Ray Powder Diffractometer](#xraypowderdiffractometer)
@@ -119,6 +133,38 @@ SMR add general instrument type
 - Concept URI token: atomicprobeinstrument
 
 
+[]{#atomicforcemicroprobe}
+
+####  Atomic Force Microprobe
+
+
+- Child of:
+ [`atomicprobeinstrument`](#atomicprobeinstrument)
+
+- An instrument that measures the interaction between a microscopic
+tip and the sample. The tip is mounted on a cantiliver, and
+interaction with the sample is transduced into changes of the motion
+of cantilever. Several different aspects of the cantilever motion can
+be used to quantify the interaction between the tip and sample, most
+commonly the value of the deflection. A detector measures the
+deflection (displacement with respect to the equilibrium position) of
+the cantilever and converts it into an electrical signal. The
+intensity of this signal will be proportional to the displacement of
+the cantilever. Various methods of detection can be used, e.g.
+interferometry, optical levers, the piezoelectric method, and STM-
+based detectors. Other interactions between tip and sample are changes
+in the amplitude of an imposed oscillation of the cantilever, or the
+shift in resonance frequency of the cantilever.  When using the AFM to
+image a sample, the tip is brought into contact with the sample, and
+the sample is raster scanned along an x-y grid.
+(https://en.wikipedia.org/wiki/Atomic_force_microscopy)
+
+- **Alternate labels:**
+Scanning force microscope
+
+- Concept URI token: atomicforcemicroprobe
+
+
 []{#nanoscaleinfraredspectrometer}
 
 ####  Nanoscale infrared spectrometer (nanoIR)
@@ -149,6 +195,36 @@ selected absorption bands.
 O-REx techniques
 
 - Concept URI token: nanoscaleinfraredspectrometer
+
+
+[]{#atomprobe}
+
+###  Atom probe
+
+
+- Child of:
+ [`analyticalinstrument`](#analyticalinstrument)
+
+- Instrument for atom probe tomography investigation of needle-like
+micro samples. Through successive evaporation of material, layers of
+atoms are removed from a specimen, allowing for probing not only of
+the surface, but also through the material itself. The instrument
+allows the three-dimensional reconstruction of up to billions of atoms
+from a sharp tip (corresponding to specimen volumes of
+10,000-10,000,000 nm3). (https://en.wikipedia.org/wiki/Atom_probe). A
+laser or voltage pulse acts on the tip of the specimen to trigger
+field evaporation of ions which are accelerated to impact a detector.
+The detector allows to simultaneously measure: 1) the Time Of Flight
+of the ions: measuring the time between the laser or voltage pulse and
+the arrival on the PSD allows to determine the m/q ratio (mass over
+charge ratio); and 2) the (X,Y) position of the ion impact on the
+detector: measuring the X-Y position and the order of arrival of the
+ions on the PSD allows to reconstruct the original position of the
+atoms on the tip. By repeating this sequence, the atoms are
+progressively removed from the tip, and a 3D image of the material can
+be reconstructed at the atomic scale.
+(https://www.cameca.com/products/apt/technique)
+- Concept URI token: atomprobe
 
 
 []{#bioanalyticalinstrument}
@@ -641,6 +717,27 @@ NASA
 - Concept URI token: scanningelectronmicroscope
 
 
+[]{#focusedionbeamscanningelectronmicroscope}
+
+#####  Focused ion beam scanning electron microscope
+
+
+- Child of:
+ [`scanningelectronmicroscope`](#scanningelectronmicroscope)
+
+- a scientific instrument that resembles a scanning electron
+microscope (SEM). However, while the SEM uses a focused beam of
+electrons to image the sample in the chamber, a FIB setup uses a
+focused beam of ions instead. Most widespread instruments are using
+liquid metal ion sources (LMIS), especially gallium ion sources. Ion
+sources based on elemental gold and iridium are also available.  FIB
+instruments have two imaging modes, using secondary electrons and
+secondary ions, both produced by the primary ion beam. Also used for
+ablation of material from sample surface, e.g. to create TEM samples.
+(https://en.wikipedia.org/wiki/Focused_ion_beam)
+- Concept URI token: focusedionbeamscanningelectronmicroscope
+
+
 []{#transmissionelectronmicroscope}
 
 ####  Transmission Electron Microscope
@@ -1080,6 +1177,30 @@ NASA
 - Concept URI token: massspectrometer
 
 
+[]{#acceleratormassspectrometer}
+
+#####  Accelerator Mass Spectrometer
+
+
+- Child of:
+ [`massspectrometer`](#massspectrometer)
+
+- A Mass spectrometer that works by accelerating negative ions through
+a large (mega-volt) potential, followed by charge exchange and
+acceleration back to ground. During charge exchange, interfering
+species can be effectively removed. In addition, the high energy of
+the beam allows the use of energy-loss detectors, that can distinguish
+between species with the same mass/charge ratio. Together, these
+processes allow the analysis of extreme isotope ratios above 10e12.
+(https://en.wikipedia.org/wiki/Isotope-
+ratio_mass_spectrometry#Accelerator_mass_spectrometry)
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: acceleratormassspectrometer
+
+
 []{#fouriertransformioncyclotronresonancemassspectrometer}
 
 #####  Fourier-transform ion cyclotron resonance mass spectrometer
@@ -1171,6 +1292,27 @@ NASA
 - Concept URI token: multicollectorinductivelycoupledplasmamassspectrometer
 
 
+[]{#orbitrapmassspectrometer}
+
+#####  Orbitrap Mass Spectrometer
+
+
+- Child of:
+ [`massspectrometer`](#massspectrometer)
+
+- Mass spectrometer with an ion trap mass analyzer consisting of an
+outer barrel-like electrode and a coaxial inner spindle-like electrode
+that traps ions in an orbital motion around the spindle. The image
+current from the trapped ions is detected and converted to a mass
+spectrum using the Fourier transform of the frequency signal.
+(https://en.wikipedia.org/wiki/Orbitrap)
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: orbitrapmassspectrometer
+
+
 []{#quadrupolemassspectrometer}
 
 #####  Quadrupole Mass Spectrometer
@@ -1210,6 +1352,211 @@ profiling (Skoog, Holler & Crouch, p. 549)
 method instruments
 
 - Concept URI token: secondaryionmassspectrometer
+
+
+[]{#sectormassspectrometer}
+
+#####  Sector Mass Spectrometer
+
+
+- Child of:
+ [`massspectrometer`](#massspectrometer)
+
+- class of mass spectrometer that uses a static electric (E) or
+magnetic (B) sector or some combination of the two (separately in
+space) as a mass analyzer.
+(https://en.wikipedia.org/wiki/Sector_mass_spectrometer)
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: sectormassspectrometer
+
+
+[]{#timeofflightmassspectrometer}
+
+#####  Time of Flight Mass Spectrometer
+
+
+- Child of:
+ [`massspectrometer`](#massspectrometer)
+
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: timeofflightmassspectrometer
+
+
+[]{#photonspectrometer}
+
+####  Photon spectrometer
+
+
+- Child of:
+ [`spectrometer`](#spectrometer)
+
+- instrument that measures the energy distribution of photons;
+includes x-ray, ultraviolet, visible, infrared spectrometers.
+- Concept URI token: photonspectrometer
+
+
+[]{#fluorometer}
+
+#####  Fluorometer
+
+
+- Child of:
+ [`photonspectrometer`](#photonspectrometer)
+
+- A fluorometer is an instrument that measures the amount of
+fluorescent radiation produced by a sample exposed to monochromatic
+radiation. Additional information available at
+'http://gcmd.gsfc.nasa.gov/cgi-bin/createsensorsupweb' [Summary
+provided by NOAA]. Own comment: For Bioanalytics a fluorometer is used
+to measure quantity and quality of DNA.
+
+- **Alternate labels:**
+Fluorimeter
+
+
+- **Source:**
+NASA
+
+- Concept URI token: fluorometer
+
+
+[]{#ramanspectrometer}
+
+#####  Raman Spectrometer
+
+
+- Child of:
+ [`photonspectrometer`](#photonspectrometer)
+
+- A Raman microscope begins with a standard optical microscope, and
+adds an excitation laser, a monochromator or polychromator, and a
+sensitive detector (such as a charge-coupled device (CCD), or
+photomultiplier tube (PMT)).  Instrument  provides a source of
+monochromatic electromagnetic radiation that illuminates a spot on the
+analyzed sample; interaction with atoms in the sample results in the
+energy of the incident photons being shifted up or down. The magnitude
+of the Raman effect correlates with polarizability of the electrons in
+a molecule. The light source is typically a laser in the visible, near
+infrared, or near ultraviolet range, although X-rays can also be used.
+The shift in energy from the incident source gives information about
+the vibrational modes in the analyzed sample.  Electromagnetic
+radiation from the illuminated spot is collected with a lens and sent
+through a monochromator. Elastic scattered radiation at the wavelength
+corresponding to the incident excitation is filtered out, while the
+rest of the collected light is dispersed onto a detector.
+(https://en.wikipedia.org/wiki/Raman_spectroscopy)
+
+- **Source:**
+method instruments
+
+- Concept URI token: ramanspectrometer
+
+
+[]{#spectrofluorometer}
+
+#####  Spectrofluorometer
+
+
+- Child of:
+ [`photonspectrometer`](#photonspectrometer)
+
+- an instrument which takes advantage of fluorescent properties of
+some compounds in order to provide information regarding their
+concentration and chemical environment in a sample. A certain
+excitation wavelength is selected, and the emission is observed either
+at a single wavelength, or a scan is performed to record the intensity
+versus wavelength, also called an emission spectrum.[1] The instrument
+is used in fluorescence spectroscopy.
+(https://en.wikipedia.org/wiki/Spectrofluorometer)
+
+- **Source:**
+method instruments
+
+- Concept URI token: spectrofluorometer
+
+
+[]{#spectrophotometer}
+
+#####  Spectrophotometer
+
+
+- Child of:
+ [`photonspectrometer`](#photonspectrometer)
+
+- Instrument that can measure the intensity of a light beam at
+different wavelengths. Although spectrophotometry is most commonly
+applied to ultraviolet, visible, and infrared radiation, modern
+spectrophotometers can interrogate wide swaths of the electromagnetic
+spectrum, including x-ray, ultraviolet, visible, infrared, and/or
+microwave wavelengths. A spectrophotometer is commonly used for the
+measurement of transmittance or reflectance of solutions, transparent
+or opaque solids, such as polished glass, or gases.
+(https://en.wikipedia.org/wiki/Spectrophotometry) If the instrument is
+designed to measure the spectrum on an absolute scale rather than a
+relative one, then it is typically called a spectrophotometer.
+(https://en.wikipedia.org/wiki/Optical_spectrometer)
+
+- **Source:**
+method instruments
+
+- Concept URI token: spectrophotometer
+
+
+[]{#spectroradiometer}
+
+#####  Spectroradiometer
+
+
+- Child of:
+ [`photonspectrometer`](#photonspectrometer)
+
+- A spectroradiometer is an instrument for measuring the energy
+distribution of emitted radiation. Portable spectroradiometers provide
+field measurements for a variety of applications including geological
+remote sensing, ground truthing, spectral remote sensing,
+environmental and climate research, crop and soil research, vegetative
+studies, forestry and canopy studies, radiometric calibration
+transfer, upwelling and downwelling measurement.. . SPECTRORADIOMETERS
+are a combination of a spectroscope and a radiometer in one single
+unit. (Source: NASA; UUID: 937585ae-67a1-44a5-b88a-612667d353ea). A
+radiometer is a device for measuring the radiant flux (power) of
+electromagnetic radiation. (https://en.wikipedia.org/wiki/Radiometer).
+The Spectrometer is the base unit of a Spectroradiometer.
+Spectroradiometers include input optics and calibrations that allow
+the spectrometer to take calibrated readings of power, intensity, and
+irradiance/radiance in optical units or lux/nm, lumens/nm, watts/nm,
+W/cm2/sr/nm etc.  Though to be clear, many people interchange the
+terms calibrated spectrometer, spectrometer and spectroradiometer.
+(https://www.intl-lighttech.com/blog/what-difference-between-
+spectrometer-spectroradiometer-and-radiometer)
+
+- **Source:**
+NASA
+
+- Concept URI token: spectroradiometer
+
+
+[]{#xrayspectrometer}
+
+#####  X-Ray Spectrometer
+
+
+- Child of:
+ [`photonspectrometer`](#photonspectrometer)
+
+- Spectrometer to measure the energy vs. frequency spectrum in the
+x-ray range of electromagnetic radiation.
+
+- **Source:**
+method instruments
+
+- Concept URI token: xrayspectrometer
 
 
 []{#xraydiffractometer}
@@ -1341,6 +1688,32 @@ Namespace:
     - [Electron Diffraction](#electrondiffraction)
         - [Electron Backscatter Diffraction](#electronbackscatterdiffraction)
         - [Transmitted Electron Diffraction](#transmittedelectrondiffraction)
+    - [Geochronology techiques](#geochronology)
+        - [Alpha-recoil track counting](#alpharecoiltrackcounting)
+        - [Electron-spin resonance age analysis](#electronspinresonanceageanalysis)
+        - [Fission track counting](#fissiontrackcounting)
+        - [40Ar-39Ar geochronology](#geochronology40ar39ar)
+    - [Imaging techniques](#imagingtechniques)
+        - [AFM topography imaging](#afmtopographyimaging)
+        - [Cathodoluminescence Imaging](#cathodoluminescenceimaging)
+        - [Electron microscopy imaging](#electronmicroscopyimaging)
+            - [Backscattered electron grain boundary map](#backscatteredelectrongrainboundarymap)
+            - [Backscattered electron imaging](#backscatteredelectronimaging)
+            - [Secondary electron imaging](#secondaryelectronimaging)
+            - [Transmission electron imaging](#transmissionelectronimaging)
+                - [Energy-filtered transmission electron imaging](#energyfilteredtransmissionelectronimaging)
+                - [Scanning transmission electron imaging](#scanningtransmissionelectronimaging)
+        - [Focused ion beam-scanning microscopy](#focusedionbeamscanningmicroscopy)
+        - [Quantitative Reflectance Imaging System](#quantitativereflectanceimagingsystem)
+        - [Structured Light Scanning](#structuredlightscanning)
+        - [Visible, near-infrared, and mid-infrared imaging](#visiblenearinfraredandmidinfraredimaging)
+        - [X-ray imaging](#xrayimaging)
+            - [Microscopic X-ray imaging](#microscopicxrayimaging)
+            - [X-ray computed tomography](#xraycomputedtomography)
+                - [Synchrotron X-ray Fluorescence Tomography](#synchrotronxrayfluorescencetomography)
+            - [X-Ray composition map](#xraymap)
+                - [Energy dispersive X-ray spectral data 2D raster](#energydispersivexrayspectraraster)
+        - [X-ray Photoelectron Spectrometry Composition Map](#xrayphotoelectronspectroscopycompositionmap)
     - [Magnetic Field Measurement ](#magneticfieldmeasurement)
     - [Microscopy](#microscopy)
         - [Fluorescence Microscopy](#fluorescencemicroscopy)
@@ -1353,9 +1726,11 @@ Namespace:
         - [Particle Size Distribution Analysis](#particlesizedistributionanalysis)
         - [Point counting](#pointcounting)
     - [Particle beam excitation](#particlebeamexcitation)
+        - [Electron energy loss spectrometry](#electronenergylossspectrometry)
         - [Electron microscopy imaging](#electronmicroscopyimaging)
             - [Backscattered electron grain boundary map](#backscatteredelectrongrainboundarymap)
             - [Backscattered electron imaging](#backscatteredelectronimaging)
+            - [Secondary electron imaging](#secondaryelectronimaging)
             - [Transmission electron imaging](#transmissionelectronimaging)
                 - [Energy-filtered transmission electron imaging](#energyfilteredtransmissionelectronimaging)
                 - [Scanning transmission electron imaging](#scanningtransmissionelectronimaging)
@@ -1365,6 +1740,7 @@ Namespace:
             - [Electron induced X-ray spectrometry](#electroninducedxrayspectrometry)
                 - [Energy Dispersive electron-induced X-ray spectrometry](#energydispersiveelectroninducedxrayspectrometry)
                 - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
+                - [Wavelength Dispersive electron induced X-Ray Spectrometry](#wavelengthdispersiveelectroninducedxrayspectrometry)
             - [Quantitative analysis particle-induced X-ray spectrometry](#quantitativeanalysisparticleinducedxrayspectrometry)
                 - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
     - [Particle counting](#particlecounting)
@@ -1394,6 +1770,7 @@ Namespace:
         - [Tensiometry](#tensiometry)
         - [Thermal analysis](#thermalanalysis)
             - [Differential Scanning Calorimetry](#differentialscanningcalorimetry)
+            - [Differential Thermal Analysis](#differentialthermalanalyis)
             - [Induction heating analysis](#inductionheatinganalysis)
             - [Lock in thermography](#lockinthermography)
             - [Mini Cryogen-Free Measurement System for Thermal Conductivity](#minicryogenfreemeasurementsystemforthermalconductivity)
@@ -1406,6 +1783,7 @@ Namespace:
             - [Alpha particle spectrometry](#alphaparticlespectrometry)
             - [Electron spectrometry](#electronspectrometry)
                 - [Auger electron spectroscopy](#augerelectronspectroscopy)
+                - [Electron energy loss spectrometry](#electronenergylossspectrometry)
                 - [X-ray photoelectron spectrometery](#xrayphotoelectronspectrometery)
             - [Mass spectrometry](#massspectrometry)
                 - [Accelerator mass spectrometry](#acceleratormassspectrometry)
@@ -1493,11 +1871,13 @@ Namespace:
                     - [Electron induced X-ray spectrometry](#electroninducedxrayspectrometry)
                         - [Energy Dispersive electron-induced X-ray spectrometry](#energydispersiveelectroninducedxrayspectrometry)
                         - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
+                        - [Wavelength Dispersive electron induced X-Ray Spectrometry](#wavelengthdispersiveelectroninducedxrayspectrometry)
                     - [Quantitative analysis particle-induced X-ray spectrometry](#quantitativeanalysisparticleinducedxrayspectrometry)
                         - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
                 - [X-ray absorption spectrometry](#xrayabsorptionspectrometry)
                     - [X-ray absorption near edge structure spectrometry](#xrayabsorptionnearedgestructurespectrometry)
                 - [X-ray fluorescence spectrometry](#xrayfluorescencespectrometry)
+                    - [Confocal X-Ray Fluorescence Spectrometry](#confocalxrayfluorescencespectrometry)
                     - [Energy dispersive X-ray fluorescence spectrometry](#energydispersivexrayfluorescencespectrometry)
                     - [Synchroton X-ray fluorescence spectrometry](#synchrotonxrayfluorescencespectrometry)
                         - [Micro-X-Ray Fluorescence Spectroscopy](#microxrayfluorescencespectroscopy)
@@ -1805,7 +2185,10 @@ SMR add general categories
 - Child of:
  [`chromatographyanalysis`](#chromatographyanalysis)
 
-- A chromatography analysis in which the mobile phase is a gas
+- A chromatography analysis in which the mobile phase is a gas.
+Subclasses are differentiated on the sample preparation workflow (e.g.
+pyrolysis) and the type of detector used to analyze the eluates. This
+vocabulary does not define an exhaustive set of subclasses.
 
 - **Source:**
 Astromat, 
@@ -2393,6 +2776,656 @@ O-REx products
 - Concept URI token: transmittedelectrondiffraction
 
 
+[]{#geochronology}
+
+###  Geochronology techiques
+
+
+- Child of:
+ [`analyticalmethod`](#analyticalmethod)
+
+- Analytical techniques that have results interpreted to indicate the
+time interval since some event occurred in the history of a sample.
+Typically used to estimate crystallization ages, cooling ages
+(thermochronology), or exposure ages.
+- Concept URI token: geochronology
+
+
+[]{#alpharecoiltrackcounting}
+
+####  Alpha-recoil track counting
+
+
+- Child of:
+ [`geochronology`](#geochronology)
+ [`trackcounting`](#trackcounting)
+
+- Like fission-track dating, alpha-recoil track (ART) dating is based
+on the accumulation of nuclear particles that are released by natural
+radioactivity and produce etchable tracks in solids. ARTs are formed
+during the alpha-decay of uranium and thorium as well as of their
+daughter nuclei. When emitting an alpha-particle, the heavy remaining
+nucleus recoils 30-40 nm, leaving behind a trail of radiation damage.
+Through etching the ART tracks become visible with interference phase-
+contrast microscopy. Alpha-recoil dating has a great potential for
+Quaternary chronometry and tephrochronology.
+(https://doi.org/10.1016/S0009-2541(99)00185-0)
+
+- **Alternate labels:**
+ALPHA-RECOIL TRACKS DATING
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: alpharecoiltrackcounting
+
+
+[]{#electronspinresonanceageanalysis}
+
+####  Electron-spin resonance age analysis
+
+
+- Child of:
+ [`geochronology`](#geochronology)
+
+- a technique used to date materials by measuring the amount of
+unpaired electrons in crystalline structures that were previously
+exposed to natural radiation. The age of a substance can be determined
+by measuring the dosage of radiation since the time of its formation.
+(https://en.wikipedia.org/wiki/Electron_spin_resonance_dating).
+electron spin resonance (ESR) spectroscopy is a method for studying
+materials that have unpaired electrons. The basic concepts of EPR are
+analogous to those of nuclear magnetic resonance (NMR), but the spins
+excited are those of the electrons instead of the atomic nuclei.
+(https://en.wikipedia.org/wiki/Electron_paramagnetic_resonance)
+
+- **Alternate labels:**
+ELECTRON-SPIN RESONANCE AGE
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: electronspinresonanceageanalysis
+
+
+[]{#fissiontrackcounting}
+
+####  Fission track counting
+
+
+- Child of:
+ [`geochronology`](#geochronology)
+ [`trackcounting`](#trackcounting)
+
+- Fission track age with correction applied for partial annealing
+using  Isothermal plateau correction
+(https://doi.org/10.1016/1040-6182(92)90017-V)
+
+- **Alternate labels:**
+FISSION TRACK, 
+ISOTHERMAL PLATEAU FISSION TRACK ANALYSIS, 
+
+
+- **Source:**
+GeoRoc, 
+PetDb, 
+
+- Concept URI token: fissiontrackcounting
+
+
+[]{#geochronology40ar39ar}
+
+####  40Ar-39Ar geochronology
+
+
+- Child of:
+ [`geochronology`](#geochronology)
+
+- determination of cooling age of a sample through one of several
+workflows.  All the workflows involve irradiating the sample to
+produce Ar39 from K39, and then measuring the ratio of Ar40 to Ar39 in
+the irradiated sample. The Ar39 is a proxy for the potassium
+concentration, allowing determination of the temporal duration of K
+decay to accumulate radiogenic Ar since cooling of the sample below
+argon retention temperature.
+
+- **Alternate labels:**
+40Ar/39Ar geochronology and thermochronology
+
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: geochronology40ar39ar
+
+
+[]{#imagingtechniques}
+
+###  Imaging techniques
+
+
+- Child of:
+ [`analyticalmethod`](#analyticalmethod)
+
+- Methods that produce 2-D or 3-D rasters that contain information
+about a sample.
+- Concept URI token: imagingtechniques
+
+
+[]{#afmtopographyimaging}
+
+####  AFM topography imaging
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+ [`surfaceanalysis`](#surfaceanalysis)
+
+- a sharp probe tip mounted on a microcantilever scans over the
+specimen line by line, whereby the topographic image of the sample
+surface is generated by 'feeling' rather than 'looking.'
+(https://doi.org/10.1007/978-3-642-16712-6_496).  As the tip
+approaches the surface, the close-range, attractive forces between the
+surface and the tip causes the cantilever to deflect towards the
+surface. However, as the cantilever is brought even closer to the
+surface, until the tip makes contact with it, increasingly repulsive
+forces takes over and causes the cantilever to deflect away from the
+surface. (https://lnf-
+wiki.eecs.umich.edu/wiki/Atomic_force_microscopy)
+
+- **Source:**
+O-REx products
+
+- Concept URI token: afmtopographyimaging
+
+
+[]{#cathodoluminescenceimaging}
+
+####  Cathodoluminescence Imaging
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+
+- In a vacuum chamber containing the sample of interest, an electron
+beam is focused on the sample, causing cathodoluminescence (CL), the
+generation of electromagnetic radiation ranging from the ultraviolet
+(UV) to the near-infrared (NIR) regime of the electromagnetic
+spectrum. The light is collected with a collection optic (e.g. mirror
+or objective) and directed to a light detection unit, or directly
+captured by a detector in the chamber. This detector output is used to
+characterize various aspects of the light signal such as its
+intensity, color, and more.  Many trace elements or dopants can be
+sensitively detected with CL because they have different optical
+transitions than the bulk materials they are embedded in. It is
+possible to look at crystal defects as these can alter the local
+optical properties of the material.  CL  can also image optical
+resonances and guided modes in a range of (resonant) photonic and
+plasmonic systems.
+(https://www.delmic.com/en/techniques/cathodoluminescence)
+
+- **Alternate labels:**
+High Resolution Cathodoluminescence
+
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: cathodoluminescenceimaging
+
+
+[]{#electronmicroscopyimaging}
+
+####  Electron microscopy imaging
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+ [`particlebeamexcitation`](#particlebeamexcitation)
+
+- Technique that produces images by scanning an electron beam over a
+sample surface and measureing the intensity of electrons emitted from
+or transmitted through the sample.
+
+- **Alternate labels:**
+ANAYTICAL ELECTRON MICROSCOPY
+
+
+- **Source:**
+Astromat, 
+GeoRoc, 
+O-REx techniques, 
+PetDb, 
+
+- Concept URI token: electronmicroscopyimaging
+
+
+[]{#backscatteredelectrongrainboundarymap}
+
+#####  Backscattered electron grain boundary map
+
+
+- Child of:
+ [`electronmicroscopyimaging`](#electronmicroscopyimaging)
+
+- Image showing grain boundaries generated by detecting
+crytallographic orientation changes in a raster of backscattered
+electron diffraction data points.
+
+- **Source:**
+O-REx products
+
+- Concept URI token: backscatteredelectrongrainboundarymap
+
+
+[]{#backscatteredelectronimaging}
+
+#####  Backscattered electron imaging
+
+
+- Child of:
+ [`electronmicroscopyimaging`](#electronmicroscopyimaging)
+
+- Techniques that involve bombarding a sample with an accelerated
+electron beam to produce backscattered electrons. An image is formed
+by scanning the beam in a raster across the sample surface and
+measuring the intensity (count?) of backscattered electrons at each
+sample point. BSEs are reflected back after elastic interactions
+between the beam and the sample. BSE images show high sensitivity to
+differences in atomic number; the higher the atomic number, the
+brighter the material appears in the image.
+(https://www.thermofisher.com/blog/materials/sem-signal-types-
+electrons-and-the-information-they-provide/)
+
+- **Alternate labels:**
+Backscatter electron microscopy
+
+
+- **Source:**
+Astromat, 
+GeoRoc, 
+O-REx techniques, 
+PetDb, 
+
+- Concept URI token: backscatteredelectronimaging
+
+
+[]{#secondaryelectronimaging}
+
+#####  Secondary electron imaging
+
+
+- Child of:
+ [`electronmicroscopyimaging`](#electronmicroscopyimaging)
+
+- Techniques that involve bombarding a sample with an accelerated
+electron or ion beam to produce secondary electrons. An image is
+formed by scanning the beam in a raster across the sample surface and
+measuring the intensity (count?) of secondary electrons emitted at
+each sample point.  Secondary electrons are a result of inelastic
+interactions between the excitation beam and atoms in the sample; they
+originate from the surface region of the sample. Secondary electron
+imaging can provide detailed surface information.
+(https://www.thermofisher.com/blog/materials/sem-signal-types-
+electrons-and-the-information-they-provide/)
+
+- **Alternate labels:**
+Secondary electron microscopy
+
+
+- **Source:**
+O-REx products
+
+- Concept URI token: secondaryelectronimaging
+
+
+[]{#transmissionelectronimaging}
+
+#####  Transmission electron imaging
+
+
+- Child of:
+ [`electronmicroscopyimaging`](#electronmicroscopyimaging)
+
+- technique in which a beam of electrons is transmitted through a
+specimen to form an image. The specimen is most often an ultrathin
+section less than 100 nm thick or a suspension on a grid. An image is
+formed from the interaction of the electrons with the sample as the
+beam is transmitted through the specimen. Multiple operating modes
+based on electron imaging include conventional imaging, scanning TEM
+imaging (STEM), and electron diffraction.
+(https://en.wikipedia.org/wiki/Transmission_electron_microscopy)
+
+- **Alternate labels:**
+Transmission electron microscopy
+
+
+- **Source:**
+GeoRoc, 
+O-REx techniques, 
+
+- Concept URI token: transmissionelectronimaging
+
+
+[]{#energyfilteredtransmissionelectronimaging}
+
+######  Energy-filtered transmission electron imaging
+
+
+- Child of:
+ [`transmissionelectronimaging`](#transmissionelectronimaging)
+
+- The principle is to illuminate a very thin specimen with a beam of
+high energy electrons. Some of these electrons will interact with the
+specimen and result in elastic or inelastic scattering. Inelastic
+scattering results in both a loss of energy and a change in momentum,
+which in the case of inner shell ionization, the energy loss is
+characteristic of the element the electron interacted with. After the
+electron energy loss spectrum forms in the energy filter, an
+adjustable energy slit allows only electrons that have not lost energy
+to pass through to form the image. This is known as zero-loss
+filtering. The filtering prevents inelastically scattered electrons
+from contributing to the image plus enhances contrast image and
+resolution. In addition to zero-loss filtering, you can adjust the
+system to select electrons that have lost a specific amount of energy
+to obtain additional contrast effects and compositionally sensitive
+images. (https://eels.info/about/techniques/eftem)
+
+- **Alternate labels:**
+Energy-filtered transmission electron microscopy
+
+
+- **Source:**
+O-REx products
+
+- Concept URI token: energyfilteredtransmissionelectronimaging
+
+
+[]{#scanningtransmissionelectronimaging}
+
+######  Scanning transmission electron imaging
+
+
+- Child of:
+ [`transmissionelectronimaging`](#transmissionelectronimaging)
+
+- In STEM the electron beam is focused to a fine spot (with the
+typical spot size 0.05 -- 0.2 nm) which is then scanned over the
+sample in a raster illumination system constructed so that the sample
+is illuminated at each point with the beam parallel to the optical
+axis.
+(https://en.wikipedia.org/wiki/Transmission_electron_microscopy). In
+TEM parallel electron beams are focused perpendicular to the sample
+plane, in STEM the beam is focused at a large angle and is converged
+into a focal point. The transmitted signal is collected as a function
+of the beam location as it is rastered across the sample. There are
+multiple detectors for STEM imaging: 1) BF (bright-field) detector:
+small angles (0-10 mrad). These images are similar to the bright-field
+images obtained using TEM; 2) ADF (annular dark-field ) detector:
+larger angles (10-50 mrad); 3) HAADF (high-angle annular dark-field)
+detector: Angles greater than 50mrad. (https://chem.libretexts.org/Cou
+rses/Franklin_and_Marshall_College/Introduction_to_Materials_Character
+ization__CHM_412_Collaborative_Text/Electron_and_Probe_Microscopy/Tran
+smission_electron_microscopy_(TEM)%3A_TEM_versus_STEM_and_HAADF )
+
+- **Alternate labels:**
+Scanning transmission electron microscopy
+
+
+- **Source:**
+O-REx products
+
+- Concept URI token: scanningtransmissionelectronimaging
+
+
+[]{#focusedionbeamscanningmicroscopy}
+
+####  Focused ion beam-scanning microscopy
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+ [`particlebeamexcitation`](#particlebeamexcitation)
+
+- Production of images by scanning an ion beam in a raster across a
+sample surface and detecting secondary or backscattered electrons from
+each point to generate an image. Instrument used is typically an
+electron microscope that has an additional ion beam excitation source.
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: focusedionbeamscanningmicroscopy
+
+
+[]{#quantitativereflectanceimagingsystem}
+
+####  Quantitative Reflectance Imaging System
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+
+- Images acquired for a particular spectral channel [need more
+information]
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: quantitativereflectanceimagingsystem
+
+
+[]{#structuredlightscanning}
+
+####  Structured Light Scanning
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+
+- Determination of the three-dimensional shape of an object using
+projected light patterns, a camera system, and digital processing. The
+light source from the scanner head projects a series of parallel
+patterns onto the scan target. When light projects onto the object's
+surface, the patterns become distorted. The cameras capture these
+images and send them to the 3D scanning software for processing.
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: structuredlightscanning
+
+
+[]{#visiblenearinfraredandmidinfraredimaging}
+
+####  Visible, near-infrared, and mid-infrared imaging
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+
+- Visualization of infrared spectra data  collected at a raster of
+points on a sample surface by selecting particular spectral intervals
+normalizing and mapping the measured intensity in the interval to an
+image channel; gray scale image based on a single spectral interval,
+color image with three intervals mapped to R,G,B channels.
+
+- **Alternate labels:**
+Visible, near-infrared, and mid-infrared (VNMIR)  2D spectral raster SwRI micro-FTIR
+
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: visiblenearinfraredandmidinfraredimaging
+
+
+[]{#xrayimaging}
+
+####  X-ray imaging
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+
+- As X-rays pass through an object, X-rays of a particular wavelength
+are attentuated more or less depending on the materials through which
+the X-rays pass and the thickness of the material. The attenuation of
+X-rays passing through the object makes a 'shadow pattern' which can
+be captured for study on photographic film, or by a reusable phosphor
+screen which can be read by a digital scanner, or directly by a
+digital detector. The resulting X-radiographs enable visualizing
+features hidden below an object's surface. The different attenuation
+values can also be used to distinguish between materials which look
+the same under visible light but have different X-ray absorptions.
+(https://www.fieldmuseum.org/science/research/area/conserving-
+collections/examination-documentation/x-radiography)
+
+- **Alternate labels:**
+X-RADIOGRAPHY
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: xrayimaging
+
+
+[]{#microscopicxrayimaging}
+
+#####  Microscopic X-ray imaging
+
+
+- Child of:
+ [`xrayimaging`](#xrayimaging)
+
+- Technique uses electromagnetic radiation in the X-ray band to
+produce magnified images of objects. Since X-rays penetrate most
+objects, there is no need to specially prepare them for X-ray
+microscopy observations. Because X-rays do not reflect or refract
+easily and are invisible to the human eye an X-ray microscope exposes
+film or uses a charge-coupled device (CCD) detector to detect X-rays
+that pass through the specimen. It is a contrast imaging technology
+using the difference in absorption of soft X-rays in the water window
+region (wavelengths: 2.34-4.4 nm, energies: 280-530 eV) by the carbon
+atom (main element composing the living cell) and the oxygen atom (an
+element of water). (https://en.wikipedia.org/wiki/X-ray_microscope)
+
+- **Alternate labels:**
+X-RAY MICROSCOPY ANALYSIS
+
+
+- **Source:**
+Astromat
+
+- Concept URI token: microscopicxrayimaging
+
+
+[]{#xraycomputedtomography}
+
+#####  X-ray computed tomography
+
+
+- Child of:
+ [`xrayimaging`](#xrayimaging)
+
+- 2D Radiograph collected as a stack of planar surfaces by focusing
+x-rays at progressively greater depth throught the sample. The stack
+is then used for the reconstruction process to create a 3D volume.
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: xraycomputedtomography
+
+
+[]{#synchrotronxrayfluorescencetomography}
+
+######  Synchrotron X-ray Fluorescence Tomography
+
+
+- Child of:
+ [`synchrotonxrayfluorescencespectrometry`](#synchrotonxrayfluorescencespectrometry)
+ [`xraycomputedtomography`](#xraycomputedtomography)
+
+- X-ray flourescence spectrometery focused to extract inforamtion from
+inside the volume of a sample, with x-rays sourced from a synchrotron.
+
+- **Source:**
+O-REx products
+
+- Concept URI token: synchrotronxrayfluorescencetomography
+
+
+[]{#xraymap}
+
+#####  X-Ray composition map
+
+
+- Child of:
+ [`xrayimaging`](#xrayimaging)
+
+- image produced using composition data derived from x-ray spectra
+analysis at a raster of points on a sample surface.  Might be based on
+EDS or WDS data
+
+- **Source:**
+O-REx products
+
+- Concept URI token: xraymap
+
+
+[]{#energydispersivexrayspectraraster}
+
+######  Energy dispersive X-ray spectral data 2D raster
+
+
+- Child of:
+ [`xraymap`](#xraymap)
+
+- production of composition-related images by selecting particular
+x-ray wavelength intervals from a set of EDS spectra acquired in a
+raster on a sample surface. If one wavelenth interval is rpresented,
+get gray scale image. Can combine data from 3 intervals to generate
+more informative RGB images.
+
+- **Alternate labels:**
+Energy-dispersive X-ray spectral data (EDS) - 2D raster
+
+
+- **Source:**
+O-REx products
+
+- Concept URI token: energydispersivexrayspectraraster
+
+
+[]{#xrayphotoelectronspectroscopycompositionmap}
+
+####  X-ray Photoelectron Spectrometry Composition Map
+
+
+- Child of:
+ [`imagingtechniques`](#imagingtechniques)
+
+- Technique based on irradiation of the sample surface with
+monochromatic X-radiation (Skoog, Holler, Crouch p540) resulting in
+emission of electrons. The emitted electron energy spectra are
+obtained and chemical states are inferred from the measurement of the
+kinetic energy and the number of the ejected electrons. A typical XPS
+spectrum is a plot of the number of electrons detected at a specific
+binding energy. Each element produces a set of characteristic XPS
+peaks. Image produced from a raster of X-ray Photoelectron
+Spectrometer data, with image channels mapped to 1 or three
+characteristic energy peaks.
+
+- **Alternate labels:**
+X-ray Photoelectron Spectroscopy (XPS) Elemental/Chemical Maps
+
+- Concept URI token: xrayphotoelectronspectroscopycompositionmap
+
+
 []{#magneticfieldmeasurement}
 
 ###  Magnetic Field Measurement
@@ -2677,6 +3710,37 @@ SMR add general categories
 - Concept URI token: particlebeamexcitation
 
 
+[]{#electronenergylossspectrometry}
+
+####  Electron energy loss spectrometry
+
+
+- Child of:
+ [`electronspectrometry`](#electronspectrometry)
+ [`particlebeamexcitation`](#particlebeamexcitation)
+
+- a material is exposed to a beam of electrons with a known, narrow
+range of kinetic energies. Some of the electrons will undergo
+inelastic scattering, which means that they lose energy and have their
+paths slightly and randomly deflected. The amount of energy loss can
+be measured via an electron spectrometer and interpreted in terms of
+what caused the energy loss. With some care, and looking at a wide
+range of energy losses, one can determine the types of atoms, and the
+numbers of atoms of each type, being struck by the beam. The
+scattering angle (that is, the amount that the electron's path is
+deflected) can also be measured, giving information about the
+dispersion relation of whatever material excitation caused the
+inelastic scattering. Most common approach today is transmission EELS,
+in which the incident electrons pass entirely through the material
+sample. Usually this occurs in a transmission electron microscope
+(TEM), although some dedicated systems exist which enable extreme
+resolution in terms of energy and momentum transfer at the expense of
+spatial resolution.
+(https://en.wikipedia.org/wiki/Electron_energy_loss_spectroscopy,
+https://eels.info/about/techniques/eels-0)
+- Concept URI token: electronenergylossspectrometry
+
+
 []{#electronmicroscopyimaging}
 
 ####  Electron microscopy imaging
@@ -2751,6 +3815,35 @@ O-REx techniques,
 PetDb, 
 
 - Concept URI token: backscatteredelectronimaging
+
+
+[]{#secondaryelectronimaging}
+
+#####  Secondary electron imaging
+
+
+- Child of:
+ [`electronmicroscopyimaging`](#electronmicroscopyimaging)
+
+- Techniques that involve bombarding a sample with an accelerated
+electron or ion beam to produce secondary electrons. An image is
+formed by scanning the beam in a raster across the sample surface and
+measuring the intensity (count?) of secondary electrons emitted at
+each sample point.  Secondary electrons are a result of inelastic
+interactions between the excitation beam and atoms in the sample; they
+originate from the surface region of the sample. Secondary electron
+imaging can provide detailed surface information.
+(https://www.thermofisher.com/blog/materials/sem-signal-types-
+electrons-and-the-information-they-provide/)
+
+- **Alternate labels:**
+Secondary electron microscopy
+
+
+- **Source:**
+O-REx products
+
+- Concept URI token: secondaryelectronimaging
 
 
 []{#transmissionelectronimaging}
@@ -3008,6 +4101,37 @@ GeoRoc,
 PetDb, 
 
 - Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry
+
+
+[]{#wavelengthdispersiveelectroninducedxrayspectrometry}
+
+######  Wavelength Dispersive electron induced X-Ray Spectrometry
+
+
+- Child of:
+ [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
+
+- X-rays are generated in the sample by interaction with the
+excitation electron beam, and are selected using an analytical
+crystal(s) with specific lattice spacing(s). When X-rays encounter the
+analytical crystal at a specific angle theta, only those X-rays that
+satisfy Bragg's Law are reflected and a single wavelength is passed on
+to the detector. The wavelength of the X-rays reflected into the
+detector may be varied by changing the position of the analyzing
+crystal relative to the sample i.e. the X-ray source-crystal distance
+is a linear function of the wavelength. Consequently, X-rays from only
+one element at a time can be measured on the spectrometer and the
+position of a given analytical crystal must be changed in order to
+adjust to a wavelength characteristic of another element. There is
+commonly more than a single analytical crystal in a WD spectrometer
+and, in the case of most EPMA instruments, there are typically
+multiple spectrometers with a suite of analytical crystals so that the
+spectrometers can reach all of the elemental wavelengths of interest
+and it will optimize performance in different wavelength ranges.
+X-rays of specific wavelengths from the analytical crystal are passed
+on to the X-ray detector.
+(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
+- Concept URI token: wavelengthdispersiveelectroninducedxrayspectrometry
 
 
 []{#quantitativeanalysisparticleinducedxrayspectrometry}
@@ -3677,6 +4801,37 @@ O-REx techniques,
 - Concept URI token: differentialscanningcalorimetry
 
 
+[]{#differentialthermalanalyis}
+
+#####  Differential Thermal Analysis
+
+
+- Child of:
+ [`thermalanalysis`](#thermalanalysis)
+
+- Differential thermal analysis (DTA) is a technique in which the
+material under study and an inert reference are made to undergo
+identical thermal cycles, (i.e., same cooling or heating programme)
+while recording any temperature difference between sample and
+reference. This differential temperature is then plotted against time,
+or against temperature (DTA curve, or thermogram). Changes in the
+sample, either exothermic or endothermic, can be detected relative to
+the inert reference. Thus, a DTA curve provides data on the
+transformations that have occurred, such as glass transitions,
+crystallization, melting and sublimation. The area under a DTA peak is
+the enthalpy change and is not affected by the heat capacity of the
+sample. DTA is similar to differential scanning calorimetry.
+
+- **Alternate labels:**
+Differential analyzer
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: differentialthermalanalyis
+
+
 []{#inductionheatinganalysis}
 
 #####  Induction heating analysis
@@ -4001,6 +5156,37 @@ surface species
 Astromat
 
 - Concept URI token: augerelectronspectroscopy
+
+
+[]{#electronenergylossspectrometry}
+
+######  Electron energy loss spectrometry
+
+
+- Child of:
+ [`electronspectrometry`](#electronspectrometry)
+ [`particlebeamexcitation`](#particlebeamexcitation)
+
+- a material is exposed to a beam of electrons with a known, narrow
+range of kinetic energies. Some of the electrons will undergo
+inelastic scattering, which means that they lose energy and have their
+paths slightly and randomly deflected. The amount of energy loss can
+be measured via an electron spectrometer and interpreted in terms of
+what caused the energy loss. With some care, and looking at a wide
+range of energy losses, one can determine the types of atoms, and the
+numbers of atoms of each type, being struck by the beam. The
+scattering angle (that is, the amount that the electron's path is
+deflected) can also be measured, giving information about the
+dispersion relation of whatever material excitation caused the
+inelastic scattering. Most common approach today is transmission EELS,
+in which the incident electrons pass entirely through the material
+sample. Usually this occurs in a transmission electron microscope
+(TEM), although some dedicated systems exist which enable extreme
+resolution in terms of energy and momentum transfer at the expense of
+spatial resolution.
+(https://en.wikipedia.org/wiki/Electron_energy_loss_spectroscopy,
+https://eels.info/about/techniques/eels-0)
+- Concept URI token: electronenergylossspectrometry
 
 
 []{#xrayphotoelectronspectrometery}
@@ -6323,6 +7509,37 @@ PetDb,
 - Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry
 
 
+[]{#wavelengthdispersiveelectroninducedxrayspectrometry}
+
+########  Wavelength Dispersive electron induced X-Ray Spectrometry
+
+
+- Child of:
+ [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
+
+- X-rays are generated in the sample by interaction with the
+excitation electron beam, and are selected using an analytical
+crystal(s) with specific lattice spacing(s). When X-rays encounter the
+analytical crystal at a specific angle theta, only those X-rays that
+satisfy Bragg's Law are reflected and a single wavelength is passed on
+to the detector. The wavelength of the X-rays reflected into the
+detector may be varied by changing the position of the analyzing
+crystal relative to the sample i.e. the X-ray source-crystal distance
+is a linear function of the wavelength. Consequently, X-rays from only
+one element at a time can be measured on the spectrometer and the
+position of a given analytical crystal must be changed in order to
+adjust to a wavelength characteristic of another element. There is
+commonly more than a single analytical crystal in a WD spectrometer
+and, in the case of most EPMA instruments, there are typically
+multiple spectrometers with a suite of analytical crystals so that the
+spectrometers can reach all of the elemental wavelengths of interest
+and it will optimize performance in different wavelength ranges.
+X-rays of specific wavelengths from the analytical crystal are passed
+on to the X-ray detector.
+(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
+- Concept URI token: wavelengthdispersiveelectroninducedxrayspectrometry
+
+
 []{#quantitativeanalysisparticleinducedxrayspectrometry}
 
 #######  Quantitative analysis particle-induced X-ray spectrometry
@@ -6499,6 +7716,37 @@ O-REx techniques,
 PetDb, 
 
 - Concept URI token: xrayfluorescencespectrometry
+
+
+[]{#confocalxrayfluorescencespectrometry}
+
+#######  Confocal X-Ray Fluorescence Spectrometry
+
+
+- Child of:
+ [`xrayfluorescencespectrometry`](#xrayfluorescencespectrometry)
+
+- The confocal geometry uses two polycapillary focusing optics for
+enhanced applications of XRF elemental analysis. An excitation optic
+focuses a small X-ray beam onto the specimen. A detection optic
+collects fluorescent X-rays from the sample. Specifically, elemental
+concentrations are measured within the small probe volume ('confocal
+volume') defined by the intersection of the output focal spot of the
+excitation optic and the input focal spot of the collection optic.
+The polycapillary focusing optics act as spatial filters to eliminate
+background radiation from the sample and increase detection
+sensitivity for sample elements of interest. Additionally, confocal
+XRF can be used for elemental depth profiling. Confocal XRF acts as a
+material probe by exciting and detecting emitted characteristic X-ray
+photons from within the confocal analysis volume as this volume is
+through the sample. In this way elemental concentrations can be
+measured on the object's surface and throughout the object's interior.
+(https://www.xos.com/Confocal-XRF)
+
+- **Source:**
+O-REx techniques
+
+- Concept URI token: confocalxrayfluorescencespectrometry
 
 
 []{#energydispersivexrayfluorescencespectrometry}
@@ -7424,6 +8672,8 @@ Namespace:
         - [Electrospray ionization](#electrosprayionization)
         - [Inductively Coupled Plasma](#inductivelycoupledplasma)
         - [Laser Ablation Source](#laserablationsource)
+        - [Secondary Ion Source](#secondaryionsource)
+        - [Thermal ionization](#thermalionization)
     - [Sample preparation](#samplepreparation)
         - [Bioanalytical sample preparation](#bioanalyticalsamplepreparation)
             - [DNA Fragmentation](#dnafragmentation)
@@ -7719,7 +8969,7 @@ O-REx products
 - A plasma source in which the energy is supplied by electric currents
 which are produced by electromagnetic induction, that is, by time-
 varying magnetic fields. Plasma electron temperatures can range
-between ~6,000 K and ~10,000 K (~6 eV - ~100 eV). Used as an ion
+between ~6,000 K and ~10,000 K (~6 eV – ~100 eV). Used as an ion
 source for mass spectrometery and emission spectrometry.
 (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)
 
@@ -7746,6 +8996,44 @@ ctively_coupled_plasma_mass_spectrometry#Sample_introduction)
 reorganize mass spectrometer classes [SMR]
 
 - Concept URI token: laserablationsource
+
+
+[]{#secondaryionsource}
+
+####  Secondary Ion Source
+
+
+- Child of:
+ [`ionsource`](#ionsource)
+
+- focusing a primary ion beam on a sample in order to generate a
+series of secondary positive ions that can be focused and measured
+based on their mass/charge ratios.
+(https://en.wikipedia.org/wiki/Isotope-
+ratio_mass_spectrometry#Secondary-ion_mass_spectrometry)
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: secondaryionsource
+
+
+[]{#thermalionization}
+
+####  Thermal ionization
+
+
+- Child of:
+ [`ionsource`](#ionsource)
+
+- Ionization by placing a the analyte of interest on a filament that
+is then heated with an electric current to desorb and ionized the
+analyte.
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: thermalionization
 
 
 []{#samplepreparation}
