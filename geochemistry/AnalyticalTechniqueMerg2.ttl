@@ -3675,7 +3675,7 @@ wrkf:inductivelycoupledplasma
   dcterms:source "reorganize mass spectrometer classes [SMR]" ;
   rdfs:label "Inductively Coupled Plasma "@en ;
   skos:broader wrkf:ionsource ;
-  skos:definition "A plasma source in which the energy is supplied by electric currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields. Plasma electron temperatures can range between ~6,000 K and ~10,000 K (~6 eV – ~100 eV). Used as an ion source for mass spectrometery and emission spectrometry. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)"@en ;
+  skos:definition "A plasma source in which the energy is supplied by electric currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields. Plasma electron temperatures can range between ~6,000 K and ~10,000 K (~6 eV - ~100 eV). Used as an ion source for mass spectrometery and emission spectrometry. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Inductively Coupled Plasma"@en ;
 .
