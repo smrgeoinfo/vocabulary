@@ -16,7 +16,7 @@ SKOS vocabualary, serialized using Turtle. Based on Geo-X spreadsheet from Manja
 ### [scripts](https://github.com/smrgeoinfo/vocabulary/tree/pages/scripts)
 Shell script and python code from Dave Vieglais. Generates Markdown view of the SKOS, and then renders that to html using quarto. To run you'll need a python environment with click and rdflib loaded. Instructions at https://github.com/isamplesorg/isamplesorg.github.io/blob/main/README.md are helpful. The html gets put in the html folder in the appropriate vocabulary subfolder. The scripts access the vocabulary using http from the github repository.  To run check out the repo, create a branch for your work, load your python environment, run the .sh script (in windows you might need to get WSL (Windows Subsystem for Linux) running, (https://linuxhint.com/run-sh-file-windows/ might be helpful). Then push changes to your branch (or fork if permissions don't allow). If it looks good, put in a pull request to merge into master.
 
-### [HowToRun.md](https://github.com/smrgeoinfo/vocabulary/blob/pages/HowToRun.md)  
+### [Setting up and running SKOS to HTML tools](https://github.com/smrgeoinfo/vocabulary/blob/pages/HowToRun.md)  
 Instructions for running the code to transform turtle files to Markdown and html
 
 # lithology
