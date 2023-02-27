@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-27T11:39:29.641761+00:00"
+This file generated at: "2023-02-27T12:44:14.909227+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -7719,7 +7719,7 @@ O-REx products
 - A plasma source in which the energy is supplied by electric currents
 which are produced by electromagnetic induction, that is, by time-
 varying magnetic fields. Plasma electron temperatures can range
-between ~6,000 K and ~10,000 K (~6 eV – ~100 eV). Used as an ion
+between ~6,000 K and ~10,000 K (~6 eV - ~100 eV). Used as an ion
 source for mass spectrometery and emission spectrometry.
 (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)
 
