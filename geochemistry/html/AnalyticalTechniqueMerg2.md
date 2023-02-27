@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-21T14:35:30.484130+00:00"
+This file generated at: "2023-02-27T11:39:29.641761+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -78,9 +78,10 @@ Namespace:
     - [Photometer](#photometer)
     - [Spectrometer](#spectrometer)
         - [Mass Spectrometer](#massspectrometer)
-            - [Elemental Analyzer Isotope Ratio Mass Spectrometer](#elementalanalyzerisotoperatiomassspectrometer)
+            - [Fourier-transform ion cyclotron resonance mass spectrometer](#fouriertransformioncyclotronresonancemassspectrometer)
             - [Inductively Coupled Plasma Mass Spectrometer](#inductivelycoupledplasmamassspectrometer)
                 - [Multicollector Inductively Coupled Plasma Mass Spectrometer](#multicollectorinductivelycoupledplasmamassspectrometer)
+            - [Quadrupole Mass Spectrometer](#quadrupolemassspectrometer)
             - [Secondary Ion Mass Spectrometer](#secondaryionmassspectrometer)
     - [X-Ray Diffractometer ](#xraydiffractometer)
         - [Single Crystal X-Ray Diffractometer](#singlecrystalxraydiffractometer)
@@ -1060,10 +1061,18 @@ Instrument general types
 - Child of:
  [`spectrometer`](#spectrometer)
 
-- Study of matter through the formation of gas-phase ions that are
-characterized using mass spectrometers by their mass, charge,
-structure, and/or physico-chemical properties. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06)
+- An apparatus for separating isotopes, molecules, and molecular
+fragments according to mass. A mass spectrometer consists of three
+components: an ion source, a mass analyzer, and a detector.
+(https://en.wikipedia.org/wiki/Mass_spectrometry). The sample is
+vaporized and ionized, and the ions are accelerated in an electric
+field, and several different techniques are used to measure the
+abundance of ions with different mass to charge ratios.  Some example
+techniques for the mass differentiation include time-of-flight,
+deflection using magnetic or electric fields (magnetic sector, dual
+focusing), stability of ion trajectories in an oscillating electric
+field (quadrupole), and cyclotron frequency of the ions in a fixed
+magnetic field (ion cyclotron resonance).
 
 - **Source:**
 NASA
@@ -1071,19 +1080,33 @@ NASA
 - Concept URI token: massspectrometer
 
 
-[]{#elementalanalyzerisotoperatiomassspectrometer}
+[]{#fouriertransformioncyclotronresonancemassspectrometer}
 
-#####  Elemental Analyzer Isotope Ratio Mass Spectrometer
+#####  Fourier-transform ion cyclotron resonance mass spectrometer
 
 
 - Child of:
  [`massspectrometer`](#massspectrometer)
 
+- mass spectrometer that analyzed ion mass/charge based on the
+cyclotron frequency of the ions in a fixed magnetic field. The ions
+are trapped in a magnetic field with electric trapping plates, where
+they are excited at their resonant cyclotron frequencies by an
+oscillating electric field. After the excitation field is removed, the
+ions are rotating at their cyclotron frequency in phase (as a "packet"
+of ions). These ions induce a charge (detected as an image current) on
+a pair of electrodes as the packets of ions pass close to them. The
+resulting signal is called a free induction decay (FID), transient or
+interferogram that consists of a superposition of sine waves. The
+useful signal is extracted from this data by performing a Fourier
+transform to give a mass spectrum.
+(https://en.wikipedia.org/wiki/Fourier-
+transform_ion_cyclotron_resonance)
 
 - **Source:**
-method instruments
+reorganize mass spectrometer classes [SMR]
 
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometer
+- Concept URI token: fouriertransformIoncyclotronresonancemassspectrometer
 
 
 []{#inductivelycoupledplasmamassspectrometer}
@@ -1146,6 +1169,21 @@ Multiple Collector Mass Spectrometer,
 NASA
 
 - Concept URI token: multicollectorinductivelycoupledplasmamassspectrometer
+
+
+[]{#quadrupolemassspectrometer}
+
+#####  Quadrupole Mass Spectrometer
+
+
+- Child of:
+ [`massspectrometer`](#massspectrometer)
+
+
+- **Source:**
+Reorganize Mass spectrometer instrument classes
+
+- Concept URI token: quadrupolemassspectrometer
 
 
 []{#secondaryionmassspectrometer}
@@ -1362,47 +1400,6 @@ Namespace:
             - [Spherical Cell Bulk Thermal Conductivity Analysis](#sphericalcellbulkthermalconductivityanalysis)
             - [Thermogravimetry Analysis](#thermogravimetryanalysis)
     - [Spectrometry](#spectrometry)
-        - [Mass spectrometry](#massspectrometry)
-            - [Accelerator mass spectrometry](#acceleratormassspectrometry)
-            - [Elemental analyzer mass spectrometry](#elementalanalyzermassspectrometry)
-                - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
-            - [Fourier Transform Ion Cyclotron Resonance Mass Spectrometry](#fouriertransformioncyclotronresonancemassspectrometry)
-            - [Gas Chromatography Mass Spectrometry](#gaschromatographymassspectrometry)
-                - [Pyrolysis Gas Chromatography Mass Spectrometry](#pyrolysisgaschromatographymassspectrometry)
-                    - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
-            - [Isotope ratio mass spectrometry](#isotoperatiomassspectrometry)
-                - [Continuous flow isotope ratio mass spectrometry](#continuousflowisotoperatiomassspectrometry)
-                - [Dual-inlet isotope-ratio mass spectrometry](#dualinletisotoperatiomassspectrometry)
-                - [Elemental Analyzer Isotope Ratio Mass Spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
-                - [Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
-                - [Laser fluorination analysis](#laserfluorinationanalysis)
-                - [Stepped Heating Carbon and Nitrogen Isotopic Analysis](#steppedheatingcarbonandnitrogenisotopicanalysis)
-            - [Laser ablation mass spectrometry](#laserablationmassspectrometry)
-                - [Laser ablation inductively coupled plasma mass spectrometry](#laserablationinductivelycoupledplasmamassspectrometry)
-            - [Liquid Chromatography-Mass Spectrometry](#liquidchromatographymassspectrometry)
-            - [Micromass multiprep mass spectrometry](#micromassmultiprepmassspectrometry)
-            - [Noble Gas Mass Spectrometry](#noblegasmassspectrometry)
-                - [Neutron irradiation noble gas mass spectrometry](#neutronirradiationnoblegasmassspectrometry)
-                - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
-            - [Orbitrap mass spectrometry](#orbitrapmassspectrometry)
-                - [Desorption Electrospray Ionization-Orbitrap Mass spectrometry](#desorptionelectrosprayionizationorbitrapmassspectrometry)
-            - [Plasma source mass spectrometry](#plasmasourcemassspectrometry)
-                - [Inductively coupled plasma mass spectrometry](#inductivelycoupledplasmamassspectrometry)
-                    - [High resolution inductively coupled plasma mass spectrometry](#highresolutioninductivelycoupledplasmamassspectrometry)
-                    - [Laser ablation inductively coupled plasma mass spectrometry](#laserablationinductivelycoupledplasmamassspectrometry)
-                    - [Liquid inlet inductively coupled plasma mass spectrometry](#liquidinletinductivelycoupledplasmamassspectrometry)
-                    - [Multi-Collector Inductively Coupled Plasma Mass Spectrometry](#multicollectorinductivelycoupledplasmamassspectrometry)
-                    - [Quadrupole Inductively Coupled Plasma Mass Spectrometry](#quadrupoleinductivelycoupledplasmmassspectrometry)
-                - [Laser ionization mass spectrometry](#laserionizationmassspectrometry)
-                - [Resonance ionization time of flight noble gas mass spectrometry](#resonanceionizationtimeofflightnoblegasmassspectrometry)
-            - [Secondary ionization mass spectrometry](#secondaryionizationmassspectrometry)
-                - [Secondary neutral mass spectrometry](#secondaryneutralmassspectrometry)
-                    - [Microprobe Two-Step Laser Mass Spectrometry](#microprobetwosteplasermassspectrometry)
-            - [Solid source mass spectrometry](#solidsourcemassspectrometry)
-            - [Spark source mass spectrometry](#sparksourcemassspectrometry)
-            - [Thermal ionization mass spectrometry](#thermalionizationmassspectrometry)
-                - [Negative ion thermal ionization mass spectrometry](#negativeionthermalionizationmassspectrometry)
-                - [Positive ion thermal ionization mass spectrometry](#positiveionthermalionizationmassspectrometry)
         - [Nuclear Magnetic Resonance Spectrometry](#nuclearmagneticresonancespectrometry)
             - [Solid-State Nuclear Magnetic Resonance Spectroscopy](#solidstatenuclearmagneticresonancespectroscopy)
         - [Particle spectrometry](#particlespectrometry)
@@ -3827,8 +3824,9 @@ O-REx technique,
 
 - any of various analytical techniques in which an emission (as of
 particles or radiation) is dispersed according to some property (such
-as mass or energy) of the emission and the amount of dispersion is
-measured (https://www.merriam-webster.com/dictionary/spectrometry)
+as mass, energy, or wavelength) of the emission and the amount of
+dispersion is measured (https://www.merriam-
+webster.com/dictionary/spectrometry)
 
 - **Alternate labels:**
 SPECTROCHEMISTRY, 
@@ -3842,1137 +3840,6 @@ PetDb,
 add parent methods, 
 
 - Concept URI token: spectrometry
-
-
-[]{#massspectrometry}
-
-####  Mass spectrometry
-
-
-- Child of:
- [`particlespectrometry`](#particlespectrometry)
- [`spectrometry`](#spectrometry)
-
-- atomic mass spectrometric analysis involves: (1) atomization, (2)
-conversion of a substantial fraction of the atoms formed in step 1 to
-a stream of ions (usually singly charged positive ions), (3)
-separating the ions formed in step 2 on the basis of their mass-to-
-charge ratio (m/z), where m is the mass number of the ion and z is the
-number of fundamental charges that it bears, and (4) counting the
-number of ions of each type or measuring the ion current produced when
-the ions formed from the sample strike a suitable transducer.  (Skoog,
-Holler & Crouch, p. 253).  Molecular mass spectrometry is used to
-determine the structures of inorganic, organic, and biological
-molecules and the qualitative and quantitative composition of complex
-mixtures; The appearance of mass spectra for a given molecular species
-strongly depends on the method used for ion formation. That these
-methods fall into three major categories: gas-phase sources,
-desorption sources, and ambient desorption sources. (Skoog, Holler &
-Crouch, p. 502)
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-add parent methods, 
-
-- Concept URI token: massspectrometry
-
-
-[]{#acceleratormassspectrometry}
-
-#####  Accelerator mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- In this technique, the target element is first chemically separated
-from the sample before it is placed in a sample holder in the AMS
-instrument. The sample element is then bombarded by cesium ions to
-sputter the analyte element from the sample as negative ions. The
-analyte ions are then accelerated down a beam tube by a positive
-potential difference of several million volts, passed through an
-electron stripper to convert them to positive ions, and accelerated
-back down the beam tube toward common potential where ion velocities
-approach a few percent of the speed of light. Using a series of
-magnetic and electrostatic mass filters, the ion beam containing all
-isotopes of the analyte element is then separated into separate beams
-containing the (usually unstable) isotope of interest and other
-isotopes, and each of the isotopes is counted by a separate detector.
-(Skoog, Holler & Crouch, p. 271). Components: 1) sample preparation:
-chemical concentration of analyte; 2) ionization: ion beam; 3) mass
-analyzer: accelerator Mass spectrometer; 4) detector: not specified.
-
-- **Source:**
-Astromat
-
-- Concept URI token: acceleratormassspectrometry
-
-
-[]{#elementalanalyzermassspectrometry}
-
-#####  Elemental analyzer mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Mass spectrometry method that uses an elemental analyzer (typically
-a pyrolysis process to extract volatile components in the sample) to
-extract the aliquots (typically as gas) to be atomized and passed to
-the mass analyzer.
-
-- **Source:**
-Astromat
-
-- Concept URI token: elementalanalyzermassspectrometry
-
-
-[]{#elementalanalyzerisotoperatiomassspectrometry}
-
-######  Elemental Analyzer Isotope Ratio Mass Spectrometry
-
-
-- Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
-
-- Measurement and study of the relative abundances of the different
-isotopes of an element in a material using a mass spectrometer which
-is coupled with an elemental analyzer. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
-analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
-
-- **Alternate labels:**
-Elemental analysis - isotope ratio mass spectrometry
-
-
-- **Source:**
-Earth Chem, 
-O-REx techniques, 
-
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
-
-
-[]{#fouriertransformioncyclotronresonancemassspectrometry}
-
-#####  Fourier Transform Ion Cyclotron Resonance Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- analysis of polar/apolar solvent-soluble organics can be performed
-using extremely high resolution mass spectrometry to identify
-molecular formulas (but not structures) with the elements C, H, O, N,
-S, Mg, Cl  in a mixture.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: fouriertransformioncyclotronresonancemassspectrometry
-
-
-[]{#gaschromatographymassspectrometry}
-
-#####  Gas Chromatography Mass Spectrometry
-* `Gas Chromatography-Mass Spectrometry`
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Technique by which a mixture is separated into individual components
-by gas chromatography, followed by detection with a mass spectrometer.
-(Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06)
-
-- **Source:**
-NASA, 
-O-REx techniques, 
-
-- Concept URI token: gaschromatographymassspectrometry
-
-
-[]{#pyrolysisgaschromatographymassspectrometry}
-
-######  Pyrolysis Gas Chromatography Mass Spectrometry
-
-
-- Child of:
- [`gaschromatographymassspectrometry`](#gaschromatographymassspectrometry)
-
-- Mass spectrometry technique in which the sample is heated to the
-point of decomposition and the gas phase decomposition products are
-characterized by mass spectrometry. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06).
-
-- **Alternate labels:**
-Pyrolysis Mass Spectrometry
-
-
-- **Source:**
-IUPAC
-
-- Concept URI token: pyrolysisgaschromatographymassspectrometry
-
-
-[]{#gaschromatographycombustionisotopicratiomassspectrometry}
-
-#######  Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry
-
-
-- Child of:
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
- [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
-
-- Technique used to ascertain the relative ratio of light stable
-isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or
-oxygen (18O/160) in individual compounds separated from often complex
-mixtures of components. The sample solution is injected into the gas
-chromatography (GC) inlet where it is vaporized and swept onto a
-chromatographic column by the carrier gas (usually helium). The sample
-flows through the column and the compounds comprising the mixture of
-interest are separated by virtue of their relative interaction with
-the coating of the column (stationary phase) and the carrier gas
-(mobile phase). Carbon and nitrogen compounds eluting from the
-chromatographic column then pass through a combustion reactor (an
-alumina tube containing Cu, Ni and Pt wires maintained at 940 degree
-C) where they are oxidatively combusted. This is followed by a
-reduction reactor (an alumina tube containing three Cu wires
-maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen.
-For hydrogen and oxygen a high temperature thermal conversion reactor
-is required. Water is then removed in a water separator by passing the
-gas stream through a tube constructed from a water permeable nafion
-membrane. The sample is then introduced into the ion source of the
-mass analyzer by an open split interface, and particles with m/z
-ratios of interest are counted by detectors.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: gaschromatographycombustionisotopicratiomassspectrometry
-
-
-[]{#isotoperatiomassspectrometry}
-
-#####  Isotope ratio mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Isotope ratio mass spectrometry (IRMS) leverages magnetic sector
-mass spectrometry to enable high-precision measurement of the stable
-isotope content of a sample. Typical measurements target hydrogen,
-carbon, nitrogen, and oxygen analyses, although elements with masses
-up to and including sulfur can be measured. Solid, liquid, or gas
-phase samples are converted to simple gases then introduced to the
-IRMS. During analysis, an electron impact source ionizes sample-
-derived gas which is then accelerated down a flight tube, separated by
-mass, and quantified using a series of Faraday cups.
-(https://www.emsl.pnnl.gov/science/related-instrument/isotope-ratio-
-mass-spectrometry/1795)
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: isotoperatiomassspectrometry
-
-
-[]{#continuousflowisotoperatiomassspectrometry}
-
-######  Continuous flow isotope ratio mass spectrometry
-
-
-- Child of:
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
-
-- Isotope-Ratio mass spectrometry that extracts analytes from a sample
-using elemental analyzer with a contintuous flow of gas to be
-atomized, ionized and passed to the mass analyzer. Components: 1)
-elemental analyzer; 2) continuous flow input. 3) mass analyzer 4)
-detectors.  Analyzed aliquots are gas.
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: continuousflowisotoperatiomassspectrometry
-
-
-[]{#dualinletisotoperatiomassspectrometry}
-
-######  Dual-inlet isotope-ratio mass spectrometry
-
-
-- Child of:
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
-
-- Mass spectrometry technique. Components: 1) sample preparation,
-extract gas, purify; 2) ionization: not specified. Isotope-Ratio mass
-spectrometry that uses dual inputs to compare and calibrate sample
-measurement. In dual inlet IRMS, purified gas obtained from a sample
-is alternated rapidly with a standard gas (of known isotopic
-composition) by means of a system of valves, so that a number of
-comparison measurements are made of both gases.
-(https://en.wikipedia.org/wiki/Isotope-ratio_mass_spectrometry).
-Analyzed aliquots are gas.
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: dualinletisotoperatiomassspectrometry
-
-
-[]{#elementalanalyzerisotoperatiomassspectrometry}
-
-######  Elemental Analyzer Isotope Ratio Mass Spectrometry
-
-
-- Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
-
-- Measurement and study of the relative abundances of the different
-isotopes of an element in a material using a mass spectrometer which
-is coupled with an elemental analyzer. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
-analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
-
-- **Alternate labels:**
-Elemental analysis - isotope ratio mass spectrometry
-
-
-- **Source:**
-Earth Chem, 
-O-REx techniques, 
-
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
-
-
-[]{#gaschromatographycombustionisotopicratiomassspectrometry}
-
-######  Gas Chromatography-Combustion-Isotopic Ratio Mass Spectrometry
-
-
-- Child of:
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
- [`pyrolysisgaschromatographymassspectrometry`](#pyrolysisgaschromatographymassspectrometry)
-
-- Technique used to ascertain the relative ratio of light stable
-isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or
-oxygen (18O/160) in individual compounds separated from often complex
-mixtures of components. The sample solution is injected into the gas
-chromatography (GC) inlet where it is vaporized and swept onto a
-chromatographic column by the carrier gas (usually helium). The sample
-flows through the column and the compounds comprising the mixture of
-interest are separated by virtue of their relative interaction with
-the coating of the column (stationary phase) and the carrier gas
-(mobile phase). Carbon and nitrogen compounds eluting from the
-chromatographic column then pass through a combustion reactor (an
-alumina tube containing Cu, Ni and Pt wires maintained at 940 degree
-C) where they are oxidatively combusted. This is followed by a
-reduction reactor (an alumina tube containing three Cu wires
-maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen.
-For hydrogen and oxygen a high temperature thermal conversion reactor
-is required. Water is then removed in a water separator by passing the
-gas stream through a tube constructed from a water permeable nafion
-membrane. The sample is then introduced into the ion source of the
-mass analyzer by an open split interface, and particles with m/z
-ratios of interest are counted by detectors.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: gaschromatographycombustionisotopicratiomassspectrometry
-
-
-[]{#laserfluorinationanalysis}
-
-######  Laser fluorination analysis
-
-
-- Child of:
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
- [`wetchemistry`](#wetchemistry)
-
-- laser fluorination is a chemical process wherein oxygen is
-quantitatively extracted from oxygen-bearing compounds, without
-isotopic fractionation, and simultaneously converted to diatomic
-oxygen (O2) gas. This O2 gas may then be analyzed with isotope-ration
-mass spectrometer (IRMS) to determine its delta 17O and delta 18O
-ratios. (https://sil.uoregon.edu/laser-fluorination/)
-
-- **Alternate labels:**
-LASER FLUORINATION, 
-Laser Assisted Fluorination for Bulk Oxygen Isotope Ratio Measurements, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-
-- Concept URI token: laserfluorinationanalysis
-
-
-[]{#steppedheatingcarbonandnitrogenisotopicanalysis}
-
-######  Stepped Heating Carbon and Nitrogen Isotopic Analysis
-
-
-- Child of:
- [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
-
-- Stepped combustion technique on the FINESSE  highly sensitive mass
-spectrometric complex (a single gas extraction and purification system
-coupled with three mass spectrometers operating in static mode).
-Sample is crushed to powder and loaded in the mass spectrometer
-extraction system, then heated incrementally (step heating) from 200
-to 1400 degree C in the presence of oxygen derived from thermal
-decomposition, at 930 degree C, of CuO present in a separately heated
-unit with an inlet into the furnace, resulting in the liberation of
-individual components. Carbon (in the form of CO2) and molecular
-nitrogen are cryogenically separated from each other before analysis.
-Simultaneous analysis is possible by using multiple mass spectrometers
-connected to a common extraction line: two magnetic sector mass
-spectrometers for determination of carbon isotopes and nitrogen
-abundance, and a quadrupole mass spectrometer for nitrogen isotopes.
-(https://doi.org/10.1016/S0012-821X(02)00592-7)
-
-- **Alternate labels:**
-Stepped Heating Carbon and Nitrogen Isotopic Compositions
-
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: steppedheatingcarbonandnitrogenisotopicanalysis
-
-
-[]{#laserablationmassspectrometry}
-
-#####  Laser ablation mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Mass spectrometry technique in which a laser beam is focused on a
-spot on the sample surface to atomize sample material from that spot,
-for subsequent ionization and intlet to mass analyzer. Compononets 1)
-sample prepartion: polished surface 2) ionization: laser. Point
-analysis.
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: laserablationmassspectrometry
-
-
-[]{#laserablationinductivelycoupledplasmamassspectrometry}
-
-######  Laser ablation inductively coupled plasma mass spectrometry
-
-
-- Child of:
- [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
- [`laserablationmassspectrometry`](#laserablationmassspectrometry)
-
-- Mass spectrometry technique in which a laser beam is focused on a
-spot on the sample surface to atomize sample material from that spot,
-for subsequent introduction in to inductively coupled plasma to ionize
-for inlet into mass analyzer. Compononets 1) sample prepartion:
-polished surface 2) ionization: laser, inductively coupled plasma.
-Point analysis.
-
-- **Alternate labels:**
-EXCIMER LASER ABLATION INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-FEMTO LASER MULTI-COLLECTOR INDUCTIVELY COUPLED PLASMA MAGNETIC SECTOR MASS SPECTROMETRY, 
-LASER ABLATION DOUBLE-FOCUSING MAGNETIC SECTOR FIELD INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-LASER ABLATION MICROPROBE MULTI-COLLECTOR INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-LASER ABLATION PLASMA IONISATION MULTI-COLLECTOR MASS SPECTROMETRY, 
-LASER ABLATION QUADRUPOLE INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-PetDb, 
-
-- Concept URI token: laserablationinductivelycoupledplasmamassspectrometry
-
-
-[]{#liquidchromatographymassspectrometry}
-
-#####  Liquid Chromatography-Mass Spectrometry
-
-
-- Child of:
- [`liquidchromatographyanalysis`](#liquidchromatographyanalysis)
- [`massspectrometry`](#massspectrometry)
-
-- technique used to separate, detect, identify, and quantify
-components of a complex mixture. The solid sample is extracted in a
-solvent to pull out soluble target compounds; this creates both a
-solid residue and a liquid extract.  The extract can be subjected to
-additional procedures, for cleanup or exposure to acid vapor to break
-apart large molecules.  The final extracted solution is injected into
-the LC, which separates compounds in the solution and then passes them
-into the MS, where their mass spectra are measured. Each time point on
-the chromatogram is linked to a mass spectrum from which the most
-intense signals are fragmented at defined CID (colision induced
-dissociation) energy.  The combination of retention time (i.e., how
-long it takes for the compound to pass through the LC) and mass
-spectrum allows for identification of the compounds when compared to
-standards.  The LC-MS-MS converted data is in a unversal format of
-data called mzML and used internationally in LC-MS-MS analytical
-community of small molecules, peptides to proteins.  mzML is a
-universal Mass spectrometry format. xml namespace
-=http://psi.hupo.org/ms/mzml; schema location
-http://psidev.info/files/ms/mzML/xsd/mzML1.1.0.xsd
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: liquidchromatographymassspectrometry
-
-
-[]{#micromassmultiprepmassspectrometry}
-
-#####  Micromass multiprep mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Multiprep automated sample preparation device is used to digest
-powdered biogenic or mineral carbonate material with phosphoric acid
-or to equilibrate water samples with carbon dioxide or
-hydrogen.(Micromass is the instrument manufacturer). Output from
-multiprep goes to mass spectrometer. Example systems e.g.
-https://www.atmos.albany.edu/geology/webpages/sirmslab.html are doing
-stable isotope analyses. Components: 1) sample preparation: multiprep
-device
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: micromassmultiprepmassspectrometry
-
-
-[]{#noblegasmassspectrometry}
-
-#####  Noble Gas Mass Spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Noble gases (He, Ne, Ar, Kr, Xe ) are extracted from samples by
-heating in a vacuum with an IR laser or in a heated crucible. The
-extracted gases are purified using hot metals or alloys (and cold
-traps). Noble gas elements can be separated using cryogenic traps and
-sequentially analyzed by separation of the ions according to their
-mass/charge ratio and a collection block consisting of single or
-multiple Faraday cups and/or electron multipliers.  (OSIRIS-REx
-confluence;
-(https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf))
-
-- **Alternate labels:**
-Noble Gas and Nitrogen Static Mass Spectrometry, 
-Rare-gas mass spectrometry, 
-
-
-- **Source:**
-GeoRoc, 
-O-REx techniques, 
-
-- Concept URI token: noblegasmassspectrometry
-
-
-[]{#neutronirradiationnoblegasmassspectrometry}
-
-######  Neutron irradiation noble gas mass spectrometry
-
-
-- Child of:
- [`noblegasmassspectrometry`](#noblegasmassspectrometry)
-
-- Techique that exposes sample to neutron-irradiation to produce noble
-gas isotopes from halogen isotopes within the sample. NI-NGMS requires
-only small sample masses (~1 mg). The method provides information on
-the abundances and ratios of the halogen (Cl, Br and I) and the noble
-gas (Ar, Kr and Xe) elements. (OSIRIS-REx confluence). Technique to
-measure the abundances of Cl, K, Br, I, Ca, Ba and U, in which samples
-are exposed to a high neutron fluence to produce nucleogenic noble gas
-isotopes in abundances proportional to those of the parent elements.
-(https://goldschmidtabstracts.info/2014/2145.pdf).  The noble gas
-isotopes are liberated from the sample by heating and analyzed with a
-mass spectrometer
-(https://www.sciencedirect.com/science/article/pii/S0009254116302339)
-
-- **Alternate labels:**
-NOBLE-GAS METHOD
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-
-- Concept URI token: neutronirradiationnoblegasmassspectrometry
-
-
-[]{#resonanceionizationtimeofflightnoblegasmassspectrometry}
-
-######  Resonance ionization time of flight noble gas mass spectrometry
-
-
-- Child of:
- [`noblegasmassspectrometry`](#noblegasmassspectrometry)
- [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
-
-- Noble gas mass spectrometry technique that atomizes and ionizes
-samples using laser resonance to generate a plasma, and a time-of-
-flight mass analyzer.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: resonanceionizationtimeofflightnoblegasmassspectrometry
-
-
-[]{#orbitrapmassspectrometry}
-
-#####  Orbitrap mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Orbitrap is an ion trap mass analyzer consisting of an outer barrel-
-like electrode and a coaxial inner spindle-like electrode that traps
-ions in an orbital motion around the spindle. The image current from
-the trapped ions is detected and converted to a mass spectrum using
-the Fourier transform of the frequency signal.
-(https://en.wikipedia.org/wiki/Orbitrap)
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: orbitrapmassspectrometry
-
-
-[]{#desorptionelectrosprayionizationorbitrapmassspectrometry}
-
-######  Desorption Electrospray Ionization-Orbitrap Mass spectrometry
-
-
-- Child of:
- [`orbitrapmassspectrometry`](#orbitrapmassspectrometry)
-
-- technique in which sample ionization is achieved by a process in
-which a spray of charged droplets is directed towards the sample. When
-the spray impacts the sample, a thin layer of solvent is formed into
-which the analytes may dissolve. As other primary droplets arrive at
-the sample surface, they splash secondary microdroplets containing the
-dissolved analytes from the solvent film. This mechanism causes
-analyte-containing droplets to be generated in the open air, and then
-delivered to the mass spectrometer through a heated extended
-capillary. (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3205348).
-After the desorption process, ionization occurs via mechanisms that
-are similar to those of electrospray ionization, in which a high
-voltage is applied to a liquid to create an aerosol
-(https://en.wikipedia.org/wiki/Electrospray_ionization).  Mass
-analysis is done with an Orbitrap mass analyzer.
-(https://en.wikipedia.org/wiki/Orbitrap)
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: desorptionelectrosprayionizationorbitrapmassspectrometry
-
-
-[]{#plasmasourcemassspectrometry}
-
-#####  Plasma source mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Mass spectrometry technique. Components: 1) sample preparation: not
-specified; 2) ionization: plasma; 3) mass analyzer: not specified; 4)
-detector: not specified. Plasma can be generated in various ways:
-inductive coupling, spark, lasers, microwaves.
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: plasmasourcemassspectrometry
-
-
-[]{#inductivelycoupledplasmamassspectrometry}
-
-######  Inductively coupled plasma mass spectrometry
-
-
-- Child of:
- [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
-
-- Mass spectrometry technique in which the sample is introduced into
-an inductively coupled plasma to atomize and ionize the sample for
-inlet to mass analyzer. Components: 1) sample processing- dissolution,
-isotope dilution; 2) ionization: Inductively coupled plasma
-
-- **Alternate labels:**
-FUSION-INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY, 
-ISOTOPE-DILUTION INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-ISOTOPE-DILUTION MULTI-COLLECTOR INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY, 
-ISOTOPE-DILUTION PLASMA IONISATION MULTI-COLLECTOR MASS SPECTROMETRY, 
-MULTI-COLLECTOR INDUCTIVELY COUPLED PLASMA MAGNETIC SECTOR MASS SPECTROMETRY, 
-PLASMA IONISATION MULTI-COLLECTOR MASS SPECTROMETRY, 
-SECTOR FIELD INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-PetDb, 
-
-- Concept URI token: inductivelycoupledplasmamassspectrometry
-
-
-[]{#highresolutioninductivelycoupledplasmamassspectrometry}
-
-#######  High resolution inductively coupled plasma mass spectrometry
-
-
-- Child of:
- [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
-
-- Mass spectrometry technique. Components 1) sample preparation: not
-specified; 2) ionization: Inductively-coupled plasma. 3) mass analyzer
-in which the the aperture width of the entrance slit situated between
-the ion optics and the mass analyzer, and an exit slit located between
-the mass analyzer and the detector assembly can be controlled. the
-narrower the slits are positioned, the higher the resolution (and
-lower the sensitivity); the wider the slits, the higher the
-sensitivity (and lower the resolution). (R. ArevaloJr., in Treatise on
-Geochemistry (Second Edition), 2014)
-
-- **Alternate labels:**
-HIGH-RESOLUTION MULTI-COLLECTOR INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-ISOTOPE-DILUTION HIGH-RESOLUTION INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-PetDb, 
-
-- Concept URI token: highresolutioninductivelycoupledplasmamassspectrometry
-
-
-[]{#laserablationinductivelycoupledplasmamassspectrometry}
-
-#######  Laser ablation inductively coupled plasma mass spectrometry
-
-
-- Child of:
- [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
- [`laserablationmassspectrometry`](#laserablationmassspectrometry)
-
-- Mass spectrometry technique in which a laser beam is focused on a
-spot on the sample surface to atomize sample material from that spot,
-for subsequent introduction in to inductively coupled plasma to ionize
-for inlet into mass analyzer. Compononets 1) sample prepartion:
-polished surface 2) ionization: laser, inductively coupled plasma.
-Point analysis.
-
-- **Alternate labels:**
-EXCIMER LASER ABLATION INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-FEMTO LASER MULTI-COLLECTOR INDUCTIVELY COUPLED PLASMA MAGNETIC SECTOR MASS SPECTROMETRY, 
-LASER ABLATION DOUBLE-FOCUSING MAGNETIC SECTOR FIELD INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-LASER ABLATION MICROPROBE MULTI-COLLECTOR INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-LASER ABLATION PLASMA IONISATION MULTI-COLLECTOR MASS SPECTROMETRY, 
-LASER ABLATION QUADRUPOLE INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-PetDb, 
-
-- Concept URI token: laserablationinductivelycoupledplasmamassspectrometry
-
-
-[]{#liquidinletinductivelycoupledplasmamassspectrometry}
-
-#######  Liquid inlet inductively coupled plasma mass spectrometry
-
-
-- Child of:
- [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
-
-- Mass spectrometry technique in which sample is dissolved in a liquid
-reagent and nulized or vaporized by one of several techniques to
-introduce into an inductively coupled plasma to atomize and ionize for
-intlet to mass analyzer. Components: 1) sample preparation:
-dissolution, nebulize to introduce into plasma (this is normal method
-to get sample into ICP...) 2) ionization: inductively coupled plasma
-
-- **Alternate labels:**
-SOLUTION-NEBULIZED INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-STANDARD ADDITION SOLUTION INDUCTIVELY-COUPLED PLASMA MASS-SPECTROMETRY, 
-TOTAL DIGESTION-INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY, 
-ULTRASONIC NEBULIZATION INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: liquidinletinductivelycoupledplasmamassspectrometry
-
-
-[]{#multicollectorinductivelycoupledplasmamassspectrometry}
-
-#######  Multi-Collector Inductively Coupled Plasma Mass Spectrometry
-
-
-- Child of:
- [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
-
-- Quadrupole and Multi-Collector (MC) Inductively Coupled Plasma Mass
-Spectrometry (ICP-MS) are grouped into one 'analtyical technique' in
-SEI-6
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: multicollectorinductivelycoupledplasmamassspectrometry
-
-
-[]{#quadrupoleinductivelycoupledplasmmassspectrometry}
-
-#######  Quadrupole Inductively Coupled Plasma Mass Spectrometry
-
-
-- Child of:
- [`inductivelycoupledplasmamassspectrometry`](#inductivelycoupledplasmamassspectrometry)
-
-- Mass spectrometry using a quadrupole mass analyzer. Sample
-preparation, atomization/ionization and detectors not specified
-
-- **Alternate labels:**
-QUADRUPOLE INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY
-
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: quadrupoleinductivelycoupledplasmmassspectrometry
-
-
-[]{#laserionizationmassspectrometry}
-
-######  Laser ionization mass spectrometry
-
-
-- Child of:
- [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
-
-- Technique that uses laser to induce plasma ionization. The laser
-plasma is sustained between a pneumatic nebulizer and the inlet
-capillary of the mass analyzer. To maintain stable conditions in the
-droplet-rich spray environment, the plasma was directly fed by the
-fundamental output (lambda = 1064 nm) of a laser. Ionization by the
-laser-driven plasma resulted in signals of intact analyte ions of
-several chemical categories. Use for mass-spectrometric determinations
-of polar and nonpolar analytes in solution.
-(https://doi.org/10.1021/acs.analchem.9b00329)
-
-- **Alternate labels:**
-ISOTOPE-DILUTION RESONANCE-IONIZATION MASS SPECTROMETRY, 
-LASER PLASMA IONIZATION MASS SPECTROMETRY, 
-RESONANCE-IONIZATION MASS SPECTROMETRY, 
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: laserionizationmassspectrometry
-
-
-[]{#resonanceionizationtimeofflightnoblegasmassspectrometry}
-
-######  Resonance ionization time of flight noble gas mass spectrometry
-
-
-- Child of:
- [`noblegasmassspectrometry`](#noblegasmassspectrometry)
- [`plasmasourcemassspectrometry`](#plasmasourcemassspectrometry)
-
-- Noble gas mass spectrometry technique that atomizes and ionizes
-samples using laser resonance to generate a plasma, and a time-of-
-flight mass analyzer.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: resonanceionizationtimeofflightnoblegasmassspectrometry
-
-
-[]{#secondaryionizationmassspectrometry}
-
-#####  Secondary ionization mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- secondary-ion mass analyzers are based on bombarding the surface of
-the sample with a beam of 5- to 20-keV ions. The ion beam is formed in
-an ion gun in which the gaseous atoms or molecules are ionized by an
-electron-ionization source. The positive ions are then accelerated by
-applying a high dc voltage. The impact of these primary ions causes
-the surface layer of atoms of the sample to be stripped (sputtered)
-off, largely as neutral atoms. A small fraction, however, forms as
-positive (or negative) secondary ions that are drawn into a
-spectrometer for mass analysis. In secondary-ion mass analyzers, which
-serve for general surface analysis and for depth profiling, the
-primary ion-beam diameter ranges from 0.3 to 5 mm. Double-focusing,
-single-focusing, time-of-flight, and quadrupole spectrometers are used
-for mass determination. Typical transducers for SIMS are electron
-multipliers, Faraday cups, and imaging detectors. (Skoog, Holler &
-Crouch, p. 549) Measure method in which a focused beam of primary ions
-produces secondary ions by sputtering from a solid surface. The
-secondary ions are analyzed by mass spectrometry. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06)
-
-- **Alternate labels:**
-MULTI-COLLECTOR SECONDARY IONIZATION MASS SPECTROMETRY, 
-NANO SECONDARY IONIZATION MASS SPECTROMETRY, 
-SECONDARY ION MASS SPECTROMETRY, 
-Secondary Ion Mass Spectrometry, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-NASA, 
-O-REx techniques, 
-PetDb, 
-
-- Concept URI token: secondaryionizationmassspectrometry
-
-
-[]{#secondaryneutralmassspectrometry}
-
-######  Secondary neutral mass spectrometry
-
-
-- Child of:
- [`secondaryionizationmassspectrometry`](#secondaryionizationmassspectrometry)
-
-- Mass spectrometer that separates the processes of emission and
-ionisation of sputtered particles are strictly separated. The
-sputtered neutral particles, atoms and atomic clusters are detected by
-a mass spectrometer after post sputtering ionisation, which can be
-performed by an electron beam, electron gas or laser beam. Of these,
-the most efficient way to ionise the emitted neutral particles is
-laser beam ionisation.
-(https://www.spectroscopyeurope.com/system/files/pdf/SNMS_21_4.pdf)
-Laser ionization mass nanoscope or LIMAS, a nano-beam time-of-flight
-secondary neutral mass spectrometry system. The primary ion beam
-column is a Ga liquid metal ion source, with aberration correction
-optics can generate a primary ion beam was down to 40 nm in diameter
-under a current of 100 pA with an energy of 20 keV. The sputtered
-neutral particles are ionized by a femtosecond laser. The ions are
-introduced into a multi-turn mass analyzer. This instrument would be
-effective for ultrahigh sensitive analysis of nanosized particles such
-as return samples from asteroids, comets, and planets. (Ebata,
-Ishihara, Uchino, Itose;  http://dx.doi.org/10.1002/sia.4857Laser
-ionization mass nanoscope or LIMAS, a nano-beam time-of-flight
-secondary neutral mass spectrometry system. The primary ion beam
-column is a Ga liquid metal ion source, with aberration correction
-optics can generate a primary ion beam was down to 40 nm in diameter
-under a current of 100 pA with an energy of 20 keV. The sputtered
-neutral particles are ionized by a femtosecond laser. The ions are
-introduced into a multi-turn mass analyzer. This instrument would be
-effective for ultrahigh sensitive analysis of nanosized particles such
-as return samples from asteroids, comets, and planets. (Ebata,
-Ishihara, Uchino, Itose;  http://dx.doi.org/10.1002/sia.4857
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: secondaryneutralmassspectrometry
-
-
-[]{#microprobetwosteplasermassspectrometry}
-
-#######  Microprobe Two-Step Laser Mass Spectrometry
-
-
-- Child of:
- [`secondaryneutralmassspectrometry`](#secondaryneutralmassspectrometry)
-
-- Microprobe two-step laser mass spectrometry (microL2MS) is a
-technique that allows the detection and characterization of organic
-molecules.  Output for point analyses consist of time-of-flight
-spectra and where appropriate low resolution optical location images.
-Each spectrum represent the time varying signal recorded by the
-microchannel plate (MCP) detector assembly in microL2MS instrument
-following laser photoionization of neutral species liberated from the
-surface a sample by a preceeding laser desorption pulse.  microL2MS
-instrument output data products will consist of a variable number of
-spectra and image files depending on the nature of the sample and
-number of analysis locations.
-
-- **Source:**
-O-REx techniques
-
-- Concept URI token: microprobetwosteplasermassspectrometry
-
-
-[]{#solidsourcemassspectrometry}
-
-#####  Solid source mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Technique for analysis of elements or isotopes in a solid material.
-Doesn't specify anything about technique
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: solidsourcemassspectrometry
-
-
-[]{#sparksourcemassspectrometry}
-
-#####  Spark source mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- (SSMS) a general technique for multielement and isotope trace
-analyses. In SSMS, the atomic constituents of a sample, housed in a
-vacuum chamber, are converted by a high-voltage (~30 kV), radio-
-frequency spark to gaseous ions for mass analysis.  The gaseous
-positive ions formed in the spark plasma are drawn into the analyzer
-by a dc voltage. Because a spark source produces ions with a wide
-range of kinetic energies, double-focusing mass spectrometers are
-required for mass analysis of the ions. When electron multipliers are
-used with double-focusing instruments, the spectrum is scanned by
-varying the magnetic field of the magnetic analyzer. The use of this
-technique leveled off and then declined with the appearance of ICPMS
-and some of the other mass spectrometric methods. SSMS is still
-applied to samples that are not easily dissolved and analyzed by
-plasma methods.  (Skoog, Holler, & Crouch). Mass spectrometry
-technique. Components: 1) sample preparation: not specified 2)
-ionization: spark source. NOTE: spark source systems commonly use
-double focusing mass analyzers.
-
-- **Alternate labels:**
-ISOTOPE-DILUTION MULTI-ION COUNTING SPARK-SOURCE MASS SPECTROMETRY, 
-ISOTOPE-DILUTION SPARK-SOURCE MASS SPECTROMETRY, 
-MULTI-ION COUNTING SPARK-SOURCE MASS SPECTROMETRY, 
-SPARK SOURCE MASS SPECTROMETRY - ISOTOPE DILUTION, 
-SPARK-SOURCE MASS SPECTROMETRY, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: sparksourcemassspectrometry
-
-
-[]{#thermalionizationmassspectrometry}
-
-#####  Thermal ionization mass spectrometry
-
-
-- Child of:
- [`massspectrometry`](#massspectrometry)
-
-- Mass spectrometry technique in which sample undergoes and extraction
-process to concetrate analyte of interest in a solution that is then
-placed on a filament, loaded into the mass spectrometer instrument;
-filaments are heated electrically, causing evaporation and ionization
-of the analytes, which are then introduced to the mass analyzer.
-Components: 1) sample preparation: not specified; 2) ionization:
-thermal ionization
-
-- **Alternate labels:**
-CHEMICAL ABRASION THERMAL-IONIZATION MASS SPECTROMETRY, 
-HIGH-ABUNDANCE SENSITIVITY THERMAL IONIZATION MASS SPECTROMETRY, 
-ISOTOPE DILUTION CHEMICAL ABRASION THERMAL-IONIZATION MASS SPECTROMETRY, 
-ISOTOPE-DILUTION SOLID-SOURCE MASS SPECTROMETRY, 
-ISOTOPE-DILUTION THERMAL-IONIZATION MASS SPECTROMETRY, 
-MULTI-COLLECTOR THERMAL-IONIZATION MASS SPECTROMETRY, 
-THERMAL IONIZATION MASS SPECTROMETRY ISOTOPE DILUTION, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-O-REx techniques, 
-PetDb, 
-
-- Concept URI token: thermalionizationmassspectrometry
-
-
-[]{#negativeionthermalionizationmassspectrometry}
-
-######  Negative ion thermal ionization mass spectrometry
-
-
-- Child of:
- [`thermalionizationmassspectrometry`](#thermalionizationmassspectrometry)
-
-- Mass spectrometer techinque. Components: 1) sample processing-
-dissolution, isotope dilution; 2) ionization: thermal ionization;
-analyte: negative ions.
-
-- **Alternate labels:**
-ISOTOPE-DILUTION NEGATIVE ION THERMAL-IONIZATION MASS SPECTROMETRY
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: negativeionthermalionizationmassspectrometry
-
-
-[]{#positiveionthermalionizationmassspectrometry}
-
-######  Positive ion thermal ionization mass spectrometry
-
-
-- Child of:
- [`thermalionizationmassspectrometry`](#thermalionizationmassspectrometry)
-
-- - x
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: positiveionthermalionizationmassspectrometry
 
 
 []{#nuclearmagneticresonancespectrometry}
@@ -5177,24 +4044,26 @@ O-REx techniques,
 
 - Child of:
  [`particlespectrometry`](#particlespectrometry)
- [`spectrometry`](#spectrometry)
 
-- atomic mass spectrometric analysis involves: (1) atomization, (2)
-conversion of a substantial fraction of the atoms formed in step 1 to
-a stream of ions (usually singly charged positive ions), (3)
-separating the ions formed in step 2 on the basis of their mass-to-
-charge ratio (m/z), where m is the mass number of the ion and z is the
-number of fundamental charges that it bears, and (4) counting the
-number of ions of each type or measuring the ion current produced when
-the ions formed from the sample strike a suitable transducer.  (Skoog,
-Holler & Crouch, p. 253).  Molecular mass spectrometry is used to
-determine the structures of inorganic, organic, and biological
-molecules and the qualitative and quantitative composition of complex
-mixtures; The appearance of mass spectra for a given molecular species
-strongly depends on the method used for ion formation. That these
-methods fall into three major categories: gas-phase sources,
-desorption sources, and ambient desorption sources. (Skoog, Holler &
-Crouch, p. 502)
+- Study of matter through the formation of gas-phase ions that are
+characterized using mass spectrometers by their mass, charge,
+structure, and/or physico-chemical properties. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06) {@en} atomic mass
+spectrometric analysis involves: (1) atomization, (2) conversion of a
+substantial fraction of the atoms formed in step 1 to a stream of ions
+(usually singly charged positive ions), (3) separating the ions formed
+in step 2 on the basis of their mass-to-charge ratio (m/z), where m is
+the mass number of the ion and z is the number of fundamental charges
+that it bears, and (4) counting the number of ions of each type or
+measuring the ion current produced when the ions formed from the
+sample strike a suitable transducer.  (Skoog, Holler & Crouch, p.
+253).  Molecular mass spectrometry is used to determine the structures
+of inorganic, organic, and biological molecules and the qualitative
+and quantitative composition of complex mixtures; The appearance of
+mass spectra for a given molecular species strongly depends on the
+method used for ion formation. That these methods fall into three
+major categories: gas-phase sources, desorption sources, and ambient
+desorption sources. (Skoog, Holler & Crouch, p. 502)
 
 - **Source:**
 Astromat, 
@@ -5419,6 +4288,11 @@ using elemental analyzer with a contintuous flow of gas to be
 atomized, ionized and passed to the mass analyzer. Components: 1)
 elemental analyzer; 2) continuous flow input. 3) mass analyzer 4)
 detectors.  Analyzed aliquots are gas.
+
+- **Alternate labels:**
+ELEMENTAL ANALYSER CONTINUOUS FLOW ISOTOPIC RATIO MASS SPECTROMETER, 
+ELEMENTAL ANALYZER CONTINUOUS-FLOW ISOTOPE RATIO MASS SPECTROMETRY, 
+
 
 - **Source:**
 Astromat, 
@@ -8007,8 +6881,9 @@ Astromat
 
 - Wet chemistry is a form of analytical chemistry that uses classical
 methods such as observation to analyze materials. It is called wet
-chemistry since most analyzing is done in the liquid phase.
-(https://en.wikipedia.org/wiki/Wet_chemistry)
+chemistry since most analyzing is done in the liquid phase, but
+vocabulary includes some 'bench' techniques that do not involve
+liquids. (https://en.wikipedia.org/wiki/Wet_chemistry)
 
 - **Alternate labels:**
 Bench Chemistry, 
@@ -8544,9 +7419,11 @@ Namespace:
                 - [Medium Pressure Liquid Chromatography Separation](#mediumpressureliquidchromatographyseparation)
         - [Electrokinetic separation](#electromigrationtechnique)
         - [Solid-Phase Extraction ](#solidphaseextraction)
-    - [Ionization](#ionization)
+    - [Ion source](#ionsource)
         - [Electron ionization](#electronionization)
         - [Electrospray ionization](#electrosprayionization)
+        - [Inductively Coupled Plasma](#inductivelycoupledplasma)
+        - [Laser Ablation Source](#laserablationsource)
     - [Sample preparation](#samplepreparation)
         - [Bioanalytical sample preparation](#bioanalyticalsamplepreparation)
             - [DNA Fragmentation](#dnafragmentation)
@@ -8770,22 +7647,22 @@ IUPAC
 - Concept URI token: solidphaseextraction
 
 
-[]{#ionization}
+[]{#ionsource}
 
-###  Ionization
+###  Ion source
 
 
 - Child of:
  [`workflowcomponent`](#workflowcomponent)
 
-- Workflow components to ionize an atomized sample for subsequent
+- Workflow components to generate ions from a sample for subsequent
 analysis, typically for inlet to a mass analyzer in a mass
 spectrometer.
 
 - **Source:**
 add broad workflow class SMR
 
-- Concept URI token: ionization
+- Concept URI token: ionsource
 
 
 []{#electronionization}
@@ -8794,7 +7671,7 @@ add broad workflow class SMR
 
 
 - Child of:
- [`ionization`](#ionization)
+ [`ionsource`](#ionsource)
 
 - Ionization in a gas-phase reaction described by the following
 equation:  M + e- >>  M+ + 2e- .  where M is the neutral molecule
@@ -8819,7 +7696,7 @@ O-REx products
 
 
 - Child of:
- [`ionization`](#ionization)
+ [`ionsource`](#ionsource)
 
 - ionization occurs via mechanism in which a high voltage is applied
 to a liquid to create an aerosol
@@ -8829,6 +7706,46 @@ to a liquid to create an aerosol
 O-REx products
 
 - Concept URI token: electrosprayionization
+
+
+[]{#inductivelycoupledplasma}
+
+####  Inductively Coupled Plasma
+
+
+- Child of:
+ [`ionsource`](#ionsource)
+
+- A plasma source in which the energy is supplied by electric currents
+which are produced by electromagnetic induction, that is, by time-
+varying magnetic fields. Plasma electron temperatures can range
+between ~6,000 K and ~10,000 K (~6 eV – ~100 eV). Used as an ion
+source for mass spectrometery and emission spectrometry.
+(https://en.wikipedia.org/wiki/Inductively_coupled_plasma)
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: inductivelycoupledplasma
+
+
+[]{#laserablationsource}
+
+####  Laser Ablation Source
+
+
+- Child of:
+ [`ionsource`](#ionsource)
+
+- a pulsed UV laser is focused on the sample and creates a plume of
+ablated material which can be swept into a plasma or other ionization
+component for subsequent analysis. (https://en.wikipedia.org/wiki/Indu
+ctively_coupled_plasma_mass_spectrometry#Sample_introduction)
+
+- **Source:**
+reorganize mass spectrometer classes [SMR]
+
+- Concept URI token: laserablationsource
 
 
 []{#samplepreparation}
