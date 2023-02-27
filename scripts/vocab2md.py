@@ -1,5 +1,25 @@
 """Script to generate markdown from a SKOS vocabulary.
 The generated markdown is intended for rendering with Quarto.
+
+Original python by Dave Vieglais for iSamples project
+from https://github.com/isamplesorg/isamplesorg.github.io
+Supported by NSF funding: Collaborative Research: Frameworks: 
+Internet of Samples: Toward an Interdisciplinary Cyberinfrastructure 
+for Material Samples, Award Number:2004815; 
+
+S.M. Richard 2023-02-27 Updated to show some other SKOS properties 
+and change formating
+
+This code reads a skos vocabulary file, serialized as turtle, 
+from a URL and writes a markdown file to the stdout. 
+The markdown uses some special syntax that is interpreted by 
+Quarto for better html rendering
+
+the conversion process fails if there are any non-base ASCII characters 
+in the source files. 
+
+license: Apache License 2.0
+
 """
 
 import sys
