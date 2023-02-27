@@ -1356,7 +1356,7 @@ meth:electroninducedxrayspectrometry
   dcterms:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Electron induced X-ray spectrometry"@en ;
-  skos:broader meth:particleinducedxrayspectrometry ;
+  skos:broader meth:xrayspectrometry ;
   skos:definition "Technique to induce x-ray emission using an electron beam as the excitation, and measuring the energy spectra of emitted X-rays. Various X-ray emission peaks are associated with electron energy level quatum intervals for particular elements."@en ;
   skos:inScheme analt:method ;
   skos:notation "xEIXS" ;
@@ -1476,8 +1476,11 @@ meth:energydispersivexrayfluorescencespectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Energy dispersive X-ray fluorescence spectrometry"@en ;
   skos:altLabel "ENERGY-DISPERSIVE X-RAY FLUORESCENCE"@en ;
+  skos:altLabel "energy-dispersive X-ray analysis (EDXA)"@en ;
+  skos:altLabel "energy-dispersive X-ray fluorescence analysis (EDX)"@en ;
+  skos:altLabel "energy-dispersive X-ray spectroscopy (EDS, EDXS)"@en ;
   skos:broader meth:xrayfluorescencespectrometry ;
-  skos:definition "(EDXRF) is an X-ray Fluorescence techniques used for elemental analysis applications. In EDXRF spectrometers, all of the elements in the sample are excited simultaneously, and an energy dispersive detector in combination with a multi-channel analyzer is used to simultaneously collect the fluorescence radiation emitted from the sample and then separate the different energies of the characteristic radiation from each of the different sample elements. Resolution of EDXRF systems is dependent upon the detector, and typically ranges from 150 eV -- 600 eV. The principal advantages of EDXRF systems are their simplicity, fast operation, lack of moving parts, and high source efficiency. (https://www.xos.com/EDXRF)"@en ;
+  skos:definition "(EDXRF) is an X-ray Fluorescence techniques used for elemental analysis applications. In EDXRF spectrometers, all of the elements in the sample are excited simultaneously, and an energy dispersive detector in combination with a multi-channel analyzer is used to simultaneously collect the fluorescence radiation emitted from the sample and then separate the different energies of the characteristic radiation from each of the different sample elements. Resolution of EDXRF systems is dependent upon the detector, and typically ranges from 150 eV -- 600 eV. The principal advantages of EDXRF systems are their simplicity, fast operation, lack of moving parts, and high source efficiency. (https://www.xos.com/EDXRF; Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302)"@en ;
   skos:inScheme analt:method ;
   skos:notation "XRFEDS" ;
   skos:prefLabel "Energy dispersive X-ray fluorescence spectrometry"@en ;
@@ -1528,6 +1531,16 @@ meth:epithermalneutronactivationanalysis
   skos:inScheme analt:method ;
   skos:notation "ENAA" ;
   skos:prefLabel "Epithermal neutron activation analysis"@en ;
+.
+meth:extendedxrayabsorptionfinestructure
+  rdf:type skos:Concept ;
+  dcterms:source "Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302" ;
+  rdfs:label "Extended X-ray absorption fine structure"@en ;
+  skos:broader meth:xrayabsorptionspectrometry ;
+  skos:definition "X-ray absorption analysis in which the fine structure of the adsorption spectrum in the range 30 eV to 1 keV above the adsorption edge is used to measure the number and species of neighbouring atoms, their distance from the selected atom, and the thermal or structural disorder of their positions. In the EXAFS region, interference between the wave functions of the core and neighbouring atoms gives a periodic pattern that contains information characterizing the arrangement of atoms, including the number and type of neighbouring atoms and their distance to the absorbing atom. The method uses synchrotron radiation. (Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302)"@en ;
+  skos:inScheme analt:method ;
+  skos:notation "EXAFS" ;
+  skos:prefLabel "Extended X-ray absorption fine structure"@en ;
 .
 meth:fireassayemissionspectrometry
   rdf:type skos:Concept ;
@@ -2263,7 +2276,7 @@ meth:microscopy
 .
 meth:microxrayfluorescencespectroscopy
   rdf:type skos:Concept ;
-  dcterms:source "Own" ;
+  dcterms:source "Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Micro-X-Ray Fluorescence Spectroscopy"@en ;
   skos:altLabel "Micro X-ray Fluorescence" ;
@@ -2434,7 +2447,7 @@ meth:nuclearmagneticresonancespectrometry
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Nuclear Magnetic Resonance Spectrometry"@en ;
   skos:altLabel "Nuclear Magnetic Resonance Spectroscopy"@en ;
-  skos:altLabel "Nuclear Magnetic Resonance" ;
+  skos:altLabel "Nuclear Magnetic Resonance"@en ;
   skos:broader meth:spectrometry ;
   skos:definition "Measurement principle of spectroscopy to measure the precession of magnetic moments placed in a magnetic induction based on absorption of electromagnetic radiation of a specific frequency by an atomic nucleus. Nuclei having a suitable magnetic moment include <sup>1</sup>H, <sup>13</sup>C, <sup>15</sup>N, <sup>19</sup>F, <sup>31</sup>P. The technique is used as a method of determining structure of organic molecules, or as a mechanism for quantification. (Source: IUPAC; https://iupac.org/wp-content/uploads/2019/10/PAC-REC-19-02-03.R2_PR191002MC.pdf). A spectroscopic technique that observes the signal produced by nuclear magnetic resonance of the atomic nuclei in a sample when exposed to excitation by radio waves. The signal is related to local magnetic fields around atomic nuclei. The intramolecular magnetic field around an atom in a molecule changes the resonance frequency, thus giving access to details of the electronic structure of a molecule and its individual functional groups. The electromagnetic waves emitted by the nuclei of the sample as a result of perturbation by a weak oscillating magnetic field are detected with sensitive radio receivers. Upon excitation of the sample with a radio frequency (60--1000 MHz) pulse, a nuclear magnetic resonance response - a free induction decay (FID) - is obtained. It is a very weak signal, and requires sensitive radio receivers to pick up. A Fourier transform is carried out to extract the frequency-domain spectrum from the raw time-domain FID. As the fields are unique or highly characteristic to individual compounds NMR spectroscopy is the definitive method to identify monomolecular organic compounds. https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_spectroscopy"@en ;
   skos:inScheme analt:method ;
@@ -2447,10 +2460,12 @@ meth:nuclearmicroprobeanalysis
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Nuclear microprobe analysis"@en ;
   skos:altLabel "Scanning Proton Microprobe"@en ;
+  skos:altLabel "scanning proton microscopy (SPM)"@en ;
   skos:broader meth:particlebeamexcitation ;
   skos:definition "Technique in which a focused beam of Me V light-mass ions is scanned across a sample surface. The most commonly used Me V ion is the proton, which is why the Nuclear Microprobe is also sometimes called the Scanning Proton Microprobe. However, other MeV light ions can generate the same analytical signals as protons, and are preferred for some of the analytical techniques described. The focused beam is scanned over the sample surface, and the strength of the relevant analytical signal is measured at each position in the scanned area to generate an image of the sample. There are many different types of interaction that can occur when an MeV ion is incident on a sample, and each one forms the basis of an analytical technique: Particle-Induced X-Ray Emission (PIXE), Rutherford Backscattering Spectrometry (RBS), Nuclear Reaction Analysis (NRA) -- nuclear reaction products such as alpha particles, protons, neutrons, or gamma rays are emitted. The energy of these charged reaction products is measured using a surface barrier detector . (https://www.annualreviews.org/doi/pdf/10.1146/annurev.ns.42.120192.000245)"@en ;
   skos:inScheme analt:method ;
   skos:notation "NMP" ;
+  skos:notation "SPM" ;
   skos:prefLabel "Nuclear microprobe analysis"@en ;
 .
 meth:nuclearparticletrackcounting
@@ -2565,19 +2580,19 @@ meth:particleinducedactivationanalysis
   skos:altLabel "PARTICULE INDUCED GAMMA-RAY EMISSION ANALYSIS"@en ;
   skos:altLabel "Particle induced activation analysis"@en ;
   skos:broader meth:analyticalmethod ;
-  skos:definition "basic idea of activation analysis is that irradiation by appropriately chosen penetrating radiation induces nuclear reactions in the nuclei of the analyte,  producing radioactive atoms. Analysis of the radiation emitted by these atoms when they decay allows determiniation of the composition of the sample."@en ;
+  skos:definition "Measurement of elemental or isotopic contents in a specified amount of a material by irradiation with appropriately chosen penetrating radiation, either elementary particles or electromagnetic radiation, to induce nuclear reactions in the nuclei of the analyte, producing radioactive atoms. Analysis of the radiation emitted by these atoms when they decay allows determiniation of the composition of the sample. (Chai et al, IUPAC recommendations, 2021, https://doi.org/10.1515/pac-2019-0302)"@en ;
   skos:inScheme analt:method ;
   skos:notation "PIGE" ;
   skos:prefLabel "Activation analysis"@en ;
 .
 meth:particleinducedxrayspectrometry
   rdf:type skos:Concept ;
-  dcterms:source "SMR add general categories" ;
+  dcterms:source "Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Particle induced X-ray spectrometry"@en ;
   skos:broader meth:particlebeamexcitation ;
   skos:broader meth:xrayspectrometry ;
-  skos:definition "An X-ray spectrometry technique in which emisssion of X-rays is induces by bombarding a spot on the sample with ions or sub-atomic particles (electrons, neutrons, protons)."@en ;
+  skos:definition "An X-ray spectrometry technique in which emisssion of X-rays is induces by bombarding a spot on the sample with ions or sub-atomic particles other than electrons, e.g. neutrons, protons, muons (Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302)."@en ;
   skos:inScheme analt:method ;
   skos:notation "PIXE" ;
   skos:prefLabel "Particle induced X-ray spectrometry"@en ;
@@ -2838,7 +2853,6 @@ meth:quantitativeanalysiselectroninducedxrayspectrometry
   skos:altLabel "FIELD EMISSION ELECTRON MICROPROBE ANALYSIS"@en ;
   skos:altLabel "FIELD EMISSION ELECTRON MICROPROBE"@en ;
   skos:broader meth:electroninducedxrayspectrometry ;
-  skos:broader meth:quantitativeanalysisparticleinducedxrayspectrometry ;
   skos:definition "Within a given sample, once the x-ray intensities of each element of interest are \"counted\" in a detector at a specific beam current, the count rates are compared to those of standards containing known values of the elements of interest. Counting is typically done using wavelength-dispersive spectrometry. In turn, the x-ray intensities must be corrected for matrix effects associated with atomic number (Z), absorption (A) and fluorescence (F). This correction procedure is performed within a computer program that takes the raw counting rates of each element, compares these to standards, computes the ZAF correction (or similar type of correction) and displays the results as a function of the weight % of the oxides or elements. (https://serc.carleton.edu/research_education/geochemsheets/wds.html)"@en ;
   skos:inScheme analt:method ;
   skos:notation "EMPA" ;
@@ -2887,9 +2901,10 @@ meth:radiochemicalneutronactivationanalysis
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Radiochemical neutron activation analysis"@en ;
+  skos:altLabel "destructive activation analysis"@en ;
   skos:broader meth:neutronactivationanalysis ;
   skos:broader meth:wetchemistry ;
-  skos:definition "A method of NAA in which chemical separations are applied after the irradiation to separate activities of interest from interfering activities. (https://indico.cern.ch/event/716552/sessions/310934/attachments/1848163/3033363/MonicaSisti_LRT2019.pdf slide 6, https://www.nist.gov/laboratories/tools-instruments/radiochemical-neutron-activation-analysis-rnaa). Components: 1) sample irradiation 2) chemical processing 3) gamma ray spectrometry"@en ;
+  skos:definition "A method of NAA in which chemical separations are applied after the irradiation to separate activities of interest from interfering activities. (https://indico.cern.ch/event/716552/sessions/310934/attachments/1848163/3033363/MonicaSisti_LRT2019.pdf slide 6, https://www.nist.gov/laboratories/tools-instruments/radiochemical-neutron-activation-analysis-rnaa; Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302). Components: 1) sample irradiation 2) chemical processing 3) gamma ray spectrometry"@en ;
   skos:inScheme analt:method ;
   skos:notation "RNAA" ;
   skos:prefLabel "Radiochemical neutron activation analysis"@en ;
@@ -3176,6 +3191,7 @@ meth:synchrotonxrayfluorescencespectrometry
   rdfs:label "Synchroton X-ray fluorescence spectrometry"@en ;
   skos:altLabel "SYNCHROTON X-RAY FLUORESCENCE ANALYSIS"@en ;
   skos:altLabel "Synchrotron-based X-ray Fluorescence Spectroscopy"@en ;
+  skos:altLabel "synchrotron radiation induced X-ray fluorescence analysis"@en ;
   skos:broader meth:xrayfluorescencespectrometry ;
   skos:definition "Analysis of X-ray fluorescence spectra generated by excitation using a synchrotron radiation source instead of X-ray tube as excitation source. Synchrotron radiation source has the characteristics of high intensity and high collimation. ( https://link.springer.com/chapter/10.1007/978-981-16-5328-5_6 ).  synchrotron radiation is light emitted when a beam of electrons traveling close to light speed is bent away from a straight trajectory. (https://www.radiasoft.net/blog/synchrotron-radiation-101-light-sources). It is characterized by high brightness--many orders of magnitude brighter than conventional sources--and [is highly polarized], tunable, collimated (consisting of almost parallel rays) and concentrated over a small area\" (https://www.iop.org/publications/iop/2011/page_47511.html#gref)"@en ;
   skos:inScheme analt:method ;
@@ -3282,6 +3298,7 @@ meth:totalreflectionxrayfluorescencespectrometry
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Total reflection X-ray fluorescence spectrometry"@en ;
+  skos:altLabel "total reflection X- ray fluorescence analysis"@en ;
   skos:broader meth:xrayfluorescencespectrometry ;
   skos:definition "a surface elemental analysis technique often used for the ultra-trace analysis of particles, residues, and impurities on smooth surfaces. TXRF is essentially an energy dispersive XRF technique arranged in a special geometry. An incident beam impinges upon a polished flat sample carrier at angles below the critical angle of external total reflection for X-rays, resulting in the reflection of most of the excitation beam photons at this surface. Since Total Reflection angle depends on the energy of the photon, one can use this effect to eliminate the high energy photons from the excitation spectrum and minimize their contribution to the background in the measured spectra, thus making possible to achieve better detection limits. Due to this configuration, the measured spectral background in TXRF is less than in conventional XRF. This reduction results in increased signal to noise ratio. (https://www-pub.iaea.org/MTCD/publications/PDF/TCS-51/html/pdf/Section%201.pdf)"@en ;
   skos:inScheme analt:method ;
@@ -3383,6 +3400,7 @@ meth:voltammetry
 meth:wavelengthdispersiveelectroninducedxrayspectrometry
   rdf:type skos:Concept ;
   rdfs:label "Wavelength Dispersive electron induced X-Ray Spectrometry"@en ;
+  skos:altLabel "wavelength-dispersive X-ray fluorescence analysis"@en ;
   skos:broader meth:electroninducedxrayspectrometry ;
   skos:definition "X-rays are generated in the sample by interaction with the excitation electron beam, and are selected using an analytical crystal(s) with specific lattice spacing(s). When X-rays encounter the analytical crystal at a specific angle theta, only those X-rays that satisfy Bragg's Law are reflected and a single wavelength is passed on to the detector. The wavelength of the X-rays reflected into the detector may be varied by changing the position of the analyzing crystal relative to the sample i.e. the X-ray source-crystal distance is a linear function of the wavelength. Consequently, X-rays from only one element at a time can be measured on the spectrometer and the position of a given analytical crystal must be changed in order to adjust to a wavelength characteristic of another element. There is commonly more than a single analytical crystal in a WD spectrometer and, in the case of most EPMA instruments, there are typically multiple spectrometers with a suite of analytical crystals so that the spectrometers can reach all of the elemental wavelengths of interest and it will optimize performance in different wavelength ranges. X-rays of specific wavelengths from the analytical crystal are passed on to the X-ray detector. (https://serc.carleton.edu/research_education/geochemsheets/wds.html)"@en ;
   skos:inScheme analt:method ;
@@ -3435,9 +3453,11 @@ meth:xraycomputedtomography
   dcterms:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "X-ray computed tomography"@en ;
+  skos:altLabel "X-ray computed micro-tomography (XCMT)"@en ;
   skos:broader meth:xrayimaging ;
   skos:definition "2D Radiograph collected as a stack of planar surfaces by focusing  x-rays at progressively greater depth throught the sample. The stack is then used for the reconstruction process to create a 3D volume."@en ;
   skos:inScheme analt:method ;
+  skos:notation "XCMT" ;
   skos:notation "XCT" ;
   skos:prefLabel "X-ray computed tomography"@en ;
 .
