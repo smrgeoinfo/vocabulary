@@ -46,6 +46,7 @@ inst:acceleratormassspectrometer
   rdfs:label "Accelerator Mass Spectrometer "@en ;
   skos:broader inst:massspectrometer ;
   skos:definition "A Mass spectrometer that works by accelerating negative ions through a large (mega-volt) potential, followed by charge exchange and acceleration back to ground. During charge exchange, interfering species can be effectively removed. In addition, the high energy of the beam allows the use of energy-loss detectors, that can distinguish between species with the same mass/charge ratio. Together, these processes allow the analysis of extreme isotope ratios above 10e12. (https://en.wikipedia.org/wiki/Isotope-ratio_mass_spectrometry#Accelerator_mass_spectrometry)"@en ;
+  skos:inScheme analt:instrument ;
   skos:prefLabel "Accelerator Mass Spectrometer"@en ;
 .
 inst:amperometricsensor
@@ -84,6 +85,7 @@ inst:atomicforcemicroprobe
   skos:altLabel "Scanning force microscope"@en ;
   skos:broader inst:atomicprobeinstrument ;
   skos:definition "An instrument that measures the interaction between a microscopic tip and the sample. The tip is mounted on a cantiliver, and interaction with the sample is transduced into changes of the motion of cantilever. Several different aspects of the cantilever motion can be used to quantify the interaction between the tip and sample, most commonly the value of the deflection. A detector measures the deflection (displacement with respect to the equilibrium position) of the cantilever and converts it into an electrical signal. The intensity of this signal will be proportional to the displacement of the cantilever. Various methods of detection can be used, e.g. interferometry, optical levers, the piezoelectric method, and STM-based detectors. Other interactions between tip and sample are changes in the amplitude of an imposed oscillation of the cantilever, or the shift in resonance frequency of the cantilever.  When using the AFM to image a sample, the tip is brought into contact with the sample, and the sample is raster scanned along an x-y grid. (https://en.wikipedia.org/wiki/Atomic_force_microscopy)"@en ;
+  skos:inScheme analt:instrument ;
   skos:prefLabel "Atomic Force Microprobe"@en ;
 .
 inst:atomicprobeinstrument
@@ -100,6 +102,7 @@ inst:atomprobe
   rdfs:label "Atom probe"@en ;
   skos:broader inst:analyticalinstrument ;
   skos:definition "Instrument for atom probe tomography investigation of needle-like micro samples. Through successive evaporation of material, layers of atoms are removed from a specimen, allowing for probing not only of the surface, but also through the material itself. The instrument allows the three-dimensional reconstruction of up to billions of atoms from a sharp tip (corresponding to specimen volumes of 10,000-10,000,000 nm3). (https://en.wikipedia.org/wiki/Atom_probe). A laser or voltage pulse acts on the tip of the specimen to trigger field evaporation of ions which are accelerated to impact a detector. The detector allows to simultaneously measure: 1) the Time Of Flight of the ions: measuring the time between the laser or voltage pulse and the arrival on the PSD allows to determine the m/q ratio (mass over charge ratio); and 2) the (X,Y) position of the ion impact on the detector: measuring the X-Y position and the order of arrival of the ions on the PSD allows to reconstruct the original position of the atoms on the tip. By repeating this sequence, the atoms are progressively removed from the tip, and a 3D image of the material can be reconstructed at the atomic scale. (https://www.cameca.com/products/apt/technique)"@en ;
+  skos:inScheme analt:instrument ;
   skos:prefLabel "Atom probe"@en ;
 .
 inst:binocular
@@ -279,6 +282,7 @@ inst:focusedionbeamscanningelectronmicroscope
   rdfs:label "Focused ion beam scanning electron microscope"@en ;
   skos:broader inst:scanningelectronmicroscope ;
   skos:definition "a scientific instrument that resembles a scanning electron microscope (SEM). However, while the SEM uses a focused beam of electrons to image the sample in the chamber, a FIB setup uses a focused beam of ions instead. Most widespread instruments are using liquid metal ion sources (LMIS), especially gallium ion sources. Ion sources based on elemental gold and iridium are also available.  FIB instruments have two imaging modes, using secondary electrons and secondary ions, both produced by the primary ion beam. Also used for ablation of material from sample surface, e.g. to create TEM samples. (https://en.wikipedia.org/wiki/Focused_ion_beam)"@en ;
+  skos:inScheme analt:instrument ;
   skos:notation "FIB" ;
   skos:prefLabel "Focused ion beam scanning electron microscope"@en ;
 .
@@ -476,6 +480,7 @@ inst:orbitrapmassspectrometer
   rdfs:label "Orbitrap Mass Spectrometer "@en ;
   skos:broader inst:massspectrometer ;
   skos:definition "Mass spectrometer with an ion trap mass analyzer consisting of an outer barrel-like electrode and a coaxial inner spindle-like electrode that traps ions in an orbital motion around the spindle. The image current from the trapped ions is detected and converted to a mass spectrum using the Fourier transform of the frequency signal. (https://en.wikipedia.org/wiki/Orbitrap)"@en ;
+  skos:inScheme analt:instrument ;
   skos:prefLabel "Orbitrap Mass Spectrometer"@en ;
 .
 inst:photometer
@@ -494,6 +499,7 @@ inst:photonspectrometer
   rdfs:label "Photon spectrometer"@en ;
   skos:broader inst:spectrometer ;
   skos:definition "instrument that measures the energy distribution of photons; includes x-ray, ultraviolet, visible, infrared spectrometers." ;
+  skos:inScheme analt:instrument ;
   skos:prefLabel "Photon spectrometer"@en ;
 .
 inst:phsensitiveelectrode
@@ -614,6 +620,7 @@ inst:sectormassspectrometer
   rdfs:label "Sector Mass Spectrometer "@en ;
   skos:broader inst:massspectrometer ;
   skos:definition "class of mass spectrometer that uses a static electric (E) or magnetic (B) sector or some combination of the two (separately in space) as a mass analyzer. (https://en.wikipedia.org/wiki/Sector_mass_spectrometer)"@en ;
+  skos:inScheme analt:instrument ;
   skos:prefLabel "Sector Mass Spectrometer"@en ;
 .
 inst:singlecrystalxraydiffractometer
@@ -691,6 +698,7 @@ inst:timeofflightmassspectrometer
   dcterms:source "reorganize mass spectrometer classes [SMR]" ;
   rdfs:label "Time of flight Mass Spectrometer "@en ;
   skos:broader inst:massspectrometer ;
+  skos:inScheme analt:instrument ;
   skos:prefLabel "Time of Flight Mass Spectrometer "@en ;
 .
 inst:transmissionelectronmicroscope
@@ -1125,6 +1133,7 @@ meth:confocalxrayfluorescencespectrometry
   rdfs:label "Confocal X-Ray Fluorescence Spectrometry"@en ;
   skos:broader meth:xrayfluorescencespectrometry ;
   skos:definition "The confocal geometry uses two polycapillary focusing optics for enhanced applications of XRF elemental analysis. An excitation optic focuses a small X-ray beam onto the specimen. A detection optic collects fluorescent X-rays from the sample. Specifically, elemental concentrations are measured within the small probe volume ('confocal volume') defined by the intersection of the output focal spot of the excitation optic and the input focal spot of the collection optic.  The polycapillary focusing optics act as spatial filters to eliminate background radiation from the sample and increase detection sensitivity for sample elements of interest. Additionally, confocal XRF can be used for elemental depth profiling. Confocal XRF acts as a material probe by exciting and detecting emitted characteristic X-ray photons from within the confocal analysis volume as this volume is through the sample. In this way elemental concentrations can be measured on the object's surface and throughout the object's interior. (https://www.xos.com/Confocal-XRF)"@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Confocal X-Ray Fluorescence Spectrometry"@en ;
 .
 meth:continuousflowisotoperatiomassspectrometry
@@ -1210,6 +1219,7 @@ meth:differentialthermalanalyis
   skos:broader meth:thermalanalysis ;
   skos:definition "Differential thermal analysis (DTA) is a technique in which the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference. This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample. DTA is similar to differential scanning calorimetry."@en ;
   skos:editorialNote "GeoRoc groups 'THERMOGRAVIMETRIC AND DIFFERENTIAL ANALYZER' as one technique, split into two techniques in this vocabulary."@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Differential Thermal Analysis"@en ;
 .
 meth:directcurrentplasmaemissionspectrometry
@@ -1338,6 +1348,7 @@ meth:electronenergylossspectrometry
   skos:broader meth:electronspectrometry ;
   skos:broader meth:particlebeamexcitation ;
   skos:definition "a material is exposed to a beam of electrons with a known, narrow range of kinetic energies. Some of the electrons will undergo inelastic scattering, which means that they lose energy and have their paths slightly and randomly deflected. The amount of energy loss can be measured via an electron spectrometer and interpreted in terms of what caused the energy loss. With some care, and looking at a wide range of energy losses, one can determine the types of atoms, and the numbers of atoms of each type, being struck by the beam. The scattering angle (that is, the amount that the electron's path is deflected) can also be measured, giving information about the dispersion relation of whatever material excitation caused the inelastic scattering. Most common approach today is transmission EELS, in which the incident electrons pass entirely through the material sample. Usually this occurs in a transmission electron microscope (TEM), although some dedicated systems exist which enable extreme resolution in terms of energy and momentum transfer at the expense of spatial resolution. (https://en.wikipedia.org/wiki/Electron_energy_loss_spectroscopy, https://eels.info/about/techniques/eels-0)"@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Electron energy loss spectrometry"@en ;
 .
 meth:electroninducedxrayspectrometry
@@ -1478,6 +1489,7 @@ meth:energydispersivexrayspectraraster
   skos:altLabel "Energy-dispersive X-ray spectral data (EDS) - 2D raster"@en ;
   skos:broader meth:xraymap ;
   skos:definition "production of composition-related images by selecting particular x-ray wavelength intervals from a set of EDS spectra acquired in a raster on a sample surface. If one wavelenth interval is rpresented, get gray scale image. Can combine data from 3 intervals to generate more informative RGB images."@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Energy dispersive X-ray spectral data 2D raster"@en ;
 .
 meth:energydispersivexrayspectrometry
@@ -1680,11 +1692,10 @@ meth:gaschromatographyanalysis
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Gas Chromatography Analysis"@en ;
   skos:broader meth:chromatographyanalysis ;
-  skos:definition "A chromatography analysis in which the mobile phase is a gas"@en ;
+  skos:definition "A chromatography analysis in which the mobile phase is a gas. Subclasses are differentiated on the sample preparation workflow (e.g. pyrolysis) and the type of detector used to analyze the eluates. This vocabulary does not define an exhaustive set of subclasses."@en ;
   skos:inScheme analt:method ;
   skos:notation "GC" ;
   skos:prefLabel "Gas Chromatography Analysis"@en ;
-  skos:scopeNote "Subclasses are differentiated on the sample preparation workflow (e.g. pyrolysis) and the type of detector used to analyze the eluates. This vocabulary does not define an exhaustive set of subclasses."@en ;
 .
 meth:gaschromatographycombustionisotopicratiomassspectrometry
   rdf:type skos:Concept ;
@@ -1751,6 +1762,7 @@ meth:geochronology
   rdfs:label "Geochronology techniques"@en ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Analytical techniques that have results interpreted to indicate the time interval since some event occurred in the history of a sample. Typically used to estimate crystallization ages, cooling ages (thermochronology), or exposure ages."@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Geochronology techiques"@en ;
 .
 meth:geochronology40ar39ar
@@ -1844,6 +1856,7 @@ meth:imagingtechniques
   rdfs:label "Imaging techniques"@en ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Methods that produce 2-D or 3-D rasters that contain information about a sample." ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Imaging techniques"@en ;
 .
 meth:inductionheatinganalysis
@@ -2961,6 +2974,7 @@ meth:secondaryelectronimaging
   skos:altLabel "Secondary electron microscopy"@en ;
   skos:broader meth:electronmicroscopyimaging ;
   skos:definition "Techniques that involve bombarding a sample with an accelerated electron or ion beam to produce secondary electrons. An image is formed by scanning the beam in a raster across the sample surface and measuring the intensity (count?) of secondary electrons emitted at each sample point.  Secondary electrons are a result of inelastic interactions between the excitation beam and atoms in the sample; they originate from the surface region of the sample. Secondary electron imaging can provide detailed surface information. (https://www.thermofisher.com/blog/materials/sem-signal-types-electrons-and-the-information-they-provide/)"@en ;
+  skos:inScheme analt:method ;
   skos:notation "SE" ;
   skos:prefLabel "Secondary electron imaging"@en ;
 .
@@ -3371,6 +3385,7 @@ meth:wavelengthdispersiveelectroninducedxrayspectrometry
   rdfs:label "Wavelength Dispersive electron induced X-Ray Spectrometry"@en ;
   skos:broader meth:electroninducedxrayspectrometry ;
   skos:definition "X-rays are generated in the sample by interaction with the excitation electron beam, and are selected using an analytical crystal(s) with specific lattice spacing(s). When X-rays encounter the analytical crystal at a specific angle theta, only those X-rays that satisfy Bragg's Law are reflected and a single wavelength is passed on to the detector. The wavelength of the X-rays reflected into the detector may be varied by changing the position of the analyzing crystal relative to the sample i.e. the X-ray source-crystal distance is a linear function of the wavelength. Consequently, X-rays from only one element at a time can be measured on the spectrometer and the position of a given analytical crystal must be changed in order to adjust to a wavelength characteristic of another element. There is commonly more than a single analytical crystal in a WD spectrometer and, in the case of most EPMA instruments, there are typically multiple spectrometers with a suite of analytical crystals so that the spectrometers can reach all of the elemental wavelengths of interest and it will optimize performance in different wavelength ranges. X-rays of specific wavelengths from the analytical crystal are passed on to the X-ray detector. (https://serc.carleton.edu/research_education/geochemsheets/wds.html)"@en ;
+  skos:inScheme analt:method ;
   skos:notation "WDS" ;
   skos:prefLabel "Wavelength Dispersive electron induced X-Ray Spectrometry"@en ;
 .
@@ -3478,6 +3493,7 @@ meth:xraymap
   rdfs:label "X-Ray composition map"@en ;
   skos:broader meth:xrayimaging ;
   skos:definition "image produced using composition data derived from x-ray spectra analysis at a raster of points on a sample surface.  Might be based on EDS or WDS data"@en ;
+  skos:inScheme analt:method ;
   skos:notation "XMAP" ;
   skos:prefLabel "X-Ray composition map"@en ;
 .
@@ -3500,6 +3516,7 @@ meth:xrayphotoelectronspectroscopycompositionmap
   skos:altLabel "X-ray Photoelectron Spectroscopy (XPS) Elemental/Chemical Maps"@en ;
   skos:broader meth:imagingtechniques ;
   skos:definition "Technique based on irradiation of the sample surface with monochromatic X-radiation (Skoog, Holler, Crouch p540) resulting in emission of electrons. The emitted electron energy spectra are obtained and chemical states are inferred from the measurement of the kinetic energy and the number of the ejected electrons. A typical XPS spectrum is a plot of the number of electrons detected at a specific binding energy. Each element produces a set of characteristic XPS peaks. Image produced from a raster of X-ray Photoelectron Spectrometer data, with image channels mapped to 1 or three characteristic energy peaks."@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "X-ray Photoelectron Spectrometry Composition Map"@en ;
 .
 meth:xraypowderdiffraction
@@ -3658,7 +3675,7 @@ wrkf:inductivelycoupledplasma
   dcterms:source "reorganize mass spectrometer classes [SMR]" ;
   rdfs:label "Inductively Coupled Plasma "@en ;
   skos:broader wrkf:ionsource ;
-  skos:definition "A plasma source in which the energy is supplied by electric currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields. Plasma electron temperatures can range between ~6,000 K and ~10,000 K (~6 eV - ~100 eV). Used as an ion source for mass spectrometery and emission spectrometry. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)"@en ;
+  skos:definition "A plasma source in which the energy is supplied by electric currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields. Plasma electron temperatures can range between ~6,000 K and ~10,000 K (~6 eV – ~100 eV). Used as an ion source for mass spectrometery and emission spectrometry. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Inductively Coupled Plasma"@en ;
 .
@@ -3751,6 +3768,7 @@ wrkf:secondaryionsource
   rdfs:label "Secondary Ion Source "@en ;
   skos:broader wrkf:ionsource ;
   skos:definition "focusing a primary ion beam on a sample in order to generate a series of secondary positive ions that can be focused and measured based on their mass/charge ratios. (https://en.wikipedia.org/wiki/Isotope-ratio_mass_spectrometry#Secondary-ion_mass_spectrometry)"@en ;
+  skos:inScheme analt:workflow ;
   skos:prefLabel "Secondary Ion Source"@en ;
 .
 wrkf:solidphaseextraction
@@ -3770,6 +3788,7 @@ wrkf:thermalionization
   rdfs:label "Thermal ionization"@en ;
   skos:broader wrkf:ionsource ;
   skos:definition "Ionization by placing a the analyte of interest on a filament that is then heated with an electric current to desorb and ionized the analyte."@en ;
+  skos:inScheme analt:workflow ;
   skos:prefLabel "Thermal ionization"@en ;
 .
 wrkf:workflowcomponent
@@ -3959,6 +3978,7 @@ skos:inScheme
   rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
   rdfs:label "is in scheme"@en ;
   rdfs:range skos:ConceptScheme ;
+  rdfs:subPropertyOf skos:member ;
   skos:definition "Relates a resource (for example a concept) to a concept scheme in which it is included."@en ;
   skos:scopeNote "A concept may be a member of more than one concept scheme."@en ;
 .
