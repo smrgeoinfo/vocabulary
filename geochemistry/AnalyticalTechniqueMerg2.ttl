@@ -869,7 +869,7 @@ meth:analyticalmethod
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Analytical method"@en ;
   skos:altLabel "Analytical technique"@en ;
-  skos:definition "Any method."@en ;
+  skos:definition "Procedures that operate on material samples to produce observation results with information about the chemical composition and structure of the sample."@en ;
   skos:inScheme analt:method ;
   skos:notation "xGT" ;
   skos:prefLabel "Analytical method"@en ;
@@ -1178,8 +1178,8 @@ meth:deuteronactivationanalysis
   dcterms:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Deuteron activation analysis"@en ;
-  skos:broader meth:neutronactivationanalysis ;
-  skos:definition "irradiate sample with deuterons, measure gamma ray spectrum (https://doi.org/10.1007/BF02520983)"@en ;
+  skos:broader meth:particleinducedactivationanalysis ;
+  skos:definition "irradiate sample with deuterons, measure gamma ray spectrum (https://doi.org/10.1007/BF02520983) {@en} Deuterons are nuclei of deuterium atoms, consisting of a proton and a neutron."@en ;
   skos:inScheme analt:method ;
   skos:notation "DDA" ;
   skos:prefLabel "Deuteron activation analysis"@en ;
@@ -2377,7 +2377,7 @@ meth:neutronactivationanalysis
   rdfs:label "Neutron activation analysis"@en ;
   skos:altLabel "INSTRUMENTAL NEUTRON ACTIVATION ANALYSIS"@en ;
   skos:broader meth:particleinducedactivationanalysis ;
-  skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Quantification of the elemental nuclei of interest is usually performed by gamma ray spectroscopy (high resolution germanium detector), or by beta counting (low background proportional or liquid scintillation counting) when pure beta emitters are measured.  Quantification of elements is accomplished by comparison with standards typically processed in the same manner. (https://www.nist.gov/laboratories/tools-instruments/radiochemical-neutron-activation-analysis-rnaa).  Components: 1) sample irradiation 2) gamma ray spectrometry"@en ;
+  skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Quantification of the elemental nuclei of interest is usually performed by gamma ray spectroscopy (high resolution germanium detector), or by beta counting (low background proportional or liquid scintillation counting) when pure beta emitters are measured.  Quantification of elements is accomplished by comparison with standards typically processed in the same manner. (https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa, https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html).  Components: 1) sample irradiation 2) gamma ray spectrometry"@en ;
   skos:inScheme analt:method ;
   skos:notation "NAA" ;
   skos:prefLabel "Neutron activation analysis"@en ;
@@ -2802,7 +2802,7 @@ meth:promptgammaneutronactivationanalysis
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Prompt Gamma Neutron Activation Analysis"@en ;
   skos:broader meth:neutronactivationanalysis ;
-  skos:definition "NAA technique based on measurement of the gamma rays during irradiation. (Skoog, Holler & Crouch, p. 842)"@en ;
+  skos:definition "NAA technique based on measurement of the gamma rays emitted during irradiation of the sample. (Skoog, Holler & Crouch, p. 842)"@en ;
   skos:inScheme analt:method ;
   skos:notation "PGNAA" ;
   skos:prefLabel "Prompt Gamma Neutron Activation Analysis"@en ;
