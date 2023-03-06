@@ -2008,6 +2008,14 @@ meth:infraredtransmissionspectrometry
   skos:notation "TIRS" ;
   skos:prefLabel "Infrared transmission spectrometry"@en ;
 .
+meth:instrumentalneutronactivationanalysis
+  rdf:type skos:Concept ;
+  dcterms:source "GeoRoc" ;
+  rdfs:label "Instrumental neutron activation analysis "@en ;
+  skos:broader meth:neutronactivationanalysis ;
+  skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Quantification of the elemental nuclei of interest is usually performed by gamma ray spectroscopy.  Quantification of elements is accomplished by comparison with standards typically processed in the same manner. (https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa, https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html).  Components: 1) sample irradiation 2) gamma ray spectrometry"@en ;
+  skos:prefLabel "Instrumental neutron activation analysis"@en ;
+.
 meth:ionchromatography
   rdf:type skos:Concept ;
   dcterms:source "GeoRoc" ;
@@ -2375,7 +2383,6 @@ meth:neutronactivationanalysis
   dcterms:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Neutron activation analysis"@en ;
-  skos:altLabel "INSTRUMENTAL NEUTRON ACTIVATION ANALYSIS"@en ;
   skos:broader meth:particleinducedactivationanalysis ;
   skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Quantification of the elemental nuclei of interest is usually performed by gamma ray spectroscopy (high resolution germanium detector), or by beta counting (low background proportional or liquid scintillation counting) when pure beta emitters are measured.  Quantification of elements is accomplished by comparison with standards typically processed in the same manner. (https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa, https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html).  Components: 1) sample irradiation 2) gamma ray spectrometry"@en ;
   skos:inScheme analt:method ;
