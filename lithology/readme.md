@@ -18,3 +18,7 @@ skos:broader and skos:narrower relations in the RockName namespace denote a subs
 
 ## [GSO_Geologic_Rock_Material.ttl](https://github.com/smrgeoinfo/vocabulary/blob/main/lithology/GSO-Geologic_Rock_Material.ttl)
 This is an owl ontology module in the GSO ontology, with hand-sample scale material types represented as owl:Class.  Hierarchy is represented with owl:subClassOf relations. This classification is inherited from the CGI Simple_Lithology vocabulary (some info at 10.5281/zenodo.7412250.), with the skos:Concept converted to owl:Class, and skos:broader converted to owl:subClassOf. The top Concept is gsog:Rock_Material, which is imported from another ontology module in the GSO ontology (DOI: 10.5281/zenodo.4750707).   Some classes have been added based on requirements discovered working with the Loop3D and other projects. There are ~300 classes. Sources for definitions are cited with dcterms:source. [Hosted on Github](https://github.com/Loop3D/GKM/blob/master/Loop3D-GSO/Modules/GSO-Geologic_Rock_Material.ttl)
+
+
+## see also 
+[GeoSciML Simple lithology vocabulary](http://geosciml.org/resource/vocabulary/cgi/2016/MSExcel/SimpleLithology_2016.xml) This is an XML spreadsheet representation that can be opened in Excel. 
