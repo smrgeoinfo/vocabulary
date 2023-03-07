@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-03-07T07:31:03.746659+00:00"
+This file generated at: "2023-03-07T14:14:30.453344+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -1746,6 +1746,7 @@ Namespace:
         - [Deuteron activation analysis](#deuteronactivationanalysis)
         - [Neutron activation analysis](#neutronactivationanalysis)
             - [Epithermal neutron activation analysis](#epithermalneutronactivationanalysis)
+            - [Instrumental neutron activation analysis](#instrumentalneutronactivationanalysis)
             - [Prompt Gamma Neutron Activation Analysis](#promptgammaneutronactivationanalysis)
             - [Radiochemical neutron activation analysis](#radiochemicalneutronactivationanalysis)
         - [Photon activation analysis](#photonactivationanalysis)
@@ -4242,6 +4243,31 @@ GeoRoc,
 PetDb, 
 
 - Concept URI token: epithermalneutronactivationanalysis
+
+
+[]{#instrumentalneutronactivationanalysis}
+
+#####  Instrumental neutron activation analysis
+
+
+- Child of:
+ [`neutronactivationanalysis`](#neutronactivationanalysis)
+
+- method based on the measurement of the radioactivity or radiation
+produced in samples when they are irradiated with neutrons  (Skoog,
+Holler & Crouch, p. 842). Quantification of the elemental nuclei of
+interest is usually performed by gamma ray spectroscopy.
+Quantification of elements is accomplished by comparison with
+standards typically processed in the same manner.
+(https://www.nist.gov/laboratories/tools-instruments/instrumental-
+neutron-activation-analysis-inaa, https://serc.carleton.edu/research_e
+ducation/geochemsheets/techniques/INAA.html).  Components: 1) sample
+irradiation 2) gamma ray spectrometry
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: instrumentalneutronactivationanalysis
 
 
 []{#promptgammaneutronactivationanalysis}
