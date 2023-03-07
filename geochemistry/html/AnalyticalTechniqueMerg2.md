@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-02-27T15:04:25.917288+00:00"
+This file generated at: "2023-03-07T07:31:03.746659+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -1737,19 +1737,14 @@ Namespace:
         - [Focused ion beam-scanning microscopy](#focusedionbeamscanningmicroscopy)
         - [Nuclear microprobe analysis](#nuclearmicroprobeanalysis)
         - [Particle induced X-ray spectrometry](#particleinducedxrayspectrometry)
-            - [Electron induced X-ray spectrometry](#electroninducedxrayspectrometry)
-                - [Energy Dispersive electron-induced X-ray spectrometry](#energydispersiveelectroninducedxrayspectrometry)
-                - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
-                - [Wavelength Dispersive electron induced X-Ray Spectrometry](#wavelengthdispersiveelectroninducedxrayspectrometry)
             - [Quantitative analysis particle-induced X-ray spectrometry](#quantitativeanalysisparticleinducedxrayspectrometry)
-                - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
     - [Particle counting](#particlecounting)
         - [Alpha particle counting](#alphaparticlecounting)
         - [Gamma Counting](#gammacounting)
         - [Neutron counting](#neutroncounting)
     - [Activation analysis](#particleinducedactivationanalysis)
+        - [Deuteron activation analysis](#deuteronactivationanalysis)
         - [Neutron activation analysis](#neutronactivationanalysis)
-            - [Deuteron activation analysis](#deuteronactivationanalysis)
             - [Epithermal neutron activation analysis](#epithermalneutronactivationanalysis)
             - [Prompt Gamma Neutron Activation Analysis](#promptgammaneutronactivationanalysis)
             - [Radiochemical neutron activation analysis](#radiochemicalneutronactivationanalysis)
@@ -1865,16 +1860,16 @@ Namespace:
                 - [Infrared transmission spectrometry](#infraredtransmissionspectrometry)
             - [X-ray spectrometry](#xrayspectrometry)
                 - [Broad beam X-ray spectrometry](#broadbeamxrayspectrometry)
+                - [Electron induced X-ray spectrometry](#electroninducedxrayspectrometry)
+                    - [Energy Dispersive electron-induced X-ray spectrometry](#energydispersiveelectroninducedxrayspectrometry)
+                    - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
+                    - [Wavelength Dispersive electron induced X-Ray Spectrometry](#wavelengthdispersiveelectroninducedxrayspectrometry)
                 - [Energy Dispersive X-ray spectrometry](#energydispersivexrayspectrometry)
                     - [Energy Dispersive electron-induced X-ray spectrometry](#energydispersiveelectroninducedxrayspectrometry)
                 - [Particle induced X-ray spectrometry](#particleinducedxrayspectrometry)
-                    - [Electron induced X-ray spectrometry](#electroninducedxrayspectrometry)
-                        - [Energy Dispersive electron-induced X-ray spectrometry](#energydispersiveelectroninducedxrayspectrometry)
-                        - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
-                        - [Wavelength Dispersive electron induced X-Ray Spectrometry](#wavelengthdispersiveelectroninducedxrayspectrometry)
                     - [Quantitative analysis particle-induced X-ray spectrometry](#quantitativeanalysisparticleinducedxrayspectrometry)
-                        - [Quantitative analysis electron-induced X-ray spectrometry](#quantitativeanalysiselectroninducedxrayspectrometry)
                 - [X-ray absorption spectrometry](#xrayabsorptionspectrometry)
+                    - [Extended X-ray absorption fine structure](#extendedxrayabsorptionfinestructure)
                     - [X-ray absorption near edge structure spectrometry](#xrayabsorptionnearedgestructurespectrometry)
                 - [X-ray fluorescence spectrometry](#xrayfluorescencespectrometry)
                     - [Confocal X-Ray Fluorescence Spectrometry](#confocalxrayfluorescencespectrometry)
@@ -1918,7 +1913,9 @@ Namespace:
 ##  Analytical method
 
 
-- Any method.
+- Procedures that operate on material samples to produce observation
+results with information about the chemical composition and structure
+of the sample.
 
 - **Alternate labels:**
 Analytical technique
@@ -3335,6 +3332,10 @@ Astromat
 x-rays at progressively greater depth throught the sample. The stack
 is then used for the reconstruction process to create a 3D volume.
 
+- **Alternate labels:**
+X-ray computed micro-tomography (XCMT)
+
+
 - **Source:**
 O-REx techniques
 
@@ -3992,7 +3993,8 @@ surface barrier detector . (https://www.annualreviews.org/doi/pdf/10.1
 146/annurev.ns.42.120192.000245)
 
 - **Alternate labels:**
-Scanning Proton Microprobe
+Scanning Proton Microprobe, 
+scanning proton microscopy (SPM), 
 
 
 - **Source:**
@@ -4012,126 +4014,13 @@ GeoRoc
 
 - An X-ray spectrometry technique in which emisssion of X-rays is
 induces by bombarding a spot on the sample with ions or sub-atomic
-particles (electrons, neutrons, protons).
+particles other than electrons, e.g. neutrons, protons, muons (Chai et
+al, 2021, https://doi.org/10.1515/pac-2019-0302).
 
 - **Source:**
-SMR add general categories
+Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302
 
 - Concept URI token: particleinducedxrayspectrometry
-
-
-[]{#electroninducedxrayspectrometry}
-
-#####  Electron induced X-ray spectrometry
-
-
-- Child of:
- [`particleinducedxrayspectrometry`](#particleinducedxrayspectrometry)
-
-- Technique to induce x-ray emission using an electron beam as the
-excitation, and measuring the energy spectra of emitted X-rays.
-Various X-ray emission peaks are associated with electron energy level
-quatum intervals for particular elements.
-
-- **Source:**
-SMR add general categories
-
-- Concept URI token: electroninducedxrayspectrometry
-
-
-[]{#energydispersiveelectroninducedxrayspectrometry}
-
-######  Energy Dispersive electron-induced X-ray spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
- [`energydispersivexrayspectrometry`](#energydispersivexrayspectrometry)
-
-- Analysis of x-ray spectra generated by electron beam excitation
-using a Transmission electron microscope instrument
-
-- **Alternate labels:**
-Elemental Spectra (ESPC) Measurements, 
-SCANNING ELECTRON MICROSCOPE-ENERGY DISPERSIVE XRAY ANALYSIS, 
-SCANNING ELECTRON MICROSCOPE-ENERGY DISPERSIVE XRAYS, 
-SCANNING TRANSMISSION ELECTRON MICROSCOPY ENERGY DISPERSIVE XRAY SPECTROMETRY, 
-
-
-- **Source:**
-Astromat, 
-O-REx products, 
-PetDb, 
-
-- Concept URI token: energydispersiveelectroninducedxrayspectrometry
-
-
-[]{#quantitativeanalysiselectroninducedxrayspectrometry}
-
-######  Quantitative analysis electron-induced X-ray spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
- [`quantitativeanalysisparticleinducedxrayspectrometry`](#quantitativeanalysisparticleinducedxrayspectrometry)
-
-- Within a given sample, once the x-ray intensities of each element of
-interest are "counted" in a detector at a specific beam current, the
-count rates are compared to those of standards containing known values
-of the elements of interest. Counting is typically done using
-wavelength-dispersive spectrometry. In turn, the x-ray intensities
-must be corrected for matrix effects associated with atomic number
-(Z), absorption (A) and fluorescence (F). This correction procedure is
-performed within a computer program that takes the raw counting rates
-of each element, compares these to standards, computes the ZAF
-correction (or similar type of correction) and displays the results as
-a function of the weight % of the oxides or elements.
-(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
-
-- **Alternate labels:**
-ELECTRON MICROPROBE ANALYSIS, 
-ELECTRON MICROPROBE, 
-FIELD EMISSION ELECTRON MICROPROBE ANALYSIS, 
-FIELD EMISSION ELECTRON MICROPROBE, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry
-
-
-[]{#wavelengthdispersiveelectroninducedxrayspectrometry}
-
-######  Wavelength Dispersive electron induced X-Ray Spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
-
-- X-rays are generated in the sample by interaction with the
-excitation electron beam, and are selected using an analytical
-crystal(s) with specific lattice spacing(s). When X-rays encounter the
-analytical crystal at a specific angle theta, only those X-rays that
-satisfy Bragg's Law are reflected and a single wavelength is passed on
-to the detector. The wavelength of the X-rays reflected into the
-detector may be varied by changing the position of the analyzing
-crystal relative to the sample i.e. the X-ray source-crystal distance
-is a linear function of the wavelength. Consequently, X-rays from only
-one element at a time can be measured on the spectrometer and the
-position of a given analytical crystal must be changed in order to
-adjust to a wavelength characteristic of another element. There is
-commonly more than a single analytical crystal in a WD spectrometer
-and, in the case of most EPMA instruments, there are typically
-multiple spectrometers with a suite of analytical crystals so that the
-spectrometers can reach all of the elemental wavelengths of interest
-and it will optimize performance in different wavelength ranges.
-X-rays of specific wavelengths from the analytical crystal are passed
-on to the X-ray detector.
-(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
-- Concept URI token: wavelengthdispersiveelectroninducedxrayspectrometry
 
 
 []{#quantitativeanalysisparticleinducedxrayspectrometry}
@@ -4159,43 +4048,6 @@ a function of the weight % of the oxides or elements.
 GeoRoc
 
 - Concept URI token: quantitativeanalysisparticleinducedxrayspectrometry
-
-
-[]{#quantitativeanalysiselectroninducedxrayspectrometry}
-
-######  Quantitative analysis electron-induced X-ray spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
- [`quantitativeanalysisparticleinducedxrayspectrometry`](#quantitativeanalysisparticleinducedxrayspectrometry)
-
-- Within a given sample, once the x-ray intensities of each element of
-interest are "counted" in a detector at a specific beam current, the
-count rates are compared to those of standards containing known values
-of the elements of interest. Counting is typically done using
-wavelength-dispersive spectrometry. In turn, the x-ray intensities
-must be corrected for matrix effects associated with atomic number
-(Z), absorption (A) and fluorescence (F). This correction procedure is
-performed within a computer program that takes the raw counting rates
-of each element, compares these to standards, computes the ZAF
-correction (or similar type of correction) and displays the results as
-a function of the weight % of the oxides or elements.
-(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
-
-- **Alternate labels:**
-ELECTRON MICROPROBE ANALYSIS, 
-ELECTRON MICROPROBE, 
-FIELD EMISSION ELECTRON MICROPROBE ANALYSIS, 
-FIELD EMISSION ELECTRON MICROPROBE, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry
 
 
 []{#particlecounting}
@@ -4303,11 +4155,14 @@ GeoRoc
 - Child of:
  [`analyticalmethod`](#analyticalmethod)
 
-- basic idea of activation analysis is that irradiation by
-appropriately chosen penetrating radiation induces nuclear reactions
-in the nuclei of the analyte,  producing radioactive atoms. Analysis
-of the radiation emitted by these atoms when they decay allows
-determiniation of the composition of the sample.
+- Measurement of elemental or isotopic contents in a specified amount
+of a material by irradiation with appropriately chosen penetrating
+radiation, either elementary particles or electromagnetic radiation,
+to induce nuclear reactions in the nuclei of the analyte, producing
+radioactive atoms. Analysis of the radiation emitted by these atoms
+when they decay allows determiniation of the composition of the
+sample. (Chai et al, IUPAC recommendations, 2021,
+https://doi.org/10.1515/pac-2019-0302)
 
 - **Alternate labels:**
 PARTICULE INDUCED GAMMA-RAY EMISSION ANALYSIS, 
@@ -4318,6 +4173,24 @@ Particle induced activation analysis,
 GeoRoc
 
 - Concept URI token: particleinducedactivationanalysis
+
+
+[]{#deuteronactivationanalysis}
+
+####  Deuteron activation analysis
+
+
+- Child of:
+ [`particleinducedactivationanalysis`](#particleinducedactivationanalysis)
+
+- irradiate sample with deuterons, measure gamma ray spectrum
+(https://doi.org/10.1007/BF02520983) {@en} Deuterons are nuclei of
+deuterium atoms, consisting of a proton and a neutron.
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: deuteronactivationanalysis
 
 
 []{#neutronactivationanalysis}
@@ -4336,13 +4209,10 @@ resolution germanium detector), or by beta counting (low background
 proportional or liquid scintillation counting) when pure beta emitters
 are measured.  Quantification of elements is accomplished by
 comparison with standards typically processed in the same manner.
-(https://www.nist.gov/laboratories/tools-instruments/radiochemical-
-neutron-activation-analysis-rnaa).  Components: 1) sample irradiation
-2) gamma ray spectrometry
-
-- **Alternate labels:**
-INSTRUMENTAL NEUTRON ACTIVATION ANALYSIS
-
+(https://www.nist.gov/laboratories/tools-instruments/instrumental-
+neutron-activation-analysis-inaa, https://serc.carleton.edu/research_e
+ducation/geochemsheets/techniques/INAA.html).  Components: 1) sample
+irradiation 2) gamma ray spectrometry
 
 - **Source:**
 Astromat, 
@@ -4350,23 +4220,6 @@ GeoRoc,
 PetDb, 
 
 - Concept URI token: neutronactivationanalysis
-
-
-[]{#deuteronactivationanalysis}
-
-#####  Deuteron activation analysis
-
-
-- Child of:
- [`neutronactivationanalysis`](#neutronactivationanalysis)
-
-- irradiate sample with deuterons, measure gamma ray spectrum
-(https://doi.org/10.1007/BF02520983)
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: deuteronactivationanalysis
 
 
 []{#epithermalneutronactivationanalysis}
@@ -4399,8 +4252,8 @@ PetDb,
 - Child of:
  [`neutronactivationanalysis`](#neutronactivationanalysis)
 
-- NAA technique based on measurement of the gamma rays during
-irradiation. (Skoog, Holler & Crouch, p. 842)
+- NAA technique based on measurement of the gamma rays emitted during
+irradiation of the sample. (Skoog, Holler & Crouch, p. 842)
 
 - **Source:**
 Astromat, 
@@ -4424,8 +4277,13 @@ irradiation to separate activities of interest from interfering
 activities. (https://indico.cern.ch/event/716552/sessions/310934/attac
 hments/1848163/3033363/MonicaSisti_LRT2019.pdf slide 6,
 https://www.nist.gov/laboratories/tools-instruments/radiochemical-
-neutron-activation-analysis-rnaa). Components: 1) sample irradiation
-2) chemical processing 3) gamma ray spectrometry
+neutron-activation-analysis-rnaa; Chai et al, 2021,
+https://doi.org/10.1515/pac-2019-0302). Components: 1) sample
+irradiation 2) chemical processing 3) gamma ray spectrometry
+
+- **Alternate labels:**
+destructive activation analysis
+
 
 - **Source:**
 Astromat, 
@@ -7349,6 +7207,123 @@ Astromat
 - Concept URI token: broadbeamxrayspectrometry
 
 
+[]{#electroninducedxrayspectrometry}
+
+######  Electron induced X-ray spectrometry
+
+
+- Child of:
+ [`xrayspectrometry`](#xrayspectrometry)
+
+- Technique to induce x-ray emission using an electron beam as the
+excitation, and measuring the energy spectra of emitted X-rays.
+Various X-ray emission peaks are associated with electron energy level
+quatum intervals for particular elements.
+
+- **Source:**
+SMR add general categories
+
+- Concept URI token: electroninducedxrayspectrometry
+
+
+[]{#energydispersiveelectroninducedxrayspectrometry}
+
+#######  Energy Dispersive electron-induced X-ray spectrometry
+
+
+- Child of:
+ [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
+ [`energydispersivexrayspectrometry`](#energydispersivexrayspectrometry)
+
+- Analysis of x-ray spectra generated by electron beam excitation
+using a Transmission electron microscope instrument
+
+- **Alternate labels:**
+Elemental Spectra (ESPC) Measurements, 
+SCANNING ELECTRON MICROSCOPE-ENERGY DISPERSIVE XRAY ANALYSIS, 
+SCANNING ELECTRON MICROSCOPE-ENERGY DISPERSIVE XRAYS, 
+SCANNING TRANSMISSION ELECTRON MICROSCOPY ENERGY DISPERSIVE XRAY SPECTROMETRY, 
+
+
+- **Source:**
+Astromat, 
+O-REx products, 
+PetDb, 
+
+- Concept URI token: energydispersiveelectroninducedxrayspectrometry
+
+
+[]{#quantitativeanalysiselectroninducedxrayspectrometry}
+
+#######  Quantitative analysis electron-induced X-ray spectrometry
+
+
+- Child of:
+ [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
+
+- Within a given sample, once the x-ray intensities of each element of
+interest are "counted" in a detector at a specific beam current, the
+count rates are compared to those of standards containing known values
+of the elements of interest. Counting is typically done using
+wavelength-dispersive spectrometry. In turn, the x-ray intensities
+must be corrected for matrix effects associated with atomic number
+(Z), absorption (A) and fluorescence (F). This correction procedure is
+performed within a computer program that takes the raw counting rates
+of each element, compares these to standards, computes the ZAF
+correction (or similar type of correction) and displays the results as
+a function of the weight % of the oxides or elements.
+(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
+
+- **Alternate labels:**
+ELECTRON MICROPROBE ANALYSIS, 
+ELECTRON MICROPROBE, 
+FIELD EMISSION ELECTRON MICROPROBE ANALYSIS, 
+FIELD EMISSION ELECTRON MICROPROBE, 
+
+
+- **Source:**
+Astromat, 
+GeoRoc, 
+PetDb, 
+
+- Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry
+
+
+[]{#wavelengthdispersiveelectroninducedxrayspectrometry}
+
+#######  Wavelength Dispersive electron induced X-Ray Spectrometry
+
+
+- Child of:
+ [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
+
+- X-rays are generated in the sample by interaction with the
+excitation electron beam, and are selected using an analytical
+crystal(s) with specific lattice spacing(s). When X-rays encounter the
+analytical crystal at a specific angle theta, only those X-rays that
+satisfy Bragg's Law are reflected and a single wavelength is passed on
+to the detector. The wavelength of the X-rays reflected into the
+detector may be varied by changing the position of the analyzing
+crystal relative to the sample i.e. the X-ray source-crystal distance
+is a linear function of the wavelength. Consequently, X-rays from only
+one element at a time can be measured on the spectrometer and the
+position of a given analytical crystal must be changed in order to
+adjust to a wavelength characteristic of another element. There is
+commonly more than a single analytical crystal in a WD spectrometer
+and, in the case of most EPMA instruments, there are typically
+multiple spectrometers with a suite of analytical crystals so that the
+spectrometers can reach all of the elemental wavelengths of interest
+and it will optimize performance in different wavelength ranges.
+X-rays of specific wavelengths from the analytical crystal are passed
+on to the X-ray detector.
+(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
+
+- **Alternate labels:**
+wavelength-dispersive X-ray fluorescence analysis
+
+- Concept URI token: wavelengthdispersiveelectroninducedxrayspectrometry
+
+
 []{#energydispersivexrayspectrometry}
 
 ######  Energy Dispersive X-ray spectrometry
@@ -7418,126 +7393,13 @@ PetDb,
 
 - An X-ray spectrometry technique in which emisssion of X-rays is
 induces by bombarding a spot on the sample with ions or sub-atomic
-particles (electrons, neutrons, protons).
+particles other than electrons, e.g. neutrons, protons, muons (Chai et
+al, 2021, https://doi.org/10.1515/pac-2019-0302).
 
 - **Source:**
-SMR add general categories
+Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302
 
 - Concept URI token: particleinducedxrayspectrometry
-
-
-[]{#electroninducedxrayspectrometry}
-
-#######  Electron induced X-ray spectrometry
-
-
-- Child of:
- [`particleinducedxrayspectrometry`](#particleinducedxrayspectrometry)
-
-- Technique to induce x-ray emission using an electron beam as the
-excitation, and measuring the energy spectra of emitted X-rays.
-Various X-ray emission peaks are associated with electron energy level
-quatum intervals for particular elements.
-
-- **Source:**
-SMR add general categories
-
-- Concept URI token: electroninducedxrayspectrometry
-
-
-[]{#energydispersiveelectroninducedxrayspectrometry}
-
-########  Energy Dispersive electron-induced X-ray spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
- [`energydispersivexrayspectrometry`](#energydispersivexrayspectrometry)
-
-- Analysis of x-ray spectra generated by electron beam excitation
-using a Transmission electron microscope instrument
-
-- **Alternate labels:**
-Elemental Spectra (ESPC) Measurements, 
-SCANNING ELECTRON MICROSCOPE-ENERGY DISPERSIVE XRAY ANALYSIS, 
-SCANNING ELECTRON MICROSCOPE-ENERGY DISPERSIVE XRAYS, 
-SCANNING TRANSMISSION ELECTRON MICROSCOPY ENERGY DISPERSIVE XRAY SPECTROMETRY, 
-
-
-- **Source:**
-Astromat, 
-O-REx products, 
-PetDb, 
-
-- Concept URI token: energydispersiveelectroninducedxrayspectrometry
-
-
-[]{#quantitativeanalysiselectroninducedxrayspectrometry}
-
-########  Quantitative analysis electron-induced X-ray spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
- [`quantitativeanalysisparticleinducedxrayspectrometry`](#quantitativeanalysisparticleinducedxrayspectrometry)
-
-- Within a given sample, once the x-ray intensities of each element of
-interest are "counted" in a detector at a specific beam current, the
-count rates are compared to those of standards containing known values
-of the elements of interest. Counting is typically done using
-wavelength-dispersive spectrometry. In turn, the x-ray intensities
-must be corrected for matrix effects associated with atomic number
-(Z), absorption (A) and fluorescence (F). This correction procedure is
-performed within a computer program that takes the raw counting rates
-of each element, compares these to standards, computes the ZAF
-correction (or similar type of correction) and displays the results as
-a function of the weight % of the oxides or elements.
-(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
-
-- **Alternate labels:**
-ELECTRON MICROPROBE ANALYSIS, 
-ELECTRON MICROPROBE, 
-FIELD EMISSION ELECTRON MICROPROBE ANALYSIS, 
-FIELD EMISSION ELECTRON MICROPROBE, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry
-
-
-[]{#wavelengthdispersiveelectroninducedxrayspectrometry}
-
-########  Wavelength Dispersive electron induced X-Ray Spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
-
-- X-rays are generated in the sample by interaction with the
-excitation electron beam, and are selected using an analytical
-crystal(s) with specific lattice spacing(s). When X-rays encounter the
-analytical crystal at a specific angle theta, only those X-rays that
-satisfy Bragg's Law are reflected and a single wavelength is passed on
-to the detector. The wavelength of the X-rays reflected into the
-detector may be varied by changing the position of the analyzing
-crystal relative to the sample i.e. the X-ray source-crystal distance
-is a linear function of the wavelength. Consequently, X-rays from only
-one element at a time can be measured on the spectrometer and the
-position of a given analytical crystal must be changed in order to
-adjust to a wavelength characteristic of another element. There is
-commonly more than a single analytical crystal in a WD spectrometer
-and, in the case of most EPMA instruments, there are typically
-multiple spectrometers with a suite of analytical crystals so that the
-spectrometers can reach all of the elemental wavelengths of interest
-and it will optimize performance in different wavelength ranges.
-X-rays of specific wavelengths from the analytical crystal are passed
-on to the X-ray detector.
-(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
-- Concept URI token: wavelengthdispersiveelectroninducedxrayspectrometry
 
 
 []{#quantitativeanalysisparticleinducedxrayspectrometry}
@@ -7565,43 +7427,6 @@ a function of the weight % of the oxides or elements.
 GeoRoc
 
 - Concept URI token: quantitativeanalysisparticleinducedxrayspectrometry
-
-
-[]{#quantitativeanalysiselectroninducedxrayspectrometry}
-
-########  Quantitative analysis electron-induced X-ray spectrometry
-
-
-- Child of:
- [`electroninducedxrayspectrometry`](#electroninducedxrayspectrometry)
- [`quantitativeanalysisparticleinducedxrayspectrometry`](#quantitativeanalysisparticleinducedxrayspectrometry)
-
-- Within a given sample, once the x-ray intensities of each element of
-interest are "counted" in a detector at a specific beam current, the
-count rates are compared to those of standards containing known values
-of the elements of interest. Counting is typically done using
-wavelength-dispersive spectrometry. In turn, the x-ray intensities
-must be corrected for matrix effects associated with atomic number
-(Z), absorption (A) and fluorescence (F). This correction procedure is
-performed within a computer program that takes the raw counting rates
-of each element, compares these to standards, computes the ZAF
-correction (or similar type of correction) and displays the results as
-a function of the weight % of the oxides or elements.
-(https://serc.carleton.edu/research_education/geochemsheets/wds.html)
-
-- **Alternate labels:**
-ELECTRON MICROPROBE ANALYSIS, 
-ELECTRON MICROPROBE, 
-FIELD EMISSION ELECTRON MICROPROBE ANALYSIS, 
-FIELD EMISSION ELECTRON MICROPROBE, 
-
-
-- **Source:**
-Astromat, 
-GeoRoc, 
-PetDb, 
-
-- Concept URI token: quantitativeanalysiselectroninducedxrayspectrometry
 
 
 []{#xrayabsorptionspectrometry}
@@ -7636,6 +7461,31 @@ https://www.bnl.gov/nsls2/userguide/lectures/lecture-4-ravel.pdf)
 SMR add general categories
 
 - Concept URI token: xrayabsorptionspectrometry
+
+
+[]{#extendedxrayabsorptionfinestructure}
+
+#######  Extended X-ray absorption fine structure
+
+
+- Child of:
+ [`xrayabsorptionspectrometry`](#xrayabsorptionspectrometry)
+
+- X-ray absorption analysis in which the fine structure of the
+adsorption spectrum in the range 30 eV to 1 keV above the adsorption
+edge is used to measure the number and species of neighbouring atoms,
+their distance from the selected atom, and the thermal or structural
+disorder of their positions. In the EXAFS region, interference between
+the wave functions of the core and neighbouring atoms gives a periodic
+pattern that contains information characterizing the arrangement of
+atoms, including the number and type of neighbouring atoms and their
+distance to the absorbing atom. The method uses synchrotron radiation.
+(Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302)
+
+- **Source:**
+Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302
+
+- Concept URI token: extendedxrayabsorptionfinestructure
 
 
 []{#xrayabsorptionnearedgestructurespectrometry}
@@ -7767,10 +7617,14 @@ radiation from each of the different sample elements. Resolution of
 EDXRF systems is dependent upon the detector, and typically ranges
 from 150 eV -- 600 eV. The principal advantages of EDXRF systems are
 their simplicity, fast operation, lack of moving parts, and high
-source efficiency. (https://www.xos.com/EDXRF)
+source efficiency. (https://www.xos.com/EDXRF; Chai et al, 2021,
+https://doi.org/10.1515/pac-2019-0302)
 
 - **Alternate labels:**
-ENERGY-DISPERSIVE X-RAY FLUORESCENCE
+ENERGY-DISPERSIVE X-RAY FLUORESCENCE, 
+energy-dispersive X-ray analysis (EDXA), 
+energy-dispersive X-ray fluorescence analysis (EDX), 
+energy-dispersive X-ray spectroscopy (EDS, EDXS), 
 
 
 - **Source:**
@@ -7805,6 +7659,7 @@ rays) and concentrated over a small area"
 - **Alternate labels:**
 SYNCHROTON X-RAY FLUORESCENCE ANALYSIS, 
 Synchrotron-based X-ray Fluorescence Spectroscopy, 
+synchrotron radiation induced X-ray fluorescence analysis, 
 
 
 - **Source:**
@@ -7835,7 +7690,7 @@ X-ray Fluorescence Spectroscopy,
 
 
 - **Source:**
-Own
+Chai et al, 2021, https://doi.org/10.1515/pac-2019-0302
 
 - Concept URI token: microxrayfluorescencespectroscopy
 
@@ -7881,6 +7736,10 @@ limits. Due to this configuration, the measured spectral background in
 TXRF is less than in conventional XRF. This reduction results in
 increased signal to noise ratio. (https://www-
 pub.iaea.org/MTCD/publications/PDF/TCS-51/html/pdf/Section%201.pdf)
+
+- **Alternate labels:**
+total reflection X- ray fluorescence analysis
+
 
 - **Source:**
 GeoRoc
@@ -8463,8 +8322,13 @@ irradiation to separate activities of interest from interfering
 activities. (https://indico.cern.ch/event/716552/sessions/310934/attac
 hments/1848163/3033363/MonicaSisti_LRT2019.pdf slide 6,
 https://www.nist.gov/laboratories/tools-instruments/radiochemical-
-neutron-activation-analysis-rnaa). Components: 1) sample irradiation
-2) chemical processing 3) gamma ray spectrometry
+neutron-activation-analysis-rnaa; Chai et al, 2021,
+https://doi.org/10.1515/pac-2019-0302). Components: 1) sample
+irradiation 2) chemical processing 3) gamma ray spectrometry
+
+- **Alternate labels:**
+destructive activation analysis
+
 
 - **Source:**
 Astromat, 
