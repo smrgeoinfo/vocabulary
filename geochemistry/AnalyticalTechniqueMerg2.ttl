@@ -2014,6 +2014,7 @@ meth:instrumentalneutronactivationanalysis
   rdfs:label "Instrumental neutron activation analysis "@en ;
   skos:broader meth:neutronactivationanalysis ;
   skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Quantification of the elemental nuclei of interest is usually performed by gamma ray spectroscopy.  Quantification of elements is accomplished by comparison with standards typically processed in the same manner. (https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa, https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html).  Components: 1) sample irradiation 2) gamma ray spectrometry"@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Instrumental neutron activation analysis"@en ;
 .
 meth:ionchromatography
