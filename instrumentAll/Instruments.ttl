@@ -3223,7 +3223,7 @@ sdnk:SDNKG01
   skos:inScheme <http://w3id.org/ogeochem/def/instrument/measurement/conceptscheme> ;
   skos:notation "SDN:L19::SDNKG01" ;
   skos:note "accepted"@en ;
-  skos:prefLabel "Measurement instrument"@en ;
+  skos:prefLabel "NERC measurement instrument"@en ;
   skos:topConceptOf <http://w3id.org/ogeochem/def/instrument/measurement/conceptscheme> ;
 .
 sdnk:SDNKG17
