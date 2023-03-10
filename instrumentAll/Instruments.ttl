@@ -36,6 +36,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::101" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/101/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/101/1> ;
@@ -53,6 +55,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::102" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/102/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/102/1> ;
@@ -76,6 +82,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::103" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/103/1> ;
   owl:versionInfo "1" ;
@@ -92,6 +100,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::110" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/110/1> ;
   owl:versionInfo "1" ;
@@ -109,6 +119,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::113" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/113/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/113/1> ;
@@ -130,6 +144,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::114" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/114/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/114/1> ;
@@ -147,6 +163,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::115" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/115/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/115/1> ;
@@ -165,6 +183,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2016-03-10 06:50:01.0" ;
   dcterm:identifier "SDN:L05::121" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2016-03-10 06:50:01.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/121/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/121/1> ;
@@ -183,6 +203,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::122" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/122/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/122/1> ;
@@ -201,6 +223,11 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::123" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_ORTHO/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/123/1> ;
   owl:versionInfo "1" ;
@@ -221,6 +248,11 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::124" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_ORTHO/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/124/1> ;
   owl:versionInfo "1" ;
@@ -243,6 +275,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2018-04-06 17:31:36.0" ;
   dcterm:identifier "SDN:L05::130" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2018-04-06 17:31:36.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/130/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/130/1> ;
@@ -266,6 +302,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2018-04-06 17:31:36.0" ;
   dcterm:identifier "SDN:L05::131" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2018-04-06 17:31:36.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/131/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/131/1> ;
@@ -287,6 +327,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::132" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/132/1> ;
   owl:versionInfo "1" ;
@@ -308,6 +352,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::133" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/133/1> ;
   owl:versionInfo "1" ;
@@ -328,6 +376,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::134" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/134/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/134/1> ;
@@ -353,6 +405,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::135" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/135/1> ;
   owl:versionInfo "1" ;
@@ -372,6 +428,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2017-08-08 14:48:18.0" ;
   dcterm:identifier "SDN:L05::150" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2017-08-08 14:48:18.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/150/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/150/1> ;
@@ -390,6 +448,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2022-11-17 09:42:34.0" ;
   dcterm:identifier "SDN:L05::152" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2022-11-17 09:42:34.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/152/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/152/1> ;
@@ -407,6 +467,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:58:13.0" ;
   dcterm:identifier "SDN:L05::153" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:58:13.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/153/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/153/1> ;
@@ -435,6 +497,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:59:29.0" ;
   dcterm:identifier "SDN:L05::154" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:59:29.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/154/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/154/1> ;
@@ -463,6 +527,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::155" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/155/1> ;
   owl:versionInfo "1" ;
@@ -479,6 +545,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::156" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/156/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/156/1> ;
@@ -499,6 +569,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::157" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/157/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/157/1> ;
@@ -519,6 +593,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::158" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/158/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/158/1> ;
@@ -536,6 +612,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::159" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/159/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/159/1> ;
@@ -554,6 +632,8 @@ pav:version
   <http://purl.org/dc/terms/:isReplacedBy> <http://vocab.nerc.ac.uk/collection/L05/current/311> ;
   dcterm:date "2020-09-18 10:24:38.0" ;
   dcterm:identifier "SDN:L05::180" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2020-09-18 10:24:38.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/180/5> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/180/1> ;
@@ -576,6 +656,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::181" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/181/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/181/1> ;
@@ -600,6 +684,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:34:40.0" ;
   dcterm:identifier "SDN:L05::183" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:34:40.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/183/1> ;
   owl:versionInfo "1" ;
@@ -616,6 +702,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2012-02-23 10:11:31.0" ;
   dcterm:identifier "SDN:L05::184" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-02-23 10:11:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/184/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/184/1> ;
@@ -633,6 +721,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::185" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/185/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/185/1> ;
@@ -650,6 +740,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2011-04-15 14:18:31.0" ;
   dcterm:identifier "SDN:L05::186" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2011-04-15 14:18:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/186/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/186/1> ;
@@ -677,6 +771,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:03:34.0" ;
   dcterm:identifier "SDN:L05::301" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:03:34.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/301/1> ;
   owl:versionInfo "1" ;
@@ -698,6 +794,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-11-19 14:27:24.0" ;
   dcterm:identifier "SDN:L05::302" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-11-19 14:27:24.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/302/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/302/1> ;
@@ -732,6 +832,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::303" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/303/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/303/1> ;
@@ -749,6 +851,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:19:34.0" ;
   dcterm:identifier "SDN:L05::304" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:19:34.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/304/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/304/1> ;
@@ -776,6 +882,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2007-11-20 09:03:34.0" ;
   dcterm:identifier "SDN:L05::305" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2007-11-20 09:03:34.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/305/1> ;
   owl:versionInfo "1" ;
@@ -795,6 +903,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:21:12.0" ;
   dcterm:identifier "SDN:L05::306" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:21:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/306/1> ;
   owl:versionInfo "1" ;
@@ -821,6 +933,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:21:52.0" ;
   dcterm:identifier "SDN:L05::307" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:21:52.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/307/1> ;
   owl:versionInfo "1" ;
@@ -841,6 +955,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:22:48.0" ;
   dcterm:identifier "SDN:L05::308" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:22:48.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/308/1> ;
   owl:versionInfo "1" ;
@@ -904,6 +1022,7 @@ pav:version
   <http://purl.org/dc/terms/:replaces> <http://vocab.nerc.ac.uk/collection/L05/current/315> ;
   dcterm:date "2008-01-10 16:23:53.0" ;
   dcterm:identifier "SDN:L05::309" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:23:53.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/309/1> ;
   owl:versionInfo "1" ;
@@ -935,6 +1054,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2012-12-18 15:18:17.0" ;
   dcterm:identifier "SDN:L05::310" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-12-18 15:18:17.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/310/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/310/1> ;
@@ -954,6 +1075,10 @@ pav:version
   <http://purl.org/dc/terms/:replaces> <http://vocab.nerc.ac.uk/collection/L05/current/180> ;
   dcterm:date "2020-09-18 10:36:01.0" ;
   dcterm:identifier "SDN:L05::311" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2020-09-18 10:36:01.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/311/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/311/1> ;
@@ -979,6 +1104,9 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2009-10-16 11:58:26.0" ;
   dcterm:identifier "SDN:L05::312" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2009-10-16 11:58:26.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/312/1> ;
   owl:versionInfo "1" ;
@@ -997,6 +1125,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::313" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/313/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/313/1> ;
@@ -1014,6 +1143,7 @@ pav:version
   <http://purl.org/dc/terms/:isReplacedBy> <http://vocab.nerc.ac.uk/collection/L05/current/309> ;
   dcterm:date "2017-03-09 16:15:08.0" ;
   dcterm:identifier "SDN:L05::314" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2017-03-09 16:15:08.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/314/1> ;
   owl:versionInfo "1" ;
@@ -1039,6 +1169,7 @@ pav:version
   <http://purl.org/dc/terms/:isReplacedBy> <http://vocab.nerc.ac.uk/collection/L05/current/309> ;
   dcterm:date "2017-03-09 16:39:05.0" ;
   dcterm:identifier "SDN:L05::315" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2017-03-09 16:39:05.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/315/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/315/1> ;
@@ -1055,6 +1186,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::350" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/350/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/350/1> ;
@@ -1078,6 +1213,11 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::351" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_ORTHO/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/351/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/351/1> ;
@@ -1100,6 +1240,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2020-07-30 12:20:21.0" ;
   dcterm:identifier "SDN:L05::352" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2020-07-30 12:20:21.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/352/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/352/1> ;
@@ -1121,6 +1265,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::353" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/353/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/353/1> ;
@@ -1140,6 +1288,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::355" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/355/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/355/1> ;
@@ -1158,6 +1308,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::356" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/356/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/356/1> ;
@@ -1175,6 +1327,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:15:11.0" ;
   dcterm:identifier "SDN:L05::358" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:15:11.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/358/1> ;
   owl:versionInfo "1" ;
@@ -1191,6 +1345,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 12:00:55.0" ;
   dcterm:identifier "SDN:L05::359" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 12:00:55.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/359/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/359/1> ;
@@ -1207,6 +1362,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::360" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/360/1> ;
   owl:versionInfo "1" ;
@@ -1222,6 +1378,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::361" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/361/1> ;
   owl:versionInfo "1" ;
@@ -1238,6 +1396,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::362" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/362/1> ;
   owl:versionInfo "1" ;
@@ -1260,6 +1420,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::363" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/363/1> ;
   owl:versionInfo "1" ;
@@ -1277,6 +1439,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::364" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/364/1> ;
   owl:versionInfo "1" ;
@@ -1294,6 +1458,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::365" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/365/1> ;
   owl:versionInfo "1" ;
@@ -1310,6 +1475,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::366" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/366/1> ;
   owl:versionInfo "1" ;
@@ -1326,6 +1492,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-11-18 11:16:45.0" ;
   dcterm:identifier "SDN:L05::367" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-11-18 11:16:45.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/367/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/367/1> ;
@@ -1343,6 +1511,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::368" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/368/1> ;
   owl:versionInfo "1" ;
@@ -1360,6 +1530,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::369" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/369/1> ;
   owl:versionInfo "1" ;
@@ -1378,6 +1550,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-11-18 11:35:46.0" ;
   dcterm:identifier "SDN:L05::370" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-11-18 11:35:46.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/370/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/370/1> ;
@@ -1396,6 +1570,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::371" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/371/1> ;
   owl:versionInfo "1" ;
@@ -1413,6 +1589,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::372" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/372/1> ;
   owl:versionInfo "1" ;
@@ -1429,6 +1606,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::373" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/373/1> ;
   owl:versionInfo "1" ;
@@ -1446,6 +1625,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::374" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/374/1> ;
   owl:versionInfo "1" ;
@@ -1463,6 +1644,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::375" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/375/1> ;
   owl:versionInfo "1" ;
@@ -1484,6 +1666,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-04-22 15:13:51.0" ;
   dcterm:identifier "SDN:L05::376" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-04-22 15:13:51.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/376/1> ;
   owl:versionInfo "1" ;
@@ -1500,6 +1684,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-04-22 15:16:00.0" ;
   dcterm:identifier "SDN:L05::377" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-04-22 15:16:00.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/377/1> ;
   owl:versionInfo "1" ;
@@ -1516,6 +1702,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-04-22 15:18:44.0" ;
   dcterm:identifier "SDN:L05::378" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-04-22 15:18:44.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/378/1> ;
   owl:versionInfo "1" ;
@@ -1534,6 +1722,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2012-12-18 15:18:17.0" ;
   dcterm:identifier "SDN:L05::379" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-12-18 15:18:17.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/379/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/379/1> ;
@@ -1551,6 +1741,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-09-15 10:32:05.0" ;
   dcterm:identifier "SDN:L05::380" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-09-15 10:32:05.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/380/1> ;
   owl:versionInfo "1" ;
@@ -1567,6 +1759,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-09-15 10:35:20.0" ;
   dcterm:identifier "SDN:L05::381" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-09-15 10:35:20.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/381/1> ;
   owl:versionInfo "1" ;
@@ -1585,6 +1779,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-09-15 10:38:47.0" ;
   dcterm:identifier "SDN:L05::382" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-09-15 10:38:47.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/382/1> ;
   owl:versionInfo "1" ;
@@ -1600,6 +1795,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-09-15 10:41:46.0" ;
   dcterm:identifier "SDN:L05::383" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-09-15 10:41:46.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/383/1> ;
   owl:versionInfo "1" ;
@@ -1616,6 +1813,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-09-15 10:51:26.0" ;
   dcterm:identifier "SDN:L05::384" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-09-15 10:51:26.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/384/1> ;
   owl:versionInfo "1" ;
@@ -1632,6 +1831,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-09-15 11:00:32.0" ;
   dcterm:identifier "SDN:L05::385" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-09-15 11:00:32.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/385/1> ;
   owl:versionInfo "1" ;
@@ -1649,6 +1850,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-10-01 10:36:44.0" ;
   dcterm:identifier "SDN:L05::386" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-10-01 10:36:44.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/386/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/386/1> ;
@@ -1665,6 +1867,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2010-10-01 10:29:09.0" ;
   dcterm:identifier "SDN:L05::387" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-10-01 10:29:09.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/387/1> ;
   owl:versionInfo "1" ;
@@ -1680,6 +1883,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2011-05-20 09:35:53.0" ;
   dcterm:identifier "SDN:L05::388" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2011-05-20 09:35:53.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/388/1> ;
   owl:versionInfo "1" ;
@@ -1696,6 +1901,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2018-10-24 08:19:59.0" ;
   dcterm:identifier "SDN:L05::389" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2018-10-24 08:19:59.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/389/1> ;
   owl:versionInfo "1" ;
@@ -1710,6 +1916,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2018-10-24 09:48:30.0" ;
   dcterm:identifier "SDN:L05::390" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2018-10-24 09:48:30.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/390/1> ;
   owl:versionInfo "1" ;
@@ -1724,6 +1931,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2020-06-04 14:46:07.0" ;
   dcterm:identifier "SDN:L05::393" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2020-06-04 14:46:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/393/1> ;
   owl:versionInfo "1" ;
@@ -1740,6 +1948,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2021-04-20 18:54:05.0" ;
   dcterm:identifier "SDN:L05::395" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2021-04-20 18:54:05.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/395/1> ;
   owl:versionInfo "1" ;
@@ -1754,6 +1963,8 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2016-10-03 14:55:30.0" ;
   dcterm:identifier "SDN:L05::86" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2016-10-03 14:55:30.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/86/1> ;
   owl:versionInfo "1" ;
@@ -1769,6 +1980,10 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2014-11-18 12:21:30.0" ;
   dcterm:identifier "SDN:L05::91" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2014-11-18 12:21:30.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/91/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/91/1> ;
@@ -1791,6 +2006,7 @@ pav:version
   rdf:type skos:Concept ;
   dcterm:date "2016-06-06 15:34:38.0" ;
   dcterm:identifier "SDN:L05::92" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2016-06-06 15:34:38.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/92/1> ;
   owl:versionInfo "1" ;
@@ -1806,6 +2022,7 @@ sdev:ATRANS
   rdf:type skos:Concept ;
   dcterm:date "2013-04-23 12:49:23.0" ;
   dcterm:identifier "SDN:L05::ATRANS" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-04-23 12:49:23.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/ATRANS/1> ;
   owl:versionInfo "1" ;
@@ -1821,6 +2038,7 @@ sdev:BLUMS
   rdf:type skos:Concept ;
   dcterm:date "2014-02-04 12:34:21.0" ;
   dcterm:identifier "SDN:L05::BLUMS" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2014-02-04 12:34:21.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/BLUMS/1> ;
   owl:versionInfo "1" ;
@@ -1836,6 +2054,7 @@ sdev:CCOV
   rdf:type skos:Concept ;
   dcterm:date "2013-04-23 13:40:00.0" ;
   dcterm:identifier "SDN:L05::CCOV" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-04-23 13:40:00.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/CCOV/1> ;
   owl:versionInfo "1" ;
@@ -1851,6 +2070,7 @@ sdev:COLCMP
   rdf:type skos:Concept ;
   dcterm:date "2014-09-01 08:01:41.0" ;
   dcterm:identifier "SDN:L05::COLCMP" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2014-09-01 08:01:41.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/COLCMP/1> ;
   owl:versionInfo "1" ;
@@ -1866,6 +2086,7 @@ sdev:CSEM
   rdf:type skos:Concept ;
   dcterm:date "2016-03-10 06:45:48.0" ;
   dcterm:identifier "SDN:L05::CSEM" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2016-03-10 06:45:48.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/CSEM/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/CSEM/1> ;
@@ -1883,6 +2104,7 @@ sdev:DLOG
   rdf:type skos:Concept ;
   dcterm:date "2017-12-05 11:14:23.0" ;
   dcterm:identifier "SDN:L05::DLOG" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2017-12-05 11:14:23.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/DLOG/1> ;
   owl:versionInfo "1" ;
@@ -1897,6 +2119,8 @@ sdev:EMSR
   rdf:type skos:Concept ;
   dcterm:date "2019-12-11 18:23:45.0" ;
   dcterm:identifier "SDN:L05::EMSR" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2019-12-11 18:23:45.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/EMSR/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/EMSR/1> ;
@@ -1914,6 +2138,8 @@ sdev:FFES
   rdf:type skos:Concept ;
   dcterm:date "2023-01-03 09:50:33.0" ;
   dcterm:identifier "SDN:L05::FFES" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2023-01-03 09:50:33.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/FFES/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/FFES/1> ;
@@ -1931,6 +2157,8 @@ sdev:ICEP
   rdf:type skos:Concept ;
   dcterm:date "2013-04-23 12:40:29.0" ;
   dcterm:identifier "SDN:L05::ICEP" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-04-23 12:40:29.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/ICEP/1> ;
   owl:versionInfo "1" ;
@@ -1947,6 +2175,8 @@ sdev:LAB01
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB01" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB01/1> ;
   owl:versionInfo "1" ;
@@ -1966,6 +2196,8 @@ sdev:LAB02
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB02" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB02/1> ;
   owl:versionInfo "1" ;
@@ -1982,6 +2214,10 @@ sdev:LAB03
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB03" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB03/1> ;
   owl:versionInfo "1" ;
@@ -2005,6 +2241,10 @@ sdev:LAB04
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB04" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB04/1> ;
   owl:versionInfo "1" ;
@@ -2030,6 +2270,10 @@ sdev:LAB05
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB05" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB05/1> ;
   owl:versionInfo "1" ;
@@ -2050,6 +2294,10 @@ sdev:LAB06
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB06" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB06/1> ;
   owl:versionInfo "1" ;
@@ -2069,6 +2317,8 @@ sdev:LAB07
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB07" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB07/1> ;
   owl:versionInfo "1" ;
@@ -2085,6 +2335,8 @@ sdev:LAB08
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB08" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB08/1> ;
   owl:versionInfo "1" ;
@@ -2101,6 +2353,8 @@ sdev:LAB09
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB09" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB09/1> ;
   owl:versionInfo "1" ;
@@ -2117,6 +2371,8 @@ sdev:LAB10
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB10" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB10/1> ;
   owl:sameAs <http://onto.nerc.ac.uk/CAST/115> ;
@@ -2134,6 +2390,10 @@ sdev:LAB11
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB11" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB11/1> ;
   owl:versionInfo "1" ;
@@ -2153,6 +2413,8 @@ sdev:LAB12
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB12" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB12/1> ;
   owl:sameAs <http://onto.nerc.ac.uk/CAST/122> ;
@@ -2171,6 +2433,8 @@ sdev:LAB13
   rdf:type skos:Concept ;
   dcterm:date "2010-07-02 14:19:32.0" ;
   dcterm:identifier "SDN:L05::LAB13" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-07-02 14:19:32.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB13/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB13/1> ;
@@ -2189,6 +2453,8 @@ sdev:LAB14
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB14" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB14/1> ;
   owl:sameAs <http://onto.nerc.ac.uk/CAST/137> ;
@@ -2206,6 +2472,8 @@ sdev:LAB15
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB15" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB15/1> ;
   owl:sameAs <http://onto.nerc.ac.uk/CAST/134> ;
@@ -2223,6 +2491,8 @@ sdev:LAB16
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB16" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB16/1> ;
   owl:versionInfo "1" ;
@@ -2245,6 +2515,8 @@ sdev:LAB17
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB17" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB17/1> ;
   owl:versionInfo "1" ;
@@ -2261,6 +2533,8 @@ sdev:LAB18
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB18" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB18/1> ;
   owl:versionInfo "1" ;
@@ -2277,6 +2551,8 @@ sdev:LAB19
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB19" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB19/1> ;
   owl:versionInfo "1" ;
@@ -2293,6 +2569,8 @@ sdev:LAB20
   rdf:type skos:Concept ;
   dcterm:date "2011-04-15 14:18:31.0" ;
   dcterm:identifier "SDN:L05::LAB20" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2011-04-15 14:18:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB20/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB20/1> ;
@@ -2311,6 +2589,8 @@ sdev:LAB21
   rdf:type skos:Concept ;
   dcterm:date "2018-07-30 16:26:53.0" ;
   dcterm:identifier "SDN:L05::LAB21" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2018-07-30 16:26:53.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB21/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB21/1> ;
@@ -2328,6 +2608,8 @@ sdev:LAB22
   rdf:type skos:Concept ;
   dcterm:date "2011-04-15 14:18:31.0" ;
   dcterm:identifier "SDN:L05::LAB22" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2011-04-15 14:18:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB22/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB22/1> ;
@@ -2345,6 +2627,10 @@ sdev:LAB23
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB23" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB23/1> ;
   owl:versionInfo "1" ;
@@ -2365,6 +2651,8 @@ sdev:LAB24
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB24" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB24/1> ;
   owl:versionInfo "1" ;
@@ -2381,6 +2669,8 @@ sdev:LAB25
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB25" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB25/1> ;
   owl:versionInfo "1" ;
@@ -2397,6 +2687,8 @@ sdev:LAB26
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 16:10:12.0" ;
   dcterm:identifier "SDN:L05::LAB26" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB26/1> ;
   owl:versionInfo "1" ;
@@ -2413,6 +2705,8 @@ sdev:LAB27
   rdf:type skos:Concept ;
   dcterm:date "2017-08-08 14:51:13.0" ;
   dcterm:identifier "SDN:L05::LAB27" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2017-08-08 14:51:13.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB27/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB27/1> ;
@@ -2430,6 +2724,7 @@ sdev:LAB28
   rdf:type skos:Concept ;
   dcterm:date "2010-02-19 11:52:56.0" ;
   dcterm:identifier "SDN:L05::LAB28" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB28/1> ;
   owl:versionInfo "1" ;
@@ -2445,6 +2740,8 @@ sdev:LAB29
   rdf:type skos:Concept ;
   dcterm:date "2010-04-22 15:04:00.0" ;
   dcterm:identifier "SDN:L05::LAB29" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2010-04-22 15:04:00.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB29/1> ;
   owl:versionInfo "1" ;
@@ -2461,6 +2758,10 @@ sdev:LAB30
   rdf:type skos:Concept ;
   dcterm:date "2015-02-11 09:18:46.0" ;
   dcterm:identifier "SDN:L05::LAB30" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2015-02-11 09:18:46.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB30/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB30/1> ;
@@ -2483,6 +2784,7 @@ sdev:LAB31
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::LAB31" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB31/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB31/1> ;
@@ -2499,6 +2801,8 @@ sdev:LAB32
   rdf:type skos:Concept ;
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::LAB32" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB32/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB32/1> ;
@@ -2516,6 +2820,8 @@ sdev:LAB33
   rdf:type skos:Concept ;
   dcterm:date "2012-03-01 16:00:54.0" ;
   dcterm:identifier "SDN:L05::LAB33" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-03-01 16:00:54.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB33/1> ;
   owl:versionInfo "1" ;
@@ -2532,6 +2838,7 @@ sdev:LAB34
   rdf:type skos:Concept ;
   dcterm:date "2012-03-22 17:49:10.0" ;
   dcterm:identifier "SDN:L05::LAB34" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-03-22 17:49:10.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB34/1> ;
   owl:versionInfo "1" ;
@@ -2547,6 +2854,7 @@ sdev:LAB35
   rdf:type skos:Concept ;
   dcterm:date "2012-08-02 14:41:42.0" ;
   dcterm:identifier "SDN:L05::LAB35" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-08-02 14:41:42.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB35/1> ;
   owl:versionInfo "1" ;
@@ -2562,6 +2870,7 @@ sdev:LAB36
   rdf:type skos:Concept ;
   dcterm:date "2012-08-02 14:44:24.0" ;
   dcterm:identifier "SDN:L05::LAB36" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-08-02 14:44:24.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB36/1> ;
   owl:versionInfo "1" ;
@@ -2577,6 +2886,8 @@ sdev:LAB37
   rdf:type skos:Concept ;
   dcterm:date "2012-08-02 14:45:33.0" ;
   dcterm:identifier "SDN:L05::LAB37" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-08-02 14:45:33.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB37/1> ;
   owl:versionInfo "1" ;
@@ -2593,6 +2904,7 @@ sdev:LAB38
   rdf:type skos:Concept ;
   dcterm:date "2014-12-16 08:36:22.0" ;
   dcterm:identifier "SDN:L05::LAB38" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2014-12-16 08:36:22.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB38/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB38/1> ;
@@ -2610,6 +2922,7 @@ sdev:LAB39
   rdf:type skos:Concept ;
   dcterm:date "2012-08-30 14:13:49.0" ;
   dcterm:identifier "SDN:L05::LAB39" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-08-30 14:13:49.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB39/1> ;
   owl:versionInfo "1" ;
@@ -2625,6 +2938,8 @@ sdev:LAB40
   rdf:type skos:Concept ;
   dcterm:date "2012-11-29 15:53:17.0" ;
   dcterm:identifier "SDN:L05::LAB40" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2012-11-29 15:53:17.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB40/1> ;
   owl:versionInfo "1" ;
@@ -2642,6 +2957,7 @@ sdev:LAB42
   rdf:type skos:Concept ;
   dcterm:date "2013-12-19 09:08:24.0" ;
   dcterm:identifier "SDN:L05::LAB42" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-12-19 09:08:24.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB42/1> ;
   owl:versionInfo "1" ;
@@ -2657,6 +2973,7 @@ sdev:LAB43
   rdf:type skos:Concept ;
   dcterm:date "2015-02-03 10:32:36.0" ;
   dcterm:identifier "SDN:L05::LAB43" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2015-02-03 10:32:36.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB43/1> ;
   owl:versionInfo "1" ;
@@ -2671,6 +2988,7 @@ sdev:LAB44
   rdf:type skos:Concept ;
   dcterm:date "2015-02-11 09:21:48.0" ;
   dcterm:identifier "SDN:L05::LAB44" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2015-02-11 09:21:48.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB44/1> ;
   owl:versionInfo "1" ;
@@ -2685,6 +3003,7 @@ sdev:LAB45
   rdf:type skos:Concept ;
   dcterm:date "2022-04-27 16:58:27.0" ;
   dcterm:identifier "SDN:L05::LAB45" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2022-04-27 16:58:27.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB45/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB45/1> ;
@@ -2700,6 +3019,7 @@ sdev:LAB46
   rdf:type skos:Concept ;
   dcterm:date "2022-04-27 16:58:27.0" ;
   dcterm:identifier "SDN:L05::LAB46" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2022-04-27 16:58:27.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB46/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB46/1> ;
@@ -2715,6 +3035,7 @@ sdev:LAB47
   rdf:type skos:Concept ;
   dcterm:date "2022-04-27 16:58:27.0" ;
   dcterm:identifier "SDN:L05::LAB47" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2022-04-27 16:58:27.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB47/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB47/1> ;
@@ -2731,6 +3052,7 @@ sdev:LAB48
   rdf:type skos:Concept ;
   dcterm:date "2016-03-10 06:47:31.0" ;
   dcterm:identifier "SDN:L05::LAB48" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2016-03-10 06:47:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB48/1> ;
   owl:versionInfo "1" ;
@@ -2746,6 +3068,7 @@ sdev:LAB49
   rdf:type skos:Concept ;
   dcterm:date "2016-11-29 15:10:58.0" ;
   dcterm:identifier "SDN:L05::LAB49" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2016-11-29 15:10:58.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB49/1> ;
   owl:versionInfo "1" ;
@@ -2761,6 +3084,7 @@ sdev:LAB51
   rdf:type skos:Concept ;
   dcterm:date "2021-01-25 10:23:18.0" ;
   dcterm:identifier "SDN:L05::LAB51" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2021-01-25 10:23:18.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB51/1> ;
   owl:versionInfo "1" ;
@@ -2775,6 +3099,7 @@ sdev:LVLST
   rdf:type skos:Concept ;
   dcterm:date "2017-09-06 11:47:02.0" ;
   dcterm:identifier "SDN:L05::LVLST" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2017-09-06 11:47:02.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LVLST/1> ;
   owl:versionInfo "1" ;
@@ -2789,6 +3114,8 @@ sdev:MMIS
   rdf:type skos:Concept ;
   dcterm:date "2013-02-18 08:17:53.0" ;
   dcterm:identifier "SDN:L05::MMIS" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2013-02-18 08:17:53.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/MMIS/1> ;
   owl:versionInfo "1" ;
@@ -2805,6 +3132,7 @@ sdev:MPIS
   rdf:type skos:Concept ;
   dcterm:date "2021-06-15 11:00:36.0" ;
   dcterm:identifier "SDN:L05::MPIS" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2021-06-15 11:00:36.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/MPIS/1> ;
   owl:versionInfo "1" ;
@@ -2819,6 +3147,7 @@ sdev:PERMON
   rdf:type skos:Concept ;
   dcterm:date "2014-07-22 09:29:48.0" ;
   dcterm:identifier "SDN:L05::PERMON" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2014-07-22 09:29:48.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/PERMON/1> ;
   owl:versionInfo "1" ;
@@ -2835,6 +3164,8 @@ sdev:TRTG
   rdf:type skos:Concept ;
   dcterm:date "2015-08-04 12:15:32.0" ;
   dcterm:identifier "SDN:L05::TRTG" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2015-08-04 12:15:32.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/TRTG/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/TRTG/1> ;
@@ -2852,6 +3183,7 @@ sdev:WDRG
   rdf:type skos:Concept ;
   dcterm:date "2017-09-06 11:48:32.0" ;
   dcterm:identifier "SDN:L05::WDRG" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2017-09-06 11:48:32.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/WDRG/1> ;
   owl:versionInfo "1" ;
@@ -2866,6 +3198,8 @@ sdev:WPS
   rdf:type skos:Concept ;
   dcterm:date "2015-02-11 09:24:01.0" ;
   dcterm:identifier "SDN:L05::WPS" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:authoredOn "2015-02-11 09:24:01.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/WPS/1> ;
   owl:versionInfo "1" ;
@@ -2881,10 +3215,12 @@ sdnk:SDNKG01
   rdf:type skos:Concept ;
   dcterm:date "2015-03-12 10:48:49.0" ;
   dcterm:identifier "SDN:L19::SDNKG01" ;
+  dcterm:source "<http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current/>" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/3> ;
   owl:versionInfo "3" ;
   skos:altLabel "instrument"@en ;
   skos:definition "Keyword describes or categorises sample collection or data production tools"@en ;
+  skos:inScheme <http://w3id.org/ogeochem/def/instrument/measurement/conceptscheme> ;
   skos:notation "SDN:L19::SDNKG01" ;
   skos:note "accepted"@en ;
   skos:prefLabel "Measurement instrument"@en ;
@@ -3227,6 +3563,7 @@ sdnc:ICAT03
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 13:02:59.0" ;
   dcterm:identifier "SDN:L21::ICAT03" ;
+  dcterm:source <http://w3id.org/ogeochem/def/instrument/measurement/conceptscheme> ;
   pav:authoredOn "2008-01-10 13:02:59.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L21/current/ICAT03/1> ;
   owl:versionInfo "1" ;
@@ -3295,6 +3632,7 @@ sdnc:ICAT04
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 13:02:59.0" ;
   dcterm:identifier "SDN:L21::ICAT04" ;
+  dcterm:source <http://w3id.org/ogeochem/def/instrument/measurement/conceptscheme> ;
   pav:authoredOn "2008-01-10 13:02:59.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L21/current/ICAT04/1> ;
   owl:versionInfo "1" ;
@@ -3398,6 +3736,7 @@ sdnc:ICAT05
   rdf:type skos:Concept ;
   dcterm:date "2008-01-10 13:02:59.0" ;
   dcterm:identifier "SDN:L21::ICAT05" ;
+  dcterm:source <http://w3id.org/ogeochem/def/instrument/measurement/conceptscheme> ;
   pav:authoredOn "2008-01-10 13:02:59.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L21/current/ICAT05/1> ;
   owl:versionInfo "1" ;
@@ -3453,6 +3792,7 @@ inst:TOOL0001
   rdf:type skos:Concept ;
   dcterm:date "2012-01-05 09:34:05.0" ;
   dcterm:identifier "SDN:L22::TOOL0001" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0001/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "CTD"@en ;
@@ -3473,6 +3813,7 @@ inst:TOOL0148
   rdf:type skos:Concept ;
   dcterm:date "2010-05-18 16:10:58.0" ;
   dcterm:identifier "SDN:L22::TOOL0148" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0148/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Unknown transmissometer"@en ;
@@ -3490,6 +3831,7 @@ inst:TOOL0237
   rdf:type skos:Concept ;
   dcterm:date "2010-05-18 16:10:58.0" ;
   dcterm:identifier "SDN:L22::TOOL0237" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0237/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Thermometer"@en ;
@@ -3505,6 +3847,7 @@ inst:TOOL0238
   rdf:type skos:Concept ;
   dcterm:date "2010-05-18 16:10:58.0" ;
   dcterm:identifier "SDN:L22::TOOL0238" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0238/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Hg RTM"@en ;
@@ -3520,6 +3863,7 @@ inst:TOOL0281
   rdf:type skos:Concept ;
   dcterm:date "2010-05-18 16:10:58.0" ;
   dcterm:identifier "SDN:L22::TOOL0281" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0281/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Barometer"@en ;
@@ -3535,6 +3879,7 @@ inst:TOOL0282
   rdf:type skos:Concept ;
   dcterm:date "2010-05-18 16:10:58.0" ;
   dcterm:identifier "SDN:L22::TOOL0282" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0282/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Hygrometer"@en ;
@@ -3550,6 +3895,7 @@ inst:TOOL0283
   rdf:type skos:Concept ;
   dcterm:date "2010-05-18 16:10:58.0" ;
   dcterm:identifier "SDN:L22::TOOL0283" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0283/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Air thermometer"@en ;
@@ -3565,6 +3911,7 @@ inst:TOOL0354
   rdf:type skos:Concept ;
   dcterm:date "2010-11-18 12:37:16.0" ;
   dcterm:identifier "SDN:L22::TOOL0354" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0354/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Hydrophone"@en ;
@@ -3592,6 +3939,7 @@ inst:TOOL0430
   rdf:type skos:Concept ;
   dcterm:date "2011-11-02 11:37:25.0" ;
   dcterm:identifier "SDN:L22::TOOL0430" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0430/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Secchi disk"@en ;
@@ -3607,6 +3955,7 @@ inst:TOOL0695
   rdf:type skos:Concept ;
   dcterm:date "2014-05-01 15:18:08.0" ;
   dcterm:identifier "SDN:L22::TOOL0695" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0695/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "CAE HE20/K pyranometer"@en ;
@@ -3623,6 +3972,7 @@ inst:TOOL0697
   dcterm:date "2017-03-22 11:27:08.0" ;
   dcterm:identifier "SDN:L22::TOOL0697" ;
   dcterm:isReplacedBy inst:TOOL000X ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0697/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0697/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0697/2> ;
@@ -3641,6 +3991,7 @@ inst:TOOL0702
   rdf:type skos:Concept ;
   dcterm:date "2022-10-24 12:57:12.0" ;
   dcterm:identifier "SDN:L22::TOOL0702" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0702/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0702/1> ;
   owl:versionInfo "2" ;
@@ -3657,6 +4008,7 @@ inst:TOOL0703
   rdf:type skos:Concept ;
   dcterm:date "2022-10-24 12:57:12.0" ;
   dcterm:identifier "SDN:L22::TOOL0703" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0703/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0703/1> ;
   owl:versionInfo "2" ;
@@ -3673,6 +4025,7 @@ inst:TOOL0722
   rdf:type skos:Concept ;
   dcterm:date "2014-07-09 16:23:06.0" ;
   dcterm:identifier "SDN:L22::TOOL0722" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0722/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Middleton EQ08"@en ;
@@ -3688,6 +4041,7 @@ inst:TOOL0723
   rdf:type skos:Concept ;
   dcterm:date "2014-07-09 16:23:06.0" ;
   dcterm:identifier "SDN:L22::TOOL0723" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0723/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Middleton SK01-DP2"@en ;
@@ -3703,6 +4057,7 @@ inst:TOOL0844
   rdf:type skos:Concept ;
   dcterm:date "2015-04-28 12:36:02.0" ;
   dcterm:identifier "SDN:L22::TOOL0844" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0844/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Pico-Technology PT-100"@en ;
@@ -3718,6 +4073,7 @@ inst:TOOL0867
   rdf:type skos:Concept ;
   dcterm:date "2016-04-11 16:29:35.0" ;
   dcterm:identifier "SDN:L22::TOOL0867" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0867/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0867/1> ;
   owl:versionInfo "2" ;
@@ -3734,6 +4090,7 @@ inst:TOOL0912
   rdf:type skos:Concept ;
   dcterm:date "2015-07-15 10:34:42.0" ;
   dcterm:identifier "SDN:L22::TOOL0912" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0912/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "RMR PRP model 1 solar radiation"@en ;
@@ -3749,6 +4106,7 @@ inst:TOOL0930
   rdf:type skos:Concept ;
   dcterm:date "2015-08-04 13:54:57.0" ;
   dcterm:identifier "SDN:L22::TOOL0930" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL0930/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Sea-Therm 4000L TS"@en ;
@@ -3764,6 +4122,7 @@ inst:TOOL1016
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:25:40.0" ;
   dcterm:identifier "SDN:L22::TOOL1016" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1016/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1016/1> ;
   owl:versionInfo "2" ;
@@ -3781,6 +4140,7 @@ inst:TOOL1034
   rdf:type skos:Concept ;
   dcterm:date "2016-11-10 12:55:24.0" ;
   dcterm:identifier "SDN:L22::TOOL1034" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1034/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Unknown microscope"@en ;
@@ -3796,6 +4156,7 @@ inst:TOOL1035
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1035" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1035/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1035/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1035/2> ;
@@ -3813,6 +4174,7 @@ inst:TOOL1036
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1036" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1036/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1036/1> ;
   owl:versionInfo "2" ;
@@ -3828,6 +4190,7 @@ inst:TOOL1037
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1037" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1037/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1037/1> ;
   owl:versionInfo "2" ;
@@ -3844,6 +4207,7 @@ inst:TOOL1038
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:25:40.0" ;
   dcterm:identifier "SDN:L22::TOOL1038" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1038/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1038/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1038/2> ;
@@ -3861,6 +4225,7 @@ inst:TOOL1039
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1039" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1039/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1039/1> ;
   owl:versionInfo "2" ;
@@ -3876,6 +4241,7 @@ inst:TOOL1040
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1040" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1040/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1040/1> ;
   owl:versionInfo "2" ;
@@ -3891,6 +4257,7 @@ inst:TOOL1041
   rdf:type skos:Concept ;
   dcterm:date "2022-03-18 14:33:52.0" ;
   dcterm:identifier "SDN:L22::TOOL1041" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1041/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1041/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1041/2> ;
@@ -3907,6 +4274,7 @@ inst:TOOL1042
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1042" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1042/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1042/1> ;
   owl:versionInfo "2" ;
@@ -3922,6 +4290,7 @@ inst:TOOL1043
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1043" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1043/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1043/1> ;
   owl:versionInfo "2" ;
@@ -3937,6 +4306,7 @@ inst:TOOL1044
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1044" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1044/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1044/1> ;
   owl:versionInfo "2" ;
@@ -3952,6 +4322,7 @@ inst:TOOL1045
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1045" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1045/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1045/1> ;
   owl:versionInfo "2" ;
@@ -3967,6 +4338,7 @@ inst:TOOL1046
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1046" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1046/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1046/1> ;
   owl:versionInfo "2" ;
@@ -3982,6 +4354,7 @@ inst:TOOL1047
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1047" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1047/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1047/1> ;
   owl:versionInfo "2" ;
@@ -3997,6 +4370,7 @@ inst:TOOL1048
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1048" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1048/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1048/1> ;
   owl:versionInfo "2" ;
@@ -4012,6 +4386,7 @@ inst:TOOL1049
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:37:04.0" ;
   dcterm:identifier "SDN:L22::TOOL1049" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1049/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1049/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1049/2> ;
@@ -4028,6 +4403,7 @@ inst:TOOL1050
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1050" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1050/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1050/1> ;
   owl:versionInfo "2" ;
@@ -4044,6 +4420,7 @@ inst:TOOL1051
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:37:04.0" ;
   dcterm:identifier "SDN:L22::TOOL1051" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1051/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1051/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1051/2> ;
@@ -4060,6 +4437,7 @@ inst:TOOL1052
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1052" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1052/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1052/1> ;
   owl:versionInfo "2" ;
@@ -4075,6 +4453,7 @@ inst:TOOL1053
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:25:40.0" ;
   dcterm:identifier "SDN:L22::TOOL1053" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1053/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1053/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1053/2> ;
@@ -4091,6 +4470,7 @@ inst:TOOL1054
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1054" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1054/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1054/1> ;
   owl:versionInfo "2" ;
@@ -4106,6 +4486,7 @@ inst:TOOL1055
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1055" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1055/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1055/1> ;
   owl:versionInfo "2" ;
@@ -4121,6 +4502,7 @@ inst:TOOL1056
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:37:04.0" ;
   dcterm:identifier "SDN:L22::TOOL1056" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1056/3> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1056/1> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1056/2> ;
@@ -4137,6 +4519,7 @@ inst:TOOL1057
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1057" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1057/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1057/1> ;
   owl:versionInfo "2" ;
@@ -4152,6 +4535,7 @@ inst:TOOL1058
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1058" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1058/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1058/1> ;
   owl:versionInfo "2" ;
@@ -4167,6 +4551,7 @@ inst:TOOL1059
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1059" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1059/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1059/1> ;
   owl:versionInfo "2" ;
@@ -4182,6 +4567,7 @@ inst:TOOL1060
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 14:35:44.0" ;
   dcterm:identifier "SDN:L22::TOOL1060" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1060/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1060/1> ;
   owl:versionInfo "2" ;
@@ -4198,6 +4584,7 @@ inst:TOOL1061
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1061" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1061/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AATSR"@en ;
@@ -4214,6 +4601,7 @@ inst:TOOL1062
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1062" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1062/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "ACE-FTS"@en ;
@@ -4228,6 +4616,7 @@ inst:TOOL1063
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1063" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1063/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AIRS"@en ;
@@ -4242,6 +4631,7 @@ inst:TOOL1064
   rdf:type skos:Concept ;
   dcterm:date "2022-03-18 14:36:09.0" ;
   dcterm:identifier "SDN:L22::TOOL1064" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1064/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1064/1> ;
   owl:versionInfo "2" ;
@@ -4258,6 +4648,7 @@ inst:TOOL1065
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1065" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1065/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AMSR-2"@en ;
@@ -4274,6 +4665,7 @@ inst:TOOL1066
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1066" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1066/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AMSR-E"@en ;
@@ -4290,6 +4682,7 @@ inst:TOOL1067
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1067" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1067/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AMSU-A"@en ;
@@ -4304,6 +4697,7 @@ inst:TOOL1068
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1068" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1068/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AMSU-B"@en ;
@@ -4318,6 +4712,7 @@ inst:TOOL1069
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1069" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1069/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "ASAR"@en ;
@@ -4332,6 +4727,7 @@ inst:TOOL1070
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1070" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1070/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "ASCAT"@en ;
@@ -4346,6 +4742,7 @@ inst:TOOL1071
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1071" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1071/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "ASTER"@en ;
@@ -4360,6 +4757,7 @@ inst:TOOL1072
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1072" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1072/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "ATSR-1"@en ;
@@ -4375,6 +4773,7 @@ inst:TOOL1073
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1073" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1073/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "ATSR-2"@en ;
@@ -4391,6 +4790,7 @@ inst:TOOL1074
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1074" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1074/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AVHRR/1"@en ;
@@ -4407,6 +4807,7 @@ inst:TOOL1075
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1075" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1075/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AVHRR/2"@en ;
@@ -4423,6 +4824,7 @@ inst:TOOL1076
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1076" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1076/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AVHRR/3"@en ;
@@ -4439,6 +4841,7 @@ inst:TOOL1077
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1077" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1077/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "ETM+"@en ;
@@ -4453,6 +4856,7 @@ inst:TOOL1078
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1078" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1078/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "GFO-RA"@en ;
@@ -4467,6 +4871,7 @@ inst:TOOL1079
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1079" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1079/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "GLAS"@en ;
@@ -4482,6 +4887,7 @@ inst:TOOL1080
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1080" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1080/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "GOME"@en ;
@@ -4496,6 +4902,7 @@ inst:TOOL1081
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1081" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1081/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "GOME-2"@en ;
@@ -4510,6 +4917,7 @@ inst:TOOL1082
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1082" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1082/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "GOMOS"@en ;
@@ -4524,6 +4932,7 @@ inst:TOOL1083
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1083" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1083/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "HRS"@en ;
@@ -4538,6 +4947,7 @@ inst:TOOL1084
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1084" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1084/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "IASI"@en ;
@@ -4552,6 +4962,7 @@ inst:TOOL1085
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1085" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1085/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "JAMI"@en ;
@@ -4566,6 +4977,7 @@ inst:TOOL1086
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1086" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1086/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "MERIS"@en ;
@@ -4580,6 +4992,7 @@ inst:TOOL1087
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1087" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1087/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "MIPAS"@en ;
@@ -4594,6 +5007,7 @@ inst:TOOL1088
   rdf:type skos:Concept ;
   dcterm:date "2016-11-15 15:28:05.0" ;
   dcterm:identifier "SDN:L22::TOOL1088" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1088/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "SAR-X"@en ;
@@ -4608,6 +5022,7 @@ inst:TOOL1090
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:37:04.0" ;
   dcterm:identifier "SDN:L22::TOOL1090" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1090/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1090/1> ;
   owl:versionInfo "2" ;
@@ -4623,6 +5038,7 @@ inst:TOOL1091
   rdf:type skos:Concept ;
   dcterm:date "2017-08-10 12:37:04.0" ;
   dcterm:identifier "SDN:L22::TOOL1091" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1091/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1091/1> ;
   owl:versionInfo "2" ;
@@ -4638,6 +5054,7 @@ inst:TOOL1120
   rdf:type skos:Concept ;
   dcterm:date "2017-04-04 10:06:11.0" ;
   dcterm:identifier "SDN:L22::TOOL1120" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1120/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "AERONET SeaPRISM"@en ;
@@ -4654,6 +5071,7 @@ inst:TOOL1261
   rdf:type skos:Concept ;
   dcterm:date "2018-08-02 15:26:57.0" ;
   dcterm:identifier "SDN:L22::TOOL1261" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1261/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "UnSpec sonobuoy"@en ;
@@ -4668,6 +5086,7 @@ inst:TOOL1272
   rdf:type skos:Concept ;
   dcterm:date "2018-08-02 15:26:57.0" ;
   dcterm:identifier "SDN:L22::TOOL1272" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1272/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "UnSpec conductivity sensor"@en ;
@@ -4682,6 +5101,7 @@ inst:TOOL1334
   rdf:type skos:Concept ;
   dcterm:date "2019-06-13 09:51:58.0" ;
   dcterm:identifier "SDN:L22::TOOL1334" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1334/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "HyperSAS radiometer"@en ;
@@ -4698,6 +5118,7 @@ inst:TOOL1349
   rdf:type skos:Concept ;
   dcterm:date "2019-08-09 15:59:15.0" ;
   dcterm:identifier "SDN:L22::TOOL1349" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1349/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1349/1> ;
   owl:versionInfo "2" ;
@@ -4715,6 +5136,7 @@ inst:TOOL1351
   rdf:type skos:Concept ;
   dcterm:date "2019-08-09 15:57:21.0" ;
   dcterm:identifier "SDN:L22::TOOL1351" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1351/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1351/1> ;
   owl:versionInfo "2" ;
@@ -4732,6 +5154,7 @@ inst:TOOL1352
   rdf:type skos:Concept ;
   dcterm:date "2019-08-09 15:57:45.0" ;
   dcterm:identifier "SDN:L22::TOOL1352" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1352/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1352/1> ;
   owl:versionInfo "2" ;
@@ -4749,6 +5172,7 @@ inst:TOOL1477
   rdf:type skos:Concept ;
   dcterm:date "2020-06-04 16:56:25.0" ;
   dcterm:identifier "SDN:L22::TOOL1477" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1477/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Unspecified telescope"@en ;
@@ -4765,6 +5189,7 @@ inst:TOOL1478
   rdf:type skos:Concept ;
   dcterm:date "2020-06-04 16:56:25.0" ;
   dcterm:identifier "SDN:L22::TOOL1478" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1478/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Unspecified binoculars"@en ;
@@ -4781,6 +5206,7 @@ inst:TOOL1591
   rdf:type skos:Concept ;
   dcterm:date "2021-01-18 12:15:06.0" ;
   dcterm:identifier "SDN:L22::TOOL1591" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1591/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Kistler 8395A accelerometer"@en ;
@@ -4797,6 +5223,7 @@ inst:TOOL1624
   rdf:type skos:Concept ;
   dcterm:date "2021-02-10 18:43:00.0" ;
   dcterm:identifier "SDN:L22::TOOL1624" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1624/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Thales DG16 DGPS"@en ;
@@ -4813,6 +5240,7 @@ inst:TOOL1625
   rdf:type skos:Concept ;
   dcterm:date "2021-02-10 18:43:00.0" ;
   dcterm:identifier "SDN:L22::TOOL1625" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1625/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Forsberg DNAV-212 DGPS"@en ;
@@ -4829,6 +5257,7 @@ inst:TOOL1626
   rdf:type skos:Concept ;
   dcterm:date "2021-02-10 18:43:00.0" ;
   dcterm:identifier "SDN:L22::TOOL1626" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1626/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Kongsberg Seatex DPS 112"@en ;
@@ -4845,6 +5274,7 @@ inst:TOOL1627
   rdf:type skos:Concept ;
   dcterm:date "2021-02-10 18:43:00.0" ;
   dcterm:identifier "SDN:L22::TOOL1627" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1627/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Trimble DSM 232 GPS"@en ;
@@ -4861,6 +5291,7 @@ inst:TOOL1633
   rdf:type skos:Concept ;
   dcterm:date "2021-02-10 18:43:00.0" ;
   dcterm:identifier "SDN:L22::TOOL1633" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1633/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Furuno GP170"@en ;
@@ -4877,6 +5308,7 @@ inst:TOOL1638
   rdf:type skos:Concept ;
   dcterm:date "2021-02-11 16:32:18.0" ;
   dcterm:identifier "SDN:L22::TOOL1638" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1638/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Smartfin temperature sensor"@en ;
@@ -4893,6 +5325,7 @@ inst:TOOL1675
   rdf:type skos:Concept ;
   dcterm:date "2021-04-20 15:56:20.0" ;
   dcterm:identifier "SDN:L22::TOOL1675" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1675/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Vaisala FD70 series"@en ;
@@ -4909,6 +5342,7 @@ inst:TOOL1734
   rdf:type skos:Concept ;
   dcterm:date "2022-10-24 12:57:12.0" ;
   dcterm:identifier "SDN:L22::TOOL1734" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1734/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1734/1> ;
   owl:versionInfo "2" ;
@@ -4926,6 +5360,7 @@ inst:TOOL1873
   rdf:type skos:Concept ;
   dcterm:date "2022-11-01 14:23:59.0" ;
   dcterm:identifier "SDN:L22::TOOL1873" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1873/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "K&Z CMP6 pyranometer"@en ;
@@ -4942,6 +5377,7 @@ inst:TOOL1885
   rdf:type skos:Concept ;
   dcterm:date "2022-12-21 16:50:36.0" ;
   dcterm:identifier "SDN:L22::TOOL1885" ;
+  dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1885/1> ;
   owl:versionInfo "1" ;
   skos:altLabel "Unspecified quanta meter"@en ;
