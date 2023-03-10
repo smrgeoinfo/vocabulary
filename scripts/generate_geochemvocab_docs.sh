@@ -5,7 +5,7 @@
 #
 SCRIPT_FOLDER="$(dirname ${0})"
 SOURCE_BASE="https://raw.githubusercontent.com/smrgeoinfo/vocabulary/main/geochemistry/"
-SOURCES=("GeoXAnalyticalTechnique.ttl"  "AnalyticalTechniqueMerg2.ttl" )
+SOURCES=(  "AnalyticalTechnique.ttl" )
 DEST_FOLDER="../geochemistry/html/"
 mkdir -p "${DEST_FOLDER}"
 for src in ${SOURCES[@]}; do
