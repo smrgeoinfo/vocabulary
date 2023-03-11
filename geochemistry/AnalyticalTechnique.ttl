@@ -82,6 +82,7 @@
   skos:definition "Devices that provide in-situ still or video images of a section including bottom water, the undisturbed sediment-water interface and the upper sediment layers."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::378" ;
   skos:note "accepted"@en ;
   skos:prefLabel "sediment profile imagers"@en ;
@@ -99,6 +100,7 @@
   skos:definition "Instruments measuring carbonate in sediments and inorganic carbon in the water column."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::86" ;
   skos:note "accepted"@en ;
   skos:prefLabel "inorganic carbon analysers"@en ;
@@ -123,6 +125,7 @@ sdev:LAB03
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB03" ;
   skos:note "accepted"@en ;
   skos:prefLabel "colorimeters"@en ;
@@ -176,6 +179,7 @@ sdev:LAB09
   skos:definition "Instruments that isotopically analyse a small area of sample by bombarding it with ions to form a plasma that is analysed in a mass spectrometer."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB09" ;
   skos:note "accepted"@en ;
   skos:prefLabel "ion microprobes"@en ;
@@ -216,6 +220,7 @@ sdev:LAB12
   skos:definition "Instruments that incrementally add quantified aliquites of a reagent to a sample until the end-point of a chemical reaction is reached."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB12" ;
   skos:note "accepted"@en ;
   skos:prefLabel "titrators"@en ;
@@ -236,6 +241,7 @@ sdev:LAB13
   skos:definition "Devices that determine the mass or weight of a sample."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:narrower <http://onto.nerc.ac.uk/CAST/151> ;
   skos:notation "SDN:L05::LAB13" ;
   skos:note "accepted"@en ;
@@ -251,13 +257,15 @@ sdev:LAB14
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB14/1> ;
   owl:sameAs <http://onto.nerc.ac.uk/CAST/137> ;
   owl:versionInfo "1" ;
+  skos:altLabel "inductively-coupled plasma atomic emission spectroscopes"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/photonspectrometer> ;
   skos:definition "Instruments that pass nebulised samples into an inductively-coupled gas plasma (8-10000 K) where they are atomised and excited. The de-excitation optical emissions at characteristic wavelengths are spectroscopically analysed."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB14" ;
   skos:note "accepted"@en ;
-  skos:prefLabel "inductively-coupled plasma atomic emission spectroscopes"@en ;
+  skos:prefLabel "Inductively coupled plasma atomic emission spectrometer"@en ;
 .
 sdev:LAB15
   skos:exactMatch <http://w3id.org/def/geochem/analyticaltechnique/instrument/inductivelycoupledplasmamassspectrometer> ;
@@ -282,6 +290,7 @@ sdev:LAB19
   skos:definition "Instruments separating gases, volatile substances or substances dissolved in a volatile solvent by transporting an inert gas through a column packed with a sorbent to a detector for assay by a mass spectrometer."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB19" ;
   skos:note "accepted"@en ;
   skos:prefLabel "gas chromatograph mass spectrometers"@en ;
@@ -303,6 +312,7 @@ sdev:LAB21
   skos:definition "Instruments assaying alpha and beta radiation by quantitative detection of visible light produced by the passage of rays or particles through a suitable scintillant incorporated into the sample."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB21" ;
   skos:note "accepted"@en ;
   skos:prefLabel "liquid scintillation counters"@en ;
@@ -321,6 +331,7 @@ sdev:LAB22
   skos:definition "Instruments measuring the relative levels of electromagnetic radiation of different wavelengths in the gamma-ray waveband."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB22" ;
   skos:note "accepted"@en ;
   skos:prefLabel "gamma-ray spectrometers"@en ;
@@ -343,6 +354,7 @@ sdev:LAB23
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB23" ;
   skos:note "accepted"@en ;
   skos:prefLabel "bench fluorometers"@en ;
@@ -362,6 +374,7 @@ sdev:LAB24
   skos:definition "Instruments that separate components in aqueous or organic solution based on molecular size generally for molecular weight determination."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB24" ;
   skos:note "accepted"@en ;
   skos:prefLabel "gel permeation chromatographs"@en ;
@@ -379,6 +392,7 @@ sdev:LAB25
   skos:definition "Instruments that identify and quantify the elemental constituents of a sample from the spectrum of electromagnetic radiation emitted by the atoms in the sample when excited by X-ray radiation."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB25" ;
   skos:note "accepted"@en ;
   skos:prefLabel "X-ray fluorescence analysers"@en ;
@@ -400,6 +414,7 @@ sdev:LAB27
   skos:definition "Instruments that measure the size spectrum of particles in a water or sediment sample."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB27" ;
   skos:note "accepted"@en ;
   skos:prefLabel "bench particle sizers"@en ;
@@ -412,12 +427,14 @@ sdev:LAB28
   pav:authoredOn "2010-02-19 11:52:56.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB28/1> ;
   owl:versionInfo "1" ;
+  skos:altLabel "thermal conductivimeters"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/analyticalinstrument> ;
   skos:definition "Laboratory instruments that determine the thermal conductivity of rock or sediment samples (including unopened cores)."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB28" ;
-  skos:note "accepted"@en ;
-  skos:prefLabel "thermal conductivimeters"@en ;
+  skos:note "new prefLabel"@en ;
+  skos:prefLabel "Thermal conductivity meter"@en ;
 .
 sdev:LAB29
   rdf:type skos:Concept ;
@@ -432,6 +449,7 @@ sdev:LAB29
   skos:definition "Devices that allow one or more physical dimensions of a sample or specimen to be determined by visible comparison against marked graduations in units of measurement of dimension length."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB29" ;
   skos:note "accepted"@en ;
   skos:prefLabel "rulers"@en ;
@@ -455,6 +473,7 @@ sdev:LAB30
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB30" ;
   skos:note "accepted"@en ;
   skos:prefLabel "salinometers"@en ;
@@ -473,6 +492,7 @@ sdev:LAB31
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/analyticalinstrument> ;
   skos:definition "Sensors, probes and meters that measure the degree to which a sample or part thereof is influenced by a magnetic field."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB31" ;
   skos:note "accepted"@en ;
   skos:prefLabel "magnetic susceptibility systems"@en ;
@@ -526,6 +546,7 @@ sdev:LAB34
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/analyticalinstrument> ;
   skos:definition "Laboratory apparatus that detemines the concentration of a chemical species by quantification of the electromagnetic radiation (usually visible light) produced by a chemical reaction."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB34" ;
   skos:note "accepted"@en ;
   skos:prefLabel "chemiluminescence analysers"@en ;
@@ -541,6 +562,7 @@ sdev:LAB35
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/electrochemicalinstrument> ;
   skos:definition "Instruments that obtain information about an analyte by applying a potential and measuring the current produced in the analyte."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB35" ;
   skos:note "accepted"@en ;
   skos:prefLabel "voltammetry analysers"@en ;
@@ -576,6 +598,7 @@ sdev:LAB38
   skos:broader sdev:LAB10 ;
   skos:definition "Instruments that illuminate a sample inside an optical cavity, typically using laser light, and measure the concentration or amount of a species in gas phase by absorption spectroscopy. Techniques include cavity ring-down spectroscopy (CRDS) and integrated cavity output spectroscopy (ICOS)."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB38" ;
   skos:note "accepted"@en ;
   skos:prefLabel "cavity enhanced absorption spectrometers"@en ;
@@ -591,6 +614,7 @@ sdev:LAB39
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/analyticalinstrument> ;
   skos:definition "Instruments that measure the amount of alpha, beta or gamma radiation through quantification of the ionization of a low-pressure gas contained in a tube. Sometimes referred to as Geiger-MÃ¼ller counters."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB39" ;
   skos:note "accepted"@en ;
   skos:prefLabel "Geiger counters"@en ;
@@ -626,6 +650,7 @@ sdev:LAB42
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/analyticalinstrument> ;
   skos:definition "Devices used to detect the distance between sensor and sample or presence/absence of an object based a light (often infrared and possibly laser) transmitter and a photoelectric receiver."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB42" ;
   skos:note "accepted"@en ;
   skos:prefLabel "laboratory optical rangefinders"@en ;
@@ -657,6 +682,7 @@ sdev:LAB44
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/analyticalinstrument> ;
   skos:definition "Instruments that measure the refractive index of a sample."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB44" ;
   skos:note "accepted"@en ;
   skos:prefLabel "refractometers"@en ;
@@ -673,6 +699,7 @@ sdev:LAB45
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/liquidchromatographyinstrument> ;
   skos:definition "Instruments that use ion chromatography to separate ions and polar molecules based on their affinity to an ion exchanger resin. Sample solutions pass through a pressurized chromatographic column where ions are absorbed by the resin and subsequently eluted using an ion extraction liquid. The retention time of different species determines the ionic concentrations in the sample."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB45" ;
   skos:note "accepted"@en ;
   skos:prefLabel "ion chromatography analysers"@en ;
@@ -689,6 +716,7 @@ sdev:LAB46
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/massspectrometer> ;
   skos:definition "Instruments that ionise trace gas molecules by proton transfer from protonated water, H3O. Ions of specific mass-to-charge ratios are then quantified in a quadrupole or time-of-flight mass spectrometer."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB46" ;
   skos:note "accepted"@en ;
   skos:prefLabel "proton transfer reaction mass spectrometers"@en ;
@@ -706,6 +734,7 @@ sdev:LAB47
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/massspectrometer> ;
   skos:definition "Instruments that measure isotopic ratios using thermal ionisation. Purified samples are heated to cause ionisation of atoms. Subsequently, ions are focused into a beam by an electromagnet and then separated into individual beams based on their mass/charge ratio."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB47" ;
   skos:note "accepted"@en ;
   skos:prefLabel "thermal ionisation mass spectrometers"@en ;
@@ -722,6 +751,7 @@ sdev:LAB48
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/massspectrometer> ;
   skos:definition "Instruments that measure isotopic ratios using an electron ionisation source. Atoms in purified samples are ionised using a beam of electrons under vacuum. Subsequently, ions are focused into a beam by an electromagnet and then separated into individual beams based on their mass/charge ratio."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB48" ;
   skos:note "accepted"@en ;
   skos:prefLabel "isotope ratio mass spectrometers"@en ;
@@ -738,6 +768,7 @@ sdev:LAB49
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/photonspectrometer> ;
   skos:definition "Instruments that illuminate the vapour from volatilised samples with light and quantify the intensity of light emitted, which is usually proportional to concentration."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB49" ;
   skos:note "accepted"@en ;
   skos:prefLabel "Atomic fluorescence spectrometers"@en ;
@@ -754,6 +785,7 @@ sdev:LAB51
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/opticalinstrument> ;
   skos:definition "Instruments that generate enlarged images of samples using the phenomena of digital inline holography with numerical reconstruction instead of reflection and absorption of visible light."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L05::LAB51" ;
   skos:note "accepted"@en ;
   skos:prefLabel "holographic microscopes"@en ;
@@ -769,6 +801,7 @@ sdev:LAB51
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/microscope> ;
   skos:definition "A generic term for an inverted (the light source illuminates the specimen from above) optical microscope."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L22::TOOL1034" ;
   skos:note "accepted"@en ;
   skos:prefLabel "Inverted Microscope (generic)"@en ;
@@ -803,6 +836,7 @@ sdev:LAB51
   skos:broader <http://vocab.nerc.ac.uk/collection/L05/current/311> ;
   skos:definition "An optical imager designed for high-resolution land observation, in particular fire fractional cover, as well as glacier, sea-ice, snow and cloud cover. The instrument carries out along-track stereoscopic measurements using two telescopes with a 20 degree fore and aft view respectively. Stereo images are thus acquired in pairs and within a 90 second interval, covering an area 120 km wide (swath), by up to 600 km long. The instrument has a panchromatic single-channel detector in the visible (VIS) spectrum within the (0.51 - 0.73) um range. The signal-to-noise ratio is 120 at 50% albedo, and the resolution at sub-satellite point is 10 m (cross-track), and 5 m (along-track). Flown on SPOT-5. http://www.wmo-sat.info/oscar/instruments/view/193"@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L22::TOOL1083" ;
   skos:note "accepted"@en ;
   skos:prefLabel "High-Resolution Stereoscopic instrument"@en ;
@@ -818,6 +852,7 @@ sdev:LAB51
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/spectrophotometer> ;
   skos:definition "A quanta and energy meter with applications in primary production studies. The instrument is used to measure the amount of light available for photosynthesis. As this is a photoelectric process, light is described in terms of quanta per second per surface unit for unit wavelength for the specific wavelength range 350 - 700 nm. This provides a complete spectral analysis of the energy available for photosynthesis."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:notation "SDN:L22::TOOL1885" ;
   skos:note "accepted"@en ;
   skos:prefLabel "Unspecified quanta spectrophotometer"@en ;
@@ -1214,6 +1249,7 @@ sdev:LAB51
   rdfs:label "High-resolution secondary ionization mass spectrometer"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/secondaryionmassspectrometer> ;
   skos:definition "Mass spectrometry technique in which a spot on the sample surface is bombarded with a beam of accelerated ions to excavate and ionize atoms from the sample for subsequet introduction into a mass analyzer. High resolution mass analyzers have adjustable slits to increase mass resolution. Components: 1) sample processing- polished surface; 2) ionization: secondary ionization. "@en ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "HRSIMS" ;
   skos:prefLabel "High-resolution secondary ionization mass spectrometer"@en ;
@@ -1365,6 +1401,7 @@ sdev:LAB51
   rdfs:label "Nanoscale secondary ion mass spectrometry"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/secondaryionmassspectrometer> ;
   skos:definition "NanoSIMS is an analytical instrument manufactured by CAMECA which operates on the principle of secondary ion mass spectrometry. The NanoSIMS is used to acquire nanoscale resolution measurements of the elemental and isotopic composition of a sample. The NanoSIMS is able to create nanoscale maps of elemental or isotopic distribution, parallel acquisition of up to seven masses, isotopic identification, high mass resolution, subparts-per-million sensitivity with spatial resolution down to 50 nm (https://en.wikipedia.org/wiki/Nanoscale_secondary_ion_mass_spectrometry) Images are formed by rastering the primary ion beam over an area of interest in the sample (usually <400 micron2). The resultant image shows the distribution of ions (isotopes) within the rastered area. Each pixel in the image correspond to a given ion counts.   The distributions of isotopes are shown in maps that represent concentrations as colors, very much like a weather radar map."@en ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "NANOSIMS" ;
   skos:prefLabel "Nanoscale secondary ion mass spectrometer"@en ;
@@ -1606,9 +1643,9 @@ sdev:LAB51
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Spectrophotometer"@en ;
   owl:versionInfo "2" ;
+  skos:altLabel "spectrophotometers"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/photonspectrometer> ;
-  skos:definition "Instrument that can measure the intensity of a light beam at different wavelengths. Although spectrophotometry is most commonly applied to ultraviolet, visible, and infrared radiation, modern spectrophotometers can interrogate wide swaths of the electromagnetic spectrum, including x-ray, ultraviolet, visible, infrared, and/or microwave wavelengths. A spectrophotometer is commonly used for the measurement of transmittance or reflectance of solutions, transparent or opaque solids, such as polished glass, or gases. (https://en.wikipedia.org/wiki/Spectrophotometry) If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. (https://en.wikipedia.org/wiki/Optical_spectrometer)"@en ;
-  skos:definition "Instruments measuring the relative absorption of electromagnetic radiation of different wavelengths in the near infra-red, visible and ultraviolet wavebands by samples."@en ;
+  skos:definition "Instruments measuring the relative absorption of electromagnetic radiation of different wavelengths in the near infra-red, visible and ultraviolet wavebands by samples.  Although spectrophotometry is most commonly applied to ultraviolet, visible, and infrared radiation, modern spectrophotometers can interrogate wide swaths of the electromagnetic spectrum, including x-ray, ultraviolet, visible, infrared, and/or microwave wavelengths. A spectrophotometer is commonly used for the measurement of transmittance or reflectance of solutions, transparent or opaque solids, such as polished glass, or gases. (https://en.wikipedia.org/wiki/Spectrophotometry) If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. (https://en.wikipedia.org/wiki/Optical_spectrometer)"@en ;
   skos:exactMatch sdev:LAB20 ;
   skos:exactMatch <http://w3id.org/def/geochem/analyticaltechnique/instrument/spectrophotometer> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
@@ -1618,7 +1655,6 @@ sdev:LAB51
   skos:notation "SDN:L05::LAB20" ;
   skos:note "accepted"@en ;
   skos:prefLabel "Spectrophotometer"@en ;
-  skos:prefLabel "spectrophotometers"@en ;
 .
 <http://w3id.org/def/geochem/analyticaltechnique/instrument/spectroradiometer>
   rdf:type skos:Concept ;
@@ -3933,6 +3969,7 @@ sdev:LAB51
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/atomicprobeinstrument> ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/surfaceanalysis> ;
   skos:definition "Scanning thermal microscopy (SThM) is a Contact Atomic Force Microscopy (AFM) technique that allows spatial mapping of temperature or thermal conductivity across a sample surface in addition to topography. (C.Daniel Frisbie, in Encyclopedia of Physical Science and Technology (Third Edition), 2003). This is a type of Scanning probe microscopy (SPM), a branch of microscopy that forms images of surfaces using a physical probe that scans the specimen (https://en.wikipedia.org/wiki/Scanning_probe_microscopy). When the tip is placed in contact with the sample, heat flows from the tip to sample. As the probe is scanned, the amount of heat flow changes. By monitoring the heat flow, one can create a thermal map of the sample, revealing spatial variations in thermal conductivity in a sample. (https://en.wikipedia.org/wiki/Scanning_thermal_microscopy)"@en ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "STHM-AFM" ;
   skos:prefLabel "Scanning Thermal Microscopy with AFM"@en ;
@@ -4009,6 +4046,7 @@ sdev:LAB51
   skos:altLabel "SENSITIVE HIGH-MASS-RESOLUTION ION MICROPROBE-REVERSE GEOMETRY ANALYSIS"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/instrument/secondaryionmassspectrometer> ;
   skos:definition "SHRIMP (large-diameter, double-focusing secondary ion mass spectrometer (SIMS) sector instrument produced by Australian Scientific Instruments in Canberra, Australia.) is an instrument. Technique is essentially SIMS. Components: 1) Sample preparation: polished surface; 2) ionization: secondary ion; 3) mass analyzer: dual focus electrostatic then magnetic; 4) detector: electron multiplier used for U-Pb work. (https://en.wikipedia.org/wiki/Sensitive_high-resolution_ion_microprobe). A SHRIMP is a double-focusing mass spectrometer that allows for a large spatial separation between different ion masses based on its relatively large size. For U-Pb analysis, the SHRIMP allows for the separation of Pb from other interfering molecular ions, such as HfO2+. (https://en.wikipedia.org/wiki/Isotope-ratio_mass_spectrometry)"@en ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/instrument> ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "SHRIMP" ;
   skos:prefLabel "Sensitive high mass-resolution ion microprobe"@en ;
