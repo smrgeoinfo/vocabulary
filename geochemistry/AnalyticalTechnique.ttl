@@ -1788,7 +1788,7 @@ sdev:LAB51
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Adsorption analysis"@en ;
   skos:altLabel "ADSORPTION"@en ;
-  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/other> ;
+  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/physicalpropertymeasurement> ;
   skos:definition "The gas adsorption technique may used to measure the specific surface area and pore size distribution of powdered or solid materials. The dry sample is usually evacuated of all gas and cooled to a temperature of 77K, the temperature of liquid nitrogen. At this temperature inert gases such as nitrogen, argon and krypton will physically adsorb on the surface of the sample. This adsorption process can be considered to be a reversible condensation or layering of molecules on the sample surface during which heat is evolved. Nitrogen gas is ideal for measuring surface area and pore size distribution. (http://www.cyto.purdue.edu/cdroms/cyto2/6/coulter/ss000107.htm)"@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "ADS" ;
@@ -1914,7 +1914,7 @@ sdev:LAB51
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Atom probe tomography"@en ;
-  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/other> ;
+  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/imagingtechniques> ;
   skos:definition "To conduct an atom probe experiment a very sharp needle shaped specimen is placed in an ultra high vacuum chamber. After introduction into the vacuum system, the sample is reduced to cryogenic temperatures (typically 20-100 K) and manipulated such that the needle's point is aimed towards an ion detector. A high voltage is applied to the specimen, and either a laser pulse is applied to the specimen or a voltage pulse (typically 1-2 kV) with pulse repetition rates in the hundreds of kilohertz range is applied to a counter electrode. The application of the pulse to the sample allows for individual atoms at the sample surface to be ejected as an ion from the sample surface at a known time. Typically the pulse amplitude and the high voltage on the specimen are computer controlled to encourage only one atom to ionize at a time, but multiple ionizations are possible. The delay between application of the pulse and detection of the ion(s) at the detector allow for the computation of a mass-to-charge ratio. The method is destructive in nature removing ions from a sample surface in order to image and identify them, generating magnifications sufficient to observe individual atoms as they are removed from the sample surface. Through coupling of this magnification method with time of flight mass spectrometry, ions evaporated by application of electric pulses can have their mass-to-charge ratio computed. Through successive evaporation of material, layers of atoms are removed from a specimen, allowing for probing not only of the surface, but also through the material itself.The instrument allows the three-dimensional reconstruction of up to billions of atoms from a sharp tip (corresponding to specimen volumes of 10,000-10,000,000 nm3). (https://en.wikipedia.org/wiki/Atom_probe)"@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "APT" ;
@@ -1963,6 +1963,7 @@ sdev:LAB51
   rdfs:label "Bioanalytical Method"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/analyticalmethod> ;
   skos:definition "Analytical technique to determine biochemical properties of samples from living organisms, particularly related to genomics or 'omics in general."@en ;
+  skos:editorialNote "This section is very incomplete; techniques that occur in source repository data are included, but this is mostly a hook for a more comple vocabulary of bioanalytical methods, out of scope at this time 2023-03-14."@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:prefLabel "Bioanalytical Method"@en ;
 .
@@ -2091,8 +2092,8 @@ sdev:LAB51
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Combustion analysis"@en ;
   skos:altLabel "COMBUSTION"@en ;
-  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/wetchemistry> ;
-  skos:definition "Technique for determination of empirical and molecular formulas for compounds that contain only carbon and hydrogen (CaHb) or carbon, hydrogen, and oxygen (CaHbOc). The steps for this procedure are: 1) Weigh a sample of the compound to be analyzed; 2) Burn the compound completely. 3)  H2O and CO2 are drawn through two tubes. One tube contains a substance that absorbs water, and the other contains a substance that absorbs carbon dioxide. Weigh each of these tubes before and after the combustion. The increase in mass in the first tube is the mass of H2O that formed in the combustion, and the increase in mass for the second tube is the mass of CO2 formed. Assume that all the carbon in the compound has been converted to CO2 and trapped in the second tube. Calculate the mass of carbon in the compound from the mass of carbon in the measured mass of CO2 formed. Assume that all of the hydrogen in the compound has been converted to H2O and trapped in the first tube. Calculate the mass of hydrogen in the compound from the mass of hydrogen in the measured mass of water. If the compound contains oxygen as well as carbon and hydrogen, calculate the mass of the oxygen by subtracting the mass of carbon and hydrogen from the total mass of the original sample of compound. (https://preparatorychemistry.com/Bishop_Combustion_Analysis.htm)"@en ;
+  skos:broader meth:benchchemistry ;
+  skos:definition "Technique for determination of empirical and molecular formulas for compounds that contain only carbon and hydrogen or carbon, hydrogen, and oxygen. The steps for this procedure are: 1) Weigh a sample of the compound to be analyzed; 2) Burn the compound completely. 3)  H2O and CO2 are drawn through two tubes. One tube contains a substance that absorbs water, and the other contains a substance that absorbs carbon dioxide. Weigh each of these tubes before and after the combustion. The increase in mass in the first tube is the mass of H2O that formed in the combustion, and the increase in mass for the second tube is the mass of CO2 formed. Assume that all the carbon in the compound has been converted to CO2 and trapped in the second tube. Calculate the mass of carbon in the compound from the mass of carbon in the measured mass of CO2 formed. Assume that all of the hydrogen in the compound has been converted to H2O and trapped in the first tube. Calculate the mass of hydrogen in the compound from the mass of hydrogen in the measured mass of water. If the compound contains oxygen as well as carbon and hydrogen, calculate the mass of the oxygen by subtracting the mass of carbon and hydrogen from the total mass of the original sample of compound. (https://preparatorychemistry.com/Bishop_Combustion_Analysis.htm)"@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "COMB" ;
   skos:prefLabel "Combustion analysis"@en ;
@@ -2544,7 +2545,7 @@ sdev:LAB51
   skos:altLabel "NICKEL SULFIDE FIRE ASSAY ISOTOPE DILUTION ANALYSIS"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/emissionspectrometry> ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/wetchemistry> ;
-  skos:definition "{@en}" ;
+  skos:definition "Used for Platinum group element (PGE) analyses. The  sample is decomposed by heating with nickel sulfide to form a button that is then dissolved in acid.  PGE constituents remain in the insoluble residue. After filtering, the residue is dissolved with aqua regia or a mixture of HCl and H2O2 and then determined by inductively coupled plasma-atomic emission spectrometry."@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "xFEMS" ;
   skos:prefLabel "Fire assay emission spectrometry"@en ;
@@ -2769,6 +2770,7 @@ sdev:LAB51
   rdfs:label "Geochronology techniques"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/analyticalmethod> ;
   skos:definition "Analytical techniques that have results interpreted to indicate the time interval since some event occurred in the history of a sample. Typically used to estimate crystallization ages, cooling ages (thermochronology), or exposure ages."@en ;
+  skos:editorialNote "This section is very incomplete; techniques that occur in source repository data are included, but this is mostly a hook for a more comple vocabulary of geochronology methods, out of scope at this time 2023-03-14."@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:prefLabel "Geochronology techiques"@en ;
 .
@@ -2795,18 +2797,18 @@ sdev:LAB51
   skos:notation "GIO" ;
   skos:prefLabel "Gradient ion chromatography"@en ;
 .
-<http://w3id.org/def/geochem/analyticaltechnique/method/gravimetry>
+<http://w3id.org/def/geochem/analyticaltechnique/method/gravimeticanalysis>
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
   dcterm:source "GeoRoc" ;
   dcterm:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
-  rdfs:label "Gravimetry"@en ;
+  rdfs:label "Gravimetric analysis"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/wetchemistry> ;
-  skos:definition "Gravimetry is the measurement of weight, a gravitational field, or density (Merriam-Webster, https://www.merriam-webster.com/dictionary/gravimetry. Accessed 6 Feb. 2023.) Gravimetric analysis measures the weight or concentration of a solid that has either formed from a precipitate or dissolved in a liquid. ( https://en.wikipedia.org/wiki/Wet_chemistry#Gravimetric_analysis ). Gravimeters can be regarded as special-purpose accelerometers. (https://en.wikipedia.org/wiki/Gravimetry). An accelerometer is a damped mass, a proof mass, on a spring. When the accelerometer experiences an acceleration, the mass is moved to the point that the spring can push (accelerate) the mass at the same speed as the casing. The measurement of the spring's compression measures the acceleration. (https://en.wikipedia.org/wiki/Accelerometer)."@en ;
+  skos:definition "Gravimetry is the measurement of weight, a gravitational field, or density (Merriam-Webster, https://www.merriam-webster.com/dictionary/gravimetry. Accessed 6 Feb. 2023.) Gravimetric analysis measures the weight or concentration of a solid that has either formed from a precipitate or dissolved in a liquid. ( https://en.wikipedia.org/wiki/Wet_chemistry#Gravimetric_analysis;  https://www.allthescience.org/what-is-bench-chemistry.htm)."@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "GRAV" ;
-  skos:prefLabel "Gravimetry"@en ;
+  skos:prefLabel "Gravimetric analysis"@en ;
 .
 <http://w3id.org/def/geochem/analyticaltechnique/method/gutzeittest>
   rdf:type skos:Concept ;
@@ -3213,7 +3215,7 @@ sdev:LAB51
   dcterm:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Manometry"@en ;
-  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/wetchemistry> ;
+  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/physicalpropertymeasurement> ;
   skos:definition "measurment of the pressure of gases or vapors"@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "MANO" ;
@@ -3627,7 +3629,7 @@ sdev:LAB51
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Penfield method analysis"@en ;
   skos:altLabel "PENFIELD METHOD"@en ;
-  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/wetchemistry> ;
+  skos:broader meth:benchchemistry ;
   skos:definition "[Penfield was mineralogist at Yale, late 1800-1906, developed methods for analyzing fluorine. Can't tell exactly what this technique is supposed to be]"@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "PEN" ;
@@ -3814,7 +3816,8 @@ sdev:LAB51
   dcterm:source "Own" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Pyrolysis Gas Chromatography Flame Ionization Detection"@en ;
-  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/gaschromatographyanalysis> ;
+  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/gaschromatographyflameionizationdetection> ;
+  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/workflow/pyrolysisgaschromatography> ;
   skos:definition "Pyrolysis Gas Chromatography that uses a flame ionization detector (FID) to measure the concentration of organic species in a gas stream emerging from the column. An FID typically uses a Hydrogen/Air flame into which the sample is passed to oxidize organic molecules and produces electrically charged particles (ions). The ions are collected and produce an electrical signal which is then measured. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111)"@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "Py-GC-FID" ;
@@ -4418,10 +4421,9 @@ sdev:LAB51
   dcterm:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/def/geochem/analyticaltechnique> ;
   rdfs:label "Wet chemistry"@en ;
-  skos:altLabel "Bench Chemistry"@en ;
   skos:altLabel "WET-CHEMICAL ANALYSIS"@en ;
-  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/analyticalmethod> ;
-  skos:definition "Wet chemistry is a form of analytical chemistry that uses classical methods such as observation to analyze materials. It is called wet chemistry since most analyzing is done in the liquid phase, but vocabulary includes some 'bench' techniques that do not involve liquids. (https://en.wikipedia.org/wiki/Wet_chemistry)"@en ;
+  skos:broader meth:benchchemistry ;
+  skos:definition "Wet chemistry is a form of analytical chemistry that uses classical methods such as observation to analyze materials. It is called wet chemistry since most analyzing is done in the liquid phase. (https://en.wikipedia.org/wiki/Wet_chemistry)"@en ;
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "WET" ;
   skos:prefLabel "Wet chemistry"@en ;
@@ -4772,7 +4774,7 @@ sdev:LAB51
   rdfs:label "Pyrolysis Gas Chromatography"@en ;
   skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/gaschromatographyanalysis> ;
   skos:definition "Chromatography in which an analytical sample is thermally decomposed to smaller fragments before entering the column. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111). "@en ;
-  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/workflow> ;
+  skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/method> ;
   skos:notation "Py-GC" ;
   skos:prefLabel "Pyrolysis Gas Chromatography"@en ;
 .
@@ -4824,6 +4826,14 @@ sdev:LAB51
   skos:inScheme <http://w3id.org/def/geochem/analyticaltechnique/workflow> ;
   skos:prefLabel "Workflow Component"@en ;
   skos:topConceptOf <http://w3id.org/def/geochem/analyticaltechnique/workflow> ;
+.
+meth:benchchemistry
+  rdf:type skos:Concept ;
+  dcterm:source "SMR add" ;
+  rdfs:label "Bench chemistry "@en ;
+  skos:broader <http://w3id.org/def/geochem/analyticaltechnique/method/analyticalmethod> ;
+  skos:definition "Analytical techniques performed by an analyst mixing and handling chemicals directly, not employing any of the high-tech devices or theoretical approaches that may be associated with the most state-of-the-art aspects of the discipline. " ;
+  skos:prefLabel "Bench chemistry "@en ;
 .
 <http://www.w3.org/2004/02/skos/core>
   rdf:type owl:Ontology ;
