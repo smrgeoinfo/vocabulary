@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-03-15T09:26:41.028027+00:00"
+This file generated at: "2023-03-15T13:28:24.880048+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -2836,9 +2836,10 @@ Namespace:
         - [Electron backscatter diffraction](#electronbackscatterdiffraction)
         - [Transmitted electron diffraction](#transmittedelectrondiffraction)
     - [Elemental analysis ](#elementalanalysis)
-        - [Elemental analyzer mass spectrometry](#elementalanalyzermassspectrometry)
+        - [Elemental analysis infrared spectrometry ](#elementalanalysisinfraredspectrometry)
+        - [Elemental analysis mass spectrometry](#elementalanalysismassspectrometry)
             - [Continuous flow isotope ratio mass spectrometry](#continuousflowisotoperatiomassspectrometry)
-            - [Elemental analyzer isotope ratio mass spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
+            - [Elemental analysis isotope ratio mass spectrometry](#elementalanalysisisotoperatiomassspectrometry)
     - [Geochronology techiques](#geochronology)
         - [Alpha recoil track counting](#alpharecoiltrackcounting)
         - [Electron spin resonance age analysis](#electronspinresonanceageanalysis)
@@ -2866,6 +2867,7 @@ Namespace:
             - [X-ray composition map](#xraymap)
                 - [Energy dispersive X-ray spectral data 2D raster](#energydispersivexrayspectraraster)
         - [X-ray photoelectron spectrometry composition mapping](#xrayphotoelectronspectroscopycompositionmap)
+    - [Loss on ignition analysis ](#lossonignitionanalysis)
     - [Magnetic field measurement ](#magneticfieldmeasurement)
     - [Microscopy](#microscopy)
         - [Fluorescence microscopy](#fluorescencemicroscopy)
@@ -2897,6 +2899,7 @@ Namespace:
         - [Neutron activation analysis](#neutronactivationanalysis)
             - [Epithermal neutron activation analysis](#epithermalneutronactivationanalysis)
             - [Instrumental neutron activation analysis](#instrumentalneutronactivationanalysis)
+            - [Pre irradiation group concentration neutron activation analysis ](#pigsneutronactivationanalysis)
             - [Prompt gamma neutron activation analysis](#promptgammaneutronactivationanalysis)
             - [Radiochemical neutron activation analysis](#radiochemicalneutronactivationanalysis)
         - [Photon activation analysis](#photonactivationanalysis)
@@ -2935,9 +2938,9 @@ Namespace:
                 - [X-ray photoelectron spectrometery](#xrayphotoelectronspectrometery)
             - [Mass spectrometry](#massspectrometry)
                 - [Accelerator mass spectrometry](#acceleratormassspectrometry)
-                - [Elemental analyzer mass spectrometry](#elementalanalyzermassspectrometry)
+                - [Elemental analysis mass spectrometry](#elementalanalysismassspectrometry)
                     - [Continuous flow isotope ratio mass spectrometry](#continuousflowisotoperatiomassspectrometry)
-                    - [Elemental analyzer isotope ratio mass spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
+                    - [Elemental analysis isotope ratio mass spectrometry](#elementalanalysisisotoperatiomassspectrometry)
                 - [Fourier transform ion cyclotron resonance mass spectrometry](#fouriertransformioncyclotronresonancemassspectrometry)
                 - [Gas chromatography mass spectrometry](#gaschromatographymassspectrometry)
                     - [Pyrolysis gas chromatography mass spectrometry](#pyrolysisgaschromatographymassspectrometry)
@@ -2945,12 +2948,13 @@ Namespace:
                 - [Isotope ratio mass spectrometry](#isotoperatiomassspectrometry)
                     - [Continuous flow isotope ratio mass spectrometry](#continuousflowisotoperatiomassspectrometry)
                     - [Dual inlet isotope ratio mass spectrometry](#dualinletisotoperatiomassspectrometry)
-                    - [Elemental analyzer isotope ratio mass spectrometry](#elementalanalyzerisotoperatiomassspectrometry)
+                    - [Elemental analysis isotope ratio mass spectrometry](#elementalanalysisisotoperatiomassspectrometry)
                     - [Gas chromatography combustion isotopic ratio mass spectrometry](#gaschromatographycombustionisotopicratiomassspectrometry)
                     - [Laser fluorination analysis](#laserfluorinationanalysis)
                     - [Stepped heating carbon and nitrogen isotopic analysis](#steppedheatingcarbonandnitrogenisotopicanalysis)
                 - [Laser ablation mass spectrometry](#laserablationmassspectrometry)
                     - [Laser ablation inductively coupled plasma mass spectrometry](#laserablationinductivelycoupledplasmamassspectrometry)
+                    - [Laser ablation split stream mass spectrometry ](#lassmassspectrometry)
                 - [Liquid chromatography mass spectrometry](#liquidchromatographymassspectrometry)
                 - [Micromass multiprep mass spectrometry](#micromassmultiprepmassspectrometry)
                 - [Noble gas mass spectrometry](#noblegasmassspectrometry)
@@ -4366,9 +4370,32 @@ GeoRoc, PetDb, Astromat
 - Concept URI token: elementalanalysis
 
 
-[]{#elementalanalyzermassspectrometry}
+[]{#elementalanalysisinfraredspectrometry}
 
-####  Elemental analyzer mass spectrometry
+####  Elemental analysis infrared spectrometry
+
+
+- Child of:
+ [`elementalanalysis`](#elementalanalysis)
+
+- Technique that uses an elemental analyzer (typically a pyrolysis
+process to extract volatile components in the sample) to extract the
+aliquots (typically as gas) to be analyzed using infrared
+spectrometry.
+
+- **Alternate labels:**
+INFRARED QUANTIFICATION AND HIGH TEMPERATURE EVOLUTION ANALYSIS
+
+
+- **Source:**
+SMR add
+
+- Concept URI token: elementalanalysisinfraredspectrometry
+
+
+[]{#elementalanalysismassspectrometry}
+
+####  Elemental analysis mass spectrometry
 
 
 - Child of:
@@ -4380,10 +4407,14 @@ a pyrolysis process to extract volatile components in the sample) to
 extract the aliquots (typically as gas) to be atomized and passed to
 the mass analyzer.
 
+- **Alternate labels:**
+Elemental analyzer mass spectrometry
+
+
 - **Source:**
 Astromat
 
-- Concept URI token: elementalanalyzermassspectrometry
+- Concept URI token: elementalanalysismassspectrometry
 
 
 []{#continuousflowisotoperatiomassspectrometry}
@@ -4392,7 +4423,7 @@ Astromat
 
 
 - Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`elementalanalysismassspectrometry`](#elementalanalysismassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
 - Isotope-Ratio mass spectrometry that extracts analytes from a sample
@@ -4414,30 +4445,30 @@ PetDb,
 - Concept URI token: continuousflowisotoperatiomassspectrometry
 
 
-[]{#elementalanalyzerisotoperatiomassspectrometry}
+[]{#elementalanalysisisotoperatiomassspectrometry}
 
-#####  Elemental analyzer isotope ratio mass spectrometry
+#####  Elemental analysis isotope ratio mass spectrometry
 
 
 - Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`elementalanalysismassspectrometry`](#elementalanalysismassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
 - Measurement and study of the relative abundances of the different
 isotopes of an element in a material using a mass spectrometer which
 is coupled with an elemental analyzer. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
+https://doi.org/10.1351/PAC-REC-06-04-06). Isotope and chemical
 analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
 
 - **Alternate labels:**
-Elemental analysis - isotope ratio mass spectrometry
+Elemental analyzer - isotope ratio mass spectrometry
 
 
 - **Source:**
 Earth Chem, 
 O-REx techniques, 
 
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
+- Concept URI token: elementalanalysisisotoperatiomassspectrometry
 
 
 []{#geochronology}
@@ -5138,6 +5169,30 @@ characteristic energy peaks.
 X-ray photoelectron spectroscopy (XPS) elemental/chemical maps
 
 - Concept URI token: xrayphotoelectronspectroscopycompositionmap
+
+
+[]{#lossonignitionanalysis}
+
+###  Loss on ignition analysis
+
+
+- Child of:
+ [`analyticalmethod`](#analyticalmethod)
+
+- Method consists of ‘igniting’ (vigorous heating) a sample at a
+designated temperature which enables volatile substances within the
+sample material to escape, until the mass of the sample ceases to
+change. This process is often performed within air but may be done in
+another inert or reactive atmosphere.  Loss on Ignition measures the
+organic matter content in samples. The volatile materials lost during
+the analysis typically consist of combined water (hydrates, for
+example) and CO2 from carbonates. (https://www.precisa.com/blog/what-
+is-loss-on-ignition-loi)
+
+- **Source:**
+SMR add
+
+- Concept URI token: lossonignitionanalysis
 
 
 []{#magneticfieldmeasurement}
@@ -5908,6 +5963,32 @@ irradiation 2) gamma ray spectrometry
 GeoRoc
 
 - Concept URI token: instrumentalneutronactivationanalysis
+
+
+[]{#pigsneutronactivationanalysis}
+
+#####  Pre irradiation group concentration neutron activation analysis
+
+
+- Child of:
+ [`neutronactivationanalysis`](#neutronactivationanalysis)
+
+- A pre-irradiation group concentration method invovling analysis of
+REE relative to samarium (Sm).  The sample is split in two portions.
+Sm and Nd content of the rock is determined by mass spectrometry
+isotope dilution analysis on one split. The other split is  further
+purified for REE by cation-exchange, and is used to determine the
+abundance of REE relative to Sm by NAA. The REE content of the rock is
+found by normalization to Sm content determined by mass spectrometry
+in the first portion. The result are directly comparable to REE
+analyzed by conventional INAA.
+(https://doi.org/10.1016/0009-2541(90)90036-7,
+https://doi.org/10.1002/gj.907, http://dx.doi.org/10.1007/BF02055022)
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: pigsneutronactivationanalysis
 
 
 []{#promptgammaneutronactivationanalysis}
@@ -6870,9 +6951,9 @@ Astromat
 - Concept URI token: acceleratormassspectrometry
 
 
-[]{#elementalanalyzermassspectrometry}
+[]{#elementalanalysismassspectrometry}
 
-######  Elemental analyzer mass spectrometry
+######  Elemental analysis mass spectrometry
 
 
 - Child of:
@@ -6884,10 +6965,14 @@ a pyrolysis process to extract volatile components in the sample) to
 extract the aliquots (typically as gas) to be atomized and passed to
 the mass analyzer.
 
+- **Alternate labels:**
+Elemental analyzer mass spectrometry
+
+
 - **Source:**
 Astromat
 
-- Concept URI token: elementalanalyzermassspectrometry
+- Concept URI token: elementalanalysismassspectrometry
 
 
 []{#continuousflowisotoperatiomassspectrometry}
@@ -6896,7 +6981,7 @@ Astromat
 
 
 - Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`elementalanalysismassspectrometry`](#elementalanalysismassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
 - Isotope-Ratio mass spectrometry that extracts analytes from a sample
@@ -6918,30 +7003,30 @@ PetDb,
 - Concept URI token: continuousflowisotoperatiomassspectrometry
 
 
-[]{#elementalanalyzerisotoperatiomassspectrometry}
+[]{#elementalanalysisisotoperatiomassspectrometry}
 
-#######  Elemental analyzer isotope ratio mass spectrometry
+#######  Elemental analysis isotope ratio mass spectrometry
 
 
 - Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`elementalanalysismassspectrometry`](#elementalanalysismassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
 - Measurement and study of the relative abundances of the different
 isotopes of an element in a material using a mass spectrometer which
 is coupled with an elemental analyzer. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
+https://doi.org/10.1351/PAC-REC-06-04-06). Isotope and chemical
 analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
 
 - **Alternate labels:**
-Elemental analysis - isotope ratio mass spectrometry
+Elemental analyzer - isotope ratio mass spectrometry
 
 
 - **Source:**
 Earth Chem, 
 O-REx techniques, 
 
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
+- Concept URI token: elementalanalysisisotoperatiomassspectrometry
 
 
 []{#fouriertransformioncyclotronresonancemassspectrometry}
@@ -7074,7 +7159,7 @@ GeoRoc
 
 
 - Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`elementalanalysismassspectrometry`](#elementalanalysismassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
 - Isotope-Ratio mass spectrometry that extracts analytes from a sample
@@ -7120,30 +7205,30 @@ GeoRoc
 - Concept URI token: dualinletisotoperatiomassspectrometry
 
 
-[]{#elementalanalyzerisotoperatiomassspectrometry}
+[]{#elementalanalysisisotoperatiomassspectrometry}
 
-#######  Elemental analyzer isotope ratio mass spectrometry
+#######  Elemental analysis isotope ratio mass spectrometry
 
 
 - Child of:
- [`elementalanalyzermassspectrometry`](#elementalanalyzermassspectrometry)
+ [`elementalanalysismassspectrometry`](#elementalanalysismassspectrometry)
  [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
 
 - Measurement and study of the relative abundances of the different
 isotopes of an element in a material using a mass spectrometer which
 is coupled with an elemental analyzer. (Source: IUPAC;
-https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical
+https://doi.org/10.1351/PAC-REC-06-04-06). Isotope and chemical
 analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)
 
 - **Alternate labels:**
-Elemental analysis - isotope ratio mass spectrometry
+Elemental analyzer - isotope ratio mass spectrometry
 
 
 - **Source:**
 Earth Chem, 
 O-REx techniques, 
 
-- Concept URI token: elementalanalyzerisotoperatiomassspectrometry
+- Concept URI token: elementalanalysisisotoperatiomassspectrometry
 
 
 []{#gaschromatographycombustionisotopicratiomassspectrometry}
@@ -7298,6 +7383,29 @@ O-REx techniques,
 PetDb, 
 
 - Concept URI token: laserablationinductivelycoupledplasmamassspectrometry
+
+
+[]{#lassmassspectrometry}
+
+#######  Laser ablation split stream mass spectrometry
+
+
+- Child of:
+ [`laserablationmassspectrometry`](#laserablationmassspectrometry)
+
+- The output from laser ablation of a single analysis spot is split
+between two mass spectrometers (typically ICPMS). The technique allows
+simultaneous analyses of different geochemical systems in mineral
+samples using two or more mass spectrometers. An important application
+is the determination of the complementary isotopic systems of Lu-Hf
+and U-Pb (age)(https://assets.thermofisher.com/TFS-
+Assets/CMD/Application-Notes/AN-30298-ICP-MS-Laser-Ablation-Split-
+Stream-AN30298-EN.pdf)
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: lassmassspectrometry
 
 
 []{#liquidchromatographymassspectrometry}
@@ -9899,15 +10007,20 @@ Namespace:
         - [Electrospray ionization](#electrosprayionization)
         - [Inductively coupled plasma](#inductivelycoupledplasma)
         - [Laser ablation source](#laserablationsource)
+            - [Ultraviolet laser ablation ](#ultravioletlaserablation)
         - [Secondary ion source](#secondaryionsource)
         - [Thermal ionization](#thermalionization)
     - [Pyrolysis ](#pyrolysis)
+        - [Calcination ](#calcination)
+        - [Pyrohydrolysis ](#pyrohydrolysis)
+        - [Vacuum pyrolysis ](#vacuumpyrolysis)
     - [Sample preparation](#samplepreparation)
         - [Bioanalytical sample preparation](#bioanalyticalsamplepreparation)
             - [DNA fragmentation](#dnafragmentation)
             - [DNA library preparation](#dnalibrarypreparation)
             - [Polymerase chain reaction](#polymerasechainreaction)
         - [Microtomy](#microtomy)
+    - [Water by difference calculation ](#waterbydifferencecalculation)
 
 **Concepts**
 
@@ -10341,6 +10454,22 @@ reorganize mass spectrometer classes [SMR]
 - Concept URI token: laserablationsource
 
 
+[]{#ultravioletlaserablation}
+
+#####  Ultraviolet laser ablation
+
+
+- Child of:
+ [`laserablationsource`](#laserablationsource)
+
+- atomization/ionization using an ultraviolet laser source
+
+- **Source:**
+Astromat
+
+- Concept URI token: ultravioletlaserablation
+
+
 []{#secondaryionsource}
 
 ####  Secondary ion source
@@ -10396,6 +10525,71 @@ and loss on ignition analysis
 SMR add
 
 - Concept URI token: pyrolysis
+
+
+[]{#calcination}
+
+####  Calcination
+
+
+- Child of:
+ [`pyrolysis`](#pyrolysis)
+
+- calcination refers to the heating of inorganic materials to remove
+volatile components (B. Rand, in Concise Encyclopedia of Advanced
+Ceramic Materials, 1991)
+
+- **Alternate labels:**
+CALCINATION ANALYSIS
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: calcination
+
+
+[]{#pyrohydrolysis}
+
+####  Pyrohydrolysis
+
+
+- Child of:
+ [`pyrolysis`](#pyrolysis)
+
+- Pyrohydrolysis is a sample preparation technique widely employed for
+the separation of fluorine, chlorine, bromine, iodine, boron and
+sulphur from solid samples which include refractive materials that are
+difficult to dissolve. Pyrohydrolysis is based on the principle that
+pulverization of a soild sample due to the combined action of heat and
+steam at high temperature produces volatile compounds of the analytes
+which are trapped in an alkaline solution for subsequent analysis.
+(https://doi.org/10.15406/oajs.2018.02.00103)
+
+- **Source:**
+GeoRoc, Astromat
+
+- Concept URI token: pyrohydrolysis
+
+
+[]{#vacuumpyrolysis}
+
+####  Vacuum pyrolysis
+
+
+- Child of:
+ [`pyrolysis`](#pyrolysis)
+
+- thermal decomposition of materials at elevated temperatures in a
+vacuum; decomposes organic molecules without combustion (https://en.wi
+kipedia.org/wiki/Pyrolysis;(https://en.wikipedia.org/wiki/Vacuum_fusio
+n). A metal sample is melted in a vacuum and gas collected, possibly
+cleaned, and analyzed.
+
+- **Source:**
+GeoRoc, PetDb, Astromat
+
+- Concept URI token: vacuumpyrolysis
 
 
 []{#samplepreparation}
@@ -10514,6 +10708,36 @@ https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2).
 Geo-X, DFG
 
 - Concept URI token: microtomy
+
+
+[]{#waterbydifferencecalculation}
+
+###  Water by difference calculation
+
+
+- Child of:
+ [`workflowcomponent`](#workflowcomponent)
+
+- method to determine water in hydrated glasses, by adding up all the
+elements (and their associated stoichiometric oxygen), and then
+subtracting that sum from 100 to obtain the so called water by
+difference. This water is then included in the matrix correction. The
+value of H2O obtained by difference needs to be iterated in the matrix
+correction for the other elements because the oxygen (in the water)
+absorbs the emission lines of the other elements, particularly Si. By
+not including the H2O (by difference) in the matrix correction, the Si
+ka absorption correction will be underestimated because oxygen absorbs
+Si Ka more than silicon does.
+https://probesoftware.com/smf/index.php?topic=922.msg5937#msg5937
+
+- **Alternate labels:**
+WATER-BY-DIFFERENCE ANALYSIS
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: waterbydifferencecalculation
 
 
 
