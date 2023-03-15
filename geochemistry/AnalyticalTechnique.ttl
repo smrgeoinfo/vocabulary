@@ -2409,6 +2409,15 @@ meth:elementalanalysis
   skos:inScheme analt:method ;
   skos:prefLabel "Elemental analysis "@en ;
 .
+meth:elementalanalysisinfraredspectrometry
+  rdf:type skos:Concept ;
+  dcterm:source "SMR add" ;
+  rdfs:label "Elemental analysis infrared spectrometry "@en ;
+  skos:altLabel "INFRARED QUANTIFICATION AND HIGH TEMPERATURE EVOLUTION ANALYSIS" ;
+  skos:broader meth:elementalanalysis ;
+  skos:definition "Technique that uses an elemental analyzer (typically a pyrolysis process to extract volatile components in the sample) to extract the aliquots (typically as gas) to be analyzed using infrared spectrometry."@en ;
+  skos:prefLabel "Elemental analysis infrared spectrometry "@en ;
+.
 meth:elementalanalyzerisotoperatiomassspectrometry
   rdf:type skos:Concept ;
   dcterm:source "Earth Chem" ;
@@ -3199,6 +3208,15 @@ meth:lockinthermography
   skos:definition "The principle of lock-in thermography is based on the application of a periodic input energy wave (i.e. thermal emitter, ultrasound, microwave, eddy current, flash or xenon lamp, halogen lamp, or laser) to the surface of the object being examined and analyzing the resulting local temperatures on the surface of the object using an infrared camera. When the input energy wave penetrates the object's surface, is it absorbed and phase shifted. When the input wave reaches areas within the object where the thermophysical properties are not homogeneous in relation to the surrounding material, (i.e. at delaminations or inclusions), the input wave is partially reflected. The reflected portion of the wave interferes with the incoming input wave at the surface of the object, causing an interference pattern in the local surface temperature, which oscillates at the same frequency as the thermal wave. The internal structure of the object being examined can then be derived by evaluating the phase shift of the local surface temperatures in relation to the input energy wave. The ability to derive internal thermophysical inconsistencies within the object, however, requires that the input energy source be used at an optimal frequency, which depends on both the thermophysical characteristics of the object as well as its thickness. (https://movitherm.com/knowledgebase/what-is-lock-in-thermography/)"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Lock in thermography"@en ;
+.
+meth:lossonignitionanalysis
+  rdf:type skos:Concept ;
+  dcterm:source "SMR add" ;
+  rdfs:label "Loss on ignition analysis "@en ;
+  skos:broader meth:analyticalmethod ;
+  skos:definition "Method consists of ‘igniting’ (vigorous heating) a sample at a designated temperature which enables volatile substances within the sample material to escape, until the mass of the sample ceases to change. This process is often performed within air but may be done in another inert or reactive atmosphere.  Loss on Ignition measures the organic matter content in samples. The volatile materials lost during the analysis typically consist of combined water (hydrates, for example) and CO2 from carbonates. (https://www.precisa.com/blog/what-is-loss-on-ignition-loi)"@en ;
+  skos:prefLabel "Loss on ignition analysis "@en ;
+  skos:related wrkf:pyrolysis ;
 .
 meth:magneticfieldmeasurement
   rdf:type skos:Concept ;
@@ -4012,6 +4030,7 @@ meth:secondaryionizationmassspectrometry
   dcterm:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Secondary ionization mass spectrometry"@en ;
+  skos:altLabel "LARGE ISOTOPE-DILUTION ION-PROBE ANALYSIS" ;
   skos:altLabel "MULTI-COLLECTOR SECONDARY IONIZATION MASS SPECTROMETRY"@en ;
   skos:altLabel "NANO SECONDARY IONIZATION MASS SPECTROMETRY"@en ;
   skos:altLabel "SECONDARY ION MASS SPECTROMETRY"@en ;
@@ -4619,6 +4638,15 @@ wrkf:bioanalyticalsamplepreparation
   skos:inScheme analt:workflow ;
   skos:prefLabel "Bioanalytical sample preparation"@en ;
 .
+wrkf:calcination
+  rdf:type skos:Concept ;
+  dcterm:source "GeoRoc" ;
+  rdfs:label "Calcination "@en ;
+  skos:altLabel "CALCINATION ANALYSIS" ;
+  skos:broader wrkf:pyrolysis ;
+  skos:definition "calcination refers to the heating of inorganic materials to remove volatile components (B. Rand, in Concise Encyclopedia of Advanced Ceramic Materials, 1991)"@en ;
+  skos:prefLabel "Calcination "@en ;
+.
 wrkf:chromatographyseparation
   rdf:type skos:Concept ;
   dcterm:source "SMR add general workflow component categories" ;
@@ -4773,6 +4801,23 @@ wrkf:polymerasechainreaction
   skos:notation "PCR" ;
   skos:prefLabel "Polymerase chain reaction"@en ;
 .
+wrkf:pyrohydrolysis
+  rdf:type skos:Concept ;
+  dcterm:source "GeoRoc, Astromat" ;
+  rdfs:label "Pyrohydrolysis "@en ;
+  skos:broader wrkf:pyrolysis ;
+  skos:definition "Pyrohydrolysis is a sample preparation technique widely employed for the separation of fluorine, chlorine, bromine, iodine, boron and sulphur from solid samples which include refractive materials that are difficult to dissolve. Pyrohydrolysis is based on the principle that pulverization of a soild sample due to the combined action of heat and steam at high temperature produces volatile compounds of the analytes which are trapped in an alkaline solution for subsequent analysis. (https://doi.org/10.15406/oajs.2018.02.00103)"@en ;
+  skos:prefLabel "Pyrohydrolysis "@en ;
+.
+wrkf:pyrolysis
+  rdf:type skos:Concept ;
+  dcterm:source "SMR add" ;
+  rdfs:label "Pyrolysis "@en ;
+  skos:broader wrkf:workflowcomponent ;
+  skos:definition "thermal decomposition of materials at elevated temperatures, in an oxygenated or inert atmosphere.  Component step in elemental analysis and loss on ignition analysis (https://en.wikipedia.org/wiki/Pyrolysis)"@en ;
+  skos:inScheme analt:workflow ;
+  skos:prefLabel "Pyrolysis "@en ;
+.
 wrkf:pyrolysisgaschromatography
   rdf:type skos:Concept ;
   dcterm:source "Geo-X, DFG" ;
@@ -4822,6 +4867,22 @@ wrkf:thermalionization
   skos:definition "Ionization by placing a the analyte of interest on a filament that is then heated with an electric current to desorb and ionized the analyte."@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Thermal ionization"@en ;
+.
+wrkf:ultravioletlaserablation
+  rdf:type skos:Concept ;
+  dcterm:source "Astromat" ;
+  rdfs:label "Ultraviolet laser ablation "@en ;
+  skos:broader wrkf:laserablationsource ;
+  skos:definition "atomization/ionization using an ultraviolet laser source"@en ;
+  skos:prefLabel "Ultraviolet laser ablation "@en ;
+.
+wrkf:vacuumpyrolysis
+  rdf:type skos:Concept ;
+  dcterm:source "GeoRoc, PetDb, Astromat" ;
+  rdfs:label "Vacuum pyrolysis "@en ;
+  skos:broader wrkf:pyrolysis ;
+  skos:definition "thermal decomposition of materials at elevated temperatures in a vacuum; decomposes organic molecules without combustion (https://en.wikipedia.org/wiki/Pyrolysis;(https://en.wikipedia.org/wiki/Vacuum_fusion). A metal sample is melted in a vacuum and gas collected, possibly cleaned, and analyzed."@en ;
+  skos:prefLabel "Vacuum pyrolysis "@en ;
 .
 wrkf:workflowcomponent
   rdf:type skos:Concept ;
@@ -5119,6 +5180,7 @@ skos:related
   rdfs:label "has related"@en ;
   rdfs:subPropertyOf skos:semanticRelation ;
   skos:definition "Relates a concept to a concept with which there is an associative semantic relationship."@en ;
+  skos:related wrkf:pyrolysis ;
 .
 skos:relatedMatch
   rdf:type rdf:Property ;
