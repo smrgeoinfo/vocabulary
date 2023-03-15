@@ -3128,6 +3128,7 @@ meth:lossonignitionanalysis
   rdfs:label "Loss on ignition analysis "@en ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Method consists of ‘igniting’ (vigorous heating) a sample at a designated temperature which enables volatile substances within the sample material to escape, until the mass of the sample ceases to change. This process is often performed within air but may be done in another inert or reactive atmosphere.  Loss on Ignition measures the organic matter content in samples. The volatile materials lost during the analysis typically consist of combined water (hydrates, for example) and CO2 from carbonates. (https://www.precisa.com/blog/what-is-loss-on-ignition-loi)"@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Loss on ignition analysis "@en ;
   skos:related wrkf:pyrolysis ;
 .
@@ -4558,6 +4559,7 @@ wrkf:calcination
   skos:altLabel "CALCINATION ANALYSIS" ;
   skos:broader wrkf:pyrolysis ;
   skos:definition "calcination refers to the heating of inorganic materials to remove volatile components (B. Rand, in Concise Encyclopedia of Advanced Ceramic Materials, 1991)"@en ;
+  skos:inScheme analt:workflow ;
   skos:prefLabel "Calcination "@en ;
 .
 wrkf:chromatographyseparation
@@ -4720,6 +4722,7 @@ wrkf:pyrohydrolysis
   rdfs:label "Pyrohydrolysis "@en ;
   skos:broader wrkf:pyrolysis ;
   skos:definition "Pyrohydrolysis is a sample preparation technique widely employed for the separation of fluorine, chlorine, bromine, iodine, boron and sulphur from solid samples which include refractive materials that are difficult to dissolve. Pyrohydrolysis is based on the principle that pulverization of a soild sample due to the combined action of heat and steam at high temperature produces volatile compounds of the analytes which are trapped in an alkaline solution for subsequent analysis. (https://doi.org/10.15406/oajs.2018.02.00103)"@en ;
+  skos:inScheme analt:workflow ;
   skos:prefLabel "Pyrohydrolysis "@en ;
 .
 wrkf:pyrolysis
@@ -4787,6 +4790,7 @@ wrkf:ultravioletlaserablation
   rdfs:label "Ultraviolet laser ablation "@en ;
   skos:broader wrkf:laserablationsource ;
   skos:definition "atomization/ionization using an ultraviolet laser source"@en ;
+  skos:inScheme analt:workflow ;
   skos:prefLabel "Ultraviolet laser ablation "@en ;
 .
 wrkf:vacuumpyrolysis
@@ -4795,6 +4799,7 @@ wrkf:vacuumpyrolysis
   rdfs:label "Vacuum pyrolysis "@en ;
   skos:broader wrkf:pyrolysis ;
   skos:definition "thermal decomposition of materials at elevated temperatures in a vacuum; decomposes organic molecules without combustion (https://en.wikipedia.org/wiki/Pyrolysis;(https://en.wikipedia.org/wiki/Vacuum_fusion). A metal sample is melted in a vacuum and gas collected, possibly cleaned, and analyzed."@en ;
+  skos:inScheme analt:workflow ;
   skos:prefLabel "Vacuum pyrolysis "@en ;
 .
 wrkf:workflowcomponent
