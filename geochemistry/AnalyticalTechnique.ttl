@@ -39,7 +39,6 @@
   skos:inScheme analt:instrument ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1038> ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1083> ;
-  skos:notation "SDN:L05::311" ;
   skos:prefLabel "Camera"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/ICEBERG> ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/ICECOV> ;
@@ -50,7 +49,6 @@
   dcterm:identifier "SDN:L05::378" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2010-04-22 15:18:44.0" ;
   rdfs:label "Sediment profile imager"@en ;
   owl:versionInfo "1" ;
   skos:broader <http://vocab.nerc.ac.uk/collection/L05/current/311> ;
@@ -58,7 +56,6 @@
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::378" ;
   skos:prefLabel "Sediment profile imager"@en ;
 .
 <http://vocab.nerc.ac.uk/collection/L05/current/86>
@@ -76,7 +73,6 @@
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::86" ;
   skos:prefLabel "Inorganic carbon analyzer"@en ;
 .
 sdev:LAB02
@@ -100,7 +96,6 @@ sdev:LAB03
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB03" ;
   skos:prefLabel "Colorimeter"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/NO2> ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/NO3> ;
@@ -117,7 +112,6 @@ sdev:LAB04
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB04/1> ;
   rdfs:label "Autoanalyzer"@en ;
   owl:versionInfo "1" ;
@@ -131,7 +125,6 @@ sdev:LAB04
   skos:inScheme analt:workflow ;
   skos:narrower <http://onto.nerc.ac.uk/CAST/117> ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/W01/current/003> ;
-  skos:notation "SDN:L05::LAB04" ;
   skos:prefLabel "Autoanalyzer"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/NO2> ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/NO3> ;
@@ -154,7 +147,6 @@ sdev:LAB09
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB09" ;
   skos:prefLabel "Ion microprobe"@en ;
 .
 sdev:LAB10
@@ -163,7 +155,6 @@ sdev:LAB10
   dcterm:identifier "SDN:L05::LAB10" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB10/1> ;
   rdfs:label "Atomic absorption spectrometer"@en ;
   owl:sameAs <http://onto.nerc.ac.uk/CAST/115> ;
@@ -174,7 +165,6 @@ sdev:LAB10
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB10" ;
   skos:prefLabel "Atomic absorption spectrometer"@en ;
 .
 sdev:LAB11
@@ -186,7 +176,6 @@ sdev:LAB12
   dcterm:identifier "SDN:L05::LAB12" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB12/1> ;
   rdfs:label "Titrator"@en ;
   owl:sameAs <http://onto.nerc.ac.uk/CAST/122> ;
@@ -197,7 +186,6 @@ sdev:LAB12
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB12" ;
   skos:prefLabel "Titrator"@en ;
   skos:related meth:titration ;
   skos:scopeNote "subclasses: alkalinity titrator, oxygen titrator, potentiometric titrator, Winkler titration system" ;
@@ -208,7 +196,6 @@ sdev:LAB13
   dcterm:identifier "SDN:L05::LAB13" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2010-07-02 14:19:32.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB13/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB13/1> ;
   rdfs:label "Balance or scale"@en ;
@@ -220,7 +207,6 @@ sdev:LAB13
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:narrower <http://onto.nerc.ac.uk/CAST/151> ;
-  skos:notation "SDN:L05::LAB13" ;
   skos:prefLabel "Balance or scale"@en ;
 .
 sdev:LAB14
@@ -239,7 +225,6 @@ sdev:LAB14
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB14" ;
   skos:prefLabel "Inductively coupled plasma atomic emission spectrometer"@en ;
 .
 sdev:LAB15
@@ -257,7 +242,6 @@ sdev:LAB19
   dcterm:identifier "SDN:L05::LAB19" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB19/1> ;
   rdfs:label "Gas chromatograph mass spectrometer"@en ;
   owl:versionInfo "1" ;
@@ -268,7 +252,6 @@ sdev:LAB19
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB19" ;
   skos:prefLabel "Gas chromatograph mass spectrometer"@en ;
 .
 sdev:LAB20
@@ -280,7 +263,6 @@ sdev:LAB21
   dcterm:identifier "SDN:L05::LAB21" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2018-07-30 16:26:53.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB21/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB21/1> ;
   rdfs:label "Liquid scintillation counter"@en ;
@@ -291,7 +273,6 @@ sdev:LAB21
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB21" ;
   skos:prefLabel "Liquid scintillation counter"@en ;
 .
 sdev:LAB22
@@ -300,7 +281,6 @@ sdev:LAB22
   dcterm:identifier "SDN:L05::LAB22" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2011-04-15 14:18:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB22/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB22/1> ;
   rdfs:label "Gamma ray spectrometer"@en ;
@@ -311,7 +291,6 @@ sdev:LAB22
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB22" ;
   skos:prefLabel "Gamma ray spectrometer"@en ;
   skos:related meth:gammarayspectrometry ;
 .
@@ -323,7 +302,6 @@ sdev:LAB23
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB23/1> ;
   rdfs:label "Bench fluorometer"@en ;
   owl:versionInfo "1" ;
@@ -335,7 +313,6 @@ sdev:LAB23
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB23" ;
   skos:prefLabel "Bench fluorometer"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/CHLA> ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/PHAEO> ;
@@ -346,7 +323,6 @@ sdev:LAB24
   dcterm:identifier "SDN:L05::LAB24" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB24/1> ;
   rdfs:label "Gel permeation chromatograph"@en ;
   owl:versionInfo "1" ;
@@ -356,7 +332,6 @@ sdev:LAB24
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB24" ;
   skos:prefLabel "Gel permeation chromatograph"@en ;
 .
 sdev:LAB25
@@ -365,7 +340,6 @@ sdev:LAB25
   dcterm:identifier "SDN:L05::LAB25" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB25/1> ;
   rdfs:label "X-ray fluorescence analyzer"@en ;
   owl:versionInfo "1" ;
@@ -375,7 +349,6 @@ sdev:LAB25
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB25" ;
   skos:prefLabel "X-ray fluorescence analyzer"@en ;
 .
 sdev:LAB26
@@ -387,7 +360,6 @@ sdev:LAB27
   dcterm:identifier "SDN:L05::LAB27" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2017-08-08 14:51:13.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB27/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB27/1> ;
   rdfs:label "Bench particle sizer"@en ;
@@ -398,7 +370,6 @@ sdev:LAB27
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB27" ;
   skos:prefLabel "Bench particle sizer"@en ;
 .
 sdev:LAB28
@@ -424,7 +395,6 @@ sdev:LAB29
   dcterm:identifier "SDN:L05::LAB29" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2010-04-22 15:04:00.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB29/1> ;
   rdfs:label "Ruler"@en ;
   owl:versionInfo "1" ;
@@ -434,7 +404,6 @@ sdev:LAB29
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB29" ;
   skos:prefLabel "Ruler"@en ;
 .
 sdev:LAB30
@@ -445,7 +414,6 @@ sdev:LAB30
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2015-02-11 09:18:46.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB30/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB30/1> ;
   rdfs:label "Salinometer"@en ;
@@ -459,7 +427,6 @@ sdev:LAB30
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB30" ;
   skos:prefLabel "Salinometer"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/ICESSALIN> ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/SALIN> ;
@@ -469,7 +436,6 @@ sdev:LAB31
   dcterm:date "2013-02-26 17:11:07.0" ;
   dcterm:identifier "SDN:L05::LAB31" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB31/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB31/1> ;
   rdfs:label "Magnetic susceptibility system"@en ;
@@ -479,7 +445,6 @@ sdev:LAB31
   skos:definition "Sensors, probes and meters that measure the degree to which a sample or part thereof is influenced by a magnetic field."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB31" ;
   skos:prefLabel "Magnetic susceptibility system"@en ;
 .
 sdev:LAB32
@@ -488,7 +453,6 @@ sdev:LAB32
   dcterm:identifier "SDN:L05::LAB32" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2013-02-26 17:11:07.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB32/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB32/1> ;
   rdfs:label "Acoustic velocity system"@en ;
@@ -499,7 +463,6 @@ sdev:LAB32
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB32" ;
   skos:prefLabel "Acoustic velocity system"@en ;
 .
 sdev:LAB33
@@ -508,7 +471,6 @@ sdev:LAB33
   dcterm:identifier "SDN:L05::LAB33" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2012-03-01 16:00:54.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB33/1> ;
   rdfs:label "Laboratory autosampler"@en ;
   owl:versionInfo "1" ;
@@ -519,7 +481,6 @@ sdev:LAB33
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:workflow ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/W01/current/003> ;
-  skos:notation "SDN:L05::LAB33" ;
   skos:prefLabel "Laboratory autosampler"@en ;
 .
 sdev:LAB34
@@ -527,7 +488,6 @@ sdev:LAB34
   dcterm:date "2012-03-22 17:49:10.0" ;
   dcterm:identifier "SDN:L05::LAB34" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2012-03-22 17:49:10.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB34/1> ;
   rdfs:label "Chemiluminescence analyzer"@en ;
   owl:versionInfo "1" ;
@@ -536,7 +496,6 @@ sdev:LAB34
   skos:definition "Laboratory apparatus that detemines the concentration of a chemical species by quantification of the electromagnetic radiation (usually visible light) produced by a chemical reaction."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB34" ;
   skos:prefLabel "Chemiluminescence analyzer"@en ;
 .
 sdev:LAB35
@@ -544,7 +503,6 @@ sdev:LAB35
   dcterm:date "2012-08-02 14:41:42.0" ;
   dcterm:identifier "SDN:L05::LAB35" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2012-08-02 14:41:42.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB35/1> ;
   rdfs:label "Voltammetry analyzer"@en ;
   owl:versionInfo "1" ;
@@ -553,7 +511,6 @@ sdev:LAB35
   skos:definition "Instruments that obtain information about an analyte by applying a potential and measuring the current produced in the analyte."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB35" ;
   skos:prefLabel "Voltammetry analyzer"@en ;
 .
 sdev:LAB36
@@ -561,7 +518,6 @@ sdev:LAB36
   dcterm:date "2012-08-02 14:44:24.0" ;
   dcterm:identifier "SDN:L05::LAB36" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2012-08-02 14:44:24.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB36/1> ;
   rdfs:label "Flow injection analyzer"@en ;
   owl:versionInfo "1" ;
@@ -572,7 +528,6 @@ sdev:LAB36
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:workflow ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/W01/current/003> ;
-  skos:notation "SDN:L05::LAB36" ;
   skos:prefLabel "Flow injection analyzer"@en ;
 .
 sdev:LAB38
@@ -580,7 +535,6 @@ sdev:LAB38
   dcterm:date "2014-12-16 08:36:22.0" ;
   dcterm:identifier "SDN:L05::LAB38" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2014-12-16 08:36:22.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB38/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB38/1> ;
   rdfs:label "Cavity enhanced absorption spectrometer"@en ;
@@ -591,7 +545,6 @@ sdev:LAB38
   skos:definition "Instruments that illuminate a sample inside an optical cavity, typically using laser light, and measure the concentration or amount of a species in gas phase by absorption spectroscopy. Techniques include cavity ring-down spectroscopy (CRDS) and integrated cavity output spectroscopy (ICOS)."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB38" ;
   skos:prefLabel "Cavity enhanced absorption spectrometer"@en ;
 .
 sdev:LAB39
@@ -599,7 +552,6 @@ sdev:LAB39
   dcterm:date "2012-08-30 14:13:49.0" ;
   dcterm:identifier "SDN:L05::LAB39" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2012-08-30 14:13:49.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB39/1> ;
   rdfs:label "Geiger counter"@en ;
   owl:versionInfo "1" ;
@@ -608,7 +560,6 @@ sdev:LAB39
   skos:definition "Instruments that measure the amount of alpha, beta or gamma radiation through quantification of the ionization of a low-pressure gas contained in a tube. Sometimes referred to as Geiger-MÃ¼ller counters."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB39" ;
   skos:prefLabel "Geiger counter"@en ;
 .
 sdev:LAB40
@@ -617,7 +568,6 @@ sdev:LAB40
   dcterm:identifier "SDN:L05::LAB40" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2012-11-29 15:53:17.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB40/1> ;
   rdfs:label "Volume measures"@en ;
   owl:versionInfo "1" ;
@@ -628,7 +578,6 @@ sdev:LAB40
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:workflow ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/W01/current/003> ;
-  skos:notation "SDN:L05::LAB40" ;
   skos:prefLabel "Volume measures"@en ;
 .
 sdev:LAB42
@@ -636,7 +585,6 @@ sdev:LAB42
   dcterm:date "2013-12-19 09:08:24.0" ;
   dcterm:identifier "SDN:L05::LAB42" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2013-12-19 09:08:24.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB42/1> ;
   rdfs:label "Laboratory optical rangefinder"@en ;
   owl:versionInfo "1" ;
@@ -645,7 +593,6 @@ sdev:LAB42
   skos:definition "Devices used to detect the distance between sensor and sample or presence/absence of an object based a light (often infrared and possibly laser) transmitter and a photoelectric receiver."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB42" ;
   skos:prefLabel "Laboratory optical rangefinder"@en ;
 .
 sdev:LAB43
@@ -653,7 +600,6 @@ sdev:LAB43
   dcterm:date "2015-02-03 10:32:36.0" ;
   dcterm:identifier "SDN:L05::LAB43" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2015-02-03 10:32:36.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB43/1> ;
   rdfs:label "Plate reader"@en ;
   owl:versionInfo "1" ;
@@ -662,7 +608,6 @@ sdev:LAB43
   skos:definition "Laboratory instruments detect biological, chemical or physical events in samples held in multiple (typically 6, 24, 96, 384 or 1536) wells arranged in a matrix in a flat plate. Samples in the plate wells are simultaneously assayed optically using techniques such as spectrophotometry or spectrofluorometry."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:workflow ;
-  skos:notation "SDN:L05::LAB43" ;
   skos:prefLabel "Plate reader"@en ;
 .
 sdev:LAB44
@@ -686,7 +631,6 @@ sdev:LAB45
   dcterm:date "2022-04-27 16:58:27.0" ;
   dcterm:identifier "SDN:L05::LAB45" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2022-04-27 16:58:27.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB45/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB45/1> ;
   rdfs:label "Ion chromatography analyzer"@en ;
@@ -696,7 +640,6 @@ sdev:LAB45
   skos:definition "Instruments that use ion chromatography to separate ions and polar molecules based on their affinity to an ion exchanger resin. Sample solutions pass through a pressurized chromatographic column where ions are absorbed by the resin and subsequently eluted using an ion extraction liquid. The retention time of different species determines the ionic concentrations in the sample."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB45" ;
   skos:prefLabel "Ion chromatography analyzer"@en ;
 .
 sdev:LAB46
@@ -704,7 +647,6 @@ sdev:LAB46
   dcterm:date "2022-04-27 16:58:27.0" ;
   dcterm:identifier "SDN:L05::LAB46" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2022-04-27 16:58:27.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB46/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB46/1> ;
   rdfs:label "Proton transfer reaction mass spectrometer"@en ;
@@ -714,7 +656,6 @@ sdev:LAB46
   skos:definition "Instruments that ionise trace gas molecules by proton transfer from protonated water, H3O. Ions of specific mass-to-charge ratios are then quantified in a quadrupole or time-of-flight mass spectrometer."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB46" ;
   skos:prefLabel "Proton transfer reaction mass spectrometer"@en ;
 .
 sdev:LAB47
@@ -722,7 +663,6 @@ sdev:LAB47
   dcterm:date "2022-04-27 16:58:27.0" ;
   dcterm:identifier "SDN:L05::LAB47" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2022-04-27 16:58:27.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB47/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB47/1> ;
   rdfs:label "Thermal ionization mass spectrometer"@en ;
@@ -732,7 +672,6 @@ sdev:LAB47
   skos:definition "Instruments that measure isotopic ratios using thermal ionisation. Purified samples are heated to cause ionisation of atoms. Subsequently, ions are focused into a beam by an electromagnet and then separated into individual beams based on their mass/charge ratio."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB47" ;
   skos:notation "TIMS"@en ;
   skos:prefLabel "Thermal ionization mass spectrometer"@en ;
 .
@@ -741,7 +680,6 @@ sdev:LAB48
   dcterm:date "2016-03-10 06:47:31.0" ;
   dcterm:identifier "SDN:L05::LAB48" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2016-03-10 06:47:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB48/1> ;
   rdfs:label "Isotope ratio mass spectrometer"@en ;
   owl:versionInfo "1" ;
@@ -758,7 +696,6 @@ sdev:LAB49
   dcterm:date "2016-11-29 15:10:58.0" ;
   dcterm:identifier "SDN:L05::LAB49" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2016-11-29 15:10:58.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB49/1> ;
   rdfs:label "Atomic fluorescence spectrometer"@en ;
   owl:versionInfo "1" ;
@@ -768,7 +705,6 @@ sdev:LAB49
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:notation "AFS"@en ;
-  skos:notation "SDN:L05::LAB49" ;
   skos:prefLabel "Atomic fluorescence spectrometer"@en ;
 .
 sdev:LAB51
@@ -776,7 +712,6 @@ sdev:LAB51
   dcterm:date "2021-01-25 10:23:18.0" ;
   dcterm:identifier "SDN:L05::LAB51" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  pav:authoredOn "2021-01-25 10:23:18.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB51/1> ;
   rdfs:label "Holographic microscope"@en ;
   rdfs:seeAlso <https://en.wikipedia.org/wiki/Digital_holographic_microscopy> ;
@@ -786,7 +721,6 @@ sdev:LAB51
   skos:definition "Instruments that generate enlarged images of samples using the phenomena of digital inline holography with numerical reconstruction instead of reflection and absorption of visible light."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB51" ;
   skos:prefLabel "Holographic microscope"@en ;
 .
 <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1034>
@@ -802,7 +736,6 @@ sdev:LAB51
   skos:definition "A generic term for an inverted (the light source illuminates the specimen from above) optical microscope."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L22::TOOL1034" ;
   skos:prefLabel "Inverted microscope generic"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/B75/current/UNSPEC> ;
 .
@@ -821,7 +754,6 @@ sdev:LAB51
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:notation "OLI"@en ;
-  skos:notation "SDN:L22::TOOL1038" ;
   skos:prefLabel "Operational land imager"@en ;
 .
 <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1083>
@@ -837,7 +769,6 @@ sdev:LAB51
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:notation "HRS"@en ;
-  skos:notation "SDN:L22::TOOL1083" ;
   skos:prefLabel "High resolution stereoscopic instrument"@en ;
 .
 <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1885>
@@ -890,7 +821,6 @@ inst:acceleratormassspectrometer
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "reorganize mass spectrometer classes [SMR]" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB17/1> ;
   rdfs:label "Accelerator mass spectrometer "@en ;
   owl:versionInfo "1" ;
@@ -903,7 +833,6 @@ inst:acceleratormassspectrometer
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB17" ;
   skos:prefLabel "Accelerator mass spectrometer"@en ;
 .
 inst:amperometricsensor
@@ -1173,7 +1102,6 @@ inst:gaschromatographyinstrument
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "SMR add general categories to group Geo-X instruments" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB02/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography instrument"@en ;
@@ -1186,7 +1114,6 @@ inst:gaschromatographyinstrument
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB02" ;
   skos:prefLabel "Gas chromatography instrument"@en ;
 .
 inst:gaschromatographymassspectrometer
@@ -1220,7 +1147,6 @@ inst:highperformanceliquidchromatograph
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "SMR add instruments associated with Geo-X methods" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB11/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "High performance liquid chromatograph"@en ;
@@ -1235,7 +1161,6 @@ inst:highperformanceliquidchromatograph
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB11" ;
   skos:prefLabel "High performance liquid chromatograph"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/CHLA> ;
 .
@@ -1258,7 +1183,6 @@ inst:inductivelycoupledplasmamassspectrometer
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "Geo-X, NASA" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB15/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Inductively coupled plasma mass spectrometer"@en ;
@@ -1272,7 +1196,6 @@ inst:inductivelycoupledplasmamassspectrometer
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:notation "ICP-MS" ;
-  skos:notation "SDN:L05::LAB15" ;
   skos:prefLabel "Inductively coupled plasma mass spectrometer"@en ;
 .
 inst:liquidchromatographyinstrument
@@ -1304,7 +1227,6 @@ inst:massspectrometer
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "Geo-X, NASA" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB16/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Mass spectrometer"@en ;
@@ -1323,7 +1245,6 @@ inst:massspectrometer
   skos:narrower sdev:LAB47 ;
   skos:narrower sdev:LAB48 ;
   skos:notation "MS" ;
-  skos:notation "SDN:L05::LAB16" ;
   skos:prefLabel "Mass spectrometer"@en ;
 .
 inst:materialpropertyinstrument
@@ -1345,7 +1266,6 @@ inst:microscope
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "Geo-X, NASA" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB05/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Microscope"@en ;
@@ -1360,7 +1280,6 @@ inst:microscope
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1034> ;
-  skos:notation "SDN:L05::LAB05" ;
   skos:prefLabel "Microscope"@en ;
   skos:related <http://vocab.nerc.ac.uk/collection/P25/current/PHYTABUND> ;
 .
@@ -1404,7 +1323,6 @@ inst:nuclearmagneticresonancespectrometer
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "SMR add instruments associated with Geo-X methods" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB18/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Nuclear magnetic resonance spectrometer"@en ;
@@ -1417,7 +1335,6 @@ inst:nuclearmagneticresonancespectrometer
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB18" ;
   skos:prefLabel "Nuclear magnetic resonance spectrometer"@en ;
 .
 inst:opticalinstrument
@@ -1627,7 +1544,6 @@ inst:spectrophotometer
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "SMR add instruments associated with Geo-X methods" ;
-  pav:authoredOn "2011-04-15 14:18:31.0" ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB20/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB20/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
@@ -1642,7 +1558,6 @@ inst:spectrophotometer
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:narrower <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1885> ;
-  skos:notation "SDN:L05::LAB20" ;
   skos:prefLabel "Spectrophotometer"@en ;
 .
 inst:spectroradiometer
@@ -1703,7 +1618,6 @@ inst:xraydiffractometer
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   dcterm:source "SMR add instruments associated with Geo-X methods" ;
-  pav:authoredOn "2008-01-10 16:10:12.0" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "X-ray Diffractometer "@en ;
   skos:altLabel "X-ray diffractometers"@en ;
@@ -1713,7 +1627,6 @@ inst:xraydiffractometer
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "SDN:L05::LAB26" ;
   skos:prefLabel "X-ray Diffractometer "@en ;
 .
 inst:xraypowderdiffractometer
