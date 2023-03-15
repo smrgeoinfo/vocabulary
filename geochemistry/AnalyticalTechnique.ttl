@@ -2050,7 +2050,6 @@ meth:continuousflowisotoperatiomassspectrometry
   rdfs:label "Continuous flow isotope ratio mass spectrometry"@en ;
   skos:altLabel "ELEMENTAL ANALYSER CONTINUOUS FLOW ISOTOPIC RATIO MASS SPECTROMETER"@en ;
   skos:altLabel "ELEMENTAL ANALYZER CONTINUOUS-FLOW ISOTOPE RATIO MASS SPECTROMETRY"@en ;
-  skos:broader meth:elementalanalyzermassspectrometry ;
   skos:broader meth:elementalanalysismassspectrometry ;
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition "Isotope-Ratio mass spectrometry that extracts analytes from a sample using elemental analyzer with a contintuous flow of gas to be atomized, ionized and passed to the mass analyzer. Components: 1) elemental analyzer; 2) continuous flow input. 3) mass analyzer 4) detectors.  Analyzed aliquots are gas."@en ;
