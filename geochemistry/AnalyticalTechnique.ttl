@@ -2051,6 +2051,7 @@ meth:continuousflowisotoperatiomassspectrometry
   skos:altLabel "ELEMENTAL ANALYSER CONTINUOUS FLOW ISOTOPIC RATIO MASS SPECTROMETER"@en ;
   skos:altLabel "ELEMENTAL ANALYZER CONTINUOUS-FLOW ISOTOPE RATIO MASS SPECTROMETRY"@en ;
   skos:broader meth:elementalanalyzermassspectrometry ;
+  skos:broader meth:elementalanalysismassspectrometry ;
   skos:broader meth:isotoperatiomassspectrometry ;
   skos:definition "Isotope-Ratio mass spectrometry that extracts analytes from a sample using elemental analyzer with a contintuous flow of gas to be atomized, ionized and passed to the mass analyzer. Components: 1) elemental analyzer; 2) continuous flow input. 3) mass analyzer 4) detectors.  Analyzed aliquots are gas."@en ;
   skos:inScheme analt:method ;
@@ -2329,33 +2330,35 @@ meth:elementalanalysisinfraredspectrometry
   skos:altLabel "INFRARED QUANTIFICATION AND HIGH TEMPERATURE EVOLUTION ANALYSIS" ;
   skos:broader meth:elementalanalysis ;
   skos:definition "Technique that uses an elemental analyzer (typically a pyrolysis process to extract volatile components in the sample) to extract the aliquots (typically as gas) to be analyzed using infrared spectrometry."@en ;
+  skos:inScheme analt:method ;
   skos:prefLabel "Elemental analysis infrared spectrometry "@en ;
 .
-meth:elementalanalyzerisotoperatiomassspectrometry
+meth:elementalanalysisisotoperatiomassspectrometry
   rdf:type skos:Concept ;
   dcterm:source "Earth Chem" ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
-  rdfs:label "Elemental analyzer isotope ratio mass spectrometry"@en ;
-  skos:altLabel "Elemental analysis - isotope ratio mass spectrometry"@en ;
-  skos:broader meth:elementalanalyzermassspectrometry ;
+  rdfs:label "Elemental analysis isotope ratio mass spectrometry"@en ;
+  skos:altLabel "Elemental analyzer - isotope ratio mass spectrometry"@en ;
+  skos:broader meth:elementalanalysismassspectrometry ;
   skos:broader meth:isotoperatiomassspectrometry ;
-  skos:definition "Measurement and study of the relative abundances of the different isotopes of an element in a material using a mass spectrometer which is coupled with an elemental analyzer. (Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06). isotope and chemical analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)"@en ;
+  skos:definition "Measurement and study of the relative abundances of the different isotopes of an element in a material using a mass spectrometer which is coupled with an elemental analyzer. (Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06). Isotope and chemical analysis of H, C, N, O and S in a sample. (OSIRIS-REx confluence)"@en ;
   skos:inScheme analt:method ;
   skos:notation "EA-IRMS" ;
-  skos:prefLabel "Elemental analyzer isotope ratio mass spectrometry"@en ;
+  skos:prefLabel "Elemental analysis isotope ratio mass spectrometry"@en ;
 .
-meth:elementalanalyzermassspectrometry
+meth:elementalanalysismassspectrometry
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
-  rdfs:label "Elemental analyzer mass spectrometry"@en ;
+  rdfs:label "Elemental analysis mass spectrometry"@en ;
+  skos:altLabel "Elemental analyzer mass spectrometry"@en ;
   skos:broader meth:elementalanalysis ;
   skos:broader meth:massspectrometry ;
   skos:definition "Mass spectrometry method that uses an elemental analyzer (typically a pyrolysis process to extract volatile components in the sample) to extract the aliquots (typically as gas) to be atomized and passed to the mass analyzer. "@en ;
   skos:inScheme analt:method ;
   skos:notation "EAMS" ;
-  skos:prefLabel "Elemental analyzer mass spectrometry"@en ;
+  skos:prefLabel "Elemental analysis mass spectrometry"@en ;
 .
 meth:emissionspectrometry
   rdf:type skos:Concept ;
@@ -3050,6 +3053,18 @@ meth:laserionizationmassspectrometry
   skos:notation "LIMS" ;
   skos:prefLabel "Laser ionization mass spectrometry"@en ;
 .
+
+meth:lassmassspectrometry
+  rdf:type skos:Concept ;
+  dcterm:source "GeoRoc" ;
+  rdfs:label "Laser ablation split stream mass spectrometry "@en ;
+  skos:broader meth:laserablationmassspectrometry ;
+  skos:definition "The output from laser ablation of a single analysis spot is split between two mass spectrometers (typically ICPMS). The technique allows simultaneous analyses of different geochemical systems in mineral samples using two or more mass spectrometers. An important application is the determination of the complementary isotopic systems of Lu-Hf and U-Pb (age)(https://assets.thermofisher.com/TFS-Assets/CMD/Application-Notes/AN-30298-ICP-MS-Laser-Ablation-Split-Stream-AN30298-EN.pdf)"@en ;
+  skos:inScheme analt:method ;
+  skos:notation "LASS" ;
+  skos:prefLabel "Laser ablation split stream mass spectrometry "@en ;
+.
+
 meth:lecofurnaceanalysis
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
@@ -3626,6 +3641,17 @@ meth:physicalpropertymeasurement
   skos:inScheme analt:method ;
   skos:prefLabel "Physical property measurement"@en ;
 .
+
+meth:pigsneutronactivationanalysis
+  rdf:type skos:Concept ;
+  dcterm:source "GeoRoc" ;
+  rdfs:label "Pre irradiation group concentration neutron activation analysis "@en ;
+  skos:broader meth:neutronactivationanalysis ;
+  skos:definition "A pre-irradiation group concentration method invovling analysis of REE relative to samarium (Sm).  The sample is split in two portions. Sm and Nd content of the rock is determined by mass spectrometry isotope dilution analysis on one split. The other split is  further purified for REE by cation-exchange, and is used to determine the abundance of REE relative to Sm by NAA. The REE content of the rock is found by normalization to Sm content determined by mass spectrometry in the first portion. The result are directly comparable to REE analyzed by conventional INAA. (https://doi.org/10.1016/0009-2541(90)90036-7, https://doi.org/10.1002/gj.907, http://dx.doi.org/10.1007/BF02055022)"@en ;
+  skos:inScheme analt:method ;
+  skos:prefLabel "Pre irradiation group concentration neutron activation analysis "@en ;
+.
+
 meth:plasmaemissionspectrometry
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
@@ -4802,6 +4828,19 @@ wrkf:vacuumpyrolysis
   skos:inScheme analt:workflow ;
   skos:prefLabel "Vacuum pyrolysis "@en ;
 .
+
+wrkf:waterbydifferencecalculation
+  rdf:type skos:Concept ;
+  dcterm:source "GeoRoc" ;
+  rdfs:label "Water by difference calculation "@en ;
+  skos:altLabel "WATER-BY-DIFFERENCE ANALYSIS" ;
+  skos:broader wrkf:workflowcomponent ;
+  skos:definition "method to determine water in hydrated glasses, by adding up all the elements (and their associated stoichiometric oxygen), and then subtracting that sum from 100 to obtain the so called water by difference. This water is then included in the matrix correction. The value of H2O obtained by difference needs to be iterated in the matrix correction for the other elements because the oxygen (in the water) absorbs the emission lines of the other elements, particularly Si. By not including the H2O (by difference) in the matrix correction, the Si ka absorption correction will be underestimated because oxygen absorbs Si Ka more than silicon does. https://probesoftware.com/smf/index.php?topic=922.msg5937#msg5937"@en ;
+  skos:inScheme analt:workflow ;
+  skos:prefLabel "Water by difference calculation "@en ;
+  skos:related meth:quantitativeanalysiselectroninducedxrayspectrometry ;
+.
+
 wrkf:workflowcomponent
   rdf:type skos:Concept ;
   dcterm:source "SMR add general workflow component categories" ;
