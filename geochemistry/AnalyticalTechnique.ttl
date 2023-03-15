@@ -3052,7 +3052,6 @@ meth:laserionizationmassspectrometry
   skos:notation "LIMS" ;
   skos:prefLabel "Laser ionization mass spectrometry"@en ;
 .
-
 meth:lassmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
@@ -3063,7 +3062,6 @@ meth:lassmassspectrometry
   skos:notation "LASS" ;
   skos:prefLabel "Laser ablation split stream mass spectrometry "@en ;
 .
-
 meth:lecofurnaceanalysis
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
@@ -3579,7 +3577,7 @@ meth:penfieldmethodanalysis
   rdfs:label "Penfield method analysis"@en ;
   skos:altLabel "PENFIELD METHOD"@en ;
   skos:broader meth:benchchemistry ;
-  skos:definition "[Penfield was mineralogist at Yale, late 1800-1906, developed methods for analyzing fluorine. Can't tell exactly what this technique is supposed to be]"@en ;
+  skos:definition "Penfield, S. L., 1894, On some methods for the determination of water: American Journal of Science, v. 48, no. 283, p. 30-37. Determination of water by 'heating a weighed quantity of mineral in a closed glass tube, weighing the tube plus the water, then drying and weighing again'.  Modified method (Shapirro, 1975, p. 55-56, https://pubs.usgs.gov/bul/1401/report.pdf)  water is driven from the sample when it is heated in a Pyrex test tube with sodium tungstate as a flux (Shapiro and Brannock, 1955b). The water is condensed on a piece of preweighed filter paper in the upper part of a test tube that is cooled by crushed ice in a polyethylene jacket surrounding the test tube during the analysis."@en ;
   skos:inScheme analt:method ;
   skos:notation "PEN" ;
   skos:prefLabel "Penfield method analysis"@en ;
@@ -3640,7 +3638,6 @@ meth:physicalpropertymeasurement
   skos:inScheme analt:method ;
   skos:prefLabel "Physical property measurement"@en ;
 .
-
 meth:pigsneutronactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
@@ -3650,7 +3647,6 @@ meth:pigsneutronactivationanalysis
   skos:inScheme analt:method ;
   skos:prefLabel "Pre irradiation group concentration neutron activation analysis "@en ;
 .
-
 meth:plasmaemissionspectrometry
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
@@ -4827,7 +4823,6 @@ wrkf:vacuumpyrolysis
   skos:inScheme analt:workflow ;
   skos:prefLabel "Vacuum pyrolysis "@en ;
 .
-
 wrkf:waterbydifferencecalculation
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
@@ -4839,7 +4834,6 @@ wrkf:waterbydifferencecalculation
   skos:prefLabel "Water by difference calculation "@en ;
   skos:related meth:quantitativeanalysiselectroninducedxrayspectrometry ;
 .
-
 wrkf:workflowcomponent
   rdf:type skos:Concept ;
   dcterm:source "SMR add general workflow component categories" ;
