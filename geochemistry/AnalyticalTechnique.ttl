@@ -557,7 +557,7 @@ sdev:LAB39
   owl:versionInfo "1" ;
   skos:altLabel "Geiger counters"@en ;
   skos:broader inst:analyticalinstrument ;
-  skos:definition "Instruments that measure the amount of alpha, beta or gamma radiation through quantification of the ionization of a low-pressure gas contained in a tube. Sometimes referred to as Geiger-MÃ¼ller counters."@en ;
+  skos:definition "Instruments that measure the amount of alpha, beta or gamma radiation through quantification of the ionization of a low-pressure gas contained in a tube. Sometimes referred to as Geiger-Muller counters."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
   skos:prefLabel "Geiger counter"@en ;
@@ -3152,7 +3152,7 @@ meth:lossonignitionanalysis
   rdfs:label "Loss on ignition analysis "@en ;
   skos:altLabel "STEPPED HEATING ANALYSIS" ;
   skos:broader meth:benchchemistry ;
-  skos:definition "Method consists of ‘igniting’ (vigorous heating) a sample at a designated temperature which enables volatile substances within the sample material to escape, until the mass of the sample ceases to change. This process is often performed within air but may be done in another inert or reactive atmosphere.  Loss on Ignition measures the organic matter content in samples. The volatile materials lost during the analysis typically consist of combined water (hydrates, for example) and CO2 from carbonates. (https://www.precisa.com/blog/what-is-loss-on-ignition-loi)"@en ;
+  skos:definition "Method consists of igniting (vigorous heating) a sample at a designated temperature which enables volatile substances within the sample material to escape, until the mass of the sample ceases to change. This process is often performed within air but may be done in another inert or reactive atmosphere.  Loss on Ignition measures the organic matter content in samples. The volatile materials lost during the analysis typically consist of combined water (hydrates, for example) and CO2 from carbonates. (https://www.precisa.com/blog/what-is-loss-on-ignition-loi)"@en ;
   skos:editorialNote """GeoRoc reports analytes for 'STEPPED HEATING ANALYSIS' as CO2 and H20, so interpret as a loss on ignition technique.
 """ ;
   skos:inScheme analt:method ;
