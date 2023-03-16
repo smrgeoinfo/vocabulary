@@ -16,7 +16,11 @@ title: "Analytical Techniques vocabulary"
 format:
   html:
     toc: true
+	toc-depth: 4
 	ascii: true
+	number-sections: true
+	anchor-sections: false
+	number-depth: 8
 execute:
   echo: false
 ---
