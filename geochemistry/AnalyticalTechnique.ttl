@@ -857,7 +857,7 @@ inst:analyticalinstrument
 .
 inst:anemometers
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source " NASA" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Anemometers"@en ;
   skos:broader inst:currentwindmeters ;
@@ -893,7 +893,7 @@ inst:atomprobe
 .
 inst:binocular
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Binocular"@en ;
   skos:altLabel "Binocular Microscope" ;
@@ -915,7 +915,7 @@ inst:bioanalyticalinstrument
 .
 inst:carbonanalyzer
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Carbon analyzer"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -935,7 +935,7 @@ inst:chromatographyinstrument
 .
 inst:conductivitysensor
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Conductivity sensor"@en ;
   skos:altLabel "Conductometric sensor" ;
@@ -979,7 +979,7 @@ inst:differentialscanningcalorimeter
 .
 inst:eddycorrelationdevices
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Eddy correlation device"@en ;
   skos:broader inst:currentwindmeters ;
@@ -999,7 +999,7 @@ inst:electrochemicalinstrument
 .
 inst:electronmicroprobe
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electron microprobe"@en ;
   skos:altLabel "Electron micro probe analyzer" ;
@@ -1057,7 +1057,7 @@ inst:fluorescencemicroscope
 .
 inst:fluorometer
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Fluorometer"@en ;
   skos:altLabel "Fluorimeter" ;
@@ -1182,7 +1182,7 @@ inst:inductivelycoupledplasmamassspectrometer
   dcterm:identifier "SDN:L05::LAB15" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB15/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Inductively coupled plasma mass spectrometer"@en ;
@@ -1210,7 +1210,7 @@ inst:liquidchromatographyinstrument
 .
 inst:magnetometer
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Magnetometer"@en ;
   skos:altLabel "Gaussmeter"@en ;
@@ -1226,7 +1226,7 @@ inst:massspectrometer
   dcterm:identifier "SDN:L05::LAB16" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB16/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Mass spectrometer"@en ;
@@ -1265,7 +1265,7 @@ inst:microscope
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB05/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Microscope"@en ;
@@ -1285,7 +1285,7 @@ inst:microscope
 .
 inst:multicollectorinductivelycoupledplasmamassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Multicollector inductively coupled plasma mass spectrometer"@en ;
   skos:altLabel "Multi-Collector Inductively coupled plasma mass spectrometer" ;
@@ -1377,7 +1377,7 @@ inst:photonspectrometer
 .
 inst:phsensitiveelectrode
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "pH-sensitive electrode"@en ;
   skos:altLabel "Glass Electrode"@en ;
@@ -1389,7 +1389,7 @@ inst:phsensitiveelectrode
 .
 inst:porosimeter
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Porosimeter"@en ;
   skos:broader inst:materialpropertyinstrument ;
@@ -1468,7 +1468,7 @@ inst:redoxelectrode
 .
 inst:scanningelectronmicroscope
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Scanning electron microscope"@en ;
   skos:broader inst:electronorionopticalinstrument ;
@@ -1509,7 +1509,7 @@ inst:singlecrystalxraydiffractometer
 .
 inst:soilheatfluxtransducer
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "oil heat flux transducer"@en ;
   skos:broader inst:materialpropertyinstrument ;
@@ -1562,7 +1562,7 @@ inst:spectrophotometer
 .
 inst:spectroradiometer
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Spectroradiometer"@en ;
   skos:broader inst:photonspectrometer ;
@@ -1572,7 +1572,7 @@ inst:spectroradiometer
 .
 inst:tensiometer
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Tensiometer"@en ;
   skos:broader inst:materialpropertyinstrument ;
@@ -1591,7 +1591,7 @@ inst:timeofflightmassspectrometer
 .
 inst:transmissionelectronmicroscope
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Transmission electron microscope"@en ;
   skos:broader inst:electronorionopticalinstrument ;
@@ -1751,7 +1751,7 @@ meth:alpharecoiltrackcounting
 .
 meth:amperometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Amperometry"@en ;
   skos:broader meth:electrochemicaltechniques ;
@@ -1796,7 +1796,7 @@ meth:anionchromatographyanalysis
 meth:atomicabsorptionspectrometry
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   dcterm:source "GeoRoc" ;
   dcterm:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
@@ -1856,6 +1856,8 @@ meth:backscatteredelectronimaging
   skos:inScheme analt:method ;
   skos:notation "BSE" ;
   skos:prefLabel "Backscattered electron imaging"@en ;
+  skos:related inst:electronmicroprobe ;
+  skos:related inst:scanningelectronmicroscope ;
 .
 meth:benchchemistry
   rdf:type skos:Concept ;
@@ -1902,7 +1904,7 @@ meth:capacitancedilatometry
 .
 meth:capillaryelectrophoresisanalysis
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Capillary electrophoresis analysis"@en ;
   skos:broader meth:analyticalmethod ;
@@ -2103,7 +2105,7 @@ meth:dietrichfruhlingcalcimetry
 .
 meth:differentialscanningcalorimetry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Differential scanning calorimetry"@en ;
@@ -2165,7 +2167,7 @@ meth:directshearstrengthmeasurement
 .
 meth:dnasequencing
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "DNA sequencing"@en ;
   skos:broader meth:bioanalyticalmethod ;
@@ -2222,7 +2224,7 @@ meth:electrochemistry
 .
 meth:electronbackscatterdiffraction
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electron backscatter diffraction"@en ;
@@ -2251,6 +2253,7 @@ meth:electronenergylossspectrometry
   skos:definition "a material is exposed to a beam of electrons with a known, narrow range of kinetic energies. Some of the electrons will undergo inelastic scattering, which means that they lose energy and have their paths slightly and randomly deflected. The amount of energy loss can be measured via an electron spectrometer and interpreted in terms of what caused the energy loss. With some care, and looking at a wide range of energy losses, one can determine the types of atoms, and the numbers of atoms of each type, being struck by the beam. The scattering angle (that is, the amount that the electron's path is deflected) can also be measured, giving information about the dispersion relation of whatever material excitation caused the inelastic scattering. Most common approach today is transmission EELS, in which the incident electrons pass entirely through the material sample. Usually this occurs in a transmission electron microscope (TEM), although some dedicated systems exist which enable extreme resolution in terms of energy and momentum transfer at the expense of spatial resolution. (https://en.wikipedia.org/wiki/Electron_energy_loss_spectroscopy, https://eels.info/about/techniques/eels-0)"@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Electron energy loss spectrometry"@en ;
+  skos:related inst:transmissionelectronmicroscope ;
 .
 meth:electroninducedxrayspectrometry
   rdf:type skos:Concept ;
@@ -2262,6 +2265,9 @@ meth:electroninducedxrayspectrometry
   skos:inScheme analt:method ;
   skos:notation "xEIXS" ;
   skos:prefLabel "Electron induced X-ray spectrometry"@en ;
+  skos:related inst:electronmicroprobe ;
+  skos:related inst:scanningelectronmicroscope ;
+  skos:related inst:transmissionelectronmicroscope ;
 .
 meth:electronmicroscopyimaging
   rdf:type skos:Concept ;
@@ -2315,10 +2321,14 @@ meth:electrothermalabsorptionspectrometry
 .
 meth:elementalanalysis
   rdf:type skos:Concept ;
-  dcterm:source "GeoRoc, PetDb, Astromat" ;
+  dcterm:source "Astromat" ;
+  dcterm:source "GeoRoc" ;
+  dcterm:source "PetDb" ;
   rdfs:label "Elemental analysis"@en ;
+  skos:altLabel "MICROSCOPE VACUUM HEATING STAGE" ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Technique to quantify  carbon, hydrogen, nitrogen, sulfur and sometimes other elements by heating the sample at very high temperature (pyrolysis) in oxygen or oxygen free atmosphere, and assaying the resulting gaseous oxides. The products typically undergo some chemical refinement, with the final product analyzed by mass spectrometry or infrared/optical spectroscopy. Usually used for samples including organic material.  (http://vocab.nerc.ac.uk/collection/L05/current/LAB01; https://en.wikipedia.org/wiki/Elemental_analysis)."@en ;
+  skos:editorialNote "map GeoRoc 'MICROSCOPE VACUUM HEATING STAGE' to this technique based on data reported for technique: CO2, H2O, S."@en ;
   skos:inScheme analt:method ;
   skos:prefLabel "Elemental analysis "@en ;
 .
@@ -2389,6 +2399,7 @@ meth:energydispersiveelectroninducedxrayspectrometry
   skos:definition "Analysis of X-ray spectra generated by electron beam excitation using a Transmission electron microscope instrument"@en ;
   skos:inScheme analt:method ;
   skos:notation "EEDS" ;
+  skos:notation "TEM-EDS" ;
   skos:prefLabel "Energy dispersive electron induced X-ray spectrometry"@en ;
 .
 meth:energydispersivexrayfluorescencespectrometry
@@ -2508,7 +2519,7 @@ meth:flameemissionspectrometry
 .
 meth:flowcytometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, USGS" ;
+  dcterm:source "Geo-X" ; dcterm:source "USGS"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Flow cytometry"@en ;
   skos:broader meth:bioanalyticalmethod ;
@@ -2518,7 +2529,7 @@ meth:flowcytometry
 .
 meth:fluorescencemicroscopy
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Fluorescence microscopy"@en ;
   skos:broader meth:microscopy ;
@@ -2528,7 +2539,7 @@ meth:fluorescencemicroscopy
 .
 meth:fluorescencespectrometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   dcterm:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Fluorescence spectrometry"@en ;
@@ -2546,7 +2557,7 @@ meth:fluorescencespectrometry
 .
 meth:fluorescentinsituhybridization
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Fluorescent in situ hybridization"@en ;
   skos:broader meth:bioanalyticalmethod ;
@@ -2646,7 +2657,7 @@ meth:gaschromatographycombustionisotopicratiomassspectrometry
 .
 meth:gaschromatographyflameionizationdetection
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography flame ionization detection"@en ;
   skos:broader meth:gaschromatographyanalysis ;
@@ -2657,7 +2668,7 @@ meth:gaschromatographyflameionizationdetection
 .
 meth:gaschromatographymassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography mass spectrometry"@en ;
@@ -2669,7 +2680,7 @@ meth:gaschromatographymassspectrometry
 .
 meth:gaschromatographythermalconductivitydetection
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography thermal conductivity detection"@en ;
   skos:broader meth:gaschromatographyanalysis ;
@@ -2749,7 +2760,7 @@ meth:gutzeittest
 .
 meth:highperformanceliquidchromatographyseparation
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "High performance liquid chromatography separation"@en ;
   skos:broader wrkf:liquidchromatographyseparation ;
@@ -2776,7 +2787,7 @@ meth:highresolutioninductivelycoupledplasmamassspectrometry
 .
 meth:hybridizationassay
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Hybridization assay"@en ;
   skos:altLabel "DNA hybridization capture"@en ;
@@ -2940,7 +2951,7 @@ meth:instrumentalneutronactivationanalysis
 .
 meth:ionchromatographyanalysis
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   dcterm:source "GeoRoc" ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
@@ -3136,10 +3147,14 @@ meth:lockinthermography
 .
 meth:lossonignitionanalysis
   rdf:type skos:Concept ;
+  dcterm:source "GeoRoc" ;
   dcterm:source "SMR add" ;
   rdfs:label "Loss on ignition analysis "@en ;
+  skos:altLabel "STEPPED HEATING ANALYSIS" ;
   skos:broader meth:benchchemistry ;
   skos:definition "Method consists of ‘igniting’ (vigorous heating) a sample at a designated temperature which enables volatile substances within the sample material to escape, until the mass of the sample ceases to change. This process is often performed within air but may be done in another inert or reactive atmosphere.  Loss on Ignition measures the organic matter content in samples. The volatile materials lost during the analysis typically consist of combined water (hydrates, for example) and CO2 from carbonates. (https://www.precisa.com/blog/what-is-loss-on-ignition-loi)"@en ;
+  skos:editorialNote """GeoRoc reports analytes for 'STEPPED HEATING ANALYSIS' as CO2 and H20, so interpret as a loss on ignition technique.
+""" ;
   skos:inScheme analt:method ;
   skos:prefLabel "Loss on ignition analysis "@en ;
   skos:related wrkf:pyrolysis ;
@@ -3362,7 +3377,7 @@ meth:neutronirradiationnoblegasmassspectrometry
 .
 meth:nextgenerationsequencing
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Next generation sequencing"@en ;
   skos:altLabel "Massive parallel sequencing" ;
@@ -3393,7 +3408,7 @@ meth:noblegasmassspectrometry
 .
 meth:nuclearmagneticresonancespectrometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Nuclear magnetic resonance spectrometry"@en ;
@@ -3514,11 +3529,16 @@ meth:particlecohesiondetermination
 .
 meth:particlecounting
   rdf:type skos:Concept ;
+  dcterm:source "GeoRoc" ;
   dcterm:source "SMR add general categories" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Particle counting"@en ;
+  skos:altLabel "RADON METHOD" ;
+  skos:altLabel "RN-EMANATION ANALYSIS" ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Technique that detects and counts photons or particles (neutrons, alpha particles) that are spontaneously emitted from a sample due to radioactive decay of elements in the sample."@en ;
+  skos:editorialNote "Data in GeoRoc for this technique are Ra226 (Radium!) activity. Radium-226 (1600 year half life) yields an alpha particle and Radon-222; Radon-222 (3.82 day half life) yields an alpha particle and Polonium-218... (https://www.nist.gov/image-23773).   Guess Radon is being measured as proxy for Radium, and the Radon concentration measured using alpha particle or gamma ray counting...."@en ;
+  skos:editorialNote "Radon method is lumped in this group. https://nrpp.info/standards/measurement-methods/ lists 16 methods for anlyzing radon concentration. All are based on counting radioactive decay products from radon in air, water, or collected on charcoal. Some use gamma counting, some count tracks from alpha particles. lacking more detail, assign to 'Particle counting'"@en ;
   skos:inScheme analt:method ;
   skos:notation "xPC" ;
   skos:prefLabel "Particle counting"@en ;
@@ -3594,7 +3614,7 @@ meth:phmeasurement
 .
 meth:photometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   dcterm:source "GeoRoc" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Photometry"@en ;
@@ -3743,7 +3763,7 @@ meth:positiveionthermalionizationmassspectrometry
 meth:potentiometry
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   dcterm:source "GeoRoc" ;
   dcterm:source "PetDb" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
@@ -3781,7 +3801,7 @@ meth:pyrolysisgaschromatographyflameionizationdetection
 .
 meth:pyrolysisgaschromatographymassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Pyrolysis gas chromatography mass spectrometry"@en ;
   skos:altLabel "Pyrolysis mass spectrometry" ;
@@ -3832,7 +3852,7 @@ meth:quantitativeanalysisparticleinducedxrayspectrometry
 .
 meth:quantitativepolymerasechainreaction
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Quantitative polymerase chain reaction"@en ;
   skos:altLabel "DNA amplification" ;
@@ -3873,7 +3893,7 @@ meth:radiochemicalneutronactivationanalysis
 .
 meth:ramanspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   dcterm:source "GeoRoc" ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
@@ -3890,7 +3910,7 @@ meth:ramanspectrometry
 .
 meth:redoxpotentialmeasurement
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Redox potential measurement"@en ;
   skos:broader meth:electrochemicaltechniques ;
@@ -3912,7 +3932,7 @@ meth:resonanceionizationtimeofflightnoblegasmassspectrometry
 .
 meth:sangersequencing
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Sanger sequencing"@en ;
   skos:altLabel "Chain termination sequencing" ;
@@ -3955,11 +3975,13 @@ meth:secondaryelectronimaging
   skos:inScheme analt:method ;
   skos:notation "SE" ;
   skos:prefLabel "Secondary electron imaging"@en ;
+  skos:related inst:electronmicroprobe ;
+  skos:related inst:scanningelectronmicroscope ;
 .
 meth:secondaryionizationmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   dcterm:source "GeoRoc" ;
   dcterm:source "O-REx techniques" ;
   dcterm:source "PetDb" ;
@@ -4015,7 +4037,7 @@ meth:sensitivehighmassresolutionionmicroprobe
 .
 meth:shotgunmethod
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Shotgun method"@en ;
   skos:altLabel "Shot gun sequencing" ;
@@ -4026,7 +4048,7 @@ meth:shotgunmethod
 .
 meth:singlecrystalxraydiffraction
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Single crystal X-ray diffraction"@en ;
   skos:altLabel "X-ray crystallography" ;
@@ -4096,7 +4118,7 @@ meth:spectrometry
 .
 meth:spectrophotometry
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Spectrophotometry"@en ;
   skos:broader meth:opticalspectrometry ;
@@ -4295,6 +4317,7 @@ meth:transmissionelectronimaging
   skos:inScheme analt:method ;
   skos:notation "TEM" ;
   skos:prefLabel "Transmission electron imaging"@en ;
+  skos:related inst:transmissionelectronmicroscope ;
 .
 meth:transmissionspectrometry
   rdf:type skos:Concept ;
@@ -4430,7 +4453,7 @@ meth:xraycomputedtomography
 meth:xraydiffraction
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   dcterm:source "GeoRoc" ;
   dcterm:source "O-REx techniques" ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
@@ -4446,7 +4469,7 @@ meth:xraydiffraction
 meth:xrayfluorescencespectrometry
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   dcterm:source "GeoRoc" ;
   dcterm:source "O-REx techniques" ;
   dcterm:source "PetDb" ;
@@ -4507,7 +4530,7 @@ meth:xrayphotoelectronspectroscopycompositionmap
 .
 meth:xraypowderdiffraction
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "X-ray powder diffraction"@en ;
   skos:altLabel "Powder X-ray diffraction" ;
@@ -4545,7 +4568,7 @@ analt:workflow
 .
 wrkf:aciddigestion
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Acid digestion"@en ;
   skos:broader wrkf:analyticalseparation ;
@@ -4579,7 +4602,7 @@ wrkf:calcination
   rdfs:label "Calcination "@en ;
   skos:altLabel "CALCINATION ANALYSIS" ;
   skos:broader wrkf:pyrolysis ;
-  skos:definition "calcination refers to the heating of inorganic materials to remove volatile components (B. Rand, in Concise Encyclopedia of Advanced Ceramic Materials, 1991)"@en ;
+  skos:definition "calcination refers to the heating of inorganic materials to remove volatile components (B. Rand, in Concise Encyclopedia of Advanced Ceramic Materials, 1991) Reported data in GeoRoc are for organic carbon and CO2"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Calcination "@en ;
 .
@@ -4605,7 +4628,7 @@ wrkf:chromatographyseparation
 .
 wrkf:columnchromatographyseparation
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Column chromatography separation"@en ;
   skos:broader wrkf:chromatographyseparation ;
@@ -4615,7 +4638,7 @@ wrkf:columnchromatographyseparation
 .
 wrkf:dnafragmentation
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "DNA fragmentation"@en ;
   skos:altLabel "DNA shearing" ;
@@ -4667,7 +4690,7 @@ wrkf:electrosprayionization
 .
 wrkf:gaschromatographyseparation
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, NASA" ;
+  dcterm:source "Geo-X" ; dcterm:source "NASA"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography separation"@en ;
   skos:broader wrkf:columnchromatographyseparation ;
@@ -4726,7 +4749,7 @@ wrkf:mediumpressureliquidchromatographyseparation
 .
 wrkf:microtomy
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Microtomy"@en ;
   skos:broader wrkf:samplepreparation ;
@@ -4736,7 +4759,7 @@ wrkf:microtomy
 .
 wrkf:polymerasechainreaction
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Polymerase chain reaction"@en ;
   skos:altLabel "DNA amplification" ;
@@ -4749,7 +4772,7 @@ wrkf:polymerasechainreaction
 .
 wrkf:pyrohydrolysis
   rdf:type skos:Concept ;
-  dcterm:source "GeoRoc, Astromat" ;
+  dcterm:source "GeoRoc" ; dcterm:source "Astromat"  ;
   rdfs:label "Pyrohydrolysis "@en ;
   skos:broader wrkf:pyrolysis ;
   skos:definition "Pyrohydrolysis is a sample preparation technique widely employed for the separation of fluorine, chlorine, bromine, iodine, boron and sulphur from solid samples which include refractive materials that are difficult to dissolve. Pyrohydrolysis is based on the principle that pulverization of a soild sample due to the combined action of heat and steam at high temperature produces volatile compounds of the analytes which are trapped in an alkaline solution for subsequent analysis. (https://doi.org/10.15406/oajs.2018.02.00103)"@en ;
@@ -4767,7 +4790,7 @@ wrkf:pyrolysis
 .
 wrkf:pyrolysisgaschromatography
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, DFG" ;
+  dcterm:source "Geo-X" ; dcterm:source "DFG"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Pyrolysis gas chromatography"@en ;
   skos:broader meth:gaschromatographyanalysis ;
@@ -4797,7 +4820,7 @@ wrkf:secondaryionsource
 .
 wrkf:solidphaseextraction
   rdf:type skos:Concept ;
-  dcterm:source "Geo-X, IUPAC" ;
+  dcterm:source "Geo-X" ; dcterm:source "IUPAC"  ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Solid-Phase Extraction "@en ;
   skos:broader wrkf:analyticalseparation ;
@@ -4826,7 +4849,7 @@ wrkf:ultravioletlaserablation
 .
 wrkf:vacuumpyrolysis
   rdf:type skos:Concept ;
-  dcterm:source "GeoRoc, PetDb, Astromat" ;
+  dcterm:source "GeoRoc" ;  dcterm:source "PetDb" ; dcterm:source "Astromat"  ;
   rdfs:label "Vacuum pyrolysis "@en ;
   skos:broader wrkf:pyrolysis ;
   skos:definition "thermal decomposition of materials at elevated temperatures in a vacuum; decomposes organic molecules without combustion (https://en.wikipedia.org/wiki/Pyrolysis;(https://en.wikipedia.org/wiki/Vacuum_fusion). A metal sample is melted in a vacuum and gas collected, possibly cleaned, and analyzed."@en ;
@@ -4838,7 +4861,7 @@ wrkf:waterbydifferencecalculation
   dcterm:source "GeoRoc" ;
   rdfs:label "Water by difference calculation "@en ;
   skos:altLabel "WATER-BY-DIFFERENCE ANALYSIS" ;
-  skos:broader wrkf:workflowcomponent ;
+  skos:broader wrkf:calculation ;
   skos:definition "method to determine water in hydrated glasses, by adding up all the elements (and their associated stoichiometric oxygen), and then subtracting that sum from 100 to obtain the so called water by difference. This water is then included in the matrix correction. The value of H2O obtained by difference needs to be iterated in the matrix correction for the other elements because the oxygen (in the water) absorbs the emission lines of the other elements, particularly Si. By not including the H2O (by difference) in the matrix correction, the Si ka absorption correction will be underestimated because oxygen absorbs Si Ka more than silicon does. https://probesoftware.com/smf/index.php?topic=922.msg5937#msg5937"@en ;
   skos:inScheme analt:workflow ;
   skos:prefLabel "Water by difference calculation "@en ;
