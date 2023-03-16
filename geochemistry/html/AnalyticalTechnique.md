@@ -12,6 +12,11 @@ This file generated at: "2023-03-16T11:29:46.934199+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
+title: "Analytical Techniques vocabulary"
+format:
+  html:
+    toc: true
+	ascii: true
 execute:
   echo: false
 ---
@@ -322,7 +327,7 @@ http://vocab.nerc.ac.uk/scheme/SDNDEV/current
 
 - Instruments that measure the amount of alpha, beta or gamma
 radiation through quantification of the ionization of a low-pressure
-gas contained in a tube. Sometimes referred to as Geiger-MÃ¼ller
+gas contained in a tube. Sometimes referred to as Geiger-Muller
 counters.
 
 - **Alternate labels:**
@@ -3156,7 +3161,7 @@ GeoRoc,
 - Child of:
  [`benchchemistry`](#benchchemistry)
 
-- Method consists of ‘igniting’ (vigorous heating) a sample at a
+- Method consists of igniting (vigorous heating) a sample at a
 designated temperature which enables volatile substances within the
 sample material to escape, until the mass of the sample ceases to
 change. This process is often performed within air but may be done in
