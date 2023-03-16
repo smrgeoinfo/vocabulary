@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-03-15T17:29:44.892322+00:00"
+This file generated at: "2023-03-16T11:29:46.934199+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -599,7 +599,8 @@ behavior, formation, and composition. (Source: NASA; UUID:
 b46bf990-c49d-4302-96ee-dce3c4f96d08)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: carbonanalyzer
 
@@ -910,7 +911,8 @@ SMR add general categories to group Geo-X instruments
 - a device that measures wind speed and direction.
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+ NASA, 
 
 - Concept URI token: anemometers
 
@@ -934,7 +936,8 @@ between two variables associated with turbulent motions. (Source:
 NASA; UUID: f5a3c5f6-b575-48f4-8479-2bc4092c8f99)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: eddycorrelationdevices
 
@@ -1022,7 +1025,8 @@ Conductometric sensor
 
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: conductivitysensor
 
@@ -1048,7 +1052,8 @@ pH Electrode,
 
 
 - **Source:**
-Geo-X, DFG
+Geo-X, 
+DFG, 
 
 - Concept URI token: phsensitiveelectrode
 
@@ -1152,7 +1157,8 @@ X-ray microanalyzer,
 
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: electronmicroprobe
 
@@ -1179,7 +1185,8 @@ may be performed.  (Source: NASA; UUID:
 04e586f0-569b-467d-b9ca-b43bc6802f4b)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: scanningelectronmicroscope
 
@@ -1228,7 +1235,8 @@ beam parallel to the optical axis.
 (Source: NASA; UUID: e5ab49d5-5f99-43d6-85bd-8db629f7bc7b)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: transmissionelectronmicroscope
 
@@ -1277,7 +1285,8 @@ Teslameter,
 
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: magnetometer
 
@@ -1421,7 +1430,8 @@ against the opposing force of the liquid's surface tension.
 (https://en.wikipedia.org/wiki/Porosimetry)
 
 - **Source:**
-Geo-X, DFG
+Geo-X, 
+DFG, 
 
 - Concept URI token: porosimeter
 
@@ -1447,7 +1457,8 @@ information available at
 provided by University of Nebraska-Lincoln]. .
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: soilheatfluxtransducer
 
@@ -1467,7 +1478,8 @@ help farmers and other irrigation managers to determine when to water.
 full.php?thcode=2)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: tensiometer
 
@@ -1701,7 +1713,8 @@ Stereo Microscope,
 
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: binocular
 
@@ -1730,7 +1743,8 @@ http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current,
 http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current, 
 http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current, 
 http://vocab.nerc.ac.uk/scheme/SDNDEV/current, 
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 
 - Concept URI token: microscope
 
@@ -1891,7 +1905,8 @@ mass spectrum representing the masses of sample components.
 - **Source:**
 http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current, 
 http://vocab.nerc.ac.uk/scheme/SDNDEV/current, 
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 
 - Concept URI token: massspectrometer
 
@@ -2085,7 +2100,8 @@ inductively-coupled plasma mass spectrometers
 - **Source:**
 http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current, 
 http://vocab.nerc.ac.uk/scheme/SDNDEV/current, 
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 
 - Concept URI token: inductivelycoupledplasmamassspectrometer
 
@@ -2113,7 +2129,8 @@ Multi-Collector Inductively coupled plasma mass spectrometer
 
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: multicollectorinductivelycoupledplasmamassspectrometer
 
@@ -2460,7 +2477,8 @@ Fluorimeter
 
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: fluorometer
 
@@ -2658,7 +2676,8 @@ terms calibrated spectrometer, spectrometer and spectroradiometer.
 spectrometer-spectroradiometer-and-radiometer)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: spectroradiometer
 
@@ -3147,8 +3166,13 @@ the analysis typically consist of combined water (hydrates, for
 example) and CO2 from carbonates. (https://www.precisa.com/blog/what-
 is-loss-on-ignition-loi)
 
+- **Alternate labels:**
+STEPPED HEATING ANALYSIS
+
+
 - **Source:**
-SMR add
+GeoRoc, 
+SMR add, 
 
 - Concept URI token: lossonignitionanalysis
 
@@ -3536,7 +3560,8 @@ SMR add general categories to group Geo-X categories
 (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: dnasequencing
 
@@ -3559,7 +3584,8 @@ discernible), and probing with a laser or other excitation source that
 will identify the particles of interest so they can be counted.
 
 - **Source:**
-Geo-X, USGS
+Geo-X, 
+USGS, 
 
 - Concept URI token: flowcytometry
 
@@ -3585,7 +3611,8 @@ expression within cells and tissues. (Source: IUPAC;
 https://doi.org/10.1515/iupac.90.0262)
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: fluorescentinsituhybridization
 
@@ -3619,7 +3646,8 @@ DNA hybridization capture
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: hybridizationassay
 
@@ -3644,7 +3672,8 @@ Second generation sequencing,
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: nextgenerationsequencing
 
@@ -3675,7 +3704,8 @@ Quantitative PCR,
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: quantitativepolymerasechainreaction
 
@@ -3699,7 +3729,8 @@ Chain termination sequencing
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: sangersequencing
 
@@ -3721,7 +3752,8 @@ Shot gun sequencing
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: shotgunmethod
 
@@ -3792,7 +3824,8 @@ and produce an electrical signal which is then measured. (Source:
 IUPAC; https://doi.org/10.1515/pac-2017-0111)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: gaschromatographyflameionizationdetection
 
@@ -3840,7 +3873,8 @@ as a change in electrical resistance and are measured.  (Source: NASA;
 UUID: f54fd6d0-9705-4f45-8c78-7eaba058b1b6)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: gaschromatographythermalconductivitydetection
 
@@ -3858,7 +3892,8 @@ to smaller fragments before entering the column. (Source: IUPAC;
 https://doi.org/10.1515/pac-2017-0111).
 
 - **Source:**
-Geo-X, DFG
+Geo-X, 
+DFG, 
 
 - Concept URI token: pyrolysisgaschromatography
 
@@ -3930,7 +3965,8 @@ Ion exchange chromatography,
 
 
 - **Source:**
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 GeoRoc, 
 O-REx techniques, 
 
@@ -4087,7 +4123,8 @@ dissolved oxygen in water (Clark electrode), glucose in blood (glucose
 electrode). (Source: IUPAC;  https://doi.org/10.1515/pac-2018-0109).
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: amperometry
 
@@ -4180,7 +4217,8 @@ https://doi.org/10.1515/pac-2018-0109).
 
 - **Source:**
 Astromat, 
-Geo-X, IUPAC, 
+Geo-X, 
+IUPAC, 
 GeoRoc, 
 PetDb, 
 
@@ -4237,7 +4275,8 @@ using a platinum electrode with a saturated calomel electrode as
 reference.
 
 - **Source:**
-Geo-X, DFG
+Geo-X, 
+DFG, 
 
 - Concept URI token: redoxpotentialmeasurement
 
@@ -4344,7 +4383,8 @@ excite the phosphor causing it to fluoresce.
 - Acquired with EMPA, SEM, TEM
 
 - **Source:**
-Geo-X, DFG, 
+Geo-X, 
+DFG, 
 O-REx techniques, 
 
 - Concept URI token: electronbackscatterdiffraction
@@ -4396,8 +4436,14 @@ samples including organic material.
 (http://vocab.nerc.ac.uk/collection/L05/current/LAB01;
 https://en.wikipedia.org/wiki/Elemental_analysis).
 
+- **Alternate labels:**
+MICROSCOPE VACUUM HEATING STAGE
+
+
 - **Source:**
-GeoRoc, PetDb, Astromat
+Astromat, 
+GeoRoc, 
+PetDb, 
 
 - Concept URI token: elementalanalysis
 
@@ -5260,7 +5306,8 @@ brief interval, termed the fluorescence lifetime.  http://micro.magnet
 .fsu.edu/primer/techniques/fluorescence/fluorhome.html
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: fluorescencemicroscopy
 
@@ -5766,8 +5813,14 @@ GeoRoc
 alpha particles) that are spontaneously emitted from a sample due to
 radioactive decay of elements in the sample.
 
+- **Alternate labels:**
+RADON METHOD, 
+RN-EMANATION ANALYSIS, 
+
+
 - **Source:**
-SMR add general categories
+GeoRoc, 
+SMR add general categories, 
 
 - Concept URI token: particlecounting
 
@@ -6086,7 +6139,8 @@ the human eye. (Source: NASA; UUID;
 806d0bc3-8d08-4418-800b-972292f3db99)
 
 - **Source:**
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 GeoRoc, 
 
 - Concept URI token: photometry
@@ -6459,7 +6513,8 @@ Power compensation DSC,
 
 
 - **Source:**
-Geo-X, DFG, 
+Geo-X, 
+DFG, 
 O-REx techniques, 
 
 - Concept URI token: differentialscanningcalorimetry
@@ -6702,7 +6757,8 @@ Nuclear magnetic resonance,
 
 
 - **Source:**
-Geo-X, DFG, 
+Geo-X, 
+DFG, 
 O-REx techniques, 
 
 - Concept URI token: nuclearmagneticresonancespectrometry
@@ -7069,7 +7125,8 @@ by gas chromatography, followed by detection with a mass spectrometer.
 (Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06)
 
 - **Source:**
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 O-REx techniques, 
 
 - Concept URI token: gaschromatographymassspectrometry
@@ -7093,7 +7150,8 @@ Pyrolysis mass spectrometry
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: pyrolysisgaschromatographymassspectrometry
 
@@ -7877,7 +7935,8 @@ Secondary Ion mass spectrometry,
 
 - **Source:**
 Astromat, 
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 GeoRoc, 
 O-REx techniques, 
 PetDb, 
@@ -8155,7 +8214,8 @@ Spectrofluorometry,
 
 
 - **Source:**
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 GeoRoc, 
 
 - Concept URI token: fluorescencespectrometry
@@ -8561,7 +8621,8 @@ MICROABSORPTION ANALYSIS,
 
 - **Source:**
 Astromat, 
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 GeoRoc, 
 PetDb, 
 
@@ -8982,7 +9043,8 @@ enters the meter through a slit and is dispersed by means of a prism.
 (Source: NASA; UUID: 3f7c8cc2-e3c3-4dfd-a17f-9d480f1f7179)
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: spectrophotometry
 
@@ -9423,7 +9485,8 @@ XRF Spectroscopy,
 
 - **Source:**
 Astromat, 
-Geo-X, NASA, 
+Geo-X, 
+NASA, 
 GeoRoc, 
 O-REx techniques, 
 PetDb, 
@@ -9643,7 +9706,8 @@ Raman,
 
 
 - **Source:**
-Geo-X, DFG, 
+Geo-X, 
+DFG, 
 GeoRoc, 
 O-REx techniques, 
 
@@ -9880,7 +9944,8 @@ X-ray diffraction analysis,
 
 - **Source:**
 Astromat, 
-Geo-X, IUPAC, 
+Geo-X, 
+IUPAC, 
 GeoRoc, 
 O-REx techniques, 
 
@@ -9930,7 +9995,8 @@ X-ray diffraction,
 
 
 - **Source:**
-Geo-X, DFG
+Geo-X, 
+DFG, 
 
 - Concept URI token: singlecrystalxraydiffraction
 
@@ -9966,7 +10032,8 @@ X-ray diffraction,
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: xraypowderdiffraction
 
@@ -10011,6 +10078,7 @@ Namespace:
         - [Electrokinetic separation](#electromigrationtechnique)
         - [Solid-phase extraction ](#solidphaseextraction)
     - [Calculation ](#calculation)
+        - [Water by difference calculation ](#waterbydifferencecalculation)
     - [Ion source](#ionsource)
         - [Electron ionization](#electronionization)
         - [Electrospray ionization](#electrosprayionization)
@@ -10029,7 +10097,6 @@ Namespace:
             - [DNA library preparation](#dnalibrarypreparation)
             - [Polymerase chain reaction](#polymerasechainreaction)
         - [Microtomy](#microtomy)
-    - [Water by difference calculation ](#waterbydifferencecalculation)
 
 **Concepts**
 
@@ -10193,7 +10260,8 @@ acid. Acid digestion can be performed in closed or open vessels.
 (Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: aciddigestion
 
@@ -10238,7 +10306,8 @@ sample for further analysis. (Source IUPAC:
 https://doi.org/10.1515/pac-2017-0111).
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: columnchromatographyseparation
 
@@ -10262,7 +10331,8 @@ https://doi.org/10.1515/pac-2017-0111). This technique is preparative,
 the eluate is taken for further analysis in a complete workflow.
 
 - **Source:**
-Geo-X, NASA
+Geo-X, 
+NASA, 
 
 - Concept URI token: gaschromatographyseparation
 
@@ -10357,7 +10427,8 @@ SMR add general workflow component categories
 solid sorbent. (Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: solidphaseextraction
 
@@ -10379,6 +10450,36 @@ Astromat,
 PetDb, 
 
 - Concept URI token: calculation
+
+
+[]{#waterbydifferencecalculation}
+
+####  Water by difference calculation
+
+
+- Child of:
+ [`calculation`](#calculation)
+
+- method to determine water in hydrated glasses, by adding up all the
+elements (and their associated stoichiometric oxygen), and then
+subtracting that sum from 100 to obtain the so called water by
+difference. This water is then included in the matrix correction. The
+value of H2O obtained by difference needs to be iterated in the matrix
+correction for the other elements because the oxygen (in the water)
+absorbs the emission lines of the other elements, particularly Si. By
+not including the H2O (by difference) in the matrix correction, the Si
+ka absorption correction will be underestimated because oxygen absorbs
+Si Ka more than silicon does.
+https://probesoftware.com/smf/index.php?topic=922.msg5937#msg5937
+
+- **Alternate labels:**
+WATER-BY-DIFFERENCE ANALYSIS
+
+
+- **Source:**
+GeoRoc
+
+- Concept URI token: waterbydifferencecalculation
 
 
 []{#ionsource}
@@ -10565,7 +10666,8 @@ SMR add
 
 - calcination refers to the heating of inorganic materials to remove
 volatile components (B. Rand, in Concise Encyclopedia of Advanced
-Ceramic Materials, 1991)
+Ceramic Materials, 1991) Reported data in GeoRoc are for organic
+carbon and CO2
 
 - **Alternate labels:**
 CALCINATION ANALYSIS
@@ -10595,7 +10697,8 @@ which are trapped in an alkaline solution for subsequent analysis.
 (https://doi.org/10.15406/oajs.2018.02.00103)
 
 - **Source:**
-GeoRoc, Astromat
+GeoRoc, 
+Astromat, 
 
 - Concept URI token: pyrohydrolysis
 
@@ -10615,7 +10718,9 @@ n). A metal sample is melted in a vacuum and gas collected, possibly
 cleaned, and analyzed.
 
 - **Source:**
-GeoRoc, PetDb, Astromat
+GeoRoc, 
+PetDb, 
+Astromat, 
 
 - Concept URI token: vacuumpyrolysis
 
@@ -10675,7 +10780,8 @@ Sonication,
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: dnafragmentation
 
@@ -10715,7 +10821,8 @@ DNA enrichment,
 
 
 - **Source:**
-Geo-X, IUPAC
+Geo-X, 
+IUPAC, 
 
 - Concept URI token: polymerasechainreaction
 
@@ -10733,39 +10840,10 @@ very thin slices of specimens for microscopic studies. (Source: USGS;
 https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2).
 
 - **Source:**
-Geo-X, DFG
+Geo-X, 
+DFG, 
 
 - Concept URI token: microtomy
-
-
-[]{#waterbydifferencecalculation}
-
-###  Water by difference calculation
-
-
-- Child of:
- [`workflowcomponent`](#workflowcomponent)
-
-- method to determine water in hydrated glasses, by adding up all the
-elements (and their associated stoichiometric oxygen), and then
-subtracting that sum from 100 to obtain the so called water by
-difference. This water is then included in the matrix correction. The
-value of H2O obtained by difference needs to be iterated in the matrix
-correction for the other elements because the oxygen (in the water)
-absorbs the emission lines of the other elements, particularly Si. By
-not including the H2O (by difference) in the matrix correction, the Si
-ka absorption correction will be underestimated because oxygen absorbs
-Si Ka more than silicon does.
-https://probesoftware.com/smf/index.php?topic=922.msg5937#msg5937
-
-- **Alternate labels:**
-WATER-BY-DIFFERENCE ANALYSIS
-
-
-- **Source:**
-GeoRoc
-
-- Concept URI token: waterbydifferencecalculation
 
 
 
