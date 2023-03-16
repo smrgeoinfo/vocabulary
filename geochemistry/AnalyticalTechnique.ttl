@@ -4583,6 +4583,16 @@ wrkf:calcination
   skos:inScheme analt:workflow ;
   skos:prefLabel "Calcination "@en ;
 .
+wrkf:calculation
+  rdf:type skos:Concept ;
+  dcterm:source "Astromat" ;
+  dcterm:source "PetDb" ;
+  rdfs:label "Calculation "@en ;
+  skos:broader wrkf:workflowcomponent ;
+  skos:definition "A workflow component that takes results from some analysis or set of analyses to determin a final result, e.g. a CIPW norm calculation, Rb-Sr isochron calculation."@en ;
+  skos:inScheme analt:workflow ;
+  skos:prefLabel "Calculation "@en ;
+.
 wrkf:chromatographyseparation
   rdf:type skos:Concept ;
   dcterm:source "SMR add general workflow component categories" ;
