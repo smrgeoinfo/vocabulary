@@ -8,7 +8,7 @@
 [Workflow components in geological sample analysis methods](#Workflowcomponentsingeologicalsampleanalysismethods)
 
 
-This file generated at: "2023-03-15T13:28:24.880048+00:00"
+This file generated at: "2023-03-15T17:29:44.892322+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -2785,6 +2785,7 @@ Namespace:
 - [Analytical method](#analyticalmethod)
     - [Bench chemistry ](#benchchemistry)
         - [Combustion analysis](#combustionanalysis)
+        - [Loss on ignition analysis ](#lossonignitionanalysis)
         - [Penfield method analysis](#penfieldmethodanalysis)
         - [Wet chemistry](#wetchemistry)
             - [Acid reaction carbonate analysis](#acidreactioncarbonateanalysis)
@@ -2867,7 +2868,6 @@ Namespace:
             - [X-ray composition map](#xraymap)
                 - [Energy dispersive X-ray spectral data 2D raster](#energydispersivexrayspectraraster)
         - [X-ray photoelectron spectrometry composition mapping](#xrayphotoelectronspectroscopycompositionmap)
-    - [Loss on ignition analysis ](#lossonignitionanalysis)
     - [Magnetic field measurement ](#magneticfieldmeasurement)
     - [Microscopy](#microscopy)
         - [Fluorescence microscopy](#fluorescencemicroscopy)
@@ -3129,6 +3129,30 @@ GeoRoc,
 - Concept URI token: combustionanalysis
 
 
+[]{#lossonignitionanalysis}
+
+####  Loss on ignition analysis
+
+
+- Child of:
+ [`benchchemistry`](#benchchemistry)
+
+- Method consists of ‘igniting’ (vigorous heating) a sample at a
+designated temperature which enables volatile substances within the
+sample material to escape, until the mass of the sample ceases to
+change. This process is often performed within air but may be done in
+another inert or reactive atmosphere.  Loss on Ignition measures the
+organic matter content in samples. The volatile materials lost during
+the analysis typically consist of combined water (hydrates, for
+example) and CO2 from carbonates. (https://www.precisa.com/blog/what-
+is-loss-on-ignition-loi)
+
+- **Source:**
+SMR add
+
+- Concept URI token: lossonignitionanalysis
+
+
 []{#penfieldmethodanalysis}
 
 ####  Penfield method analysis
@@ -3137,9 +3161,17 @@ GeoRoc,
 - Child of:
  [`benchchemistry`](#benchchemistry)
 
-- [Penfield was mineralogist at Yale, late 1800-1906, developed
-methods for analyzing fluorine. Can't tell exactly what this technique
-is supposed to be]
+- Penfield, S. L., 1894, On some methods for the determination of
+water: American Journal of Science, v. 48, no. 283, p. 30-37.
+Determination of water by 'heating a weighed quantity of mineral in a
+closed glass tube, weighing the tube plus the water, then drying and
+weighing again'.  Modified method (Shapirro, 1975, p. 55-56,
+https://pubs.usgs.gov/bul/1401/report.pdf)  water is driven from the
+sample when it is heated in a Pyrex test tube with sodium tungstate as
+a flux (Shapiro and Brannock, 1955b). The water is condensed on a
+piece of preweighed filter paper in the upper part of a test tube that
+is cooled by crushed ice in a polyethylene jacket surrounding the test
+tube during the analysis.
 
 - **Alternate labels:**
 PENFIELD METHOD
@@ -5169,30 +5201,6 @@ characteristic energy peaks.
 X-ray photoelectron spectroscopy (XPS) elemental/chemical maps
 
 - Concept URI token: xrayphotoelectronspectroscopycompositionmap
-
-
-[]{#lossonignitionanalysis}
-
-###  Loss on ignition analysis
-
-
-- Child of:
- [`analyticalmethod`](#analyticalmethod)
-
-- Method consists of ‘igniting’ (vigorous heating) a sample at a
-designated temperature which enables volatile substances within the
-sample material to escape, until the mass of the sample ceases to
-change. This process is often performed within air but may be done in
-another inert or reactive atmosphere.  Loss on Ignition measures the
-organic matter content in samples. The volatile materials lost during
-the analysis typically consist of combined water (hydrates, for
-example) and CO2 from carbonates. (https://www.precisa.com/blog/what-
-is-loss-on-ignition-loi)
-
-- **Source:**
-SMR add
-
-- Concept URI token: lossonignitionanalysis
 
 
 []{#magneticfieldmeasurement}
@@ -10002,6 +10010,7 @@ Namespace:
                 - [Medium pressure liquid chromatography separation](#mediumpressureliquidchromatographyseparation)
         - [Electrokinetic separation](#electromigrationtechnique)
         - [Solid-phase extraction ](#solidphaseextraction)
+    - [Calculation ](#calculation)
     - [Ion source](#ionsource)
         - [Electron ionization](#electronionization)
         - [Electrospray ionization](#electrosprayionization)
@@ -10351,6 +10360,25 @@ solid sorbent. (Source: IUPAC; https://doi.org/10.1515/pac-2015-0903)
 Geo-X, IUPAC
 
 - Concept URI token: solidphaseextraction
+
+
+[]{#calculation}
+
+###  Calculation
+
+
+- Child of:
+ [`workflowcomponent`](#workflowcomponent)
+
+- A workflow component that takes results from some analysis or set of
+analyses to determin a final result, e.g. a CIPW norm calculation, Rb-
+Sr isochron calculation.
+
+- **Source:**
+Astromat, 
+PetDb, 
+
+- Concept URI token: calculation
 
 
 []{#ionsource}
