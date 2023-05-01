@@ -794,7 +794,8 @@ sdev:LAB51
   dcterm:creator "Astromat, GeoRock, GeoX, and EarthChem team" ;
   dcterm:modified "2023-02-21"^^xsd:date ;
   dcterm:publisher "TBD" ;
-  dcterm:source "Compiled from Astromat, GeoRock, GeoX, and EarthChem vocabulary spreadsheets" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "Compiled from Astromat, GeoRock, GeoX, and EarthChem vocabulary spreadsheets" ];
   rdfs:label "Analytical techniques for geochemistry"@en ;
   owl:imports <http://purl.org/dc/elements/1.1/> ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
@@ -820,7 +821,8 @@ inst:acceleratormassspectrometer
   dcterm:identifier "SDN:L05::LAB17" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "reorganize mass spectrometer classes [SMR]" ];
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB17/1> ;
   rdfs:label "Accelerator mass spectrometer "@en ;
   owl:versionInfo "1" ;
@@ -837,7 +839,8 @@ inst:acceleratormassspectrometer
 .
 inst:amperometricsensor
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods"] ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Amperometric sensor"@en ;
   skos:broader inst:electrochemicalinstrument ;
@@ -847,7 +850,8 @@ inst:amperometricsensor
 .
 inst:analyticalinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add top concept for instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add top concept for instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Analytical instrument"@en ;
   skos:definition "Any instrument"@en ;
@@ -876,7 +880,8 @@ inst:atomicforcemicroprobe
 .
 inst:atomicprobeinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general instrument type" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general instrument type" ];
   rdfs:label "Atomic probe instrument "@en ;
   skos:broader inst:analyticalinstrument ;
   skos:definition "Instruments with micrscopic mechanical probes that are scanned over the surface of a sample."@en ;
@@ -905,7 +910,8 @@ inst:binocular
 .
 inst:bioanalyticalinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Bioanalytical instrument"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -925,7 +931,8 @@ inst:carbonanalyzer
 .
 inst:chromatographyinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Chromatography instrument"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -959,7 +966,8 @@ inst:confocallaserscanningmicroscope
 .
 inst:currentwindmeters
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+ dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Current or wind meter"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -969,7 +977,8 @@ inst:currentwindmeters
 .
 inst:differentialscanningcalorimeter
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Differential scanning calorimeter"@en ;
   skos:broader inst:materialpropertyinstrument ;
@@ -989,7 +998,8 @@ inst:eddycorrelationdevices
 .
 inst:electrochemicalinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electrochemical instrument"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -1014,7 +1024,8 @@ inst:electronmicroprobe
 .
 inst:electronorionopticalinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments"] ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electron or ion optical instrument"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -1024,7 +1035,8 @@ inst:electronorionopticalinstrument
 .
 inst:elementalanalyzer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Elemental analyzer"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -1035,7 +1047,8 @@ inst:elementalanalyzer
 .
 inst:flowcytometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Flow cytometer"@en ;
   skos:broader inst:bioanalyticalinstrument ;
@@ -1046,7 +1059,8 @@ inst:flowcytometer
 .
 inst:fluorescencemicroscope
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Fluorescence microscope"@en ;
   skos:broader inst:microscope ;
@@ -1078,7 +1092,8 @@ inst:focusedionbeamscanningelectronmicroscope
 .
 inst:fouriertransformIoncyclotronresonancemassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "reorganize mass spectrometer classes [SMR]" ];
   rdfs:label "Fourier-transform ion cyclotron resonance mass spectrometer"@en ;
   skos:broader inst:massspectrometer ;
   skos:definition "mass spectrometer that analyzed ion mass/charge based on the cyclotron frequency of the ions in a fixed magnetic field. The ions are trapped in a magnetic field with electric trapping plates, where they are excited at their resonant cyclotron frequencies by an oscillating electric field. After the excitation field is removed, the ions are rotating at their cyclotron frequency in phase (as a \"packet\" of ions). These ions induce a charge (detected as an image current) on a pair of electrodes as the packets of ions pass close to them. The resulting signal is called a free induction decay (FID), transient or interferogram that consists of a superposition of sine waves. The useful signal is extracted from this data by performing a Fourier transform to give a mass spectrum. (https://en.wikipedia.org/wiki/Fourier-transform_ion_cyclotron_resonance)"@en ;
@@ -1087,7 +1102,8 @@ inst:fouriertransformIoncyclotronresonancemassspectrometer
 .
 inst:gaschromatographyflameionizationdetector
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods"];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography flame ionization detector"@en ;
   skos:broader inst:gaschromatographyinstrument ;
@@ -1101,7 +1117,8 @@ inst:gaschromatographyinstrument
   dcterm:identifier "SDN:L05::LAB02" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments"];
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB02/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography instrument"@en ;
@@ -1118,7 +1135,8 @@ inst:gaschromatographyinstrument
 .
 inst:gaschromatographymassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography mass spectrometer"@en ;
   skos:broader inst:gaschromatographyinstrument ;
@@ -1129,7 +1147,8 @@ inst:gaschromatographymassspectrometer
 inst:gaschromatographythermalconductivitydetector
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography thermal conductivity detector"@en ;
   skos:altLabel "THERMAL CONDUCTIVITY DETECTOR" ;
@@ -1146,7 +1165,8 @@ inst:highperformanceliquidchromatograph
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB11/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "High performance liquid chromatograph"@en ;
@@ -1200,7 +1220,8 @@ inst:inductivelycoupledplasmamassspectrometer
 .
 inst:liquidchromatographyinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Liquid chromatography instrument"@en ;
   skos:broader inst:chromatographyinstrument ;
@@ -1249,7 +1270,8 @@ inst:massspectrometer
 .
 inst:materialpropertyinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments"] ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Material property instrument"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -1322,7 +1344,8 @@ inst:nuclearmagneticresonancespectrometer
   dcterm:identifier "SDN:L05::LAB18" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB18/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Nuclear magnetic resonance spectrometer"@en ;
@@ -1339,7 +1362,8 @@ inst:nuclearmagneticresonancespectrometer
 .
 inst:opticalinstrument
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments"];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Optical instrument"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -1349,7 +1373,8 @@ inst:opticalinstrument
 .
 inst:orbitrapmassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "reorganize mass spectrometer classes [SMR]" ];
   rdfs:label "Orbitrap mass spectrometer "@en ;
   skos:broader inst:massspectrometer ;
   skos:definition "Mass spectrometer with an ion trap mass analyzer consisting of an outer barrel-like electrode and a coaxial inner spindle-like electrode that traps ions in an orbital motion around the spindle. The image current from the trapped ions is detected and converted to a mass spectrum using the Fourier transform of the frequency signal. (https://en.wikipedia.org/wiki/Orbitrap)"@en ;
@@ -1358,7 +1383,8 @@ inst:orbitrapmassspectrometer
 .
 inst:photometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Photometer"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -1399,7 +1425,8 @@ inst:porosimeter
 .
 inst:potentiometricsensor
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Potentiometric sensor"@en ;
   skos:broader inst:electrochemicalinstrument ;
@@ -1409,7 +1436,8 @@ inst:potentiometricsensor
 .
 inst:pyrolysisgaschromatographyflameionizationdetector
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods"];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Pyrolysis gas chromatography flame ionization detector"@en ;
   skos:broader inst:gaschromatographyflameionizationdetector ;
@@ -1419,7 +1447,8 @@ inst:pyrolysisgaschromatographyflameionizationdetector
 .
 inst:pyrolysisgaschromatographymassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods"];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Pyrolysis gas chromatography mass spectrometer"@en ;
   skos:broader inst:gaschromatographymassspectrometer ;
@@ -1429,7 +1458,8 @@ inst:pyrolysisgaschromatographymassspectrometer
 .
 inst:qpcrcycler
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods"] ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "qPCR cycler"@en ;
   skos:broader inst:bioanalyticalinstrument ;
@@ -1439,7 +1469,8 @@ inst:qpcrcycler
 .
 inst:quadrupolemassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "Reorganize Mass spectrometer instrument classes" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "Reorganize Mass spectrometer instrument classes" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Quadrupole mass spectrometer"@en ;
   skos:broader inst:massspectrometer ;
@@ -1448,7 +1479,8 @@ inst:quadrupolemassspectrometer
 .
 inst:ramanspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Raman spectrometer"@en ;
   skos:broader inst:photonspectrometer ;
@@ -1458,7 +1490,8 @@ inst:ramanspectrometer
 .
 inst:redoxelectrode
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Redox electrode"@en ;
   skos:broader inst:electrochemicalinstrument ;
@@ -1480,7 +1513,8 @@ inst:scanningelectronmicroscope
 .
 inst:secondaryionmassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Secondary ion mass dpectrometer"@en ;
   skos:broader inst:massspectrometer ;
@@ -1490,7 +1524,8 @@ inst:secondaryionmassspectrometer
 .
 inst:sectormassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "reorganize mass spectrometer classes [SMR]" ];
   rdfs:label "Sector mass spectrometer "@en ;
   skos:broader inst:massspectrometer ;
   skos:definition "class of mass spectrometer that uses a static electric (E) or magnetic (B) sector or some combination of the two (separately in space) as a mass analyzer. (https://en.wikipedia.org/wiki/Sector_mass_spectrometer)"@en ;
@@ -1499,7 +1534,8 @@ inst:sectormassspectrometer
 .
 inst:singlecrystalxraydiffractometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Single crystal X-ray diffractometer"@en ;
   skos:broader inst:xraydiffractometer ;
@@ -1519,7 +1555,8 @@ inst:soilheatfluxtransducer
 .
 inst:spectrofluorometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Spectrofluorometer"@en ;
   skos:broader inst:fluorometer ;
@@ -1529,7 +1566,8 @@ inst:spectrofluorometer
 .
 inst:spectrometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X instruments" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X instruments" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Spectrometer"@en ;
   skos:broader inst:analyticalinstrument ;
@@ -1543,7 +1581,8 @@ inst:spectrophotometer
   dcterm:identifier "SDN:L05::LAB20" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   pav:hasCurrentVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB20/2> ;
   pav:hasVersion <http://vocab.nerc.ac.uk/collection/L05/current/LAB20/1> ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
@@ -1582,7 +1621,8 @@ inst:tensiometer
 .
 inst:timeofflightmassspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "reorganize mass spectrometer classes [SMR]" ];
   rdfs:label "Time of flight mass spectrometer"@en ;
   skos:broader inst:massspectrometer ;
   skos:definition "instrument that measures an ion's mass-to-charge ratio by accelerating ions with an electric field of known strength. This acceleration results in an ion having the same kinetic energy as any other ion that has the same charge. The velocity of the ion depends on the mass-to-charge ratio (heavier ions of the same charge reach lower speeds, although ions with higher charge will also increase in velocity). The time that it subsequently takes for the ion to reach a detector at a known distance is measured. This time will depend on the velocity of the ion, and therefore is a measure of its mass-to-charge ratio. From this ratio and known experimental parameters, one can identify the ion. (https://en.wikipedia.org/wiki/Time-of-flight_mass_spectrometry)"@en ;
@@ -1617,7 +1657,8 @@ inst:xraydiffractometer
   dcterm:identifier "SDN:L05::LAB26" ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current> ;
   dcterm:source <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "X-ray Diffractometer "@en ;
   skos:altLabel "X-ray diffractometers"@en ;
@@ -1631,7 +1672,8 @@ inst:xraydiffractometer
 .
 inst:xraypowderdiffractometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "X-ray powder diffractometer"@en ;
   skos:broader inst:xraydiffractometer ;
@@ -1641,7 +1683,8 @@ inst:xraypowderdiffractometer
 .
 inst:xrayspectrometer
   rdf:type skos:Concept ;
-  dcterm:source "SMR add instruments associated with Geo-X methods" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add instruments associated with Geo-X methods" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "X-ray spectrometer"@en ;
   skos:broader inst:photonspectrometer ;
@@ -1675,7 +1718,8 @@ meth:acceleratormassspectrometry
 .
 meth:acidreactioncarbonateanalysis
   rdf:type skos:Concept ;
-  dcterm:source "smr add" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "smr add" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Acid reaction carbonate analysis"@en ;
   skos:broader meth:wetchemistry ;
@@ -1761,7 +1805,8 @@ meth:amperometry
 .
 meth:analyticalmethod
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Analytical method"@en ;
   skos:altLabel "Analytical technique"@en ;
@@ -1861,7 +1906,8 @@ meth:backscatteredelectronimaging
 .
 meth:benchchemistry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add" ;
+ dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add" ];
   rdfs:label "Bench chemistry "@en ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Analytical techniques performed by an analyst mixing and handling chemicals directly, not employing any of the high-tech devices or theoretical approaches that may be associated with the most state-of-the-art aspects of the discipline."@en ;
@@ -1870,7 +1916,8 @@ meth:benchchemistry
 .
 meth:bioanalyticalmethod
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Bioanalytical method"@en ;
   skos:broader meth:analyticalmethod ;
@@ -1950,7 +1997,8 @@ meth:cathodoluminescenceimaging
 .
 meth:cationchromatographyanalysis
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories"] ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Cation chromatography analysis"@en ;
   skos:broader meth:ionchromatographyanalysis ;
@@ -1973,7 +2021,8 @@ meth:charmographanalysis
 .
 meth:chromatographyanalysis
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Chromatography analysis"@en ;
   skos:broader meth:analyticalmethod ;
@@ -2188,7 +2237,8 @@ meth:dualinletisotoperatiomassspectrometry
 .
 meth:electricalconductivitymeasurement
   rdf:type skos:Concept ;
-  dcterm:source "SMR add methods associated with instruments from Geo-X" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add methods associated with instruments from Geo-X" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electrical conductivity measurement"@en ;
   skos:broader meth:electrochemicaltechniques ;
@@ -2210,7 +2260,8 @@ meth:electrochemicalimpedancespectroscopy
 .
 meth:electrochemicaltechniques
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electrochemical techniques"@en ;
   skos:broader meth:analyticalmethod ;
@@ -2237,7 +2288,8 @@ meth:electronbackscatterdiffraction
 .
 meth:electrondiffraction
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electron diffraction"@en ;
   skos:broader meth:analyticalmethod ;
@@ -2257,7 +2309,8 @@ meth:electronenergylossspectrometry
 .
 meth:electroninducedxrayspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electron induced X-ray spectrometry"@en ;
   skos:broader meth:xrayspectrometry ;
@@ -2287,7 +2340,8 @@ meth:electronmicroscopyimaging
 .
 meth:electronspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electron spectrometry"@en ;
   skos:broader meth:particlespectrometry ;
@@ -2334,7 +2388,8 @@ meth:elementalanalysis
 .
 meth:elementalanalysisinfraredspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add" ];
   rdfs:label "Elemental analysis infrared spectrometry "@en ;
   skos:altLabel "INFRARED QUANTIFICATION AND HIGH TEMPERATURE EVOLUTION ANALYSIS" ;
   skos:broader meth:elementalanalysis ;
@@ -2634,7 +2689,8 @@ meth:gaschromatographyanalysis
   dcterm:source "Astromat" ;
   dcterm:source "GeoRoc" ;
   dcterm:source "PetDb" ;
-  dcterm:source "SMR add general categories to group Geo-X categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Gas chromatography analysis"@en ;
   skos:broader meth:chromatographyanalysis ;
@@ -2880,7 +2936,8 @@ meth:infraredabsorptionspectrometry
 .
 meth:infraredopticalspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general types" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general types" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Infrared optical spectrometry"@en ;
   skos:broader meth:infraredspectrometry ;
@@ -3148,20 +3205,21 @@ meth:lockinthermography
 meth:lossonignitionanalysis
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
-  dcterm:source "SMR add" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add" ];
   rdfs:label "Loss on ignition analysis "@en ;
   skos:altLabel "STEPPED HEATING ANALYSIS" ;
   skos:broader meth:benchchemistry ;
   skos:definition "Method consists of igniting (vigorous heating) a sample at a designated temperature which enables volatile substances within the sample material to escape, until the mass of the sample ceases to change. This process is often performed within air but may be done in another inert or reactive atmosphere.  Loss on Ignition measures the organic matter content in samples. The volatile materials lost during the analysis typically consist of combined water (hydrates, for example) and CO2 from carbonates. (https://www.precisa.com/blog/what-is-loss-on-ignition-loi)"@en ;
-  skos:editorialNote """GeoRoc reports analytes for 'STEPPED HEATING ANALYSIS' as CO2 and H20, so interpret as a loss on ignition technique.
-""" ;
+  skos:editorialNote "GeoRoc reports analytes for 'STEPPED HEATING ANALYSIS' as CO2 and H20, so interpret as a loss on ignition technique." ;
   skos:inScheme analt:method ;
   skos:prefLabel "Loss on ignition analysis "@en ;
   skos:related wrkf:pyrolysis ;
 .
 meth:magneticfieldmeasurement
   rdf:type skos:Concept ;
-  dcterm:source "SMR add methods associated with instruments from Geo-X" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add methods associated with instruments from Geo-X" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Magnetic field measurement "@en ;
   skos:broader meth:analyticalmethod ;
@@ -3187,7 +3245,8 @@ meth:massspectrometry
   dcterm:source "Astromat" ;
   dcterm:source "GeoRoc" ;
   dcterm:source "PetDb" ;
-  dcterm:source "SMR add general categories to group Geo-X categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Mass spectrometry"@en ;
   skos:broader meth:particlespectrometry ;
@@ -3232,7 +3291,8 @@ meth:microscopicxrayimaging
 .
 meth:microscopy
   rdf:type skos:Concept ;
-  dcterm:source "SMR add methods associated with instruments from Geo-X" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add methods associated with instruments from Geo-X" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Microscopy"@en ;
   skos:broader meth:analyticalmethod ;
@@ -3459,7 +3519,8 @@ meth:nuclearreactionspectrometry
 .
 meth:opticalemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Optical emission spectrometry"@en ;
   skos:broader meth:emissionspectrometry ;
@@ -3473,7 +3534,8 @@ meth:opticalspectrometry
   dcterm:source "Astromat" ;
   dcterm:source "GeoRoc" ;
   dcterm:source "PetDb" ;
-  dcterm:source "SMR add parent cateogry" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add parent cateogry" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Optical spectrometry"@en ;
   skos:altLabel "OPTICAL SPECTROSCOPY"@en ;
@@ -3495,7 +3557,8 @@ meth:orbitrapmassspectrometry
 .
 meth:other
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Other"@en ;
   skos:broader meth:analyticalmethod ;
@@ -3506,7 +3569,8 @@ meth:other
 .
 meth:particlebeamexcitation
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Particle beam excitation"@en ;
   skos:broader meth:analyticalmethod ;
@@ -3530,7 +3594,8 @@ meth:particlecohesiondetermination
 meth:particlecounting
   rdf:type skos:Concept ;
   dcterm:source "GeoRoc" ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Particle counting"@en ;
   skos:altLabel "RADON METHOD" ;
@@ -3580,7 +3645,8 @@ meth:particlesizedistributionanalysis
 .
 meth:particlespectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Particle spectrometry"@en ;
   skos:broader meth:spectrometry ;
@@ -3604,7 +3670,8 @@ meth:penfieldmethodanalysis
 .
 meth:phmeasurement
   rdf:type skos:Concept ;
-  dcterm:source "SMR add methods associated with instruments from Geo-X" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add methods associated with instruments from Geo-X" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "pH measurement"@en ;
   skos:broader meth:wetchemistry ;
@@ -3638,8 +3705,9 @@ meth:photonactivationanalysis
 .
 meth:photonspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories to group Geo-X categories" ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X categories" ];
+
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Photon spectrometry"@en ;
   skos:broader meth:spectrometry ;
@@ -3650,7 +3718,8 @@ meth:photonspectrometry
 .
 meth:physicalpropertymeasurement
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general method categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general method categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Physical property measurement"@en ;
   skos:broader meth:analyticalmethod ;
@@ -3695,7 +3764,8 @@ meth:plasmaopticalemissionspectrometry
 .
 meth:plasmaopticalspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Plasma optical spectrometry"@en ;
   skos:broader meth:opticalspectrometry ;
@@ -3741,7 +3811,8 @@ meth:polarography
 .
 meth:porosimetry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add methods associated with instruments from Geo-X" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add methods associated with instruments from Geo-X" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Porosimetry"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -4104,7 +4175,8 @@ meth:spectrometry
   rdf:type skos:Concept ;
   dcterm:source "Astromat" ;
   dcterm:source "PetDb" ;
-  dcterm:source "SMR add general categories to group Geo-X categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories to group Geo-X categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Spectrometry"@en ;
   skos:altLabel "SPECTROCHEMISTRY"@en ;
@@ -4163,7 +4235,8 @@ meth:structuredlightscanning
 .
 meth:surfaceanalysis
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Surface analysis"@en ;
   skos:broader meth:analyticalmethod ;
@@ -4212,7 +4285,8 @@ meth:temperatureprogrammeddesorptionelectronprobeanalysis
 .
 meth:tensiometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add methods associated with instruments from Geo-X" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add methods associated with instruments from Geo-X" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Tensiometry"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -4222,7 +4296,8 @@ meth:tensiometry
 .
 meth:thermalanalysis
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Thermal analysis"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -4296,7 +4371,8 @@ meth:totalreflectionxrayfluorescencespectrometry
 .
 meth:trackcounting
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Track counting"@en ;
   skos:broader meth:analyticalmethod ;
@@ -4321,7 +4397,8 @@ meth:transmissionelectronimaging
 .
 meth:transmissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Transmission spectrometry"@en ;
   skos:broader meth:photonspectrometry ;
@@ -4428,7 +4505,8 @@ meth:xrayabsorptionnearedgestructurespectrometry
 .
 meth:xrayabsorptionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "X-ray absorption spectrometry"@en ;
   skos:broader meth:xrayspectrometry ;
@@ -4544,7 +4622,8 @@ meth:xraypowderdiffraction
 .
 meth:xrayspectrometry
   rdf:type skos:Concept ;
-  dcterm:source "SMR add" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label  "SMR add" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "X-ray spectrometry"@en ;
   skos:broader meth:photonspectrometry ;
@@ -4578,7 +4657,8 @@ wrkf:aciddigestion
 .
 wrkf:analyticalseparation
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general workflow component categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Analytical separation"@en ;
   skos:broader wrkf:workflowcomponent ;
@@ -4588,7 +4668,8 @@ wrkf:analyticalseparation
 .
 wrkf:bioanalyticalsamplepreparation
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general workflow component categories"] ;
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Bioanalytical sample preparation"@en ;
   skos:broader wrkf:samplepreparation ;
@@ -4618,7 +4699,8 @@ wrkf:calculation
 .
 wrkf:chromatographyseparation
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general workflow component categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Chromatography separation"@en ;
   skos:broader wrkf:analyticalseparation ;
@@ -4660,7 +4742,8 @@ wrkf:dnalibrarypreparation
 .
 wrkf:electromigrationtechnique
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general workflow component categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Electrokinetic separation"@en ;
   skos:altLabel "Electromigration techniques"@en ;
@@ -4701,7 +4784,8 @@ wrkf:gaschromatographyseparation
 .
 wrkf:inductivelycoupledplasma
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "reorganize mass spectrometer classes [SMR]" ];
   rdfs:label "Inductively coupled plasma "@en ;
   skos:broader wrkf:ionsource ;
   skos:definition "A plasma source in which the energy is supplied by electric currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields. Plasma electron temperatures can range between ~6,000 K and ~10,000 K (~6 eV - ~100 eV). Used as an ion source for mass spectrometery and emission spectrometry. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma)"@en ;
@@ -4710,7 +4794,8 @@ wrkf:inductivelycoupledplasma
 .
 wrkf:ionsource
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general workflow component categories"];
   rdfs:label "Ion source"@en ;
   skos:broader wrkf:workflowcomponent ;
   skos:definition "Workflow components to generate ions from a sample for subsequent analysis, typically for inlet to a mass analyzer in a mass spectrometer."@en ;
@@ -4719,7 +4804,8 @@ wrkf:ionsource
 .
 wrkf:laserablationsource
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "reorganize mass spectrometer classes [SMR]" ];
   rdfs:label "Laser ablation source "@en ;
   skos:broader wrkf:ionsource ;
   skos:definition "a pulsed UV laser is focused on the sample and creates a plume of ablated material which can be swept into a plasma or other ionization component for subsequent analysis. (https://en.wikipedia.org/wiki/Inductively_coupled_plasma_mass_spectrometry#Sample_introduction)"@en ;
@@ -4728,7 +4814,8 @@ wrkf:laserablationsource
 .
 wrkf:liquidchromatographyseparation
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general workflow component categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Liquid chromatography separation"@en ;
   skos:broader wrkf:chromatographyseparation ;
@@ -4781,7 +4868,8 @@ wrkf:pyrohydrolysis
 .
 wrkf:pyrolysis
   rdf:type skos:Concept ;
-  dcterm:source "SMR add" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add" ];
   rdfs:label "Pyrolysis "@en ;
   skos:broader wrkf:workflowcomponent ;
   skos:definition "thermal decomposition of materials at elevated temperatures, in an oxygenated or inert atmosphere.  Component step in elemental analysis and loss on ignition analysis (https://en.wikipedia.org/wiki/Pyrolysis)"@en ;
@@ -4801,7 +4889,8 @@ wrkf:pyrolysisgaschromatography
 .
 wrkf:samplepreparation
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "SMR add general workflow component categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Sample preparation"@en ;
   skos:broader wrkf:workflowcomponent ;
@@ -4811,7 +4900,8 @@ wrkf:samplepreparation
 .
 wrkf:secondaryionsource
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "reorganize mass spectrometer classes [SMR]" ] ;
   rdfs:label "Secondary Ion Source "@en ;
   skos:broader wrkf:ionsource ;
   skos:definition "focusing a primary ion beam on a sample in order to generate a series of secondary positive ions that can be focused and measured based on their mass/charge ratios. (https://en.wikipedia.org/wiki/Isotope-ratio_mass_spectrometry#Secondary-ion_mass_spectrometry)"@en ;
@@ -4831,7 +4921,8 @@ wrkf:solidphaseextraction
 .
 wrkf:thermalionization
   rdf:type skos:Concept ;
-  dcterm:source "reorganize mass spectrometer classes [SMR]" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label "reorganize mass spectrometer classes [SMR]" ];
   rdfs:label "Thermal ionization"@en ;
   skos:broader wrkf:ionsource ;
   skos:definition "Ionization by placing a the analyte of interest on a filament that is then heated with an electric current to desorb and ionized the analyte."@en ;
@@ -4869,7 +4960,8 @@ wrkf:waterbydifferencecalculation
 .
 wrkf:workflowcomponent
   rdf:type skos:Concept ;
-  dcterm:source "SMR add general workflow component categories" ;
+  dcterm:provenance [ a dcterm:ProvenanceStatement ;
+    rdfs:label"SMR add general workflow component categories" ];
   rdfs:isDefinedBy <http://w3id.org/ogeochem/def/1/analyticaltechnique> ;
   rdfs:label "Workflow component"@en ;
   skos:definition "Any workflow"@en ;
