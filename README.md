@@ -5,9 +5,11 @@
 ## Geochemistry folder
 Vocabularies for for analytical techniques in geochemistry (work started 2/2023).  The directory contains SKOS vocabulary drafts, serialized using turtle (ttl). HTML versions are generated on the pages branch in this repo using the scripts in the scripts folder on the pages branch.  The html is accessible on the github.io pages for the repo, links included in vocabulary descriptions.
 
+### Geochemical analytical methods
+GeochemAnalyticalMethod.ttl extracted from AnalyticalTechnique.ttl, this is now the current methods vocabulary. [HTML view of Geochemical analytical methods vocabulary draft]( https://smrgeoinfo.github.io/vocabulary/geochemistry/html/GeochemAnalyticalMethod.html)
+
 ### AnalyticalTechnique.ttl
-SKOS vocabualary, serialized using Turtle.  Merged analytical techniques from GeoX, GeoRock, PetDb, OSIRIS-REX.  General technique concepts added to generate hierarchy by SMR. This is a work in progress, please add comments and suggestions in the GitHub issue tracker. 
-[HTML view of Analytical Techniques vocabulary draft]( https://smrgeoinfo.github.io/vocabulary/geochemistry/html/AnalyticalTechnique.html)
+SKOS vocabualary, serialized using Turtle.  Merged instruments and workflows from GeoX, GeoRock, PetDb, OSIRIS-REX.  Methods ConceptScheme is superseded by GeochemAnalyticalMethod.ttl. [HTML view of Analytical Techniques vocabulary draft]( https://smrgeoinfo.github.io/vocabulary/geochemistry/html/AnalyticalTechnique.html)
 
 ### GeoXAnalyticalTechnique.ttl
 SKOS vocabualary, serialized using Turtle. Based on Geo-X spreadsheet from Manja Luzi (GFZ Potsdam), with some general categories added to fill out the hierarchy. This is input to AnalyticalTechniqueMerg2.ttl.
