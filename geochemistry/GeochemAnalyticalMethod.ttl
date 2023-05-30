@@ -700,6 +700,27 @@ meth:combustionanalysis
   skos:notation "COMB" ;
   skos:prefLabel "Combustion analysis"@en ;
 .
+meth:combustiongaschromatography
+  rdf:type skos:Concept ;
+  dcterm:source "<https://doi.org/10.1021/ed046p441>" ;
+  rdfs:label "Combustion gas chromatography"@en ;
+  skos:broader meth:gaschromatographyanalysis ;
+  skos:definition "Method in which an analytical sample is decomposed by heating in an oxygen atmosphere to induce combustion, and analyzing the combustion products by gas chromatography"@en ;
+  skos:prefLabel "Combustion gas chromatography"@en ;
+.
+meth:combustiongaschromatographyisotopicratiomassspectrometry
+  rdf:type skos:Concept ;
+  dcterm:source meth:orex ;
+  rdfs:isDefinedBy meth:method ;
+  rdfs:label "Combustion gas chromatography isotopic ratio mass spectrometry"@en ;
+  skos:broader meth:combustiongaschromatography ;
+  skos:broader meth:gaschromatographymassspectrometry ;
+  skos:broader meth:isotoperatiomassspectrometry ;
+  skos:definition "Technique used to ascertain the relative ratio of light stable isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in individual compounds separated from often complex mixtures of components. The sample solution is injected into the gas chromatography (GC) inlet where it is vaporized and swept onto a chromatographic column by the carrier gas (usually helium). The sample flows through the column and the compounds comprising the mixture of interest are separated by virtue of their relative interaction with the coating of the column (stationary phase) and the carrier gas (mobile phase). Carbon and nitrogen compounds eluting from the chromatographic column then pass through a combustion reactor (an alumina tube containing Cu, Ni and Pt wires maintained at 940 degree C) where they are oxidatively combusted. This is followed by a reduction reactor (an alumina tube containing three Cu wires maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen. For hydrogen and oxygen a high temperature thermal conversion reactor is required. Water is then removed in a water separator by passing the gas stream through a tube constructed from a water permeable nafion membrane. The sample is then introduced into the ion source of the mass analyzer by an open split interface, and particles with m/z ratios of interest are counted by detectors."@en ;
+  skos:inScheme meth:method ;
+  skos:notation "GC-C-IRMS" ;
+  skos:prefLabel "Combustion gas chromatography isotopic ratio mass spectrometry"@en ;
+.
 meth:combustioninfraredspectrometry
   rdf:type skos:Concept ;
   dcterm:source meth:georoc ;
@@ -1037,6 +1058,7 @@ meth:elementalanalysisinfraredspectrometry
   rdf:type skos:Concept ;
   dcterm:provenance meth:smrAdd ;
   rdfs:label "Elemental analysis infrared spectrometry "@en ;
+  skos:altLabel "Direct Mercury Analyzer"@en ;
   skos:altLabel "INFRARED QUANTIFICATION AND HIGH TEMPERATURE EVOLUTION ANALYSIS" ;
   skos:broader meth:elementalanalysis ;
   skos:definition "Technique that uses an elemental analyzer (typically a pyrolysis process to extract volatile components in the sample) to extract the aliquots (typically as gas) to be analyzed using infrared spectrometry."@en ;
@@ -1181,6 +1203,14 @@ meth:extendedxrayabsorptionfinestructure
   skos:inScheme meth:method ;
   skos:notation "EXAFS" ;
   skos:prefLabel "Extended X-ray absorption fine structure"@en ;
+.
+meth:fastneutronactivationanalysis
+  rdf:type skos:Concept ;
+  dcterm:source "<https://elementalanalysis.com/naa/>" ;
+  rdfs:label "Fast neutron activation analysis"@en ;
+  skos:broader meth:neutronactivationanalysis ;
+  skos:definition "Method based on reactions with high-energy (14MeV) neutrons produced by a specialized small accelerator known as a neutron generator.  FNAA is a rapid non-destructive technique used for the determination of lighter elements such as Nitrogen and Oxygen, and can routinely achieve precisions of 1-2% RSD of complex matrices. (https://elementalanalysis.com/naa/)" ;
+  skos:prefLabel "Fast neutron activation analysis"@en ;
 .
 meth:fireassayemissionspectrometry
   rdf:type skos:Concept ;
@@ -1359,18 +1389,6 @@ meth:gaschromatographyanalysis
   skos:notation "GC" ;
   skos:prefLabel "Gas chromatography analysis"@en ;
 .
-meth:gaschromatographycombustionisotopicratiomassspectrometry
-  rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
-  rdfs:isDefinedBy meth:method ;
-  rdfs:label "Gas chromatography combustion isotopic ratio mass spectrometry"@en ;
-  skos:broader meth:isotoperatiomassspectrometry ;
-  skos:broader meth:pyrolysisgaschromatographymassspectrometry ;
-  skos:definition "Technique used to ascertain the relative ratio of light stable isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or oxygen (18O/160) in individual compounds separated from often complex mixtures of components. The sample solution is injected into the gas chromatography (GC) inlet where it is vaporized and swept onto a chromatographic column by the carrier gas (usually helium). The sample flows through the column and the compounds comprising the mixture of interest are separated by virtue of their relative interaction with the coating of the column (stationary phase) and the carrier gas (mobile phase). Carbon and nitrogen compounds eluting from the chromatographic column then pass through a combustion reactor (an alumina tube containing Cu, Ni and Pt wires maintained at 940 degree C) where they are oxidatively combusted. This is followed by a reduction reactor (an alumina tube containing three Cu wires maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen. For hydrogen and oxygen a high temperature thermal conversion reactor is required. Water is then removed in a water separator by passing the gas stream through a tube constructed from a water permeable nafion membrane. The sample is then introduced into the ion source of the mass analyzer by an open split interface, and particles with m/z ratios of interest are counted by detectors."@en ;
-  skos:inScheme meth:method ;
-  skos:notation "GC-C-IRMS" ;
-  skos:prefLabel "Gas chromatography combustion isotopic ratio mass spectrometry"@en ;
-.
 meth:gaschromatographyflameionizationdetection
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2017-0111> ;
@@ -1391,6 +1409,7 @@ meth:gaschromatographymassspectrometry
   dcterm:source meth:orex ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gas chromatography mass spectrometry"@en ;
+  skos:broader meth:gaschromatographyanalysis ;
   skos:broader meth:massspectrometry ;
   skos:definition "Technique by which a mixture is separated into individual components by gas chromatography, followed by detection with a mass spectrometer. (Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06)"@en ;
   skos:inScheme meth:method ;
@@ -1675,7 +1694,7 @@ meth:instrumentalneutronactivationanalysis
   dcterm:source <https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa> ;
   rdfs:label "Instrumental neutron activation analysis "@en ;
   skos:broader meth:neutronactivationanalysis ;
-  skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Quantification of the elemental nuclei of interest is usually performed by gamma ray spectroscopy.  Quantification of elements is accomplished by comparison with standards typically processed in the same manner. (https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa, https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html).  Components: 1) sample irradiation 2) gamma ray spectrometry"@en ;
+  skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Quantification of the elemental nuclei of interest is usually performed by gamma ray spectroscopy.  Quantification of elements is accomplished by comparison with standards typically processed in the same manner. (https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa, https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html).   Instrumental indicates that no chemical pretreatment is performed on the sample prior to the irradiation process.  The samples are simply packaged, irradiated for the specified length of time, allowed to decay, then counted, and the element results verified and reported. (https://elementalanalysis.com/naa/). Components: 1) sample irradiation 2) gamma ray spectrometry"@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Instrumental neutron activation analysis"@en ;
 .
@@ -1941,17 +1960,16 @@ meth:method
   rdf:type owl:Ontology ;
   rdf:type skos:ConceptScheme ;
   rdf:type schema:CreativeWork ;
-  dcterm:contributor <https://orcid.org/0000-0001-6041-5302> ;
-  dcterm:contributor <https://orcid.org/0000-0002-5765-0245>;
-  dcterm:contributor <https://orcid.org/0000-0002-6592-9270>;
   dcterm:contributor <https://lamont.columbia.edu/directory/annika-johansson> ;
-  dcterm:contributor <https://orcid.org/0000-0001-7036-1977>;
-  dcterm:contributor <https://orcid.org/0000-0001-9642-7620>;
+  dcterm:contributor <https://orcid.org/0000-0001-6041-5302> ;
+  dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
+  dcterm:contributor <https://orcid.org/0000-0001-9642-7620> ;
+  dcterm:contributor <https://orcid.org/0000-0002-5765-0245> ;
+  dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
   dcterm:created "2023-02-09"^^xsd:date ;
   dcterm:creator "Astromat, GEOROC, GeoX, and PetDb team" ;
-  dcterm:publisher "Astromat, GEOROC, GeoX, and PetDb team" ;
   dcterm:modified "2023-05-26"^^xsd:date ;
-  schema:provider "Australian Research Data Commons, Research Vocabularies Australia" ;
+  dcterm:publisher "Astromat, GEOROC, GeoX, and PetDb team" ;
   rdfs:label "Analytical methods for geochemistry"@en ;
   owl:imports dcterm: ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
@@ -1963,6 +1981,7 @@ meth:method
   skos:historyNote "Draft generated by S.M. Richard 2023-02-14, based on spreadsheet compilation of method vocabularies from GeoX, GEOROC, PetDb and OSIRIS-REx (Astromat). Definitions added and updated and SKOS serialization by S.M. Richard."@en ;
   skos:prefLabel "Analytical methods for geochemistry"@en ;
   schema:funding "Compilation of this vocabulary supported by funding from the US National Aeronautics and Space Administration (NASA) Planetary Sciences Division for the Astromaterials Data System at Lamont Doherty Earth Observatory, Columbia University"@en ;
+  schema:provider "Australian Research Data Commons, Research Vocabularies Australia" ;
 .
 meth:micromassmultiprepmassspectrometry
   rdf:type skos:Concept ;
@@ -2234,7 +2253,7 @@ meth:nuclearreactionspectrometry
   rdfs:label "Nuclear reaction spectrometry"@en ;
   skos:broader meth:gammarayspectrometry ;
   skos:broader meth:particlespectrometry ;
-  skos:definition "ion-beam-based analytical method with direct observation of nuclear reactions induced by highly energetic (Me V domain) charged particles. All these reactions are characterized by the prompt emission of charged particles (protons or helium-4 ions) and/or gamma-rays. Method is dedicated to quantitative determination of volumic distributions of light elements from Z = 1 (H) to Z = 41 (Ga) in the near surface region of solids. (https://doi.org/10.1002/9780470027318.a6208.pub2)  [?is this the method intended?]"@en ;
+  skos:definition "ion-beam-based analytical method with direct observation of nuclear reactions induced by highly energetic (Me V domain) charged particles. All these reactions are characterized by the prompt emission of charged particles (protons or helium-4 ions) and/or gamma-rays. Method is dedicated to quantitative determination of volumetric distributions of light elements from Z = 1 (H) to Z = 41 (Ga) in the near surface region of solids. (https://doi.org/10.1002/9780470027318.a6208.pub2, https://en.wikipedia.org/wiki/Nuclear_reaction_analysis)"@en ;
   skos:inScheme meth:method ;
   skos:notation "NRA" ;
   skos:prefLabel "Nuclear reaction spectrometry"@en ;
@@ -2588,11 +2607,22 @@ meth:promptgammaneutronactivationanalysis
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Prompt gamma neutron activation analysis"@en ;
+  skos:altLabel "Neutron-induced prompt gamma-ray analysis"@en ;
   skos:broader meth:neutronactivationanalysis ;
   skos:definition "NAA technique based on measurement of the gamma rays emitted during irradiation of the sample. (Skoog, Holler & Crouch, p. 842)"@en ;
   skos:inScheme meth:method ;
   skos:notation "PGNAA" ;
   skos:prefLabel "Prompt gamma neutron activation analysis"@en ;
+.
+meth:pyrolysisgaschromatography
+  rdf:type skos:Concept ;
+  dcterm:source "<https://doi.org/10.1515/pac-2017-0111>" ;
+  dcterm:source "L. S. Ettre. Pure Appl. Chem.65, 819, (1993); https://doi.org/10.1351/pac1993650408191.5.02. 1.6.11.1" ;
+  rdfs:label "Pyrolysis gas chromatography"@en ;
+  skos:altLabel "Combustion Ion Chromatography"@en ;
+  skos:broader meth:gaschromatographyanalysis ;
+  skos:definition "Chromatography in which an analytical sample is thermally decomposed to smaller fragments before entering the column."@en ;
+  skos:prefLabel "Other Virus  "@en ;
 .
 meth:pyrolysisgaschromatographyflameionizationdetection
   rdf:type skos:Concept ;
@@ -2601,6 +2631,7 @@ meth:pyrolysisgaschromatographyflameionizationdetection
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Pyrolysis gas chromatography flame ionization detection"@en ;
   skos:broader meth:gaschromatographyflameionizationdetection ;
+  skos:broader meth:pyrolysisgaschromatography ;
   skos:definition "Pyrolysis Gas Chromatography that uses a flame ionization detector (FID) to measure the concentration of organic species in a gas stream emerging from the column. An FID typically uses a Hydrogen/Air flame into which the sample is passed to oxidize organic molecules and produces electrically charged particles (ions). The ions are collected and produce an electrical signal which is then measured. (Source: IUPAC; https://doi.org/10.1515/pac-2017-0111)"@en ;
   skos:inScheme meth:method ;
   skos:notation "Py-GC-FID" ;
@@ -2614,6 +2645,7 @@ meth:pyrolysisgaschromatographymassspectrometry
   rdfs:label "Pyrolysis gas chromatography mass spectrometry"@en ;
   skos:altLabel "Pyrolysis mass spectrometry" ;
   skos:broader meth:gaschromatographymassspectrometry ;
+  skos:broader meth:pyrolysisgaschromatography ;
   skos:definition "Mass spectrometry technique in which the sample is heated to the point of decomposition and the gas phase decomposition products are characterized by mass spectrometry. (Source: IUPAC; https://doi.org/10.1351/PAC-REC-06-04-06)."@en ;
   skos:inScheme meth:method ;
   skos:notation "Py-GC-MS" ;
@@ -2740,8 +2772,8 @@ meth:resonanceionizationtimeofflightnoblegasmassspectrometry
   dcterm:source meth:orex ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Resonance ionization time of flight noble gas mass spectrometry"@en ;
+  skos:broader meth:laserionizationmassspectrometry ;
   skos:broader meth:noblegasmassspectrometry ;
-  skos:broader meth:plasmasourcemassspectrometry ;
   skos:definition "Noble gas mass spectrometry technique that atomizes and ionizes samples using laser resonance to generate a plasma, and a time-of-flight mass analyzer."@en ;
   skos:inScheme meth:method ;
   skos:notation "RI-TOF-NGMS" ;
@@ -3086,6 +3118,14 @@ meth:thermalionizationmassspectrometry
   skos:inScheme meth:method ;
   skos:notation "TIMS" ;
   skos:prefLabel "Thermal ionization mass spectrometry"@en ;
+.
+meth:thermalneutronactivationanalysis
+  rdf:type skos:Concept ;
+  dcterm:source "<https://doi.org/10.1081/ASR-120004372>" ;
+  rdfs:label "Thermal neutron activation analysis" ;
+  skos:broader meth:neutronactivationanalysis ;
+  skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Thermal neutrons have energies less than epithermal  neutrons in the 0.1 to  0.5 eV range (based on https://elementalanalysis.com/naa/)."@en ;
+  skos:prefLabel "Other Virus  "@en ;
 .
 meth:thermogravimetryanalysis
   rdf:type skos:Concept ;
