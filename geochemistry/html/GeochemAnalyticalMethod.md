@@ -4,7 +4,7 @@
 [Analytical methods for geochemistry](#Analyticalmethodsforgeochemistry)
 
 
-This file generated at: "2023-05-30T14:27:15.020318+00:00"
+This file generated at: "2023-05-30T15:42:40.448607+00:00"
 ---
 comment: | 
   WARNING: This file is generated. Any edits will be lost!
@@ -67,12 +67,17 @@ Namespace:
         - [Shotgun method](#shotgunmethod)
     - [Chromatography analysis](#chromatographyanalysis)
         - [Gas chromatography analysis](#gaschromatographyanalysis)
+            - [Combustion gas chromatography](#combustiongaschromatography)
+                - [Combustion gas chromatography isotopic ratio mass spectrometry](#combustiongaschromatographyisotopicratiomassspectrometry)
             - [Gas chromatography flame ionization detection](#gaschromatographyflameionizationdetection)
                 - [Pyrolysis gas chromatography flame ionization detection](#pyrolysisgaschromatographyflameionizationdetection)
             - [Gas chromatography mass spectrometry](#gaschromatographymassspectrometry)
                 - [Combustion gas chromatography isotopic ratio mass spectrometry](#combustiongaschromatographyisotopicratiomassspectrometry)
                 - [Pyrolysis gas chromatography mass spectrometry](#pyrolysisgaschromatographymassspectrometry)
             - [Gas chromatography thermal conductivity detection](#gaschromatographythermalconductivitydetection)
+            - [Pyrolysis gas chromatography](#pyrolysisgaschromatography)
+                - [Pyrolysis gas chromatography flame ionization detection](#pyrolysisgaschromatographyflameionizationdetection)
+                - [Pyrolysis gas chromatography mass spectrometry](#pyrolysisgaschromatographymassspectrometry)
         - [Liquid chromatography analysis](#liquidchromatographyanalysis)
             - [Ion chromatography analysis](#ionchromatographyanalysis)
                 - [Anion chromatography analysis](#anionchromatographyanalysis)
@@ -155,10 +160,12 @@ Namespace:
         - [Deuteron activation analysis](#deuteronactivationanalysis)
         - [Neutron activation analysis](#neutronactivationanalysis)
             - [Epithermal neutron activation analysis](#epithermalneutronactivationanalysis)
+            - [Fast neutron activation analysis](#fastneutronactivationanalysis)
             - [Instrumental neutron activation analysis](#instrumentalneutronactivationanalysis)
             - [Pre irradiation group concentration neutron activation analysis ](#pigsneutronactivationanalysis)
             - [Prompt gamma neutron activation analysis](#promptgammaneutronactivationanalysis)
             - [Radiochemical neutron activation analysis](#radiochemicalneutronactivationanalysis)
+            - [Thermal neutron activation analysis](#thermalneutronactivationanalysis)
         - [Photon activation analysis](#photonactivationanalysis)
     - [Photometry](#photometry)
         - [Infrared photometry](#infraredphotometry)
@@ -1036,6 +1043,62 @@ https://w3id.org/geochem/1.0/analyticalmethod/petdb,
 - Concept URI token: gaschromatographyanalysis
 
 
+[]{#combustiongaschromatography}
+
+#####  Combustion gas chromatography
+
+
+- Child of:
+ [`gaschromatographyanalysis`](#gaschromatographyanalysis)
+
+- Method in which an analytical sample is decomposed by heating in an
+oxygen atmosphere to induce combustion, and analyzing the combustion
+products by gas chromatography
+
+- **Source:**
+<https://doi.org/10.1021/ed046p441>
+
+- Concept URI token: combustiongaschromatography
+
+
+[]{#combustiongaschromatographyisotopicratiomassspectrometry}
+
+######  Combustion gas chromatography isotopic ratio mass spectrometry
+
+
+- Child of:
+ [`combustiongaschromatography`](#combustiongaschromatography)
+ [`gaschromatographymassspectrometry`](#gaschromatographymassspectrometry)
+ [`isotoperatiomassspectrometry`](#isotoperatiomassspectrometry)
+
+- Technique used to ascertain the relative ratio of light stable
+isotopes of carbon (13C/12C), hydrogen (2H/1H), nitrogen (15N/14N) or
+oxygen (18O/160) in individual compounds separated from often complex
+mixtures of components. The sample solution is injected into the gas
+chromatography (GC) inlet where it is vaporized and swept onto a
+chromatographic column by the carrier gas (usually helium). The sample
+flows through the column and the compounds comprising the mixture of
+interest are separated by virtue of their relative interaction with
+the coating of the column (stationary phase) and the carrier gas
+(mobile phase). Carbon and nitrogen compounds eluting from the
+chromatographic column then pass through a combustion reactor (an
+alumina tube containing Cu, Ni and Pt wires maintained at 940 degree
+C) where they are oxidatively combusted. This is followed by a
+reduction reactor (an alumina tube containing three Cu wires
+maintained at 600 degree C) to reduce any nitrogen oxides to nitrogen.
+For hydrogen and oxygen a high temperature thermal conversion reactor
+is required. Water is then removed in a water separator by passing the
+gas stream through a tube constructed from a water permeable nafion
+membrane. The sample is then introduced into the ion source of the
+mass analyzer by an open split interface, and particles with m/z
+ratios of interest are counted by detectors.
+
+- **Source:**
+https://w3id.org/geochem/1.0/analyticalmethod/orex
+
+- Concept URI token: combustiongaschromatographyisotopicratiomassspectrometry
+
+
 []{#gaschromatographyflameionizationdetection}
 
 #####  Gas chromatography flame ionization detection
@@ -1192,6 +1255,73 @@ https://w3id.org/geochem/1.0/analyticalmethod/geox,
 NASA, 
 
 - Concept URI token: gaschromatographythermalconductivitydetection
+
+
+[]{#pyrolysisgaschromatography}
+
+#####  Pyrolysis gas chromatography
+
+
+- Child of:
+ [`gaschromatographyanalysis`](#gaschromatographyanalysis)
+
+- Chromatography in which an analytical sample is thermally decomposed
+to smaller fragments before entering the column.
+
+- **Source:**
+<https://doi.org/10.1515/pac-2017-0111>, 
+L. S. Ettre. Pure Appl. Chem.65, 819, (1993); https://doi.org/10.1351/pac1993650408191.5.02. 1.6.11.1, 
+
+- Concept URI token: pyrolysisgaschromatography
+
+
+[]{#pyrolysisgaschromatographyflameionizationdetection}
+
+######  Pyrolysis gas chromatography flame ionization detection
+
+
+- Child of:
+ [`gaschromatographyflameionizationdetection`](#gaschromatographyflameionizationdetection)
+ [`pyrolysisgaschromatography`](#pyrolysisgaschromatography)
+
+- Pyrolysis Gas Chromatography that uses a flame ionization detector
+(FID) to measure the concentration of organic species in a gas stream
+emerging from the column. An FID typically uses a Hydrogen/Air flame
+into which the sample is passed to oxidize organic molecules and
+produces electrically charged particles (ions). The ions are collected
+and produce an electrical signal which is then measured. (Source:
+IUPAC; https://doi.org/10.1515/pac-2017-0111)
+
+- **Source:**
+https://doi.org/10.1515/pac-2017-0111, 
+https://w3id.org/geochem/1.0/analyticalmethod/geox, 
+
+- Concept URI token: pyrolysisgaschromatographyflameionizationdetection
+
+
+[]{#pyrolysisgaschromatographymassspectrometry}
+
+######  Pyrolysis gas chromatography mass spectrometry
+
+
+- Child of:
+ [`gaschromatographymassspectrometry`](#gaschromatographymassspectrometry)
+ [`pyrolysisgaschromatography`](#pyrolysisgaschromatography)
+
+- Mass spectrometry technique in which the sample is heated to the
+point of decomposition and the gas phase decomposition products are
+characterized by mass spectrometry. (Source: IUPAC;
+https://doi.org/10.1351/PAC-REC-06-04-06).
+
+- **Alternate labels:**
+Pyrolysis mass spectrometry
+
+
+- **Source:**
+https://doi.org/10.1351/PAC-REC-06-04-06, 
+https://w3id.org/geochem/1.0/analyticalmethod/geox, 
+
+- Concept URI token: pyrolysisgaschromatographymassspectrometry
 
 
 []{#liquidchromatographyanalysis}
@@ -3295,6 +3425,27 @@ https://w3id.org/geochem/1.0/analyticalmethod/skooghollercrouch,
 - Concept URI token: epithermalneutronactivationanalysis
 
 
+[]{#fastneutronactivationanalysis}
+
+#####  Fast neutron activation analysis
+
+
+- Child of:
+ [`neutronactivationanalysis`](#neutronactivationanalysis)
+
+- Method based on reactions with high-energy (14MeV) neutrons produced
+by a specialized small accelerator known as a neutron generator.  FNAA
+is a rapid non-destructive technique used for the determination of
+lighter elements such as Nitrogen and Oxygen, and can routinely
+achieve precisions of 1-2% RSD of complex matrices.
+(https://elementalanalysis.com/naa/)
+
+- **Source:**
+<https://elementalanalysis.com/naa/>
+
+- Concept URI token: fastneutronactivationanalysis
+
+
 []{#instrumentalneutronactivationanalysis}
 
 #####  Instrumental neutron activation analysis
@@ -3411,6 +3562,26 @@ https://w3id.org/geochem/1.0/analyticalmethod/petdb,
 https://www.nist.gov/laboratories/tools-instruments/radiochemical-neutron-activation-analysis-rnaa, 
 
 - Concept URI token: radiochemicalneutronactivationanalysis
+
+
+[]{#thermalneutronactivationanalysis}
+
+#####  Thermal neutron activation analysis
+
+
+- Child of:
+ [`neutronactivationanalysis`](#neutronactivationanalysis)
+
+- method based on the measurement of the radioactivity or radiation
+produced in samples when they are irradiated with neutrons  (Skoog,
+Holler & Crouch, p. 842). Thermal neutrons have energies less than
+epithermal  neutrons in the 0.1 to  0.5 eV range (based on
+https://elementalanalysis.com/naa/).
+
+- **Source:**
+<https://doi.org/10.1081/ASR-120004372>
+
+- Concept URI token: thermalneutronactivationanalysis
 
 
 []{#photonactivationanalysis}
