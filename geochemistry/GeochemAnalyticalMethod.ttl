@@ -706,6 +706,7 @@ meth:combustiongaschromatography
   rdfs:label "Combustion gas chromatography"@en ;
   skos:broader meth:gaschromatographyanalysis ;
   skos:definition "Method in which an analytical sample is decomposed by heating in an oxygen atmosphere to induce combustion, and analyzing the combustion products by gas chromatography"@en ;
+  skos:inScheme meth:method ;
   skos:prefLabel "Combustion gas chromatography"@en ;
 .
 meth:combustiongaschromatographyisotopicratiomassspectrometry
@@ -1210,6 +1211,7 @@ meth:fastneutronactivationanalysis
   rdfs:label "Fast neutron activation analysis"@en ;
   skos:broader meth:neutronactivationanalysis ;
   skos:definition "Method based on reactions with high-energy (14MeV) neutrons produced by a specialized small accelerator known as a neutron generator.  FNAA is a rapid non-destructive technique used for the determination of lighter elements such as Nitrogen and Oxygen, and can routinely achieve precisions of 1-2% RSD of complex matrices. (https://elementalanalysis.com/naa/)" ;
+  skos:inScheme meth:method ;
   skos:prefLabel "Fast neutron activation analysis"@en ;
 .
 meth:fireassayemissionspectrometry
@@ -2619,10 +2621,10 @@ meth:pyrolysisgaschromatography
   dcterm:source "<https://doi.org/10.1515/pac-2017-0111>" ;
   dcterm:source "L. S. Ettre. Pure Appl. Chem.65, 819, (1993); https://doi.org/10.1351/pac1993650408191.5.02. 1.6.11.1" ;
   rdfs:label "Pyrolysis gas chromatography"@en ;
-  skos:altLabel "Combustion Ion Chromatography"@en ;
   skos:broader meth:gaschromatographyanalysis ;
   skos:definition "Chromatography in which an analytical sample is thermally decomposed to smaller fragments before entering the column."@en ;
-  skos:prefLabel "Other Virus  "@en ;
+  skos:inScheme meth:method ;
+  skos:prefLabel "Pyrolysis gas chromatography"@en ;
 .
 meth:pyrolysisgaschromatographyflameionizationdetection
   rdf:type skos:Concept ;
@@ -3122,10 +3124,11 @@ meth:thermalionizationmassspectrometry
 meth:thermalneutronactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source "<https://doi.org/10.1081/ASR-120004372>" ;
-  rdfs:label "Thermal neutron activation analysis" ;
+  rdfs:label "Thermal neutron activation analysis"@en ;
   skos:broader meth:neutronactivationanalysis ;
   skos:definition "method based on the measurement of the radioactivity or radiation produced in samples when they are irradiated with neutrons  (Skoog, Holler & Crouch, p. 842). Thermal neutrons have energies less than epithermal  neutrons in the 0.1 to  0.5 eV range (based on https://elementalanalysis.com/naa/)."@en ;
-  skos:prefLabel "Other Virus  "@en ;
+  skos:inScheme meth:method ;
+  skos:prefLabel "Thermal neutron activation analysis"@en ;
 .
 meth:thermogravimetryanalysis
   rdf:type skos:Concept ;
