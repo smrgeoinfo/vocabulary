@@ -482,7 +482,7 @@ meth:anionchromatographyanalysis
 meth:astromat
   rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
-  dcterm:contributor "Annika Johansson" ;
+  dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
   dcterm:description "Analytical methods cited in the Astromat database.  The database currently contains a compilation of data acquired from meteorites and lunar samples returned by the Apollo missions. The Astromaterials Data System (Astromat, https://www.astromat.org/about/overview/) is a comprehensive data infrastructure to access, publish, and preserve laboratory analytical data generated on astromaterials samples. Astromat aims to ensure the long-term value of astromaterials samples data and maximize their impact on scientific discovery and knowledge."@en ;
   rdfs:label "Astromaterials Data System (Astromat)"@en ;
 .
@@ -1210,7 +1210,7 @@ meth:fastneutronactivationanalysis
   dcterm:source "<https://elementalanalysis.com/naa/>" ;
   rdfs:label "Fast neutron activation analysis"@en ;
   skos:broader meth:neutronactivationanalysis ;
-  skos:definition "Method based on reactions with high-energy (14MeV) neutrons produced by a specialized small accelerator known as a neutron generator.  FNAA is a rapid non-destructive technique used for the determination of lighter elements such as Nitrogen and Oxygen, and can routinely achieve precisions of 1-2% RSD of complex matrices. (https://elementalanalysis.com/naa/)" ;
+  skos:definition "Method based on reactions with high-energy (14MeV) neutrons produced by a specialized small accelerator known as a neutron generator.  FNAA is a rapid non-destructive technique used for the determination of lighter elements such as Nitrogen and Oxygen, and can routinely achieve precisions of 1-2% RSD of complex matrices. (https://elementalanalysis.com/naa/)"@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Fast neutron activation analysis"@en ;
 .
@@ -1962,16 +1962,18 @@ meth:method
   rdf:type owl:Ontology ;
   rdf:type skos:ConceptScheme ;
   rdf:type schema:CreativeWork ;
-  dcterm:contributor <https://lamont.columbia.edu/directory/annika-johansson> ;
   dcterm:contributor <https://orcid.org/0000-0001-6041-5302> ;
   dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
   dcterm:contributor <https://orcid.org/0000-0001-9642-7620> ;
+  dcterm:contributor <https://orcid.org/0000-0002-1286-0193> ;
   dcterm:contributor <https://orcid.org/0000-0002-5765-0245> ;
   dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
   dcterm:created "2023-02-09"^^xsd:date ;
-  dcterm:creator "Astromat, GEOROC, GeoX, and PetDb team" ;
+  dcterm:creator meth:astromat ;
+  dcterm:creator meth:georoc ;
+  dcterm:creator meth:geox ;
+  dcterm:creator meth:petdb ;
   dcterm:modified "2023-05-26"^^xsd:date ;
-  dcterm:publisher "Astromat, GEOROC, GeoX, and PetDb team" ;
   rdfs:label "Analytical methods for geochemistry"@en ;
   owl:imports dcterm: ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
@@ -2299,8 +2301,8 @@ meth:orbitrapmassspectrometry
 .
 meth:orex
   rdf:type dcterm:Agent ;
-  dcterm:contributor <https://w3id.org/geochem/1.0/0000-0001-5671-5388> ;
-  dcterm:description "Analysical methods planned for the investigation of sample material returned from asteroid Bennu by the OSIRIS-REx mission (https://www.asteroidmission.org/). Some method descriptions that only have orex listed as source are from the O-REx Confluence web content. The mission sample analysis team has been compiling descriptions of analytical techniques planned, and the dictionary of planned methods has been shared with Astromat data managers and been made available for this compilation. (https://curation.isas.jaxa.jp/symposium/abstract/2021/S6-2_Connolly.pdf)"@en ;
+  dcterm:contributor <https://orcid.org/0000-0001-5671-5388> ;
+  dcterm:description "Analytical methods planned for the investigation of sample material returned from asteroid Bennu by the OSIRIS-REx mission (https://www.asteroidmission.org/). Some method descriptions that only have orex listed as source are from the O-REx Confluence web content. The mission sample analysis team has been compiling descriptions of analytical techniques planned, and the dictionary of planned methods has been shared with Astromat data managers and been made available for this compilation. (https://curation.isas.jaxa.jp/symposium/abstract/2021/S6-2_Connolly.pdf)"@en ;
   rdfs:label "OSIRIS-REx Sample Analysis Team"@en ;
 .
 meth:other
@@ -2416,7 +2418,7 @@ meth:penfieldmethodanalysis
 meth:petdb
   rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
-  dcterm:contributor "Annika Johansson" ;
+  dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
   dcterm:description "Methods compiled from PetDb database by Annika Johansson and mapped to GEOROC and Astromat method labels. PetDB is an integrated data synthesis through which you can access chemical, isotopic, and mineralogical data from peer-reviewed literature. (https://www.earthchem.org/resources/support/petdb-documentation/)"@en ;
   rdfs:label "PetDb" ;
 .
