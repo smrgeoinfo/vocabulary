@@ -355,7 +355,7 @@ skos:topConceptOf
   skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
 .
 <https://w3id.org/geochem/1.0/agent/georoc>
-  rrdf:type dcterm:Agent , schema:Project;
+  rdf:type dcterm:Agent , schema:Project;
   dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
   dcterm:description "GEOROC (https://georoc.eu/) is a comprehensive collection of published analyses of igneous and metamorphic rocks and minerals. It contains major and trace element concentrations, radiogenic and nonradiogenic isotope ratios as well as analytical ages for whole rocks, glasses, minerals and inclusions. Metadata include geospatial and other sample information, analytical details and references. Digital Geochemical Data Infrastructure (DIGIS, https://www.uni-goettingen.de/de/643369.html) will continue and enhance GEOROC, originally curated by the Max Planck Institute for Chemistry. Labels for analytical methods from GEOROC were compiled by Marthe Klocking, University of Gottingen, Germany, and in collaboration with Annika Johansson (IEDA, Lamont Doherty Earth Observatory, see PetDb agent) mapped to labels for techniques from PetDb; the compilation included definitions that were reviewed and enhances in some cased in this vocabulary."@en ;
   rdfs:label "GEOROC" ;
