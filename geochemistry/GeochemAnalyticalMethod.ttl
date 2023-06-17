@@ -1974,11 +1974,11 @@ meth:method
   dcterm:creator meth:geox ;
   dcterm:creator meth:petdb ;
   dcterm:modified "2023-05-26"^^xsd:date ;
-  rdfs:label "Analytical methods for geochemistry"@en ;
+  rdfs:label "Analytical methods for geochemistry and cosmochemistry"@en ;
   owl:imports dcterm: ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
-  skos:definition "This concept scheme contains skos concepts for analysis methods used to produce observation results with information about the physical properties, chemical or isotopic composition, crystallography, or molecular structure of material samples. Based on spreadsheet compilation of method vocabularies from GeoX, GeoRock, PetDb and OSIRIS-REx. Definitions added and updated based on web research, and SKOS serialization by S.M. Richard."@en ;
+  skos:definition "This concept scheme contains skos concepts for analysis methods used to produce observation results with information about the physical properties, chemical or isotopic composition, crystallography, or molecular structure of material samples. Based on spreadsheet compilation of method vocabularies from GeoX, GeoRock, PetDb and OSIRIS-REx. Definitions added and updated based on web research, and SKOS serialization by S.M. Richard. Note that although there are high-level method categories for 'Physical property measurements' and the 'Bioanalytical method', these are placeholders and only include a few examples that are relevant to analytical methods in geo- or cosmochemistry."@en ;
   skos:hasTopConcept meth:analyticalmethod ;
   skos:historyNote "2023-05-26 SMR add funding acknowledgement for Astromat support from NASA planetary sciences division, using schema.org/funding property."@en ;
   skos:historyNote "Add provenance and better source information, prepare for posting to Australian Research Data Commons (ARDC) Research Vocabularies Australia SMR 2023-05-01."@en ;
