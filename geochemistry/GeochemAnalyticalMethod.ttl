@@ -340,9 +340,57 @@ skos:topConceptOf
   owl:inverseOf skos:hasTopConcept ;
   skos:definition "Relates a concept to the concept scheme that it is a top level concept of."@en ;
 .
+<https://w3id.org/geochem/1.0/agent>
+  rdf:type skos:ConceptScheme ;
+  rdfs:label "Persons, projects, or organizations"@en ;
+  skos:definition "Persons, projects or organizations associated with the geochem vocabulares"@en ;
+  skos:prefLabel "Persons, projects, or organizations"@en  ;
+.
+<https://w3id.org/geochem/1.0/agent/astromat>
+  rdf:type dcterm:Agent , schema:Project;
+  dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
+  dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
+  dcterm:description "Analytical methods cited in the Astromat database.  The database currently contains a compilation of data acquired from meteorites and lunar samples returned by the Apollo missions. The Astromaterials Data System (Astromat, https://www.astromat.org/about/overview/) is a comprehensive data infrastructure to access, publish, and preserve laboratory analytical data generated on astromaterials samples. Astromat aims to ensure the long-term value of astromaterials samples data and maximize their impact on scientific discovery and knowledge."@en ;
+  rdfs:label "Astromaterials Data System (Astromat)"@en ;
+  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+.
+<https://w3id.org/geochem/1.0/agent/georoc>
+  rrdf:type dcterm:Agent , schema:Project;
+  dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
+  dcterm:description "GEOROC (https://georoc.eu/) is a comprehensive collection of published analyses of igneous and metamorphic rocks and minerals. It contains major and trace element concentrations, radiogenic and nonradiogenic isotope ratios as well as analytical ages for whole rocks, glasses, minerals and inclusions. Metadata include geospatial and other sample information, analytical details and references. Digital Geochemical Data Infrastructure (DIGIS, https://www.uni-goettingen.de/de/643369.html) will continue and enhance GEOROC, originally curated by the Max Planck Institute for Chemistry. Labels for analytical methods from GEOROC were compiled by Marthe Klocking, University of Gottingen, Germany, and in collaboration with Annika Johansson (IEDA, Lamont Doherty Earth Observatory, see PetDb agent) mapped to labels for techniques from PetDb; the compilation included definitions that were reviewed and enhances in some cased in this vocabulary."@en ;
+  rdfs:label "GEOROC" ;
+  schema:url "https://georoc.mpch-mainz.gwdg.de//georoc/" ;
+    schema:url "https://georoc.eu/" ;
+  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+.
+<https://w3id.org/geochem/1.0/agent/geox>
+  rdf:type dcterm:Agent , schema:Project;
+  dcterm:contributor <https://orcid.org/0000-0002-5765-0245> ;
+  dcterm:description "vocabulary contributed by Manja Luzi, editor, under the auspices of the Research Network for Geosciences in Berlin and Potsdam (Geo-X, https://www.geo-x.net/en/), vocabulary used for information managment at Geo-X.  Sources include NASA Global Change Master Directory (GCMD), 2021, GCMD Keywords, Version 11.1, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). GCMD Keyword Forum Page  https://forum.earthdata.nasa.gov/app.php/tag/GCMD+Keywords; German Research Foundation, 2021, Instrumentation category key. URL: https://www.dfg.de/en/research_funding/programmes/infrastructure/scientific_instrumentation/category_key/index.html (Downloadable versions of the instrumentation category key are provided in German only.); IUPAC (International Union of Pure and Applied Chemistry): Compendium of Analytical Terminology, current project title: Vocabulary of Concepts and Terms in Analytical Chemistry - the revised Orange Book. 4th edition: Royal Society of Chemistry, 2021. URL: https://iupac.org/project/2012-005-1-500; U.S. Geological Survey, 2021, USGS Thesaurus. URL: https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2; EarthChem Library, 2021, Geochemistry Data Templates. URL: https://www.earthchem.org/ecl/templates/; Georef Thesaurus. Edited by Barbara A. Goodman. 11th edition: American Geological Institute, 2008. URL: https://www.americangeosciences.org/information/georef/thesaurus/lists" @en ;
+  rdfs:label "Geo-X" ;
+  schema:url "https://www.geo-x.net/en/ ";
+  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+.
+<https://w3id.org/geochem/1.0/agent/orex>
+  rdf:type dcterm:Agent , schema:Project;
+  dcterm:contributor <https://orcid.org/0000-0001-5671-5388> ;
+  dcterm:description "Analytical methods planned for the investigation of sample material returned from asteroid Bennu by the OSIRIS-REx mission (https://www.asteroidmission.org/). Some method descriptions that only have orex listed as source are from the O-REx Confluence web content. The mission sample analysis team has been compiling descriptions of analytical techniques planned, and the dictionary of planned methods has been shared with Astromat data managers and been made available for this compilation. (https://curation.isas.jaxa.jp/symposium/abstract/2021/S6-2_Connolly.pdf)"@en ;
+  rdfs:label "OSIRIS-REx Sample Analysis Team"@en ;
+  schema:url "https://www.asteroidmission.org/" ; 
+  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+.
+<https://w3id.org/geochem/1.0/agent/petdb>
+  rdf:type dcterm:Agent , schema:Project;
+  dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
+  dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
+  dcterm:description "Methods compiled from PetDb database by Annika Johansson and mapped to GEOROC and Astromat method labels. PetDB is an integrated data synthesis through which you can access chemical, isotopic, and mineralogical data from peer-reviewed literature. (https://www.earthchem.org/resources/support/petdb-documentation/)"@en ;
+  rdfs:label "PetDb" ;
+  schema:url "https://www.earthchem.org/resources/support/petdb-documentation/" ;
+  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+.
 meth:acceleratormassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Accelerator mass spectrometry"@en ;
@@ -366,7 +414,7 @@ meth:acidreactioncarbonateanalysis
 meth:adsorptionanalysis
   rdf:type skos:Concept ;
   dcterm:source <http://www.cyto.purdue.edu/cdroms/cyto2/6/coulter/ss000107.htm> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Adsorption analysis"@en ;
   skos:altLabel "ADSORPTION"@en ;
@@ -380,7 +428,7 @@ meth:afmtopographyimaging
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1007/978-3-642-16712-6_496> ;
   dcterm:source <https://lnf-wiki.eecs.umich.edu/wiki/Atomic_force_microscopy> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "AFM topography imaging"@en ;
   skos:broader meth:imagingtechniques ;
   skos:broader meth:surfaceanalysis ;
@@ -391,9 +439,9 @@ meth:afmtopographyimaging
 .
 meth:alphaparticlecounting
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Alpha particle counting"@en ;
   skos:altLabel "ALPHA COUNTING"@en ;
@@ -408,7 +456,7 @@ meth:alphaparticlecounting
 meth:alphaparticlespectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Alpha-particle_spectroscopy> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Alpha particle spectrometry"@en ;
   skos:altLabel "Alpha spectrometry"@en ;
@@ -422,7 +470,7 @@ meth:alphaparticlespectrometry
 meth:alpharecoiltrackcounting
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1016/S0009-2541(99)00185-0> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Alpha recoil track counting"@en ;
   skos:altLabel "ALPHA-RECOIL TRACKS DATING"@en ;
@@ -436,7 +484,7 @@ meth:alpharecoiltrackcounting
 meth:amperometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2018-0109> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Amperometry"@en ;
   skos:broader meth:electrochemicaltechniques ;
@@ -458,7 +506,7 @@ meth:analyticalmethod
 .
 meth:angleofreposemeasurement
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Angle of repose measurement"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -470,7 +518,7 @@ meth:angleofreposemeasurement
 meth:anionchromatographyanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Ion_chromatography> ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Anion chromatography analysis"@en ;
   skos:broader meth:ionchromatographyanalysis ;
@@ -479,20 +527,13 @@ meth:anionchromatographyanalysis
   skos:notation "ANC" ;
   skos:prefLabel "Anion chromatography analysis"@en ;
 .
-meth:astromat
-  rdf:type dcterm:Agent ;
-  dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
-  dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
-  dcterm:description "Analytical methods cited in the Astromat database.  The database currently contains a compilation of data acquired from meteorites and lunar samples returned by the Apollo missions. The Astromaterials Data System (Astromat, https://www.astromat.org/about/overview/) is a comprehensive data infrastructure to access, publish, and preserve laboratory analytical data generated on astromaterials samples. Astromat aims to ensure the long-term value of astromaterials samples data and maximize their impact on scientific discovery and knowledge."@en ;
-  rdfs:label "Astromaterials Data System (Astromat)"@en ;
-.
 meth:atomicabsorptionspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Atomic_absorption_spectroscopy> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Atomic absorption spectrometry"@en ;
   skos:altLabel "Atomic absorption spectrophotometry" ;
@@ -507,7 +548,7 @@ meth:atomicabsorptionspectrometry
 meth:atomprobetomography
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Atom_probe> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Atom probe tomography"@en ;
   skos:broader meth:imagingtechniques ;
@@ -519,7 +560,7 @@ meth:atomprobetomography
 meth:augerelectronspectroscopy
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Auger_electron_spectroscopy> ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Auger electron spectroscopy"@en ;
   skos:broader meth:electronspectrometry ;
@@ -530,7 +571,7 @@ meth:augerelectronspectroscopy
 .
 meth:backscatteredelectrongrainboundarymap
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Backscattered electron grain boundary imaging"@en ;
   skos:broader meth:electronmicroscopyimaging ;
   skos:definition "Image showing grain boundaries generated by detecting crytallographic orientation changes in a raster of backscattered electron diffraction data points."@en ;
@@ -540,10 +581,10 @@ meth:backscatteredelectrongrainboundarymap
 .
 meth:backscatteredelectronimaging
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Backscattered electron imaging"@en ;
   skos:altLabel "Backscatter electron microscopy"@en ;
@@ -576,7 +617,7 @@ meth:bioanalyticalmethod
 .
 meth:broadbeamxrayspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Broad beam X-ray spectrometry"@en ;
   skos:altLabel "BROAD BEAM ANALYSIS"@en ;
@@ -589,7 +630,7 @@ meth:broadbeamxrayspectrometry
 meth:capacitancedilatometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Dilatometer> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Capacitance dilatometry"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -600,7 +641,7 @@ meth:capacitancedilatometry
 .
 meth:carbonatebombanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Carbonate bomb analysis"@en ;
   skos:altLabel "CARBONATE BOMB"@en ;
@@ -612,7 +653,7 @@ meth:carbonatebombanalysis
 .
 meth:catalyticcombustionanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Catalytic combustion analysis"@en ;
   skos:broader meth:infraredopticalspectrometry ;
@@ -623,7 +664,7 @@ meth:catalyticcombustionanalysis
 .
 meth:cathodoluminescenceimaging
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source <https://www.delmic.com/en/techniques/cathodoluminescence> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Cathodoluminescence imaging"@en ;
@@ -648,7 +689,7 @@ meth:cationchromatographyanalysis
 .
 meth:charmographanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Charmograph analysis"@en ;
   skos:altLabel "CHARMOGRAPH"@en ;
@@ -672,9 +713,9 @@ meth:chromatographyanalysis
 .
 meth:colormetricanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source <https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/colorimetric-analysis> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Colormetric analysis"@en ;
@@ -689,8 +730,8 @@ meth:colormetricanalysis
 meth:combustionanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://preparatorychemistry.com/Bishop_Combustion_Analysis.htm> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Combustion analysis"@en ;
   skos:altLabel "COMBUSTION"@en ;
@@ -711,7 +752,7 @@ meth:combustiongaschromatography
 .
 meth:combustiongaschromatographyisotopicratiomassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Combustion gas chromatography isotopic ratio mass spectrometry"@en ;
   skos:broader meth:combustiongaschromatography ;
@@ -724,7 +765,7 @@ meth:combustiongaschromatographyisotopicratiomassspectrometry
 .
 meth:combustioninfraredspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Combustion infrared spectrometry"@en ;
   skos:altLabel "COMBUSTION-INFRARED ANALYSIS"@en ;
@@ -737,7 +778,7 @@ meth:combustioninfraredspectrometry
 .
 meth:compressiontest
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Compression test"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -748,7 +789,7 @@ meth:compressiontest
 .
 meth:confocalxrayfluorescencespectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source <https://www.xos.com/Confocal-XRF> ;
   rdfs:label "Confocal X-ray fluorescence spectrometry"@en ;
   skos:broader meth:xrayfluorescencespectrometry ;
@@ -758,9 +799,9 @@ meth:confocalxrayfluorescencespectrometry
 .
 meth:continuousflowisotoperatiomassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Continuous flow isotope ratio mass spectrometry"@en ;
   skos:altLabel "ELEMENTAL ANALYSER CONTINUOUS FLOW ISOTOPIC RATIO MASS SPECTROMETER"@en ;
@@ -774,8 +815,8 @@ meth:continuousflowisotoperatiomassspectrometry
 .
 meth:coulometricalanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Coulometrical analysis"@en ;
   skos:broader meth:electrochemicaltechniques ;
@@ -786,7 +827,7 @@ meth:coulometricalanalysis
 .
 meth:desorptionelectrosprayionizationorbitrapmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Desorption electrospray ionization orbitrap mass spectrometry"@en ;
   skos:broader meth:orbitrapmassspectrometry ;
   skos:definition "technique in which sample ionization is achieved by a process in which a spray of charged droplets is directed towards the sample. When the spray impacts the sample, a thin layer of solvent is formed into which the analytes may dissolve. As other primary droplets arrive at the sample surface, they splash secondary microdroplets containing the dissolved analytes from the solvent film. This mechanism causes analyte-containing droplets to be generated in the open air, and then delivered to the mass spectrometer through a heated extended capillary. (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3205348).  After the desorption process, ionization occurs via mechanisms that are similar to those of electrospray ionization, in which a high voltage is applied to a liquid to create an aerosol (https://en.wikipedia.org/wiki/Electrospray_ionization).  Mass analysis is done with an Orbitrap mass analyzer. (https://en.wikipedia.org/wiki/Orbitrap)"@en ;
@@ -797,7 +838,7 @@ meth:desorptionelectrosprayionizationorbitrapmassspectrometry
 meth:deuteronactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1007/BF02520983> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Deuteron activation analysis"@en ;
   skos:broader meth:particleinducedactivationanalysis ;
@@ -808,7 +849,7 @@ meth:deuteronactivationanalysis
 .
 meth:dietrichfruhlingcalcimetry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.gabbrielli.com/en/prodotto/dietrich-fruhling-calcimeter/> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Dietrich-Fruhling calcimetry"@en ;
@@ -822,8 +863,8 @@ meth:differentialscanningcalorimetry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2012-0609> ;
   dcterm:source <https://en.wikipedia.org/wiki/Differential_scanning_calorimetry> ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source "DFG" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Differential scanning calorimetry"@en ;
@@ -838,7 +879,7 @@ meth:differentialscanningcalorimetry
 .
 meth:differentialthermalanalyis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:label "Differential thermal analysis"@en ;
   skos:altLabel "Differential analyzer"@en ;
   skos:broader meth:thermalanalysis ;
@@ -849,8 +890,8 @@ meth:differentialthermalanalyis
 .
 meth:directcurrentplasmaemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.rsc.org/publishing/journals/prospect/ontology.asp?id=CMO:0000265> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Direct current plasma emission spectrometry"@en ;
@@ -863,8 +904,8 @@ meth:directcurrentplasmaemissionspectrometry
 .
 meth:directcurrentplasmaspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Direct current plasma spectrometry"@en ;
   skos:broader meth:plasmaopticalspectrometry ;
@@ -875,7 +916,7 @@ meth:directcurrentplasmaspectrometry
 .
 meth:directshearstrengthmeasurement
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Direct shear strength measurement"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -887,7 +928,7 @@ meth:directshearstrengthmeasurement
 meth:dnasequencing
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/iupac.90.0262> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "DNA sequencing"@en ;
   skos:broader meth:bioanalyticalmethod ;
@@ -898,7 +939,7 @@ meth:dnasequencing
 meth:dualinletisotoperatiomassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Isotope-ratio_mass_spectrometry> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Dual inlet isotope ratio mass spectrometry"@en ;
   skos:broader meth:isotoperatiomassspectrometry ;
@@ -919,7 +960,7 @@ meth:electricalconductivitymeasurement
 .
 meth:electrochemicalimpedancespectroscopy
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   dcterm:source <https://www.biologic.net/topics/what-is-eis/> ;
   dcterm:source <https://www.jlab.org/conferences/tfsrf/Thursday/Th2_1-EIS%20intro%20Reece.pdf> ;
   rdfs:isDefinedBy meth:method ;
@@ -944,8 +985,8 @@ meth:electrochemicaltechniques
 .
 meth:electronbackscatterdiffraction
   rdf:type skos:Concept ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source "DFG" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Electron backscatter diffraction"@en ;
@@ -991,10 +1032,10 @@ meth:electroninducedxrayspectrometry
 .
 meth:electronmicroscopyimaging
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Electron microscopy imaging"@en ;
   skos:altLabel "ANAYTICAL ELECTRON MICROSCOPY"@en ;
@@ -1019,7 +1060,7 @@ meth:electronspectrometry
 meth:electronspinresonanceageanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Electron_spin_resonance_dating> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Electron spin resonance age analysis"@en ;
   skos:altLabel "ELECTRON-SPIN RESONANCE AGE"@en ;
@@ -1031,7 +1072,7 @@ meth:electronspinresonanceageanalysis
 .
 meth:electrothermalabsorptionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Electrothermal absorption spectrometry"@en ;
   skos:broader meth:atomicabsorptionspectrometry ;
@@ -1044,9 +1085,9 @@ meth:elementalanalysis
   rdf:type skos:Concept ;
   dcterm:source sdev:LAB01 ;
   dcterm:source <https://en.wikipedia.org/wiki/Elemental_analysis> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:label "Elemental analysis"@en ;
   skos:altLabel "MICROSCOPE VACUUM HEATING STAGE" ;
   skos:broader meth:analyticalmethod ;
@@ -1069,8 +1110,8 @@ meth:elementalanalysisinfraredspectrometry
 meth:elementalanalysisisotoperatiomassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1351/PAC-REC-06-04-06> ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Elemental analysis isotope ratio mass spectrometry"@en ;
   skos:altLabel "Elemental analyzer - isotope ratio mass spectrometry"@en ;
@@ -1083,7 +1124,7 @@ meth:elementalanalysisisotoperatiomassspectrometry
 .
 meth:elementalanalysismassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Elemental analysis mass spectrometry"@en ;
   skos:altLabel "Elemental analyzer mass spectrometry"@en ;
@@ -1097,8 +1138,8 @@ meth:elementalanalysismassspectrometry
 meth:emissionspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Atomic_emission_spectroscopy> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Emission spectrometry"@en ;
   skos:altLabel "DIRECT READING OPTICAL EMISSIONS SPECTROSCOPY"@en ;
@@ -1111,9 +1152,9 @@ meth:emissionspectrometry
 .
 meth:energydispersiveelectroninducedxrayspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Energy Dispersive electron induced X-ray spectrometry"@en ;
   skos:altLabel "Elemental spectra (ESPC) measurements"@en ;
@@ -1130,8 +1171,8 @@ meth:energydispersiveelectroninducedxrayspectrometry
 .
 meth:energydispersivexrayfluorescencespectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source <https://www.xos.com/EDXRF> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Energy dispersive X-ray fluorescence spectrometry"@en ;
@@ -1147,7 +1188,7 @@ meth:energydispersivexrayfluorescencespectrometry
 .
 meth:energydispersivexrayspectraraster
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Energy dispersive X-ray spectral data 2D raster"@en ;
   skos:altLabel "Energy-dispersive X-ray spectral data (EDS) - 2D raster"@en ;
   skos:broader meth:xraymap ;
@@ -1157,8 +1198,8 @@ meth:energydispersivexrayspectraraster
 .
 meth:energydispersivexrayspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Energy dispersive X-ray spectrometry"@en ;
@@ -1173,7 +1214,7 @@ meth:energydispersivexrayspectrometry
 meth:energyfilteredtransmissionelectronimaging
   rdf:type skos:Concept ;
   dcterm:source <https://eels.info/about/techniques/eftem> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Energy-filtered transmission electron imaging"@en ;
   skos:altLabel "Energy-filtered transmission electron microscopy"@en ;
   skos:broader meth:transmissionelectronimaging ;
@@ -1184,8 +1225,8 @@ meth:energyfilteredtransmissionelectronimaging
 .
 meth:epithermalneutronactivationanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Epithermal neutron activation analysis"@en ;
@@ -1216,7 +1257,7 @@ meth:fastneutronactivationanalysis
 .
 meth:fireassayemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fire assay emission spectrometry"@en ;
   skos:altLabel "NICKEL SULFIDE FIRE ASSAY ISOTOPE DILUTION ANALYSIS"@en ;
@@ -1230,8 +1271,8 @@ meth:fireassayemissionspectrometry
 meth:fissiontrackcounting
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1016/1040-6182(92)90017-V> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fission track counting"@en ;
   skos:altLabel "FISSION TRACK"@en ;
@@ -1245,9 +1286,9 @@ meth:fissiontrackcounting
 .
 meth:flameemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Flame emission spectrometry"@en ;
   skos:altLabel "FLAME PHOTOMETRY"@en ;
@@ -1260,7 +1301,7 @@ meth:flameemissionspectrometry
 meth:flowcytometry
   rdf:type skos:Concept ;
   dcterm:source <https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2&code=400> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Flow cytometry"@en ;
   skos:broader meth:bioanalyticalmethod ;
@@ -1271,7 +1312,7 @@ meth:flowcytometry
 meth:fluorescencemicroscopy
   rdf:type skos:Concept ;
   dcterm:source <http://micro.magnet.fsu.edu/primer/techniques/fluorescence/fluorhome.html> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source "NASA" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fluorescence microscopy"@en ;
@@ -1284,8 +1325,8 @@ meth:fluorescencemicroscopy
 meth:fluorescencespectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Fluorescence_spectroscopy> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source "NASA" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fluorescence spectrometry"@en ;
@@ -1304,7 +1345,7 @@ meth:fluorescencespectrometry
 meth:fluorescentinsituhybridization
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/iupac.90.0262> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fluorescent in situ hybridization"@en ;
   skos:broader meth:bioanalyticalmethod ;
@@ -1315,7 +1356,7 @@ meth:fluorescentinsituhybridization
 .
 meth:focusedionbeamscanningmicroscopy
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Focused ion beam scanning microscopy"@en ;
   skos:broader meth:imagingtechniques ;
@@ -1328,9 +1369,9 @@ meth:focusedionbeamscanningmicroscopy
 meth:fouriertransforminfraredspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fourier transform infrared spectrometry"@en ;
@@ -1343,7 +1384,7 @@ meth:fouriertransforminfraredspectrometry
 .
 meth:fouriertransformioncyclotronresonancemassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fourier transform ion cyclotron resonance mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
@@ -1354,7 +1395,7 @@ meth:fouriertransformioncyclotronresonancemassspectrometry
 .
 meth:gammacounting
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gamma counting"@en ;
   skos:broader meth:particlecounting ;
@@ -1365,9 +1406,9 @@ meth:gammacounting
 .
 meth:gammarayspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gamma ray spectrometry"@en ;
   skos:altLabel "GAMMA SPECTROMETRY"@en ;
@@ -1380,9 +1421,9 @@ meth:gammarayspectrometry
 meth:gaschromatographyanalysis
   rdf:type skos:Concept ;
   dcterm:provenance meth:smrAddGeneralGeoX ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gas chromatography analysis"@en ;
   skos:broader meth:chromatographyanalysis ;
@@ -1394,7 +1435,7 @@ meth:gaschromatographyanalysis
 meth:gaschromatographyflameionizationdetection
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2017-0111> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source "NASA" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gas chromatography flame ionization detection"@en ;
@@ -1407,8 +1448,8 @@ meth:gaschromatographyflameionizationdetection
 meth:gaschromatographymassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1351/PAC-REC-06-04-06> ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gas chromatography mass spectrometry"@en ;
   skos:broader meth:gaschromatographyanalysis ;
@@ -1420,7 +1461,7 @@ meth:gaschromatographymassspectrometry
 .
 meth:gaschromatographythermalconductivitydetection
   rdf:type skos:Concept ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source "NASA" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gas chromatography thermal conductivity detection"@en ;
@@ -1433,7 +1474,7 @@ meth:gaschromatographythermalconductivitydetection
 meth:gaspycnometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Gas_pycnometer> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gas pycnometry"@en ;
   skos:altLabel "helium pycnometer"@en ;
@@ -1454,7 +1495,7 @@ meth:geochronology
 .
 meth:geochronology40ar39ar
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "40Ar-39Ar geochronology"@en ;
   skos:altLabel "40Ar/39Ar geochronology and thermochronology"@en ;
@@ -1464,21 +1505,9 @@ meth:geochronology40ar39ar
   skos:notation "ARGT" ;
   skos:prefLabel "40Ar-39Ar geochronology"@en ;
 .
-meth:georoc
-  rdf:type dcterm:Agent ;
-  dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
-  dcterm:description "GEOROC (https://georoc.eu/) is a comprehensive collection of published analyses of igneous and metamorphic rocks and minerals. It contains major and trace element concentrations, radiogenic and nonradiogenic isotope ratios as well as analytical ages for whole rocks, glasses, minerals and inclusions. Metadata include geospatial and other sample information, analytical details and references. Digital Geochemical Data Infrastructure (DIGIS) will continue and enhance GEOROC, originally curated by the Max Planck Institute for Chemistry. Labels for analytical methods from GEOROC were compiled by Marthe Klocking, University of Gottingen, Germany, and in collaboration with Annika Johansson (IEDA, Lamont Doherty Earth Observatory, see PetDb agent) mapped to labels for techniques from PetDb; the compilation included definitions that were reviewed and enhances in some cased in this vocabulary."@en ;
-  rdfs:label "GEOROC" ;
-.
-meth:geox
-  rdf:type dcterm:Agent ;
-  dcterm:contributor <https://orcid.org/0000-0002-5765-0245> ;
-  dcterm:description "vocabulary contributed by Manja Luzi, editor, under the auspices of the Research Network for Geosciences in Berlin and Potsdam (Geo-X, https://www.geo-x.net/en/), vocabulary used for information managment at Geo-X.  Sources include NASA Global Change Master Directory (GCMD), 2021, GCMD Keywords, Version 11.1, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). GCMD Keyword Forum Page  https://forum.earthdata.nasa.gov/app.php/tag/GCMD+Keywords; German Research Foundation, 2021, Instrumentation category key. URL: https://www.dfg.de/en/research_funding/programmes/infrastructure/scientific_instrumentation/category_key/index.html (Downloadable versions of the instrumentation category key are provided in German only.); IUPAC (International Union of Pure and Applied Chemistry): Compendium of Analytical Terminology, current project title: Vocabulary of Concepts and Terms in Analytical Chemistry - the revised Orange Book. 4th edition: Royal Society of Chemistry, 2021. URL: https://iupac.org/project/2012-005-1-500; U.S. Geological Survey, 2021, USGS Thesaurus. URL: https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2; EarthChem Library, 2021, Geochemistry Data Templates. URL: https://www.earthchem.org/ecl/templates/; Georef Thesaurus. Edited by Barbara A. Goodman. 11th edition: American Geological Institute, 2008. URL: https://www.americangeosciences.org/information/georef/thesaurus/lists"@en ;
-  rdfs:label "Geo-X" ;
-.
 meth:gradientionchromatographyanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gradient ion chromatography analysis"@en ;
   skos:broader meth:ionchromatographyanalysis ;
@@ -1490,9 +1519,9 @@ meth:gradientionchromatographyanalysis
 meth:gravimeticanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Wet_chemistry#Gravimetric_analysis> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gravimetric analysis"@en ;
   skos:broader meth:wetchemistry ;
@@ -1503,7 +1532,7 @@ meth:gravimeticanalysis
 .
 meth:gutzeittest
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Gutzeit test"@en ;
   skos:altLabel "ARSINE GUTZEIT REACTION"@en ;
@@ -1515,10 +1544,10 @@ meth:gutzeittest
 .
 meth:highresolutioninductivelycoupledplasmamassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "High resolution inductively coupled plasma mass spectrometry"@en ;
   skos:altLabel "HIGH-RESOLUTION MULTI-COLLECTOR INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY"@en ;
@@ -1533,7 +1562,7 @@ meth:hybridizationassay
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/iupac.90.0262> ;
   dcterm:source <https://en.wikipedia.org/wiki/Hybridization_assay> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Hybridization assay"@en ;
   skos:altLabel "DNA hybridization capture"@en ;
@@ -1553,7 +1582,7 @@ meth:imagingtechniques
 .
 meth:inductionheatinganalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Induction heating analysis"@en ;
   skos:altLabel "INDUCTION HEATING"@en ;
@@ -1565,7 +1594,7 @@ meth:inductionheatinganalysis
 .
 meth:inductivelycoupledplasmaemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Inductively coupled plasma emission spectrometry"@en ;
   skos:broader meth:plasmaemissionspectrometry ;
@@ -1576,10 +1605,10 @@ meth:inductivelycoupledplasmaemissionspectrometry
 .
 meth:inductivelycoupledplasmamassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Inductively coupled plasma mass spectrometry"@en ;
   skos:altLabel "FUSION-INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY"@en ;
@@ -1597,10 +1626,10 @@ meth:inductivelycoupledplasmamassspectrometry
 .
 meth:inductivelycoupledplasmaopticalemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Inductively coupled plasma optical emission spectrometry"@en ;
   skos:altLabel "INDUCTIVELY COUPLED PLASMA OPTICAL EMISSION SPECTROMETRY"@en ;
@@ -1613,7 +1642,7 @@ meth:inductivelycoupledplasmaopticalemissionspectrometry
 meth:infraredabsorptionspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Infrared_gas_analyzer> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Infrared absorption spectrometry"@en ;
   skos:altLabel "INFRARED ABSORPTION SPECTROSCOPY"@en ;
@@ -1637,7 +1666,7 @@ meth:infraredopticalspectrometry
 .
 meth:infraredphotometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Infrared photometry"@en ;
   skos:broader meth:photometry ;
@@ -1649,7 +1678,7 @@ meth:infraredphotometry
 .
 meth:infraredreflectance
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Infrared reflectance"@en ;
   skos:broader meth:photometry ;
@@ -1661,8 +1690,8 @@ meth:infraredreflectance
 meth:infraredspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://conductscience.com/the-basics-of-infrared-spectrophotometry/> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Infrared spectrometry"@en ;
   skos:altLabel "INFRA-RED SPECTROSCOPY"@en ;
@@ -1677,7 +1706,7 @@ meth:infraredspectrometry
 .
 meth:infraredtransmissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Infrared transmission spectrometry"@en ;
   skos:altLabel "TRANSMISSION IR SPECTROSCOPY"@en ;
@@ -1691,7 +1720,7 @@ meth:infraredtransmissionspectrometry
 meth:instrumentalneutronactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source meth:skooghollercrouch ;
   dcterm:source <https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa> ;
   rdfs:label "Instrumental neutron activation analysis "@en ;
@@ -1703,9 +1732,9 @@ meth:instrumentalneutronactivationanalysis
 meth:ionchromatographyanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2017-0111> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source "NASA" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Ion chromatography analysis"@en ;
@@ -1720,9 +1749,9 @@ meth:ionchromatographyanalysis
 meth:ionsensitiveelectrodeanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Physical_Methods_in_Chemistry_and_Nano_Science_(Barron)/01%3A_Elemental_Analysis/1.07%3A_Ion_Selective_Electrode_Analysis> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Ion sensitive electrode analysis"@en ;
@@ -1735,7 +1764,7 @@ meth:ionsensitiveelectrodeanalysis
 .
 meth:isotoperatiomassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.emsl.pnnl.gov/science/related-instrument/isotope-ratio-mass-spectrometry/1795> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Isotope ratio mass spectrometry"@en ;
@@ -1747,10 +1776,10 @@ meth:isotoperatiomassspectrometry
 .
 meth:laserablationinductivelycoupledplasmamassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Laser ablation inductively coupled plasma mass spectrometry"@en ;
   skos:altLabel "EXCIMER LASER ABLATION INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY"@en ;
@@ -1769,7 +1798,7 @@ meth:laserablationinductivelycoupledplasmamassspectrometry
 .
 meth:laserablationmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Laser ablation mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
@@ -1780,7 +1809,7 @@ meth:laserablationmassspectrometry
 .
 meth:laserabsorptionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Laser absorption spectrometry"@en ;
   skos:broader meth:atomicabsorptionspectrometry ;
@@ -1792,9 +1821,9 @@ meth:laserabsorptionspectrometry
 meth:laserfluorinationanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://sil.uoregon.edu/laser-fluorination/> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Laser fluorination analysis"@en ;
   skos:altLabel "LASER FLUORINATION"@en ;
@@ -1810,7 +1839,7 @@ meth:laserfluorinationanalysis
 meth:laserionizationmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1021/acs.analchem.9b00329> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Laser ionization mass spectrometry"@en ;
   skos:altLabel "ISOTOPE-DILUTION RESONANCE-IONIZATION MASS SPECTROMETRY"@en ;
@@ -1825,7 +1854,7 @@ meth:laserionizationmassspectrometry
 meth:lassmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://assets.thermofisher.com/TFS-Assets/CMD/Application-Notes/AN-30298-ICP-MS-Laser-Ablation-Split-Stream-AN30298-EN.pdf> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:label "Laser ablation split stream mass spectrometry "@en ;
   skos:broader meth:laserablationmassspectrometry ;
   skos:definition "The output from laser ablation of a single analysis spot is split between two mass spectrometers (typically ICPMS). The technique allows simultaneous analyses of different geochemical systems in mineral samples using two or more mass spectrometers. An important application is the determination of the complementary isotopic systems of Lu-Hf and U-Pb (age)(https://assets.thermofisher.com/TFS-Assets/CMD/Application-Notes/AN-30298-ICP-MS-Laser-Ablation-Split-Stream-AN30298-EN.pdf)"@en ;
@@ -1835,7 +1864,7 @@ meth:lassmassspectrometry
 .
 meth:lecofurnaceanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.element.com/materials-testing-services/chemical-analysis-labs/leco-analysis> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "LECO furnace analysis"@en ;
@@ -1848,8 +1877,8 @@ meth:lecofurnaceanalysis
 .
 meth:liquidchromatographyanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Liquid chromatography analysis"@en ;
   skos:altLabel "HIGH-PERFORMANCE LIQUID CHROMATOGRAPHY" ;
@@ -1861,7 +1890,7 @@ meth:liquidchromatographyanalysis
 .
 meth:liquidchromatographymassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Liquid chromatography mass spectrometry"@en ;
   skos:broader meth:liquidchromatographyanalysis ;
@@ -1873,7 +1902,7 @@ meth:liquidchromatographymassspectrometry
 .
 meth:liquidchromatographyorganiccarbondetection
   rdf:type skos:Concept ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Liquid chromatography organic carbon detection"@en ;
   skos:broader meth:liquidchromatographyanalysis ;
@@ -1884,7 +1913,7 @@ meth:liquidchromatographyorganiccarbondetection
 .
 meth:liquidinletinductivelycoupledplasmamassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Liquid inlet inductively coupled plasma mass spectrometry"@en ;
   skos:altLabel "SOLUTION-NEBULIZED INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY"@en ;
@@ -1900,7 +1929,7 @@ meth:liquidinletinductivelycoupledplasmamassspectrometry
 meth:lockinthermography
   rdf:type skos:Concept ;
   dcterm:source <https://movitherm.com/knowledgebase/what-is-lock-in-thermography/> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Lock in thermography "@en ;
   skos:broader meth:thermalanalysis ;
   skos:definition "The principle of lock-in thermography is based on the application of a periodic input energy wave (i.e. thermal emitter, ultrasound, microwave, eddy current, flash or xenon lamp, halogen lamp, or laser) to the surface of the object being examined and analyzing the resulting local temperatures on the surface of the object using an infrared camera. When the input energy wave penetrates the object's surface, is it absorbed and phase shifted. When the input wave reaches areas within the object where the thermophysical properties are not homogeneous in relation to the surrounding material, (i.e. at delaminations or inclusions), the input wave is partially reflected. The reflected portion of the wave interferes with the incoming input wave at the surface of the object, causing an interference pattern in the local surface temperature, which oscillates at the same frequency as the thermal wave. The internal structure of the object being examined can then be derived by evaluating the phase shift of the local surface temperatures in relation to the input energy wave. The ability to derive internal thermophysical inconsistencies within the object, however, requires that the input energy source be used at an optimal frequency, which depends on both the thermophysical characteristics of the object as well as its thickness. (https://movitherm.com/knowledgebase/what-is-lock-in-thermography/)"@en ;
@@ -1909,7 +1938,7 @@ meth:lockinthermography
 .
 meth:lossonignitionanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.precisa.com/blog/what-is-loss-on-ignition-loi> ;
   rdfs:label "Loss on ignition analysis "@en ;
   skos:altLabel "STEPPED HEATING ANALYSIS" ;
@@ -1931,9 +1960,9 @@ meth:magneticfieldmeasurement
 .
 meth:manometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Manometry"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -1946,9 +1975,9 @@ meth:massspectrometry
   rdf:type skos:Concept ;
   dcterm:provenance meth:smrAddGeneralGeoX ;
   dcterm:source <https://doi.org/10.1351/PAC-REC-06-04-06> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Mass spectrometry"@en ;
@@ -1969,10 +1998,10 @@ meth:method
   dcterm:contributor <https://orcid.org/0000-0002-5765-0245> ;
   dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
   dcterm:created "2023-02-09"^^xsd:date ;
-  dcterm:creator meth:astromat ;
-  dcterm:creator meth:georoc ;
-  dcterm:creator meth:geox ;
-  dcterm:creator meth:petdb ;
+  dcterm:creator <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:creator <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:creator <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:creator <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:modified "2023-05-26"^^xsd:date ;
   rdfs:label "Analytical methods for geochemistry and cosmochemistry"@en ;
   owl:imports dcterm: ;
@@ -1989,7 +2018,7 @@ meth:method
 .
 meth:micromassmultiprepmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Micromass multiprep mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
@@ -2000,7 +2029,7 @@ meth:micromassmultiprepmassspectrometry
 .
 meth:microprobetwosteplasermassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Microprobe two step laser mass spectrometry"@en ;
   skos:broader meth:secondaryneutralmassspectrometry ;
@@ -2012,7 +2041,7 @@ meth:microprobetwosteplasermassspectrometry
 meth:microscopicxrayimaging
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/X-ray_microscope> ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Microscopic X-ray imaging"@en ;
   skos:altLabel "X-RAY MICROSCOPY ANALYSIS"@en ;
@@ -2048,7 +2077,7 @@ meth:microxrayfluorescencespectroscopy
 .
 meth:minicryogenfreemeasurementsystemforthermalconductivity
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Mini cryogen free measurement system for thermal conductivity"@en ;
   skos:broader meth:thermalanalysis ;
@@ -2060,7 +2089,7 @@ meth:minicryogenfreemeasurementsystemforthermalconductivity
 meth:moistureanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://onlinepubs.trb.org/Onlinepubs/nchrp/nchrp_rpt_138.pdf> ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Moisture analysis"@en ;
   skos:altLabel "DUPONT SOLID'S MOISTURE ANALYSIS"@en ;
@@ -2073,9 +2102,9 @@ meth:moistureanalysis
 meth:mossbauerspectroscopy
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/M%C3%B6ssbauer_spectroscopy> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Mossbauer spectrometry"@en ;
   skos:altLabel "Mossbauer spectroscopy"@en ;
@@ -2087,7 +2116,7 @@ meth:mossbauerspectroscopy
 .
 meth:multicollectorinductivelycoupledplasmamassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Multi collector inductively coupled plasma mass spectrometry"@en ;
   skos:broader meth:inductivelycoupledplasmamassspectrometry ;
@@ -2098,7 +2127,7 @@ meth:multicollectorinductivelycoupledplasmamassspectrometry
 .
 meth:nanoindentationandmicroindentation
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Nanoindentation and microindentation"@en ;
   skos:broader meth:physicalpropertymeasurement ;
@@ -2110,7 +2139,7 @@ meth:nanoindentationandmicroindentation
 meth:nanoscaleinfraredspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1016/S1369-7021(10)70205-4> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Nanoscale infrared spectrometry"@en ;
   skos:broader meth:infraredspectrometry ;
   skos:definition "Technique uses a pulsed, tunable IR source to excite molecular absorption in a sample. As the sample absorbs radiation, it heats up, leading to rapid thermal expansion that excites resonant oscillations of the cantilever of an atomic force microscope (AFM), which is detected using the standard AFM photodiode measurement system. These induced oscillations decay in a characteristic ringdown that can be analyzed  to extract the amplitudes and frequencies of the oscillations. By measuring the amplitudes of the cantilever oscillation as a function of the source wavelength, local absorption spectra are created. (https://doi.org/10.1016/S1369-7021(10)70205-4)"@en ;
@@ -2120,7 +2149,7 @@ meth:nanoscaleinfraredspectrometry
 .
 meth:negativeionthermalionizationmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Negative ion thermal ionization mass spectrometry"@en ;
   skos:altLabel "ISOTOPE-DILUTION NEGATIVE ION THERMAL-IONIZATION MASS SPECTROMETRY"@en ;
@@ -2133,9 +2162,9 @@ meth:negativeionthermalionizationmassspectrometry
 meth:neutronactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://serc.carleton.edu/research_education/geochemsheets/techniques/INAA.html> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   dcterm:source <https://www.nist.gov/laboratories/tools-instruments/instrumental-neutron-activation-analysis-inaa> ;
   rdfs:isDefinedBy meth:method ;
@@ -2148,7 +2177,7 @@ meth:neutronactivationanalysis
 .
 meth:neutroncounting
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.lanl.gov/org/ddste/aldgs/sst-training/_assets/docs/PANDA/Principles%20of%20Neutron%20Coincidence%20Counting%20Ch.%2016%20p.%20457-492.pdf> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Neutron counting"@en ;
@@ -2162,9 +2191,9 @@ meth:neutroncounting
 .
 meth:neutronirradiationnoblegasmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Neutron irradiation noble gas mass spectrometry"@en ;
   skos:altLabel "NOBLE-GAS METHOD"@en ;
@@ -2177,7 +2206,7 @@ meth:neutronirradiationnoblegasmassspectrometry
 meth:nextgenerationsequencing
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/iupac.90.0262> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Next generation sequencing"@en ;
   skos:altLabel "Massive parallel sequencing" ;
@@ -2192,8 +2221,8 @@ meth:nextgenerationsequencing
 meth:noblegasmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://nvlpubs.nist.gov/nistpubs/jres/38/jresv38n6p617_A1b.pdf> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Noble gas mass spectrometry"@en ;
   skos:altLabel "Noble gas and nitrogen static mass spectrometry"@en ;
@@ -2211,8 +2240,8 @@ meth:nuclearmagneticresonancespectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_spectroscopy> ;
   dcterm:source <https://iupac.org/wp-content/uploads/2019/10/PAC-REC-19-02-03.R2_PR191002MC.pdf> ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source "DFG" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Nuclear magnetic resonance spectrometry"@en ;
@@ -2226,7 +2255,7 @@ meth:nuclearmagneticresonancespectrometry
 .
 meth:nuclearmicroprobeanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.annualreviews.org/doi/pdf/10.1146/annurev.ns.42.120192.000245> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Nuclear microprobe analysis"@en ;
@@ -2241,7 +2270,7 @@ meth:nuclearmicroprobeanalysis
 .
 meth:nuclearparticletrackcounting
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Nuclear particle track counting"@en ;
   skos:broader meth:trackcounting ;
@@ -2252,7 +2281,7 @@ meth:nuclearparticletrackcounting
 .
 meth:nuclearreactionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Nuclear reaction spectrometry"@en ;
   skos:broader meth:gammarayspectrometry ;
@@ -2276,9 +2305,9 @@ meth:opticalemissionspectrometry
 meth:opticalspectrometry
   rdf:type skos:Concept ;
   dcterm:provenance meth:smraddgencategory ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Optical spectrometry"@en ;
   skos:altLabel "OPTICAL SPECTROSCOPY"@en ;
@@ -2292,18 +2321,12 @@ meth:opticalspectrometry
 meth:orbitrapmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Orbitrap> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Orbitrap mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
   skos:definition "Orbitrap is an ion trap mass analyzer consisting of an outer barrel-like electrode and a coaxial inner spindle-like electrode that traps ions in an orbital motion around the spindle. The image current from the trapped ions is detected and converted to a mass spectrum using the Fourier transform of the frequency signal. (https://en.wikipedia.org/wiki/Orbitrap)"@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Orbitrap mass spectrometry"@en ;
-.
-meth:orex
-  rdf:type dcterm:Agent ;
-  dcterm:contributor <https://orcid.org/0000-0001-5671-5388> ;
-  dcterm:description "Analytical methods planned for the investigation of sample material returned from asteroid Bennu by the OSIRIS-REx mission (https://www.asteroidmission.org/). Some method descriptions that only have orex listed as source are from the O-REx Confluence web content. The mission sample analysis team has been compiling descriptions of analytical techniques planned, and the dictionary of planned methods has been shared with Astromat data managers and been made available for this compilation. (https://curation.isas.jaxa.jp/symposium/abstract/2021/S6-2_Connolly.pdf)"@en ;
-  rdfs:label "OSIRIS-REx Sample Analysis Team"@en ;
 .
 meth:other
   rdf:type skos:Concept ;
@@ -2329,7 +2352,7 @@ meth:particlebeamexcitation
 .
 meth:particlecohesiondetermination
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Particle cohesion determination"@en ;
   skos:altLabel "Atomic force microscopy"@en ;
@@ -2342,7 +2365,7 @@ meth:particlecohesiondetermination
 meth:particlecounting
   rdf:type skos:Concept ;
   dcterm:provenance meth:smraddgencategory ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Particle counting"@en ;
   skos:altLabel "RADON METHOD" ;
@@ -2358,7 +2381,7 @@ meth:particlecounting
 meth:particleinducedactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2019-0302> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Activation analysis"@en ;
   skos:altLabel "PARTICULE INDUCED GAMMA-RAY EMISSION ANALYSIS"@en ;
@@ -2383,7 +2406,7 @@ meth:particleinducedxrayspectrometry
 .
 meth:particlesizedistributionanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Particle size distribution analysis "@en ;
   skos:broader meth:other ;
   skos:definition "Estimation of a particle size distribution by measuring diameter of a set of grains spread on a sample platter." ;
@@ -2404,8 +2427,8 @@ meth:particlespectrometry
 .
 meth:penfieldmethodanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Penfield method analysis"@en ;
   skos:altLabel "PENFIELD METHOD"@en ;
@@ -2414,13 +2437,6 @@ meth:penfieldmethodanalysis
   skos:inScheme meth:method ;
   skos:notation "PEN" ;
   skos:prefLabel "Penfield method analysis"@en ;
-.
-meth:petdb
-  rdf:type dcterm:Agent ;
-  dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
-  dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
-  dcterm:description "Methods compiled from PetDb database by Annika Johansson and mapped to GEOROC and Astromat method labels. PetDB is an integrated data synthesis through which you can access chemical, isotopic, and mineralogical data from peer-reviewed literature. (https://www.earthchem.org/resources/support/petdb-documentation/)"@en ;
-  rdfs:label "PetDb" ;
 .
 meth:phmeasurement
   rdf:type skos:Concept ;
@@ -2434,8 +2450,8 @@ meth:phmeasurement
 .
 meth:photometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Photometry"@en ;
   skos:broader meth:analyticalmethod ;
@@ -2447,7 +2463,7 @@ meth:photometry
 meth:photonactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.3390/min11060617> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Photon activation analysis"@en ;
   skos:altLabel "INSTRUMENTAL PHOTON ACTIVATION ANALYSIS"@en ;
@@ -2483,7 +2499,7 @@ meth:pigsneutronactivationanalysis
   dcterm:source <http://dx.doi.org/10.1007/BF02055022> ;
   dcterm:source <https://doi.org/10.1002/gj.907> ;
   dcterm:source <https://doi.org/10.1016/0009-2541(90)90036-7> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:label "Pre irradiation group concentration neutron activation analysis "@en ;
   skos:broader meth:neutronactivationanalysis ;
   skos:definition "A pre-irradiation group concentration method invovling analysis of REE relative to samarium (Sm).  The sample is split in two portions. Sm and Nd content of the rock is determined by mass spectrometry isotope dilution analysis on one split. The other split is  further purified for REE by cation-exchange, and is used to determine the abundance of REE relative to Sm by NAA. The REE content of the rock is found by normalization to Sm content determined by mass spectrometry in the first portion. The result are directly comparable to REE analyzed by conventional INAA. (https://doi.org/10.1016/0009-2541(90)90036-7, https://doi.org/10.1002/gj.907, http://dx.doi.org/10.1007/BF02055022)"@en ;
@@ -2492,7 +2508,7 @@ meth:pigsneutronactivationanalysis
 .
 meth:plasmaemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Plasma emission spectrometry"@en ;
   skos:altLabel "MICROWAVE PLASMA EMISSION SPECTROMETRY"@en ;
@@ -2504,7 +2520,7 @@ meth:plasmaemissionspectrometry
 .
 meth:plasmaopticalemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Plasma optical emission spectrometry"@en ;
   skos:altLabel "DIRECTLY COUPLED PLASMA OPTICAL EMISSION SPECTROSCOPY"@en ;
@@ -2529,7 +2545,7 @@ meth:plasmaopticalspectrometry
 .
 meth:plasmasourcemassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Plasma source mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
@@ -2541,8 +2557,8 @@ meth:plasmasourcemassspectrometry
 meth:pointcounting
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Point_counting_(geology)> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Point counting"@en ;
   skos:broader meth:other ;
@@ -2556,7 +2572,7 @@ meth:polarography
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Polarography> ;
   dcterm:source <https://unacademy.com/content/nta-ugc/study-material/pharmaceutical-analysis/polarography/> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Polarography"@en ;
@@ -2579,7 +2595,7 @@ meth:porosimetry
 .
 meth:positiveionthermalionizationmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Positive ion thermal ionization mass spectrometry"@en ;
   skos:broader meth:thermalionizationmassspectrometry ;
@@ -2591,10 +2607,10 @@ meth:positiveionthermalionizationmassspectrometry
 meth:potentiometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2018-0109> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Potentiometry"@en ;
   skos:broader meth:electrochemicaltechniques ;
@@ -2605,9 +2621,9 @@ meth:potentiometry
 .
 meth:promptgammaneutronactivationanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Prompt gamma neutron activation analysis"@en ;
@@ -2631,7 +2647,7 @@ meth:pyrolysisgaschromatography
 meth:pyrolysisgaschromatographyflameionizationdetection
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2017-0111> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Pyrolysis gas chromatography flame ionization detection"@en ;
   skos:broader meth:gaschromatographyflameionizationdetection ;
@@ -2644,7 +2660,7 @@ meth:pyrolysisgaschromatographyflameionizationdetection
 meth:pyrolysisgaschromatographymassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1351/PAC-REC-06-04-06> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Pyrolysis gas chromatography mass spectrometry"@en ;
   skos:altLabel "Pyrolysis mass spectrometry" ;
@@ -2657,7 +2673,7 @@ meth:pyrolysisgaschromatographymassspectrometry
 .
 meth:quadrupoleinductivelycoupledplasmmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Quadrupole inductively coupled plasma mass spectrometry"@en ;
   skos:altLabel "QUADRUPOLE INDUCTIVELY COUPLED PLASMA MASS SPECTROMETRY"@en ;
   skos:broader meth:inductivelycoupledplasmamassspectrometry ;
@@ -2669,9 +2685,9 @@ meth:quadrupoleinductivelycoupledplasmmassspectrometry
 meth:quantitativeanalysiselectroninducedxrayspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://serc.carleton.edu/research_education/geochemsheets/wds.html> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Quantitative analysis electron induced X-ray spectrometry"@en ;
   skos:altLabel "ELECTRON MICROPROBE ANALYSIS"@en ;
@@ -2687,7 +2703,7 @@ meth:quantitativeanalysiselectroninducedxrayspectrometry
 meth:quantitativeanalysisparticleinducedxrayspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://serc.carleton.edu/research_education/geochemsheets/wds.html)> ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Quantitative analysis particle induced X-ray spectrometry"@en ;
   skos:broader meth:particleinducedxrayspectrometry ;
@@ -2699,7 +2715,7 @@ meth:quantitativeanalysisparticleinducedxrayspectrometry
 meth:quantitativepolymerasechainreaction
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/iupac.90.0262> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source <https://www.thermofisher.com/blog/ask-a-scientist/what-is-qpcr/> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Quantitative polymerase chain reaction"@en ;
@@ -2714,7 +2730,7 @@ meth:quantitativepolymerasechainreaction
 .
 meth:quantitativereflectanceimagingsystem
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Quantitative reflectance imaging"@en ;
   skos:altLabel "Quantitative reflectance imaging system"@en ;
@@ -2727,9 +2743,9 @@ meth:quantitativereflectanceimagingsystem
 meth:radiochemicalneutronactivationanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2019-0302> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source <https://www.nist.gov/laboratories/tools-instruments/radiochemical-neutron-activation-analysis-rnaa> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Radiochemical neutron activation analysis"@en ;
@@ -2744,9 +2760,9 @@ meth:radiochemicalneutronactivationanalysis
 meth:ramanspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://iupac.org/wp-content/uploads/2019/10/PAC-REC-19-02-03.R2_PR191002MC.pdf> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source "DFG" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Raman spectrometry"@en ;
@@ -2762,7 +2778,7 @@ meth:ramanspectrometry
 .
 meth:redoxpotentialmeasurement
   rdf:type skos:Concept ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source "DFG" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Redox potential measurement"@en ;
@@ -2773,7 +2789,7 @@ meth:redoxpotentialmeasurement
 .
 meth:resonanceionizationtimeofflightnoblegasmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Resonance ionization time of flight noble gas mass spectrometry"@en ;
   skos:broader meth:laserionizationmassspectrometry ;
@@ -2786,7 +2802,7 @@ meth:resonanceionizationtimeofflightnoblegasmassspectrometry
 meth:sangersequencing
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/iupac.90.0262> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Sanger sequencing"@en ;
   skos:altLabel "Chain termination sequencing" ;
@@ -2798,7 +2814,7 @@ meth:sangersequencing
 meth:scanningtransmissionelectronimaging
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Transmission_electron_microscopy> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Scanning transmission electron imaging"@en ;
   skos:altLabel "Scanning transmission electron microscopy"@en ;
   skos:broader meth:transmissionelectronimaging ;
@@ -2809,7 +2825,7 @@ meth:scanningtransmissionelectronimaging
 .
 meth:secondaryelectronimaging
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source <https://www.thermofisher.com/blog/materials/sem-signal-types-electrons-and-the-information-they-provide/> ;
   rdfs:label "Secondary electron imaging"@en ;
   skos:altLabel "Secondary electron microscopy"@en ;
@@ -2823,11 +2839,11 @@ meth:secondaryelectronimaging
 meth:secondaryionizationmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1351/PAC-REC-06-04-06> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Secondary ionization mass spectrometry"@en ;
@@ -2845,7 +2861,7 @@ meth:secondaryionizationmassspectrometry
 meth:secondaryneutralmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <http://dx.doi.org/10.1002/sia.4857> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source <https://www.spectroscopyeurope.com/system/files/pdf/SNMS_21_4.pdf> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Secondary neutral mass spectrometry"@en ;
@@ -2857,7 +2873,7 @@ meth:secondaryneutralmassspectrometry
 .
 meth:seismicvelocitiesandrockultrasonicelasticconstants
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Seismic velocity and ultrasonic elastic constant measurement"@en ;
   skos:altLabel "Seismic velocities and rock ultrasonic elastic constants"@en ;
@@ -2870,7 +2886,7 @@ meth:seismicvelocitiesandrockultrasonicelasticconstants
 meth:shotgunmethod
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/iupac.90.0262> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Shotgun method"@en ;
   skos:altLabel "Shot gun sequencing" ;
@@ -2882,7 +2898,7 @@ meth:shotgunmethod
 meth:singlecrystalxraydiffraction
   rdf:type skos:Concept ;
   dcterm:source <https://serc.carleton.edu/research_education/geochemsheets/techniques/SXD.html> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source "DFG" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Single crystal X-ray diffraction"@en ;
@@ -2925,7 +2941,7 @@ meth:smraddinstmethodsgeox
 .
 meth:solidsourcemassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Solid source mass spectrometry"@en ;
   skos:broader meth:massspectrometry ;
@@ -2938,7 +2954,7 @@ meth:solidstatenuclearmagneticresonancespectroscopy
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1038/s43586-020-00002-1> ;
   dcterm:source <https://en.wikipedia.org/wiki/Solid-state_nuclear_magnetic_resonance> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Solid state nuclear magnetic resonance spectroscopy"@en ;
   skos:altLabel "Solid state nuclear magnetic resonance spectrometry"@en ;
@@ -2950,9 +2966,9 @@ meth:solidstatenuclearmagneticresonancespectroscopy
 .
 meth:sparksourcemassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Spark source mass spectrometry"@en ;
@@ -2969,8 +2985,8 @@ meth:sparksourcemassspectrometry
 .
 meth:spectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source <https://www.merriam-webster.com/dictionary/spectrometry> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Spectrometry"@en ;
@@ -2985,7 +3001,7 @@ meth:spectrometry
 .
 meth:spectrophotometry
   rdf:type skos:Concept ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:source "NASA" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Spectrophotometry"@en ;
@@ -2996,7 +3012,7 @@ meth:spectrophotometry
 .
 meth:sphericalcellbulkthermalconductivityanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Spherical cell bulk thermal conductivity analysis"@en ;
   skos:broader meth:thermalanalysis ;
@@ -3009,7 +3025,7 @@ meth:sphericalcellbulkthermalconductivityanalysis
 meth:steppedheatingcarbonandnitrogenisotopicanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1016/S0012-821X(02)00592-7> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Stepped heating carbon and nitrogen isotopic analysis"@en ;
   skos:altLabel "Stepped heating carbon and nitrogen isotopic compositions"@en ;
@@ -3021,7 +3037,7 @@ meth:steppedheatingcarbonandnitrogenisotopicanalysis
 .
 meth:structuredlightscanning
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Structured light scanning"@en ;
   skos:broader meth:imagingtechniques ;
@@ -3044,8 +3060,8 @@ meth:surfaceanalysis
 meth:synchrotonxrayfluorescencespectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://link.springer.com/chapter/10.1007/978-981-16-5328-5_6> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Synchroton X-ray fluorescence spectrometry"@en ;
   skos:altLabel "SYNCHROTON X-RAY FLUORESCENCE ANALYSIS"@en ;
@@ -3060,7 +3076,7 @@ meth:synchrotonxrayfluorescencespectrometry
 .
 meth:synchrotronxrayfluorescencetomography
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Synchrotron X-ray fluorescence tomography"@en ;
   skos:broader meth:synchrotonxrayfluorescencespectrometry ;
   skos:broader meth:xraycomputedtomography ;
@@ -3071,7 +3087,7 @@ meth:synchrotronxrayfluorescencetomography
 .
 meth:temperatureprogrammeddesorptionelectronprobeanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.hidenanalytical.com/blog/what-temperature-programmed-desorption-tpd/> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Temperature programmed desorption electron probe analysis"@en ;
@@ -3104,10 +3120,10 @@ meth:thermalanalysis
 .
 meth:thermalionizationmassspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Thermal ionization mass spectrometry"@en ;
   skos:altLabel "CHEMICAL ABRASION THERMAL-IONIZATION MASS SPECTROMETRY"@en ;
@@ -3134,7 +3150,7 @@ meth:thermalneutronactivationanalysis
 .
 meth:thermogravimetryanalysis
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source "O-REx technique" ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Thermogravimetry analysis"@en ;
@@ -3149,9 +3165,9 @@ meth:thermogravimetryanalysis
 meth:titration
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Titration> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Titration"@en ;
   skos:altLabel "TITRATION ANALYSIS"@en ;
@@ -3165,7 +3181,7 @@ meth:titration
 .
 meth:totalreflectionxrayfluorescencespectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www-pub.iaea.org/MTCD/publications/PDF/TCS-51/html/pdf/Section%201.pdf> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Total reflection X-ray fluorescence spectrometry"@en ;
@@ -3190,8 +3206,8 @@ meth:trackcounting
 meth:transmissionelectronimaging
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Transmission_electron_microscopy> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Transmission electron imaging"@en ;
   skos:altLabel "Transmission electron microscopy"@en ;
@@ -3216,7 +3232,7 @@ meth:transmissionspectrometry
 meth:transmittedelectrondiffraction
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Electron_diffraction#In_a_transmission_electron_microscope> ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "Transmitted electron diffraction"@en ;
   skos:broader meth:electrondiffraction ;
   skos:definition "In a transmission electron microscope, the electron beam passes through a thin film of the examined material. As it interacts with the sample, part of the beam is diffracted and part is transmitted through the sample without changing its direction. Below the sample, the beam is controlled by another set of magnetic lens and apertures. Each set of initially parallel rays is focused by the first lens Objective (optics) to a certain point in the back focal plane of the first lens, forming a spot. The location of these spots is related to the interplanar distance in the sample. Other lenses below the sample can be used to produce a magnified image of the spots for all the different directions that the electrons leave the sample, a diffraction pattern.  (https://en.wikipedia.org/wiki/Electron_diffraction#In_a_transmission_electron_microscope)"@en ;
@@ -3225,7 +3241,7 @@ meth:transmittedelectrondiffraction
 .
 meth:ultravioletemissionspectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Ultraviolet emission spectrometry"@en ;
   skos:broader meth:emissionspectrometry ;
@@ -3236,7 +3252,7 @@ meth:ultravioletemissionspectrometry
 .
 meth:visiblelightmicroscopy
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Visible light microscopy"@en ;
   skos:broader meth:microscopy ;
@@ -3247,7 +3263,7 @@ meth:visiblelightmicroscopy
 .
 meth:visiblenearinfraredandmidinfraredimaging
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Visible, near-infrared, and mid-infrared imaging"@en ;
   skos:altLabel "Visible, near-infrared, and mid-infrared (VNMIR)  2D spectral raster SwRI micro-FTIR"@en ;
@@ -3259,8 +3275,8 @@ meth:visiblenearinfraredandmidinfraredimaging
 .
 meth:voltammetry
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Voltammetry"@en ;
@@ -3286,9 +3302,9 @@ meth:wavelengthdispersiveelectroninducedxrayspectrometry
 meth:wetchemistry
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/Wet_chemistry> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Wet chemistry"@en ;
   skos:altLabel "WET-CHEMICAL ANALYSIS"@en ;
@@ -3300,10 +3316,10 @@ meth:wetchemistry
 .
 meth:xrayabsorptionnearedgestructurespectrometry
   rdf:type skos:Concept ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:source <https://www.cei.washington.edu/education/science-of-solar/xray-absorption-near-edge-spectroscopy-xanes/> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "X-ray absorption near edge structure spectrometry"@en ;
@@ -3329,7 +3345,7 @@ meth:xrayabsorptionspectrometry
 .
 meth:xraycomputedtomography
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "X-ray computed tomography"@en ;
   skos:altLabel "X-ray computed micro-tomography (XCMT)"@en ;
@@ -3344,10 +3360,10 @@ meth:xraydiffraction
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2019-0302> ;
   dcterm:source <https://serc.carleton.edu/research_education/geochemsheets/techniques/XRD.html> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "X-ray diffraction"@en ;
   skos:altLabel "X-RAY DIFFRACTION SPECTROMETRY"@en ;
@@ -3361,11 +3377,11 @@ meth:xraydiffraction
 meth:xrayfluorescencespectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1515/pac-2019-0302> ;
-  dcterm:source meth:astromat ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:geox ;
-  dcterm:source meth:orex ;
-  dcterm:source meth:petdb ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/astromat> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "X-ray fluorescence spectrometry"@en ;
   skos:altLabel "X-RAY FLUORESCENCE ANALYSIS"@en ;
@@ -3379,7 +3395,7 @@ meth:xrayfluorescencespectrometry
 .
 meth:xrayimaging
   rdf:type skos:Concept ;
-  dcterm:source meth:georoc ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
   dcterm:source <https://www.fieldmuseum.org/science/research/area/conserving-collections/examination-documentation/x-radiography> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "X-ray imaging"@en ;
@@ -3392,7 +3408,7 @@ meth:xrayimaging
 .
 meth:xraymap
   rdf:type skos:Concept ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   rdfs:label "X-ray composition map"@en ;
   skos:broader meth:xrayimaging ;
   skos:definition "image produced using composition data derived from X-ray spectra analysis at a raster of points on a sample surface.  Might be based on EDS or WDS data"@en ;
@@ -3403,8 +3419,8 @@ meth:xraymap
 meth:xrayphotoelectronspectrometery
   rdf:type skos:Concept ;
   dcterm:source <https://en.wikipedia.org/wiki/X-ray_photoelectron_spectroscopy> ;
-  dcterm:source meth:georoc ;
-  dcterm:source meth:orex ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/orex> ;
   dcterm:source meth:skooghollercrouch ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "X-ray photoelectron spectrometery"@en ;
@@ -3428,7 +3444,7 @@ meth:xrayphotoelectronspectroscopycompositionmap
 meth:xraypowderdiffraction
   rdf:type skos:Concept ;
   dcterm:source <https://serc.carleton.edu/research_education/geochemsheets/techniques/XRD.html> ;
-  dcterm:source meth:geox ;
+  dcterm:source <https://w3id.org/geochem/1.0/agent/geox> ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "X-ray powder diffraction"@en ;
   skos:altLabel "Powder X-ray diffraction" ;
