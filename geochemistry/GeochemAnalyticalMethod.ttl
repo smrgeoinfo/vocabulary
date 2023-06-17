@@ -340,52 +340,49 @@ skos:topConceptOf
   owl:inverseOf skos:hasTopConcept ;
   skos:definition "Relates a concept to the concept scheme that it is a top level concept of."@en ;
 .
-<https://w3id.org/geochem/1.0/agent>
-  rdf:type skos:ConceptScheme ;
-  rdfs:label "Persons, projects, or organizations"@en ;
-  skos:definition "Persons, projects or organizations associated with the geochem vocabulares"@en ;
-  skos:prefLabel "Persons, projects, or organizations"@en  ;
-.
 <https://w3id.org/geochem/1.0/agent/astromat>
-  rdf:type dcterm:Agent , schema:Project;
+  rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
-  dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
+  dcterm:contributor <https://orcid.org/0000-0002-1286-0193> ;
   dcterm:description "Analytical methods cited in the Astromat database.  The database currently contains a compilation of data acquired from meteorites and lunar samples returned by the Apollo missions. The Astromaterials Data System (Astromat, https://www.astromat.org/about/overview/) is a comprehensive data infrastructure to access, publish, and preserve laboratory analytical data generated on astromaterials samples. Astromat aims to ensure the long-term value of astromaterials samples data and maximize their impact on scientific discovery and knowledge."@en ;
+  rdfs:isDefinedBy meth:method ;
   rdfs:label "Astromaterials Data System (Astromat)"@en ;
-  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+  schema:url "https://www.astromat.org/about/overview/" ;
 .
 <https://w3id.org/geochem/1.0/agent/georoc>
-  rdf:type dcterm:Agent , schema:Project;
+  rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
-  dcterm:description "GEOROC (https://georoc.eu/) is a comprehensive collection of published analyses of igneous and metamorphic rocks and minerals. It contains major and trace element concentrations, radiogenic and nonradiogenic isotope ratios as well as analytical ages for whole rocks, glasses, minerals and inclusions. Metadata include geospatial and other sample information, analytical details and references. Digital Geochemical Data Infrastructure (DIGIS, https://www.uni-goettingen.de/de/643369.html) will continue and enhance GEOROC, originally curated by the Max Planck Institute for Chemistry. Labels for analytical methods from GEOROC were compiled by Marthe Klocking, University of Gottingen, Germany, and in collaboration with Annika Johansson (IEDA, Lamont Doherty Earth Observatory, see PetDb agent) mapped to labels for techniques from PetDb; the compilation included definitions that were reviewed and enhances in some cased in this vocabulary."@en ;
-  rdfs:label "GEOROC" ;
-  schema:url "https://georoc.mpch-mainz.gwdg.de/georoc/",  "https://georoc.eu/" ;
-  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+  dcterm:description "GEOROC (https://georoc.eu/) is a comprehensive collection of published analyses of igneous and metamorphic rocks and minerals. It contains major and trace element concentrations, radiogenic and nonradiogenic isotope ratios as well as analytical ages for whole rocks, glasses, minerals and inclusions. Metadata include geospatial and other sample information, analytical details and references. Digital Geochemical Data Infrastructure (DIGIS) will continue and enhance GEOROC, originally curated by the Max Planck Institute for Chemistry. Labels for analytical methods from GEOROC were compiled by Marthe Klocking, University of Gottingen, Germany, and in collaboration with Annika Johansson (IEDA, Lamont Doherty Earth Observatory, see PetDb agent) mapped to labels for techniques from PetDb; the compilation included definitions that were reviewed and enhances in some cased in this vocabulary."@en ;
+  rdfs:isDefinedBy meth:method ;
+  rdfs:label "Geochemistry of Rocks of the Oceans and Continents (GEOROC)"@en ;
+  rdfs:seeAlso "https://www.uni-goettingen.de/de/643369.html" ;
+  schema:url "https://georoc.eu/" ;
+  schema:url "https://georoc.mpch-mainz.gwdg.de/georoc/" ;
 .
 <https://w3id.org/geochem/1.0/agent/geox>
-  rdf:type dcterm:Agent , schema:Project;
+  rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0002-5765-0245> ;
-  dcterm:description "vocabulary contributed by Manja Luzi, editor, under the auspices of the Research Network for Geosciences in Berlin and Potsdam (Geo-X, https://www.geo-x.net/en/), vocabulary used for information managment at Geo-X.  Sources include NASA Global Change Master Directory (GCMD), 2021, GCMD Keywords, Version 11.1, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). GCMD Keyword Forum Page  https://forum.earthdata.nasa.gov/app.php/tag/GCMD+Keywords; German Research Foundation, 2021, Instrumentation category key. URL: https://www.dfg.de/en/research_funding/programmes/infrastructure/scientific_instrumentation/category_key/index.html (Downloadable versions of the instrumentation category key are provided in German only.); IUPAC (International Union of Pure and Applied Chemistry): Compendium of Analytical Terminology, current project title: Vocabulary of Concepts and Terms in Analytical Chemistry - the revised Orange Book. 4th edition: Royal Society of Chemistry, 2021. URL: https://iupac.org/project/2012-005-1-500; U.S. Geological Survey, 2021, USGS Thesaurus. URL: https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2; EarthChem Library, 2021, Geochemistry Data Templates. URL: https://www.earthchem.org/ecl/templates/; Georef Thesaurus. Edited by Barbara A. Goodman. 11th edition: American Geological Institute, 2008. URL: https://www.americangeosciences.org/information/georef/thesaurus/lists" @en ;
+  dcterm:description "vocabulary contributed by Manja Luzi, editor, under the auspices of the Research Network for Geosciences in Berlin and Potsdam (Geo-X, https://www.geo-x.net/en/), vocabulary used for information managment at Geo-X.  Sources include NASA Global Change Master Directory (GCMD), 2021, GCMD Keywords, Version 11.1, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). GCMD Keyword Forum Page  https://forum.earthdata.nasa.gov/app.php/tag/GCMD+Keywords; German Research Foundation, 2021, Instrumentation category key. URL: https://www.dfg.de/en/research_funding/programmes/infrastructure/scientific_instrumentation/category_key/index.html (Downloadable versions of the instrumentation category key are provided in German only.); IUPAC (International Union of Pure and Applied Chemistry): Compendium of Analytical Terminology, current project title: Vocabulary of Concepts and Terms in Analytical Chemistry - the revised Orange Book. 4th edition: Royal Society of Chemistry, 2021. URL: https://iupac.org/project/2012-005-1-500; U.S. Geological Survey, 2021, USGS Thesaurus. URL: https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2; EarthChem Library, 2021, Geochemistry Data Templates. URL: https://www.earthchem.org/ecl/templates/; Georef Thesaurus. Edited by Barbara A. Goodman. 11th edition: American Geological Institute, 2008. URL: https://www.americangeosciences.org/information/georef/thesaurus/lists"@en ;
+  rdfs:isDefinedBy meth:method ;
   rdfs:label "Geo-X" ;
-  schema:url "https://www.geo-x.net/en/ ";
-  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+  schema:url "https://www.geo-x.net/en/" ;
 .
 <https://w3id.org/geochem/1.0/agent/orex>
-  rdf:type dcterm:Agent , schema:Project;
+  rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0001-5671-5388> ;
   dcterm:description "Analytical methods planned for the investigation of sample material returned from asteroid Bennu by the OSIRIS-REx mission (https://www.asteroidmission.org/). Some method descriptions that only have orex listed as source are from the O-REx Confluence web content. The mission sample analysis team has been compiling descriptions of analytical techniques planned, and the dictionary of planned methods has been shared with Astromat data managers and been made available for this compilation. (https://curation.isas.jaxa.jp/symposium/abstract/2021/S6-2_Connolly.pdf)"@en ;
+  rdfs:isDefinedBy meth:method ;
   rdfs:label "OSIRIS-REx Sample Analysis Team"@en ;
-  schema:url "https://www.asteroidmission.org/" ; 
-  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
+  schema:url "https://www.asteroidmission.org/" ;
 .
 <https://w3id.org/geochem/1.0/agent/petdb>
-  rdf:type dcterm:Agent , schema:Project;
+  rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
   dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
   dcterm:description "Methods compiled from PetDb database by Annika Johansson and mapped to GEOROC and Astromat method labels. PetDB is an integrated data synthesis through which you can access chemical, isotopic, and mineralogical data from peer-reviewed literature. (https://www.earthchem.org/resources/support/petdb-documentation/)"@en ;
+  rdfs:isDefinedBy meth:method ;
   rdfs:label "PetDb" ;
   schema:url "https://www.earthchem.org/resources/support/petdb-documentation/" ;
-  skos:inScheme <https://w3id.org/geochem/1.0/agent> ;
 .
 meth:acceleratormassspectrometry
   rdf:type skos:Concept ;
@@ -2009,11 +2006,13 @@ meth:method
   skos:definition "This concept scheme contains skos concepts for analysis methods used to produce observation results with information about the physical properties, chemical or isotopic composition, crystallography, or molecular structure of material samples. Based on spreadsheet compilation of method vocabularies from GeoX, GeoRock, PetDb and OSIRIS-REx. Definitions added and updated based on web research, and SKOS serialization by S.M. Richard. Note that although there are high-level method categories for 'Physical property measurements' and the 'Bioanalytical method', these are placeholders and only include a few examples that are relevant to analytical methods in geo- or cosmochemistry."@en ;
   skos:hasTopConcept meth:analyticalmethod ;
   skos:historyNote "2023-05-26 SMR add funding acknowledgement for Astromat support from NASA planetary sciences division, using schema.org/funding property."@en ;
+  skos:historyNote "2023-06-17 SMR put the dcterm agent objects in https://w3id.org/geochem/1.0/agent URI space (instead of analyticalmethod). Add 'and cosmochemistry' in vocab title."@en ;
   skos:historyNote "Add provenance and better source information, prepare for posting to Australian Research Data Commons (ARDC) Research Vocabularies Australia SMR 2023-05-01."@en ;
   skos:historyNote "Draft generated by S.M. Richard 2023-02-14, based on spreadsheet compilation of method vocabularies from GeoX, GEOROC, PetDb and OSIRIS-REx (Astromat). Definitions added and updated and SKOS serialization by S.M. Richard."@en ;
   skos:prefLabel "Analytical methods for geochemistry"@en ;
   schema:funding "Compilation of this vocabulary supported by funding from the US National Aeronautics and Space Administration (NASA) Planetary Sciences Division for the Astromaterials Data System at Lamont Doherty Earth Observatory, Columbia University"@en ;
   schema:provider "Australian Research Data Commons, Research Vocabularies Australia" ;
+    dcterm:publisher "Astromaterials Data System (Astromat)" ;
 .
 meth:micromassmultiprepmassspectrometry
   rdf:type skos:Concept ;
