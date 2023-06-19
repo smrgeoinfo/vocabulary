@@ -202,7 +202,7 @@
   skos:broader <etma:1:1:49514:3> ;
   skos:definition " A primitive meteorite, usually bearing chondrules, that has not experienced igneous differentiation on its parent body."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Chondrite-uncl"  ;
+  skos:notation "Chondrite-uncl" ;
   skos:prefLabel "Chondrite meteorite"@en ;
 .
 <etma:1:1:49517:0>
@@ -213,7 +213,7 @@
   skos:broader <etma:1:1:49515:2> ;
   skos:definition "A piece of fusion crust that became detatched from a chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Chondrite-fusion crust"  ;
+  skos:notation "Chondrite-fusion crust" ;
   skos:prefLabel "Chondrite-fusion crust meteorite"@en ;
 .
 <etma:1:1:49518:9>
@@ -224,7 +224,7 @@
   skos:broader <etma:1:1:49515:2> ;
   skos:definition "An ungrouped chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Chondrite-ung"  ;
+  skos:notation "Chondrite-ung" ;
   skos:prefLabel "Ungrouped chondrite meteorite"@en ;
 .
 <etma:1:1:49519:8>
@@ -235,7 +235,7 @@
   skos:broader <etma:1:1:49515:2> ;
   skos:definition "Stony (non-metallic) meteorites that have not been modified due to melting or differentiation of the parent body. They include some of the most primitive known meteorites. The C chondrites represent only a small proportion (4.6%) of meteorite falls."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C" ; 
+  skos:notation "C" ;
   skos:prefLabel "Carbonaceous chondrite meteorite"@en ;
 .
 <etma:1:1:49520:4>
@@ -246,7 +246,7 @@
   skos:broader <etma:1:1:49519:8> ;
   skos:definition "Undifferentiated carbonaceous chondrites."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C"  ;
+  skos:notation "C" ;
   skos:prefLabel "C chondrite meteorite"@en ;
 .
 <etma:1:1:49521:3>
@@ -270,7 +270,7 @@
   skos:definition "A C chondrite that is petrologic type 1, ungrouped."@en ;
   skos:exactMatch <etma:1:1:52364:0> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "C1-ung"  ;
+  skos:notation "C1-ung" ;
   skos:prefLabel "Ungrouped C1 chondrite meteorite"@en ;
 .
 <etma:1:1:49523:1>
@@ -284,7 +284,7 @@
   skos:definition "A C chondrite that is transitional between petrologic type 1 and 2, ungrouped"@en ;
   skos:exactMatch <etma:1:1:52365:9> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "C1/2-ung"  ;
+  skos:notation "C1/2-ung" ;
   skos:prefLabel "Ungrouped C1/2 chondrite meteorite"@en ;
 .
 <etma:1:1:49524:0>
@@ -296,7 +296,7 @@
   skos:broader <etma:1:1:49841:4> ;
   skos:definition "A C chondrite that is petrologic type 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C2"  ;
+  skos:notation "C2" ;
   skos:prefLabel "C2 chondrite meteorite"@en ;
 .
 <etma:1:1:49525:9>
@@ -309,7 +309,7 @@
   skos:definition "A C chondrite that is petrologic type 2, ungrouped."@en ;
   skos:exactMatch <etma:1:1:52366:8> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "C2-ung"  ;
+  skos:notation "C2-ung" ;
   skos:prefLabel "Ungrouped C2 chondrite meteorite"@en ;
 .
 <etma:1:1:49526:8>
@@ -321,7 +321,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "A C chondrite that is petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C3"  ;
+  skos:notation "C3" ;
   skos:prefLabel "C3 chondrite meteorite"@en ;
 .
 <etma:1:1:49527:7>
@@ -334,7 +334,7 @@
   skos:definition "A C chondrite that is petrologic type 3, ungrouped."@en ;
   skos:exactMatch <etma:1:1:52367:7> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "C3-ung"  ;
+  skos:notation "C3-ung" ;
   skos:prefLabel "Ungrouped C3 chondrite meteorite"@en ;
 .
 <etma:1:1:49528:6>
@@ -347,7 +347,7 @@
   skos:definition "A C chondrite that is petrologic type 3.0, ungrouped."@en ;
   skos:exactMatch <etma:1:1:52378:3> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "C3.0-ung"  ;
+  skos:notation "C3.0-ung" ;
   skos:prefLabel "Ungrouped C3.0 chondrite meteorite"@en ;
 .
 <etma:1:1:49529:5>
@@ -361,7 +361,7 @@
   skos:definition "A C chondrite that is transitional between petrologic type 3 and 4, ungrouped"@en ;
   skos:exactMatch <etma:1:1:52379:2> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "C3/4-ung"  ;
+  skos:notation "C3/4-ung" ;
   skos:prefLabel "Ungrouped C3/4 chondrite meteorite"@en ;
 .
 <etma:1:1:49530:1>
@@ -373,7 +373,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "A C chondrite that is petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C4"  ;
+  skos:notation "C4" ;
   skos:prefLabel "C4 chondrite meteorite"@en ;
 .
 <etma:1:1:49531:0>
@@ -384,7 +384,7 @@
   skos:broader <etma:1:1:49530:1> ;
   skos:definition "A C chondrite that is petrologic type 4, ungrouped."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C4-ung"  ;
+  skos:notation "C4-ung" ;
   skos:prefLabel "C4-ung chondrite meteorite"@en ;
 .
 <etma:1:1:49532:9>
@@ -396,7 +396,7 @@
   skos:broader <etma:1:1:49533:8> ;
   skos:definition "A C chondrite that is transitional between petrologic type 4 and 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C4/5"  ;
+  skos:notation "C4/5" ;
   skos:prefLabel "C4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:49533:8>
@@ -419,7 +419,7 @@
   skos:broader <etma:1:1:49535:6> ;
   skos:definition "A C chondrite that is transitional between petrologic type 5 and 6, ungrouped"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C5/6-ung"  ;
+  skos:notation "C5/6-ung" ;
   skos:prefLabel "C5/6-ung chondrite meteorite"@en ;
 .
 <etma:1:1:49535:6>
@@ -431,7 +431,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "A C chondrite that is petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "C6"  ;
+  skos:notation "C6" ;
   skos:prefLabel "C6 chondrite meteorite"@en ;
 .
 <etma:1:1:49536:5>
@@ -442,7 +442,7 @@
   skos:broader <etma:1:1:49519:8> ;
   skos:definition "Bencubbn class carbonaceous chondrite. With metal and pyroxene. Ongoing research suggests this is the product of asteroidal collisions."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CB"  ;
+  skos:notation "CB" ;
   skos:prefLabel "CB chondrite meteorite"@en ;
 .
 <etma:1:1:49537:4>
@@ -453,7 +453,7 @@
   skos:broader <etma:1:1:49536:5> ;
   skos:definition "A CB chondrite of subtype a (contains large chondrule-like objects)."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CBa"  ;
+  skos:notation "CBa" ;
   skos:prefLabel "CBa chondrite meteorite"@en ;
 .
 <etma:1:1:49538:3>
@@ -464,7 +464,7 @@
   skos:broader <etma:1:1:49536:5> ;
   skos:definition "A CB chondrite of subtype b (contains small chondrules)."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CBb"  ;
+  skos:notation "CBb" ;
   skos:prefLabel "CBb chondrite meteorite"@en ;
 .
 <etma:1:1:49539:2>
@@ -486,7 +486,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "A CH chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CH3"  ;
+  skos:notation "CH3" ;
   skos:prefLabel "CH3 chondrite meteorite"@en ;
 .
 <etma:1:1:49541:7>
@@ -508,7 +508,7 @@
   skos:broader <etma:1:1:49840:5> ;
   skos:definition "A CI chondrite that is of petrologic type 1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CI1"  ;
+  skos:notation "CI1" ;
   skos:prefLabel "CI1 chondrite meteorite"@en ;
 .
 <etma:1:1:49543:5>
@@ -519,7 +519,7 @@
   skos:broader <etma:1:1:49519:8> ;
   skos:definition "The Karoonda (CK) chemical group of carbonaceous chondrites, distinguished by abundant fine-grained matrix (~75 volume percent), mm-sized chondrules that lack igneous rims, relatively few refractory inclusions, and a high degree of oxidation; most CK chondrites have been metamorphosed to type 4 or higher."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK"  ;
+  skos:notation "CK" ;
   skos:prefLabel "CK chondrite meteorite"@en ;
 .
 <etma:1:1:49544:4>
@@ -531,7 +531,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "A CK chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK3"  ;
+  skos:notation "CK3" ;
   skos:prefLabel "CK3 chondrite meteorite"@en ;
 .
 <etma:1:1:49545:3>
@@ -544,7 +544,7 @@
   skos:definition "A CK chondrite that is petrologic type 3 and has anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52376:5> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "CK3-an"  ;
+  skos:notation "CK3-an" ;
   skos:prefLabel "Anomalous CK3 chondrite meteorite"@en ;
 .
 <etma:1:1:49546:2>
@@ -555,7 +555,7 @@
   skos:broader <etma:1:1:49544:4> ;
   skos:definition "A CK chondrite that is of petrologic type 3.8."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK3.8"  ;
+  skos:notation "CK3.8" ;
   skos:prefLabel "CK3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:49547:1>
@@ -567,7 +567,7 @@
   skos:broader <etma:1:1:49548:0> ;
   skos:definition "A CK chondrite that is transitional between petrologic type 3 and 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK3/4"  ;
+  skos:notation "CK3/4" ;
   skos:prefLabel "CK3/4 chondrite meteorite"@en ;
 .
 <etma:1:1:49548:0>
@@ -579,7 +579,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "A CK chondrite that is of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK4"  ;
+  skos:notation "CK4" ;
   skos:prefLabel "CK4 chondrite meteorite"@en ;
 .
 <etma:1:1:49549:9>
@@ -592,7 +592,7 @@
   skos:definition "A CK chondrite that is petrologic type 4 and has anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52375:6> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "CK4-an"  ;
+  skos:notation "CK4-an" ;
   skos:prefLabel "Anomalous CK4 chondrite meteorite"@en ;
 .
 <etma:1:1:49550:5>
@@ -604,7 +604,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "A CK chondrite that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK5"  ;
+  skos:notation "CK5" ;
   skos:prefLabel "CK5 chondrite meteorite"@en ;
 .
 <etma:1:1:49551:4>
@@ -616,7 +616,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "A CK chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK6"  ;
+  skos:notation "CK6" ;
   skos:prefLabel "CK6 chondrite meteorite"@en ;
 .
 <etma:1:1:49552:3>
@@ -627,7 +627,7 @@
   skos:broader <etma:1:1:49519:8> ;
   skos:definition "The Mighei (CM) chemical group of carbonaceous chondrites, distinguished by small chondrules and refractory inclusions (0.3 mm), abundant fine-grained matrix (about 70 vol percent), and abundant hydrated minerals."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CM"  ;
+  skos:notation "CM" ;
   skos:prefLabel "CM chondrite meteorite"@en ;
 .
 <etma:1:1:49553:2>
@@ -639,7 +639,7 @@
   skos:broader <etma:1:1:49840:5> ;
   skos:definition "A CM chondrite that is of petrologic type 1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CM1"  ;
+  skos:notation "CM1" ;
   skos:prefLabel "CM1 chondrite meteorite"@en ;
 .
 <etma:1:1:49554:1>
@@ -651,7 +651,7 @@
   skos:broader <etma:1:1:49557:8> ;
   skos:definition "A CM chondrite that is transitional between petrologic type 1 and 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CM1/2"  ;
+  skos:notation "CM1/2" ;
   skos:prefLabel "CM1/2 chondrite meteorite"@en ;
 .
 <etma:1:1:49556:9>
@@ -664,7 +664,7 @@
   skos:definition "A CM chondrite that is anomalous and for which the petrologic type has not been determined."@en ;
   skos:exactMatch <etma:1:1:52377:4> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "CM-an"  ;
+  skos:notation "CM-an" ;
   skos:prefLabel "Anomalous CM chondrite meteorite"@en ;
 .
 <etma:1:1:49557:8>
@@ -676,7 +676,7 @@
   skos:broader <etma:1:1:49841:4> ;
   skos:definition "A CM chondrite that is of petrologic type 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CM2"  ;
+  skos:notation "CM2" ;
   skos:prefLabel "CM2 chondrite meteorite"@en ;
 .
 <etma:1:1:49558:7>
@@ -689,7 +689,7 @@
   skos:definition "A CM chondrite that is petrologic type 2 and has anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52388:0> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "CM2-an"  ;
+  skos:notation "CM2-an" ;
   skos:prefLabel "Anomalous CM2 chondrite meteorite"@en ;
 .
 <etma:1:1:49559:6>
@@ -700,7 +700,7 @@
   skos:broader <etma:1:1:49519:8> ;
   skos:definition "The Ornans (CO) chemical group of carbonaceous chondrites, distinguished by small chondrules and refractory inclusions."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO"  ;
+  skos:notation "CO" ;
   skos:prefLabel "CO chondrite meteorite"@en ;
 .
 <etma:1:1:49560:2>
@@ -712,7 +712,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "A CO chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3"  ;
+  skos:notation "CO3" ;
   skos:prefLabel "CO3 chondrite meteorite"@en ;
 .
 <etma:1:1:49561:1>
@@ -723,7 +723,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.0."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.0"  ;
+  skos:notation "CO3.0" ;
   skos:prefLabel "CO3.0 chondrite meteorite"@en ;
 .
 <etma:1:1:49562:0>
@@ -734,7 +734,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.1"  ;
+  skos:notation "CO3.1" ;
   skos:prefLabel "CO3.1 chondrite meteorite"@en ;
 .
 <etma:1:1:49563:9>
@@ -745,7 +745,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.2"  ;
+  skos:notation "CO3.2" ;
   skos:prefLabel "CO3.2 chondrite meteorite"@en ;
 .
 <etma:1:1:49564:8>
@@ -756,7 +756,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.3"  ;
+  skos:notation "CO3.3" ;
   skos:prefLabel "CO3.3 chondrite meteorite"@en ;
 .
 <etma:1:1:49565:7>
@@ -767,7 +767,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.4"  ;
+  skos:notation "CO3.4" ;
   skos:prefLabel "CO3.4 chondrite meteorite"@en ;
 .
 <etma:1:1:49566:6>
@@ -778,7 +778,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.5"  ;
+  skos:notation "CO3.5" ;
   skos:prefLabel "CO3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49567:5>
@@ -789,7 +789,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.6"  ;
+  skos:notation "CO3.6" ;
   skos:prefLabel "CO3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:49568:4>
@@ -800,7 +800,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.7"  ;
+  skos:notation "CO3.7" ;
   skos:prefLabel "CO3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49569:3>
@@ -811,7 +811,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A CO chondrite that is of petrologic type 3.8."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3.8"  ;
+  skos:notation "CO3.8" ;
   skos:prefLabel "CO3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:49570:9>
@@ -832,7 +832,7 @@
   skos:broader <etma:1:1:49519:8> ;
   skos:definition "The Renazzo (CR) chemical group of carbonaceous chondrites, distinguished by large, abundant porphyritic chondrules (0.7 mm, 50 volume percent), many of which have igneous rims, few refractory inclusions, abundant metal (5-8 volume percent), and fine-grained matrix that is commonly hydrated (up to 50 volume percent)."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CR"  ;
+  skos:notation "CR" ;
   skos:prefLabel "CR chondrite meteorite"@en ;
 .
 <etma:1:1:49572:7>
@@ -844,7 +844,7 @@
   skos:broader <etma:1:1:49840:5> ;
   skos:definition "A CR chondrite that is of petrologic type 1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CR1"  ;
+  skos:notation "CR1" ;
   skos:prefLabel "CR1 chondrite meteorite"@en ;
 .
 <etma:1:1:49573:6>
@@ -856,7 +856,7 @@
   skos:broader <etma:1:1:49841:4> ;
   skos:definition "A CR chondrite that is of petrologic type 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CR2"  ;
+  skos:notation "CR2" ;
   skos:prefLabel "CR2 chondrite meteorite"@en ;
 .
 <etma:1:1:49574:5>
@@ -869,7 +869,7 @@
   skos:definition "A CR chondrite that is of petrologic type 2 and has anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52389:9> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "CR2-an"  ;
+  skos:notation "CR2-an" ;
   skos:prefLabel "Anomalous CR2 chondrite meteorite"@en ;
 .
 <etma:1:1:49575:4>
@@ -881,7 +881,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "A CR chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CR6"  ;
+  skos:notation "CR6" ;
   skos:prefLabel "CR6 chondrite meteorite"@en ;
 .
 <etma:1:1:49576:3>
@@ -893,7 +893,7 @@
   skos:broader <etma:1:1:49846:9> ;
   skos:definition "A CR chondrite that is of petrologic type 7. Note that perologic type 7 is not used consistently or widely accepted in the literature."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CR7"  ;
+  skos:notation "CR7" ;
   skos:prefLabel "CR7 chondrite meteorite"@en ;
 .
 <etma:1:1:49577:2>
@@ -915,7 +915,7 @@
   skos:broader <etma:1:1:49841:4> ;
   skos:definition "A CV chondrite that is of petrologic type 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CV2"  ;
+  skos:notation "CV2" ;
   skos:prefLabel "CV2 chondrite meteorite"@en ;
 .
 <etma:1:1:49579:0>
@@ -929,7 +929,7 @@
   skos:definition "A CV chondrite that is of petrologic type 3."@en ;
   skos:exactMatch <etma:1:1:51872:7> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "CV3"  ;
+  skos:notation "CV3" ;
   skos:prefLabel "CV3 chondrite meteorite"@en ;
 .
 <etma:1:1:49580:6>
@@ -940,7 +940,7 @@
   skos:broader <etma:1:1:49579:0> ;
   skos:definition "A CV chondrite that is petrologic type 3 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CV3-an"  ;
+  skos:notation "CV3-an" ;
   skos:prefLabel "Anomalous CV3 chondrite meteorite"@en ;
 .
 <etma:1:1:49581:5>
@@ -955,7 +955,7 @@
   skos:exactMatch <etma:1:1:49582:4> ;
   skos:exactMatch <etma:1:1:49583:3> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "OC"  ;
+  skos:notation "OC" ;
   skos:prefLabel "Ordinary chondrite meteorite"@en ;
 .
 <etma:1:1:49584:2>
@@ -966,7 +966,7 @@
   skos:broader <etma:1:1:49581:5> ;
   skos:definition "The high-iron (H) chemical group of ordinary chondrites, distinguished by their high siderophile element content, relatively small chondrules (~0.3 mm), and oxygen isotope compositions that are closer to the terrestrial fractionation line than those of other ordinary chondrites."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H"  ;
+  skos:notation "H" ;
   skos:prefLabel "H chondrite meteorite"@en ;
 .
 <etma:1:1:49585:1>
@@ -978,7 +978,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "An H chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3"  ;
+  skos:notation "H3" ;
   skos:prefLabel "H3 chondrite meteorite"@en ;
 .
 <etma:1:1:49586:0>
@@ -990,7 +990,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An H chondrite (or less likely, an L chondrite) that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H(L)3"  ;
+  skos:notation "H(L)3" ;
   skos:prefLabel "H(L)3 chondrite meteorite"@en ;
 .
 <etma:1:1:49587:9>
@@ -1001,7 +1001,7 @@
   skos:broader <etma:1:1:50445:0> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 3.5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L3.5"  ;
+  skos:notation "H/L3.5" ;
   skos:prefLabel "H/L3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49588:8>
@@ -1012,7 +1012,7 @@
   skos:broader <etma:1:1:50445:0> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 3.6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L3.6"  ;
+  skos:notation "H/L3.6" ;
   skos:prefLabel "H/L3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:49589:7>
@@ -1023,7 +1023,7 @@
   skos:broader <etma:1:1:50445:0> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L3.7"  ;
+  skos:notation "H/L3.7" ;
   skos:prefLabel "H/L3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49590:3>
@@ -1034,7 +1034,7 @@
   skos:broader <etma:1:1:50445:0> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 3.9."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L3.9"  ;
+  skos:notation "H/L3.9" ;
   skos:prefLabel "H/L3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:49591:2>
@@ -1046,7 +1046,7 @@
   skos:broader <etma:1:1:50445:0> ;
   skos:definition "An H chondrite or L chondrite that is a breccia of petrological type 3 and 4 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L3-4"  ;
+  skos:notation "H/L3-4" ;
   skos:prefLabel "H/L3-4 chondrite meteorite"@en ;
 .
 <etma:1:1:49592:1>
@@ -1058,7 +1058,7 @@
   skos:broader <etma:1:1:49606:3> ;
   skos:definition "An H chondrite that is transitional between petrologic type 3 and 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3/4"  ;
+  skos:notation "H3/4" ;
   skos:prefLabel "H3/4 chondrite meteorite"@en ;
 .
 <etma:1:1:49593:0>
@@ -1069,7 +1069,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An H chondrite that is petrologic type 3 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3-an"  ;
+  skos:notation "H3-an" ;
   skos:prefLabel "H3-an chondrite meteorite"@en ;
 .
 <etma:1:1:49595:8>
@@ -1080,7 +1080,7 @@
   skos:broader <etma:1:1:49586:0> ;
   skos:definition "An H chondrite (or less likely, an L chondrite) that is of petrologic type 3 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H(L)3-an"  ;
+  skos:notation "H(L)3-an" ;
   skos:prefLabel "H(L)3-an chondrite meteorite"@en ;
 .
 <etma:1:1:49596:7>
@@ -1091,7 +1091,7 @@
   skos:broader <etma:1:1:49586:0> ;
   skos:definition "An H chondrite (or less likely, an L chondrite) that is of petrologic type 3.1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H(L)3.1"  ;
+  skos:notation "H(L)3.1" ;
   skos:prefLabel "H(L)3.1 chondrite meteorite"@en ;
 .
 <etma:1:1:49597:6>
@@ -1104,7 +1104,7 @@
   skos:definition "An H chondrite that is petrologic type 3.0."@en ;
   skos:exactMatch <etma:1:1:49598:5> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "H3.0"  ;
+  skos:notation "H3.0" ;
   skos:prefLabel "H3.0 chondrite meteorite"@en ;
 .
 <etma:1:1:49599:4>
@@ -1115,7 +1115,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An H chondrite that is a breccia of components ranging from petrologic type 3.0 to type 3.4"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.0-3.4"  ;
+  skos:notation "H3.0-3.4" ;
   skos:prefLabel "H3.0-3.4 chondrite meteorite"@en ;
 .
 <etma:1:1:49600:9>
@@ -1130,7 +1130,7 @@
   skos:exactMatch <etma:1:1:49601:8> ;
   skos:exactMatch <etma:1:1:49602:7> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "H3.1"  ;
+  skos:notation "H3.1" ;
   skos:prefLabel "H3.1 chondrite meteorite"@en ;
 .
 <etma:1:1:49603:6>
@@ -1141,7 +1141,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An H chondrite that is petrologic type 3.2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.2"  ;
+  skos:notation "H3.2" ;
   skos:prefLabel "H3.2 chondrite meteorite"@en ;
 .
 <etma:1:1:49604:5>
@@ -1152,7 +1152,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An H chondrite that is a breccia of components ranging from petrologic type 3.2 to type 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.2-3.7"  ;
+  skos:notation "H3.2-3.7" ;
   skos:prefLabel "H3.2-3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49606:3>
@@ -1164,7 +1164,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "An H chondrite that is of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4"  ;
+  skos:notation "H4" ;
   skos:prefLabel "H4 chondrite meteorite"@en ;
 .
 <etma:1:1:49607:2>
@@ -1175,7 +1175,7 @@
   skos:broader <etma:1:1:49606:3> ;
   skos:definition "An H4 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4-melt breccia"  ;
+  skos:notation "H4-melt breccia" ;
   skos:prefLabel "H4-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49608:1>
@@ -1186,7 +1186,7 @@
   skos:broader <etma:1:1:49606:3> ;
   skos:definition "An H chondrite that is petrologic type 4 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4-an"  ;
+  skos:notation "H4-an" ;
   skos:prefLabel "H4-an chondrite meteorite"@en ;
 .
 <etma:1:1:49609:0>
@@ -1198,7 +1198,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L4"  ;
+  skos:notation "H/L4" ;
   skos:prefLabel "H/L4 chondrite meteorite"@en ;
 .
 <etma:1:1:49610:6>
@@ -1210,7 +1210,7 @@
   skos:broader <etma:1:1:49617:9> ;
   skos:definition "An H chondrite or L chondrite that is transitional between petrological types 4 and 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L4/5"  ;
+  skos:notation "H/L4/5" ;
   skos:prefLabel "H/L4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:49612:4>
@@ -1221,7 +1221,7 @@
   skos:broader <etma:1:1:49606:3> ;
   skos:definition "An H chondrite that is transitional between petrological types 4 and 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4/5"  ;
+  skos:notation "H4/5" ;
   skos:prefLabel "H4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:49614:2>
@@ -1233,7 +1233,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "An H chondrite that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H5"  ;
+  skos:notation "H5" ;
   skos:prefLabel "H5 chondrite meteorite"@en ;
 .
 <etma:1:1:49615:1>
@@ -1244,7 +1244,7 @@
   skos:broader <etma:1:1:49614:2> ;
   skos:definition "An H chondrite that is petrologic type 5 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H5-an"  ;
+  skos:notation "H5-an" ;
   skos:prefLabel "H5-an chondrite meteorite"@en ;
 .
 <etma:1:1:49616:0>
@@ -1255,7 +1255,7 @@
   skos:broader <etma:1:1:49614:2> ;
   skos:definition "An H5 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H5-melt breccia"  ;
+  skos:notation "H5-melt breccia" ;
   skos:prefLabel "H5-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49617:9>
@@ -1266,7 +1266,7 @@
   skos:broader <etma:1:1:49614:2> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L5"  ;
+  skos:notation "H/L5" ;
   skos:prefLabel "H/L5 chondrite meteorite"@en ;
 .
 <etma:1:1:49618:8>
@@ -1277,7 +1277,7 @@
   skos:broader <etma:1:1:49614:2> ;
   skos:definition "An H chondrite that is a breccia of petrological type 5 and 6 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H5-6"  ;
+  skos:notation "H5-6" ;
   skos:prefLabel "H5-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49619:7>
@@ -1289,7 +1289,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "An H chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H6"  ;
+  skos:notation "H6" ;
   skos:prefLabel "H6 chondrite meteorite"@en ;
 .
 <etma:1:1:49620:3>
@@ -1300,7 +1300,7 @@
   skos:broader <etma:1:1:49619:7> ;
   skos:definition "An H chondrite that is petrologic type 6 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H6-an"  ;
+  skos:notation "H6-an" ;
   skos:prefLabel "H6-an chondrite meteorite"@en ;
 .
 <etma:1:1:49621:2>
@@ -1311,7 +1311,7 @@
   skos:broader <etma:1:1:49619:7> ;
   skos:definition "An H6 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H6-melt breccia"  ;
+  skos:notation "H6-melt breccia" ;
   skos:prefLabel "H6-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49622:1>
@@ -1323,7 +1323,7 @@
   skos:broader <etma:1:1:49710:5> ;
   skos:definition "An H chondrite (or less likely, an L chondrite) that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H(L)6"  ;
+  skos:notation "H(L)6" ;
   skos:prefLabel "H(L)6 chondrite meteorite"@en ;
 .
 <etma:1:1:49623:0>
@@ -1334,7 +1334,7 @@
   skos:broader <etma:1:1:50449:6> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 6 and has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L6-melt rock"  ;
+  skos:notation "H/L6-melt rock" ;
   skos:prefLabel "H/L6-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49625:8>
@@ -1346,7 +1346,7 @@
   skos:broader <etma:1:1:49846:9> ;
   skos:definition "An H chondrite that is of petrologic type 7. Note that petrologic type 7 is not used consistently or widely accepted in the literature."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H7"  ;
+  skos:notation "H7" ;
   skos:prefLabel "H7 chondrite meteorite"@en ;
 .
 <etma:1:1:49626:7>
@@ -1357,7 +1357,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is anomalous and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H-an"  ;
+  skos:notation "H-an" ;
   skos:prefLabel "H-an chondrite meteorite"@en ;
 .
 <etma:1:1:49627:6>
@@ -1368,7 +1368,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that has experienced impact melting and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H-imp melt"  ;
+  skos:notation "H-imp melt" ;
   skos:prefLabel "H-imp melt chondrite meteorite"@en ;
 .
 <etma:1:1:49628:5>
@@ -1379,7 +1379,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia with melted material forming the matrix and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H-melt breccia"  ;
+  skos:notation "H-melt breccia" ;
   skos:prefLabel "H-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49629:4>
@@ -1390,7 +1390,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that has experienced secondary melting and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H-melt rock"  ;
+  skos:notation "H-melt rock" ;
   skos:prefLabel "H-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49630:0>
@@ -1401,7 +1401,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "A meteorite that is dominantly composed of Fe-Ni metal. It seems likely that the object was derived from an ordinary H chondrite and was not once part of an extended metal-rich body."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H-metal"  ;
+  skos:notation "H-metal" ;
   skos:prefLabel "H-metal chondrite meteorite"@en ;
 .
 <etma:1:1:49631:9>
@@ -1412,7 +1412,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An ordinary chondrite that may be from the H chondrite group and for which petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H?"  ;
+  skos:notation "H?" ;
   skos:prefLabel "H? chondrite meteorite"@en ;
 .
 <etma:1:1:49632:8>
@@ -1423,7 +1423,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is approximately petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H~4"  ;
+  skos:notation "H~4" ;
   skos:prefLabel "H~4 chondrite meteorite"@en ;
 .
 <etma:1:1:49633:7>
@@ -1434,7 +1434,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is approximately petrologic type 4 or 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H~4/5"  ;
+  skos:notation "H~4/5" ;
   skos:prefLabel "H~4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:49634:6>
@@ -1445,7 +1445,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is approximately petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H~5"  ;
+  skos:notation "H~5" ;
   skos:prefLabel "H~5 chondrite meteorite"@en ;
 .
 <etma:1:1:49635:5>
@@ -1456,7 +1456,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is approximately petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H~6"  ;
+  skos:notation "H~6" ;
   skos:prefLabel "H~6 chondrite meteorite"@en ;
 .
 <etma:1:1:49636:4>
@@ -1467,7 +1467,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is possibly petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H(5?)"  ;
+  skos:notation "H(5?)" ;
   skos:prefLabel "H(5?) chondrite meteorite"@en ;
 .
 <etma:1:1:49637:3>
@@ -1478,7 +1478,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia of petrological types 5 to 7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H5-7"  ;
+  skos:notation "H5-7" ;
   skos:prefLabel "H5-7 chondrite meteorite"@en ;
 .
 <etma:1:1:49638:2>
@@ -1489,7 +1489,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite or L chondrite that is approximately of petrological type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L~4"  ;
+  skos:notation "H/L~4" ;
   skos:prefLabel "H/L~4 chondrite meteorite"@en ;
 .
 <etma:1:1:49639:1>
@@ -1500,7 +1500,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An ordinary chondrite that may be of petrologic type 4 and that is possibly an H chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4(?)"  ;
+  skos:notation "H4(?)" ;
   skos:prefLabel "H4(?) chondrite meteorite"@en ;
 .
 <etma:1:1:49640:7>
@@ -1511,7 +1511,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An ordinary chondrite of petrologic type 4 that is possibly an H chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H(?)4"  ;
+  skos:notation "H(?)4" ;
   skos:prefLabel "H(?)4 chondrite meteorite"@en ;
 .
 <etma:1:1:49641:6>
@@ -1522,7 +1522,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia of petrological types 3 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3-5"  ;
+  skos:notation "H3-5" ;
   skos:prefLabel "H3-5 chondrite meteorite"@en ;
 .
 <etma:1:1:49642:5>
@@ -1533,7 +1533,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia of petrological types 3 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3-6"  ;
+  skos:notation "H3-6" ;
   skos:prefLabel "H3-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49643:4>
@@ -1544,7 +1544,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia of petrological types 3.2 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.2-6"  ;
+  skos:notation "H3.2-6" ;
   skos:prefLabel "H3.2-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49644:3>
@@ -1555,7 +1555,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia of petrological types 3.9 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.9-5"  ;
+  skos:notation "H3.9-5" ;
   skos:prefLabel "H3.9-5 chondrite meteorite"@en ;
 .
 <etma:1:1:49645:2>
@@ -1566,7 +1566,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia of petrological types 3 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.9-6"  ;
+  skos:notation "H3.9-6" ;
   skos:prefLabel "H3.9-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49646:1>
@@ -1577,7 +1577,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is a breccia of petrological types 4 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4-6"  ;
+  skos:notation "H4-6" ;
   skos:prefLabel "H4-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49647:0>
@@ -1588,7 +1588,7 @@
   skos:broader <etma:1:1:49584:2> ;
   skos:definition "An H chondrite that is petrological type 4, 5 or 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4/6"  ;
+  skos:notation "H4/6" ;
   skos:prefLabel "H4/6 chondrite meteorite"@en ;
 .
 <etma:1:1:49648:9>
@@ -1599,7 +1599,7 @@
   skos:broader <etma:1:1:49581:5> ;
   skos:definition "The low-iron (L) chemical group of ordinary chondrites, distinguished by their relatively low siderophile element content, moderate sized chondrules (~0.7 mm), and oxygen isotope compositions that intermediate between H chondrites and LL chondrites.  Parent body is possibly 433 Eros, 8 Flora or the Flora family as a whole"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L"  ;
+  skos:notation "L" ;
   skos:prefLabel "L chondrite meteorite"@en ;
 .
 <etma:1:1:49649:8>
@@ -1611,7 +1611,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "An L chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3"  ;
+  skos:notation "L3" ;
   skos:prefLabel "L3 chondrite meteorite"@en ;
 .
 <etma:1:1:49650:4>
@@ -1622,7 +1622,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An ordinary chondrite from the L group that is a breccia of components that are between 3.0 and 3.9"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.0-3.9"  ;
+  skos:notation "L3.0-3.9" ;
   skos:prefLabel "L3.0-3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:49651:3>
@@ -1633,7 +1633,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L3 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3-melt breccia"  ;
+  skos:notation "L3-melt breccia" ;
   skos:prefLabel "L3-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49652:2>
@@ -1644,7 +1644,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.0."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.0"  ;
+  skos:notation "L3.0" ;
   skos:prefLabel "L3.0 chondrite meteorite"@en ;
 .
 <etma:1:1:49653:1>
@@ -1655,7 +1655,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An ordinary chondrite from the L group that is petrologic type 3.00"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.00"  ;
+  skos:notation "L3.00" ;
   skos:prefLabel "L3.00 chondrite meteorite"@en ;
 .
 <etma:1:1:49654:0>
@@ -1666,7 +1666,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An ordinary chondrite from the L group that is petrologic type 3.05"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.05"  ;
+  skos:notation "L3.05" ;
   skos:prefLabel "L3.05 chondrite meteorite"@en ;
 .
 <etma:1:1:49655:9>
@@ -1677,7 +1677,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.2 to 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.0-3.7"  ;
+  skos:notation "L3.0-3.7" ;
   skos:prefLabel "L3.0-3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49656:8>
@@ -1688,7 +1688,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.1"  ;
+  skos:notation "L3.1" ;
   skos:prefLabel "L3.1 chondrite meteorite"@en ;
 .
 <etma:1:1:49657:7>
@@ -1699,7 +1699,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An ordinary chondrite from the L group that is petrologic type 3.10"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.10"  ;
+  skos:notation "L3.10" ;
   skos:prefLabel "L3.10 chondrite meteorite"@en ;
 .
 <etma:1:1:49658:6>
@@ -1710,7 +1710,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An ordinary chondrite from the L group that is petrologic type 3.15"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.15"  ;
+  skos:notation "L3.15" ;
   skos:prefLabel "L3.15 chondrite meteorite"@en ;
 .
 <etma:1:1:49659:5>
@@ -1721,7 +1721,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.2"  ;
+  skos:notation "L3.2" ;
   skos:prefLabel "L3.2 chondrite meteorite"@en ;
 .
 <etma:1:1:49660:1>
@@ -1732,7 +1732,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.2 to 3.5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.2-3.5"  ;
+  skos:notation "L3.2-3.5" ;
   skos:prefLabel "L3.2-3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49661:0>
@@ -1743,7 +1743,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.2 to 3.6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.2-3.6"  ;
+  skos:notation "L3.2-3.6" ;
   skos:prefLabel "L3.2-3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:49662:9>
@@ -1754,7 +1754,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.3"  ;
+  skos:notation "L3.3" ;
   skos:prefLabel "L3.3 chondrite meteorite"@en ;
 .
 <etma:1:1:49663:8>
@@ -1765,7 +1765,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.3 to 3.5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.3-3.5"  ;
+  skos:notation "L3.3-3.5" ;
   skos:prefLabel "L3.3-3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49664:7>
@@ -1776,7 +1776,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.3 to 3.6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.3-3.6"  ;
+  skos:notation "L3.3-3.6" ;
   skos:prefLabel "L3.3-3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:49665:6>
@@ -1787,7 +1787,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.3 to 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.3-3.7"  ;
+  skos:notation "L3.3-3.7" ;
   skos:prefLabel "L3.3-3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49666:5>
@@ -1799,7 +1799,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3 to 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3-4"  ;
+  skos:notation "L3-4" ;
   skos:prefLabel "L3-4 chondrite meteorite"@en ;
 .
 <etma:1:1:49667:4>
@@ -1810,7 +1810,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.5"  ;
+  skos:notation "L3.5" ;
   skos:prefLabel "L3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49668:3>
@@ -1821,7 +1821,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.5 tto 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.5-3.7"  ;
+  skos:notation "L3.5-3.7" ;
   skos:prefLabel "L3.5-3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49669:2>
@@ -1832,7 +1832,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.5 to 3.8."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.5-3.8"  ;
+  skos:notation "L3.5-3.8" ;
   skos:prefLabel "L3.5-3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:49670:8>
@@ -1843,7 +1843,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.5 to 3.9."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.5-3.9"  ;
+  skos:notation "L3.5-3.9" ;
   skos:prefLabel "L3.5-3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:49671:7>
@@ -1854,7 +1854,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.6"  ;
+  skos:notation "L3.6" ;
   skos:prefLabel "L3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:49672:6>
@@ -1865,7 +1865,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.6 to 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.6-4"  ;
+  skos:notation "L3.6-4" ;
   skos:prefLabel "L3.6-4 chondrite meteorite"@en ;
 .
 <etma:1:1:49673:5>
@@ -1876,7 +1876,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.7"  ;
+  skos:notation "L3.7" ;
   skos:prefLabel "L3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49674:4>
@@ -1888,7 +1888,7 @@
   skos:broader <etma:1:1:49677:1> ;
   skos:definition "An L chondrite that is petrologic type 3.7 to 3.8."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.7/3.8"  ;
+  skos:notation "L3.7/3.8" ;
   skos:prefLabel "L3.7/3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:49675:3>
@@ -1899,7 +1899,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.7 to 3.9."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.7-3.9"  ;
+  skos:notation "L3.7-3.9" ;
   skos:prefLabel "L3.7-3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:49676:2>
@@ -1911,7 +1911,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.7 to 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.7-4"  ;
+  skos:notation "L3.7-4" ;
   skos:prefLabel "L3.7-4 chondrite meteorite"@en ;
 .
 <etma:1:1:49677:1>
@@ -1922,7 +1922,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.8."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.8"  ;
+  skos:notation "L3.8" ;
   skos:prefLabel "L3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:49678:0>
@@ -1933,7 +1933,7 @@
   skos:broader <etma:1:1:49677:1> ;
   skos:definition "An L chondrite that is petrologic type 3.8 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.8-an"  ;
+  skos:notation "L3.8-an" ;
   skos:prefLabel "L3.8-an chondrite meteorite"@en ;
 .
 <etma:1:1:49679:9>
@@ -1944,7 +1944,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.9."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.9"  ;
+  skos:notation "L3.9" ;
   skos:prefLabel "L3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:49680:5>
@@ -1956,7 +1956,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An L chondrite that is petrologic type 3.9 to 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.9/4"  ;
+  skos:notation "L3.9/4" ;
   skos:prefLabel "L3.9/4 chondrite meteorite"@en ;
 .
 <etma:1:1:49682:3>
@@ -1968,7 +1968,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite (or less likely, an H chondrite) that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(H)3"  ;
+  skos:notation "L(H)3" ;
   skos:prefLabel "L(H)3 chondrite meteorite"@en ;
 .
 <etma:1:1:49683:2>
@@ -1980,7 +1980,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite (or less likely, an L chondrite) that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL(L)3"  ;
+  skos:notation "LL(L)3" ;
   skos:prefLabel "LL(L)3 chondrite meteorite"@en ;
 .
 <etma:1:1:49684:1>
@@ -1991,7 +1991,7 @@
   skos:broader <etma:1:1:50452:0> ;
   skos:definition "An L chondrite (or less likely, an LL chondrite) that is of petrologic type 3.0."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(LL)3.0"  ;
+  skos:notation "L(LL)3.0" ;
   skos:prefLabel "L(LL)3.0 chondrite meteorite"@en ;
 .
 <etma:1:1:49685:0>
@@ -2002,7 +2002,7 @@
   skos:broader <etma:1:1:49683:2> ;
   skos:definition "An ordinary chondrite from either the L group or, less likely, the LL group that is petrologic type 3.05"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(LL)3.05"  ;
+  skos:notation "L(LL)3.05" ;
   skos:prefLabel "L(LL)3.05 chondrite meteorite"@en ;
 .
 <etma:1:1:49686:9>
@@ -2013,7 +2013,7 @@
   skos:broader <etma:1:1:50452:0> ;
   skos:definition "An L chondrite (or less likely, an LL chondrite) that is a breccia of components ranging from petrologic type 3.5 to 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(LL)3.5-3.7"  ;
+  skos:notation "L(LL)3.5-3.7" ;
   skos:prefLabel "L(LL)3.5-3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49688:7>
@@ -2024,7 +2024,7 @@
   skos:broader <etma:1:1:49683:2> ;
   skos:definition "An LL chondrite (or less likely, an L chondrite) that is of petrologic type 3.1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL(L)3.1"  ;
+  skos:notation "LL(L)3.1" ;
   skos:prefLabel "LL(L)3.1 chondrite meteorite"@en ;
 .
 <etma:1:1:49689:6>
@@ -2035,7 +2035,7 @@
   skos:broader <etma:1:1:49683:2> ;
   skos:definition "An LL chondrite (or less likely, an L chondrite) that is of petrologic type 3.2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL(L)3.2"  ;
+  skos:notation "LL(L)3.2" ;
   skos:prefLabel "LL(L)3.2 chondrite meteorite"@en ;
 .
 <etma:1:1:49690:2>
@@ -2046,7 +2046,7 @@
   skos:broader <etma:1:1:50453:9> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 3.4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3.4"  ;
+  skos:notation "L/LL3.4" ;
   skos:prefLabel "L/LL3.4 chondrite meteorite"@en ;
 .
 <etma:1:1:49691:1>
@@ -2057,7 +2057,7 @@
   skos:broader <etma:1:1:49683:2> ;
   skos:definition "An ordinary chondrite from either the L group or LL group that is petrologic type 3.10"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3.10"  ;
+  skos:notation "L/LL3.10" ;
   skos:prefLabel "L/LL3.10 chondrite meteorite"@en ;
 .
 <etma:1:1:49692:0>
@@ -2068,7 +2068,7 @@
   skos:broader <etma:1:1:50453:9> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 3.5"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3.5"  ;
+  skos:notation "L/LL3.5" ;
   skos:prefLabel "L/LL3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49693:9>
@@ -2079,7 +2079,7 @@
   skos:broader <etma:1:1:50453:9> ;
   skos:definition "An L chondrite or LL chondrite that is either petrological type 3.6 or 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3.6/3.7"  ;
+  skos:notation "L/LL3.6/3.7" ;
   skos:prefLabel "L/LL3.6/3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49695:7>
@@ -2091,7 +2091,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "An L chondrite that is of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L4"  ;
+  skos:notation "L4" ;
   skos:prefLabel "L4 chondrite meteorite"@en ;
 .
 <etma:1:1:49696:6>
@@ -2102,7 +2102,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An L chondrite that is petrologic type 4 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L4-an"  ;
+  skos:notation "L4-an" ;
   skos:prefLabel "L4-an chondrite meteorite"@en ;
 .
 <etma:1:1:49697:5>
@@ -2113,7 +2113,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An L4 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L4-melt breccia"  ;
+  skos:notation "L4-melt breccia" ;
   skos:prefLabel "L4-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49698:4>
@@ -2124,7 +2124,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An L4 chondrite that has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L4-melt rock"  ;
+  skos:notation "L4-melt rock" ;
   skos:prefLabel "L4-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49699:3>
@@ -2136,7 +2136,7 @@
   skos:broader <etma:1:1:49768:2> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL4"  ;
+  skos:notation "L/LL4" ;
   skos:prefLabel "L/LL4 chondrite meteorite"@en ;
 .
 <etma:1:1:49700:8>
@@ -2148,7 +2148,7 @@
   skos:broader <etma:1:1:49702:6> ;
   skos:definition "An L chondrite that is petrologic type 4 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L4/5"  ;
+  skos:notation "L4/5" ;
   skos:prefLabel "L4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:49702:6>
@@ -2160,7 +2160,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "An L chondrite that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L5"  ;
+  skos:notation "L5" ;
   skos:prefLabel "L5 chondrite meteorite"@en ;
 .
 <etma:1:1:49703:5>
@@ -2172,7 +2172,7 @@
   skos:broader <etma:1:1:49772:5> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL5"  ;
+  skos:notation "L/LL5" ;
   skos:prefLabel "L/LL5 chondrite meteorite"@en ;
 .
 <etma:1:1:49705:3>
@@ -2184,7 +2184,7 @@
   skos:broader <etma:1:1:50459:3> ;
   skos:definition "An L chondrite or LL chondrite that is either petrological type 5 or 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL5/6"  ;
+  skos:notation "L/LL5/6" ;
   skos:prefLabel "L/LL5/6 chondrite meteorite"@en ;
 .
 <etma:1:1:49707:1>
@@ -2196,7 +2196,7 @@
   skos:broader <etma:1:1:49710:5> ;
   skos:definition "An L chondrite that is a breccia of components ranging from petrologic type 5 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L5-6"  ;
+  skos:notation "L5-6" ;
   skos:prefLabel "L5-6 chrondite"@en ;
 .
 <etma:1:1:49708:0>
@@ -2208,7 +2208,7 @@
   skos:broader <etma:1:1:49710:5> ;
   skos:definition "An L chondrite that is either petrological type 5 or 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L5/6"  ;
+  skos:notation "L5/6" ;
   skos:prefLabel "L5/6 chondrite meteorite"@en ;
 .
 <etma:1:1:49709:9>
@@ -2219,7 +2219,7 @@
   skos:broader <etma:1:1:49702:6> ;
   skos:definition "An L5 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L5-melt breccia"  ;
+  skos:notation "L5-melt breccia" ;
   skos:prefLabel "L5-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49710:5>
@@ -2231,7 +2231,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "An L chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L6"  ;
+  skos:notation "L6" ;
   skos:prefLabel "L6 chondrite meteorite"@en ;
 .
 <etma:1:1:49711:4>
@@ -2242,7 +2242,7 @@
   skos:broader <etma:1:1:49710:5> ;
   skos:definition "An L6 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L6-melt breccia"  ;
+  skos:notation "L6-melt breccia" ;
   skos:prefLabel "L6-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49712:3>
@@ -2253,7 +2253,7 @@
   skos:broader <etma:1:1:49710:5> ;
   skos:definition "An L6 chondrite that has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L6-melt rock"  ;
+  skos:notation "L6-melt rock" ;
   skos:prefLabel "L6-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49713:2>
@@ -2265,7 +2265,7 @@
   skos:broader <etma:1:1:49776:1> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL6"  ;
+  skos:notation "L/LL6" ;
   skos:prefLabel "L/LL6 chondrite meteorite"@en ;
 .
 <etma:1:1:49715:0>
@@ -2276,7 +2276,7 @@
   skos:broader <etma:1:1:49713:2> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 6 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL6-an"  ;
+  skos:notation "L/LL6-an" ;
   skos:prefLabel "L/LL6-an chondrite meteorite"@en ;
 .
 <etma:1:1:49716:9>
@@ -2288,7 +2288,7 @@
   skos:broader <etma:1:1:49717:8> ;
   skos:definition "An L chondrite that is either petrological type 6 or 7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L6/7"  ;
+  skos:notation "L6/7" ;
   skos:prefLabel "L6/7 chondrite meteorite"@en ;
 .
 <etma:1:1:49717:8>
@@ -2300,7 +2300,7 @@
   skos:broader <etma:1:1:49846:9> ;
   skos:definition "An L chondrite that is of petrologic type 7. Note that petrologic type 7 is not used consistently or widely accepted in the literature."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L7"  ;
+  skos:notation "L7" ;
   skos:prefLabel "L7 chondrite meteorite"@en ;
 .
 <etma:1:1:49718:7>
@@ -2311,7 +2311,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that has experienced impact melting and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L-imp melt"  ;
+  skos:notation "L-imp melt" ;
   skos:prefLabel "L-imp melt chondrite meteorite"@en ;
 .
 <etma:1:1:49719:6>
@@ -2322,7 +2322,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia with melted material forming the matrix and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L-melt breccia"  ;
+  skos:notation "L-melt breccia" ;
   skos:prefLabel "L-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49720:2>
@@ -2333,7 +2333,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L-melt rock"  ;
+  skos:notation "L-melt rock" ;
   skos:prefLabel "L-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49721:1>
@@ -2344,7 +2344,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "A meteorite that is dominantly composed of Fe-Ni metal. It seems likely that the object was derived from an ordinary L chondrite and was not once part of an extended metal-rich body."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L-metal"  ;
+  skos:notation "L-metal" ;
   skos:prefLabel "L-metal chondrite meteorite"@en ;
 .
 <etma:1:1:49722:0>
@@ -2356,7 +2356,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An L chondrite or LL chondrite that has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL-melt rock"  ;
+  skos:notation "L/LL-melt rock" ;
   skos:prefLabel "L/LL-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49723:9>
@@ -2367,7 +2367,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite or LL chondrite that is a breccia of petrological type 3 to 6 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3-6"  ;
+  skos:notation "L/LL3-6" ;
   skos:prefLabel "L/LL3-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49724:8>
@@ -2378,7 +2378,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite or LL chondrite that is a breccia of petrological type 3 to 5 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3-5"  ;
+  skos:notation "L/LL3-5" ;
   skos:prefLabel "L/LL3-5 chondrite meteorite"@en ;
 .
 <etma:1:1:49725:7>
@@ -2389,7 +2389,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An ordinary chondrite, probably an L chondrite or LL chondrite that is of petrological type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL(?)3"  ;
+  skos:notation "L/LL(?)3" ;
   skos:prefLabel "L/LL(?)3 chondrite meteorite"@en ;
 .
 <etma:1:1:49726:6>
@@ -2400,7 +2400,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An ordinary chondrite, probably an L chondrite that is of petrological type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(?)3"  ;
+  skos:notation "L(?)3" ;
   skos:prefLabel "L(?)3 chondrite meteorite"@en ;
 .
 <etma:1:1:49727:5>
@@ -2411,7 +2411,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite (or less likely, an LL chondrite) that is approximately of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(LL)~4"  ;
+  skos:notation "L(LL)~4" ;
   skos:prefLabel "L(LL)~4 chondrite meteorite"@en ;
 .
 <etma:1:1:49728:4>
@@ -2422,7 +2422,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite or LL chondrite that is approximately of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL~4"  ;
+  skos:notation "L/LL~4" ;
   skos:prefLabel "L/LL~4 chondrite meteorite"@en ;
 .
 <etma:1:1:49729:3>
@@ -2433,7 +2433,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite or LL chondrite that is approximately of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL~5"  ;
+  skos:notation "L/LL~5" ;
   skos:prefLabel "L/LL~5 chondrite meteorite"@en ;
 .
 <etma:1:1:49730:9>
@@ -2444,7 +2444,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite or LL chondrite that is approximately of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL~6"  ;
+  skos:notation "L/LL~6" ;
   skos:prefLabel "L/LL~6 chondrite meteorite"@en ;
 .
 <etma:1:1:49731:8>
@@ -2455,7 +2455,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3-5"  ;
+  skos:notation "L3-5" ;
   skos:prefLabel "L3-5 chondrite meteorite"@en ;
 .
 <etma:1:1:49732:7>
@@ -2466,7 +2466,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3-6"  ;
+  skos:notation "L3-6" ;
   skos:prefLabel "L3-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49733:6>
@@ -2477,7 +2477,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3 to 7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3-7"  ;
+  skos:notation "L3-7" ;
   skos:prefLabel "L3-7 chondrite meteorite"@en ;
 .
 <etma:1:1:49734:5>
@@ -2488,7 +2488,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.5 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.5-5"  ;
+  skos:notation "L3.5-5" ;
   skos:prefLabel "L3.5-5 chondrite meteorite"@en ;
 .
 <etma:1:1:49735:4>
@@ -2499,7 +2499,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.7 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.7-6"  ;
+  skos:notation "L3.7-6" ;
   skos:prefLabel "L3.7-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49736:3>
@@ -2510,7 +2510,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.8 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.8-5"  ;
+  skos:notation "L3.8-5" ;
   skos:prefLabel "L3.8-5 chondrite meteorite"@en ;
 .
 <etma:1:1:49737:2>
@@ -2521,7 +2521,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 3.8 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.8-6"  ;
+  skos:notation "L3.8-6" ;
   skos:prefLabel "L3.8-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49738:1>
@@ -2532,7 +2532,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 4 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L4-6"  ;
+  skos:notation "L4-6" ;
   skos:prefLabel "L4-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49739:0>
@@ -2543,7 +2543,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of petrological types 5 to 7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L5-7"  ;
+  skos:notation "L5-7" ;
   skos:prefLabel "L5-7 chondrite meteorite"@en ;
 .
 <etma:1:1:49740:6>
@@ -2554,7 +2554,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is approximately of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L~3"  ;
+  skos:notation "L~3" ;
   skos:prefLabel "L~3 chondrite meteorite"@en ;
 .
 <etma:1:1:49741:5>
@@ -2565,7 +2565,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is approximately of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L~4"  ;
+  skos:notation "L~4" ;
   skos:prefLabel "L~4 chondrite meteorite"@en ;
 .
 <etma:1:1:49742:4>
@@ -2576,7 +2576,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is a breccia of components of approximate petrological types 4 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L~4-6"  ;
+  skos:notation "L~4-6" ;
   skos:prefLabel "L~4-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49743:3>
@@ -2587,7 +2587,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is approximately of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L~5"  ;
+  skos:notation "L~5" ;
   skos:prefLabel "L~5 chondrite meteorite"@en ;
 .
 <etma:1:1:49744:2>
@@ -2598,7 +2598,7 @@
   skos:broader <etma:1:1:49648:9> ;
   skos:definition "An L chondrite that is approximately of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L~6"  ;
+  skos:notation "L~6" ;
   skos:prefLabel "L~6 chondrite meteorite"@en ;
 .
 <etma:1:1:49745:1>
@@ -2609,7 +2609,7 @@
   skos:broader <etma:1:1:49581:5> ;
   skos:definition "The low-iron, low metal (LL) chemical group of ordinary chondrites, distinguished by their low siderophile element content, fairly large chondrules (~0.9 mm), and oxygen isotope compositions that are further above the terrestrial fractionation line than those of other ordinary chondrites."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL"  ;
+  skos:notation "LL" ;
   skos:prefLabel "LL chondrite meteorite"@en ;
 .
 <etma:1:1:49746:0>
@@ -2621,7 +2621,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "An LL chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3"  ;
+  skos:notation "LL3" ;
   skos:prefLabel "LL3 chondrite meteorite"@en ;
 .
 <etma:1:1:49750:3>
@@ -2633,7 +2633,7 @@
   skos:broader <etma:1:1:49768:2> ;
   skos:definition "An LL chondrite that is either petrological type 3 or 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3/4"  ;
+  skos:notation "LL3/4" ;
   skos:prefLabel "LL3/4 chondrite meteorite"@en ;
 .
 <etma:1:1:49751:2>
@@ -2644,7 +2644,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.0."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.0"  ;
+  skos:notation "LL3.0" ;
   skos:prefLabel "LL3.0 chondrite meteorite"@en ;
 .
 <etma:1:1:49752:1>
@@ -2655,7 +2655,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An ordinary chondrite from the LL group that is petrologic type 3.00"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.00"  ;
+  skos:notation "LL3.00" ;
   skos:prefLabel "LL3.00 chondrite meteorite"@en ;
 .
 <etma:1:1:49753:0>
@@ -2666,7 +2666,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An ordinary chondrite from the LL group that is petrologic type 3.05"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.05"  ;
+  skos:notation "LL3.05" ;
   skos:prefLabel "LL3.05 chondrite meteorite"@en ;
 .
 <etma:1:1:49754:9>
@@ -2677,7 +2677,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.1"  ;
+  skos:notation "LL3.1" ;
   skos:prefLabel "LL3.1 chondrite meteorite"@en ;
 .
 <etma:1:1:49755:8>
@@ -2688,7 +2688,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An ordinary chondrite from the LL group that is petrologic type 3.10"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.10"  ;
+  skos:notation "LL3.10" ;
   skos:prefLabel "LL3.10 chondrite meteorite"@en ;
 .
 <etma:1:1:49756:7>
@@ -2699,7 +2699,7 @@
   skos:broader <etma:1:1:49754:9> ;
   skos:definition "An ordinary chondrite from the LL group that is of petrologic type 3.15"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.15"  ;
+  skos:notation "LL3.15" ;
   skos:prefLabel "LL3.15 chondrite meteorite"@en ;
 .
 <etma:1:1:49757:6>
@@ -2710,7 +2710,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.2"  ;
+  skos:notation "LL3.2" ;
   skos:prefLabel "LL3.2 chondrite meteorite"@en ;
 .
 <etma:1:1:49758:5>
@@ -2721,7 +2721,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.3"  ;
+  skos:notation "LL3.3" ;
   skos:prefLabel "LL3.3 chondrite meteorite"@en ;
 .
 <etma:1:1:49760:0>
@@ -2732,7 +2732,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.5"  ;
+  skos:notation "LL3.5" ;
   skos:prefLabel "LL3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49761:9>
@@ -2743,7 +2743,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.6"  ;
+  skos:notation "LL3.6" ;
   skos:prefLabel "LL3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:49762:8>
@@ -2755,7 +2755,7 @@
   skos:broader <etma:1:1:49763:7> ;
   skos:definition "An LL chondrite that is either petrological type 3.6 or 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.6/3.7"  ;
+  skos:notation "LL3.6/3.7" ;
   skos:prefLabel "LL3.6/3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49763:7>
@@ -2766,7 +2766,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.7"  ;
+  skos:notation "LL3.7" ;
   skos:prefLabel "LL3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:49764:6>
@@ -2777,7 +2777,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.8."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.8"  ;
+  skos:notation "LL3.8" ;
   skos:prefLabel "LL3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:49765:5>
@@ -2788,7 +2788,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.9."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.9"  ;
+  skos:notation "LL3.9" ;
   skos:prefLabel "LL3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:49767:3>
@@ -2800,7 +2800,7 @@
   skos:broader <etma:1:1:49768:2> ;
   skos:definition "An LL chondrite that is either petrological type 3.9 or 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.9/4"  ;
+  skos:notation "LL3.9/4" ;
   skos:prefLabel "LL3.9/4 chondrite meteorite"@en ;
 .
 <etma:1:1:49768:2>
@@ -2812,7 +2812,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "An LL chondrite that is of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL4"  ;
+  skos:notation "LL4" ;
   skos:prefLabel "LL4 chondrite meteorite"@en ;
 .
 <etma:1:1:49769:1>
@@ -2824,7 +2824,7 @@
   skos:broader <etma:1:1:49772:5> ;
   skos:definition "An LL chondrite that is either petrological type 4 or 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL4/5"  ;
+  skos:notation "LL4/5" ;
   skos:prefLabel "LL4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:49770:7>
@@ -2835,7 +2835,7 @@
   skos:broader <etma:1:1:49768:2> ;
   skos:definition "An LL4 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL4-melt breccia"  ;
+  skos:notation "LL4-melt breccia" ;
   skos:prefLabel "LL4-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49772:5>
@@ -2847,7 +2847,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "An LL chondrite that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL5"  ;
+  skos:notation "LL5" ;
   skos:prefLabel "LL5 chondrite meteorite"@en ;
 .
 <etma:1:1:49773:4>
@@ -2859,7 +2859,7 @@
   skos:broader <etma:1:1:49776:1> ;
   skos:definition "An LL chondrite that is either petrological type 5 or 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL5/6"  ;
+  skos:notation "LL5/6" ;
   skos:prefLabel "LL5/6 chondrite meteorite"@en ;
 .
 <etma:1:1:49774:3>
@@ -2870,7 +2870,7 @@
   skos:broader <etma:1:1:49772:5> ;
   skos:definition "An LL5 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL5-melt breccia"  ;
+  skos:notation "LL5-melt breccia" ;
   skos:prefLabel "LL5-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49776:1>
@@ -2882,7 +2882,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "An LL chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL6"  ;
+  skos:notation "LL6" ;
   skos:prefLabel "LL6 chondrite meteorite"@en ;
 .
 <etma:1:1:49777:0>
@@ -2893,7 +2893,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is of petrological type 6 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL6-an"  ;
+  skos:notation "LL6-an" ;
   skos:prefLabel "LL6-an chondrite meteorite"@en ;
 .
 <etma:1:1:49778:9>
@@ -2904,7 +2904,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL6 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL6-melt breccia"  ;
+  skos:notation "LL6-melt breccia" ;
   skos:prefLabel "LL6-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49779:8>
@@ -2915,7 +2915,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is either petrological type 6 or 7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL6/7"  ;
+  skos:notation "LL6/7" ;
   skos:prefLabel "LL6/7 chondrite meteorite"@en ;
 .
 <etma:1:1:49780:4>
@@ -2926,7 +2926,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that has experienced impact melting and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL-imp melt"  ;
+  skos:notation "LL-imp melt" ;
   skos:prefLabel "LL-imp melt chondrite meteorite"@en ;
 .
 <etma:1:1:49781:3>
@@ -2937,7 +2937,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia with melted material forming the matrix and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL-melt breccia"  ;
+  skos:notation "LL-melt breccia" ;
   skos:prefLabel "LL-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49782:2>
@@ -2948,7 +2948,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An L chondrite that has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL-melt rock"  ;
+  skos:notation "LL-melt rock" ;
   skos:prefLabel "LL-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49783:1>
@@ -2959,7 +2959,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 3 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3-5"  ;
+  skos:notation "LL3-5" ;
   skos:prefLabel "LL3-5 chondrite meteorite"@en ;
 .
 <etma:1:1:49784:0>
@@ -2970,7 +2970,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 3 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3-6"  ;
+  skos:notation "LL3-6" ;
   skos:prefLabel "LL3-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49785:9>
@@ -2981,7 +2981,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 3.7 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.7-6"  ;
+  skos:notation "LL3.7-6" ;
   skos:prefLabel "LL3.7-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49786:8>
@@ -2992,7 +2992,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 3.8 to 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.8-4"  ;
+  skos:notation "LL3.8-4" ;
   skos:prefLabel "LL3.8-4 chondrite meteorite"@en ;
 .
 <etma:1:1:49787:7>
@@ -3003,7 +3003,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 3.8 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.8-6"  ;
+  skos:notation "LL3.8-6" ;
   skos:prefLabel "LL3.8-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49788:6>
@@ -3014,7 +3014,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 4 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL4-6"  ;
+  skos:notation "LL4-6" ;
   skos:prefLabel "LL4-6 chondrite meteorite"@en ;
 .
 <etma:1:1:49789:5>
@@ -3025,7 +3025,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 4 to 7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL4-7"  ;
+  skos:notation "LL4-7" ;
   skos:prefLabel "LL4-7 chondrite meteorite"@en ;
 .
 <etma:1:1:49790:1>
@@ -3036,7 +3036,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is either petrological type 4, 5 or 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL4/6"  ;
+  skos:notation "LL4/6" ;
   skos:prefLabel "LL4/6 chondrite meteorite"@en ;
 .
 <etma:1:1:49791:0>
@@ -3047,7 +3047,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An ordinary chondrite that may be of petrologic type 6 and that is possibly an LL chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL6(?)"  ;
+  skos:notation "LL6(?)" ;
   skos:prefLabel "LL6(?) chondrite meteorite"@en ;
 .
 <etma:1:1:49792:9>
@@ -3058,7 +3058,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An ordinary chondrite that may be of petrologic type 7 and that is possibly an LL chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL7(?)"  ;
+  skos:notation "LL7(?)" ;
   skos:prefLabel "LL7(?) chondrite meteorite"@en ;
 .
 <etma:1:1:49793:8>
@@ -3069,7 +3069,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that has a petrological type below 3.5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL<3.5"  ;
+  skos:notation "LL<3.5" ;
   skos:prefLabel "LL<3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:49794:7>
@@ -3080,7 +3080,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is approximately of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL~3"  ;
+  skos:notation "LL~3" ;
   skos:prefLabel "LL~3 chondrite meteorite"@en ;
 .
 <etma:1:1:49795:6>
@@ -3091,7 +3091,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is approximately of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL~4"  ;
+  skos:notation "LL~4" ;
   skos:prefLabel "LL~4 chondrite meteorite"@en ;
 .
 <etma:1:1:49796:5>
@@ -3102,7 +3102,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An LL chondrite that is approximately of petrologic type 4 or 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL~4/5"  ;
+  skos:notation "LL~4/5" ;
   skos:prefLabel "LL~4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:49797:4>
@@ -3113,7 +3113,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An L chondrite that is approximately of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL~5"  ;
+  skos:notation "LL~5" ;
   skos:prefLabel "LL~5 chondrite meteorite"@en ;
 .
 <etma:1:1:49798:3>
@@ -3124,7 +3124,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An L chondrite that is approximately of petrologic type 7."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL~6"  ;
+  skos:notation "LL~6" ;
   skos:prefLabel "LL~6 chondrite meteorite"@en ;
 .
 <etma:1:1:49799:2>
@@ -3135,7 +3135,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An ordinary chondrite that may an LL chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL?"  ;
+  skos:notation "LL?" ;
   skos:prefLabel "LL? chondrite meteorite"@en ;
 .
 <etma:1:1:49800:7>
@@ -3156,7 +3156,7 @@
   skos:broader <etma:1:1:49800:7> ;
   skos:definition "An E chondrite that is anomalous and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "E-an"  ;
+  skos:notation "E-an" ;
   skos:prefLabel "Anomalous E chondrite meteorite"@en ;
 .
 <etma:1:1:49803:4>
@@ -3167,7 +3167,7 @@
   skos:broader <etma:1:1:49800:7> ;
   skos:definition "An E chondrite that is a breccia with melted material forming the matrix and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "E-melt breccia"  ;
+  skos:notation "E-melt breccia" ;
   skos:prefLabel "E-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49804:3>
@@ -3179,7 +3179,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "An E chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "E3"  ;
+  skos:notation "E3" ;
   skos:prefLabel "E3 chondrite meteorite"@en ;
 .
 <etma:1:1:49805:2>
@@ -3192,7 +3192,7 @@
   skos:definition "An E chondrite that is petrologic type 3 and has anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52390:5> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "E3-an"  ;
+  skos:notation "E3-an" ;
   skos:prefLabel "Anomalous E3 chondrite meteorite"@en ;
 .
 <etma:1:1:49806:1>
@@ -3204,7 +3204,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "An E chondrite that is of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "E4"  ;
+  skos:notation "E4" ;
   skos:prefLabel "E4 chondrite meteorite"@en ;
 .
 <etma:1:1:49807:0>
@@ -3216,7 +3216,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "An E chondrite that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "E5"  ;
+  skos:notation "E5" ;
   skos:prefLabel "E5 chondrite meteorite"@en ;
 .
 <etma:1:1:49808:9>
@@ -3229,7 +3229,7 @@
   skos:definition "An E chondrite that is petrologic type 5 and has anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52391:4> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "E5-an"  ;
+  skos:notation "E5-an" ;
   skos:prefLabel "Anomalous E5 chondrite meteorite"@en ;
 .
 <etma:1:1:49809:8>
@@ -3241,7 +3241,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "An E chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "E6"  ;
+  skos:notation "E6" ;
   skos:prefLabel "E6 chondrite meteorite"@en ;
 .
 <etma:1:1:49810:4>
@@ -3252,7 +3252,7 @@
   skos:broader <etma:1:1:49800:7> ;
   skos:definition "The high-iron (EH) chemical group of enstatite chondrites, distinguished by small chondrules (0.2 mm), abundant metal (~10 volume percent) that is rich in Si (~3 wt percent ), and an extremely reduced mineral assemblage including niningerite (MgS) and perryite (Fe-Ni silicide)"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH"  ;
+  skos:notation "EH" ;
   skos:prefLabel "EH chondrite meteorite"@en ;
 .
 <etma:1:1:49811:3>
@@ -3264,7 +3264,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "An EH chondrite that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH3"  ;
+  skos:notation "EH3" ;
   skos:prefLabel "EH3 chondrite meteorite"@en ;
 .
 <etma:1:1:49812:2>
@@ -3276,7 +3276,7 @@
   skos:broader <etma:1:1:49813:1> ;
   skos:definition "An EH chondrite that is transitional between petrologic types 3 and 4 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH3/4-an"  ;
+  skos:notation "EH3/4-an" ;
   skos:prefLabel "Anomalous EH3/4 chondrite meteorite"@en ;
 .
 <etma:1:1:49813:1>
@@ -3288,7 +3288,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "An EH chondrite that is of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH4"  ;
+  skos:notation "EH4" ;
   skos:prefLabel "EH4 chondrite meteorite"@en ;
 .
 <etma:1:1:49814:0>
@@ -3300,7 +3300,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "An EH chondrite that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH5"  ;
+  skos:notation "EH5" ;
   skos:prefLabel "EH5 chondrite meteorite"@en ;
 .
 <etma:1:1:49815:9>
@@ -3312,7 +3312,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "An EH chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH6"  ;
+  skos:notation "EH6" ;
   skos:prefLabel "EH6 chondrite meteorite"@en ;
 .
 <etma:1:1:49816:8>
@@ -3323,7 +3323,7 @@
   skos:broader <etma:1:1:49815:9> ;
   skos:definition "An EH6 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH6-melt breccia"  ;
+  skos:notation "EH6-melt breccia" ;
   skos:prefLabel "EH6-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49817:7>
@@ -3334,7 +3334,7 @@
   skos:broader <etma:1:1:49810:4> ;
   skos:definition "An EH chondrite that has been impact melted."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH-imp melt"  ;
+  skos:notation "EH-imp melt" ;
   skos:prefLabel "Impact melted EH chondrite meteorite"@en ;
 .
 <etma:1:1:49818:6>
@@ -3345,7 +3345,7 @@
   skos:broader <etma:1:1:49810:4> ;
   skos:definition "An EH chondrite that has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH-melt rock"  ;
+  skos:notation "EH-melt rock" ;
   skos:prefLabel "EH-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49819:5>
@@ -3357,7 +3357,7 @@
   skos:broader <etma:1:1:49846:9> ;
   skos:definition "An EH chondrite that is of petrologic type 7. Note that perologic type 7 is not used consistently or widely accepted in the literature."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH7"  ;
+  skos:notation "EH7" ;
   skos:prefLabel "EH7 chondrite meteorite"@en ;
 .
 <etma:1:1:49820:1>
@@ -3378,7 +3378,7 @@
   skos:broader <etma:1:1:49820:1> ;
   skos:definition "An EL chondrite that has experienced secondary melting."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL-melt rock"  ;
+  skos:notation "EL-melt rock" ;
   skos:prefLabel "EL-melt rock chondrite meteorite"@en ;
 .
 <etma:1:1:49822:9>
@@ -3390,7 +3390,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "An EL chondrite that is petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL3"  ;
+  skos:notation "EL3" ;
   skos:prefLabel "EL3 chondrite meteorite"@en ;
 .
 <etma:1:1:49823:8>
@@ -3402,7 +3402,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "An EL chondrite that is of petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL4"  ;
+  skos:notation "EL4" ;
   skos:prefLabel "EL4 chondrite meteorite"@en ;
 .
 <etma:1:1:49824:7>
@@ -3414,7 +3414,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "An EL chondrite that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL5"  ;
+  skos:notation "EL5" ;
   skos:prefLabel "EL5 chondrite meteorite"@en ;
 .
 <etma:1:1:49825:6>
@@ -3425,7 +3425,7 @@
   skos:broader <etma:1:1:49824:7> ;
   skos:definition "An EL5 chondrite that is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL5-melt breccia"  ;
+  skos:notation "EL5-melt breccia" ;
   skos:prefLabel "EL5-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:49826:5>
@@ -3437,7 +3437,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "An EL chondrite that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL6"  ;
+  skos:notation "EL6" ;
   skos:prefLabel "EL6 chondrite meteorite"@en ;
 .
 <etma:1:1:49827:4>
@@ -3449,7 +3449,7 @@
   skos:broader <etma:1:1:49828:3> ;
   skos:definition "An EL chondrite that is transitional between petrologic types 6 and 7. Note that perologic type 7 is not used consistently or widely accepted in the literature."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL6/7"  ;
+  skos:notation "EL6/7" ;
   skos:prefLabel "EL6/7 chondrite meteorite"@en ;
 .
 <etma:1:1:49828:3>
@@ -3461,7 +3461,7 @@
   skos:broader <etma:1:1:49846:9> ;
   skos:definition "An EL chondrite that is of petrologic type 7. Note that perologic type 7 is not used consistently or widely accepted in the literature."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EL7"  ;
+  skos:notation "EL7" ;
   skos:prefLabel "EL7 chondrite meteorite"@en ;
 .
 <etma:1:1:49829:2>
@@ -3474,7 +3474,7 @@
   skos:definition "A chondrite characterised by large amounts of dusty matrix and oxygen isotope compositions similar to carbonaceous chondrites, highly reduced mineral compositions and high metal abundances (6 percent  to 10 percent  by volume) that are most like enstatite chondrites, and concentrations of refractory lithophile elements that are most like ordinary chondrites."@en ;
   skos:exactMatch <etma:1:1:49830:8> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "K"  ;
+  skos:notation "K" ;
   skos:prefLabel "K chondrite meteorite"@en ;
 .
 <etma:1:1:49831:7>
@@ -3486,7 +3486,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "A K chondrite that is petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "K3"  ;
+  skos:notation "K3" ;
   skos:prefLabel "K3 chondrite meteorite"@en ;
 .
 <etma:1:1:49832:6>
@@ -3498,7 +3498,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "A K chondrite that is petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "K4"  ;
+  skos:notation "K4" ;
   skos:prefLabel "K4 chondrite meteorite"@en ;
 .
 <etma:1:1:49833:5>
@@ -3511,7 +3511,7 @@
   skos:definition "A chondrite, different from ordinary chondrite in having a more dusty matrix (about 50 percent  of the rock), more oxidized, containing little metallic Fe-Ni and with a higher 17O ratio. Most of the metal is in the form of sulfides. They appear to come from an asteroid regolith."@en ;
   skos:exactMatch <etma:1:1:49834:4> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "R"  ;
+  skos:notation "R" ;
   skos:prefLabel "R chondrite meteorite"@en ;
 .
 <etma:1:1:49835:3>
@@ -3523,7 +3523,7 @@
   skos:broader <etma:1:1:49842:3> ;
   skos:definition "An R chondrite that is petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3"  ;
+  skos:notation "R3" ;
   skos:prefLabel "R3 chondrite meteorite"@en ;
 .
 <etma:1:1:49836:2>
@@ -3535,7 +3535,7 @@
   skos:broader <etma:1:1:49843:2> ;
   skos:definition "An R chondrite that is petrologic type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R4"  ;
+  skos:notation "R4" ;
   skos:prefLabel "R4 chondrite meteorite"@en ;
 .
 <etma:1:1:49837:1>
@@ -3547,7 +3547,7 @@
   skos:broader <etma:1:1:49844:1> ;
   skos:definition "An R chondrite that is petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R5"  ;
+  skos:notation "R5" ;
   skos:prefLabel "R5 chondrite meteorite"@en ;
 .
 <etma:1:1:49838:0>
@@ -3559,7 +3559,7 @@
   skos:broader <etma:1:1:49845:0> ;
   skos:definition "An R chondrite that is petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R6"  ;
+  skos:notation "R6" ;
   skos:prefLabel "R6 chondrite meteorite"@en ;
 .
 <etma:1:1:49839:9>
@@ -3650,7 +3650,7 @@
   skos:broader <etma:1:1:49514:3> ;
   skos:definition "A meteorite that has lost its chondritic texture due to heating and partial melting, but still has nearly chondritic composition."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Achondrite-prim"  ;
+  skos:notation "Achondrite-prim" ;
   skos:prefLabel "Primitive achondrite meteorite"@en ;
 .
 <etma:1:1:49848:7>
@@ -3661,7 +3661,7 @@
   skos:broader <etma:1:1:49847:8> ;
   skos:definition "Acapulcoites, named after the Acapulco, Mexico, fall of 1913, and lodranites, named after the Lodran, Pakistan, fall of 1868, are closely related, equigranular meteorites; acapulcoites are finer grained than lodranites and contain rare, relict chondrules, and there are transitional meteorites between the two types (e.g., EET 84302, GRA 95209). Mineral assemblages are similar to, but distinct from those of ordinary chondrites. Compositions are subchondritic, with lodranites showing a higher degree of fractionation."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Acapulcoite"  ;
+  skos:notation "Acapulcoite" ;
   skos:prefLabel "Acapulcoite meteorite"@en ;
 .
 <etma:1:1:49849:6>
@@ -3673,7 +3673,7 @@
   skos:broader <etma:1:1:49848:7> ;
   skos:definition "A transitional type between acapulcoite and lodranite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Acapulcoite/lodranite"  ;
+  skos:notation "Acapulcoite/lodranite" ;
   skos:prefLabel "Acapulcoite-lodranite meteorite"@en ;
 .
 <etma:1:1:49850:2>
@@ -3685,7 +3685,7 @@
   skos:broader <etma:1:1:50270:8> ;
   skos:definition "Primitive achondrite meteorites almost entirely made from olivine; the parent body might be the Nenetta Asteroid (289 Nenetta). Named after Brachina, a meteorite found in Australia in 1974."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Brachinite"  ;
+  skos:notation "Brachinite" ;
   skos:prefLabel "Brachinite meteorite"@en ;
 .
 <etma:1:1:49851:1>
@@ -3697,7 +3697,7 @@
   skos:broader <etma:1:1:49962:6> ;
   skos:definition "Composed of meteoritic iron and silicate inclusions."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB complex"  ;
+  skos:notation "Iron, IAB complex" ;
   skos:prefLabel "IAB complex iron meteorite"@en ;
 .
 <etma:1:1:49852:0>
@@ -3708,7 +3708,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An IAB complex iron meteorite belonging to the main group (MG)."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-MG"  ;
+  skos:notation "Iron, IAB-MG" ;
   skos:prefLabel "IAB-MG iron meteorite"@en ;
 .
 <etma:1:1:49853:9>
@@ -3719,7 +3719,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An iron meteorite belonging to the low-Au, low-Ni subgroup (sLL) of the IAB complex."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-sLL"  ;
+  skos:notation "Iron, IAB-sLL" ;
   skos:prefLabel "IAB-sLL iron meteorite"@en ;
 .
 <etma:1:1:49854:8>
@@ -3730,7 +3730,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An iron meteorite belonging to the low-Au, medium-Ni subgroup (sLM) of the IAB complex."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-sLM"  ;
+  skos:notation "Iron, IAB-sLM" ;
   skos:prefLabel "IAB-sLM iron meteorite"@en ;
 .
 <etma:1:1:49856:6>
@@ -3741,7 +3741,7 @@
   skos:broader <etma:1:1:49854:8> ;
   skos:definition "An IAB-sLM iron meteorite that has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-sLM-an"  ;
+  skos:notation "Iron, IAB-sLM-an" ;
   skos:prefLabel "Anomalous IAB-sLM iron meteorite"@en ;
 .
 <etma:1:1:49857:5>
@@ -3752,7 +3752,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An iron meteorite belonging to the low-Au, high-Ni subgroup (sLH) of the IAB complex."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-sLH"  ;
+  skos:notation "Iron, IAB-sLH" ;
   skos:prefLabel "IAB-sLH iron meteorite"@en ;
 .
 <etma:1:1:49859:3>
@@ -3763,7 +3763,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An iron meteorite belonging to the high-Au, low-Ni subgroup (sHL) of the IAB complex."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-sHL"  ;
+  skos:notation "Iron, IAB-sHL" ;
   skos:prefLabel "IAB-sHL iron meteorite"@en ;
 .
 <etma:1:1:49860:9>
@@ -3776,7 +3776,7 @@
   skos:definition "An IAB-sHL iron meteorite that has anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52380:8> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IAB-sHL-an"  ;
+  skos:notation "Iron, IAB-sHL-an" ;
   skos:prefLabel "Anomalous IAB-sHL iron meteorite"@en ;
 .
 <etma:1:1:49861:8>
@@ -3787,7 +3787,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An iron meteorite belonging to the high-Au, high-Ni subgroup (sHH) of the IAB complex."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-sHH"  ;
+  skos:notation "Iron, IAB-sHH" ;
   skos:prefLabel "IAB-sHH iron meteorite"@en ;
 .
 <etma:1:1:49862:7>
@@ -3800,7 +3800,7 @@
   skos:definition "An iron meteorite belonging to the IAB complex that does not fit into the known subgroups."@en ;
   skos:exactMatch <etma:1:1:52392:3> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IAB-ung"  ;
+  skos:notation "Iron, IAB-ung" ;
   skos:prefLabel "Ungrouped IAB iron meteorite"@en ;
 .
 <etma:1:1:49863:6>
@@ -3811,7 +3811,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An IAB complex iron meteorite that has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB-an"  ;
+  skos:notation "Iron, IAB-an" ;
   skos:prefLabel "Anomalous IAB iron meteorite"@en ;
 .
 <etma:1:1:49864:5>
@@ -3833,7 +3833,7 @@
   skos:broader <etma:1:1:11263:9> ;
   skos:definition "An lodranite that has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lodranite-an"  ;
+  skos:notation "Lodranite-an" ;
   skos:prefLabel "Lodranite-an meteorite"@en ;
 .
 <etma:1:1:49866:3>
@@ -3844,7 +3844,7 @@
   skos:broader <etma:1:1:49847:8> ;
   skos:definition "Ureilites, named after the Novo-Urei, Russia, fall of 1886, are ultramafic achondrites that contain interstitial carbon as graphite or diamond. The majority consist of olivine + uninverted pigeonite. In a few, the pyroxene is augite and/or orthopyroxene instead. In addition, about 10 percent  of ureilites are polymict breccias, containing a few percent of feldspathic material in addition to typical ureilitic components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Ureilite"  ;
+  skos:notation "Ureilite" ;
   skos:prefLabel "Ureilite meteorite"@en ;
 .
 <etma:1:1:49867:2>
@@ -3855,7 +3855,7 @@
   skos:broader <etma:1:1:49866:3> ;
   skos:definition "An achondrite belonging to the ureilite group with anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Ureilite-an"  ;
+  skos:notation "Ureilite-an" ;
   skos:prefLabel "Anomalous ureilite meteorite"@en ;
 .
 <etma:1:1:49868:1>
@@ -3868,7 +3868,7 @@
   skos:definition "A stony meteorite that, originated on a differentiated parent body, lacks chondrules, belongs to the ureilite group, and is a polymict breccia "@en ;
   skos:exactMatch <etma:1:1:52338:5> ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Ureilite-pmict"  ;
+  skos:notation "Ureilite-pmict" ;
   skos:prefLabel "Polymict ureilite meteorite"@en ;
 .
 <etma:1:1:49869:0>
@@ -3879,7 +3879,7 @@
   skos:broader <etma:1:1:49847:8> ;
   skos:definition "Winonaites, named after the Winona, Arizona, find of 1928, are equigranular rocks, some of which may contain relict chondrules, that have mineralogy and composition that are similar to chondrites.The mineral assemblage is more reduced than that of H chondrites. Winonaites are related to the silicate inclusions found in IAB complex irons."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Winonaite"  ;
+  skos:notation "Winonaite" ;
   skos:prefLabel "Winonaite meteorite"@en ;
 .
 <etma:1:1:49872:4>
@@ -3890,7 +3890,7 @@
   skos:broader <etma:1:1:50270:8> ;
   skos:definition "Angrites, named after the Angra dos Reis, Brazil, fall of 1869, are a relatively rare type of basaltic achondrite with low alkali contents, high Ca/Al ratios, and a distinctive mineral assemblage, generally including Al-Ca-Ti-rich pyroxene, Ca-rich plagioclase, and Ca-rich olivine that may have exsolved the mineral kirschsteinite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Angrite"  ;
+  skos:notation "Angrite" ;
   skos:prefLabel "Angrite meteorite"@en ;
 .
 <etma:1:1:49873:3>
@@ -3901,7 +3901,7 @@
   skos:broader <etma:1:1:50270:8> ;
   skos:definition "Aubrites, named after the Aubres, France, fall of 1836, are enstatite achondrites. Most are breccias (Shallowater being a notable exception) containing igneous and impact-melted clasts. Like enstatite chondrites, aubrites have highly reduced mineralogy, but they probably do not come from the same parent asteroid as either EH or EL chondrites."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Aubrite"  ;
+  skos:notation "Aubrite" ;
   skos:prefLabel "Aubrite meteorite"@en ;
 .
 <etma:1:1:49876:0>
@@ -3912,7 +3912,7 @@
   skos:broader <etma:1:1:50269:2> ;
   skos:definition "An enstatite-rich achondrite that is ungrouped."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Enst achon-ung"  ;
+  skos:notation "Enst achon-ung" ;
   skos:prefLabel "Ungrouped enstatite-rich achondrite meteorite"@en ;
 .
 <etma:1:1:49877:9>
@@ -3933,7 +3933,7 @@
   skos:broader <etma:1:1:49877:9> ;
   skos:definition "Howardites are an abundant group of polymict-breccia achondrites that appear to represent mixtures of eucrites and diogenites (these three linked groups are collectively known as HED meteorites and may come from asteroid 4 Vesta). The main minerals in howardites are pyroxene (largely orthopyroxene) and Na-poor plagioclase. A minority of howardites are rich in solar-wind noble gases and thus inferred to be regolith breccias."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Howardite"  ;
+  skos:notation "Howardite" ;
   skos:prefLabel "Howardite meteorite"@en ;
 .
 <etma:1:1:49879:7>
@@ -3944,7 +3944,7 @@
   skos:broader <etma:1:1:49878:8> ;
   skos:definition "An howardite that has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Howardite-an"  ;
+  skos:notation "Howardite-an" ;
   skos:prefLabel "Anomalous howardite meteorite"@en ;
 .
 <etma:1:1:49880:3>
@@ -3955,7 +3955,7 @@
   skos:broader <etma:1:1:49877:9> ;
   skos:definition "Eucrites are the most abundant type of basaltic achondrite, linked by geochemical traits such as oxygen isotopic ratios and certain elemental ratios, of which Fe/Mn is the most widely cited. The main minerals in eucrites are Fe-rich pyroxene and Na-poor plagioclase. The eucrites are strongly linked with the diogenites and howardites; the three groups are collectively known as HED meteorites and may come from asteroid 4 Vesta.  Note that the name eucrite was previously improperly applied to varieties of gabbro, usually ophitic, where the plagioclase was bytownite with both ortho- and clino-pyroxenes and olivine. An important rock type in the Tertiary complexes of Scotland, UK. This term should no longer be used as a rock name."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite"  ;
+  skos:notation "Eucrite" ;
   skos:prefLabel "Eucrite meteorite"@en ;
 .
 <etma:1:1:49881:2>
@@ -3966,7 +3966,7 @@
   skos:broader <etma:1:1:49880:3> ;
   skos:definition "An anomalous Eucrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-an"  ;
+  skos:notation "Eucrite-an" ;
   skos:prefLabel "Anomalous eucrite meteorite"@en ;
 .
 <etma:1:1:49882:1>
@@ -3977,7 +3977,7 @@
   skos:broader <etma:1:1:49880:3> ;
   skos:definition "An achondrite from the eucrite group; the meteorite is brecciated."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-br"  ;
+  skos:notation "Eucrite-br" ;
   skos:prefLabel "Eucrite breccia meteorite"@en ;
 .
 <etma:1:1:49883:0>
@@ -3988,7 +3988,7 @@
   skos:broader <etma:1:1:49880:3> ;
   skos:definition "An achondrite from the eucrite group; the meteorite is a cumulate eucrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-cm"  ;
+  skos:notation "Eucrite-cm" ;
   skos:prefLabel "Eucrite cumulate meteorite"@en ;
 .
 <etma:1:1:49884:9>
@@ -3999,7 +3999,7 @@
   skos:broader <etma:1:1:49880:3> ;
   skos:definition "An eucrite that is a breccia with melted material forming the matrix and for which the petrologic type has not been determined."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-melt breccia"  ;
+  skos:notation "Eucrite-melt breccia" ;
   skos:prefLabel "Eucrite melt breccia meteorite"@en ;
 .
 <etma:1:1:49885:8>
@@ -4010,7 +4010,7 @@
   skos:broader <etma:1:1:49880:3> ;
   skos:definition "An achondrite from the eucrite group; the meteorite is magneisum-rich."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-Mg rich"  ;
+  skos:notation "Eucrite-Mg rich" ;
   skos:prefLabel "Mg-rich eucrite meteorite"@en ;
 .
 <etma:1:1:49886:7>
@@ -4021,7 +4021,7 @@
   skos:broader <etma:1:1:49882:1> ;
   skos:definition "An achondrite from the eucrite group; the meteorite is a monomict breccia."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-mmict"  ;
+  skos:notation "Eucrite-mmict" ;
   skos:prefLabel "Eucrite monomict breccia meteorite"@en ;
 .
 <etma:1:1:49887:6>
@@ -4032,7 +4032,7 @@
   skos:broader <etma:1:1:49882:1> ;
   skos:definition "An achondrite from the eucrite group; the meteorite is a polymict breccia."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-pmict"  ;
+  skos:notation "Eucrite-pmict" ;
   skos:prefLabel "Eucrite polymict breccia meteorite"@en ;
 .
 <etma:1:1:49888:5>
@@ -4043,7 +4043,7 @@
   skos:broader <etma:1:1:49880:3> ;
   skos:definition "An achondrite from the eucrite group; the meteorite is unbrecciated."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Eucrite-unbr"  ;
+  skos:notation "Eucrite-unbr" ;
   skos:prefLabel "Unbrecciated eucrite meteorite"@en ;
 .
 <etma:1:1:49889:4>
@@ -4054,7 +4054,7 @@
   skos:broader <etma:1:1:49877:9> ;
   skos:definition "Diogenites are an abundant type of achondrite, linked by geochemical traits such as oxygen isotopic ratios and certain elemental ratios, of which Fe/Mn is the most widely cited. The dominant mineral in diogenites is orthopyroxene. The diogenites are strongly linked with two other achondrite groups: eucrites and howardites; the three groups are collectively known as HED meteorites and may come from asteroid 4 Vesta."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Diogenite"  ;
+  skos:notation "Diogenite" ;
   skos:prefLabel "Diogenite meteorite"@en ;
 .
 <etma:1:1:49890:0>
@@ -4065,7 +4065,7 @@
   skos:broader <etma:1:1:49889:4> ;
   skos:definition "A diogenite which is a polymict breccia."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Diogenite-pm"  ;
+  skos:notation "Diogenite-pm" ;
   skos:prefLabel "Polymict breccia diogenite meteorite"@en ;
 .
 <etma:1:1:49891:9>
@@ -4076,7 +4076,7 @@
   skos:broader <etma:1:1:49889:4> ;
   skos:definition "A diogenite which has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Diogenite-an"  ;
+  skos:notation "Diogenite-an" ;
   skos:prefLabel "Anomalous diogenite meteorite"@en ;
 .
 <etma:1:1:49892:8>
@@ -4127,7 +4127,7 @@
   skos:broader <etma:1:1:49889:4> ;
   skos:definition "A diogenite composed of â‰¥90 volume percent olivine"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Diogenite-olivine"  ;
+  skos:notation "Diogenite-olivine" ;
   skos:prefLabel "Dunitic diogenite meteorite"@en ;
 .
 <etma:1:1:49898:2>
@@ -4139,7 +4139,7 @@
   skos:broader <etma:1:1:50269:2> ;
   skos:definition "A stony-iron meteorite composed essentially of large single glassy crystals of olivine (forsterite) embedded in a network of nickel-iron, with accessory troilite, chromite, phosphide, various phosphate minerals, and sometimes pyroxene. Pallasites are believed to have been formed at the interface of the stony mantle and metal core of layered planetoids. For a long time, pallasites have been divided into two groups, Main Group (MGP) and the Eagle Station grouplet (PES), based on their oxygen isotopic signatures and forsterite compositions. However, with the new millennium came not only new pallasite samples, but new pallasite subtypes. Thus, in only a few years, the number of pallasite parent bodies has increased from two to five isotopically and/or mineralogically distinct objects, with Scott (2007) suggesting as many as seven."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Pallasite"  ;
+  skos:notation "Pallasite" ;
   skos:prefLabel "Pallasite meteorite"@en ;
 .
 <etma:1:1:49899:1>
@@ -4150,7 +4150,7 @@
   skos:broader <etma:1:1:49898:2> ;
   skos:definition "A pallasite belonging to the main chemical group. Metal compositions in all PMG are closely related to those in evolved IIIAB irons, and are generally consistent with their formation in the IIIAB parent asteroid. The O-isotope composition of their olivine (forsterite) is a main parameter to separate the main-group pallasites (PMG) and Eagle-Station pallasites (PES). The mean PMG delta 17O (=delta17O- 0.52·delta 18O) value is -0.28 +/- 0.06 per mil. The mean PES delta17O value is much lower, about -4.6 per mil. The major mineral assemblages of most PMG are quite simple, consisting of troilite and schreibersite in addition to olivine (forsterite), kamacite and taenite; olivine Fa values range from 11 to 18 mole percent , with  greater than 80 percent of the values in the range 11.6–13.5 mole percent (Buseck and Goldstein, 1969). Zaisho (Fa18.3) has the highest Fa among PMG (Buseck and Clark, 1984). In addition, several characteristic minor minerals have been reported. Chromite is relatively abundant; some grains have euhedral shapes and seem to have crystallised from a melt (Buseck, 1977). A few chromites are quite massive; a large (10-cm) chromite-olivine assemblage in Brenham was described in detail by Wasson et al. (1999). Phosphates are minor phases in all PMG (common only in Springwater); the identified phosphates are farringtonite, stanfieldite, and merrillite (Buseck and Holdsworth, 1977). Phosphoran olivine is rare in most pallasites but minor amounts may be ubiquitous in the more oxidized PMG (Buseck, 1977; Buseck and Clark, 1984). Low-Ca pyroxene is a rare accessory phase (Buseck, 1977). Some PMG are assigned to an anomalous subset (PMG-an) because of their anomalous properties (deviant metal compositions or appreciably higher olivine Fa contents)."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Pallasite, PMG"  ;
+  skos:notation "Pallasite, PMG" ;
   skos:prefLabel "PMG pallasite meteorite"@en ;
 .
 <etma:1:1:49901:5>
@@ -4161,7 +4161,7 @@
   skos:broader <etma:1:1:49899:1> ;
   skos:definition "A PMG pallasite with anomalous properties (deviant metal composition or appreciably higher olivine Fa content)."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Pallasite, PMG-an"  ;
+  skos:notation "Pallasite, PMG-an" ;
   skos:prefLabel "Anomalous PMG pallasite meteorite"@en ;
 .
 <etma:1:1:49902:4>
@@ -4172,7 +4172,7 @@
   skos:broader <etma:1:1:49898:2> ;
   skos:definition "A grouplet named for a pallasite that was found near Eagle Station, Kentucky, in 1880. They all contain highly fragmented olivines, intermixed with small, irregular olivine splinters, in a nickel-iron matrix. Although their mineral assemblage is similar to PMG pallasites, they have different metal and olivine (forsterite) compositions. In fact, the mean Ni content of the metal is higher, and olivine Fa contents are slightly higher (about Fa20) than those in the Zaisho (Fa18.3), which has the highest Fa among PMG. The O-isotope composition of their olivine (forsterite) is a main parameter to separate the Eagle-Station pallasites (PES) and main-group pallasites (PMG). The mean PMG delta 17O (= delta17O-0.52·delta18O) value is -0.28 +/- 0.06 per mil. The mean PES delta 17O value is much lower, about -4.6 per mil."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Pallasite, PES"  ;
+  skos:notation "Pallasite, PES" ;
   skos:prefLabel "PES pallasite meteorite"@en ;
 .
 <etma:1:1:49904:2>
@@ -4194,7 +4194,7 @@
   skos:broader <etma:1:1:50269:2> ;
   skos:definition "A brecciated meteorite containing subequal silicate (mostly igneous rock fragments) and metallic components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite"  ;
+  skos:notation "Mesosiderite" ;
   skos:prefLabel "Mesosiderite meteorite"@en ;
 .
 <etma:1:1:49906:0>
@@ -4205,7 +4205,7 @@
   skos:broader <etma:1:1:49905:1> ;
   skos:definition "A mesosiderite of petrologic class A."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-A"  ;
+  skos:notation "Mesosiderite-A" ;
   skos:prefLabel "Mesosiderite-A meteorite"@en ;
 .
 <etma:1:1:49907:9>
@@ -4216,7 +4216,7 @@
   skos:broader <etma:1:1:49906:0> ;
   skos:definition "A mesosiderite of petrologic class A and metamorphic grade 1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-A1"  ;
+  skos:notation "Mesosiderite-A1" ;
   skos:prefLabel "Mesosiderite-A1 meteorite"@en ;
 .
 <etma:1:1:49908:8>
@@ -4227,7 +4227,7 @@
   skos:broader <etma:1:1:49906:0> ;
   skos:definition "A mesosiderite of petrologic class A and metamorphic grade 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-A2"  ;
+  skos:notation "Mesosiderite-A2" ;
   skos:prefLabel "Mesosiderite-A2 meteorite"@en ;
 .
 <etma:1:1:49909:7>
@@ -4238,7 +4238,7 @@
   skos:broader <etma:1:1:49906:0> ;
   skos:definition "A mesosiderite of petrologic class A and metamorphic grade 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-A3"  ;
+  skos:notation "Mesosiderite-A3" ;
   skos:prefLabel "Mesosiderite-A3 meteorite"@en ;
 .
 <etma:1:1:49910:3>
@@ -4249,7 +4249,7 @@
   skos:broader <etma:1:1:49906:0> ;
   skos:definition "A mesosiderite of petrologic class A and metamorphic grade 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-A4"  ;
+  skos:notation "Mesosiderite-A4" ;
   skos:prefLabel "Mesosiderite-A4 meteorite"@en ;
 .
 <etma:1:1:49911:2>
@@ -4260,7 +4260,7 @@
   skos:broader <etma:1:1:49906:0> ;
   skos:definition "A mesosiderite with anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-an"  ;
+  skos:notation "Mesosiderite-an" ;
   skos:prefLabel "Anomalous mesosiderite meteorite"@en ;
 .
 <etma:1:1:49912:1>
@@ -4271,7 +4271,7 @@
   skos:broader <etma:1:1:49905:1> ;
   skos:definition "A mesosiderite of petrologic class B."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-B"  ;
+  skos:notation "Mesosiderite-B" ;
   skos:prefLabel "Mesosiderite-B meteorite"@en ;
 .
 <etma:1:1:49913:0>
@@ -4282,7 +4282,7 @@
   skos:broader <etma:1:1:49912:1> ;
   skos:definition "A mesosiderite of petrologic class B and metamorphic grade 1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-B1"  ;
+  skos:notation "Mesosiderite-B1" ;
   skos:prefLabel "Mesosiderite-B1 meteorite"@en ;
 .
 <etma:1:1:49914:9>
@@ -4293,7 +4293,7 @@
   skos:broader <etma:1:1:49912:1> ;
   skos:definition "A mesosiderite of petrologic class B and metamorphic grade 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-B2"  ;
+  skos:notation "Mesosiderite-B2" ;
   skos:prefLabel "Mesosiderite-B2 meteorite"@en ;
 .
 <etma:1:1:49915:8>
@@ -4304,7 +4304,7 @@
   skos:broader <etma:1:1:49912:1> ;
   skos:definition "A mesosiderite of petrologic class B and metamorphic grade 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-B3"  ;
+  skos:notation "Mesosiderite-B3" ;
   skos:prefLabel "Mesosiderite-B3 meteorite"@en ;
 .
 <etma:1:1:49916:7>
@@ -4315,7 +4315,7 @@
   skos:broader <etma:1:1:49912:1> ;
   skos:definition "A mesosiderite of petrologic class B and metamorphic grade 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-B4"  ;
+  skos:notation "Mesosiderite-B4" ;
   skos:prefLabel "Mesosiderite-B4 meteorite"@en ;
 .
 <etma:1:1:49917:6>
@@ -4326,7 +4326,7 @@
   skos:broader <etma:1:1:49905:1> ;
   skos:definition "A mesosiderite of petrologic class C."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-C"  ;
+  skos:notation "Mesosiderite-C" ;
   skos:prefLabel "Mesosiderite-C meteorite"@en ;
 .
 <etma:1:1:49918:5>
@@ -4337,7 +4337,7 @@
   skos:broader <etma:1:1:49917:6> ;
   skos:definition "A mesosiderite of petrologic class C and metamorphic grade 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-C2"  ;
+  skos:notation "Mesosiderite-C2" ;
   skos:prefLabel "Mesosiderite-C2 meteorite"@en ;
 .
 <etma:1:1:49919:4>
@@ -4360,7 +4360,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IC."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IC"  ;
+  skos:notation "Iron, IC" ;
   skos:prefLabel "IC iron meteorite"@en ;
 .
 <etma:1:1:49921:9>
@@ -4373,7 +4373,7 @@
   skos:definition "An IC iron meteorite with anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52381:7> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IC-an"  ;
+  skos:notation "Iron, IC-an" ;
   skos:prefLabel "Anomalous IC iron meteorite"@en ;
 .
 <etma:1:1:49922:8>
@@ -4385,7 +4385,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IIAB."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIAB"  ;
+  skos:notation "Iron, IIAB" ;
   skos:prefLabel "IIAB iron meteorite"@en ;
 .
 <etma:1:1:49923:7>
@@ -4398,7 +4398,7 @@
   skos:definition "An IIAB iron meteorite with anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52382:6> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IIAB-an"  ;
+  skos:notation "Iron, IIAB-an" ;
   skos:prefLabel "Anomalous IIAB iron meteorite"@en ;
 .
 <etma:1:1:49924:6>
@@ -4410,7 +4410,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IIC."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIC"  ;
+  skos:notation "Iron, IIC" ;
   skos:prefLabel "IIC iron meteorite"@en ;
 .
 <etma:1:1:49925:5>
@@ -4422,7 +4422,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IID."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IID"  ;
+  skos:notation "Iron, IID" ;
   skos:prefLabel "IID iron meteorite"@en ;
 .
 <etma:1:1:49926:4>
@@ -4433,7 +4433,7 @@
   skos:broader <etma:1:1:49925:5> ;
   skos:definition "An IID iron meteorite with anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IID-an"  ;
+  skos:notation "Iron, IID-an" ;
   skos:prefLabel "Anomalous IID iron meteorite"@en ;
 .
 <etma:1:1:49927:3>
@@ -4445,7 +4445,7 @@
   skos:broader <etma:1:1:49962:6> ;
   skos:definition "An iron group meteorite of chemical group IIE."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIE"  ;
+  skos:notation "Iron, IIE" ;
   skos:prefLabel "IIE iron meteorite"@en ;
 .
 <etma:1:1:49928:2>
@@ -4458,7 +4458,7 @@
   skos:definition "An IIE iron meteorite with anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52383:5> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IIE-an"  ;
+  skos:notation "Iron, IIE-an" ;
   skos:prefLabel "Anomalous IIE iron meteorite"@en ;
 .
 <etma:1:1:49929:1>
@@ -4470,7 +4470,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IIF."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIF"  ;
+  skos:notation "Iron, IIF" ;
   skos:prefLabel "IIF iron meteorite"@en ;
 .
 <etma:1:1:49930:7>
@@ -4482,7 +4482,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IIIAB."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIIAB"  ;
+  skos:notation "Iron, IIIAB" ;
   skos:prefLabel "IIIAB iron meteorite"@en ;
 .
 <etma:1:1:49931:6>
@@ -4495,7 +4495,7 @@
   skos:definition "An IIIAB iron meteorite with anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52384:4> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IIIAB-an"  ;
+  skos:notation "Iron, IIIAB-an" ;
   skos:prefLabel "Anomalous IIIAB iron meteorite"@en ;
 .
 <etma:1:1:49932:5>
@@ -4507,7 +4507,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IIIE."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIIE"  ;
+  skos:notation "Iron, IIIE" ;
   skos:prefLabel "IIIE iron meteorite"@en ;
 .
 <etma:1:1:49933:4>
@@ -4520,7 +4520,7 @@
   skos:definition "An IIIE iron meteorite with anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52385:3> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IIIE-an"  ;
+  skos:notation "Iron, IIIE-an" ;
   skos:prefLabel "Anomalous IIIE iron meteorite"@en ;
 .
 <etma:1:1:49934:3>
@@ -4532,7 +4532,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IIIF."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIIF"  ;
+  skos:notation "Iron, IIIF" ;
   skos:prefLabel "IIIF iron meteorite"@en ;
 .
 <etma:1:1:49935:2>
@@ -4544,7 +4544,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IVA."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IVA"  ;
+  skos:notation "Iron, IVA" ;
   skos:prefLabel "IVA iron meteorite"@en ;
 .
 <etma:1:1:49936:1>
@@ -4557,7 +4557,7 @@
   skos:definition "An IVA iron meteorite with anomalous properties."@en ;
   skos:exactMatch <etma:1:1:52386:2> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "Iron, IVA-an"  ;
+  skos:notation "Iron, IVA-an" ;
   skos:prefLabel "Anomalous IVA iron meteorite"@en ;
 .
 <etma:1:1:49937:0>
@@ -4569,7 +4569,7 @@
   skos:broader <etma:1:1:49961:7> ;
   skos:definition "An iron group meteorite of chemical group IVB."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IVB"  ;
+  skos:notation "Iron, IVB" ;
   skos:prefLabel "IVB iron meteorite"@en ;
 .
 <etma:1:1:49938:9>
@@ -4580,7 +4580,7 @@
   skos:broader <etma:1:1:50269:2> ;
   skos:definition "A class of achronditic Martian meteorites."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Martian"  ;
+  skos:notation "Martian" ;
   skos:prefLabel "Martian achrondite meteorite"@en ;
 .
 <etma:1:1:49939:8>
@@ -4591,7 +4591,7 @@
   skos:broader <etma:1:1:49938:9> ;
   skos:definition "A class of Martian meteorites comprising basalt and gabbro formed from subalkaline magmas."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Martian (shergottite)"  ;
+  skos:notation "Martian (shergottite)" ;
   skos:prefLabel "Shergottite meteorite"@en ;
 .
 <etma:1:1:49941:3>
@@ -4632,7 +4632,7 @@
   skos:broader <etma:1:1:49938:9> ;
   skos:definition "A clinopyroxenite composition Martian meteorite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Martian (nakhlite)"  ;
+  skos:notation "Martian (nakhlite)" ;
   skos:prefLabel "Nakhlite meteorite"@en ;
 .
 <etma:1:1:49947:7>
@@ -4644,7 +4644,7 @@
   skos:broader <etma:1:1:49938:9> ;
   skos:definition "A dunite composition Martian meteorite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Martian (chassignite)"  ;
+  skos:notation "Martian (chassignite)" ;
   skos:prefLabel "Chassignite meteorite"@en ;
 .
 <etma:1:1:49950:1>
@@ -4655,7 +4655,7 @@
   skos:broader <etma:1:1:50275:3> ;
   skos:definition "A lunar achondrite meteorite that is primarily anorthositic."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (anorth)"  ;
+  skos:notation "Lunar (anorth)" ;
   skos:prefLabel "Anorthositic Lunar meteorite"@en ;
 .
 <etma:1:1:49951:0>
@@ -4666,7 +4666,7 @@
   skos:broader <etma:1:1:49955:6> ;
   skos:definition "A lunar achondrite meteorite that is a breccia of primarily basaltic lithologies."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (bas. breccia)"  ;
+  skos:notation "Lunar (bas. breccia)" ;
   skos:prefLabel "Basaltic breccia Lunar meteorite"@en ;
 .
 <etma:1:1:49952:9>
@@ -4677,7 +4677,7 @@
   skos:broader <etma:1:1:49955:6> ;
   skos:definition "A lunar achondrite meteorite that has both basaltic and anorthositic lithologies."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (bas/anor)"  ;
+  skos:notation "Lunar (bas/anor)" ;
   skos:prefLabel "Basaltic and anorthositic Lunar meteorite"@en ;
 .
 <etma:1:1:49953:8>
@@ -4688,7 +4688,7 @@
   skos:broader <etma:1:1:49951:0> ;
   skos:definition "A lunar achondrite meteorite that is a breccia of both basaltic and gabbroic lithologies."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (bas/gab brec)"  ;
+  skos:notation "Lunar (bas/gab brec)" ;
   skos:prefLabel "Basaltic and gabbroic breccia Lunar meteorite"@en ;
 .
 <etma:1:1:49954:7>
@@ -4699,7 +4699,7 @@
   skos:broader <etma:1:1:50275:3> ;
   skos:definition "A lunar achondrite meteorite that is a breccia of primarily feldspathic lithologies."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (feldsp. breccia)"  ;
+  skos:notation "Lunar (feldsp. breccia)" ;
   skos:prefLabel "Feldspathic breccia Lunar meteorite"@en ;
 .
 <etma:1:1:49955:6>
@@ -4710,7 +4710,7 @@
   skos:broader <etma:1:1:50275:3> ;
   skos:definition "A lunar achondrite meteorite that is primarily basaltic."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (basalt)"  ;
+  skos:notation "Lunar (basalt)" ;
   skos:prefLabel "Basaltic Lunar meteorite"@en ;
 .
 <etma:1:1:49956:5>
@@ -4721,7 +4721,7 @@
   skos:broader <etma:1:1:50275:3> ;
   skos:definition "A lunar achondrite meteorite that is primarily gabbroic."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (gabbro)"  ;
+  skos:notation "Lunar (gabbro)" ;
   skos:prefLabel "Gabbroic Lunar meteorite"@en ;
 .
 <etma:1:1:49957:4>
@@ -4732,7 +4732,7 @@
   skos:broader <etma:1:1:50275:3> ;
   skos:definition "A lunar achondrite meteorite that is primarily noritic."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (norite)"  ;
+  skos:notation "Lunar (norite)" ;
   skos:prefLabel "Noritic Lunar meteorite"@en ;
 .
 <etma:1:1:49958:3>
@@ -4743,7 +4743,7 @@
   skos:broader <etma:1:1:49956:5> ;
   skos:definition "A lunar achondrite meteorite that is primarily an olivine-bearing gabbro."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (olivine gabbro)"  ;
+  skos:notation "Lunar (olivine gabbro)" ;
   skos:prefLabel "Olivine-bearing gabbroic Lunar meteorite"@en ;
 .
 <etma:1:1:49959:2>
@@ -4754,7 +4754,7 @@
   skos:broader <etma:1:1:49950:1> ;
   skos:definition "A lunar achondrite meteorite that is primarily made up of troctolitic anorthosite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar (troct. anorth.)"  ;
+  skos:notation "Lunar (troct. anorth.)" ;
   skos:prefLabel "Trocolitic anorthositic Lunar meteorite"@en ;
 .
 <etma:1:1:49960:8>
@@ -4765,7 +4765,7 @@
   skos:broader <etma:1:1:49514:3> ;
   skos:definition "Meteorites composed primarily of meteoritic iron - this is an alternative classification category."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron"  ;
+  skos:notation "Iron" ;
   skos:prefLabel "Iron meteorite"@en ;
 .
 <etma:1:1:49961:7>
@@ -4831,7 +4831,7 @@
   skos:broader <etma:1:1:50269:2> ;
   skos:definition "lunar rocks that were ejected from the Moon by impacts and later fell to the Earth as meteorites"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Lunar"  ;
+  skos:notation "Lunar" ;
   skos:prefLabel "Lunar achondrite meteorite"@en ;
 .
 <etma:1:1:50444:1>
@@ -4843,7 +4843,7 @@
   skos:broader <etma:1:1:49557:8> ;
   skos:definition "A CM chondrite that is a breccia containing materials of petrologic type 1 and 2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CM1-2"  ;
+  skos:notation "CM1-2" ;
   skos:prefLabel "CM1-2 chondrite meteorite"@en ;
 .
 <etma:1:1:50445:0>
@@ -4855,7 +4855,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L3"  ;
+  skos:notation "H/L3" ;
   skos:prefLabel "H/L3 chondrite meteorite"@en ;
 .
 <etma:1:1:50446:9>
@@ -4867,7 +4867,7 @@
   skos:broader <etma:1:1:49606:3> ;
   skos:definition "An H chondrite that is a breccia of components ranging from petrologic type 3 to type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3-4"  ;
+  skos:notation "H3-4" ;
   skos:prefLabel "H3-4 chondrite meteorite"@en ;
 .
 <etma:1:1:50447:8>
@@ -4879,7 +4879,7 @@
   skos:broader <etma:1:1:49617:9> ;
   skos:definition "An H chondrite or L chondrite that is a breccia of petrological type 4 and 5 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L4-5"  ;
+  skos:notation "H/L4-5" ;
   skos:prefLabel "H/L4-5 chondrite meteorite"@en ;
 .
 <etma:1:1:50448:7>
@@ -4890,7 +4890,7 @@
   skos:broader <etma:1:1:49606:3> ;
   skos:definition "An H chondrite that is a breccia of petrological type 4 and 5 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H4-5"  ;
+  skos:notation "H4-5" ;
   skos:prefLabel "H4-5 chondrite meteorite"@en ;
 .
 <etma:1:1:50449:6>
@@ -4902,7 +4902,7 @@
   skos:broader <etma:1:1:49710:5> ;
   skos:definition "An H chondrite or L chondrite that is of petrological type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H/L6"  ;
+  skos:notation "H/L6" ;
   skos:prefLabel "H/L6 chondrite meteorite"@en ;
 .
 <etma:1:1:50450:2>
@@ -4913,7 +4913,7 @@
   skos:broader <etma:1:1:49649:8> ;
   skos:definition "An L chondrite that is petrologic type 3.4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3.4"  ;
+  skos:notation "L3.4" ;
   skos:prefLabel "L3.4 chondrite meteorite"@en ;
 .
 <etma:1:1:50451:1>
@@ -4925,7 +4925,7 @@
   skos:broader <etma:1:1:49695:7> ;
   skos:definition "An L chondrite that is petrologic type 3 to 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L3/4"  ;
+  skos:notation "L3/4" ;
   skos:prefLabel "L3/4 chondrite meteorite"@en ;
 .
 <etma:1:1:50452:0>
@@ -4937,7 +4937,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An L chondrite (or less likely, an LL chondrite) that is of petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(LL)3"  ;
+  skos:notation "L(LL)3" ;
   skos:prefLabel "L(LL)3 chondrite meteorite"@en ;
 .
 <etma:1:1:50453:9>
@@ -4949,7 +4949,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3"  ;
+  skos:notation "L/LL3" ;
   skos:prefLabel "L/LL3 chondrite meteorite"@en ;
 .
 <etma:1:1:50454:8>
@@ -4960,7 +4960,7 @@
   skos:broader <etma:1:1:49683:2> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 3.1."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3.10"  ;
+  skos:notation "L/LL3.10" ;
   skos:prefLabel "L/LL3.1 chondrite meteorite"@en ;
 .
 <etma:1:1:50455:7>
@@ -4971,7 +4971,7 @@
   skos:broader <etma:1:1:50453:9> ;
   skos:definition "An L chondrite or LL chondrite that is of petrological type 3.2."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL3.2"  ;
+  skos:notation "L/LL3.2" ;
   skos:prefLabel "L/LL3.2 chondrite meteorite"@en ;
 .
 <etma:1:1:50456:6>
@@ -4983,7 +4983,7 @@
   skos:broader <etma:1:1:49702:6> ;
   skos:definition "An L chondrite that is a breccia of petrological types 4 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L4-5"  ;
+  skos:notation "L4-5" ;
   skos:prefLabel "L4-5 chondrite meteorite"@en ;
 .
 <etma:1:1:50457:5>
@@ -4995,7 +4995,7 @@
   skos:broader <etma:1:1:49772:5> ;
   skos:definition "An L chondrite (or less likely, an LL chondrite) that is of petrologic type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(LL)5"  ;
+  skos:notation "L(LL)5" ;
   skos:prefLabel "L(LL)5 chondrite meteorite"@en ;
 .
 <etma:1:1:50458:4>
@@ -5007,7 +5007,7 @@
   skos:broader <etma:1:1:50459:3> ;
   skos:definition "An L chondrite (or less likely, an LL chondrite) that is a breccia of components ranging from petrologic type 5 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L/LL5-6"  ;
+  skos:notation "L/LL5-6" ;
   skos:prefLabel "L/LL5-6 chondrite meteorite"@en ;
 .
 <etma:1:1:50459:3>
@@ -5019,7 +5019,7 @@
   skos:broader <etma:1:1:49776:1> ;
   skos:definition "An L chondrite (or less likely, an LL chondrite) that is of petrologic type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "L(LL)6"  ;
+  skos:notation "L(LL)6" ;
   skos:prefLabel "L(LL)6 chondrite meteorite"@en ;
 .
 <etma:1:1:50460:9>
@@ -5031,7 +5031,7 @@
   skos:broader <etma:1:1:49768:2> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 3 to 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3-4"  ;
+  skos:notation "LL3-4" ;
   skos:prefLabel "LL3-4 chondrite meteorite"@en ;
 .
 <etma:1:1:50461:8>
@@ -5042,7 +5042,7 @@
   skos:broader <etma:1:1:49746:0> ;
   skos:definition "An LL chondrite that is petrologic type 3.4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL3.4"  ;
+  skos:notation "LL3.4" ;
   skos:prefLabel "LL3.4 chondrite meteorite"@en ;
 .
 <etma:1:1:50462:7>
@@ -5054,7 +5054,7 @@
   skos:broader <etma:1:1:49772:5> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 4 to 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL4-5"  ;
+  skos:notation "LL4-5" ;
   skos:prefLabel "LL4-5 chondrite meteorite"@en ;
 .
 <etma:1:1:50463:6>
@@ -5066,7 +5066,7 @@
   skos:broader <etma:1:1:49776:1> ;
   skos:definition "An LL chondrite that is a breccia of petrological types 5 to 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL5-6"  ;
+  skos:notation "LL5-6" ;
   skos:prefLabel "LL5-6 chondrite meteorite"@en ;
 .
 <etma:1:1:51453:6>
@@ -5088,7 +5088,7 @@
   skos:broader <etma:1:1:49938:9> ;
   skos:definition "An orthopyroxene-rich martian meteorite; this martian meteorite is not assigned to the shergottite, nakhlite, or chassignite types."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Martian (OPX)"  ;
+  skos:notation "Martian (OPX)" ;
   skos:prefLabel "Orthopyroxene-rich Martian meteorite"@en ;
 .
 <etma:1:1:52198:9>
@@ -5099,7 +5099,7 @@
   skos:broader <etma:1:1:49938:9> ;
   skos:definition "A martian meteorite that is a breccia dominantly composed of basaltic clasts; this martian meteorite is not assigned to the shergottite, nakhlite, or chassignite types."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Martian (basaltic breccia)"  ;
+  skos:notation "Martian (basaltic breccia)" ;
   skos:prefLabel "Martian (basaltic breccia) meteorite"@en ;
 .
 <etma:1:1:52199:8>
@@ -5110,7 +5110,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An H chondrite that is petrological type 3.5"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.5"  ;
+  skos:notation "H3.5" ;
   skos:prefLabel "H3.5 chondrite meteorite"@en ;
 .
 <etma:1:1:52200:3>
@@ -5121,7 +5121,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An H chondrite that is petrological type 3.4"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.4"  ;
+  skos:notation "H3.4" ;
   skos:prefLabel "H3.4 chondrite meteorite"@en ;
 .
 <etma:1:1:52201:2>
@@ -5132,7 +5132,7 @@
   skos:broader <etma:1:1:50269:2> ;
   skos:definition "A stony meteorite that lacks chondrules and originated on a differentiated parent body, which has been well-enough characterized to determine that it does not fit into any of the established groups."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Achondrite-ung"  ;
+  skos:notation "Achondrite-ung" ;
   skos:prefLabel "Ungrouped Achondrite meteorite"@en ;
 .
 <etma:1:1:52202:1>
@@ -5145,7 +5145,7 @@
   skos:definition "A carbonaceous chondrite of unspecified petrologic type that is ungrouped."@en ;
   skos:exactMatch <etma:1:1:52363:1> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "C-ung"  ;
+  skos:notation "C-ung" ;
   skos:prefLabel "Ungrouped C chondrite meteorite"@en ;
 .
 <etma:1:1:52203:0>
@@ -5157,7 +5157,7 @@
   skos:broader <etma:1:1:49551:4> ;
   skos:definition "A carbonaceous chondrite of the CK group with clasts ranging from petrologic type type 3 to type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK3-6"  ;
+  skos:notation "CK3-6" ;
   skos:prefLabel "CK3-6 chondrite meteorite"@en ;
 .
 <etma:1:1:52204:9>
@@ -5181,7 +5181,7 @@
   skos:broader <etma:1:1:49550:5> ;
   skos:definition "A carbonaceous chondrite of the CK group that is either petrologic type 4 or type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK4/5"  ;
+  skos:notation "CK4/5" ;
   skos:prefLabel "CK4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:52206:7>
@@ -5194,7 +5194,7 @@
   skos:definition "A carbonaceous chondrite of the CK group that is anomalous and petrologic type 5."@en ;
   skos:exactMatch <etma:1:1:52387:1> ;
   skos:inScheme <http://example.org/mindat/etmat/cscheme> ;
-  skos:notation "CK5-an"  ;
+  skos:notation "CK5-an" ;
   skos:prefLabel "Anomalous CK5 chondrite meteorite"@en ;
 .
 <etma:1:1:52207:6>
@@ -5206,7 +5206,7 @@
   skos:broader <etma:1:1:49551:4> ;
   skos:definition "A carbonaceous chondrite of the CK group that is either petrologic type 5 or type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CK5/6"  ;
+  skos:notation "CK5/6" ;
   skos:prefLabel "CK5/6 chondrite meteorite"@en ;
 .
 <etma:1:1:52208:5>
@@ -5217,7 +5217,7 @@
   skos:broader <etma:1:1:49813:1> ;
   skos:definition "An enstatite chondrite of the EH group that is either petrologic type 4 or 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH4/5"  ;
+  skos:notation "EH4/5" ;
   skos:prefLabel "EH4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:52209:4>
@@ -5229,7 +5229,7 @@
   skos:broader <etma:1:1:49836:2> ;
   skos:definition "An R chondrite that is a breccia of type 3 and type 4 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3-4"  ;
+  skos:notation "R3-4" ;
   skos:prefLabel "R3-4 chondrite meteorite"@en ;
 .
 <etma:1:1:52210:0>
@@ -5241,7 +5241,7 @@
   skos:broader <etma:1:1:49837:1> ;
   skos:definition "An R chondrite that is a breccia of type 3 to type 5 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3-5"  ;
+  skos:notation "R3-5" ;
   skos:prefLabel "R3-5 chondrite meteorite"@en ;
 .
 <etma:1:1:52211:9>
@@ -5253,7 +5253,7 @@
   skos:broader <etma:1:1:49838:0> ;
   skos:definition "An R chondrite that is a breccia of type 3 to type 6 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3-6"  ;
+  skos:notation "R3-6" ;
   skos:prefLabel "R3-6 chondrite meteorite"@en ;
 .
 <etma:1:1:52212:8>
@@ -5264,7 +5264,7 @@
   skos:broader <etma:1:1:49835:3> ;
   skos:definition "An R chondrite that is petrologic type 3.4"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.4"  ;
+  skos:notation "R3.4" ;
   skos:prefLabel "R3.4 chondrite meteorite"@en ;
 .
 <etma:1:1:52213:7>
@@ -5275,7 +5275,7 @@
   skos:broader <etma:1:1:52209:4> ;
   skos:definition "An R chondrite that is a breccia of type 3.5 to type 4 components."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.5-4"  ;
+  skos:notation "R3.5-4" ;
   skos:prefLabel "R3.5-4 chondrite meteorite"@en ;
 .
 <etma:1:1:52214:6>
@@ -5286,7 +5286,7 @@
   skos:broader <etma:1:1:52211:9> ;
   skos:definition "An R chondrite that is a breccia of components ranging from petrologic type 3.5 to type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.5-6"  ;
+  skos:notation "R3.5-6" ;
   skos:prefLabel "R3.5-6 chondrite meteorite"@en ;
 .
 <etma:1:1:52215:5>
@@ -5297,7 +5297,7 @@
   skos:broader <etma:1:1:49835:3> ;
   skos:definition "An R chondrite that is petrologic type 3.6"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.6"  ;
+  skos:notation "R3.6" ;
   skos:prefLabel "R3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:52216:4>
@@ -5308,7 +5308,7 @@
   skos:broader <etma:1:1:49835:3> ;
   skos:definition "An R chondrite that is petrologic type 3.7"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.7"  ;
+  skos:notation "R3.7" ;
   skos:prefLabel "R3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:52217:3>
@@ -5319,7 +5319,7 @@
   skos:broader <etma:1:1:49835:3> ;
   skos:definition "An R chondrite that is petrologic type 3.8"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.8"  ;
+  skos:notation "R3.8" ;
   skos:prefLabel "R3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:52218:2>
@@ -5330,7 +5330,7 @@
   skos:broader <etma:1:1:52210:0> ;
   skos:definition "An R chondrite that is a breccia of components ranging from petrologic type 3.8 to type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.8-5"  ;
+  skos:notation "R3.8-5" ;
   skos:prefLabel "R3.8-5 chondrite meteorite"@en ;
 .
 <etma:1:1:52219:1>
@@ -5341,7 +5341,7 @@
   skos:broader <etma:1:1:52211:9> ;
   skos:definition "An R chondrite that is a breccia of components ranging from petrologic type 3.8 to type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.8-6"  ;
+  skos:notation "R3.8-6" ;
   skos:prefLabel "R3.8-6 chondrite meteorite"@en ;
 .
 <etma:1:1:52220:7>
@@ -5352,7 +5352,7 @@
   skos:broader <etma:1:1:49835:3> ;
   skos:definition "An R chondrite of petrologic type 3.9"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3.9"  ;
+  skos:notation "R3.9" ;
   skos:prefLabel "R3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:52221:6>
@@ -5364,7 +5364,7 @@
   skos:broader <etma:1:1:49836:2> ;
   skos:definition "An R chondrite that is either petrologic type 3 or type 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R3/4"  ;
+  skos:notation "R3/4" ;
   skos:prefLabel "R3/4 chondrite meteorite"@en ;
 .
 <etma:1:1:52222:5>
@@ -5376,7 +5376,7 @@
   skos:broader <etma:1:1:49837:1> ;
   skos:definition "An R chondrite that is a breccia of components ranging from petrologic type 4 to type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R4-5"  ;
+  skos:notation "R4-5" ;
   skos:prefLabel "R4-5 chondrite meteorite"@en ;
 .
 <etma:1:1:52223:4>
@@ -5388,7 +5388,7 @@
   skos:broader <etma:1:1:49838:0> ;
   skos:definition "An R chondrite that is a breccia of components ranging from petrologic type 4 to type 6."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R4-6"  ;
+  skos:notation "R4-6" ;
   skos:prefLabel "R4-6 chondrite meteorite"@en ;
 .
 <etma:1:1:52224:3>
@@ -5400,7 +5400,7 @@
   skos:broader <etma:1:1:49837:1> ;
   skos:definition "An R chondrite that is either petrologic type 4 or type 5."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "R4/5"  ;
+  skos:notation "R4/5" ;
   skos:prefLabel "R4/5 chondrite meteorite"@en ;
 .
 <etma:1:1:52225:2>
@@ -5412,7 +5412,7 @@
   skos:broader <etma:1:1:49910:3> ;
   skos:definition "A mesosiderite of petrologic class A and metamorphic grade 3 or 4."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Mesosiderite-A3/4"  ;
+  skos:notation "Mesosiderite-A3/4" ;
   skos:prefLabel "Mesosiderite-A3/4 meteorite"@en ;
 .
 <etma:1:1:52226:1>
@@ -5423,7 +5423,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An ordinary chondrite from the H group that is petrologic type 3.8"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.8"  ;
+  skos:notation "H3.8" ;
   skos:prefLabel "H3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:52227:0>
@@ -5434,7 +5434,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An ordinary chondrite from the H group that is petrologic type 3.9"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.9"  ;
+  skos:notation "H3.9" ;
   skos:prefLabel "H3.9 chondrite meteorite"@en ;
 .
 <etma:1:1:52228:9>
@@ -5445,7 +5445,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An ordinary chondrite from the H group that is petrologic type 3.6"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.6"  ;
+  skos:notation "H3.6" ;
   skos:prefLabel "H3.6 chondrite meteorite"@en ;
 .
 <etma:1:1:52229:8>
@@ -5456,7 +5456,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An ordinary chondrite from the H group that is petrologic type 3.7"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.7"  ;
+  skos:notation "H3.7" ;
   skos:prefLabel "H3.7 chondrite meteorite"@en ;
 .
 <etma:1:1:52231:3>
@@ -5467,7 +5467,7 @@
   skos:broader <etma:1:1:49960:8> ;
   skos:definition "meteorite that is dominantly composed of Fe-Ni metal and that crystallized from a melt and does not fit into any of the established chemical groups"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, ungrouped"  ;
+  skos:notation "Iron, ungrouped" ;
   skos:prefLabel "Ungrouped iron meteorite"@en ;
 .
 <etma:1:1:52237:7>
@@ -5478,7 +5478,7 @@
   skos:broader <etma:1:1:49514:3> ;
   skos:definition "A highly altered object that is likely to have a meteoritic origin. These are dominantly (>95%) composed of secondary minerals formed from alteration after it landed."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Relict meteorite"  ;
+  skos:notation "Relict meteorite" ;
   skos:prefLabel "Relict meteorite"@en ;
 .
 <etma:1:1:52238:6>
@@ -5489,7 +5489,7 @@
   skos:broader <etma:1:1:52237:7> ;
   skos:definition "A relict meteorite that originated as an H group ordinary chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Relict H"  ;
+  skos:notation "Relict H" ;
   skos:prefLabel "Relict H meteorite"@en ;
 .
 <etma:1:1:52239:5>
@@ -5500,7 +5500,7 @@
   skos:broader <etma:1:1:52237:7> ;
   skos:definition "A relict meteorite that originated as an iron meteorite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Relict iron"  ;
+  skos:notation "Relict iron" ;
   skos:prefLabel "Relict iron meteorite"@en ;
 .
 <etma:1:1:52240:1>
@@ -5511,7 +5511,7 @@
   skos:broader <etma:1:1:52237:7> ;
   skos:definition "A relict meteorite that originated as an ordinary chondrite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Relict OC"  ;
+  skos:notation "Relict OC" ;
   skos:prefLabel "Relict OC meteorite"@en ;
 .
 <etma:1:1:52241:0>
@@ -5522,7 +5522,7 @@
   skos:broader <etma:1:1:52237:7> ;
   skos:definition "A relict meteorite that originated as a ureilite."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Relict ureilite"  ;
+  skos:notation "Relict ureilite" ;
   skos:prefLabel "Relict ureilite meteorite"@en ;
 .
 <etma:1:1:52360:4>
@@ -5533,7 +5533,7 @@
   skos:broader <etma:1:1:49819:5> ;
   skos:definition "An enstatite chondrite of the EH group that is petrologic type 7 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "EH7-an"  ;
+  skos:notation "EH7-an" ;
   skos:prefLabel "Anomalous EH7 chondrite meteorite"@en ;
 .
 <etma:1:1:52368:6>
@@ -5544,7 +5544,7 @@
   skos:broader <etma:1:1:49585:1> ;
   skos:definition "An H chondrite meteorite that is of petrologic type 3.3"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.3"  ;
+  skos:notation "H3.3" ;
   skos:prefLabel "H3.3 chondrite meteorite"@en ;
 .
 <etma:1:1:52369:5>
@@ -5555,7 +5555,7 @@
   skos:broader <etma:1:1:49514:3> ;
   skos:definition "A stony meteorite that has not yet been classified."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Stone-uncl"  ;
+  skos:notation "Stone-uncl" ;
   skos:prefLabel "Unclassified stony meteorite"@en ;
 .
 <etma:1:1:52370:1>
@@ -5566,7 +5566,7 @@
   skos:broader <etma:1:1:49919:4> ;
   skos:definition "An iron meteorite belonging to chemical group IIG"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IIG"  ;
+  skos:notation "Iron, IIG" ;
   skos:prefLabel "IIG iron meteorite"@en ;
 .
 <etma:1:1:52371:0>
@@ -5577,7 +5577,7 @@
   skos:broader <etma:1:1:49898:2> ;
   skos:definition "A pallasite that is neither a member of the main group nor the Eagle Station grouplet, and is therefore ungrouped."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Pallasite, ungrouped"  ;
+  skos:notation "Pallasite, ungrouped" ;
   skos:prefLabel "Ungrouped pallasite meteorite"@en ;
 .
 <etma:1:1:52372:9>
@@ -5588,7 +5588,7 @@
   skos:broader <etma:1:1:49873:3> ;
   skos:definition "An aubrite with certain anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Aubrite-an"  ;
+  skos:notation "Aubrite-an" ;
   skos:prefLabel "Anomalous aubrite meteorite"@en ;
 .
 <etma:1:1:52373:8>
@@ -5599,7 +5599,7 @@
   skos:broader <etma:1:1:49960:8> ;
   skos:definition "A possible iron meteorite that has not been classified."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron?"  ;
+  skos:notation "Iron?" ;
   skos:prefLabel "Possible iron meteorite"@en ;
 .
 <etma:1:1:52374:7>
@@ -5610,7 +5610,7 @@
   skos:broader <etma:1:1:49581:5> ;
   skos:definition "An ordinary chondrite, not yet assigned to a group, that is petrologic type 3."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "OC3"  ;
+  skos:notation "OC3" ;
   skos:prefLabel "OC3 chondrite meteorite"@en ;
 .
 <etma:1:1:52393:2>
@@ -5621,7 +5621,7 @@
   skos:broader <etma:1:1:49851:1> ;
   skos:definition "An iron meteorite that may belong to the IAB complex."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "Iron, IAB?"  ;
+  skos:notation "Iron, IAB?" ;
   skos:prefLabel "Possible IAB complex iron meteorite"@en ;
 .
 <etma:1:1:52394:1>
@@ -5632,7 +5632,7 @@
   skos:broader <etma:1:1:49745:1> ;
   skos:definition "An ordinary chondrite from the LL group that is petrologic type 7. Note: Type 7 designates chondrites which have been metamorphosed to nearly the point of melting. Minerals are equilibrated and chondrules are indistinct or absent. This term is not used consistently or widely accepted in the literature."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "LL7"  ;
+  skos:notation "LL7" ;
   skos:prefLabel "LL7 chondrite meteorite"@en ;
 .
 <etma:1:1:52395:0>
@@ -5643,7 +5643,7 @@
   skos:broader <etma:1:1:52226:1> ;
   skos:definition "An ordinary chondrite from the H group that is petrologic type 3.8 and has anomalous properties."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "H3.8-an"  ;
+  skos:notation "H3.8-an" ;
   skos:prefLabel "Anomalous H3.8 chondrite meteorite"@en ;
 .
 <etma:1:1:52396:9>
@@ -5654,7 +5654,7 @@
   skos:broader <etma:1:1:49560:2> ;
   skos:definition "A carbonaceous chondrite of the CO group that is petrologic type 3 and is a breccia with melted material forming the matrix."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
-  skos:notation "CO3-melt breccia"  ;
+  skos:notation "CO3-melt breccia" ;
   skos:prefLabel "CO3-melt breccia chondrite meteorite"@en ;
 .
 <etma:1:1:52720:2>
@@ -5711,6 +5711,7 @@
   skos:changeNote "First draft"@en ;
   skos:editorialNote "SKOS generated from Excel spreadsheet with compilation pulled from Mindat using the MinDat API. Mindat records were pulled with API search for entries that have a meteoritical_code, have 'meteorite' in the name, or are included in the class hierarchy displayed under 'Meteorite and other extra-terrestrial rock and sediment' on the web pages.  Some definitions were added directly from https://www.lpi.usra.edu/meteor web pages, or lacking other sources, Wikipedia."@en ;
   skos:hasTopConcept <https://mindat.org/1:1:49504:6> ;
+  skos:prefLabel "Extraterrestrial Materials"@en ;
 .
 <http://xmlns.com/foaf/0.1/name>
   rdf:type rdf:Property ;
