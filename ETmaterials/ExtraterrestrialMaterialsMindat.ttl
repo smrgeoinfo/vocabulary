@@ -3632,7 +3632,7 @@
   dcterms:source "https://www.mindat.org/min-49845.html" ;
   rdfs:label "Petrologic Type 6 chondrite meteorite"@en ;
   skos:broader <etma:1:1:49839:9> ;
-  skos:definition "Chondrites that have been metamorphosed under conditions sufficient to homogenize all mineral compositions, convert all low-Ca pyroxene to orthopyroxene, coarsen secondary phases such as feldspar to sizes ≥50 µm, and obliterate many chondrule outlines; no melting has occurred."@en ;
+  skos:definition "Chondrites that have been metamorphosed under conditions sufficient to homogenize all mineral compositions, convert all low-Ca pyroxene to orthopyroxene, coarsen secondary phases such as feldspar to sizes greater that or equal to 50 micron, and obliterate many chondrule outlines; no melting has occurred."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:prefLabel "Petrologic Type 6 chondrite meteorite"@en ;
 .
@@ -4089,7 +4089,7 @@
   dcterms:source "https://www.mindat.org/min-49892.html" ;
   rdfs:label "Orthopyroxenitic diogenite meteorite"@en ;
   skos:broader <etma:1:1:49889:4> ;
-  skos:definition "A diogenite composed of ≥90 volume percent orthopyroxene."@en ;
+  skos:definition "A diogenite composed of greater than or equal to 90 volume percent orthopyroxene."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:prefLabel "Orthopyroxenitic diogenite meteorite"@en ;
 .
@@ -4129,7 +4129,7 @@
   dcterms:source "https://www.mindat.org/min-49896.html" ;
   rdfs:label "Dunitic diogenite meteorite"@en ;
   skos:broader <etma:1:1:49889:4> ;
-  skos:definition "A diogenite composed of â‰¥90 volume percent olivine"@en ;
+  skos:definition "A diogenite composed of greater that or equal to 90 volume percent olivine"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:notation "Diogenite-olivine" ;
   skos:prefLabel "Dunitic diogenite meteorite"@en ;
@@ -4152,7 +4152,7 @@
   dcterms:source "https://www.mindat.org/min-49899.html" ;
   rdfs:label "PMG pallasite meteorite"@en ;
   skos:broader <etma:1:1:49898:2> ;
-  skos:definition "A pallasite belonging to the main chemical group. Metal compositions in all PMG are closely related to those in evolved IIIAB irons, and are generally consistent with their formation in the IIIAB parent asteroid. The O-isotope composition of their olivine (forsterite) is a main parameter to separate the main-group pallasites (PMG) and Eagle-Station pallasites (PES). The mean PMG delta 17O (=delta17O- 0.52·delta 18O) value is -0.28 +/- 0.06 per mil. The mean PES delta17O value is much lower, about -4.6 per mil. The major mineral assemblages of most PMG are quite simple, consisting of troilite and schreibersite in addition to olivine (forsterite), kamacite and taenite; olivine Fa values range from 11 to 18 mole percent , with  greater than 80 percent of the values in the range 11.6–13.5 mole percent (Buseck and Goldstein, 1969). Zaisho (Fa18.3) has the highest Fa among PMG (Buseck and Clark, 1984). In addition, several characteristic minor minerals have been reported. Chromite is relatively abundant; some grains have euhedral shapes and seem to have crystallised from a melt (Buseck, 1977). A few chromites are quite massive; a large (10-cm) chromite-olivine assemblage in Brenham was described in detail by Wasson et al. (1999). Phosphates are minor phases in all PMG (common only in Springwater); the identified phosphates are farringtonite, stanfieldite, and merrillite (Buseck and Holdsworth, 1977). Phosphoran olivine is rare in most pallasites but minor amounts may be ubiquitous in the more oxidized PMG (Buseck, 1977; Buseck and Clark, 1984). Low-Ca pyroxene is a rare accessory phase (Buseck, 1977). Some PMG are assigned to an anomalous subset (PMG-an) because of their anomalous properties (deviant metal compositions or appreciably higher olivine Fa contents)."@en ;
+  skos:definition "A pallasite belonging to the main chemical group. Metal compositions in all PMG are closely related to those in evolved IIIAB irons, and are generally consistent with their formation in the IIIAB parent asteroid. The O-isotope composition of their olivine (forsterite) is a main parameter to separate the main-group pallasites (PMG) and Eagle-Station pallasites (PES). The mean PMG delta 17O (= delta17O - 0.52(delta 18O)) value is -0.28 +/- 0.06 per mil. The mean PES delta17O value is much lower, about -4.6 per mil. The major mineral assemblages of most PMG are quite simple, consisting of troilite and schreibersite in addition to olivine (forsterite), kamacite and taenite; olivine Fa values range from 11 to 18 mole percent , with  greater than 80 percent of the values in the range 11.6-13.5 mole percent (Buseck and Goldstein, 1969). Zaisho (Fa18.3) has the highest Fa among PMG (Buseck and Clark, 1984). In addition, several characteristic minor minerals have been reported. Chromite is relatively abundant; some grains have euhedral shapes and seem to have crystallised from a melt (Buseck, 1977). A few chromites are quite massive; a large (10-cm) chromite-olivine assemblage in Brenham was described in detail by Wasson et al. (1999). Phosphates are minor phases in all PMG (common only in Springwater); the identified phosphates are farringtonite, stanfieldite, and merrillite (Buseck and Holdsworth, 1977). Phosphoran olivine is rare in most pallasites but minor amounts may be ubiquitous in the more oxidized PMG (Buseck, 1977; Buseck and Clark, 1984). Low-Ca pyroxene is a rare accessory phase (Buseck, 1977). Some PMG are assigned to an anomalous subset (PMG-an) because of their anomalous properties (deviant metal compositions or appreciably higher olivine Fa contents)."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:notation "Pallasite, PMG" ;
   skos:prefLabel "PMG pallasite meteorite"@en ;
@@ -4174,7 +4174,7 @@
   dcterms:source "https://www.mindat.org/min-49902.html" ;
   rdfs:label "PES pallasite meteorite"@en ;
   skos:broader <etma:1:1:49898:2> ;
-  skos:definition "A grouplet named for a pallasite that was found near Eagle Station, Kentucky, in 1880. They all contain highly fragmented olivines, intermixed with small, irregular olivine splinters, in a nickel-iron matrix. Although their mineral assemblage is similar to PMG pallasites, they have different metal and olivine (forsterite) compositions. In fact, the mean Ni content of the metal is higher, and olivine Fa contents are slightly higher (about Fa20) than those in the Zaisho (Fa18.3), which has the highest Fa among PMG. The O-isotope composition of their olivine (forsterite) is a main parameter to separate the Eagle-Station pallasites (PES) and main-group pallasites (PMG). The mean PMG delta 17O (= delta17O-0.52·delta18O) value is -0.28 +/- 0.06 per mil. The mean PES delta 17O value is much lower, about -4.6 per mil."@en ;
+  skos:definition "A grouplet named for a pallasite that was found near Eagle Station, Kentucky, in 1880. They all contain highly fragmented olivines, intermixed with small, irregular olivine splinters, in a nickel-iron matrix. Although their mineral assemblage is similar to PMG pallasites, they have different metal and olivine (forsterite) compositions. In fact, the mean Ni content of the metal is higher, and olivine Fa contents are slightly higher (about Fa20) than those in the Zaisho (Fa18.3), which has the highest Fa among PMG. The O-isotope composition of their olivine (forsterite) is a main parameter to separate the Eagle-Station pallasites (PES) and main-group pallasites (PMG). The mean PMG delta 17O (= delta17O - 0.52 delta18O) value is -0.28 +/- 0.06 per mil. The mean PES delta 17O value is much lower, about -4.6 per mil."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:notation "Pallasite, PES" ;
   skos:prefLabel "PES pallasite meteorite"@en ;
@@ -5678,7 +5678,7 @@
   dcterms:source "https://www.mindat.org/min-52787.html" ;
   rdfs:label "Ataxite"@en ;
   skos:broader <etma:1:1:49960:8> ;
-  skos:definition "Ataxites are a structural class of iron meteorites with a high nickel content and show no Widmanstatten patterns upon etching. Ataxites are the most nickel-rich meteorites known; they usually contain over 18 percent nickel. The high nickel content is the reason that they do not develop a Widmanstätten structure, because in this case kamacite can be exsolved from taenite only at such a low temperature (below about 600 degrees C) where diffusion is already too slow. Most ataxites belong to the IVB group or are classified as 'Iron, ungrouped' because they do not fit in any of the groups currently recognized by meteorite classification. Some ataxites belong to the IAB group and fall into the sHL (high-Au, low-Ni subgroup), sLH (low-Au, high-Ni subgroup), sHH (high-Au, high-Ni subgroup) and 'ung' subgroup (does not fit any subgroup of IAB). Only a couple of ataxites have been classified into the IAB complex and the IIF, IVA, IIAB, IIIAB groups."@en ;
+  skos:definition "Ataxites are a structural class of iron meteorites with a high nickel content and show no Widmanstatten patterns upon etching. Ataxites are the most nickel-rich meteorites known; they usually contain over 18 percent nickel. The high nickel content is the reason that they do not develop a Widmanstatten structure, because in this case kamacite can be exsolved from taenite only at such a low temperature (below about 600 degrees C) where diffusion is already too slow. Most ataxites belong to the IVB group or are classified as 'Iron, ungrouped' because they do not fit in any of the groups currently recognized by meteorite classification. Some ataxites belong to the IAB group and fall into the sHL (high-Au, low-Ni subgroup), sLH (low-Au, high-Ni subgroup), sHH (high-Au, high-Ni subgroup) and 'ung' subgroup (does not fit any subgroup of IAB). Only a couple of ataxites have been classified into the IAB complex and the IIF, IVA, IIAB, IIIAB groups."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:prefLabel "Ataxite"@en ;
 .
