@@ -352,7 +352,7 @@ skos:topConceptOf
 <https://w3id.org/geochem/1.0/agent/georoc>
   rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0002-6592-9270> ;
-  dcterm:description "GEOROC (https://georoc.eu/) is a comprehensive collection of published analyses of igneous and metamorphic rocks and minerals. It contains major and trace element concentrations, radiogenic and nonradiogenic isotope ratios as well as analytical ages for whole rocks, glasses, minerals and inclusions. Metadata include geospatial and other sample information, analytical details and references. Digital Geochemical Data Infrastructure (DIGIS) will continue and enhance GEOROC, originally curated by the Max Planck Institute for Chemistry. Labels for analytical methods from GEOROC were compiled by Marthe Klocking, University of Gottingen, Germany, and in collaboration with Annika Johansson (IEDA, Lamont Doherty Earth Observatory, see PetDb agent) mapped to labels for techniques from PetDb; the compilation included definitions that were reviewed and enhances in some cased in this vocabulary."@en ;
+  dcterm:description "GEOROC (https://georoc.eu/) is a comprehensive collection of published analyses of igneous and metamorphic rocks and minerals. It contains major and trace element concentrations, radiogenic and nonradiogenic isotope ratios as well as analytical ages for whole rocks, glasses, minerals and inclusions. Metadata include geospatial and other sample information, analytical details and references. Digital Geochemical Data Infrastructure (DIGIS) will continue and enhance GEOROC, originally curated by the Max Planck Institute for Chemistry. Labels for analytical methods from GEOROC were compiled by Marthe Klocking, University of Gottingen, Germany, and in collaboration with Annika Johansson (IEDA, Lamont Doherty Earth Observatory, see PetDB agent) mapped to labels for techniques from PetDB; the compilation included definitions that were reviewed and enhances in some cased in this vocabulary."@en ;
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Geochemistry of Rocks of the Oceans and Continents (GEOROC)"@en ;
   rdfs:seeAlso "https://www.uni-goettingen.de/de/643369.html" ;
@@ -379,9 +379,9 @@ skos:topConceptOf
   rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0001-7036-1977> ;
   dcterm:contributor "<https://orcid.org/0000-0002-1286-0193>" ;
-  dcterm:description "Methods compiled from PetDb database by Annika Johansson and mapped to GEOROC and Astromat method labels. PetDB is an integrated data synthesis through which you can access chemical, isotopic, and mineralogical data from peer-reviewed literature. (https://www.earthchem.org/resources/support/petdb-documentation/)"@en ;
+  dcterm:description "Methods compiled from PetDB database by Annika Johansson and mapped to GEOROC and Astromat method labels. PetDB is an integrated data synthesis through which you can access chemical, isotopic, and mineralogical data from peer-reviewed literature. (https://www.earthchem.org/resources/support/petdb-documentation/)"@en ;
   rdfs:isDefinedBy meth:method ;
-  rdfs:label "PetDb" ;
+  rdfs:label "PetDB" ;
   schema:url "https://www.earthchem.org/resources/support/petdb-documentation/" ;
 .
 meth:acceleratormassspectrometry
@@ -880,7 +880,7 @@ meth:differentialthermalanalyis
   skos:altLabel "Differential analyzer"@en ;
   skos:broader meth:thermalanalysis ;
   skos:definition "Differential thermal analysis (DTA) is a technique in which the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference. This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample. DTA is similar to differential scanning calorimetry."@en ;
-  skos:editorialNote "GeoRoc groups 'THERMOGRAVIMETRIC AND DIFFERENTIAL ANALYZER' as one technique, split into two techniques in this vocabulary."@en ;
+  skos:editorialNote "GEOROC groups 'THERMOGRAVIMETRIC AND DIFFERENTIAL ANALYZER' as one technique, split into two techniques in this vocabulary."@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Differential thermal analysis"@en ;
 .
@@ -1088,7 +1088,7 @@ meth:elementalanalysis
   skos:altLabel "MICROSCOPE VACUUM HEATING STAGE" ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Technique to quantify  carbon, hydrogen, nitrogen, sulfur and sometimes other elements by heating the sample at very high temperature (pyrolysis) in oxygen or oxygen free atmosphere, and assaying the resulting gaseous oxides. The products typically undergo some chemical refinement, with the final product analyzed by mass spectrometry or infrared/optical spectroscopy. Usually used for samples including organic material.  (http://vocab.nerc.ac.uk/collection/L05/current/LAB01; https://en.wikipedia.org/wiki/Elemental_analysis)."@en ;
-  skos:editorialNote "map GeoRoc 'MICROSCOPE VACUUM HEATING STAGE' to this technique based on data reported for technique: CO2, H2O, S."@en ;
+  skos:editorialNote "map GEOROC 'MICROSCOPE VACUUM HEATING STAGE' to this technique based on data reported for technique: CO2, H2O, S."@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Elemental analysis "@en ;
 .
@@ -1940,7 +1940,7 @@ meth:lossonignitionanalysis
   skos:altLabel "STEPPED HEATING ANALYSIS" ;
   skos:broader meth:benchchemistry ;
   skos:definition "Method consists of igniting (vigorous heating) a sample at a designated temperature which enables volatile substances within the sample material to escape, until the mass of the sample ceases to change. This process is often performed within air but may be done in another inert or reactive atmosphere.  Loss on Ignition measures the organic matter content in samples. The volatile materials lost during the analysis typically consist of combined water (hydrates, for example) and CO2 from carbonates. (https://www.precisa.com/blog/what-is-loss-on-ignition-loi)"@en ;
-  skos:editorialNote "GeoRoc reports analytes for 'STEPPED HEATING ANALYSIS' as CO2 and H20, so interpret as a loss on ignition technique." ;
+  skos:editorialNote "GEOROC reports analytes for 'STEPPED HEATING ANALYSIS' as CO2 and H20, so interpret as a loss on ignition technique." ;
   skos:inScheme meth:method ;
   skos:prefLabel "Loss on ignition analysis "@en ;
 .
@@ -2003,12 +2003,12 @@ meth:method
   owl:imports dcterm: ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
-  skos:definition "This concept scheme contains skos concepts for analysis methods used to produce observation results with information about the physical properties, chemical or isotopic composition, crystallography, or molecular structure of material samples. Based on spreadsheet compilation of method vocabularies from GeoX, GeoRock, PetDb and OSIRIS-REx. Definitions added and updated based on web research, and SKOS serialization by S.M. Richard. Note that although there are high-level method categories for 'Physical property measurements' and the 'Bioanalytical method', these are placeholders and only include a few examples that are relevant to analytical methods in geo- or cosmochemistry."@en ;
+  skos:definition "This concept scheme contains skos concepts for analysis methods used to produce observation results with information about the physical properties, chemical or isotopic composition, crystallography, or molecular structure of material samples. Based on spreadsheet compilation of method vocabularies from GeoX, GEOROC, PetDB and OSIRIS-REx. Definitions added and updated based on web research, and SKOS serialization by S.M. Richard. Note that although there are high-level method categories for 'Physical property measurements' and the 'Bioanalytical method', these are placeholders and only include a few examples that are relevant to analytical methods in geo- or cosmochemistry."@en ;
   skos:hasTopConcept meth:analyticalmethod ;
   skos:historyNote "2023-05-26 SMR add funding acknowledgement for Astromat support from NASA planetary sciences division, using schema.org/funding property."@en ;
   skos:historyNote "2023-06-17 SMR put the dcterm agent objects in https://w3id.org/geochem/1.0/agent URI space (instead of analyticalmethod). Add 'and cosmochemistry' in vocab title."@en ;
   skos:historyNote "Add provenance and better source information, prepare for posting to Australian Research Data Commons (ARDC) Research Vocabularies Australia SMR 2023-05-01."@en ;
-  skos:historyNote "Draft generated by S.M. Richard 2023-02-14, based on spreadsheet compilation of method vocabularies from GeoX, GEOROC, PetDb and OSIRIS-REx (Astromat). Definitions added and updated and SKOS serialization by S.M. Richard."@en ;
+  skos:historyNote "Draft generated by S.M. Richard 2023-02-14, based on spreadsheet compilation of method vocabularies from GeoX, GEOROC, PetDB and OSIRIS-REx (Astromat). Definitions added and updated and SKOS serialization by S.M. Richard."@en ;
   skos:prefLabel "Analytical methods for geochemistry"@en ;
   schema:funding "Compilation of this vocabulary supported by funding from the US National Aeronautics and Space Administration (NASA) Planetary Sciences Division for the Astromaterials Data System at Lamont Doherty Earth Observatory, Columbia University"@en ;
   schema:provider "Australian Research Data Commons, Research Vocabularies Australia" ;
@@ -2370,7 +2370,7 @@ meth:particlecounting
   skos:altLabel "RN-EMANATION ANALYSIS" ;
   skos:broader meth:analyticalmethod ;
   skos:definition "Technique that detects and counts photons or particles (neutrons, alpha particles) that are spontaneously emitted from a sample due to radioactive decay of elements in the sample."@en ;
-  skos:editorialNote "Data in GeoRoc for this technique are Ra226 (Radium!) activity. Radium-226 (1600 year half life) yields an alpha particle and Radon-222; Radon-222 (3.82 day half life) yields an alpha particle and Polonium-218... (https://www.nist.gov/image-23773).   Guess Radon is being measured as proxy for Radium, and the Radon concentration measured using alpha particle or gamma ray counting...."@en ;
+  skos:editorialNote "Data in GEOROC for this technique are Ra226 (Radium!) activity. Radium-226 (1600 year half life) yields an alpha particle and Radon-222; Radon-222 (3.82 day half life) yields an alpha particle and Polonium-218... (https://www.nist.gov/image-23773).   Guess Radon is being measured as proxy for Radium, and the Radon concentration measured using alpha particle or gamma ray counting...."@en ;
   skos:editorialNote "Radon method is lumped in this group. https://nrpp.info/standards/measurement-methods/ lists 16 methods for anlyzing radon concentration. All are based on counting radioactive decay products from radon in air, water, or collected on charcoal. Some use gamma counting, some count tracks from alpha particles. lacking more detail, assign to 'Particle counting'"@en ;
   skos:inScheme meth:method ;
   skos:notation "xPC" ;
@@ -3155,7 +3155,7 @@ meth:thermogravimetryanalysis
   skos:altLabel "Thermogravimetric analysis"@en ;
   skos:broader meth:thermalanalysis ;
   skos:definition "Thermogravimetric analysis is a method in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction). The thermogravimetric data collected from a thermal reaction is compiled into a plot of mass or percentage of initial mass on the y axis versus either temperature or time on the x-axis. This plot can be used for materials characterization through analysis of characteristic decomposition patterns."@en ;
-  skos:editorialNote "GeoRoc groups 'THERMOGRAVIMETRIC AND DIFFERENTIAL ANALYZER' as one technique, split into two techniques in this vocabulary."@en ;
+  skos:editorialNote "GEOROC groups 'THERMOGRAVIMETRIC AND DIFFERENTIAL ANALYZER' as one technique, split into two techniques in this vocabulary."@en ;
   skos:inScheme meth:method ;
   skos:notation "TGA" ;
   skos:prefLabel "Thermogravimetry analysis"@en ;
