@@ -237,7 +237,7 @@
   dcterms:source "https://www.mindat.org/min-49519.html" ;
   rdfs:label "Carbonaceous chondrite meteorite"@en ;
   skos:broader <etma:1:1:49515:2> ;
-  skos:definition "Stony (non-metallic) meteorites that have not been modified due to melting or differentiation of the parent body. They include some of the most primitive known meteorites. The C chondrites represent only a small proportion (4.6%) of meteorite falls."@en ;
+  skos:definition "Stony (non-metallic) meteorites that have not been modified due to melting or differentiation of the parent body. They include some of the most primitive known meteorites. The C chondrites represent only a small proportion (4.6 percent ) of meteorite falls."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:notation "C" ;
   skos:prefLabel "Carbonaceous chondrite meteorite"@en ;
@@ -824,7 +824,7 @@
   dcterms:source "https://www.mindat.org/min-49570.html" ;
   rdfs:label "CO3.9 chondrite meteorite"@en ;
   skos:broader <etma:1:1:49560:2> ;
-  skos:definition "A CO chondrite that is of petrologic type 3.9."@en ;
+  skos:definition "A CO chondrite that is of petrologic type 3.9."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:prefLabel "CO3.9 chondrite meteorite"@en ;
 .
@@ -3370,7 +3370,7 @@
   dcterms:source "https://www.mindat.org/min-49820.html" ;
   rdfs:label "EL chondrite meteorite"@en ;
   skos:broader <etma:1:1:49800:7> ;
-  skos:definition "The low-iron (EL) chemical group of enstatite chondrites, distinguished by moderately large chondrules (0.6 mm), abundant metal (~10 volume percent) that is Si-bearing (~1 wt%), and an extremely reduced mineral assemblage containing ferroan alabandite ((Fe,Mn)S)"@en ;
+  skos:definition "The low-iron (EL) chemical group of enstatite chondrites, distinguished by moderately large chondrules (0.6 mm), abundant metal (~10 volume percent) that is Si-bearing (~1 wt percent ), and an extremely reduced mineral assemblage containing ferroan alabandite ((Fe,Mn)S)"@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:prefLabel "EL chondrite meteorite"@en ;
 .
@@ -4109,7 +4109,7 @@
   dcterms:source "https://www.mindat.org/min-49894.html" ;
   rdfs:label "Harzburgitic diogenite meteorite"@en ;
   skos:broader <etma:1:1:49889:4> ;
-  skos:definition "A diogenite composed of 40-90 volume percent olivine."@en ;
+  skos:definition "A diogenite composed of 40-90 volume percent olivine."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:prefLabel "Harzburgitic diogenite meteorite"@en ;
 .
@@ -4119,7 +4119,7 @@
   dcterms:source "https://www.mindat.org/min-49895.html" ;
   rdfs:label "Noritic diogenite meteorite"@en ;
   skos:broader <etma:1:1:49889:4> ;
-  skos:definition "A pyroxene-rich diogenite with >10% volume percent plagioclase."@en ;
+  skos:definition "A pyroxene-rich diogenite with >10 percent  volume percent plagioclase."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:prefLabel "Noritic diogenite meteorite"@en ;
 .
@@ -5467,7 +5467,7 @@
 <etma:1:1:52231:3>
   rdf:type skos:Concept ;
   dcterms:modified "2023-06-19" ;
-  dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20ungrouped" ;
+  dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20ungrouped" ;
   rdfs:label "Ungrouped iron meteorite"@en ;
   skos:broader <etma:1:1:49960:8> ;
   skos:definition "meteorite that is dominantly composed of Fe-Ni metal and that crystallized from a melt and does not fit into any of the established chemical groups"@en ;
@@ -5481,7 +5481,7 @@
   dcterms:source "https://www.mindat.org/min-52237.html" ;
   rdfs:label "Relict meteorite"@en ;
   skos:broader <etma:1:1:49514:3> ;
-  skos:definition "A highly altered object that is likely to have a meteoritic origin. These are dominantly (>95%) composed of secondary minerals formed from alteration after it landed."@en ;
+  skos:definition "A highly altered object that is likely to have a meteoritic origin. These are dominantly (>95 percent ) composed of secondary minerals formed from alteration after it landed."@en ;
   skos:inScheme <https://mindat.org/etmat/cscheme> ;
   skos:notation "Relict meteorite" ;
   skos:prefLabel "Relict meteorite"@en ;
@@ -5731,7 +5731,7 @@
 
 <etma:1:1:11263:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lodranite" ; .
 <etma:1:1:49515:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Chondrite-uncl" ; .
-<etma:1:1:49517:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Chondrite-fusion%20crust" ; .
+<etma:1:1:49517:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Chondrite-fusion percent 20crust" ; .
 <etma:1:1:49518:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Chondrite-ung" ; .
 <etma:1:1:49519:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=C" ; .
 <etma:1:1:49520:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=C" ; .
@@ -5807,26 +5807,26 @@
 <etma:1:1:49603:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.2" ; .
 <etma:1:1:49604:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.2-3.7" ; .
 <etma:1:1:49606:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H4" ; .
-<etma:1:1:49607:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H4-melt%20breccia" ; .
+<etma:1:1:49607:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H4-melt percent 20breccia" ; .
 <etma:1:1:49608:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H4-an" ; .
 <etma:1:1:49609:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H/L4" ; .
 <etma:1:1:49610:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H/L4/5" ; .
 <etma:1:1:49612:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H4/5" ; .
 <etma:1:1:49614:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H5" ; .
 <etma:1:1:49615:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H5-an" ; .
-<etma:1:1:49616:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H5-melt%20breccia" ; .
+<etma:1:1:49616:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H5-melt percent 20breccia" ; .
 <etma:1:1:49617:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H/L5" ; .
 <etma:1:1:49618:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H5-6" ; .
 <etma:1:1:49619:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H6" ; .
 <etma:1:1:49620:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H6-an" ; .
-<etma:1:1:49621:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H6-melt%20breccia" ; .
+<etma:1:1:49621:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H6-melt percent 20breccia" ; .
 <etma:1:1:49622:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H(L)6" ; .
-<etma:1:1:49623:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H/L6-melt%20rock" ; .
+<etma:1:1:49623:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H/L6-melt percent 20rock" ; .
 <etma:1:1:49625:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H7" ; .
 <etma:1:1:49626:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-an" ; .
-<etma:1:1:49627:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-imp%20melt" ; .
-<etma:1:1:49628:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-melt%20breccia" ; .
-<etma:1:1:49629:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-melt%20rock" ; .
+<etma:1:1:49627:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-imp percent 20melt" ; .
+<etma:1:1:49628:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-melt percent 20breccia" ; .
+<etma:1:1:49629:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-melt percent 20rock" ; .
 <etma:1:1:49630:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H-metal" ; .
 <etma:1:1:49631:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H?" ; .
 <etma:1:1:49632:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H~4" ; .
@@ -5848,7 +5848,7 @@
 <etma:1:1:49648:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L" ; .
 <etma:1:1:49649:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L3" ; .
 <etma:1:1:49650:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L3.0-3.9" ; .
-<etma:1:1:49651:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L3-melt%20breccia" ; .
+<etma:1:1:49651:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L3-melt percent 20breccia" ; .
 <etma:1:1:49652:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L3.0" ; .
 <etma:1:1:49653:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L3.00" ; .
 <etma:1:1:49654:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L3.05" ; .
@@ -5891,8 +5891,8 @@
 <etma:1:1:49693:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL3.6/3.7" ; .
 <etma:1:1:49695:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L4" ; .
 <etma:1:1:49696:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L4-an" ; .
-<etma:1:1:49697:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L4-melt%20breccia" ; .
-<etma:1:1:49698:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L4-melt%20rock" ; .
+<etma:1:1:49697:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L4-melt percent 20breccia" ; .
+<etma:1:1:49698:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L4-melt percent 20rock" ; .
 <etma:1:1:49699:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL4" ; .
 <etma:1:1:49700:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L4/5" ; .
 <etma:1:1:49702:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L5" ; .
@@ -5900,19 +5900,19 @@
 <etma:1:1:49705:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL5/6" ; .
 <etma:1:1:49707:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L5-6" ; .
 <etma:1:1:49708:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L5/6" ; .
-<etma:1:1:49709:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L5-melt%20breccia" ; .
+<etma:1:1:49709:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L5-melt percent 20breccia" ; .
 <etma:1:1:49710:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L6" ; .
-<etma:1:1:49711:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L6-melt%20breccia" ; .
-<etma:1:1:49712:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L6-melt%20rock" ; .
+<etma:1:1:49711:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L6-melt percent 20breccia" ; .
+<etma:1:1:49712:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L6-melt percent 20rock" ; .
 <etma:1:1:49713:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL6" ; .
 <etma:1:1:49715:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL6-an" ; .
 <etma:1:1:49716:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L6/7" ; .
 <etma:1:1:49717:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L7" ; .
-<etma:1:1:49718:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L-imp%20melt" ; .
-<etma:1:1:49719:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L-melt%20breccia" ; .
-<etma:1:1:49720:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L-melt%20rock" ; .
+<etma:1:1:49718:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L-imp percent 20melt" ; .
+<etma:1:1:49719:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L-melt percent 20breccia" ; .
+<etma:1:1:49720:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L-melt percent 20rock" ; .
 <etma:1:1:49721:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L-metal" ; .
-<etma:1:1:49722:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL-melt%20rock" ; .
+<etma:1:1:49722:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL-melt percent 20rock" ; .
 <etma:1:1:49723:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL3-6" ; .
 <etma:1:1:49724:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL3-5" ; .
 <etma:1:1:49725:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=L/LL(?)3" ; .
@@ -5955,17 +5955,17 @@
 <etma:1:1:49767:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL3.9/4" ; .
 <etma:1:1:49768:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL4" ; .
 <etma:1:1:49769:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL4/5" ; .
-<etma:1:1:49770:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL4-melt%20breccia" ; .
+<etma:1:1:49770:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL4-melt percent 20breccia" ; .
 <etma:1:1:49772:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL5" ; .
 <etma:1:1:49773:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL5/6" ; .
-<etma:1:1:49774:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL5-melt%20breccia" ; .
+<etma:1:1:49774:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL5-melt percent 20breccia" ; .
 <etma:1:1:49776:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL6" ; .
 <etma:1:1:49777:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL6-an" ; .
-<etma:1:1:49778:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL6-melt%20breccia" ; .
+<etma:1:1:49778:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL6-melt percent 20breccia" ; .
 <etma:1:1:49779:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL6/7" ; .
-<etma:1:1:49780:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL-imp%20melt" ; .
-<etma:1:1:49781:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL-melt%20breccia" ; .
-<etma:1:1:49782:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL-melt%20rock" ; .
+<etma:1:1:49780:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL-imp percent 20melt" ; .
+<etma:1:1:49781:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL-melt percent 20breccia" ; .
+<etma:1:1:49782:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL-melt percent 20rock" ; .
 <etma:1:1:49783:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL3-5" ; .
 <etma:1:1:49784:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL3-6" ; .
 <etma:1:1:49785:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL3.7-6" ; .
@@ -5984,7 +5984,7 @@
 <etma:1:1:49798:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL~6" ; .
 <etma:1:1:49799:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL?" ; .
 <etma:1:1:49802:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=E-an" ; .
-<etma:1:1:49803:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=E-melt%20breccia" ; .
+<etma:1:1:49803:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=E-melt percent 20breccia" ; .
 <etma:1:1:49804:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=E3" ; .
 <etma:1:1:49805:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=E3-an" ; .
 <etma:1:1:49806:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=E4" ; .
@@ -5997,15 +5997,15 @@
 <etma:1:1:49813:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH4" ; .
 <etma:1:1:49814:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH5" ; .
 <etma:1:1:49815:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH6" ; .
-<etma:1:1:49816:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH6-melt%20breccia" ; .
-<etma:1:1:49817:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH-imp%20melt" ; .
-<etma:1:1:49818:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH-melt%20rock" ; .
+<etma:1:1:49816:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH6-melt percent 20breccia" ; .
+<etma:1:1:49817:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH-imp percent 20melt" ; .
+<etma:1:1:49818:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH-melt percent 20rock" ; .
 <etma:1:1:49819:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH7" ; .
-<etma:1:1:49821:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL-melt%20rock" ; .
+<etma:1:1:49821:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL-melt percent 20rock" ; .
 <etma:1:1:49822:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL3" ; .
 <etma:1:1:49823:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL4" ; .
 <etma:1:1:49824:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL5" ; .
-<etma:1:1:49825:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL5-melt%20breccia" ; .
+<etma:1:1:49825:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL5-melt percent 20breccia" ; .
 <etma:1:1:49826:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL6" ; .
 <etma:1:1:49827:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL6/7" ; .
 <etma:1:1:49828:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EL7" ; .
@@ -6021,17 +6021,17 @@
 <etma:1:1:49848:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Acapulcoite" ; .
 <etma:1:1:49849:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Acapulcoite/lodranite" ; .
 <etma:1:1:49850:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Brachinite" ; .
-<etma:1:1:49851:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB%20complex" ; .
-<etma:1:1:49852:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-MG" ; .
-<etma:1:1:49853:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-sLL" ; .
-<etma:1:1:49854:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-sLM" ; .
-<etma:1:1:49856:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-sLM-an" ; .
-<etma:1:1:49857:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-sLH" ; .
-<etma:1:1:49859:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-sHL" ; .
-<etma:1:1:49860:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-sHL-an" ; .
-<etma:1:1:49861:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-sHH" ; .
-<etma:1:1:49862:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-ung" ; .
-<etma:1:1:49863:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB-an" ; .
+<etma:1:1:49851:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB percent 20complex" ; .
+<etma:1:1:49852:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-MG" ; .
+<etma:1:1:49853:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-sLL" ; .
+<etma:1:1:49854:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-sLM" ; .
+<etma:1:1:49856:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-sLM-an" ; .
+<etma:1:1:49857:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-sLH" ; .
+<etma:1:1:49859:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-sHL" ; .
+<etma:1:1:49860:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-sHL-an" ; .
+<etma:1:1:49861:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-sHH" ; .
+<etma:1:1:49862:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-ung" ; .
+<etma:1:1:49863:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB-an" ; .
 <etma:1:1:49865:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lodranite-an" ; .
 <etma:1:1:49866:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Ureilite" ; .
 <etma:1:1:49867:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Ureilite-an" ; .
@@ -6039,15 +6039,15 @@
 <etma:1:1:49869:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Winonaite" ; .
 <etma:1:1:49872:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Angrite" ; .
 <etma:1:1:49873:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Aubrite" ; .
-<etma:1:1:49876:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Enst%20achon-ung" ; .
+<etma:1:1:49876:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Enst percent 20achon-ung" ; .
 <etma:1:1:49878:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Howardite" ; .
 <etma:1:1:49879:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Howardite-an" ; .
 <etma:1:1:49880:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite" ; .
 <etma:1:1:49881:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-an" ; .
 <etma:1:1:49882:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-br" ; .
 <etma:1:1:49883:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-cm" ; .
-<etma:1:1:49884:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-melt%20breccia" ; .
-<etma:1:1:49885:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-Mg%20rich" ; .
+<etma:1:1:49884:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-melt percent 20breccia" ; .
+<etma:1:1:49885:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-Mg percent 20rich" ; .
 <etma:1:1:49886:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-mmict" ; .
 <etma:1:1:49887:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-pmict" ; .
 <etma:1:1:49888:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Eucrite-unbr" ; .
@@ -6056,9 +6056,9 @@
 <etma:1:1:49891:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Diogenite-an" ; .
 <etma:1:1:49896:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Diogenite-olivine" ; .
 <etma:1:1:49898:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite" ; .
-<etma:1:1:49899:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite,%20PMG" ; .
-<etma:1:1:49901:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite,%20PMG-an" ; .
-<etma:1:1:49902:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite,%20PES" ; .
+<etma:1:1:49899:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite, percent 20PMG" ; .
+<etma:1:1:49901:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite, percent 20PMG-an" ; .
+<etma:1:1:49902:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite, percent 20PES" ; .
 <etma:1:1:49905:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Mesosiderite" ; .
 <etma:1:1:49906:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Mesosiderite-A" ; .
 <etma:1:1:49907:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Mesosiderite-A1" ; .
@@ -6073,38 +6073,38 @@
 <etma:1:1:49916:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Mesosiderite-B4" ; .
 <etma:1:1:49917:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Mesosiderite-C" ; .
 <etma:1:1:49918:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Mesosiderite-C2" ; .
-<etma:1:1:49920:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IC" ; .
-<etma:1:1:49921:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IC-an" ; .
-<etma:1:1:49922:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIAB" ; .
-<etma:1:1:49923:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIAB-an" ; .
-<etma:1:1:49924:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIC" ; .
-<etma:1:1:49925:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IID" ; .
-<etma:1:1:49926:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IID-an" ; .
-<etma:1:1:49927:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIE" ; .
-<etma:1:1:49928:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIE-an" ; .
-<etma:1:1:49929:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIF" ; .
-<etma:1:1:49930:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIIAB" ; .
-<etma:1:1:49931:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIIAB-an" ; .
-<etma:1:1:49932:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIIE" ; .
-<etma:1:1:49933:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIIE-an" ; .
-<etma:1:1:49934:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIIF" ; .
-<etma:1:1:49935:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IVA" ; .
-<etma:1:1:49936:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IVA-an" ; .
-<etma:1:1:49937:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IVB" ; .
+<etma:1:1:49920:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IC" ; .
+<etma:1:1:49921:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IC-an" ; .
+<etma:1:1:49922:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIAB" ; .
+<etma:1:1:49923:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIAB-an" ; .
+<etma:1:1:49924:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIC" ; .
+<etma:1:1:49925:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IID" ; .
+<etma:1:1:49926:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IID-an" ; .
+<etma:1:1:49927:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIE" ; .
+<etma:1:1:49928:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIE-an" ; .
+<etma:1:1:49929:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIF" ; .
+<etma:1:1:49930:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIIAB" ; .
+<etma:1:1:49931:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIIAB-an" ; .
+<etma:1:1:49932:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIIE" ; .
+<etma:1:1:49933:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIIE-an" ; .
+<etma:1:1:49934:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIIF" ; .
+<etma:1:1:49935:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IVA" ; .
+<etma:1:1:49936:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IVA-an" ; .
+<etma:1:1:49937:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IVB" ; .
 <etma:1:1:49938:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian" ; .
-<etma:1:1:49939:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian%20(shergottite)" ; .
-<etma:1:1:49945:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian%20(nakhlite)" ; .
-<etma:1:1:49947:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian%20(chassignite)" ; .
-<etma:1:1:49950:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(anorth)" ; .
-<etma:1:1:49951:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(bas.%20breccia)" ; .
-<etma:1:1:49952:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(bas/anor)" ; .
-<etma:1:1:49953:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(bas/gab%20brec)" ; .
-<etma:1:1:49954:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(feldsp.%20breccia)" ; .
-<etma:1:1:49955:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(basalt)" ; .
-<etma:1:1:49956:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(gabbro)" ; .
-<etma:1:1:49957:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(norite)" ; .
-<etma:1:1:49958:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(olivine%20gabbro)" ; .
-<etma:1:1:49959:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar%20(troct.%20anorth.)" ; .
+<etma:1:1:49939:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian percent 20(shergottite)" ; .
+<etma:1:1:49945:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian percent 20(nakhlite)" ; .
+<etma:1:1:49947:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian percent 20(chassignite)" ; .
+<etma:1:1:49950:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(anorth)" ; .
+<etma:1:1:49951:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(bas. percent 20breccia)" ; .
+<etma:1:1:49952:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(bas/anor)" ; .
+<etma:1:1:49953:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(bas/gab percent 20brec)" ; .
+<etma:1:1:49954:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(feldsp. percent 20breccia)" ; .
+<etma:1:1:49955:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(basalt)" ; .
+<etma:1:1:49956:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(gabbro)" ; .
+<etma:1:1:49957:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(norite)" ; .
+<etma:1:1:49958:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(olivine percent 20gabbro)" ; .
+<etma:1:1:49959:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar percent 20(troct. percent 20anorth.)" ; .
 <etma:1:1:49960:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron" ; .
 <etma:1:1:50275:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Lunar" ; .
 <etma:1:1:50444:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=CM1-2" ; .
@@ -6127,8 +6127,8 @@
 <etma:1:1:50461:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL3.4" ; .
 <etma:1:1:50462:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL4-5" ; .
 <etma:1:1:50463:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL5-6" ; .
-<etma:1:1:52197:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian%20(OPX)" ; .
-<etma:1:1:52198:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian%20(basaltic%20breccia)" ; .
+<etma:1:1:52197:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian percent 20(OPX)" ; .
+<etma:1:1:52198:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Martian percent 20(basaltic percent 20breccia)" ; .
 <etma:1:1:52199:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.5" ; .
 <etma:1:1:52200:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.4" ; .
 <etma:1:1:52201:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Achondrite-ung" ; .
@@ -6160,21 +6160,21 @@
 <etma:1:1:52227:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.9" ; .
 <etma:1:1:52228:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.6" ; .
 <etma:1:1:52229:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.7" ; .
-<etma:1:1:52231:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20ungrouped" ; .
-<etma:1:1:52237:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict%20meteorite" ; .
-<etma:1:1:52238:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict%20H" ; .
-<etma:1:1:52239:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict%20iron" ; .
-<etma:1:1:52240:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict%20OC" ; .
-<etma:1:1:52241:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict%20ureilite" ; .
+<etma:1:1:52231:3>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20ungrouped" ; .
+<etma:1:1:52237:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict percent 20meteorite" ; .
+<etma:1:1:52238:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict percent 20H" ; .
+<etma:1:1:52239:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict percent 20iron" ; .
+<etma:1:1:52240:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict percent 20OC" ; .
+<etma:1:1:52241:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Relict percent 20ureilite" ; .
 <etma:1:1:52360:4>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=EH7-an" ; .
 <etma:1:1:52368:6>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.3" ; .
 <etma:1:1:52369:5>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Stone-uncl" ; .
-<etma:1:1:52370:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IIG" ; .
-<etma:1:1:52371:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite,%20ungrouped" ; .
+<etma:1:1:52370:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IIG" ; .
+<etma:1:1:52371:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Pallasite, percent 20ungrouped" ; .
 <etma:1:1:52372:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Aubrite-an" ; .
 <etma:1:1:52373:8>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron?" ; .
 <etma:1:1:52374:7>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=OC3" ; .
-<etma:1:1:52393:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron,%20IAB?" ; .
+<etma:1:1:52393:2>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=Iron, percent 20IAB?" ; .
 <etma:1:1:52394:1>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=LL7" ; .
 <etma:1:1:52395:0>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=H3.8-an" ; .
-<etma:1:1:52396:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=CO3-melt%20breccia" ; .
+<etma:1:1:52396:9>  rdf:type skos:Concept ;  	dcterms:source "https://www.lpi.usra.edu/meteor/metbullclass.php?sea=CO3-melt percent 20breccia" ; .
