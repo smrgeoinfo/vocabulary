@@ -928,7 +928,7 @@ meth:dnasequencing
   rdfs:isDefinedBy meth:method ;
   rdfs:label "DNA sequencing"@en ;
   skos:broader meth:bioanalyticalmethod ;
-  skos:definition "Determination of nucleotide sequence (the DNA primary structure). (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
+  skos:definition "Determination of nucleotide sequence (the DNA primary structure). (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262, https://www.degruyter.com/database/IUPAC/entry/iupac.90.0262/html)"@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "DNA sequencing"@en ;
 .
@@ -1345,7 +1345,7 @@ meth:fluorescentinsituhybridization
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Fluorescent in situ hybridization"@en ;
   skos:broader meth:bioanalyticalmethod ;
-  skos:definition "Cytogenetic technique used to detect and localize the presence or absence of specific DNA sequences on chromosomes. It uses fluorescent probes that only bind to those parts of the chromosome with which they show a high degree of sequence complementarity. Note: FISH is often used for finding specific features in DNA for use in genetic counselling, medicine, and species identification. FISH can also be used to detect and localize specific RNA targets (mRNA, lncRNA and miRNA) in cells, circulating tumor cells, and tissue samples. In this context, it can help define the spatial-temporal patterns of gene expression within cells and tissues. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
+  skos:definition "Cytogenetic technique used to detect and localize the presence or absence of specific DNA sequences on chromosomes. It uses fluorescent probes that only bind to those parts of the chromosome with which they show a high degree of sequence complementarity. Note: FISH is often used for finding specific features in DNA for use in genetic counselling, medicine, and species identification. FISH can also be used to detect and localize specific RNA targets (mRNA, lncRNA and miRNA) in cells, circulating tumor cells, and tissue samples. In this context, it can help define the spatial-temporal patterns of gene expression within cells and tissues. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262, https://www.degruyter.com/database/IUPAC/entry/iupac.90.0262/html)"@en ;
   skos:inScheme meth:method ;
   skos:notation "FISH" ;
   skos:prefLabel "Fluorescent in situ hybridization"@en ;
@@ -1563,7 +1563,7 @@ meth:hybridizationassay
   rdfs:label "Hybridization assay"@en ;
   skos:altLabel "DNA hybridization capture"@en ;
   skos:broader meth:bioanalyticalmethod ;
-  skos:definition "Assay with specifically designed single-stranded DNA probe with a defined (known) nucleotide sequence usually immobilized on a surface (in such a case, the nucleic acid probe is called the capture probe). Note: The probe is used as a recognition element to test for the nucleotide sequence within the target DNA in the sample solution. If target DNA contains a sequence complementary to the probe, a hybrid dsDNA is formed. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262).  A type of Ligand Binding Assay (LBA) used to quantify nucleic acids in biological matrices. Hybridization assays can be in solution or on a solid support such as 96-well plates or labelled beads.  Hybridization assays involve labelled nucleic acid probes to identify related DNA or RNA molecules (i.e. with significantly high degree of sequence similarity) within a complex mixture of unlabelled nucleic acid molecules. (https://en.wikipedia.org/wiki/Hybridization_assay)"@en ;
+  skos:definition "Assay with specifically designed single-stranded DNA probe with a defined (known) nucleotide sequence usually immobilized on a surface (in such a case, the nucleic acid probe is called the capture probe). Note: The probe is used as a recognition element to test for the nucleotide sequence within the target DNA in the sample solution. If target DNA contains a sequence complementary to the probe, a hybrid dsDNA is formed. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262, https://www.degruyter.com/database/IUPAC/entry/iupac.90.0262/html).  A type of Ligand Binding Assay (LBA) used to quantify nucleic acids in biological matrices. Hybridization assays can be in solution or on a solid support such as 96-well plates or labelled beads.  Hybridization assays involve labelled nucleic acid probes to identify related DNA or RNA molecules (i.e. with significantly high degree of sequence similarity) within a complex mixture of unlabelled nucleic acid molecules. (https://en.wikipedia.org/wiki/Hybridization_assay)"@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Hybridization assay"@en ;
 .
@@ -2211,7 +2211,7 @@ meth:nextgenerationsequencing
   skos:altLabel "Massively parallel sequencing" ;
   skos:altLabel "Second generation sequencing" ;
   skos:broader meth:bioanalyticalmethod ;
-  skos:definition "Determination of nucleotide sequence (the DNA primary structure) using non-Sanger-based high-throughput DNA sequencing technologies where millions of DNA strands can be sequenced in parallel. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
+  skos:definition "Determination of nucleotide sequence (the DNA primary structure) using non-Sanger-based high-throughput DNA sequencing technologies where millions of DNA strands can be sequenced in parallel. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262, https://www.degruyter.com/database/IUPAC/entry/iupac.90.0262/html)"@en ;
   skos:inScheme meth:method ;
   skos:notation "NGS" ;
   skos:prefLabel "Next generation sequencing"@en ;
@@ -2721,7 +2721,7 @@ meth:quantitativepolymerasechainreaction
   skos:altLabel "DNA enrichment" ;
   skos:altLabel "Quantitative PCR" ;
   skos:broader meth:bioanalyticalmethod ;
-  skos:definition "Polymerase chain reaction to quantify target nucleotide sequences of interest. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262).  Quantitative PCR adds two elements to the standard Polymerase Chain Reaction (PCR) process: 1)Fluorescent dye and 2) Fluorometer. These two elements turn qPCR to a measurement technique in its own right. The fluorometer detects  fluorescence in real time as the thermal cycler runs, giving readings throughout the amplification process of the PCR.  As a result, quantitative PCR is also called real-time PCR or RT-PCR. (https://www.thermofisher.com/blog/ask-a-scientist/what-is-qpcr/)"@en ;
+  skos:definition "Polymerase chain reaction to quantify target nucleotide sequences of interest. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262, https://www.degruyter.com/database/IUPAC/entry/iupac.90.0262/html).  Quantitative PCR adds two elements to the standard Polymerase Chain Reaction (PCR) process: 1)Fluorescent dye and 2) Fluorometer. These two elements turn qPCR to a measurement technique in its own right. The fluorometer detects  fluorescence in real time as the thermal cycler runs, giving readings throughout the amplification process of the PCR.  As a result, quantitative PCR is also called real-time PCR or RT-PCR. (https://www.thermofisher.com/blog/ask-a-scientist/what-is-qpcr/)"@en ;
   skos:inScheme meth:method ;
   skos:notation "qPCR" ;
   skos:prefLabel "Quantitative polymerase chain reaction"@en ;
@@ -2805,7 +2805,7 @@ meth:sangersequencing
   rdfs:label "Sanger sequencing"@en ;
   skos:altLabel "Chain termination sequencing" ;
   skos:broader meth:bioanalyticalmethod ;
-  skos:definition "Method for determining nucleotide sequence of DNA based on incorporating chain-terminating dideoxynucleotides. Note: The method is named after Frederick Sanger (1918--2013, awarded the Nobel Prize in 1958 and 1980). (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
+  skos:definition "Method for determining nucleotide sequence of DNA based on incorporating chain-terminating dideoxynucleotides. Note: The method is named after Frederick Sanger (1918--2013, awarded the Nobel Prize in 1958 and 1980). (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262, https://www.degruyter.com/database/IUPAC/entry/iupac.90.0262/html)"@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Sanger sequencing"@en ;
 .
@@ -2889,7 +2889,7 @@ meth:shotgunmethod
   rdfs:label "Shotgun method"@en ;
   skos:altLabel "Shot gun sequencing" ;
   skos:broader meth:bioanalyticalmethod ;
-  skos:definition "Method used for determining the order of bases in long DNA using sequencing of DNA broken up randomly into numerous small segments. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262)"@en ;
+  skos:definition "Method used for determining the order of bases in long DNA using sequencing of DNA broken up randomly into numerous small segments. (Source: IUPAC; https://doi.org/10.1515/iupac.90.0262, https://www.degruyter.com/database/IUPAC/entry/iupac.90.0262/html)"@en ;
   skos:inScheme meth:method ;
   skos:prefLabel "Shotgun method"@en ;
 .
