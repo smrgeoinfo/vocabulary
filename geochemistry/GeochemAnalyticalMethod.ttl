@@ -362,9 +362,9 @@ skos:topConceptOf
 <https://w3id.org/geochem/1.0/agent/geox>
   rdf:type dcterm:Agent ;
   dcterm:contributor <https://orcid.org/0000-0002-5765-0245> ;
-  dcterm:description "vocabulary contributed by Manja Luzi, editor, under the auspices of the Research Network for Geosciences in Berlin and Potsdam (Geo-X, https://www.geo-x.net/en/), vocabulary used for information managment at Geo-X.  Sources include NASA Global Change Master Directory (GCMD), 2021, GCMD Keywords, Version 11.1, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). GCMD Keyword Forum Page  https://forum.earthdata.nasa.gov/app.php/tag/GCMD+Keywords; German Research Foundation, 2021, Instrumentation category key. URL: https://www.dfg.de/en/research_funding/programmes/infrastructure/scientific_instrumentation/category_key/index.html (Downloadable versions of the instrumentation category key are provided in German only.); IUPAC (International Union of Pure and Applied Chemistry): Compendium of Analytical Terminology, current project title: Vocabulary of Concepts and Terms in Analytical Chemistry - the revised Orange Book. 4th edition: Royal Society of Chemistry, 2021. URL: https://iupac.org/project/2012-005-1-500; U.S. Geological Survey, 2021, USGS Thesaurus. URL: https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2; EarthChem Library, 2021, Geochemistry Data Templates. URL: https://www.earthchem.org/ecl/templates/; Georef Thesaurus. Edited by Barbara A. Goodman. 11th edition: American Geological Institute, 2008. URL: https://www.americangeosciences.org/information/georef/thesaurus/lists"@en ;
+  dcterm:description "vocabulary contributed by Manja Luzi, editor, under the auspices of the Research Network for Geosciences in Berlin and Potsdam (Geo.X, https://www.geo-x.net/en/), vocabulary used for information managment at Geo.X.  Sources include NASA Global Change Master Directory (GCMD), 2021, GCMD Keywords, Version 11.1, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). GCMD Keyword Forum Page  https://forum.earthdata.nasa.gov/app.php/tag/GCMD+Keywords; German Research Foundation, 2021, Instrumentation category key. URL: https://www.dfg.de/en/research_funding/programmes/infrastructure/scientific_instrumentation/category_key/index.html (Downloadable versions of the instrumentation category key are provided in German only.); IUPAC (International Union of Pure and Applied Chemistry): Compendium of Analytical Terminology, current project title: Vocabulary of Concepts and Terms in Analytical Chemistry - the revised Orange Book. 4th edition: Royal Society of Chemistry, 2021. URL: https://iupac.org/project/2012-005-1-500; U.S. Geological Survey, 2021, USGS Thesaurus. URL: https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=2; EarthChem Library, 2021, Geochemistry Data Templates. URL: https://www.earthchem.org/ecl/templates/; Georef Thesaurus. Edited by Barbara A. Goodman. 11th edition: American Geological Institute, 2008. URL: https://www.americangeosciences.org/information/georef/thesaurus/lists"@en ;
   rdfs:isDefinedBy meth:method ;
-  rdfs:label "Geo-X" ;
+  rdfs:label "Geo.X" ;
   schema:url "https://www.geo-x.net/en/" ;
 .
 <https://w3id.org/geochem/1.0/agent/orex>
@@ -2934,8 +2934,8 @@ meth:smraddgencategory
 .
 meth:smraddinstmethodsgeox
   rdf:type dcterm:ProvenanceStatement ;
-  dcterm:description "The Geo-X compilation associates methods with instrument, some of the method are not defined in Geo-X and are added in this vocabulary"@en ;
-  rdfs:label "SMR add methods associated with instruments from Geo-X" ;
+  dcterm:description "The Geo.X compilation associates methods with instrument, some of the method are not defined in Geo.X and are added in this vocabulary"@en ;
+  rdfs:label "SMR add methods associated with instruments from Geo.X" ;
 .
 meth:solidsourcemassspectrometry
   rdf:type skos:Concept ;
