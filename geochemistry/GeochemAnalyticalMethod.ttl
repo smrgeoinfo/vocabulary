@@ -1501,6 +1501,18 @@ meth:geochronology40ar39ar
   skos:notation "ARGT" ;
   skos:prefLabel "40Ar-39Ar geochronology"@en ;
 .
+meth:glowdischargemassspectrometry
+  rdf:type skos:Concept ;
+  dcterm:source "MetBase" ;
+  dcterm:source "https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/glow-discharge-mass-spectrometry-gdms-analysis" ;
+  dcterm:source "https://www.massint.co.uk/glow-discharge-ms/gdms.php" ;
+  rdfs:label "Glow discharge mass spectrometry"@en ;
+  skos:broader meth:massspectrometry ;
+  skos:definition "Mass spectrometry using a source in which argon atoms in a low-density plasma impact the sample surface, sputtering atoms from the sample that are then ionized in the plasma and accelerated into the mass analyzer.  Samples are analyzed in solid form. The sputtering and ionization approach is free from the matrix dependence response affecting most other elemental analysis techniques, minimizing the need for matrix matched standards."@en ;
+  skos:inScheme meth:method ;
+  skos:notation "GDMS" ;
+  skos:prefLabel "Glow discharge mass spectrometry"@en ;
+.
 meth:gradientionchromatographyanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://w3id.org/geochem/1.0/agent/petdb> ;
@@ -1549,7 +1561,7 @@ meth:highresolutioninductivelycoupledplasmamassspectrometry
   skos:altLabel "HIGH-RESOLUTION MULTI-COLLECTOR INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY"@en ;
   skos:altLabel "ISOTOPE-DILUTION HIGH-RESOLUTION INDUCTIVELY-COUPLED PLASMA MASS SPECTROMETRY"@en ;
   skos:broader meth:inductivelycoupledplasmamassspectrometry ;
-  skos:definition "Mass spectrometry technique. Components 1) sample preparation: not specified; 2) ionization: Inductively-coupled plasma. 3) mass analyzer in which the the aperture width of the entrance slit situated between the ion optics and the mass analyzer, and an exit slit located between the mass analyzer and the detector assembly can be controlled. the narrower the slits are positioned, the higher the resolution (and lower the sensitivity); the wider the slits, the higher the sensitivity (and lower the resolution). (R. ArevaloJr., in Treatise on Geochemistry (Second Edition), 2014)"@en ;
+  skos:definition "Mass spectrometry technique. Components 1) sample preparation: not specified; 2) ionization: Inductively-coupled plasma. 3) mass analyzer in which the the aperture width of the entrance slit situated between the ion optics and the mass analyzer, and an exit slit located between the mass analyzer and the detector assembly can be controlled. The narrower the slits are positioned, the higher the resolution (and lower the sensitivity); the wider the slits, the higher the sensitivity (and lower the resolution). (R. ArevaloJr., in Treatise on Geochemistry (Second Edition), 2014)"@en ;
   skos:inScheme meth:method ;
   skos:notation "HRICPMS" ;
   skos:prefLabel "High resolution inductively coupled plasma mass spectrometry"@en ;
@@ -1594,7 +1606,7 @@ meth:inductivelycoupledplasmaemissionspectrometry
   rdfs:isDefinedBy meth:method ;
   rdfs:label "Inductively coupled plasma emission spectrometry"@en ;
   skos:broader meth:plasmaemissionspectrometry ;
-  skos:definition "technique for determining the composition of a sample by heating it to the point that the material emits photons, and analyzing the wavelenth of the emitted photons.  The sample is heated to emission temperatures using and inductively coupled plasma"@en ;
+  skos:definition "technique for determining the composition of a sample by heating it to the point that the material emits photons, and analyzing the wavelenth of the emitted photons.  The sample is heated to emission temperatures using an inductively coupled plasma"@en ;
   skos:inScheme meth:method ;
   skos:notation "ICPES" ;
   skos:prefLabel "Inductively coupled plasma emission spectrometry"@en ;
@@ -1832,6 +1844,20 @@ meth:laserfluorinationanalysis
   skos:notation "LF" ;
   skos:prefLabel "Laser fluorination analysis"@en ;
 .
+meth:laserinducedbreakdownspectrometry
+  rdf:type skos:Concept ;
+  dcterm:source "MetBase" ;
+  dcterm:source "https://appliedspectra.com/technology/libs.html" ;
+  dcterm:source "https://doi.org/10.1007/978-3-642-20668-9" ;
+  dcterm:source "https://en.wikipedia.org/wiki/Laser-induced_breakdown_spectroscopy" ;
+  rdfs:label "Laser Induced Breakdown Spectrometry"@en ;
+  skos:broader meth:emissionspectrometry ;
+  skos:definition """rapid chemical analysis technique that uses a short laser pulse to create a micro-plasma on the sample surface. The highly energetic laser pulse is focused on sample surface to form a plasma, which atomizes and excites atoms from the sample, which then emit light that is spectroscopically analyzed.  Advantages include: 1) minimal sample preparation; 2) 
+ fast measurement time (second) for a single spot analysis; 3) Broad elemental coverage, including lighter elements, such as H, Be, Li, C, N, O, Na, and Mg; 4) ability to raster the sample surface and make depth profiles; 5) Thin-sample analysis with no substrate interference.  A typical detection limit of LIBS for heavy metallic elements is in the low-PPM range. LIBS is applicable to a wide range of sample matrices that include metals, semiconductors, glasses, biological tissues, insulators, plastics, soils, plants, soils, thin-paint coating, and electronic materials."""@en ;
+  skos:inScheme meth:method ;
+  skos:notation "LIBS" ;
+  skos:prefLabel "Laser Induced Breakdown Spectrometry"@en ;
+.
 meth:laserionizationmassspectrometry
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1021/acs.analchem.9b00329> ;
@@ -1999,6 +2025,7 @@ meth:method
   dcterm:creator <https://w3id.org/geochem/1.0/agent/geox> ;
   dcterm:creator <https://w3id.org/geochem/1.0/agent/petdb> ;
   dcterm:modified "2023-05-26"^^xsd:date ;
+  dcterm:publisher "Astromaterials Data System (Astromat)" ;
   rdfs:label "Analytical methods for geochemistry and cosmochemistry"@en ;
   owl:imports dcterm: ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
@@ -2012,7 +2039,6 @@ meth:method
   skos:prefLabel "Analytical methods for geochemistry"@en ;
   schema:funding "Compilation of this vocabulary supported by funding from the US National Aeronautics and Space Administration (NASA) Planetary Sciences Division for the Astromaterials Data System at Lamont Doherty Earth Observatory, Columbia University"@en ;
   schema:provider "Australian Research Data Commons, Research Vocabularies Australia" ;
-    dcterm:publisher "Astromaterials Data System (Astromat)" ;
 .
 meth:micromassmultiprepmassspectrometry
   rdf:type skos:Concept ;
@@ -2868,6 +2894,19 @@ meth:secondaryneutralmassspectrometry
   skos:inScheme meth:method ;
   skos:notation "SNMS" ;
   skos:prefLabel "Secondary neutral mass spectrometry"@en ;
+.
+meth:sectorfieldicpms
+  rdf:type skos:Concept ;
+  dcterm:source "MetBase" ;
+  dcterm:source "https://chemistry.olemiss.edu/icp-sfms/" ;
+  dcterm:source "https://pubs.rsc.org/en/content/articlelanding/2004/ja/b403128h" ;
+  rdfs:label "Sector field inductively coupled plasma mass spectrometry" ;
+  skos:broader meth:inductivelycoupledplasmamassspectrometry ;
+  skos:definition "also called double focusing (electric and magnetic) ICP-MS.  Sample in solution is nebulized, atomized and ionized in an inductively coupled plasma; ions are accelerated into a sector field analyzer; the distinguishing feature from other double focusing (electrostatic, then magnetic) high-resolution mass analyzers is not clear. The technique provides good detection capability and resolving power, useful for applications such as speciation analysis."@en ;
+  skos:inScheme meth:method ;
+  skos:notation "ICP-SFMS" ;
+  skos:notation "SFICPMS" ;
+  skos:prefLabel "Sector field inductively coupled plasma mass spectrometry" ;
 .
 meth:seismicvelocitiesandrockultrasonicelasticconstants
   rdf:type skos:Concept ;
