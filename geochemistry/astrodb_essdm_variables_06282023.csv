@@ -1,0 +1,1320 @@
+variable_num,variable_type_code,variable_type_description,variable_name,variable_definition
+1,IS,Stable_Isotopes,DELTA_Fe56,"equals: (ratio of iron isotopes Fe56/Fe54 in the sample divided by ratio of Fe56/Fe54 of irmm-014) minus 1, multiplied by 1000"
+2,NGAS,Noble_Gas,He4_Ne20,ratio of helium isotope He4 to neon isotope Ne20
+3,MODE,Rock_Mode,BRONZITE,bronzite
+4,MODE,Rock_Mode,Fe-Ti-OXIDE,iron titanium oxide
+5,MODE,Rock_Mode,LEUCITE,leucite
+6,MODE,Rock_Mode,NEPHELINE,nepheline
+7,IS,Stable_Isotopes,CAP_DELTA_S36,"deviation of Delta_S36 from the terrestrial fractionation array, calculated as Delta_36S minus 1000 times (((one plus Delta_S34 divided by 1000) taken to the 1.9th power) minus 1)"" or ""CAP_DELTA_36S=DELTA_S36-1000�[(DELTA_S34/1000+1)^1.9-1"
+8,MODE,Rock_Mode,ANHYDRITE,anhydrite
+9,US,Uranium_Series,U238_Th230_ACTIVITY,"ratio of uranium isotope U238 to thorium isotope Th230, reported as activity"
+10,MODE,Rock_Mode,SEPIOLITE,SEPIOLITE
+11,NGAS,Noble_Gas,Xe136_He4,ratio of xenon isotope Xe136 to helium isotope He4
+12,NGAS,Noble_Gas,Ne21_He4,ratio of neon isotope Ne21 to helium isotope He4
+13,NGAS,Noble_Gas,Ne21,neon isotope Ne21
+14,MAJ,Major_Oxide/Element,Sc2O3,scandium oxide
+15,MAJ,Major_Oxide/Element,WO3,tungsten trioxide
+16,IS,Stable_Isotopes,CAP_DELTA_S33,"deviation of Delta_S33 from the terrestrial fractionation array, calculated as Delta_S33 minus 1000 times ((Delta_S34 divided by 1000 then plus one) taken to the 0.515th power) minus 1 or CAP_DELTA_33S=DELTA_S33-1000�[(DELTA_S34/1000+1)^0.515-1]"
+17,US,Uranium_Series,Pb210_Ra226_ACTIVITY,"ratio of lead isotope 210 to radium isotope 226, reported as activity"
+18,MODE,Rock_Mode,PEROVSKITE,perovskite
+19,MODE,Rock_Mode,TITANITE,titanite
+20,IS,Stable_Isotopes,Pb207_Pb208,ratio of lead isotopes Pb207 to Pb208
+21,IS,Stable_Isotopes,DELTA_S36,"equals: (ratio of sulfur isotopes S36/S32 in the sample divided by ratio of S36/S32 in reference material) minus 1, multiplied by 1000"
+22,IS,Stable_Isotopes,DELTA_Mo98,"equals: (ratio of molybdenum isotopes Mo98/Mo95 in the sample divided by ratio of Mo98/Mo95 in the reference material) minus 1, multiplied by 1000 "
+23,IS,Stable_Isotopes,DELTA_Si29,"equals: (ratio of silicon isotopes Si29/Si28 in the sample divided by ratio of Si29/Si28 in reference material) minus 1, multiplied by 1000"
+24,IS,Stable_Isotopes,DELTA_Si30,"equals: (ratio of silicon isotopes Si30/Si28 in the sample divided by ratio of Si30/Si28 in reference material) minus 1, multiplied by 1000 "
+25,IS,Stable_Isotopes,DELTA_Cu65,"equals: (ratio of copper isotopes Cu65/Cu63 in the sample divided by ratio of Cu65/Cu63 of the standard NIST-976) minus 1, multiplied by 1000"
+26,IS,Stable_Isotopes,Tl203_Tl205,ratio of thallium isotopes Tl203 to Tl205
+27,RT,Ratio,N(A),percent nitrogen in the A defect site of diamonds
+28,MODE,Rock_Mode,PARGASITE,pargasite
+29,IS,Stable_Isotopes,E_Tl205,"epsilon Tl-205 is the deviation in parts per 10,000 of a sample Tl-205/Tl-203 ratio compared to NIST SRM 997 Tl standard"
+30,US,Uranium_Series,U230_Th232_ACTIVITY,"ratio of uranium isotope U230 to thorium isotope Th232, reported as activity"
+31,IS,Stable_Isotopes,DELTA_Ni60,"equals: (ratio of nickel isotopes Ni60/Ni58 in the sample divided by ratio of Ni60/Ni58 in the reference material) minus 1, multiplied by 1000"
+32,IS,Stable_Isotopes,DELTA_Zn66,"equals: (ratio of zinc isotopes Zn66/Zn64 in the sample divided by ratio of Zn66/Zn64 of the standard Lyon JMC) minus 1, multiplied by 1000"
+33,IS,Stable_Isotopes,DELTA_Zn68,"equals: (ratio of zinc isotopes Zn68/Zn64 in the sample divided by ratio of Zn68/Zn64 of the standard Lyon JMC) minus 1, multiplied by 1000"
+34,IS,Stable_Isotopes,Os187_Os188,ratio of osmium isotopes Os187 to Os188
+35,IS,Stable_Isotopes,Os192_Os188,ratio of osmium isotopes Os192 to Os188
+36,US,Uranium_Series,Pa231_ACTIVITY,"protactinium isotope Pa231, reported as activity"
+37,US,Uranium_Series,Pa231_U235_ACTIVITY,"ratio of protactinium isotope Pa231 to uranium isotope U235, reported as activity"
+38,US,Uranium_Series,Pb210_Ra226,ratio of lead isotope Pb210 to radium isotope Ra226
+39,IR,Radiogenic_Isotopes,Pt190_Os188,ratio of platinum isotope Pt190 to osmium isotope Os188
+40,IR,Radiogenic_Isotopes,Rb87_Sr86,ratio of rubidium isotope Rb87 to strontium isotope Sr86
+42,IR,Radiogenic_Isotopes,Re187_Os186,ratio of rhenium isotope Re187 to osmium isotope Os186
+43,IR,Radiogenic_Isotopes,Re187_Os188,ratio of rhenium isotope Re187 to osmium isotope Os188
+44,US,Uranium_Series,U238_Pb206,ratio of uranium isotope U238 to lead isotope Pb206
+45,NGAS,Noble_Gas,Xe124_Xe130,ratio of xenon isotopes Xe124 to Xe130
+46,NGAS,Noble_Gas,Xe128_Xe130,ratio of xenon isotopes Xe128 to Xe130
+47,MAJ,Major_Oxide/Element,ZrO2,zirconium oxide
+48,MAJ,Major_Oxide/Element,Nd2O3,neodymium oxide
+49,EM,End-Member,ULVOSPINEL,ulvospinel
+50,EM,End-Member,MG-FERRITE,mg-ferrite
+51,EM,End-Member,GEIKILITE,geikilite
+52,EM,End-Member,CORUNDUM,corundum
+53,EM,End-Member,DIOPSIDE,diopside
+54,MODE,Rock_Mode,DIOPSIDE,diopside
+55,NGAS,Noble_Gas,Ar39,argon isotope Ar39
+56,MODE,Rock_Mode,CLINOPYROXENE,clinopyroxene
+57,MODE,Rock_Mode,GROUNDMASS,groundmass
+58,MODE,Rock_Mode,OLIVINE,olivine
+59,MODE,Rock_Mode,PLAGIOCLASE,plagioclase
+60,MODE,Rock_Mode,VESICLES,vesicles
+61,MODE,Rock_Mode,PLAGIOCLASE-XENOCRYST,plagioclase xenocryst
+62,MODE,Rock_Mode,OLIVINE-XENOCRYST,olivine xenocryst
+64,MODE,Rock_Mode,AMPHIBOLE,amphibole
+65,MODE,Rock_Mode,ORTHOPYROXENE,orthopyroxene
+66,MODE,Rock_Mode,ALTERATION PRODUCT,alteration product
+67,MODE,Rock_Mode,SPHENE,sphene
+68,MODE,Rock_Mode,EPIDOTE,epidote
+69,MODE,Rock_Mode,BIOTITE,biotite
+70,MODE,Rock_Mode,QUARTZ,quartz
+71,MODE,Rock_Mode,OLIGOCLASE,oligoclase
+72,MODE,Rock_Mode,SERPENTINE,serpentine
+73,MODE,Rock_Mode,ORE,ore as mode
+74,MODE,Rock_Mode,Fe-OXIDE,fe-oxide
+75,MODE,Rock_Mode,CHLORITE,chlorite
+76,MODE,Rock_Mode,MICA,mica as mode
+77,MODE,Rock_Mode,SMECTITE,smectite
+78,MODE,Rock_Mode,Ti-MAGNETITE,ti-magnetite
+79,MODE,Rock_Mode,CLAY MINERAL,clay mineral
+80,MODE,Rock_Mode,OPAQUE,opaque mineral
+81,MODE,Rock_Mode,OLIVINE(R),ol(r)
+82,MODE,Rock_Mode,PYRITE,pyrite
+83,MODE,Rock_Mode,CLAY,clay
+84,MODE,Rock_Mode,GLASS,glass
+85,MODE,Rock_Mode,BASTITE,bastite
+86,MODE,Rock_Mode,ZEOLITE,zeolite
+87,MODE,Rock_Mode,PYROXENE,pyroxene (not classified) as mode
+88,EM,End-Member,UNKNOWN,unknown
+89,MODE,Rock_Mode,UNKNOWN,unknown
+90,EM,End-Member,CHROMITE,chromite
+91,MODE,Rock_Mode,CHROMITE,chromite
+92,MODE,Rock_Mode,SULFIDE,sulfide
+93,MODE,Rock_Mode,OXIDE,oxide
+94,MODE,Rock_Mode,CARBONATE,carbonate
+95,MODE,Rock_Mode,CHLORITE/SMECTITE,chlorite/smectite
+96,MODE,Rock_Mode,TALC,talc
+97,MODE,Rock_Mode,HORNBLENDE,hornblende
+98,MODE,Rock_Mode,PIGEONITE,pigeonite as mode
+99,MODE,Rock_Mode,MAFIC,mafic minerals
+100,MODE,Rock_Mode,AUGITE,augite
+101,IR,Radiogenic_Isotopes,Nd143_Nd144(T),"ratio of neodymium isotopes Nd143 to Nd144, time corrected"
+102,VO,Volatile,O2,dioxygen
+103,IS,Stable_Isotopes,Os187_Os188(T),"ratio of osmium isotopes Os187 to Os188, time corrected"
+104,MODE,Rock_Mode,PHENGITE,phengite
+105,MODE,Rock_Mode,PHLOGOPITE,phlogopite
+106,MODE,Rock_Mode,PHYLLOSILICATE,phyllosilicate
+107,EM,End-Member,PLEONASTE,pleonaste
+108,MD,Model_Data,PRESS,pressure
+109,EM,End-Member,PYROPHANITE,pyrophanite
+110,EM,End-Member,PYROPE,pyrope
+111,MODE,Rock_Mode,PYROPE,pyrope
+112,IS,Stable_Isotopes,Pb204,lead isotope Pb204
+113,IS,Stable_Isotopes,Pb206_Pb204(T),"ratio of lead isotopes Pb206 to Pb204, time corrected"
+114,IS,Stable_Isotopes,Pb206_Pb207,ratio of lead isotopes Pb206 to Pb207
+115,IR,Radiogenic_Isotopes,Pb206_U235,ratio of lead isotope Pb206 to uranium isotope U235
+116,IS,Stable_Isotopes,Pb207_Pb204(T),"ratio of lead isotopes Pb207 to Pb204, time corrected"
+117,IS,Stable_Isotopes,Pb208_Pb204(T),"ratio of lead isotopes Pb208 to Pb204, time corrected"
+118,IS,Stable_Isotopes,Pb208_Th232,ratio of lead isotope Pb208 to thorium isotope Th232
+119,MODE,Rock_Mode,RUTILE,rutile
+120,MODE,Rock_Mode,SCAPOLITE,scapolite
+121,MODE,Rock_Mode,SILLIMANITE,sillimanite
+122,EM,End-Member,SPESSARTINE,spessartine
+123,MODE,Rock_Mode,SPESSARTINE,spessartine
+124,MAJ,Major_Oxide/Element,Sm2O3,samarium oxide
+125,IS,Stable_Isotopes,Sr84_Sr86,ratio of strontium isotopes Sr84 to Sr86
+126,IS,Stable_Isotopes,Sr84_Sr88,ratio of strontium isotopes Sr84 to Sr88
+127,IS,Stable_Isotopes,Sr87_Sr86(T),"ratio of strontium isotopes Sr87 to Sr86, time corrected"
+128,MD,Model_Data,TEMP,temperature
+129,MAJ,Major_Oxide/Element,ThO,thorium oxide
+130,EM,End-Member,UVAROVITE,uvarovite
+131,IS,Stable_Isotopes,Yb176_Hf177,ratio of ytterbium isotope Yb176 to hafnium isotope Hf177
+132,MODE,Rock_Mode,ZIRCON,zircon
+133,MODE,Rock_Mode,ZOISITE,zoisite
+134,MAJ,Major_Oxide/Element,Zr2O3,zirconium pentoxide
+135,TE,Trace_Element,Os(I),common osmium at initial age
+136,NGAS,Noble_Gas,Xe129_Xe136,ratio of xenon isotopes Xe129 to Xe136
+137,MODE,Rock_Mode,ACTINOLITE,actinolite 
+138,IS,Stable_Isotopes,Sr86_Sr88,ratio of strontium isotopes Sr86 to Sr88
+139,MAJ,Major_Oxide/Element,CuO,copper oxide
+140,MODE,Rock_Mode,ACCESSORY MINERALS,accessory minerals
+141,EM,End-Member,ALMANDINE,almandine
+142,MODE,Rock_Mode,ALMANDINE,almandine
+143,EM,End-Member,ANDALUSITE,andalusite
+144,EM,End-Member,ANDRADITE,andradite
+145,MODE,Rock_Mode,APATITE,apatite
+146,IS,Stable_Isotopes,Ar40_He4,ratio of argon isotopes Ar40 to helium isotope He4
+147,MODE,Rock_Mode,CALCITE,calcite
+148,MODE,Rock_Mode,Ca-SULFATE,calcium sulfate
+149,EM,End-Member,CELSIAN,celsian
+150,MODE,Rock_Mode,COESITE,coesite
+151,MODE,Rock_Mode,CHLORITOID,chloritoid
+152,MAJ,Major_Oxide/Element,CaCO3,calcium carbonate
+153,IS,Stable_Isotopes,DELTA_Mg25,"equals: (ratio of magnesium isotopes Mg25/Mg24 in the sample divided by ratio of Mg25/Mg24 in the reference material) minus 1, multiplied by 1000"
+154,IS,Stable_Isotopes,DELTA_Mg26,"equals: (ratio of magnesium isotopes Mg26/Mg24 in the sample divided by ratio of Mg26/Mg24 in the reference material) minus 1, multiplied by 1000"
+155,MAJ,Major_Oxide/Element,Dy2O3,dysprosium oxide
+156,IR,Radiogenic_Isotopes,E_Nd(JUV),"epsilon Nd(JUV) = [(Nd143/Nd144)sample/(Nd143/Nd144)JUV - 1]x10E4, where JUV is Juvinas achondrite"
+157,IS,Stable_Isotopes,E_Sr(T),"epsilon Sr= [(Sr87/Sr86)sample/(Sr87/Sr86)reference - 1]x10E4, time corrected"
+158,MODE,Rock_Mode,FELDSPAR,feldspar
+159,RT,Ratio,Fe3P_FeT,ferric iron total iron ratio
+160,MAJ,Major_Oxide/Element,FeCO3,siderite
+161,EM,End-Member,GARNET,garnet
+162,MODE,Rock_Mode,GARNET,garnet
+163,MODE,Rock_Mode,GRAPHITE,graphite
+164,EM,End-Member,GROSSULAR,grossular
+165,MODE,Rock_Mode,GROSSULAR,grossular
+166,IR,Radiogenic_Isotopes,G_Os,gamma osmium
+167,IR,Radiogenic_Isotopes,G_Os(T),"gamma osmium, time corrected"
+168,MAJ,Major_Oxide/Element,Gd2O3,gadolinium oxide
+169,VO,Volatile,H2S,hydrogen sulfide
+170,EM,End-Member,HEDENBERGITE,hedenbergite
+171,EM,End-Member,HERCYNITE,hercynite
+172,NGAS,Noble_Gas,He4_Ne21,ratio of helium isotope He4 to neon isotope Ne21
+173,IS,Stable_Isotopes,Hf176_Hf177(T),"ratio of hafnium isotopes Hf176 to Hf177, time corrected"
+174,MODE,Rock_Mode,POTASSIUM FELDSPAR,potassium feldspar as mode
+175,MODE,Rock_Mode,KYANITE,kyanite
+176,MODE,Rock_Mode,LAWSONITE,lawsonite
+177,IR,Radiogenic_Isotopes,Lu176_Hf177(T),"ratio of lutetium isotope Lu176 to hafnium isotope Hf177, time corrected"
+178,EM,End-Member,MAGNESIOCHROMITE,magnesiochromite
+179,MODE,Rock_Mode,MUSCOVITE,muscovite
+180,MAJ,Major_Oxide/Element,MgCO3,magnesium carbonate
+181,MAJ,Major_Oxide/Element,MnCO3,manganese carbonate
+182,MAJ,Major_Oxide/Element,Nb2O3,niobium oxide
+183,MAJ,Major_Oxide/Element,S_PY,sulfur present in pyrite form
+184,MODE,Rock_Mode,ANALCITE,analcite
+185,MAJ,Major_Oxide/Element,Ta2O5,tantalum oxide
+186,MAJ,Major_Oxide/Element,ThO2,thorium dioxide
+187,MAJ,Major_Oxide/Element,UO2,uranium oxide
+188,MODE,Rock_Mode,KELYPHITE,kelyphite
+189,IS,Stable_Isotopes,Os189_Os188,ratio of osmium isotopes Os189 to Os188
+190,IS,Stable_Isotopes,Os190_Os188,ratio of osmium isotopes Os190 to Os188
+191,MODE,Rock_Mode,GALAXITE,galaxite = MnAl2O4
+192,MODE,Rock_Mode,Fe-FERRITE,iron ferrite = FeFe2O4
+193,MODE,Rock_Mode,MANGANESE-CHROMITE,manganese chromite
+194,MODE,Rock_Mode,SIDEROMELANE,sideromelane
+195,MODE,Rock_Mode,TACHYLITE,tachylite
+196,MODE,Rock_Mode,HAUSMANNITE,hausmannite
+197,MODE,Rock_Mode,Fe-ORE,iron ore as mode
+198,MAJ,Major_Oxide/Element,Cu2O,copper(I) oxide
+199,MODE,Rock_Mode,IDDINGSITE,iddingsite as mode
+200,MODE,Rock_Mode,AMYGDULE,amygdule
+201,US,Uranium_Series,Pb210_U238,ratio of lead isotope Pb210 to uranium isotope U238
+202,IS,Stable_Isotopes,Pb208_Pb206(I),ratio of lead isotopes Pb208 to Pb206 at initial age
+203,IS,Stable_Isotopes,Pb207_Pb206(I),ratio of lead isotopes Pb207 to Pb206 at initial age
+204,EM,End-Member,JACOBSITE,jacobsite
+205,MAJ,Major_Oxide/Element,HfO,hafnium oxide
+206,MAJ,Major_Oxide/Element,Mg,magnesium
+207,TE,Trace_Element,Mg,magnesium
+208,SPEC,Speciation_Ratio,Fe3_SUMFe,ratio of Fe3+ to total Fe
+209,NGAS,Noble_Gas,Ar38_Ar36,ratio of argon isotopes Ar38 to Ar36
+210,NGAS,Noble_Gas,Ar40,argon isotope Ar40
+211,NGAS,Noble_Gas,Ar40_Ar36,ratio of argon isotopes Ar40 to Ar36
+212,MAJ,Major_Oxide/Element,As,arsenic
+213,TE,Trace_Element,As,arsenic
+214,TE,Trace_Element,Au,gold
+215,TE,Trace_Element,B,boron
+216,REE,Rare_Earth_Element,Ba,barium
+217,MAJ,Major_Oxide/Element,BaO,barium oxide
+218,TE,Trace_Element,Be,beryllium
+219,IR,Radiogenic_Isotopes,Be10,beryllium isotope Be10
+220,IR,Radiogenic_Isotopes,Be10_Be9,ratio of beryllium isotopes Be10 to Be9
+221,IS,Stable_Isotopes,Be9,beryllium isotope Be9
+222,TE,Trace_Element,Bi,bismuth
+223,TE,Trace_Element,Br,bromium
+224,TE,Trace_Element,C,carbon
+225,EM,End-Member,Ca-TSCHERMAK,calcium tschermak molecule
+226,EM,End-Member,Ca-Cr-CLINOPYROXENE,calcium chromium clinopyroxene
+227,VO,Volatile,CH4,methane
+228,VO,Volatile,CO1,carbon monoxide
+229,VO,Volatile,CO2,carbon dioxide
+230,EM,End-Member,Ca-TITANIUM-TSCHERMAK,calcium titanium tschermak molecule
+231,MAJ,Major_Oxide/Element,C_(non-carb),non-carbonate carbon
+232,EM,End-Member,CALCIUM-OLIVINE,calcium-olivine
+233,MAJ,Major_Oxide/Element,CaO,calcium oxide
+234,MAJ,Major_Oxide/Element,Cd,cadmium
+235,TE,Trace_Element,Cd,cadmium
+236,REE,Rare_Earth_Element,Ce,cerium
+237,IS,Stable_Isotopes,Ce138_Ce142,ratio of cerium isotopes Ce138 to Ce142
+238,VO,Volatile,Cl,chlorine
+239,MAJ,Major_Oxide/Element,Co,cobalt
+240,TE,Trace_Element,Co,cobalt
+241,MAJ,Major_Oxide/Element,CoO,cobalt oxide
+242,TE,Trace_Element,Cr,chromium
+243,MAJ,Major_Oxide/Element,Cr2O3,chromium oxide
+244,TE,Trace_Element,Cs,cesium
+245,MAJ,Major_Oxide/Element,Cu,copper
+246,TE,Trace_Element,Cu,copper
+247,IS,Stable_Isotopes,DELTA_B11,"equals: (ratio of boron isotopes B11/B10 in the sample divided by ratio of B11/B10 in reference material srm951)  minus 1, multiplied by 1000"
+248,IS,Stable_Isotopes,DELTA_C13,"equals: (ratio of carbon isotopes C13/C12 in the sample divided by ratio of C13/C12 of the pee dee belemnite) minus 1, multiplied by 1000"
+249,IS,Stable_Isotopes,DELTA_D,"equals: (ratio of hydrogen isotopes H2/H1 in the sample divided by ratio of H2/H1 in reference material ) minus 1, multiplied by 1000"
+250,IS,Stable_Isotopes,DELTA_O18,"equals: (ratio of oxygen isotopes O18/O16 in the sample divided by ratio of O18/O16 of the standard) minus 1, multiplied by 1000"
+251,IS,Stable_Isotopes,DELTA_S34,"equals: (ratio of sulfur isotopes S34/S32 in the sample divided by ratio of S34/S32 in reference material ) minus 1, multiplied by 1000"
+252,REE,Rare_Earth_Element,Dy,dysprosium
+253,EM,End-Member,ENSTATITE,enstatite
+254,MODE,Rock_Mode,ENSTATITE,enstatite
+255,IS,Stable_Isotopes,Os187_Os188(I),ratio of osmium isotopes Os187 to Os188 at initial age
+256,IS,Stable_Isotopes,E_Hf,epsilon Hf = [(176Hf/177Hf)sample/(176Hf/177Hf)chur - 1]x10E4
+257,NGAS,Noble_Gas,Ar40_RG,radiogenic Ar40
+258,REE,Rare_Earth_Element,Er,erbium
+259,REE,Rare_Earth_Element,Eu,europium
+260,VO,Volatile,F,fluorine
+261,EM,End-Member,FAYALITE,fayalite
+262,EM,End-Member,FORSTERITE,forsterite
+263,MODE,Rock_Mode,FORSTERITE,forsterite
+264,EM,End-Member,FERROSILITE,ferrosilite
+265,MODE,Rock_Mode,FERROSILITE,ferrosilite
+266,MAJ,Major_Oxide/Element,Fe,iron
+267,MAJ,Major_Oxide/Element,Fe2O3,ferric iron oxide (tri-valent iron)
+268,IS,Stable_Isotopes,Hf176_Hf177(I),ratio of hafnium isotopes Hf176 to Hf177 at initial time
+269,MAJ,Major_Oxide/Element,Al,aluminum
+270,TE,Trace_Element,Al,aluminum
+272,US,Uranium_Series,Pb206_U238,ratio of lead isotope Pb206 to uranium isotope U238
+273,IS,Stable_Isotopes,E_Sr,epsilon sr= [(Sr87/Sr86)sample/(Sr87/Sr86)reference - 1]x10E4
+274,IR,Radiogenic_Isotopes,Ar39_Ar40,ratio of argon isotopes Ar39 to Ar40
+275,IR,Radiogenic_Isotopes,Ar37_Ar40,ratio of Ar37 to Ar40
+276,IS,Stable_Isotopes,Pb204_Pb206,ratio of lead isotopes Pb204 to Pb206
+277,US,Uranium_Series,Th230,thorium isotope Th230
+278,IS,Stable_Isotopes,Pb206,lead isotope 206
+279,MAJ,Major_Oxide/Element,Fe2O3T,total iron oxide content reported as ferric (tri-valent) iron
+280,MAJ,Major_Oxide/Element,FeO,ferrous iron oxide (di-valent)
+281,MAJ,Major_Oxide/Element,FeOT,total iron oxide content reported as ferrous (di-valent) iron
+282,MAJ,Major_Oxide/Element,FeS2,iron disulfide
+283,TE,Trace_Element,Ga,gallium
+284,REE,Rare_Earth_Element,Gd,gadolinium
+285,TE,Trace_Element,Ge,germanium
+286,VO,Volatile,H2,hydrogen
+287,VO,Volatile,H2O,water
+288,VO,Volatile,H2OM,crystal water (H2O-)
+289,VO,Volatile,H2OP,crystal water (H2O+)
+290,NGAS,Noble_Gas,He,helium
+291,NGAS,Noble_Gas,He3,helium isotope He3
+292,NGAS,Noble_Gas,He3_He4,ratio of helium isotopes He3 to He4
+293,NGAS,Noble_Gas,He3_He4(R/Ra),ratio of helium isotopes He3 to He4 expressed relative to the helium isotope ratio of the atmosphere
+294,NGAS,Noble_Gas,He4,helium isotope He4
+295,NGAS,Noble_Gas,He4_Ar40,ratio of helium isotope He4 to argon isotope Ar40
+296,NGAS,Noble_Gas,He4_He3,ratio of helium isotopes He4 to He3
+297,TE,Trace_Element,Hf,hafnium
+298,IS,Stable_Isotopes,Hf176_Hf177,ratio of hafnium isotopes Hf176 to Hf177
+299,TE,Trace_Element,Hg,mercury
+300,REE,Rare_Earth_Element,Ho,holmium
+301,TE,Trace_Element,I,iodine
+302,TE,Trace_Element,In,indium
+303,TE,Trace_Element,Ir,iridium
+304,EM,End-Member,JADEITE,jadeite
+305,IS,Stable_Isotopes,Pb208_Pb206,ratio of lead isotopes Pb208 to Pb206
+306,IS,Stable_Isotopes,B11_B10,boron isotope ratio of B11 to B10
+307,VO,Volatile,H,hydrogen
+308,MAJ,Major_Oxide/Element,TOC,total organic carbon
+309,MAJ,Major_Oxide/Element,Y2O3,yttrium oxide
+310,MAJ,Major_Oxide/Element,HfO2,hafnium oxide
+311,VO,Volatile,OH,hydroxide
+312,TE,Trace_Element,K,potassium
+313,MAJ,Major_Oxide/Element,K2O,potassium oxide
+314,EM,End-Member,KALSILITE,kalsilite
+315,NGAS,Noble_Gas,Kr,krypton
+316,NGAS,Noble_Gas,Kr78,krypton isotope Kr78
+317,NGAS,Noble_Gas,Kr78_Kr84,ratio of krypton isotopes Kr78 to Kr84
+318,NGAS,Noble_Gas,Kr80,krypton isotope Kr80
+319,NGAS,Noble_Gas,Kr80_Kr84,ratio of krypton isotopes Kr80 to Kr84
+320,NGAS,Noble_Gas,Kr82,krypton isotope Kr82
+321,NGAS,Noble_Gas,Kr82_Kr84,ratio of krypton isotopes Kr82 to Kr84
+322,NGAS,Noble_Gas,Kr83,krypton isotope Kr83
+323,NGAS,Noble_Gas,Kr83_Kr84,ratio of krypton isotopes Kr83 to Kr84
+324,NGAS,Noble_Gas,Kr84,krypton isotope Kr84
+325,NGAS,Noble_Gas,Kr86,krypton isotope Kr86
+326,NGAS,Noble_Gas,Kr86_Kr84,ratio of krypton isotopes Kr86 to Kr84
+327,NGAS,Noble_Gas,Kr90,krypton isotope Kr90
+328,MAJ,Major_Oxide/Element,LOI,loss on ignition
+329,REE,Rare_Earth_Element,La,lanthanum
+330,TE,Trace_Element,Li,lithium
+331,REE,Rare_Earth_Element,Lu,lutetium
+332,IR,Radiogenic_Isotopes,Lu176_Hf177,ratio of lutetium isotope Lu176 to hafnium isotope Hf177
+333,MAJ,Major_Oxide/Element,MgO,magnesium oxide
+334,MAJ,Major_Oxide/Element,Mn,manganese
+335,TE,Trace_Element,Mn,manganese
+336,EM,End-Member,MANGANESE-OLIVINE,manganese olivine
+337,MAJ,Major_Oxide/Element,MnO,manganese oxide
+338,TE,Trace_Element,Mo,molybdenum
+339,TE,Trace_Element,N,nitrogen
+340,VO,Volatile,N2,nitrogen
+341,EM,End-Member,NACR,clinopyroxene end-member nacr (Si2O6)
+342,TE,Trace_Element,Na,sodium
+343,MAJ,Major_Oxide/Element,Na2O,sodium oxide
+344,TE,Trace_Element,Nb,niobium
+345,REE,Rare_Earth_Element,Nd,neodymium
+346,IR,Radiogenic_Isotopes,Nd142_Nd144,ratio of neodymium isotopes Nd142 to Nd144
+347,IR,Radiogenic_Isotopes,Nd143_Nd144,ratio of neodymium isotopes Nd143 to Nd144
+348,IR,Radiogenic_Isotopes,Nd143_Nd144(I),ratio of neodymium isotopes Nd143 to Nd144 at initial age
+349,IR,Radiogenic_Isotopes,Nd146_Nd144,ratio of neodymium isotopes Nd146 to Nd144
+350,MAJ,Major_Oxide/Element,Nb2O5,niobium pentoxide
+351,MAJ,Major_Oxide/Element,Ca,calcium
+352,TE,Trace_Element,Ca,calcium
+353,IR,Radiogenic_Isotopes,Nd148_Nd144,ratio of neodymium isotopes Nd148 to Nd144
+354,NGAS,Noble_Gas,Ne,neon
+355,NGAS,Noble_Gas,Ne20,neon isotope Ne20
+356,NGAS,Noble_Gas,Ne20_Ne22,ratio of neon isotope Ne20 to Ne22
+357,NGAS,Noble_Gas,Ne21_Ne20,ratio of neon isotope Ne21 to Ne20
+358,NGAS,Noble_Gas,Ne21_Ne22,ratio of neon isotope Ne21 to Ne22
+359,NGAS,Noble_Gas,Ne22,neon isotope Ne22
+360,NGAS,Noble_Gas,Ne22_Ne20,ratio of neon isotope Ne22 to Ne20
+361,NGAS,Noble_Gas,Ne23,neon isotope Ne23
+362,MAJ,Major_Oxide/Element,Ni,nickel
+363,TE,Trace_Element,Ni,nickel
+364,MAJ,Major_Oxide/Element,NiO,nickel oxide
+365,VO,Volatile,O,oxygen
+366,EM,End-Member,ORTHOCLASE,orthoclase
+367,MODE,Rock_Mode,ORTHOCLASE,orthoclase
+368,TE,Trace_Element,Os,osmium
+369,IR,Radiogenic_Isotopes,Os184_Os188,ratio of osmium isotopes Os184 to Os188
+370,TE,Trace_Element,P,phosphorus
+371,MAJ,Major_Oxide/Element,P2O5,phosphorus pentoxide
+372,TE,Trace_Element,Pa,protactinium
+373,TE,Trace_Element,Pb,lead
+374,IS,Stable_Isotopes,Pb206_Pb204,ratio of lead isotopes Pb206 to Pb204
+375,IS,Stable_Isotopes,Pb206_Pb204(I),ratio of lead isotopes Pb206 to Pb204 at initial age
+376,IS,Stable_Isotopes,Pb207_Pb204(I),initial Pb207_Pb204 ratio (age-corrected)
+377,IS,Stable_Isotopes,Pb207_Pb204,ratio of lead isotopes Pb207 to Pb204
+378,IS,Stable_Isotopes,Pb208_Pb204,ratio of lead isotopes Pb208 to Pb204
+379,IS,Stable_Isotopes,Pb208_Pb204(I),ratio of lead isotopes Pb208 to Pb204 at initial age
+380,US,Uranium_Series,Pb210,lead isotope Pb210
+381,TE,Trace_Element,Pd,palladium
+382,REE,Rare_Earth_Element,Pr,praseodymium
+383,TE,Trace_Element,Pt,platinum
+384,NGAS,Noble_Gas,Xe126_Xe130,ratio of xenon isotopes Xe126 to Xe130
+385,US,Uranium_Series,Ra226,radium isotope Ra226
+386,US,Uranium_Series,Ra226_ACTIVITY,"radium 226, reported as activity"
+387,US,Uranium_Series,Ra226_Th230,ratio of radium isotope 226 to thorium isotope 230
+388,US,Uranium_Series,Ra226_Th230_ACTIVITY,"ratio of radium isotope 226 to thorium isotope 230, reported as activity"
+389,TE,Trace_Element,Rb,rubidium
+390,TE,Trace_Element,Re,rhenium
+391,TE,Trace_Element,Rh,rhodium
+392,TE,Trace_Element,Ru,ruthenium
+393,MAJ,Major_Oxide/Element,S,sulfur
+394,TE,Trace_Element,S,sulfur
+395,MAJ,Major_Oxide/Element,SLFA,sulfate
+396,MAJ,Major_Oxide/Element,SO2,sulfur dioxide
+397,MAJ,Major_Oxide/Element,SO3,sulfur trioxide
+398,IS,Stable_Isotopes,DELTA_Fe57,"equals: (ratio of iron isotopes Fe57/Fe54 in the sample divided by ratio of Fe57/Fe54 of irmm-014) minus 1, multiplied by 1000"
+399,MAJ,Major_Oxide/Element,S_(SLFI),sulfur present as sulfide
+400,TE,Trace_Element,Sb,antimony
+401,TE,Trace_Element,Sc,scandium
+402,TE,Trace_Element,Se,selenium
+403,MAJ,Major_Oxide/Element,Si,silicon
+404,TE,Trace_Element,Si,silicon
+405,MAJ,Major_Oxide/Element,SiO2,silicon dioxide
+406,REE,Rare_Earth_Element,Sm,samarium
+407,IR,Radiogenic_Isotopes,Sm147_Nd144,ration of samarium isotope Sm147 to neodymium isotope Nd144
+408,TE,Trace_Element,Sn,tin
+409,TE,Trace_Element,Sr,strontium
+410,IS,Stable_Isotopes,Sr87_Sr86,ratio of strontium isotopes Sr87 to Sr86
+411,IS,Stable_Isotopes,Sr87_Sr86(I),ratio of strontium isotopes Sr87 to Sr86 at initial age
+412,IS,Stable_Isotopes,DELTA_Li6,"equals: (ratio of lithium isotopes Li6/Li7 in the sample divided by ratio of Li6/Li7 of the standard) minus 1, multiplied by 1000"
+413,MAJ,Major_Oxide/Element,SrO,strontium oxide
+414,IS,Stable_Isotopes,DELTA_Li7,"equals: (ratio of lithium isotopes Li7/Li6 in the sample divided by ratio of Li7/Li6 of the standard) minus 1, multiplied by 1000"
+415,TE,Trace_Element,Ta,tantalum
+416,REE,Rare_Earth_Element,Tb,terbium
+417,TE,Trace_Element,Te,tellurium
+418,TE,Trace_Element,Th,thorium
+419,US,Uranium_Series,Th228_Th232,ratio of thorium isotopes Th228 to Th232
+420,US,Uranium_Series,Th230_ACTIVITY,"thorium isotope Th230, reported as activity"
+421,US,Uranium_Series,Th230_Th232,ratio of thorium isotopes Th230 to Th232
+422,US,Uranium_Series,Th230_Th232_ACTIVITY,"ratio of thorium isotopes Th230 to Th232, reported as activity"
+423,US,Uranium_Series,Th230_U238,ratio of thorium isotope Th230 to uranium isotope U238
+424,US,Uranium_Series,U235_Pb204,ratio of uranium isotope U235 to lead isotope Pb204
+425,US,Uranium_Series,Pb210_ACTIVITY,"lead isotope Pb210, reported as activity"
+426,US,Uranium_Series,Po210_ACTIVITY,"polonium isotope Po210, reported as activity"
+427,US,Uranium_Series,Pa231,protactinium isotope Pa231
+428,NGAS,Noble_Gas,Ar40_Ar39,ratio of argon isotopes Ar40 to Ar39
+429,IS,Stable_Isotopes,Os188,osmium isotope Os188
+430,US,Uranium_Series,Th230_U238_ACTIVITY,"ratio of thorium isotope Th230 to uranium isotope U238, reported as activity"
+431,US,Uranium_Series,Th232_ACTIVITY,"thorium isotope Th232, reported as activity"
+432,US,Uranium_Series,Th232_Pb204,ratio of thorium isotope Th232 to lead isotope Pb204
+433,US,Uranium_Series,Th232_U238,ratio of thorium isotope Th232 to uranium isotope U238
+435,US,Uranium_Series,Th238_Th232_ACTIVITY,"ratio of thorium isotopes Th238 to Th232, reported as activity"
+436,TE,Trace_Element,Ti,titanium
+437,MAJ,Major_Oxide/Element,TiO2,titanium dioxide
+438,TE,Trace_Element,Tl,thallium
+439,REE,Rare_Earth_Element,Tm,thulium
+440,TE,Trace_Element,U,uranium
+441,US,Uranium_Series,DELTA_U234,"equals: (ratio of uranium isotopes U234/U238 in the sample divided by ratio of U234/U238 in the secular equilibrium) minus 1, multiplied by 1000"
+442,US,Uranium_Series,U234_ACTIVITY,"uranium isotope U234, reported as activity"
+443,US,Uranium_Series,U234_U238_ACTIVITY,"ratio of uranium isotopes U234 to U238, reported as activity"
+444,US,Uranium_Series,U238_ACTIVITY,"uranium isotope U238, reported as activity"
+445,US,Uranium_Series,U238_Pb204,ratio of uranium isotope U238 to lead isotope Pb204
+446,US,Uranium_Series,U238_Th230,ratio of uranium isotope U238 to thorium isotope Th230
+447,US,Uranium_Series,U238_Th232,ratio of uranium isotope U238 to thorium isotope Th232
+448,US,Uranium_Series,U238_Th232_ACTIVITY,"ratio of uranium isotope U238 to thorium isotope Th232, reported as activity"
+449,TE,Trace_Element,V,vanadium
+450,MAJ,Major_Oxide/Element,V2O3,vanadium sesquioxide
+451,MAJ,Major_Oxide/Element,V2O5,vanadium pentoxide
+452,TE,Trace_Element,W,tungsten
+453,EM,End-Member,WOLLASTONITE,wollastonite
+454,MODE,Rock_Mode,WOLLASTONITE,wollastonite
+455,NGAS,Noble_Gas,Xe,xenon
+456,NGAS,Noble_Gas,Xe124,xenon isotope Xe124
+457,NGAS,Noble_Gas,Xe124_Xe132,ratio of xenon isotopes Xe124 to Xe132
+458,NGAS,Noble_Gas,Xe126,xenon isotope Xe126
+459,NGAS,Noble_Gas,Xe126_Xe132,ratio of xenon isotopes Xe126 to Xe132
+460,NGAS,Noble_Gas,Xe128,xenon isotope Xe128
+461,NGAS,Noble_Gas,Xe128_Xe132,ratio of xenon isotopes Xe128 to Xe132
+462,NGAS,Noble_Gas,Xe129,xenon isotope Xe129
+463,NGAS,Noble_Gas,Xe129_Xe130,ratio of xenon isotopes Xe129 to Xe130
+464,NGAS,Noble_Gas,Xe129_Xe132,ratio of xenon isotopes Xe129 to Xe132
+465,NGAS,Noble_Gas,Xe130,xenon isotope Xe130
+466,NGAS,Noble_Gas,Xe130_Xe132,ratio of xenon isotopes Xe130 to Xe132
+467,NGAS,Noble_Gas,Xe131,xenon isotope Xe131
+468,NGAS,Noble_Gas,Xe131_Xe130,ratio of xenon isotopes Xe131 to Xe130
+469,NGAS,Noble_Gas,Xe131_Xe132,ratio of xenon isotopes Xe131 to Xe132
+470,NGAS,Noble_Gas,Xe132,xenon isotope Xe132
+471,NGAS,Noble_Gas,Xe132_Xe130,ratio of xenon isotopes Xe132 to Xe130
+472,NGAS,Noble_Gas,Xe134,xenon isotope Xe134
+473,NGAS,Noble_Gas,Xe134_Xe130,ratio of xenon isotopes Xe134 to Xe130
+474,NGAS,Noble_Gas,Xe134_Xe132,ratio of xenon isotopes Xe134 to Xe132
+475,NGAS,Noble_Gas,Xe136,xenon isotope Xe136
+476,NGAS,Noble_Gas,Xe136_Xe130,ratio of xenon isotopes Xe136 to Xe130
+477,NGAS,Noble_Gas,Xe136_Xe132,ratio of xenon isotopes Xe136 to Xe132
+478,TE,Trace_Element,Y,yttrium
+479,REE,Rare_Earth_Element,Yb,ytterbium
+480,MAJ,Major_Oxide/Element,Zn,zinc
+481,TE,Trace_Element,Zn,zinc
+482,MAJ,Major_Oxide/Element,ZnO,zinc oxide
+483,TE,Trace_Element,Zr,zirconium
+484,US,Uranium_Series,Ra,radium
+485,NGAS,Noble_Gas,N2_Ar36,ratio of nitrogen isotope N2 to argon isotope Ar36
+486,NGAS,Noble_Gas,N2_He3,ratio of nitrogen isotope N2 to helium isotope He3
+487,MAJ,Major_Oxide/Element,La2O3,lanthanum oxide
+488,MAJ,Major_Oxide/Element,Ce2O3,dicerium trioxide
+489,VO,Volatile,N2[nmol],nitrogen measured in nanomols
+490,VO,Volatile,CO2_umol,carbon dioxide measured in micromols
+491,US,Uranium_Series,U234_U238,ratio of uranium isotopes U234 to U238
+492,IS,Stable_Isotopes,E_Hf(T),"epsilon Hf = [(176Hf/177Hf)sample/(176Hf/177Hf)chur - 1]x10E4, time corrected"
+493,EM,End-Member,ALBITE,albite
+494,MODE,Rock_Mode,ALBITE,albite
+495,EM,End-Member,ANORTHITE,anorthite
+496,MODE,Rock_Mode,ANORTHITE,anorthite
+497,MAJ,Major_Oxide/Element,Ag,silver
+498,TE,Trace_Element,Ag,silver
+499,AGE,Age,AGE,sample age
+500,MAJ,Major_Oxide/Element,Al2O3,aluminium oxide
+501,NGAS,Noble_Gas,Ar,argon
+502,NGAS,Noble_Gas,Ar36,argon isotope Ar36
+503,NGAS,Noble_Gas,Ar36_Ar38,ratio of argon isotopes Ar36 to Ar38
+504,NGAS,Noble_Gas,Ar36_Ar40,ratio of argon isotopes Ar36 to Ar40
+505,NGAS,Noble_Gas,Ar38,argon isotope Ar38
+506,IS,Stable_Isotopes,DELTA_Cl37,"equals: (ratio of chlorine isotopes Cl37/Cl35 in the sample divided by ratio of Cl37/Cl35 of the standard mean ocean chlorine) minus 1, multiplied by 1000"
+507,NGAS,Noble_Gas,He4(NCC),helium isotope He4 measured by neutron coincidence counting
+508,IS,Stable_Isotopes,Pb207_Pb206,ratio of lead isotopes Pb207 to Pb206
+510,US,Uranium_Series,Pb207_U235,ratio of lead isotope Pb207 to uranium isotope U235
+511,IS,Stable_Isotopes,DELTA_S33,"equals: (ratio of sulfur isotopes S33/S32 in the sample divided by ratio of S33/S32 in the reference material) minus 1, multiplied by 1000"
+512,IS,Stable_Isotopes,DELTA_N15,"equals: (ratio of nitrogen isotopes N15/N14 in the sample divided by ratio of N15/N14 in the reference material) minus 1, multiplied by 1000"
+513,IR,Radiogenic_Isotopes,E_Nd,epsilon Nd = [(Nd143/Nd144)sample/(Nd143/Nd144)reference - 1]x10E4
+514,IR,Radiogenic_Isotopes,E_Nd(T),"epsilon Nd = [(Nd143/Nd144)sample/(Nd143/Nd144)reference - 1]x10E4, time corrected"
+515,IS,Stable_Isotopes,E_Ce,epsilon Ce = [(138Ce/142Ce)sample/(138Ce/142Ce)chur - 1]x10E4
+516,EM,End-Member,MAGNETITE,magnetite
+517,MODE,Rock_Mode,MAGNETITE,magnetite
+518,EM,End-Member,SPINEL,spinel
+519,MODE,Rock_Mode,SPINEL,spinel
+520,EM,End-Member,ILMENITE,ilmenite
+521,MODE,Rock_Mode,ILMENITE,ilmenite
+522,EM,End-Member,HEMATITE,hematite
+523,MODE,Rock_Mode,HEMATITE,hematite
+524,IR,Radiogenic_Isotopes,Ar40RG_Ar39K,ratio of radiogenic Ar40 to Ar39 produced from k
+526,IS,Stable_Isotopes,Ar40_ATM,atmospheric argon isotope Ar40
+527,NGAS,Noble_Gas,Ar40_Ar36(I),initial Ar40 to Ar36 ratio
+528,IR,Radiogenic_Isotopes,Nd145_Nd144,ratio of neodymium isotopes Nd145 to Nd144
+529,EM,End-Member,ACMITE,acmite
+530,IR,Radiogenic_Isotopes,Nd150_Nd144,ratio of neodymium isotopes Nd150 to Nd144 
+531,IR,Radiogenic_Isotopes,Sm147_Nd146,ratio of samarium to neodymium isotopes Sm147 to Nd146
+532,IS,Stable_Isotopes,Ce140_Nd146,ratio of cerium to neodymium isotopes Ce140 to Nd146
+533,IR,Radiogenic_Isotopes,Os186_Os188,ratio of osmium isotopes Os186 to Os188
+534,IR,Radiogenic_Isotopes,Os187_Os186,ratio of osmium isotopes Os187 to Os186
+535,RT,Ratio,N(B),percent nitrogen in the B defect site of diamonds
+536,MODE,Rock_Mode,CHALCOPYRITE,chalcopyrite
+537,MODE,Rock_Mode,PENTLANDITE,pentlandite
+538,MODE,Rock_Mode,PYRRHOTITE,pyrrhotite
+549,US,Uranium_Series,DELTA_U238,"equals: (ratio of uranium isotopes U238/U235 in the sample divided by ratio of U238/U235 in the secular equilibrium) minus 1, multiplied by 1000"
+550,IS,Stable_Isotopes,DELTA_Ca44,"equals: (ratio of calcium isotopes Ca44/Ca40 in the sample divided by ratio of Ca44/Ca40 of NIST-SRM-915a) minus 1, multiplied by 1000"
+576,MD,Model_Data,bai,sgss
+1119,IS,Stable_Isotopes,Sr88_Sr86,ratio of isotopes Sr88 to Sr86
+1204,IS,Stable_Isotopes,DELTA_V51,"ratio of uranium isotopes V51/V50 in the sample divided by ratio of V51/V50 in the standard AA) minus 1, multiplied by 1000"
+1295,IS,Stable_Isotopes,DELTA_Ti49/Ti47,"equals: (ratio of titanium isotopes Ti49/Ti47 in the sample divided by ratio of Ti49/Ti47 in the reference material) minus 1, multiplied by 1000"
+1297,US,Uranium_Series,Pb206_U238(T),"ratio of lead isotope Pb206 to uranium isotope 238, time corrected"
+1298,IR,Radiogenic_Isotopes,Re187_Os189,ratio of rhenium isotope Re187 to osmium isotope 189
+1300,IS,Stable_Isotopes,DELTA_O17,"equals: (ratio of oxygen isotopes O17/O16 in the sample divided by ratio of O17/O16 of the standard) minus 1, multiplied by 1000"
+1301,IR,Radiogenic_Isotopes,Hf174_Hf177,ratio of hafnium isotopes Hf174 to Hf177
+1302,IS,Stable_Isotopes,Hf178_Hf177,ratio of hafnium isotopes Hf178 to Hf177
+1303,IS,Stable_Isotopes,Hf180_Hf177,ratio of hafnium isotopes Hf180 to Hf177
+1304,NGAS,Noble_Gas,Ar38_Ar40,ratio of argon istotopes Ar38 to Ar40
+1305,US,Uranium_Series,U238_Pb208,ratio of uranium isotope 238 to lead isotope 208
+1306,IS,Stable_Isotopes,DELTA_Zn67,"equals: (ratio of zinc isotopes Zn67/Zn64 in the sample divided by ratio of Zn67/Zn64 of the standard Lyon JMC) minus 1, multiplied by 1000"
+1307,NGAS,Noble_Gas,Kr78_Kr83,ratio of krypton isotopes Kr78 to Kr83
+1308,NGAS,Noble_Gas,Kr80_Kr83,ratio of krypton isotopes Kr80 to Kr83
+1309,NGAS,Noble_Gas,Kr82_Kr83,ratio of krypton isotopes Kr82 to Kr83
+1310,NGAS,Noble_Gas,Kr84_Kr83,ratio of krypton isotopes Kr84 to Kr83
+1311,IS,Stable_Isotopes,DELTA_Fe57_Fe54,
+1312,IS,Stable_Isotopes,DELTA_Fe57_Fe56,"equals: (ratio of iron isotopes Fe57/Fe56 in the sample divided by ratio of Fe57/Fe56 of irmm-014) minus 1, multiplied by 1000"
+1313,IR,Radiogenic_Isotopes,Rb87_Rb86,ratio of rubidium isotopes Rb87 to Rb86
+1314,IS,Stable_Isotopes,Pb207,lead isotope Pb207
+1315,IS,Stable_Isotopes,Pb208,lead isotope Pb208
+1316,MAJ,Major_Oxide/Element,Ho2O3,holmium oxide
+1317,NGAS,Noble_Gas,Ar37,radiogenic isotope argon 37
+1318,MAJ,Major_Oxide/Element,Ti2O3,
+1319,MAJ,Major_Oxide/Element,Tm2O3,thulium(III) oxide
+1320,MAJ,Major_Oxide/Element,Pr6O11,"praseodymium oxide (III,IV)"
+1321,MAJ,Major_Oxide/Element,CeO2,cerium oxide
+1322,MAJ,Major_Oxide/Element,Tb2O3,terbium oxide
+1323,MAJ,Major_Oxide/Element,PbO,lead oxide
+1324,MAJ,Major_Oxide/Element,Yb2O3,ytterbium(III) oxide
+1325,MAJ,Major_Oxide/Element,Er2O3,erbium oxide
+1326,MAJ,Major_Oxide/Element,Pr2O3,praseodymium (III) oxide
+1327,MAJ,Major_Oxide/Element,Lu2O3,lutetium oxide
+1328,MAJ,Major_Oxide/Element,TiO,titanium oxide
+1329,MAJ,Major_Oxide/Element,P2O3,phosphorus trioxide
+1330,MODE,Rock_Mode,CMG,
+1333,MODE,Rock_Mode,MESOSTASIS,mesostasis as mode
+1334,US,Uranium_Series,Th232_Pb208,
+1335,IR,Radiogenic_Isotopes,E_Sm148,epsilon Sm148 = [(Sm148/Sm154)sample/Sm148/Sm154)standard - 1]x10E4
+1336,IS,Stable_Isotopes,E_Sm150,epsilon Sm150 = [(Sm150/Sm154)sample/(Sm150/Sm154)standard - 1]x10E4
+1337,IR,Radiogenic_Isotopes,E_Nd145,epsilon Nd145 = [(Nd145/Nd144)sample/(Nd145/Nd144)standard - 1]x10E4
+1338,IR,Radiogenic_Isotopes,E_Nd148,epsilon Nd148 = [(Nd148/Nd144)sample/(Nd148/Nd144)standard - 1]x10E4
+1339,IR,Radiogenic_Isotopes,E_Nd150,epsilon Nd150 = [(Nd150/Nd144)sample/(Nd150/Nd144)standard - 1]x10E4
+1340,IS,Stable_Isotopes,E_Sm152,epsilon Sm152 = [(Sm152/Sm154)sample/(Sm152/Sm154)standard - 1]x10E4
+1341,IS,Stable_Isotopes,E_Sm144,epsilon Sm144 = [(Sm144/Sm154)sample/(Sm144/Sm154)standard - 1]x10E4
+1342,IR,Radiogenic_Isotopes,E_Nd142,epsilon Nd142 = [(Nd142/Nd144)sample/(Nd142/Nd144)standard - 1]x10E4
+1343,IS,Stable_Isotopes,E_Sm149,epsilon Sm149 = [(Sm149/Sm154)sample/(Sm149/Sm154)standard - 1]x10E4
+1344,MAJ,Major_Oxide/Element,Eu2O3,europium oxide
+1345,IS,Stable_Isotopes,E_Mg25,epsilon Mg25 = [(Mg25/Mg24)sample/(Mg25/Mg24)standard - 1]x10E4
+1346,IS,Stable_Isotopes,E_Mg26,epsilon Mg26 = [(Mg26/Mg24)sample/(Mg26/Mg24)standard - 1]x10E4
+1347,IS,Stable_Isotopes,E_Hf180,epsilon Hf180= [(180Hf/177Hf)sample/(180Hf/177Hf)chur - 1]x10E4
+1348,IS,Stable_Isotopes,E_W182,epsilon W182 = [(W182/W184)sample/(W182/W184)standard - 1]x10E4
+1349,IS,Stable_Isotopes,E_W183,epsilon W183 = [(W183/W184)sample/(W183/W184)standard - 1]x10E4
+1351,US,Uranium_Series,U236_U238,ratio of uranium isotopes U236 to U238
+1352,US,Uranium_Series,U236_Pb204,ratio of uranium isotope U236 to lead isotope Pb204
+1354,IR,Radiogenic_Isotopes,MU_Nd150,ppm deviation from the standard:μ150Nd = (150Nd/144Ndsample)/(150Nd/144Ndstandard – 1) × 106
+1355,IS,Stable_Isotopes,MU_Nd143,ppm deviation from the standard:μ143Nd = (143Nd/144Ndsample)/(143Nd/144Ndstandard – 1) × 106
+1357,US,Uranium_Series,U235_Pb207,ratio of uranium isotope U235 to lead isotope Pb207
+1358,IS,Stable_Isotopes,MU_Nd145,ppm deviation from the standard:μ145Nd = (145Nd/144Ndsample)/(145Nd/144Ndstandard – 1) × 106
+1360,IS,Stable_Isotopes,MU_Nd142,ppm deviation from the standard:μ142Nd = (142Nd/144Ndsample)/(142Nd/144Ndstandard – 1) × 106
+1361,IR,Radiogenic_Isotopes,Nd146_Sm152,ratio of neodymium isotope 146 to samarium isotope 152
+1362,MODE,Rock_Mode,GROUNDMASS-GLASSY,glassy groundmass as mode
+1363,MODE,Rock_Mode,METAL,metal as mode
+1364,MODE,Rock_Mode,XENOLITH,xenolith
+1365,MODE,Rock_Mode,ARMALCOLITE,armalcolite as mode
+1367,IS,Stable_Isotopes,MU_Nd148,ppm deviation from the standard:μ148Nd = (148Nd/144Ndsample)/(148Nd/144Ndstandard – 1) × 106
+1368,IS,Stable_Isotopes,Sm144_Sm152,ratio of samarium isotopes Sm144 to Sm152
+1369,IS,Stable_Isotopes,Sm154_Sm152,ratio of samarium isotopes Sm154 to Sm152
+1370,IS,Stable_Isotopes,Sm150_Sm152,ratio of samarium isotopes Sm150 to Sm152
+1371,IS,Stable_Isotopes,Sm149_Sm152,ratio of samarium isotopes Sm149 to Sm152
+1372,IR,Radiogenic_Isotopes,Sm148_Sm152,
+1373,IS,Stable_Isotopes,Hf180_W184,ratio of hafnium isotope Hf180 to tungsten isotope W184
+1374,US,Uranium_Series,Pb208_Th232(T),"ratio of lead isotope Pb208 to thorium isotope Th232, time corrected"
+1375,MODE,Rock_Mode,CRISTOBALITE,cristobalite as mode
+1376,MODE,Rock_Mode,ZIRCONOLITE,zirconolite
+1378,MODE,Rock_Mode,GRANOPHYRE,granophyre as mode
+1379,MODE,Rock_Mode,PHOSPHATE,phosphate mode
+1380,US,Uranium_Series,Pb207_U235(T),"ratio of lead isotope Pb 207 to uranium isotope U235, time corrected"
+1382,MODE,Rock_Mode,ZIRCONIA,zirconia
+1383,IS,Stable_Isotopes,Gd155_Sm152,ratio of gadolinium isotope 155 to samarium 152
+1384,IS,Stable_Isotopes,Li7_Li6,ratio of lithium isotopes Li7 to Li6
+1387,TE,Trace_Element,Fr,francium
+1389,IR,Radiogenic_Isotopes,Nd144,neodymium isotope Nd144
+1390,IR,Radiogenic_Isotopes,Rb87,rubidium isotope Rb87
+1391,IR,Radiogenic_Isotopes,Na22,sodium isotope Na22
+1392,IR,Radiogenic_Isotopes,Al26,aluminum isotope Al26
+1393,IR,Radiogenic_Isotopes,Sc46,scandium isotope Sc46
+1394,IR,Radiogenic_Isotopes,Mn54,manganese isotope Mn54
+1395,IR,Radiogenic_Isotopes,Co56,colbalt isotope colbalt 56
+1396,IR,Radiogenic_Isotopes,V48,vanadium isotope V48
+1397,MAJ,Major_Oxide/Element,FeS,iron sulfide
+1398,MAJ,Major_Oxide/Element,Al2O2,dialuminum dioxide
+1402,IS,Stable_Isotopes,Sr86,strontium isotope Sr86
+1406,MAJ,Major_Oxide/Element,TOTAL,total weight percent of anlyzed parameters
+1407,MODE,Rock_Mode,SYMPLECTITE,symplectite mode
+1408,MODE,Rock_Mode,FAYALITE,fayalite mode
+1409,MODE,Rock_Mode,SULFUR,sulfur as mode
+1410,MODE,Rock_Mode,SILICA,silica as mode
+1412,IR,Radiogenic_Isotopes,E_Nd143,epsilon Nd143 = [(Nd143/Nd144)sample/(Nd143/Nd144)standard - 1]x10E4
+1413,IR,Radiogenic_Isotopes,C14,carbon isotope  C14
+1414,IR,Radiogenic_Isotopes,Cl38,radiogenic Chlorine isotope Cl38
+1415,NGAS,Noble_Gas,Ar36_Ar39,ratio of argon isotopes Ar36 to Ar39
+1416,NGAS,Noble_Gas,Ne22_Ne21,ratio of neon isotope Ne22 to Ne21
+1417,MODE,Rock_Mode,TROILITE,troilite as mode
+1418,MODE,Rock_Mode,WHITLOCKITE,whitlockite as mode
+1419,IS,Stable_Isotopes,CAP_DELTA_O17,the deviation from the Earth-Moon line  of 17O/16O and 18O/16O ratios as the vertical displacement of any point from it
+1420,EM,End-Member,AKERMANITE,akermanite (melilite end member)
+1421,IR,Radiogenic_Isotopes,Cl36,radiogenic Chlorine isotope Cl36
+1422,IR,Radiogenic_Isotopes,Kr81,krypton isotope Kr81
+1423,NGAS,Noble_Gas,Xe134_Xe136,ratio of xenon isotopes Xe134 to Xe136
+1424,NGAS,Noble_Gas,Xe124_Xe126,ratio of xenon isotopes Xe124 to Xe126
+1425,NGAS,Noble_Gas,Xe131_Xe126,ratio of xenon isotopes Xe131 to Xe126
+1426,NGAS,Noble_Gas,Kr78_Kr86,ratio of krypton isotopes Kr78 to Kr86
+1427,NGAS,Noble_Gas,Kr80_Kr86,ratio of krypton isotopes Kr80 to Kr86
+1428,NGAS,Noble_Gas,Kr81_Kr86,ratio of krypton isotopes Kr81 to Kr86
+1429,NGAS,Noble_Gas,Kr82_Kr86,ratio of krypton isotopes Kr82 to Kr86
+1430,NGAS,Noble_Gas,Kr83_Kr86,ratio of krypton isotopes Kr83 to Kr86
+1431,NGAS,Noble_Gas,Kr84_Kr86,ratio of krypton isotopes Kr84 to Kr86
+1433,IS,Stable_Isotopes,Pb204_Pb208,ratio of lead isotopes Pb204 to Pb208
+1434,MODE,Rock_Mode,MERRILLITE,merrillite as mode
+1435,NGAS,Noble_Gas,Ne20_Ne21,ratio of neon isotope Ne20 to Ne21
+1436,IR,Radiogenic_Isotopes,Ca41,calcium isotope Ca41
+1437,NGAS,Noble_Gas,Ar36_Xe132,ratio of argon isotopes Ar36 to xenon isotopes Xe132
+1439,MAJ,Major_Oxide/Element,YO2,yttrium dioxide
+1440,MODE,Rock_Mode,Fe-PYROXENITE,Iron pyroxenite as mode
+1441,MODE,Rock_Mode,ULVOSPINEL,ulvospinel as mode
+1442,MODE,Rock_Mode,FeS,ferrous sulfide as mode
+1443,MODE,Rock_Mode,FeNi METAL,Fe-Ni metal as mode
+1444,MODE,Rock_Mode,MELT,melt as mode
+1445,MODE,Rock_Mode,OTHER,other minerals as mode
+1447,NGAS,Noble_Gas,He4_Ar36,ratio of isotopes He4 to Ar36
+1448,NGAS,Noble_Gas,Ne20_Ar36,ratio of isotopes Ne20 to Ar36
+1449,NGAS,Noble_Gas,Kr86_Ar36,ratio of isotopes Kr86 to Ar36
+1450,NGAS,Noble_Gas,Xe132_Ar36,ratio of isotopes Xe132 to Ar36
+1451,NGAS,Noble_Gas,Xe128_Xe126,ratio of xenon isotopes Xe128 to Xe126
+1452,NGAS,Noble_Gas,Kr81_Kr83,ratio of krypton isotopes Kr81 to Kr83
+1453,NGAS,Noble_Gas,Xe129_Xe126,ratio of Xenon isotopes 129 to 126
+1454,NGAS,Noble_Gas,Xe130_Xe126,ratio of Xenon isotopes 130 to 126
+1455,MODE,Rock_Mode,OLDHAMITE,oldhamite as mode
+1456,MODE,Rock_Mode,NININGERITE,niningerite as mode
+1457,NGAS,Noble_Gas,Ne21cos,neon isotope Ne21 cosmogenic
+1458,NGAS,Noble_Gas,Ar38cos,argon isotope Ar38 cosmogenic
+1459,NGAS,Noble_Gas,He3_Ne21,ratio of helium isotope He3 to neon isotope Ne21
+1460,IS,Stable_Isotopes,E_Cr,epsilon Cr = [(Cr53/Cr52)sample/(Cr53/Cr52)reference - 1]x10E4
+1461,IR,Radiogenic_Isotopes,Mn55_Cr52,ratio of Manganese isotope Mn55 to chromium isotope Cr55
+1462,IS,Stable_Isotopes,Cr53_Cr52,ratio of chromium isotopes Cr53 to Cr52
+1463,MODE,Rock_Mode,SILICATE,silicate as mode
+1464,MODE,Rock_Mode,LIMONITE,limonite as mode
+1465,MODE,Rock_Mode,CU METAL,metallic copper as mode
+1466,MODE,Rock_Mode,TAENITE,taenite as mode
+1467,MODE,Rock_Mode,KAMACITE,kamacite as mode
+1468,US,Uranium_Series,U238_U235,ratio of uranium isotope U238 to uranium isotope U235
+1472,MODE,Rock_Mode,MASKELYNITE,maskelynite as mode
+1473,IS,Stable_Isotopes,Sm144_Sm154,ratio of samarium isotope 144 to samarium isotope 154
+1474,IR,Radiogenic_Isotopes,Sm148_Sm154,ratio of samarium isotope 148 to samarium isotope 154
+1475,IS,Stable_Isotopes,Sm149_Sm154,ratio of samarium isotope 149 to samarium 154
+1476,IS,Stable_Isotopes,Sm150_Sm154,ratio of samarium isotope 150 to samarium isotope 154
+1477,IS,Stable_Isotopes,Sm152_Sm154,ratio of samarium isotope 152 to samarium isotope 154
+1478,MAJ,Major_Oxide/Element,TC,total carbon
+1479,VO,Volatile,NTOT,total nitrogen
+1480,VO,Volatile,NORG,organic nitrogen
+1481,IS,Stable_Isotopes,CAP_DELTA_N15,2t/ppmN where t is cosmic-ray exposure age in millions of years
+1482,MODE,Rock_Mode,AWARUITE,awaruite
+1483,IS,Stable_Isotopes,DELTA_Ca42,"equals: (ratio of calcium isotopes Ca42/Ca44 in the sample divided by ratio of Ca42/Ca44 of NIST-SRM-915a) minus 1, multiplied by 1000"
+1484,IS,Stable_Isotopes,DELTA_Ca43,"equals: (ratio of calcium isotopes Ca43/Ca44 in the sample divided by ratio of Ca43/Ca44 of NIST-SRM-915a) minus 1, multiplied by 1000"
+1485,IS,Stable_Isotopes,DELTA_Mg26EX,"equals: EXCESS (ratio of magnesium isotopes Mg26/Mg24 in the sample divided by ratio of Mg26/Mg24 in the reference material) minus 1, multiplied by 1000"
+1487,AGE,Age,Ar_Ar,age determined by Ar-Ar analysis
+1489,IR,Radiogenic_Isotopes,Nd146_Sm147,ratio of neodymium isotopes Nd146 to Sm147
+1490,IR,Radiogenic_Isotopes,Gd156_Sm147,ratio of gadolinium isotope 156 to samarium 147
+1491,IR,Radiogenic_Isotopes,Sm147_Sm152,ratio of samarium isotope 147 to 152
+1492,IR,Radiogenic_Isotopes,Rb87_Rb85,ratio of rubidium 87 to rubidium 85
+1493,IS,Stable_Isotopes,E_W182/183,epsilon W182 = [(W182/W183)sample/(W182/W183)standard - 1]x10E4
+1494,IS,Stable_Isotopes,E_W184,epsilon W184 = [(W184/W183)sample/(W184/W183)standard - 1]x10E4
+1495,IS,Stable_Isotopes,E_W182(I),epsilon W182 = [(W182/W184)sample/(W182/W184)standard - 1]x10E4 initial
+1496,IS,Stable_Isotopes,O17_O16,ratio of oxygen isotope 17O to 16O
+1497,IS,Stable_Isotopes,O18_O16,ratio of oxygen isotope 18O to 16O
+1498,IS,Stable_Isotopes,C12_C13,ratio of carbon isotope 12C to 13C
+1499,IS,Stable_Isotopes,N14_N15,ratio of nitrogen isotope 14N to 15N
+1500,IS,Stable_Isotopes,DELTA_Pt198,"equals: (ratio of platinum isotopes 198Pt/194Pt in the sample divided by ratio of 198Pt/194Pt of IRMM-010 ) minus 1, multiplied by 1000"
+1501,IS,Stable_Isotopes,DELTA_Pd106,"equals: (ratio of palladium isotopes 106Pd/105Pd in the sample divided by ratio of 106Pd/105Pd of standard ) minus 1, multiplied by 1000"
+1502,IR,Radiogenic_Isotopes,Sm144_Nd144,ratio of samarium isotope 144 to neodymium isotope 144
+1503,IR,Radiogenic_Isotopes,Os184_Os189,ratio of osmium isotopes Os184 to Os189
+1504,IR,Radiogenic_Isotopes,Os186_Os189,ratio of osmium isotopes Os186 to Os189
+1505,IS,Stable_Isotopes,Os187_Os189,ratio of osmium isotopes Os187 to Os189
+1506,IS,Stable_Isotopes,Os188_Os189,ratio of osmium isotopes Os188 to Os189
+1507,IS,Stable_Isotopes,Os190_Os189,ratio of osmium isotopes Os190 to Os189
+1508,MODE,Rock_Mode,Ti-CHROMITE,ti-chromite as mode
+1509,MODE,Rock_Mode,MATRIX,matrix as mode
+1510,MODE,Rock_Mode,K-RICH PHASE,K-rich phase as mode
+1512,MODE,Rock_Mode,CARBON,carbon as mode
+1513,IS,Stable_Isotopes,Ce142,Cerium isotope Ce142
+1514,IR,Radiogenic_Isotopes,E_Nd143(T),epsilon Nd143 = [(Nd143/Nd144)sample/(Nd143/Nd144)standard - 1]x10E4 at time (T)
+1515,MODE,Rock_Mode,GYPSUM,gypsum as mode
+1516,MODE,Rock_Mode,HIGH-Ca PYROXENE,high calcium pyroxene as mode
+1517,MODE,Rock_Mode,LOW-Ca PYROXENE,low calcium pyroxene as mode
+1518,MODE,Rock_Mode,TRIDYMITE,tridymite as mode
+1519,MODE,Rock_Mode,SCHREIBERSITE,schreibersite as mode
+1520,IS,Stable_Isotopes,W182_W184,ratio of tungsten isotope W182 to W184
+1521,VO,Volatile,HCl,hydrogen chloride
+1522,IS,Stable_Isotopes,DELTA_Cr53,"equals: (ratio of chromium isotopes Cr53/Cr52 in the sample divided by ratio of Cr53/Cr52 of standard) minus 1, multiplied by 1000"
+1523,IR,Radiogenic_Isotopes,Mn53_Mn55,ratio of manganese isotope Mn53 to manganese isotope Mn55
+1524,MODE,Rock_Mode,ANATASE,anatase as mode
+1525,MODE,Rock_Mode,GOETHITE,goethite as mode
+1526,IS,Stable_Isotopes,DELTA_Te128_Te126,"equals: (ratio of tellerium isotopes 128Te/126Te in the sample divided by ratio of 128Te/126Te of standard ) minus 1, multiplied by 1000"
+1527,IS,Stable_Isotopes,DELTA_Er167,"equals: (ratio of Erbium isotopes Er167/Er166 in the sample divided by ratio of Er167/Er166 in reference material)  minus 1, multiplied by 1000"
+1528,IS,Stable_Isotopes,DELTA_Er168,"equals: (ratio of Erbium isotopes Er168/Er166 in the sample divided by ratio of Er168/Er166 in reference material)  minus 1, multiplied by 1000"
+1529,IS,Stable_Isotopes,DELTA_Yb171,"equals: (ratio of Ytterbium isotopes Yb171/Yb172 in the sample divided by ratio of Yb171/Yb172 in reference material)  minus 1, multiplied by 1000"
+1530,IS,Stable_Isotopes,DELTA_Yb173,"equals: (ratio of Ytterbium isotopes Yb173/Yb172 in the sample divided by ratio of Yb173/Yb172 in reference material)  minus 1, multiplied by 1000"
+1531,IS,Stable_Isotopes,DELTA_Yb174,"equals: (ratio of Ytterbium isotopes Yb174/Yb172 in the sample divided by ratio of Yb174/Yb172 in reference material)  minus 1, multiplied by 1000"
+1532,IS,Stable_Isotopes,DELTA_Yb176,"equals: (ratio of Ytterbium isotopes Yb176/Yb172 in the sample divided by ratio of Yb176/Yb172 in reference material)  minus 1, multiplied by 1000"
+1533,IS,Stable_Isotopes,Yb168_Yb173,ratio of ytterbium isotope Yb168 to Yb173
+1534,IS,Stable_Isotopes,Yb170_Yb173,ratio of ytterbium isotope Yb170 to Yb173
+1535,IS,Stable_Isotopes,Yb171_Yb173,ratio of ytterbium isotope Yb171 to Yb173
+1536,IS,Stable_Isotopes,Yb172_Yb173,ratio of ytterbium isotope Yb172 to Yb173
+1537,IS,Stable_Isotopes,Yb174_Yb173,ratio of ytterbium isotope Yb174 to Yb173
+1538,IS,Stable_Isotopes,Yb176_Yb173,ratio of ytterbium isotope Yb176 to Yb173
+1539,IS,Stable_Isotopes,E_Ru96,epsilon Ru96=(Ru96/Ru101sample/Ru96/Ru101standard−1)×10E4
+1540,IS,Stable_Isotopes,E_Ru98,epsilon Ru98=(Ru98/Ru101sample/Ru98/Ru101standard−1)×10E4
+1541,IS,Stable_Isotopes,E_Ru100,epsilon Ru100=(Ru100/Ru101sample/Ru100/Ru101standard−1)×10E4
+1542,IS,Stable_Isotopes,E_Ru104,epsilon Ru104=(Ru104/Ru101sample/Ru104/Ru101standard−1)×10E4
+1543,IS,Stable_Isotopes,Ru99_Ru101,ratio of ruthenium isotopes Ru99 to Ru100
+1544,IS,Stable_Isotopes,E_Ru102,epsilon Ru102=(Ru102/Ru101sample/Ru102/Ru101standard−1)×10E4
+1545,IS,Stable_Isotopes,E_Pt196,epsilon Pt196=(Pt196Pt195sample/Pt196/Pt195standard−1)×10E4
+1546,TE,Trace_Element,Fe,iron
+1547,MAJ,Major_Oxide/Element,Na,sodium
+1548,MODE,Rock_Mode,WEATHERING PRODUCTS,weathering products as mode
+1549,MODE,Rock_Mode,DAUBERITE,dauberite as mode
+1550,NGAS,Noble_Gas,Ne22_Ne21cos,ratio of neon isotope Ne22 to Ne21 cosmogenic
+1551,NGAS,Noble_Gas,Ar36cos,"argon isotope Ar36,cosmogenic"
+1552,NGAS,Noble_Gas,Ar36tr,Argon isotope 36 trapped
+1553,NGAS,Noble_Gas,Xe126cos,xenon isotope Xe126 cosmogenic
+1554,NGAS,Noble_Gas,Xe129ex,xenon isotope Xe129 excess
+1555,IS,Stable_Isotopes,Al27_Mg26,ratio of aluminum isotope Al27 to magnesium isotope Mg26
+1556,IS,Stable_Isotopes,O16_O17,ratio of oxygen isotope 16O to 17O
+1557,IS,Stable_Isotopes,O16_O18,ratio of oxygen isotope 16O to 18O
+1558,MODE,Rock_Mode,MONO,monomineralic grains and fragments
+1559,MODE,Rock_Mode,CHONDRULE,chondrules and polymineralic fragments
+1560,MODE,Rock_Mode,ALABANDITE,alabandite as mode
+1561,MODE,Rock_Mode,CORUNDUM,corundum as mode
+1562,MODE,Rock_Mode,HIBONITE,hibonite as mode
+1563,MODE,Rock_Mode,MELILITE,melilite as mode
+1564,IR,Radiogenic_Isotopes,DELTA_Fe56_Fe61,"equals: (ratio of iron isotopes Fe56/Fe61 in the sample divided by ratio of Fe56/Fe61in std) minus 1, multiplied by 1000"
+1565,IS,Stable_Isotopes,DELTA_Ni60_Ni61,"equals: (ratio of nickel isotopes Ni60/Ni61 in the sample divided by ratio of Ni60/Ni61 in the reference material) minus 1, multiplied by 1000"
+1566,IS,Stable_Isotopes,DELTA_Mn55_Cr52,"equals: (ratio of manganese and chromium isotopes Mn55/Cr52 in the sample divided by ratio of Mn55/Cr52 in the reference material) minus 1, multiplied by 1000"
+1567,NGAS,Noble_Gas,Kr79_Kr84,ratio of krypton isotopes Kr79 to Kr84
+1568,NGAS,Noble_Gas,Kr81_Kr84,ratio of krypton isotopes Kr81 to Kr84
+1569,NGAS,Noble_Gas,Xe125_Xe132,ratio of xenon isotopes Xe125 to Xe 132
+1570,IR,Radiogenic_Isotopes,Nd144_Nd145,ratio of neodymium isotopes Nd144 to Nd145
+1571,IR,Radiogenic_Isotopes,Ar38_Ar39,ratio of argon isotopes Ar38 to Ar39
+1572,IR,Radiogenic_Isotopes,Ar37_Ar39,ratio of argon isotopes Ar37 to Ar39
+1573,TE,Trace_Element,PbRG,radiogenic lead
+1574,IR,Radiogenic_Isotopes,E_U235,epsilon U235=(U235/U238sample/U235/U238standard−1)×10E4
+1575,IR,Radiogenic_Isotopes,Nd144_U238,ratio of neodymium isotopes Nd144 to uranium isotope U238
+1576,NGAS,Noble_Gas,Xe132_Xe124,ratio of xenon isotopes Xe 132 to Xe 124
+1577,NGAS,Noble_Gas,Xe132_Xe126,ratio of xenon isotopes Xe 132 to Xe 126
+1578,NGAS,Noble_Gas,Xe132_Xe128,ratio of xenon isotopes Xe 132 to Xe 128
+1579,NGAS,Noble_Gas,Xe132_Xe129,ratio of xenon isotopes Xe132 to Xe129
+1580,NGAS,Noble_Gas,Xe132_Xe134,ratio of xenon isotopes Xe 132 to Xe 134
+1581,NGAS,Noble_Gas,Xe132_Xe136,ratio of xenon isotopes Xe132 to Xe136
+1582,IS,Stable_Isotopes,DELTA_Fe56_Fe54,"equals: (ratio of iron isotopes Fe56/Fe54 in the sample divided by ratio of Fe56/Fe54) minus 1, multiplied by 1000"
+1583,IS,Stable_Isotopes,DELTA_Ni62_Ni60,"equals: (ratio of nickel isotopes Ni62/Ni60 in the sample divided by ratio of Ni62/Ni60 in the reference material) minus 1, multiplied by 1000"
+1584,IS,Stable_Isotopes,DELTA_Ni61_Ni60,"equals: (ratio of nickel isotopes Ni61/Ni60 in the sample divided by ratio of Ni61/Ni60 in the reference material) minus 1, multiplied by 1000"
+1585,IS,Stable_Isotopes,DELTA_Ni62_Ni58,"equals: (ratio of nickel isotopes Ni62/Ni58 in the sample divided by ratio of Ni62/Ni58 in the reference material) minus 1, multiplied by 1000"
+1586,IS,Stable_Isotopes,DELTA_Ni64_Ni58,"equals: (ratio of nickel isotopes Ni64/Ni58 in the sample divided by ratio of Ni64/Ni58 in the reference material) minus 1, multiplied by 1000"
+1587,IS,Stable_Isotopes,DELTA_Ni60_Ni58,"equals: (ratio of nickel isotopes Ni60/Ni58 in the sample divided by ratio of Ni60/Ni58 in the reference material) minus 1, multiplied by 1000"
+1588,IS,Stable_Isotopes,DELTA_Ni61_Ni58,"equals: (ratio of nickel isotopes Ni61/Ni58 in the sample divided by ratio of Ni61/Ni58 in the reference material) minus 1, multiplied by 1000"
+1589,MODE,Rock_Mode,VOIDS,voids as mode
+1590,MODE,Rock_Mode,INTERGROWTH,intergrowth of indeterminate chemistry as mode
+1591,MODE,Rock_Mode,KAERSUTITE,KAERSUTITE as mode
+1592,IS,Stable_Isotopes,Gd154_Gd160,ratio of gadolinium isotope 154 to gadolinium 160
+1593,IS,Stable_Isotopes,Gd155_Gd160,ratio of gadolinium isotope 155 to gadolinium isotope 160
+1594,IS,Stable_Isotopes,Gd157_Gd160,ratio of gadolinium isotope 157 to gadolinium isotope 160
+1595,IS,Stable_Isotopes,Gd158_Gd160,ratio of gadolinium isotope 158 to gadolinium isotope 160
+1596,IS,Stable_Isotopes,E_Gd157,epsilon Gd157
+1597,IS,Stable_Isotopes,E_Gd158,epsilon Gd158
+1598,IS,Stable_Isotopes,Sm150_Sm149,ratio of samarium isotope 150 to samarium isotope 149
+1599,IS,Stable_Isotopes,Gd158_Gd157,ratio of gadolinium isotope 158 to gadolinium isotope 157
+1600,IR,Radiogenic_Isotopes,Mn53_ACTIVITY,"Manganese isotope Mn55, reported as activity"
+1601,IS,Stable_Isotopes,Gd152_Gd160,ratio of gadolinium isotope 152 to gadolinium 160
+1603,MODE,Rock_Mode,Fe METAL,Fe metal as mode
+1604,MODE,Rock_Mode,SPHERULITE,spherulite as mode
+1605,MODE,Rock_Mode,HYPERSTHENE,Hypersthene as mode
+1608,IR,Radiogenic_Isotopes,MU_W184,The ratio of 184W/183W in parts per million (ppm) deviation from the bulk silicate Earth
+1609,IS,Stable_Isotopes,MU_Hf178,The ratio of 178Hf/177Hf in parts per million (ppm) deviation from the bulk silicate Earth
+1610,IS,Stable_Isotopes,MU_Hf180,The ratio of 180Hf/177Hf in parts per million (ppm) deviation from the bulk silicate Earth
+1613,IR,Radiogenic_Isotopes,MU_Os186,isotope of osmium 186 (μ representing the ppm-deviation of the ratios from standard)
+1614,IR,Radiogenic_Isotopes,E_Os184,epsilon Os184 = [(Os184/Os186)sample/(Os184/Os186)reference - 1]x10E4
+1615,IR,Radiogenic_Isotopes,MU_Os186(I),"isotope Os 186 microns at initial age, (μ representing the ppm-deviation of the ratios from standard)"
+1617,IS,Stable_Isotopes,MU_Os188,isotope of osmium 188 (μ representing the ppm-deviation of the ratios from standard)
+1618,IS,Stable_Isotopes,MU_Os190,isotope of osmium 190 (μ representing the ppm-deviation of the ratios from standard)
+1619,IS,Stable_Isotopes,CAP_DELTA_C13,deviation of Delta_C13
+1620,MAJ,Major_Oxide/Element,SO3T,sulfur trioxide as total
+1621,MAJ,Major_Oxide/Element,ST,total sulfur content as oxidized and reduced species
+1622,IS,Stable_Isotopes,E_Cr54,epsilon Cr = [(Cr54/Cr52)sample/(Cr54/Cr52)reference - 1]x10E4
+1623,IS,Stable_Isotopes,CAP_DELTA_Os,per mil deviation of 187Os/Os188 for a sample from the IIA isochron (a primordial 4568 Ma reference isochron)
+1624,IS,Stable_Isotopes,Hg197_Hg203_ACTIVITY,"	ratio of mercury isotopes Hg197 to Hg203, reported as activity"
+1625,IR,Radiogenic_Isotopes,C14_ACTIVITY,carbon isotope C14 expressed as activity
+1626,TE,Trace_Element,Fe3P,Ferric iron
+1627,TE,Trace_Element,Fe2P,Ferrous iron
+1628,IS,Stable_Isotopes,DELTA_Fe58,"equals: (ratio of iron isotopes Fe58/Fe54 in the sample divided by ratio of Fe58/Fe54 of irmm-014) minus 1, multiplied by 1000"
+1629,IR,Radiogenic_Isotopes,Mn53,radiogenic isotope manganese 53
+1630,MODE,Rock_Mode,Ca-Al-RICH INCLUSION,Ca–Al-rich inclusion as mode
+1631,IS,Stable_Isotopes,Cd106_Cd114,ratio of cadmium isotopes Cd106 to Cd114
+1632,IS,Stable_Isotopes,Cd108_Cd114,ratio of cadmium isotopes Cd108 to Cd114
+1633,IS,Stable_Isotopes,Cd110_Cd114,ratio of cadmium isotopes Cd110 to Cd114
+1634,IS,Stable_Isotopes,Cd112_Cd114,ratio of cadmium isotopes Cd112 to Cd114
+1635,IS,Stable_Isotopes,Cd113_Cd114,ratio of cadmium isotopes Cd113 to Cd114
+1636,IS,Stable_Isotopes,Cd116_Cd114,ratio of cadmium isotopes Cd116 to Cd114
+1637,IS,Stable_Isotopes,Cd111_Cd114,ratio of cadmium isotopes Cd111 to Cd114
+1638,IS,Stable_Isotopes,Cd106_Cd111,ratio of cadmium isotopes Cd106 to Cd111
+1639,IS,Stable_Isotopes,Cd110_Cd111,ratio of cadmium isotopes Cd110 to Cd111
+1640,IS,Stable_Isotopes,Cd116_Cd111,ratio of cadmium isotopes Cd116 to Cd111
+1641,IS,Stable_Isotopes,DELTA_Ga71,"equals: (ratio of gallium isotopes Ga71/Ga69 in the sample divided by ratio of Ga71/Ga69 of standard) minus 1, multiplied by 1000"
+1642,MAJ,Major_Oxide/Element,MoO3,molybdenum trioxide
+1643,IS,Stable_Isotopes,CAP_DELTA_Ni62,deviation of Delta_Ni62 as per mil from normalization value of Ni62_Ni61
+1644,IS,Stable_Isotopes,CAP_DELTA_Ni60,deviation of Delta_Ni60 as per mil from normalization value of Ni60_Ni62
+1645,IR,Radiogenic_Isotopes,K40,potassium 40 isotope
+1646,IR,Radiogenic_Isotopes,Cs137,cesium isotope 137
+1647,IS,Stable_Isotopes,Al27_Mg24,ratio of aluminum isotope Al27 to magnesium isotope Mg24
+1648,IS,Stable_Isotopes,CAP_DELTA_Mg26,deviation of Delta_Mg26
+1650,IR,Radiogenic_Isotopes,E_Sm147,epsilon Sm147 = [(Sm147/Sm154)sample/Sm147/Sm154)standard - 1]x10E4
+1651,IS,Stable_Isotopes,E_Sm154,Epsilon value of samarium isotope Sm154
+1652,MODE,Rock_Mode,SrCO3,Strontianite as mode
+1653,MODE,Rock_Mode,MAGNESITE,magnesite as mode (MnCO3)
+1654,MODE,Rock_Mode,SIDERITE,siderite as mode
+1655,EM,End-Member,SrCO3,Strontianite as endmember
+1656,EM,End-Member,MgCO3,magnesium carbonate as endmember
+1657,EM,End-Member,MnCO3,manganese carbonate as endmember
+1658,EM,End-Member,FeCO3,Siderite as endmember
+1659,EM,End-Member,CaCO3,calcium carbonate as endmember
+1660,IS,Stable_Isotopes,F(Mg),Sample Mg mass fractionation: F(Mg) = (Cap_delta_25Mg)sample -  (Cap_delta_25Mg)standard
+1661,IS,Stable_Isotopes,DELTA_Ca48,"equals: ratio of calcium isotopes Ca48/Ca44 in the sample divided by ratio of Ca48/Ca44 in the reference material) minus 1, multiplied by 1000"
+1662,IS,Stable_Isotopes,DELTA_Ti47,"ratio of titanium isotopes Ti47/Ti48 in the sample divided by ratio of Ti47/Ti48 in the reference material) minus 1, multiplied by 1000"
+1663,IS,Stable_Isotopes,DELTA_Ti50,"equals: (ratio of titanium isotopes Ti50/Ti48 in the sample divided by ratio of Ti50/Ti48 in the reference material) minus 1, multiplied by 1000"
+1664,EM,End-Member,TEPHROITE,tephroite as endmember
+1665,MODE,Rock_Mode,CHLORAPATITE,Cholorapatite as mode
+1666,IS,Stable_Isotopes,Mn53_Cr53,ratio of manganese isotope Mn53 to chromium isotope Cr53
+1667,IS,Stable_Isotopes,W183_W184,ratio of tungsten isotope W183 to W184
+1668,IR,Radiogenic_Isotopes,Al26_Al27(I),ratio of aluminum isotopes Al26 to Al27 at time zero
+1669,IS,Stable_Isotopes,CAP_DELTA_Mg25,deviation of Delta_Mg25
+1670,MODE,Rock_Mode,CLINOENSTATITE,clinoenstite as mode
+1671,IR,Radiogenic_Isotopes,Os186_Os188(I),ratio of osmium isotopes Os186 to Os188 at initial age
+1672,EM,End-Member,QUARTZ,quartz as endmember
+1673,EM,End-Member,NEPHELINE,NEPHELINE as endmember
+1674,EM,End-Member,OLIVINE,olivine as endmember
+1675,EM,End-Member,HYPERSTHENE,hypersthene as endmember
+1676,EM,End-Member,RUTILE,rutile as endmember
+1677,IS,Stable_Isotopes,E_Ba130,epsilon Ba130 = [(Ba130/Ba136)sample/(Ba130/Ba136)standard - 1]x10E4
+1678,IS,Stable_Isotopes,E_Ba132,epsilon Ba132 = [(Ba132/Ba136)sample/(Ba132/Ba136)standard - 1]x10E4
+1679,IS,Stable_Isotopes,Ba134_Ba136,ratio of Barium isotopes Ba134 to Ba136
+1680,IS,Stable_Isotopes,E_Ba135,epsilon Ba135 = [(Ba135/Ba136)sample/(Ba135/Ba136)standard - 1]x10E4
+1681,IS,Stable_Isotopes,E_Ba137,epsilon Ba137 = [(Ba137/Ba136)sample/(Ba137/Ba136)standard - 1]x10E4
+1682,IS,Stable_Isotopes,E_Ba138,epsilon Ba138 = [(Ba138/Ba136)sample/(Ba138/Ba136)standard - 1]x10E4
+1684,IS,Stable_Isotopes,Lu175_Hf177,ratio of Lutetium isotope Lu175 to Hafnium isotope Hf177
+1685,IS,Stable_Isotopes,Yb173_Hf177,ratio of Ytterbium isotope Yb173 to Hafnium isotope Hf177
+1686,IS,Stable_Isotopes,W183_Hf177,ratio of Tungsten isotope W183 to Hafnium isotope Hf177
+1687,IS,Stable_Isotopes,E_Hf176,epsilon Hf176 = [(Hf176/Hf177)sample/(Hf176/Hf177)standard - 1]x10E4
+1688,IS,Stable_Isotopes,E_Hf178,epsilon Hf178 = [(Hf178/Hf177)sample/(Hf178/Hf177)standard - 1]x10E4
+1689,IS,Stable_Isotopes,Rb85_Sr86,Ratio of Rubidium isotope Rb85 to Strontium isotope Sr86
+1690,IS,Stable_Isotopes,E_Sr84,epsilon Sr84 = [(Sr84/Sr86)sample/(Sr84/Sr86)standard - 1]x10E4
+1691,IS,Stable_Isotopes,Hf179_Hf177,ratio of Hafnium isotopes Hf179 to Hafnium isotope Hf177
+1692,NGAS,Noble_Gas,Kr80_Kr82,ratio of krypton isotopes Kr80 to Kr82
+1693,IS,Stable_Isotopes,Os190_Os189(I),"ratio of osmium isotopes Os190 to Os189, initial"
+1694,IR,Radiogenic_Isotopes,Os186_OS189(I),"ratio of osmium isotopes Os186 to Os189, initial"
+1695,IS,Stable_Isotopes,DELTA_iMg′,δiMg′=1000×ln((iMg/24Mg)sample/(iMg/24Mg)DSM3)
+1696,IS,Stable_Isotopes,DELTA_Mg*,δ26Mg⁎=δ26Mg′–δ25Mg′/β
+1697,IS,Stable_Isotopes,E_Ag107,"equals:The difference in 107Ag/109Ag between a sample and bracketing NIST SRM 978a standards is expressed as  (1E part in 10,000)."
+1698,IS,Stable_Isotopes,Pd108_Ag109,ratio of  lead 108 isotope to silver 109 isotope
+1699,NGAS,Noble_Gas,Kr84_Kr80,ratio of krypton isotopes Kr84 to Kr80
+1700,NGAS,Noble_Gas,Kr84_Kr82,ratio of krypton isotopes Kr84 to Kr82
+1701,NGAS,Noble_Gas,Xe132_Xe131,ratio of xenon isotopes Xe132 to Xe131
+1702,NGAS,Noble_Gas,Ar36_Xe133,ratio of argon isotope Ar36 to xenon isotope X133
+1703,NGAS,Noble_Gas,Kr84_Xe132,ratio of krypton isotope Kr84 to Xenon isotope 132
+1704,NGAS,Noble_Gas,Ar36_N14,ratio of argon isotope Ar36 to nitrogen isotope N14
+1705,NGAS,Noble_Gas,Ar40_Xe129,ratio of argon isotope Ar40 to xenon isotope Xe129
+1706,MODE,Rock_Mode,ROEDDERITE,ROEDDERITE as mode
+1707,MODE,Rock_Mode,DAUBREELITE,DAUBREELITE as mode
+1708,MODE,Rock_Mode,DJERFISHERITE,DJERFISHERITE as mode
+1709,IR,Radiogenic_Isotopes,CAP_DELTA'_Ca44,"radiogenic anomalies on 40Ca, produced by the decay of 40K, through internal normalisation to 42Ca/44Ca to correct for all mass-dependent isotope fractionation reported as Δ′42/4440/44CaSRM 915a"
+1710,IR,Radiogenic_Isotopes,CAP_DELTA'_Ca44(I),"Initial radiogenic anomalies on 40Ca, produced by the decay of 40K, through internal normalisation to 42Ca/44Ca to correct for all mass-dependent isotope fractionation reported as Δ′42/4440/44CaSRM 915a"
+1711,IS,Stable_Isotopes,MU_Mg25,ppm deviation from the standard:[25Mg/24Mgsample)/(25Mg/24Mgstandard)-1]x10E6
+1712,IS,Stable_Isotopes,MU_Mg26,ppm deviation from the standard:[26Mg/24Mgsample)/(26Mg/24Mgstandard)-1]x10E6
+1713,IS,Stable_Isotopes,DELTA_Ni62_Ni61,"equals: (ratio of nickel isotopes Ni62/Ni61 in the sample divided by ratio of Ni62/Ni61 in the reference material) minus 1, multiplied by 1000"
+1714,IS,Stable_Isotopes,Fe56_Ni61,ratio of iron isotope Fe56 to nickel isotope Ni61
+1715,IS,Stable_Isotopes,Fe60_Fe56,the ratio of iron isotopes Fe60 to Fe56
+1716,IS,Stable_Isotopes,CAP_DELTA_Ni60_Ni61,deviation of Delta_Ni60 as per mil from normalization value of Ni60_Ni61
+1717,NGAS,Noble_Gas,Ar40_Ar36tr,"ratio of argon isotopes Ar40 to Ar36, trapped"
+1718,NGAS,Noble_Gas,Kr83cos,"krypton isotope Kr83, cosmogenic"
+1719,NGAS,Noble_Gas,He3cos,"helium isotope He3, cosmogenic"
+1720,NGAS,Noble_Gas,Ne21_Ne22cos,"ratio of neon isotope Ne21 to Ne22, cosmogenic"
+1721,VO,Volatile,CO3,carbon trioxide
+1722,MAJ,Major_Oxide/Element,CARBONATE,carbonate
+1723,MODE,Rock_Mode,COHENITE,cohenite as mode
+1724,MODE,Rock_Mode,TETRATAENITE,tetrataenite as mode
+1725,IS,Stable_Isotopes,Hf180_W186,ratio of hafnium isotope Hf180 to tungsten isotope W186
+1726,IS,Stable_Isotopes,W182_W186,ratio of tungsten isotope W182 to tungsten isotope W186
+1727,IS,Stable_Isotopes,W183_W186,ratio of tungsten isotope W183 to tungsten isotope W186
+1728,IS,Stable_Isotopes,DELTA_W182,"equals: (ratio of tungsten isotopes 182W/186W in the sample divided by ratio of 182W/186W in the reference material) minus 1, multiplied by 1000"
+1729,IS,Stable_Isotopes,DELTA_W183,"equals: (ratio of tungsten isotopes 183W/186W in the sample divided by ratio of 183W/186W in the reference material) minus 1, multiplied by 1000"
+1730,IR,Radiogenic_Isotopes,Hf182_Hf180(I),ratio of hafnium isotopes Hf182 to Hf180 at initial time
+1731,NGAS,Noble_Gas,N14_Xe132,ratio of nitrogen isotope N14 to xenon isotope Xe132
+1732,IS,Stable_Isotopes,C13_C12,ratio of carbon isotope 13C to 12C
+1733,IS,Stable_Isotopes,N15_N14,ratio of nitrogen isotope N15 to N14
+1734,IS,Stable_Isotopes,N15Ex,EXCESS (nitrogen isotope N15/1000 multiple by N14) multiple by ratio of nitrogen isotopes N15/N14 in air)
+1735,IS,Stable_Isotopes,MU_Mg26EX,equals: EXCESS [(Mg26/Mg24)sample/(Mg26/Mg24)standard - 1]x10E6 in ppm
+1736,IS,Stable_Isotopes,MU_Mg25EX,equals: EXCESS [(Mg25/Mg24)sample/(Mg25/Mg24)standard - 1]x10E6 in ppm
+1737,NGAS,Noble_Gas,Ne20tr,"neon isotope Ne20, trapped"
+1738,NGAS,Noble_Gas,Ne22_Ne20tr,"ratio of neon isotope Ne22 to Ne20,trapped"
+1739,MODE,Rock_Mode,SULFATE,sulfate as mode
+1740,NGAS,Noble_Gas,Xe124_Xe136,ratio of xenon isotopes Xe124 to Xe136
+1741,NGAS,Noble_Gas,Xe128_Xe136,ratio of xenon isotopes Xe128 to Xe136
+1742,NGAS,Noble_Gas,Xe130_Xe136,ratio of xenon isotopes Xe130 to Xe136
+1743,NGAS,Noble_Gas,Xe131_Xe136,ratio of xenon isotopes Xe131 to Xe136
+1744,MODE,Rock_Mode,Fe-SULFIDE,Fe sulfide as mode
+1745,MODE,Rock_Mode,Fe-SERPENTINE,Fe serpentine as mode
+1746,MODE,Rock_Mode,Mg-SERPENTINE,Mg-serpentine as mode
+1747,NGAS,Noble_Gas,Xe132tr,xenon isotope 132 trapped
+1748,NGAS,Noble_Gas,Xe124_Xe129,ratio of xenon isotopes Xe124 to Xe129	
+1749,NGAS,Noble_Gas,Xe126_Xe129, ratio of xenon isotopes Xe126 to Xe129	
+1750,NGAS,Noble_Gas,Xe128_Xe129, ratio of xenon isotopes Xe128 to Xe129	
+1751,NGAS,Noble_Gas,Xe130_Xe129, ratio of xenon isotopes Xe130 to Xe129	
+1752,NGAS,Noble_Gas,Xe131_Xe129, ratio of xenon isotopes Xe131 to Xe129	
+1754,NGAS,Noble_Gas,Xe134_Xe129, ratio of xenon isotopes Xe134 to Xe129	
+1755,NGAS,Noble_Gas,Xe136_Xe129 ,ratio of xenon isotopes Xe136 to Xe129
+1756,MODE,Rock_Mode,REFRACTORY INCLUSIONS,refractory inclusions as mode
+1757,MODE,Rock_Mode,CRONSTEDTITE,CRONSTEDTITE as mode
+1758,MODE,Rock_Mode,MgFe-SERPENTINE,MgFe-SERPENTINE as mode
+1759,IR,Radiogenic_Isotopes,Sm146_Sm144(T),ratio of samarium isotope 146 to 144 at time
+1760,IR,Radiogenic_Isotopes,E_Nd142(T),epsilon Nd142 = [(Nd142/Nd144)sample/(Nd142/Nd144)standard - 1]x10E4 at time
+1761,IR,Radiogenic_Isotopes,Sm146_Sm144(T0),ratio of samarium isotope 146 to 144 at time zero
+1762,NGAS,Noble_Gas,Ar40tr,Argon isotope 40 trapped
+1763,NGAS,Noble_Gas,He4tr,Helium isotope 4 trapped
+1764,MODE,Rock_Mode,Ca-PHOSPHATE,ca-phosphate as mode
+1765,IS,Stable_Isotopes,Fe56_Ni62,ratio of iron isotope Fe56 to nickel isotope Ni62
+1766,IS,Stable_Isotopes,Ni60_Ni62,ratio of nickel isotope Ni60 to nickel isotope Ni62
+1767,IS,Stable_Isotopes,Fe60_Fe56(I),ratio of iron isotopes Fe60 to Fe56 at initial age
+1768,MODE,Rock_Mode,BADDYELITE,BADDYELITE as mode
+1769,IS,Stable_Isotopes,E_Ti46,epsilon Ti46 = [(Ti46/Ti47)sample/(Ti46/Ti47)standard - 1]x10E4
+1770,IS,Stable_Isotopes,E_Ti48,epsilon Ti48 = [(Ti48/Ti47)sample/(Ti48/Ti47)standard - 1]x10E4
+1771,IS,Stable_Isotopes,E_Ti50,epsilon Ti50 = [(Ti50/Ti47)sample/(Ti50/Ti47)standard - 1]x10E4
+1772,IR,Radiogenic_Isotopes,Al26_Al27,ratio of aluminum isotopes Al26 to Al27
+1773,IR,Radiogenic_Isotopes,Hf182_Hf180,ratio of hafnium isotopes Hf182 to Hf180
+1774,IS,Stable_Isotopes,D_H,"Ratio between deuterium (heavy hydrogen, 2H) and hydrogen (1H)"
+1775,IS,Stable_Isotopes,H1_Si30,Ratio between hydrogen (1H) and silicon isotope Si30
+1776,IS,Stable_Isotopes,C12_Si30,Ratio between carbon isotope C12 and silicon isotope Si30
+1777,MAJ,Major_Oxide/Element,V2O3T,vanadium sesquioxide as total V
+1778,NGAS,Noble_Gas,N15cos,nitrogen isotope N15 cosmogenic
+1779,MODE,Rock_Mode,MgCO3,magnesium carbonate as mode
+1780,MODE,Rock_Mode,FeCO3,ferrous carbonate as mode
+1781,MODE,Rock_Mode,CaCO3,calcium carbonate as mode
+1782,MODE,Rock_Mode,MnCO3,manganese carbonate as mode
+1783,MODE,Rock_Mode,Mg-PIGEONITE,Mg pigeonite as mode
+1784,MODE,Rock_Mode,FERROPIGEONITE,Fe pigeonite as mode
+1785,MODE,Rock_Mode,MOMOSULFIDE SOLID SOLUTION,momosulfide solid solution as mode
+1786,MAJ,Major_Oxide/Element,SILICA,silica
+1787,IS,Stable_Isotopes,Mg26_Mg24,ratio of magnesium isotope Mg26 to magnesium isotope Mg24
+1788,IS,Stable_Isotopes,E_Zr91,"the deviation of the sample from the Alfa Aesar standard solution in parts per ten thousand, normalised to 94Zr/90Zr."
+1789,IS,Stable_Isotopes,E_Zr92,"the deviation of the sample from the Alfa Aesar standard solution in parts per ten thousand, normalised to 94Zr/90Zr."
+1790,IS,Stable_Isotopes,E_Zr96,"the deviation of the sample from the Alfa Aesar standard solution in parts per ten thousand, normalised to 94Zr/90Zr."
+1791,MODE,Rock_Mode,SHOCK MELT,shock melt as mode
+1792,IS,Stable_Isotopes,CAP_DELTA_Si29,deviation of Delta_Si29
+1793,IS,Stable_Isotopes,CAP_DELTA_Si30,deviation of Delta_Si30
+1794,MODE,Rock_Mode,TOTAL,total as mode
+1796,IR,Radiogenic_Isotopes,Cl36_Be10,ratio of chlorine isotope Cl36 to beryllium isotope Be10
+1797,IR,Radiogenic_Isotopes,Ca41_Cl36,ratio calcium isotope Ca41 to chlorine isotope Cl36
+1798,NGAS,Noble_Gas,Ar38_Ar37,ratio of argon istotopes Ar38 to Ar37
+1799,MODE,Rock_Mode,LOW-Fe PYROXENE,LOW-Fe PYROXENE as mode
+1800,MODE,Rock_Mode,MED-Fe PYROXENE,MED-Fe PYROXENE as mode
+1801,MODE,Rock_Mode,HIGH-Fe PYROXENE,HIGH-Fe PYROXENE as mode
+1802,MODE,Rock_Mode,INTERMEDIATE OLIVINE,INTERMEDIATE OLIVINE as mode
+1803,MODE,Rock_Mode,HIGH-Fe OLIVINE,HIGH-Fe OLIVINE as mode
+1804,EM,End-Member,FELDSPAR,feldspar as end member
+1805,EM,End-Member,PYROXENE,pyroxene as end member
+1806,MODE,Rock_Mode,HEDENBERGITE,hedenbergite as mode
+1807,MODE,Rock_Mode,HERCYNITE,HERCYNITE
+1808,EM,End-Member,APATITE,apatite as end member
+1809,MODE,Rock_Mode,Mg-OLIVINE,Mg-olivine as mode
+1810,MODE,Rock_Mode,HIGH-Al PYROXENE,high-Aluminum pyroxene
+1811,EM,End-Member,CaTiPx,calcium titanium pyroxene
+1812,EM,End-Member,Fe,fe as end member
+1813,EM,End-Member,LOW-Ca PYROXENE,low calcium pyroxene as end member
+1814,EM,End-Member,AUGITE,augite as end member
+1815,EM,End-Member,MED-Fe PYROXENE,MED-Fe PYROXENE as end member
+1816,EM,End-Member,HIGH-Fe PYROXENE,HIGH-Fe PYROXENE as end member
+1817,EM,End-Member,OTHER,other minerals as end member
+1818,EM,End-Member,CLINOPYROXENE,clinopyroxene as end member
+1819,MODE,Rock_Mode,K-GLASS,K-glass as mode
+1820,EM,End-Member,CALCIO-OLIVINE ,calcio-olivine
+1822,EM,End-Member,MAGNESIUM,magnesium as endmember
+1823,MODE,Rock_Mode,GROUNDMASS-PYROXENE,pyroxene groundmass as mode
+1824,MODE,Rock_Mode,GROUNDMASS-PLAGIOCLASE,plagioclase groundmass as mode
+1825,EM,End-Member,Si,Si as endmember
+1826,EM,End-Member,GLASS,glass as endmember
+1827,EM,End-Member,CRISTABOLITE,cristabolite as endmember
+1828,EM,End-Member,PLAGIOCLASE,plagioclase as endmember
+1829,MODE,Rock_Mode,TRANQUILLITYITE,TRANQUILLITYITE as mode
+1830,IS,Stable_Isotopes,Si29,silicon isotope Si29
+1831,IS,Stable_Isotopes,OH16_Si29,ratio of hydroxide isotope O16 and silicon isotope Si29
+1833,IS,Stable_Isotopes,DM_HM,"Ratio between negative deuterium (heavy hydrogen, 2HMINUS) and hydrogen (1HMINUS)"
+1834,NGAS,Noble_Gas,Ar38tr,Argon isotope 38 trapped
+1836,MODE,Rock_Mode,FeS METAL,FeS metal as mode
+1837,NGAS,Noble_Gas,Kr86tr,"krypton isotope Kr86, trapped"
+1838,NGAS,Noble_Gas,Xe131_Xe126cos,ratio of xenon isotopes Xe131 to Xe126 cosmogenic
+1839,NGAS,Noble_Gas,Kr84tr,"krypton isotope Kr84,trapped"
+1840,NGAS,Noble_Gas,Kr81cos,"krypton isotope Kr81,cosmogenic"
+1841,NGAS,Noble_Gas,He4_RG,"Helium isotope 4,radiogenic"
+1842,NGAS,Noble_Gas,Kr78_Kr83cos,"ratio of krypton isotopes Kr78 to Kr83, cosmogenic"
+1843,NGAS,Noble_Gas,Kr80_Kr83cos,"ratio of krypton isotopes Kr80 to Kr83,cosmogenic"
+1844,NGAS,Noble_Gas,Kr81_Kr83cos,"	ratio of krypton isotopes Kr81 to Kr83, cosmogenic"
+1845,NGAS,Noble_Gas,Kr84_Kr83cos,"	ratio of krypton isotopes Kr84 to Kr83, cosmogenic"
+1846,NGAS,Noble_Gas,Xe124_Xe126cos,"ratio of xenon isotopes Xe124 to Xe126,cosmogenic"
+1847,NGAS,Noble_Gas,Xe128_Xe126cos,"	ratio of xenon isotopes Xe128 to Xe126,cosmogenic"
+1849,NGAS,Noble_Gas,Xe129_Xe126cos,"	ratio of xenon isotopes Xe129 to Xe126,cosmogenic"
+1850,NGAS,Noble_Gas,Xe130_Xe126cos,"	ratio of xenon isotopes Xe130 to Xe126,cosmogenic"
+1851,NGAS,Noble_Gas,Kr82_Kr83cos,"ratio of krypton isotopes Kr82 to Kr83, cosmogenic"
+1852,NGAS,Noble_Gas,Ar36_Ar37,ratio of argon isotopes Ar36 to Ar37
+1854,NGAS,Noble_Gas,He4_Ne20tr,"ratio of helium isotope He4 to neon isotope Ne20,trapped"
+1855,NGAS,Noble_Gas,Ar36_Xe132tr,"ratio of argon isotopes Ar36 to xenon isotopes Xe132,trapped"
+1856,NGAS,Noble_Gas,Kr84_Xe132tr,"ratio of krypton isotopes Kr84 to xenon isotopes Xe132,trapped"
+1857,NGAS,Noble_Gas,Kr78cos,"krypton isotope Kr78, cosmogenic"
+1858,NGAS,Noble_Gas,Ar36s,"argon isotope Ar36, solar"
+1859,IR,Radiogenic_Isotopes,I129,iodine isotope I129
+1860,IR,Radiogenic_Isotopes,I129_I127,ratio of iodine isotopes I129 to I127
+1861,IS,Stable_Isotopes,CAP_DELTA_Mg24,deviation of Delta_Mg24  as per mil from normalization value Mg24_Mg25
+1862,IS,Stable_Isotopes,Mg24_Mg25,ratio of magnesium isotope Mg24 to magnesium isotope Mg25
+1863,IS,Stable_Isotopes,Mg26_Mg25,ratio of magnesium isotope Mg26 to magnesium isotope Mg25
+1864,IR,Radiogenic_Isotopes,K40cos,potassium 40 isotope cosmogenic
+1865,NGAS,Noble_Gas,Ar36_K40cos,"ratio of argon isotopes Ar36 to potassium isotopes K40, cosmogenic"
+1866,NGAS,Noble_Gas,Ne20_Ne22tr,"ratio of neon isotope Ne20 to Ne22, trapped"
+1867,NGAS,Noble_Gas,Xe129_Xe124,ratio of Xenon isotopes 129 to 124
+1868,NGAS,Noble_Gas,Xe129_Xe128,ratio of Xenon isotopes 129 to 128
+1869,NGAS,Noble_Gas,Xe129_Xe131,ratio of Xenon isotopes 129 to 131
+1870,NGAS,Noble_Gas,Xe129_Xe134,ratio of Xenon isotopes 129 to 134
+1871,MODE,Rock_Mode,LAIHUNITE,LAIHUNITE as mode
+1872,MODE,Rock_Mode,STILPNOMELANE,STILPNOMELANE as mode
+1873,MODE,Rock_Mode,CRISTABOLITE,CRISTABOLITE as mode
+1874,MODE,Rock_Mode,JAROSITE,JAROSITE as mode
+1875,EM,End-Member,OPAQUES,Opaques as endmember
+1876,IR,Radiogenic_Isotopes,Be10cos,"beryllium isotope Be10, cosmogenic"
+1877,IR,Radiogenic_Isotopes,Al26cos,"aluminum isotope Al26, cosmogenic"
+1878,IR,Radiogenic_Isotopes,Cl36cos,"chlorine isotope Cl36, cosmogenic"
+1879,IS,Stable_Isotopes,DELTA_Te126_Te128,"equals: (ratio of tellerium isotopes 126Te/128Te in the sample divided by ratio of 126Te/128Te of standard ) minus 1, multiplied by 1000"
+1880,IS,Stable_Isotopes,E_Te120,"εxTeN = {[(xTe/128Te)N sample − (xTe/128Te)N std]/(xTe/128Te)N std} × 104, where x is 120, 122, 124, 126, or 130"
+1881,IS,Stable_Isotopes,E_Te122,"εxTeN = {[(xTe/128Te)N sample − (xTe/128Te)N std]/(xTe/128Te)N std} × 104, where x is 120, 122, 124, 126, or 130"
+1882,IS,Stable_Isotopes,E_Te124,"εxTeN = {[(xTe/128Te)N sample − (xTe/128Te)N std]/(xTe/128Te)N std} × 104, where x is 120, 122, 124, 126, or 130"
+1883,IS,Stable_Isotopes,E_Te126,"εxTeN = {[(xTe/128Te)N sample − (xTe/128Te)N std]/(xTe/128Te)N std} × 104, where x is 120, 122, 124, 126, or 130"
+1884,IS,Stable_Isotopes,E_Te130,"εxTeN = {[(xTe/128Te)N sample − (xTe/128Te)N std]/(xTe/128Te)N std} × 104, where x is 120, 122, 124, 126, or 130"
+1885,IS,Stable_Isotopes,Sn118_Te128,ratio of Sn isotope 118 to Te isotope 128
+1886,NGAS,Noble_Gas,Ar40tot,argon isotope Ar40 total
+1887,NGAS,Noble_Gas,Ar40ex,"Ar isotope 40, excess"
+1888,IR,Radiogenic_Isotopes,Lu175_Lu176,ratio of lutetium isotope Lu175 to lutetium isotope Lu176
+1889,IR,Radiogenic_Isotopes,DELTA_Rb87,equals: [(87Rb/85Rb)sample/(87Rb/85Rb)standard-1] the x1000
+1891,IS,Stable_Isotopes,E_Fe60,Epsilon iron 60
+1892,IS,Stable_Isotopes,E_Fe61,Epsilon iron 61
+1893,IS,Stable_Isotopes,E_Fe64,Epsilon iron 64
+1894,IS,Stable_Isotopes,E_Fe62,Epsilon iron 62
+1895,IS,Stable_Isotopes,Fe56_Ni58,ratio of iron isotope Fe56 to nickel isotope Ni58
+1896,NGAS,Noble_Gas,Kr84_Kr78,ratio of krypton isotopes Kr84 to Kr78
+1897,IS,Stable_Isotopes,Pb204_Tl203,ratio of lead isotope Pb204 to Tl203
+1898,IS,Stable_Isotopes,E_Cd114,"Epsilon Cd114 to Cd111, eiCd = {[(iCd/111Cd)sample/(iCd/111Cd)standard] – 1}  10"
+1899,NGAS,Noble_Gas,Ar40_N14,ratio of argon isotope Ar40 to nitrogen isotope N14
+1900,NGAS,Noble_Gas,Kr84_Ar36,ratio of krypton isotope Kr84 to argon isotope Ar36
+1901,IS,Stable_Isotopes,Cr50_Cr52,ratio of chromium isotopes Cr50 to Cr52
+1902,IS,Stable_Isotopes,Cr54_Cr52,ratio of chromium isotopes Cr50 to Cr52
+1903,IS,Stable_Isotopes,Ni58_Ni60,ratio of nickel isotope Ni58 to nickel isotope Ni60
+1904,IS,Stable_Isotopes,Ni61_Ni60,ratio of nickel isotope Ni61 to nickel isotope Ni60
+1905,IS,Stable_Isotopes,Ni62_Ni60,ratio of nickel isotope Ni62 to nickel isotope Ni60
+1906,IS,Stable_Isotopes,Ni64_Ni60,ratio of nickel isotope Ni64 to nickel isotope Ni60
+1907,IS,Stable_Isotopes,K39_K41,ratio of potassium isotope K39 to potassium isotope K41
+1908,IS,Stable_Isotopes,K40_K41,ratio of potassium isotope K40 to potassium isotope K41
+1909,NGAS,Noble_Gas,Kr86_Kr83,ratio of krypton isotopes Kr86 to Kr83
+1910,IR,Radiogenic_Isotopes,Ar39_ACTIVITY,argon isotope Ar39 as activity
+1911,NGAS,Noble_Gas,He3_Ne21cos,"ratio of helium isotope He3 to neon isotope Ne21, cosmogenic"
+1912,NGAS,Noble_Gas,Kr78_Kr83cos_ACTIVITY,"ratio of krypton isotopes Kr78 to Kr83, cosmogenic as activity"
+1913,NGAS,Noble_Gas,Xe136tr,"xenon isotope 136, trapped"
+1916,IS,Stable_Isotopes,Nd142_Nd143,ratio of neodymium isotopes Nd142 to Nd143
+1917,IS,Stable_Isotopes,E_Cr53,epsilon Cr = [(Cr53/Cr52)sample/(Cr53/Cr52)reference - 1]x10E4
+1918,NGAS,Noble_Gas,Ne20_Ar36tr,"ratio of isotopes Ne20 to Ar36,trapped"
+1919,MAJ,Major_Oxide/Element,K,potassium
+1920,MAJ,Major_Oxide/Element,Cr,chromium
+1921,MAJ,Major_Oxide/Element,P,phosphorus
+1922,MAJ,Major_Oxide/Element,Ti,titanium
+1923,IS,Stable_Isotopes,MU_Mo92,ppm deviation from the standard:(µiMo/96Mosample / µiMo/96Mostandard –1) × 106
+1924,IS,Stable_Isotopes,MU_Mo94,ppm deviation from the standard:(µiMo/96Mosample / µiMo/96Mostandard –1) × 106
+1925,IS,Stable_Isotopes,MU_Mo95,ppm deviation from the standard:(µiMo/96Mosample / µiMo/96Mostandard –1) × 106
+1926,IS,Stable_Isotopes,MU_Mo97,ppm deviation from the standard:(µiMo/96Mosample / µiMo/96Mostandard –1) × 10E6
+1927,IS,Stable_Isotopes,MU_Mo100,ppm deviation from the standard:(µiMo/96Mosample / µiMo/96Mostandard –1) × 106
+1928,IR,Radiogenic_Isotopes,Ar39_Ar36,ratio of argon isotopes Ar39 to Ar36
+1929,NGAS,Noble_Gas,Ne22cos,"neon isotope Ne22, cosmogenic"
+1930,IS,Stable_Isotopes,DELTA_O16EX,EXCESS departure from terrestrial line
+1931,NGAS,Noble_Gas,Ne20tr_Xe132tr,Ratio of neon isotope Ne20 (trapped) to xenon isotope 132(trapped)
+1932,NGAS,Noble_Gas,Ar36tr_Xe132,Ratio of argon isotope Ar36 (trapped) to xenon isotope Xe132
+1933,IR,Radiogenic_Isotopes,E_Os186,epsilon Os186=(Os186/Os189sample/Os186/Os189standard−1)×10E4
+1934,IR,Radiogenic_Isotopes,E_Os186(I),epsilon Os186=(Os186/Os189sample/Ru96/Os189standard−1)×10E4
+1935,IS,Stable_Isotopes,E_Os188,epsilon Os188=(Os188/Os189sample/Os188/Os189standard−1)×10E4
+1936,IS,Stable_Isotopes,E_Os190,epsilon Os190=(Os190/Os189sample/Os190/Os189standard−1)×10E4
+1937,NGAS,Noble_Gas,N14_Ar36,ratio of nitrogen isotope N14 to argon isotope Ar36 
+1938,IS,Stable_Isotopes,Ca41_Ca40,ratio calcium isotope Ca41 to calcium isotope Ca40 
+1939,IS,Stable_Isotopes,DELTA_Ba137,"δx/134Ba = [(xBa/134Ba) sample / (xBa/134Ba) SRM3104a − 1] × 1000‰, x = 137 or 138"
+1940,IS,Stable_Isotopes,DELTA_Ba138,"δx/134Ba = [(xBa/134Ba) sample / (xBa/134Ba) SRM3104a − 1] × 1000‰, x = 137 or 138"
+1947,IS,Stable_Isotopes,MU_Os189,isotope of osmium 189 (μ representing the ppm-deviation of the ratios from standard)
+1948,IS,Stable_Isotopes,DELTA_Ti46,"ratio of titanium isotopes Ti46/Ti48 in the sample divided by ratio of Ti46/Ti48 in the reference material) minus 1, multiplied by 1000"
+1949,IS,Stable_Isotopes,DELTA_Ti49/Ti48,"equals: (ratio of titanium isotopes Ti49/Ti48 in the sample divided by ratio of Ti49/Ti48 in the reference material) minus 1, multiplied by 1000"
+1953,MODE,Rock_Mode,Al-GLASS,Aluminum-rich glass as mode
+1954,MODE,Rock_Mode,Si-GLASS,Silica-rich glass as mode
+1955,MODE,Rock_Mode,Fe-Al PHASE,Fe-Al phase as mode
+1956,NGAS,Noble_Gas,Kr83_Kr78,ratio of krypton isotopes Kr83 to Kr78
+1957,NGAS,Noble_Gas,Kr80_Kr78,ratio of krypton isotopes Kr80 to Kr78
+1958,NGAS,Noble_Gas,Kr81_Kr78,ratio of krypton isotopes Kr81 to Kr78
+1959,NGAS,Noble_Gas,Kr82_Kr78,ratio of krypton isotopes Kr82 to Kr78
+1961,MODE,Rock_Mode,ISOLATE GRAINS IN THE MATRIX,isolated grains in the matrix
+1963,MODE,Rock_Mode,AMOEBOID OLIVINE AGGREGATE,Amoeboid Olivine Aggregate as mode
+1964,IS,Stable_Isotopes,DELTA_Ru,ratio of ruthinium isotope Ru102 to Ru99
+1965,IS,Stable_Isotopes,B10_B11,ratio of boron isotope B10 to B11
+1966,IR,Radiogenic_Isotopes,Be9_Be11,ratio of beryllium isotopes Be9 to Be11
+1967,MODE,Rock_Mode,Ni METAL,Ni metal as mode
+1968,IS,Stable_Isotopes,DELTA_Se82,ratios of Se82 to Se78
+1969,VO,Volatile,HM,hydrogen minus
+1970,IS,Stable_Isotopes,DM,"Deutrium (heavy hydrogen, 2H) minus"
+1971,IS,Stable_Isotopes,O18M,oxygen isotope O18 minus
+1972,IS,Stable_Isotopes,D,"deuterium, heavy hydrogen"
+1973,IS,Stable_Isotopes,Pb204_Pb207,ratio of lead isotopes Pb204 to Pb207
+1974,US,Uranium_Series,U238_Pb207,ratio of uranium isotope U238 to lead isotope Pb207
+1975,IS,Stable_Isotopes,E_Mo94," parts-per-10,000 deviation of a sample from the mean of the bracketing runs of the Alfa Aesar solution standard, where εiMo = [(iMo/96Mo)sample / (iMo/96Mo)standard – 1] × 104 (i = 92, 94, 95, 97, 100)"
+1976,IS,Stable_Isotopes,E_Mo93," parts-per-10,000 deviation of a sample from the mean of the bracketing runs of the Alfa Aesar solution standard, where εiMo = [(iMo/96Mo)sample / (iMo/96Mo)standard – 1] × 104 (i = 92, 94, 95, 97, 100)"
+1977,IS,Stable_Isotopes,E_Ru99,epsilon Ru99=(Ru99/Ru101sample/Ru99/Ru101standard−1)×10E4
+1978,IS,Stable_Isotopes,E_Mo92," parts-per-10,000 deviation of a sample from the mean of the bracketing runs of the Alfa Aesar solution standard, where εiMo = [(iMo/96Mo)sample / (iMo/96Mo)standard – 1] × 104 (i = 92, 94, 95, 97, 100)"
+1979,IS,Stable_Isotopes,E_Mo95," parts-per-10,000 deviation of a sample from the mean of the bracketing runs of the Alfa Aesar solution standard, where εiMo = [(iMo/96Mo)sample / (iMo/96Mo)standard – 1] × 104 (i = 92, 94, 95, 97, 100)"
+1980,IS,Stable_Isotopes,E_Mo97," parts-per-10,000 deviation of a sample from the mean of the bracketing runs of the Alfa Aesar solution standard, where εiMo = [(iMo/96Mo)sample / (iMo/96Mo)standard – 1] × 104 (i = 92, 94, 95, 97, 100)"
+1981,IS,Stable_Isotopes,E_Mo100," parts-per-10,000 deviation of a sample from the mean of the bracketing runs of the Alfa Aesar solution standard, where εiMo = [(iMo/96Mo)sample / (iMo/96Mo)standard – 1] × 104 (i = 92, 94, 95, 97, 100)"
+1982,IS,Stable_Isotopes,CAP_DELTA_Mo95,(ε95Mo – 0.596 × ε94Mo) × 100
+1983,MODE,Rock_Mode,TROILITE/METAL,troilite and metal as mode
+1984,NGAS,Noble_Gas,Xe129_Xe132tr,"ratio of xenon isotopes Xe129 to Xe132, trapped"
+1985,NGAS,Noble_Gas,Xe134_Xe126,ratio of xenon isotopes Xe134 to Xe126
+1986,NGAS,Noble_Gas,Xe136_Xe126,ratio of xenon isotopes Xe136 to Xe126
+1987,IS,Stable_Isotopes,Mg25,magnesium isotope Mg25
+1989,IS,Stable_Isotopes,Mg26,magnesium isotope Mg26
+1991,IS,Stable_Isotopes,Si30,silicon isotope Si30
+1992,IS,Stable_Isotopes,Ca43,calcium isotope Ca43
+1993,IS,Stable_Isotopes,Sc45,scandium isotope Sc45
+1994,IS,Stable_Isotopes,Ti49,titanium isotope Ti49
+1995,IS,Stable_Isotopes,V51,vanadium isotope V51
+1996,IS,Stable_Isotopes,Cr52,chromium isotope Cr52
+1997,IS,Stable_Isotopes,Mn55,manganese isotope Mn55
+1998,IS,Stable_Isotopes,Co59,cobalt isotope Co59
+1999,IS,Stable_Isotopes,Ni61,nickle isotope Ni61
+2000,IS,Stable_Isotopes,Cu65,copper isotope Cu65
+2001,IS,Stable_Isotopes,Zn66,zinc isotope Zn66
+2002,IS,Stable_Isotopes,Ga69,gallium isotope Ga69
+2003,IS,Stable_Isotopes,Rb85,rubidium isotope Rb85
+2004,IS,Stable_Isotopes,Sr88,strontium isotope Sr88
+2005,IS,Stable_Isotopes,Y89,yttrium isotope Y89
+2006,IS,Stable_Isotopes,Zr91,zirconium isotope Zr91
+2007,IS,Stable_Isotopes,Nb93,niobium Nb93
+2008,IS,Stable_Isotopes,Ba137,barium isotope Ba137
+2009,IS,Stable_Isotopes,La139,lanthanum isotope La139
+2010,IS,Stable_Isotopes,Ce140,cerium isotope Ce140
+2011,IS,Stable_Isotopes,Pr141,Praseodymium isotope Pr141
+2012,IS,Stable_Isotopes,Nd146,neodymium isotope Nd146
+2013,IS,Stable_Isotopes,Sm147,samarium isotope Sm147
+2014,IS,Stable_Isotopes,Eu151,europium isotope Eu151
+2015,IS,Stable_Isotopes,Gd157,gadolinium isotope Gd157
+2016,IS,Stable_Isotopes,Tb159,terbium isotope Tb159
+2017,IS,Stable_Isotopes,Dy163,dysprosium isotope Dy163
+2018,IS,Stable_Isotopes,Ho165,holmium Ho165
+2019,IS,Stable_Isotopes,Er166,erbium isotope Er166
+2020,IS,Stable_Isotopes,Tm169,thulium isotope Tm169
+2021,IS,Stable_Isotopes,Yb172,ytterbium isotope Yb172
+2022,IS,Stable_Isotopes,Lu175,lutetium isotope Lu175
+2023,IS,Stable_Isotopes,Hf178,hafnium isotope Hf178
+2025,IR,Radiogenic_Isotopes,Th232,thorium isotope Th232
+2026,IR,Radiogenic_Isotopes,U238,uranium isotope U238
+2027,IS,Stable_Isotopes,Cr53,chromium isotope Cr53
+2028,IS,Stable_Isotopes,Pm147,Promethium isotope Pm147
+2029,IS,Stable_Isotopes,Yb173,ytterbium isotope Yb173
+2030,IR,Radiogenic_Isotopes,U232,uranium isotope U232
+2031,NGAS,Noble_Gas,He4sol,Helium isotope 4 solar
+2032,NGAS,Noble_Gas,Ne20sol,Neon 20 isotope solar
+2033,IS,Stable_Isotopes,DELTA_K41,δ41K (‰) = ([(41K/39K)sample/(41K/39K)NIST SRM 3141a – 1] × 1000)
+2034,IR,Radiogenic_Isotopes,Re187_Os187,ratio of rhenium isotope Re187 to osmium isotope Os187
+2035,MODE,Rock_Mode,METAL-SULFIDE,combined metal and sulfide modal proportion
+2036,IS,Stable_Isotopes,MU_Zr91,"μZr91 equals parts-per-million deviation from the NIST SRM 3169 standard, and internally normalized to 94Zr/90Zr = 0.3381 using the exponential law. "
+2037,IS,Stable_Isotopes,MU_Zr92,"μZr92 equals parts-per-million deviation from the NIST SRM 3169 standard, and internally normalized to 94Zr/90Zr = 0.3381 using the exponential law. "
+2038,IS,Stable_Isotopes,MU_Zr96,"μZr96 equals parts-per-million deviation from the NIST SRM 3169 standard, and internally normalized to 94Zr/90Zr = 0.3381 using the exponential law. "
+2040,IS,Stable_Isotopes,DELTA_Mg26(I),"equals: (ratio of magnesium isotopes Mg26/Mg24 in the sample divided by ratio of Mg26/Mg24 in the reference material) minus 1, multiplied by 1000, at time zero"
+2041,IS,Stable_Isotopes,DELTA_Ti48,delta_ti48
+2042,MAJ,Major_Oxide/Element,Fe2P,Ferrous iron
+2043,IS,Stable_Isotopes,E_Cd106,"epsilon Cd106 to Cd111, eiCd = {[(iCd/111Cd)sample/(iCd/111Cd)standard] – 1}  10"
+2044,IS,Stable_Isotopes,E_Cd108,"epsilon Cd108 to Cd111, eiCd = {[(iCd/111Cd)sample/(iCd/111Cd)standard] – 1}  10"
+2045,IS,Stable_Isotopes,E_Cd110,"epsilon Cd110 to Cd111, eiCd = {[(iCd/111Cd)sample/(iCd/111Cd)standard] – 1}  10"
+2046,IS,Stable_Isotopes,E_Cd112,"epsilon Cd112 to Cd111, eiCd = {[(iCd/111Cd)sample/(iCd/111Cd)standard] – 1}  10"
+2047,IS,Stable_Isotopes,E_Cd113,"epsilon Cd113 to Cd111, eiCd = {[(iCd/111Cd)sample/(iCd/111Cd)standard] – 1}  10"
+2049,IS,Stable_Isotopes,Sn118_Cd111,ratio of Sn isotope 118 to Cd isotope 111
+2050,IS,Stable_Isotopes,In115_Cd111,Ratio of In isotope 115 to Cd isotope 111
+2051,IS,Stable_Isotopes,Pd105_Cd111,Ratio of Pd isotope 115 to Cd isotope 111
+2052,MODE,Rock_Mode,FINE GRAINED RIMS,fine grained rims as mode
+2053,MODE,Rock_Mode,SODALITE,sodalite as mode
+2054,MODE,Rock_Mode,ANHYDROUS SILICATES,anhydrous silicates as mode
+2055,MODE,Rock_Mode,PHYLLOSILICATE FRACTION,phyllosilicate fraction as mode
+2056,IS,Stable_Isotopes,Si28_O16,ratio of silicon isotope 28 to oxygen isotope 16
+2058,IS,Stable_Isotopes,Al27O16_O16,Ratio of aluminum isotope 27 and oxygen isotope 16 to oxygen isotope 16
+2059,NGAS,Noble_Gas,Xe126_Xe136,ratio of xenon isotopes Xe1 26 to Xe 136
+2060,IS,Stable_Isotopes,CAP_DELTA'_Mg26,Δ′ 26MgDSM-3 = δ′ 26MgDSM-3 − δ′ 25MgDSM-3/β 
+2061,IS,Stable_Isotopes,Pb204_Pb206(I),ratio of lead isotopes Pb204 to Pb206 at initial age
+2063,IR,Radiogenic_Isotopes,MU_W183,The ratio of 183W/184W in parts per million (ppm) deviation from the bulk silicate Earth
+2064,IS,Stable_Isotopes,MU_W182,The ratio of 182W/184W  in parts per million (ppm) deviation from the bulk silicate Earth
+2067,IS,Stable_Isotopes,C_H,ratio of carbon to hydrogen
+2068,IS,Stable_Isotopes,Si_H,ratio of silicon to hydrogen
+2069,IS,Stable_Isotopes,MU_Fe54,"nucleosynthetic Fe isotope Fe54, 54Fe/56Fe ratio when corrected for natural kinetic mass fractionation using a 57Fe/56Fe ratio of 0.023261"
+2070,IS,Stable_Isotopes,MU_Fe57,nucleosynthetic Fe isotope Fe57: 57Fe/56Fe ratio normalized using a 54Fe/56Fe ratio of 0.062669
+2071,MAJ,Major_Oxide/Element,Fe3P,Ferric iron
+2072,MODE,Rock_Mode,DEHYDRATED PHYLLOSILICATE,dehydrated phyllosilicate as mode
+2073,MODE,Rock_Mode,OLIVINE PRIMARY,primary olivine as mode
+2074,MODE,Rock_Mode,OLIVINE SECONDARY,secondary olivine as mode
+2075,IS,Stable_Isotopes,MU_Sm144,μSm144
+2079,IS,Stable_Isotopes,MU_Sm154,μSm154
+2080,MODE,Rock_Mode,DARK CLASTS,dark clasts as mode
+2081,MODE,Rock_Mode,EUCRITIC CLASTS,eucrtic clasts/material as mode
+2082,IS,Stable_Isotopes,D_H(I),"Initial, ratio between deuterium (heavy hydrogen, 2H) and hydrogen (1H)"
+2083,MAJ,Major_Oxide/Element,TiO2TOT,titanium dioxide total
+2084,MAJ,Major_Oxide/Element,Rb2O,Rubidium oxide
+2085,VO,Volatile,S,sulfur as high volatile element
+2086,IS,Stable_Isotopes,DELTA_Sn124,Ratio of Sn124 to Sn116
+2087,IS,Stable_Isotopes,DELTA_Sn124_Sn118,"equals: (ratio of tin isotopes Sn124/Sn118 in the sample divided by ratio of Sn124/Sn118 in the reference material) minus 1, multiplied by 1000"
+2088,IS,Stable_Isotopes,MU_Cr54,ppm deviation from the standard:[Cr54/ Cr52sample)/(Cr54/ Cr52standard NIST SRM 979)-1]x10E6
+2090,IS,Stable_Isotopes,MU_Sm148,parts per million deviations of the 148Sm/152Sm ratio from the standard
+2091,IS,Stable_Isotopes,MU_Sm149,parts per million deviations of the 149Sm/152Sm ratio from the standard
+2092,IS,Stable_Isotopes,MU_Sm150,parts per million deviations of the 150Sm/152Sm ratio from the standard
+2097,NGAS,Noble_Gas,Kr74_Kr84,ratio of krypton isotopes Kr74 to Kr84
+2098,IS,Stable_Isotopes,E_Os,"part per 10,000 deviation of each meteorite’s Re-Os systematics from a 4.568 Ga reference Re-Os isochron, calculated with a Solar System initial 187Os/188Os = 0.09517 and slope = 0.07908 "
+2099,IS,Stable_Isotopes,DELTA_Sr88,equals: (ratio of strontium isotopes Sr88/Sr86 in the sample divided by the ratio of Sr88/Sr86 of the SRM-987 standard)*1000
+2100,EM,End-Member,PLAGIOCLASE-XENOCRYST,PLAGIOCLASE-XENOCRYST
+2101,IS,Stable_Isotopes,O16,oxygen isotope O16
+2102,IS,Stable_Isotopes,MU_Sn114,"part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2103,IS,Stable_Isotopes,MU_Sn115,"part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2104,IS,Stable_Isotopes,MU_Sn117,"part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2105,IS,Stable_Isotopes,MU_Sn118,"part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2106,IS,Stable_Isotopes,MU_Sn119,"part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2107,IS,Stable_Isotopes,MU_Sn122,"part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2108,IS,Stable_Isotopes,MU_Sn124,"part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2109,IS,Stable_Isotopes,DELTASn120_Sn116,"equals: (ratio of tin isotopes Sn120/Sn116 in the sample divided by ratio of Sn120/Sn116 in the reference material) minus 1, multiplied by 1000	 "
+2110,IS,Stable_Isotopes,MU_Sn112,"	part per million deviation where,Mu1xx=120SnSRM316a1=10E6x((R1xx/120)/ (RSRM3161a/ R1xx/120))-1"
+2111,IS,Stable_Isotopes,Zn64,Zinc isotope Zn64
+2112,IS,Stable_Isotopes,Zr90,zirconium isotope Zn90
+2113,IS,Stable_Isotopes,Cs130,cesium isotope 130
+2114,IS,Stable_Isotopes,Eu153,europium isotope Eu153
+2115,IS,Stable_Isotopes,Ta181,tantalum isotope Ta181
+2116,IS,Stable_Isotopes,Cs133,cesium isotope 133
+2117,MAJ,Major_Oxide/Element,Fei METAL,Fe-Ni metal as major
+2118,MAJ,Major_Oxide/Element,FeNi METAL,FeNi METAL as major
+2119,MODE,Rock_Mode,RHODOCHROSITE,RHODOCHROSITE as Mode
+2120,NGAS,Noble_Gas,Kr84_Ar36tr,"Ratio of krypton isotope Kr84 to argon isotope Ar36, trapped"
+2121,IS,Stable_Isotopes,MU_Zn66," parts-per-million deviation from the NIST SRM 683 standard, μ6xZn = [(6xZn/64Zn)sample/(6xZn/64Zn)SRM683–1] × 106"
+2122,IS,Stable_Isotopes,MU_Zn67," parts-per-million deviation from the NIST SRM 683 standard, μ6xZn = [(6xZn/64Zn)sample/(6xZn/64Zn)SRM683–1] × 106"
+2123,IS,Stable_Isotopes,MU_Zn68," parts-per-million deviation from the NIST SRM 683 standard, μ6xZn = [(6xZn/64Zn)sample/(6xZn/64Zn)SRM683–1] × 106"
+2124,IR,Radiogenic_Isotopes,La138_Ce136,ratio of lanthanum isotope 138 to cerium isotope 136
+2125,IR,Radiogenic_Isotopes,Ce138_Ce136,ratio of cerium isotope 138 to 136
+2126,IS,Stable_Isotopes,E_Ce(0),epsilon Ce at time zero = [(138Ce/142Ce)sample/(138Ce/142Ce)chur - 1]x10E4
+2127,IS,Stable_Isotopes,E_Ce(I),epsilon Ce at inital time of crystallization = [(138Ce/142Ce)sample/(138Ce/142Ce)chur - 1]x10E4
+2128,IR,Radiogenic_Isotopes,E_Nd(0),epsilon Nd at time zero = [(Nd143/Nd144)sample/(Nd143/Nd144)reference - 1]x10E4
+2129,IR,Radiogenic_Isotopes,E_Nd(I),epsilon Nd at time initial crystallization = [(Nd143/Nd144)sample/(Nd143/Nd144)reference - 1]x10E4
+2130,MD,Model_Data,DENSITY,density
+2131,IS,Stable_Isotopes,Li6_Li7,ratio of lithium isotopes Li6 to Li7
+2132,ORG,organic compounds,PAH,polycyclic aromatic hydrocarbons
+2133,MD,Model_Data,VOLUME,volume
+2134,IS,Stable_Isotopes,E_Zn66,Epsilon Zinc 66
+2135,MAJ,Major_Oxide/Element,C,Carbon measured as a major element
+2136,MAJ,Major_Oxide/Element,C_Si,ratio of C to Si
+2137,MAJ,Major_Oxide/Element,Mg_Si,ratio of Mg to Si
+2138,MAJ,Major_Oxide/Element,S_Si,ratio of S to Si
+2139,MAJ,Major_Oxide/Element,Ca_Si,ratio of Ca to Si
+2140,MAJ,Major_Oxide/Element,Fe_Si,ratio of Fe to Si
+2141,MAJ,Major_Oxide/Element,Ni_Si,ratio of Ni to Si
+2142,NGAS,Noble_Gas,He3ex,"Helium 3 isotope, excess"
+2143,IS,Stable_Isotopes,C12_H1,Ratio between carbon isotope C12 and hydrogen isotope H1
+2144,IS,Stable_Isotopes,C-_O-,Ratio between carbon isotope C- and oxygen isotope O-
+2145,MAJ,Major_Oxide/Element,FeTOT,Total of FeO and Fe2O3 recalculated as Fe
+2146,MODE,Rock_Mode,Fe,Fe as mode
+2147,MODE,Rock_Mode,SiO2,SiO2 as mode
+2148,IS,Stable_Isotopes,MU_Si30,ppm deviations from the NBS-28 standard: μ30Si = [(30Si/28Si)sample/(30Si/28Si)NBS-28 − 1] × 10E6
+2149,IS,Stable_Isotopes,MU_Si29,"deviations from the NBS-28 standard, using the μ-notation as follows: μ30Si = [(30Si/29Si)sample/(30Si/29Si)NBS-28 − 1] × 10E6"
+2150,IS,Stable_Isotopes,MU_Ca43,[(43Ca/44Ca)sample/(43Ca/44Ca)SRM915b − 1] × 10E6
+2151,IS,Stable_Isotopes,MU_Ca48,[(48Ca/44Ca)sample/(48Ca/44Ca)SRM915b − 1] × 10E6
+2152,NGAS,Noble_Gas,Ne20_Xe132tr,"ratio of isotopes Ne20 to Xe132,trapped"
