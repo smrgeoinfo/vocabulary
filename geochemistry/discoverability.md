@@ -663,366 +663,199 @@ The following table maps the metadata content items described in the [[Metadata 
 ### Example 1: simple digital object
 
 This example shows a CDIF metadata record for a simple digital object\-- a single image that is the resource of interest and the single representation of that resource:
-
-[{]{.mark}
-
-[\"@context\": \[]{.mark}
-
-[\"https://schema.org\",]{.mark}
-
-[{]{.mark}
-
-[\"dcterms\": \"http://purl.org/dc/terms/\",]{.mark}
-
-[\"ex\": \"https://example.com/99152/\"]{.mark}
-
-[}]{.mark}
-
-[\],]{.mark}
-
-[\"@id\": \"ex:URIforTheMetadata\",]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"dateModified\": \"2017-05-23\",]{.mark}
-
-[\"provider\": {]{.mark}
-
-[\"@type\": \"Organization\",]{.mark}
-
-[\"name\": \"Joe\'s photo studio\",]{.mark}
-
-[\"email\": \"metadata@joesphotostudio.org\"]{.mark}
-
-[},]{.mark}
-
-[\"dcterms:conformsTo\": \"ex:cdif-metadataSpec\",]{.mark}
-
-[\"about\": {]{.mark}
-
-[\"@id\": \"ex:URIforDescribedResource\",]{.mark}
-
-[\"@type\": \"ImageObject\",]{.mark}
-
-[\"name\": \"Picture of analytical setup\",]{.mark}
-
-[\"description\": \"Description of what\'s in the picture, where and why taken. note that in this example, the described resource is a digitalObject (not a a physical object or abstract object with one or more representations implemented as digitalObjects), so the resource metadata includes a URL that gets the object. \",]{.mark}
-
-[\"license\": \"https://joesphotostudio.org/license.txt\",]{.mark}
-
-[\"creator\": \"nil:unknown\",]{.mark}
-
-[\"datePublished\": \"2012-07-18\",]{.mark}
-
-[\"encodingFormat\": \"image/tif\",]{.mark}
-
-[\"url\": \"[[https://repository.org/images/2423757.tif]{.underline}][13]\",]{.mark}
-
-[\"subjectOf\":{\"@id\":\"ex:URIforTheMetadata\"}]{.mark}
-
-[}]{.mark}
-
-[}]{.mark}
+```
+{
+    "@context": [
+        "https://schema.org",
+        {
+            "dcterms": "http://purl.org/dc/terms/",
+            "ex": "https://example.com/99152/"
+        }
+    ],
+    "@id": "ex:URIforTheMetadata",
+    "@type": "DigitalDocument",
+    "dateModified": "2017-05-23",
+    "provider": {
+        "@type": "Organization",
+        "name": "Joe's photo studio",
+        "email": "metadata@joesphotostudio.org"
+    },
+    "dcterms:conformsTo": "ex:cdif-metadataSpec",
+    "about": {
+        "@id": "ex:URIforDescribedResource",
+        "@type": "ImageObject",
+        "name": "Picture of analytical setup",
+        "description": "Description of what's in the picture, where and why taken.  note that in this example, the described resource is  a digitalObject (not a a physical object or abstract object with one or more representations implemented as digitalObjects), so the resource metadata includes a URL that gets the object. ",
+        "license": "https://joesphotostudio.org/license.txt",
+        "creator": "nil:unknown",
+        "datePublished": "2012-07-18",
+        "encodingFormat": "image/tif",
+        "url": "https://repository.org/images/2423757.tif",
+	  "subjectOf":{"@id":"ex:URIforTheMetadata"}
+    }
+}
+```
 
 ### Example 2: a dataset with multiple distributions
 
 The dataset is considered a non-digital resource\-- it is a collection of data instances that can be represented in various ways. The metadata in this example must distinguish properties that are scoped to the dataset, independent of the representation (distribution), and properties that are distribution-specific.
 
-[{]{.mark}
+```
+{
+    "@context": [
+        "https://schema.org",
+        {"dct": "http://purl.org/dc/terms/",
+    "spdx":"http://spdx.org/rdf/terms#"}
+    ],
+    "@id": "metadata:ark:/99152/URIforTheMetadataRecord",
+    "@type": "DigitalDocument",
+    "description": "NOTES on the metadata in the the about section (below): ,  conformsTo on the Dataset specifies the information model that underlies the data;  conformsTo in a DataDownload specifies the profile for the download-- access protocols, serialization scheme, vocabularies used, other conventions necessary to enable machine processing of the download",
+    "maintainer": {
+        "@type": "Person",
+        "@id": "https://orcid.org/identifierForMetadataProducer",
+        "name": "metadata creator-editor-steward name",
+        "description": "person responsible for the metadata"
+    },
+    "dateModified": "2014-02-23",
+    "encoding": {
+        "@type": "MediaObject",
+        "description": "this is about the encoding of the metadata in this metadata record (a digitalObject...).",
+        "contentSize": 687,
+        "dcterms:conformsTo": "https://example.org/cdif-metadataSpec"
+    },
+    "about": {
+        "@id": "ark:/99152/URIforTheDataset",
+        "@type": "Dataset",
+        "dcterms:conformsTo": "https://example.org/DatasetSpecification",
+        "identifier": {
+            "@type": "PropertyValue",
+            "description": "this is redundant with @id, but makes identification of the described dataset explicit",
+            "propertyID": "https://registry.identifiers.org/registry/ark",
+            "value": "ark:/99152/63v4yo3eeqepj0",
+            "url": "https://n2t.net/ark:/99152/63v4yo3eeqepj0"
+        },
+        "publishingPrinciples": [
+            {
+                "@type": "CreativeWork",
+                "url": "https://example.org/id/policy",
+                "name": "Digital Object Policy",
+                "description": "policies used in management of the described resource..."
+            }
+        ],
+        "distribution": [
+            {
+                "@type": "DataDownload",
+                "contentURL": "https://example.org/datasets/1234567890.csv",
+                "description": "A comma delimited text distribution of the data following csv on the web W3C conventions (a digitalObject...). We do not consider the URL that locates this particular digitalObject as the identifier for the object, so this DataDownload is a blank node. ",
+                "spdx:checksum": {
+			  "spdx:algorithm":"spdx:checksumAlgorithm_md5",
+			  "spdx:checksumValue":"0BAA1B8"
+                     },
+                "contentSize": "12345 kb",
+                "encodingFormat": "text/csv (base mime type)",
+                "dcterms:conformsTo": [
+                    "https://example.org/dataonthewebcsvprofile",
+                    "https://fdof.org/fdofprofile"
+                ]
+            },
+            {
+                "@type": "DataDownload",
+                "contentURL": "https://example.org/datasets/1234567890.rdb",
+                "description": "A comma delimited text distribution of the data using USGS RDB conventions (a digitalObject...). We do not consider the URL that locates this particular digitalObject as the identifier for the object, so this DataDownload is a blank node. ",
+                "spdx:checksum": {
+			  "spdx:algorithm":"spdx:checksumAlgorithm_md5",
+			  "spdx:checksumValue":"0F119B7"
+                     },
+                "contentSize": "11256 kb",
+                "encodingFormat": "text/csv (base mime type)",
+                "dcterms:conformsTo": [
+                    "https://example.org/usgsRDBprofile",
+                    "https://fdof.org/fdofprofile"
+                ]
+            }
+        ],
+        "dateModified": "2010-02-03",
+        "subjectOf":{"@id":"metadata:ark:/99152/URIforTheMetadataRecord"}
+    }
+}
+```
 
-[\"@context\": \[]{.mark}
-
-[\"https://schema.org\",]{.mark}
-
-[{\"dct\": \"[[http://purl.org/dc/terms/]{.underline}][9]\",]{.mark}
-
-[\"spdx\":\"http://spdx.org/rdf/terms#\"}]{.mark}
-
-[\],]{.mark}
-
-[\"@id\": \"metadata:ark:/99152/URIforTheMetadataRecord\",]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"description\": \"NOTES on the metadata in the the about section (below): , conformsTo on the Dataset specifies the information model that underlies the data; conformsTo in a DataDownload specifies the profile for the download\-- access protocols, serialization scheme, vocabularies used, other conventions necessary to enable machine processing of the download\",]{.mark}
-
-[\"maintainer\": {]{.mark}
-
-[\"@type\": \"Person\",]{.mark}
-
-[\"@id\": \"https://orcid.org/identifierForMetadataProducer\",]{.mark}
-
-[\"name\": \"metadata creator-editor-steward name\",]{.mark}
-
-[\"description\": \"person responsible for the metadata\"]{.mark}
-
-[},]{.mark}
-
-[\"dateModified\": \"2014-02-23\",]{.mark}
-
-[\"encoding\": {]{.mark}
-
-[\"@type\": \"MediaObject\",]{.mark}
-
-[\"description\": \"this is about the encoding of the metadata in this metadata record (a digitalObject\...).\",]{.mark}
-
-[\"contentSize\": 687,]{.mark}
-
-[\"dcterms:conformsTo\": \"https://example.org/cdif-metadataSpec\"]{.mark}
-
-[},]{.mark}
-
-[\"about\": {]{.mark}
-
-[\"@id\": \"ark:/99152/URIforTheDataset\",]{.mark}
-
-[\"@type\": \"Dataset\",]{.mark}
-
-[\"dcterms:conformsTo\": \"https://example.org/DatasetSpecification\",]{.mark}
-
-[\"identifier\": {]{.mark}
-
-[\"@type\": \"PropertyValue\",]{.mark}
-
-[\"description\": \"this is redundant with \@id, but makes identification of the described dataset explicit\",]{.mark}
-
-[\"propertyID\": \"https://registry.identifiers.org/registry/ark\",]{.mark}
-
-[\"value\": \"ark:/99152/63v4yo3eeqepj0\",]{.mark}
-
-[\"url\": \"https://n2t.net/ark:/99152/63v4yo3eeqepj0\"]{.mark}
-
-[},]{.mark}
-
-[\"publishingPrinciples\": \[]{.mark}
-
-[{]{.mark}
-
-[\"@type\": \"CreativeWork\",]{.mark}
-
-[\"url\": \"https://example.org/id/policy\",]{.mark}
-
-[\"name\": \"Digital Object Policy\",]{.mark}
-
-[\"description\": \"policies used in management of the described resource\...\"]{.mark}
-
-[}]{.mark}
-
-[\],]{.mark}
-
-[\"distribution\": \[]{.mark}
-
-[{]{.mark}
-
-[\"@type\": \"DataDownload\",]{.mark}
-
-[\"contentURL\": \"https://example.org/datasets/1234567890.csv\",]{.mark}
-
-[\"description\": \"A comma delimited text distribution of the data following csv on the web W3C conventions (a digitalObject\...). We do not consider the URL that locates this particular digitalObject as the identifier for the object, so this DataDownload is a blank node. \",]{.mark}
-
-[\"spdx:checksum\": {]{.mark}
-
-[\"spdx:algorithm\":\"spdx:checksumAlgorithm_md5\",]{.mark}
-
-[\"spdx:checksumValue\":\"0BAA1B8\"]{.mark}
-
-[},]{.mark}
-
-[\"contentSize\": \"12345 kb\",]{.mark}
-
-[\"encodingFormat\": \"text/csv (base mime type)\",]{.mark}
-
-[\"dcterms:conformsTo\": \[]{.mark}
-
-[\"https://example.org/dataonthewebcsvprofile\",]{.mark}
-
-[\"https://fdof.org/fdofprofile\"]{.mark}
-
-[\]]{.mark}
-
-[},]{.mark}
-
-[{]{.mark}
-
-[\"@type\": \"DataDownload\",]{.mark}
-
-[\"contentURL\": \"https://example.org/datasets/1234567890.rdb\",]{.mark}
-
-[\"description\": \"A comma delimited text distribution of the data using USGS RDB conventions (a digitalObject\...). We do not consider the URL that locates this particular digitalObject as the identifier for the object, so this DataDownload is a blank node. \",]{.mark}
-
-[\"spdx:checksum\": {]{.mark}
-
-[\"spdx:algorithm\":\"spdx:checksumAlgorithm_md5\",]{.mark}
-
-[\"spdx:checksumValue\":\"0F119B7\"]{.mark}
-
-[},]{.mark}
-
-[\"contentSize\": \"11256 kb\",]{.mark}
-
-[\"encodingFormat\": \"text/csv (base mime type)\",]{.mark}
-
-[\"dcterms:conformsTo\": \[]{.mark}
-
-[\"https://example.org/usgsRDBprofile\",]{.mark}
-
-[\"https://fdof.org/fdofprofile\"]{.mark}
-
-[\]]{.mark}
-
-[}]{.mark}
-
-[\],]{.mark}
-
-[\"dateModified\": \"2010-02-03\",]{.mark}
-
-[\"subjectOf\":{\"@id\":\"metadata:ark:/99152/URIforTheMetadataRecord\"}]{.mark}
-
-[}]{.mark}
-
-[}]{.mark}
 
 ### Example 3. Item list with a collection of metadata records:
 
 This is and example file containing multiple records for harvesting, using the schema.org ItemList. The metadata record content is greatly abbreviated.
 
-[{]{.mark}
-
-[\"@context\": \[]{.mark}
-
-[\"https://schema.org\",]{.mark}
-
-[{]{.mark}
-
-[\"dcterms\": \"http://purl.org/dc/terms/\",]{.mark}
-
-[\"ex\": \"https://example.com/99152/\"]{.mark}
-
-[}]{.mark}
-
-[\],]{.mark}
-
-[\"@type\": \[\"ItemList\"\],]{.mark}
-
-[\"@id\": \"https://example.org/id/graph/X\",]{.mark}
-
-[\"name\": \"Example CDIF Metadata collection\",]{.mark}
-
-[\"description\": \"\...\",]{.mark}
-
-[\"itemListOrder\": \"https://schema.org/ItemListUnordered\",]{.mark}
-
-[\"numberOfItems\": 3,]{.mark}
-
-[\"itemListElement\": \[]{.mark}
-
-[{]{.mark}
-
-[\"@id\": \"ID_for_this_metadata_record1\",]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"dcterms:conformsTo\": \"https://example.org/cdif-metadataSpec\",]{.mark}
-
-[\"about\": {]{.mark}
-
-[\"@id\": \"https://example.org/id/XYZ\",]{.mark}
-
-[\"@type\": \"ImageObject\",]{.mark}
-
-[\....]{.mark}
-
-[}]{.mark}
-
-[},]{.mark}
-
-[{]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"@id\": \"metadata:10.5878/tnzz-m331\",]{.mark}
-
-[\"dct:conformsTo\": \"https://example.org/cdif-metadataSpec\",]{.mark}
-
-[\"about\": {]{.mark}
-
-[\"@type\": \"Dataset\",]{.mark}
-
-[\"@id\": \"https://doi.org/10.5878/tnzz-m331\",]{.mark}
-
-[\...]{.mark}
-
-[\"distribution\": \[]{.mark}
-
-[{]{.mark}
-
-[\"@type\": \"DataDownload\",]{.mark}
-
-[\"name\": \"ID 006 - Vero, Beskattning av vind- \...\",]{.mark}
-
-[\"contentUrl\": \"https://snd.gu.se/en/catalogue/d\...\",]{.mark}
-
-[\...]{.mark}
-
-[},]{.mark}
-
-[{]{.mark}
-
-[\"@type\": \"DataDownload\",]{.mark}
-
-[\"name\": \"ID 042 - Nye regler om stigning i \...\",]{.mark}
-
-[\"contentUrl\": \"https://snd.gu.se/en/catalogue/do\...\",]{.mark}
-
-[\"encodingFormat\": \"application/pdf\",]{.mark}
-
-[}]{.mark}
-
-[\],]{.mark}
-
-[\"subjectOf\": {\"@id\": \"metadata:10.5878/tnzz-m331\"}]{.mark}
-
-[}]{.mark}
-
-[},]{.mark}
-
-[{]{.mark}
-
-[\"@id\": \"ex:URIforTheMetadata\",]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"dateModified\": \"2017-05-23\",]{.mark}
-
-[\"provider\": {]{.mark}
-
-[\"@type\": \"Organization\",]{.mark}
-
-[\"name\": \"Joe\'s photo studio\",]{.mark}
-
-[\"email\": \"metadata@joesphotostudio.org\"]{.mark}
-
-[},]{.mark}
-
-[\"dct:conformsTo\": \"ex:cdif-metadataSpec\",]{.mark}
-
-[\"about\": {]{.mark}
-
-[\"@id\": \"ex:URIforDescribedResource\",]{.mark}
-
-[\"@type\": \"ImageObject\",]{.mark}
-
-[\...]{.mark}
-
-[\"subjectOf\": {\"@id\": \"ex:URIforTheMetadata\"}]{.mark}
-
-[}]{.mark}
-
-[}]{.mark}
-
-[\]]{.mark}
-
-[}]{.mark}
+```
+{
+    "@context": [
+        "https://schema.org",
+        {
+            "dcterms": "http://purl.org/dc/terms/",
+            "ex": "https://example.com/99152/"
+        }
+    ],
+    "@type": ["ItemList"],
+    "@id": "https://example.org/id/graph/X",
+    "name": "Example CDIF Metadata collection",
+    "description": "...",
+    "itemListOrder": "https://schema.org/ItemListUnordered",
+    "numberOfItems": 3,
+    "itemListElement": [
+        {
+            "@id": "ID_for_this_metadata_record1",
+            "@type": "DigitalDocument",
+            "dcterms:conformsTo": "https://example.org/cdif-metadataSpec",
+            "about": {
+                "@id": "https://example.org/id/XYZ",
+                "@type": "ImageObject",
+               ....
+            }
+        },
+        {
+            "@type": "DigitalDocument",
+            "@id": "metadata:10.5878/tnzz-m331",
+            "dct:conformsTo": "https://example.org/cdif-metadataSpec",
+            "about": {
+                "@type": "Dataset",
+                "@id": "https://doi.org/10.5878/tnzz-m331",
+                ...
+                "distribution": [
+                    {
+                        "@type": "DataDownload",
+                        "name": "ID 006 - Vero, Beskattning av vind- ...",
+                        "contentUrl": "https://snd.gu.se/en/catalogue/d...",
+                        ...
+                    },
+                    {
+                        "@type": "DataDownload",
+                        "name": "ID 042 - Nye regler om stigning i ...",
+                        "contentUrl": "https://snd.gu.se/en/catalogue/do...",
+                        "encodingFormat": "application/pdf",
+                    }
+                ],
+                "subjectOf": {"@id": "metadata:10.5878/tnzz-m331"}
+            }
+        },
+        {
+            "@id": "ex:URIforTheMetadata",
+            "@type": "DigitalDocument",
+            "dateModified": "2017-05-23",
+            "provider": {
+                "@type": "Organization",
+                "name": "Joe's photo studio",
+                "email": "metadata@joesphotostudio.org"
+            },
+            "dct:conformsTo": "ex:cdif-metadataSpec",
+            "about": {
+                "@id": "ex:URIforDescribedResource",
+                "@type": "ImageObject",
+                ...
+                "subjectOf": {"@id": "ex:URIforTheMetadata"}
+            }
+        }
+    ]
+}
+```
 
 Appendix 2
 
