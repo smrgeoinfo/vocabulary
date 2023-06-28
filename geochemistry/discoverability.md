@@ -22,15 +22,15 @@ CDIF defines a metadata profile for interoperable data discovery. To start, the 
 
 # <a name="mdcontent" a/> Metadata Content Requirements
 
-Explanation of fonts used: *Terms in italics are groupings of metadata properties*; **[required (not nilable)]{.underline}**, **[required (nilable)]{.underline}**, and **[recommended]{.underline}** but optional metadata content; **number of values that can be specified are in gray**.
+Explanation of fonts used: *Terms in italics are groupings of metadata properties*; **required (not nilable)**, **required (nilable)**, and **recommended** but optional metadata content; number of values that can be <span style="color: gray;">specified are in gray</span>.
 
-The following list includes the minimum required content for basic resource description, discovery, and access. This recommendation is a synthesis of various metadata schemes, including ISO19115-1, schema.org conventions from ESIPFed Science on Schema.org and Ocean Data net, DCAT, DCAT-AP, and FDO Kernel Attributes -2.0[^2]. A mapping between the various scheme and these CDIF content elements is available in a Google Spreadsheet[^3] .
+The following list includes the minimum required content for basic resource description, discovery, and access. This recommendation is a synthesis of various metadata schemes, including ISO19115-1, schema.org conventions from ESIPFed Science on Schema.org and Ocean Data net, DCAT, DCAT-AP, and FDO Kernel Attributes-2.0[^2]. A mapping between the various scheme and these CDIF content elements is available in a Google Spreadsheet[^3] .
 
 ## Required 
 
 If these elements do not provide useful information, the metadata is considered useless for even the most rudimentary discovery use cases. Conformant metadata MUST provide valid values, i.e., a meaningful title that identifies the resource, either a URL or text statement of how to obtain the resource, a statement of any licensing, usage or access constraints (Rights), and identifiers for the specification of the metadata serialization and the type of the resource described.
 
-> **[Resource identifier]{.underline}** (**1 entry**): A globally unique, resolvable identifier for the resource described by the metadata record.
+> **Resource identifier** (**1 entry**): A globally unique, resolvable identifier for the resource described by the metadata record.
 >
 > **Title** (**1 entry**): Succinct (preferably \<250 characters) name of the resource; should be sufficient to uniquely identify the resource for a human user.
 >
@@ -52,13 +52,13 @@ Content elements for which every resource should have useful information, but fo
 >
 > o **Modified Date** (**1 entry**): Date (not temporal extent) when any changes to the resource were completed. Use a \"year\" or [ISO 8601 date and time] format. Alternative date formatting must be machine-readable and consistent across all datasets.
 
-## o Distribution Agent (1 entry):The party (name of organization or person, etc.) to contact about accessing the resource. Agent object includes a name (label), identifier, and optional contact information. If there are multiple distribution options with different contact points, the Distribution Agent should be specified as part of the Distribution Object.
+> o **Distribution Agent** (**1 entry**):The party (name of organization or person, etc.) to contact about accessing the resource. Agent object includes a name (label), identifier, and optional contact information. If there are multiple distribution options with different contact points, the Distribution Agent should be specified as part of the Distribution Object.
 
 > o **Temporalcoverage** (**0 or 1 entry**). The time period represented by the described resource. This could be the time interval when data were collected, or an archaeological or geological time period that is the subject of the resource. Need to account for clock time, calendar time (Gregorian, Julian, Hebrew, Islamic, Chinese, Mayan\...), cyclical time (summer, first quarter, mating season, new moon, pay day) and for named time ordinal eras (Jurassic, Younger Dryas, Early Minoan I, Late Stone Age). See OWL Time.
 >
 > o **Geographic Extent - Horizontal** (**if applicable,  1 entry, minimum bounding rectangle or point**): Location coordinates must be given in decimal degrees using the [WGS 84] datum. Some resources may not be usefully described by a WGS 84 extent, in which case indicate nil:notapplicable; this would include extraterrestrial resources.
 
--   Bounding Rectangle: **North Bounding Latitude, South Bounding Latitude, East Bounding Longitude, West Bounding Longitude}**. The minimum rectangle that completely contains the coverage extent for the resource content. Coordinate order and syntax are determined by the serialization profile.
+-   Bounding Rectangle: **North Bounding Latitude, South Bounding Latitude, East Bounding Longitude, West Bounding Longitude**. The minimum rectangle that completely contains the coverage extent for the resource content. Coordinate order and syntax are determined by the serialization profile.
 
 -   Point: **Latitude, Longitude**. A centroid point for the coverage extent of the resource, or the location of the resource content if a point location is appropriate. Coordinate order and syntax are determined by the serialization profile.
 
@@ -122,7 +122,7 @@ Finding documents to index: Web-crawling is still an important approach to findi
 
 Getting the metadata: Once a crawler for a search application finds a document that should be indexed, the question is where is the metadata to index, and what conventions does the metadata use. Common practice is to create a human-readable landing page for datasets or other non-textual resources published on the web. Metadata can be incorporated into the landing pages in several ways:
 
-1.  [Each resource has an html landing page that describes the resource for human users, and contains embedded CDIF]{.mark} [JSON-LD metadata (See [[Appendix 1]{.underline}][3]) for machine clients.]{.mark} Metadata can be embedded in landing pages using the HTML \<script\> element, in alignment with the Data on the Web Best Practices, specifically section 8.2, Metadata[^8]. This approach requires that each published resource has a human-readable landing page, intended to be the target of search by human users. Scripts are normally embedded in the \<head\> section of an HTML document. The \<script\> element has a 'type' attribute that provides a MIME-type specifying the type of script.
+1.  Each resource has an html landing page that describes the resource for human users, and contains embedded CDIF JSON-LD metadata (See [Appendix 1]()) for machine clients.]{.mark} Metadata can be embedded in landing pages using the HTML \<script\> element, in alignment with the Data on the Web Best Practices, specifically section 8.2, Metadata[^8]. This approach requires that each published resource has a human-readable landing page, intended to be the target of search by human users. Scripts are normally embedded in the \<head\> section of an HTML document. The \<script\> element has a 'type' attribute that provides a MIME-type specifying the type of script.
 
 ![Example D1. A JSON-LD metadata object embedded as a script in an HTML document.]
 
@@ -146,19 +146,17 @@ Another option is [for the sitemap to provide a URL that retrieves a]{.mark} [do
 
 Once the harvester has a URL for a location to index, how do they know where the metadata is relative to that location? There are several approaches:
 
--   [The URL gets a document containing a single CDIF JSON-LD metadata record]{.mark}
+-   The URL gets a document containing a single CDIF JSON-LD metadata record
 
--   [Metadata is embedded in the html of a web page as a script, type \[CDIF needs to define a MIME type or other id string to identify metadata serialized with CDIF JSON-LD\]]{.mark}
+-   Metadata is embedded in the html of a web page as a script, type. NOTE: CDIF needs to define a MIME type or other id string to identify metadata serialized with CDIF JSON-LD
 
--   [Labeled links that will get the metadata are embedded in the HTML \<head\>. The link should include the [[IANA Link header]{.underline}][5] relation 'described by', and 'profile'.]{.mark}
+-   Labeled links that will get the metadata are embedded in the HTML \<head\>. The link should include the [IANA Link header] relation 'described by', and 'profile'.
 
--   [Server provides link elements in HTTP headers.]{.mark}
+-   Server provides link elements in HTTP headers.
 
-[What does the harvester do with the metadata?]{.mark} There a many possible approaches a client application could use to extract the information it needs from a metadata record. The simplest and likely most accurate approach is for the metadata to conform to a profile that the application is programmed to parse, and to communicate that profile conformance to the application. This entails two requirements. The profile must be documented in a way that allows software developers to write code to parse metadata conforming to the profile, and the profile must have an identifier that can be used to assert conformance.
+*What does the harvester do with the metadata?* There a many possible approaches a client application could use to extract the information it needs from a metadata record. The simplest and likely most accurate approach is for the metadata to conform to a profile that the application is programmed to parse, and to communicate that profile conformance to the application. This entails two requirements. The profile must be documented in a way that allows software developers to write code to parse metadata conforming to the profile, and the profile must have an identifier that can be used to assert conformance.
 
 The use of \<script\> or \<link\> elements (in the HTTP or HTML header) allows metadata to be offered following multiple specifications \-- using different formats or profiles[^18]. The \<script\> 'type' attribute could specify the profile using parameters on the MIME type.
-
-![][6]
 
 Minimally, the metadata record should assert the specification used to generate the record in a metadata property.
 
@@ -166,31 +164,29 @@ Minimally, the metadata record should assert the specification used to generate 
 
 ## Scope 
 
-These recommendations are intended to be applicable for publication of metadata on the web to support a basic level of discovery interoperability for static resources with or without associated landing pages. Resources accessible via APIs that support functionality beyond simple static resource retrieval, e.g. subsetting, filtering, data transformations, or negotiation transactions related to security or confidentiality, are out of scope. Future work will define levels of conformance for more sophisticated functionality. For the CDIF, we recommend conventions for 1) what conventions ('standards') should be used so that the metadata is machine actionable; 2) how search engines find documents to index; 3) how metadata is incorporated in or accessed from those documents. The content recommendations and implementation outlined in Appendix 1 cover the first of these topics. The second and third topics are discussed here.
+These recommendations are intended to be applicable for publication of metadata on the web to support a basic level of discovery interoperability for static resources with or without associated landing pages. Resources accessible via APIs that support functionality beyond simple static resource retrieval, e.g. subsetting, filtering, data transformations, or negotiation transactions related to security or confidentiality, are out of scope. Future work will define levels of conformance for more sophisticated functionality. For the CDIF, we recommend conventions for 1) what conventions ('standards') should be used so that the metadata is machine actionable; 2) how search engines find documents to index; 3) how metadata is incorporated in or accessed from those documents. The content recommendations and implementation outlined in [Appendix 1](#app1) cover the first of these topics. The second and third topics are discussed here.
 
-Figure D1 (below) is a flow chart showing the recommended decision tree for metadata publishers to determine[If how to expose their metadata. Numbers in the following discussion refer to numbered boxes in the diagram.]{.mark}
+Figure D1 (below) is a flow chart showing the recommended decision tree for metadata publishers to determine how to expose their metadata. Numbers in the following discussion refer to numbered boxes in the diagram.
 
-### ![][7]Embedded in HTML
+### Embedded in HTML
 
-[Starting at the top (1), if there are HTML landing pages that describe the resources of interest, and the metadata publisher has the necessary authorit]{.mark}y to update the content of these pages, then CDIF metadata should be embedded in an HTML \<script\> element in the \<head\> section of each landing page (3). The type attribute of the script is:
+Starting at the top (1), if there are HTML landing pages that describe the resources of interest, and the metadata publisher has the necessary authority to update the content of these pages, then CDIF metadata should be embedded in an HTML \<script\> element in the \<head\> section of each landing page (3). The type attribute of the script is:
 
 *type=\"application/ld+json;type=CDIF1.0\"*
 
-### [If the resources of interest do not have individual landing pages, or the metadata publisher does not have authority to update the content of landing pages, the metadata should be placed in a web-accessible location (4 in Figure D1 ).]{.mark}
-
 ### Individual metadata file URLs
 
-[There are two common approaches:]{.mark}
+If the resources of interest do not have individual landing pages, or the metadata publisher does not have authority to update the content of landing pages, the metadata should be placed in a web-accessible location (4 in Figure D1 ). There are two common approaches:
 
--   [Each metadata record is accessed in a separate, static file with its own URL. The CDIF metadata is serialized as JSON-LD (see Appendix 1). MIME type for the metadata file is]{.mark}
+-   Each metadata record is accessed in a separate, static file with its own URL. The CDIF metadata is serialized as JSON-LD (see [Appendix 1](#app1)). MIME type for the metadata file is
 
 *type=\"application/ld+json;type=CDIF1.0"*
 
--   [Each metadata record is accessed dynamically from the server using a URL.There are various open-source metadata server systems that can be configured to deliver CDIF metadata from the server's metadata database, e.g. GeoNetwork OpenSource]{.mark}[^19][, GeoPortal]{.mark}[^20][, CKAN]{.mark}[^21][. The metadata retrieval URLs have different syntax depending on the software used, but typically include a metadata record identifier and a format parameter that would be used to indicate that CDIF metadata should be returned. If there is a format parameter in URL requests, its value should be '**CDIF1.0**'.]{.mark}
+-   Each metadata record is accessed dynamically from the server using a URL.There are various open-source metadata server systems that can be configured to deliver CDIF metadata from the server's metadata database, e.g. GeoNetwork OpenSource[^19], GeoPortal[^20], CKAN[^21]. The metadata retrieval URLs have different syntax depending on the software used, but typically include a metadata record identifier and a format parameter that would be used to indicate that CDIF metadata should be returned. If there is a format parameter in URL requests, its value should be '**CDIF1.0**'.
 
 ### Metadata list file
 
--   [A collection of metadata records are gathered in one file accessed using a single URL. For CDIF, this file should contain a set of CDIF JSON-LD metadata objects, implemented as a schema.org ItemList]{.mark}[^22][. See example in Appendix 1. The MIME type for the collection is:]{.mark}
+-   A collection of metadata records are gathered in one file accessed using a single URL. For CDIF, this file should contain a set of CDIF JSON-LD metadata objects, implemented as a schema.org ItemList]{.mark}[^22][. See example in [Appendix 1](#app1). The MIME type for the collection is:
 
 *type=\"application/ld+json;type=CDIF-list-1.0"*
 
@@ -272,141 +268,95 @@ Definitions in this section follow the conventions outlined in ISO704[^26]. Defi
 -   alternateOf\
     > The subject resource presents the same content as the object resource in a different expression or manifestation. (based on PROV-DM)
 
-Appendix 1
+# <a name="app1" /a> Appendix 1
 
 # Serialization of CDIF metadata 
 
 JSON-LD has been chosen as the recommended serialization format for CDIF metadata following our principle to use existing mainstream technology. The JSON format is widely used for data serialization and popular with developers. JSON-LD adds additional syntax for the representation of linked data, compatible with existing JSON implementations so that integration with existing applications is relatively frictionless. Many metadata providers are using the schema.org[^33] vocabularies with JSON-LD serialization for metadata publication and interchange. Use of this format provides a low barrier to entry for data providers.
 
-[The JSON syntax is defined by the ECMA JSON specification]{.mark}[^34][, and JSON-LD is specified in the JSON-LD 1.1 recommendation]{.mark}[^35] [from the World Wide Web Consortium (W3C).]{.mark} This serialization is designed for linked data applications that will translate the JSON into a set of {subject, predicate, object} triples that can be loaded into an RDF database for processing. The JSON-LD context binds JSON keys to URIs for more precise semantics, and the use of URIs to identify entities and property values in the metadata will maximize the linkage with resources on the wider web to build an ever-expanding global knowledge graph.
+The JSON syntax is defined by the ECMA JSON specification[^34], and JSON-LD is specified in the JSON-LD 1.1 recommendation[^35] from the World Wide Web Consortium (W3C). This serialization is designed for linked data applications that will translate the JSON into a set of {subject, predicate, object} triples that can be loaded into an RDF database for processing. The JSON-LD context binds JSON keys to URIs for more precise semantics, and the use of URIs to identify entities and property values in the metadata will maximize the linkage with resources on the wider web to build an ever-expanding global knowledge graph.
 
-A metadata record has two parts; one part is about the metadata record itself, the other part is the content about the resource that the metadata documents. The part about the record specifies the identifier for the metadata record, agents with responsibility for the record, when it was last updated, what specification or profiles the metadata serialization conforms to, and other optional properties of the metadata that are deemed useful. The metadata about the resource has properties about the resource like title, description, responsible parties, spatial or temporal extent (as outlined in the Metadata Content Requirements section).
+A metadata record has two parts; one part is about the metadata record itself, the other part is the content about the resource that the metadata documents. The part about the record specifies the identifier for the metadata record, agents with responsibility for the record, when it was last updated, what specification or profiles the metadata serialization conforms to, and other optional properties of the metadata that are deemed useful. The metadata about the resource has properties about the resource like title, description, responsible parties, spatial or temporal extent (as outlined in the [Metadata Content Requirements](#mdcontent) section).
 
-Schema.org includes several properties that can be used to embed information about the metadata record in the resource metadata: [**sdDatePublished**], [**sdLicense**], [**sdPublisher**], but lacks a way to provide an identifier for the metadata record distinct from the resource it describes, to specify other agents responsible for the metadata except the publisher, or to assert specification or profile conformance for the metadata record itself.
+Schema.org includes several properties that can be used to embed information about the metadata record in the resource metadata: **sdDatePublished**, **sdLicense**, **sdPublisher**, but lacks a way to provide an identifier for the metadata record distinct from the resource it describes, to specify other agents responsible for the metadata except the publisher, or to assert specification or profile conformance for the metadata record itself.
 
 There are two patterns that could be used to structure the two parts of the metadata record:
 
 Option 1. The root object is the described resource:
 
-[{ \"@context\": \"https://schema.org\",]{.mark}
-
-[\"@id\": \"**ex:URIforDescribedResource**\",]{.mark}
-
-[\"@type\": \"ImageObject\",]{.mark}
-
-[\"name\": \"Picture of analytical setup\",]{.mark}
-
-[\"description\": \"Description of the resource\",]{.mark}
-
-[\"subjectOf\": {]{.mark}
-
-[\"@id\": \"**ex:URIforTheMetadata**\",]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"dateModified\": \"2017-05-23\",]{.mark}
-
-[\"encoding\": {]{.mark}
-
-> [\"@type\": \"MediaObject\",]{.mark}
-
-[\"dcterms:conformsTo\": {\"@id\":\"ex:[[cdif-metadataSpec]{.underline}][8]\"}]{.mark}
-
-[}]{.mark}
-
-[\"about\":{\"@id\":\"**ex:URIforDescribedResource**\"}]{.mark}
-
-[} }]{.mark}
+```
+{   "@context": "https://schema.org",
+    "@id": "ex:URIforDescribedResource",
+    "@type": "ImageObject",
+    "name": "Picture of analytical setup",
+    "description": "Description of the resource",
+    "subjectOf": {
+        "@id": "ex:URIforTheMetadata",
+        "@type": "DigitalDocument",
+        "dateModified": "2017-05-23",
+        "encoding": {
+    "@type": "MediaObject",
+    	    "dcterms:conformsTo": {"@id":"ex:cdif-metadataSpec"}
+          }
+        "about":{"@id":"ex:URIforDescribedResource"}
+    }  }
+```
 
 Option 2: root object is the metadata record
 
-[{ \"@context\": \"https://schema.org\",]{.mark}
-
-[\"@id\": \"**ex:URIforTheMetadata**\",]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"dateModified\": \"2017-05-23\",]{.mark}
-
-[\"encoding\": {]{.mark}
-
-> [\"@type\": \"MediaObject\",]{.mark}
-
-[\"dcterms:conformsTo\": {\"@id\":\"ex:[[cdif-metadataSpec]{.underline}][8]\"}]{.mark}
-
-[},]{.mark}
-
-[\"about\": {]{.mark}
-
-> [\"@id\": \"**ex:URIforDescribedResource**\",]{.mark}
->
-> [\"@type\": \"ImageObject\",]{.mark}
->
-> [\"name\": \"Picture of analytical setup\",]{.mark}
->
-> [\"description\": \"Description of the resource\",]{.mark}
->
-> [\"subjectOf\":{\"@id\":\"**ex:URIforTheMetadata**\"}]{.mark}
-
-[} }]{.mark}
-
+```
+{   "@context": "https://schema.org",
+    "@id": "ex:URIforTheMetadata",
+    "@type": "DigitalDocument",
+    "dateModified": "2017-05-23",
+    "encoding": {
+  "@type": "MediaObject",
+    	  "dcterms:conformsTo": {"@id":"ex:cdif-metadataSpec"}
+          },
+    "about": {
+   "@id": "ex:URIforDescribedResource",
+   "@type": "ImageObject",
+   "name": "Picture of analytical setup",
+   "description": "Description of the resource",
+   "subjectOf":{"@id":"ex:URIforTheMetadata"}
+       }   }
+```
 The rdf triples generated by these two approaches are identical, so if the metadata are always harvested to a triple store it makes no difference. However, allowing either approach would create interoperability problems for harvesters that are parsing the metadata as JSON\-- the paths to the same metadata elements are different in the two approaches. It is our judgment that option two above (root object is the metadata) is more consistent with knowledge graph construction, CDIF thus recommends a JSON-LD serialization in which the root object is the metadata record. If this is a problem for processing JSON-LD metadata as JSON, JSON-LD framing[^36] can be used to generate a desired, consistent JSON tree structure for processing.
 
-[The recommended basic structure of the JSON-LD file is like this (using the 'root object is the metadata' approach). This pattern is used in the examples below.:]{.mark}
-
-[{]{.mark}
-
-[\"@context\": \[]{.mark}
-
-[\"https://schema.org\",]{.mark}
-
-[{\"dcterms\": \"[[http://purl.org/dc/terms/]{.underline}][9]\",]{.mark}
-
-> [\"ex\":\"https://example.com/99152/\"]{.mark}
->
-> [}]{.mark}
-
-[\],]{.mark}
-
-[\"@id\": \"ex:URIforThisMetadataRecord\",]{.mark}
-
-[\"@type\": \"DigitalDocument\",]{.mark}
-
-[\"dateModified\": \"2017-02-03\",]{.mark}
-
-[\"encoding\": {]{.mark}
-
-> [\"@type\": \"MediaObject\",]{.mark}
-
-[\"dcterms:conformsTo\": \"ex:[[cdif-metadataSpec]{.underline}][8]\"]{.mark}
-
-[}]{.mark}
-
-[\"about\": {]{.mark}
-
-> [\"@id\": \"ex:URIforDescribedResource\",]{.mark}
->
-> [\"@type\": \"{the type of the described resource}\",]{.mark}
->
-> [\"dateModified\": \"2014-02-23\"]{.mark}
-
-[*\..... other metadata content omitted*]{.mark}
-
-[}]{.mark}
-
-[}]{.mark}
+The recommended basic structure of the JSON-LD file is like this (using the 'root object is the metadata' approach). This pattern is used in the examples below.:
+```
+{
+    "@context": [
+        "https://schema.org",
+        {"dcterms": "http://purl.org/dc/terms/",
+   "ex":"https://example.com/99152/"
+}
+    ],
+    "@id": "ex:URIforThisMetadataRecord",
+    "@type": "DigitalDocument",
+    "dateModified": "2017-02-03",
+    "encoding": {
+    "@type": "MediaObject",
+    	    "dcterms:conformsTo": "ex:cdif-metadataSpec"
+          }
+    "about": {
+    "@id": "ex:URIforDescribedResource",
+    "@type": "{the type of the described resource}",
+    "dateModified": "2014-02-23" ```
+ ..... other metadata content omitted
+```          }
+   }
+```
 
 JSON keys prefixed with '@' are keywords defined in the JSON-LD specification[^37] (see table below)
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Keyword     Description
-  ----------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  \@context   The value of the context is an object that specifies set of rules for interpreting the JSON-LD document. The rules can be specified inline in, or via a URI that identifies a context object containing a set of rules.
+ | Keyword  |   Description|
+ |----------- |-------------|
+ | \@context |  The value of the context is an object that specifies set of rules for interpreting the JSON-LD document. The rules can be specified inline in, or via a URI that identifies a context object containing a set of rules. |
+|  \@id    |    A string that identifies the subject of the assertions in the JSON object that contains the \@id key.|
+|  \@type   |   An identifier for the definition of the structure of the JSON object that contains the \@type key. The type determines what keys or values should be expected in the JSON object that contains the key. Values are types defined in the schema.org vocabulary. In the CDIF framework (and for compatibility with FDOF FDOF digitalObjectType), the schema:additionalType property should be used (see implementation table below) |
+ 
 
-  \@id        A string that identifies the subject of the assertions in the JSON object that contains the \@id key.
-
-  \@type      An identifier for the definition of the structure of the JSON object that contains the \@type key. The type determines what keys or values should be expected in the JSON object that contains the key. Values are types defined in the schema.org vocabulary. In the CDIF framework (and for compatibility with FDOF FDOF digitalObjectType), the schema:additionalType property should be used (see implementation table below)
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In the example above, there is a 'dateModified' metadata assertion. It would translate into a triple like this:
 
@@ -422,7 +372,7 @@ Which states that the Described Resource was modified (most recently) on 2010-02
 
 ### Implementation of metadata content items
 
-The following table maps the metadata content items described in the [[Metadata Content Requirements]{.underline}][2] section to the schema.org JSON-LD keys to use in metadata serialization. Some example metadata documents follow. The \'Obl.\' column specifies the cardinality obligation for the property; \'1\' means one value required; 1..\* means at least one value is required; 0..\* means the property is optional and more that one value can be provided. Properties implemented with a path that starts with /\"about\" are describing the resource, properties with path from / describe the metadata.
+The following table maps the metadata content items described in the [Metadata Content Requirements](#mdcontent) section to the schema.org JSON-LD keys to use in metadata serialization. Some example metadata documents follow. The \'Obl.\' column specifies the cardinality obligation for the property; \'1\' means one value required; 1..\* means at least one value is required; 0..\* means the property is optional and more that one value can be provided. Properties implemented with a path that starts with /\"about\" are describing the resource, properties with path from / describe the metadata.
 
 +-----------------------------+----------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **CDIF content item**       | **Obl.** | **Schema.org implementation**                                         | **Scope note**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -853,9 +803,9 @@ This is and example file containing multiple records for harvesting, using the s
 }
 ```
 
-Appendix 2
+# Appendix 2
 
-# Mapping from CDIF metadata to RDA PID Kernel attributes
+## Mapping from CDIF metadata to RDA PID Kernel attributes
 
 Implementation approach to supplying PID Kernel information records associated with digital object identifiers in the CDIF framework is an architecture decision \[TBD\], but the information necessary to produce such metadata is all included in the CDIF metadata implementation, except for embedding of thumbnails or other data objects directly in the metadata digital object.
 
@@ -864,9 +814,7 @@ Implementation approach to supplying PID Kernel information records associated w
 | --- | --- | --- |
 | FDO Creator | "creator" : [{Person or Organization}, ...] | organisation responsible for creating the FDO (and implicitly issuing the FDO PID), stating RDA DateCreated and XXX:ResponsibleOrganisation, attributes. (optional attribute ) [NOTE-- creator of content and identifier registration are not necessarily the same agent, so implicit implication is not valid] |
 | FDO Responsible Organisation (Resource) | "provider":{Person or Organization} | note that this can be another organisation than the PID issuer. the value is taken from the ROR registry value domain (or other with namespace id). Implement as responsible part with an Agent (name, ID, contactInformation) and Role (e.g. ISO19115-1 RoleCode vocabulary) |
-| RDA checksum | "spdx:checksum": | Checksum of object contents. Checksum format is determined via the attribute type referenced in a Kernel Information record. Called etag in PubCom-PR-PIDProfileAttributes-2.0
-# 47
- The algorithm for checksum calculation should be defined in the definition of the object type, or described in the resource description in this metadata. |
+| RDA checksum | "spdx:checksum": | Checksum of object contents. Checksum format is determined via the attribute type referenced in a Kernel Information record. Called etag in PubCom-PR-PIDProfileAttributes-2.0 [^47]. The algorithm for checksum calculation should be defined in the definition of the object type, or described in the resource description in this metadata. |
 | FDOF digitalObject-Mutability | /"about"/"publishingPrinciples": | This attribute indicates whether the included bit-sequence is mutable or immutable. See above. Is a new version (at least in the bug fix part) created when some bits are changes? The FDOF mutability, persistency and digital object policy information should be included in schema.org publishingPrinciples. |
 | FDOF Persistency-Policy | /"about"/"publishingPrinciples": | this attribute indicates what the intention of its creator is with respect to its life-time/maintenance, and value domain is a vocabulary with {UNKNOWN, NONE, ##Years} (note: seems only partly covered by RDA digitalObjectPolicy. See http://cor.esipfed.org/ont/earthcube/ECRRO\_0000219 and http://cor.esipfed.org/ont/earthcube/ELT |
 | RDA digitalObject-Policy | /"about"/"publishingPrinciples": | Pointer to a policy object which documents changes to the object or its Kernel Information record, including particularly object access and modification policies. A caller should be able to determine the expected future changes to the object from the policy, which are based on managed processes the object owner maintains. Seems like FDOF PersistencyPolicy. And digitalObjectMutability could all be lumped in one statement. |
@@ -884,27 +832,7 @@ Implementation approach to supplying PID Kernel information records associated w
 
 
 
-# Parking lot
-
-*[Saving text in case we want to use it later]{.mark}*
-
-[Note\-- use [[https://en.wikipedia.org/wiki/Robots.txt]{.underline}][14] user-agent to identify profile and point to site map [[https://en.wikipedia.org/w/index.php?title=Robots.txt&section=8]{.underline}][15]]{.mark}
-
-[L1: Server robots.txt has link to sitemap.xml file; landing pages contain a link to the metadata file to index. The landing page HTML contains URL that GETs metadata represented as JSON-LD-encoded RDF following CDIF profile as specified for L0 (above). This might]{.mark} [use the Signpost style \<link\> element in the HTML header on the landing page.]{.mark}
-
-[L2: Advanced]{.mark} [HTTP Approaches. Server robots.txt has link to sitemap.xml file, the HTTP header in response to a GET or HEAD request contains a link element with a URL that GETs metadata represented as JSON-LD-encoded RDF following CDIF profile as specified for]{.mark} [L0]{.mark} [(above). The link should include the [[IANA Link header]{.underline}][5] relation 'described by', and 'profile'. The HTTP \<link\> header element is semantically equivalent to the HTML \<link\> element. In this scenario, metadata following different serialization conventions (profiles) would have distinct URLs.]{.mark}
-
-[Available profiles could be listed in the HTTP 'HEAD' request response:]{.mark}
-
-![][16]
-
-Optional: The server could implement a query function to return available profiles using the URLs provided by the sitemap. The response must include at least one option that GETS [metadata represented as JSON-LD-encoded RDF following CDIF profile as specified for]{.mark} [L0 (above).]{.mark}
-
-![][17]
-
-*\[TBD\] How to communicate to harvesters which approach they should use to find metadata from the options outlined above? One option is to encode in the http header for the sitemap. Default should be embedded script (option 1)*
-
-[Optional:]{.mark} [Content Negotiation by Profile (W3C Working Draft)]{.mark}[^48][.]{.mark} [This level would require more effort both on the part of the provider and consumer, likely not an approach a high percentage of the community could implement. In this scenario, the HTTP request to GET metadata with a link provided by the sitemap.xml file would take a header parameter 'Accept-Profile' with the identifier for CDIF conformant metadata. Thus there would be one metadata URL with different serialization conventions indicated using the 'Accept-Profile' (in request header) and 'Content-Profile' (in the response header) link parameters.]{.mark}
+# Footnotes
 
 [^1]: https://www.dublincore.org/resources/metadata-basics/
 
