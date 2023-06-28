@@ -1,6 +1,4 @@
----
-title: "[Discoverability](#_k3loss4cj7c9 .anchor)"
----
+# Discoverability
 
 Draft by S.M. Richard
 
@@ -22,7 +20,7 @@ A metadata profile is a specification for the machine-actionable serialization o
 
 CDIF defines a metadata profile for interoperable data discovery. To start, the content requirements are described, then we review the relationship to the Fair Digital Object Framework and the metadata requirement that framework entails. The metadata implementation outlined in Appendix 1 is based on these requirements.
 
-# Metadata Content Requirements
+# <a name="mdcontent" a/> Metadata Content Requirements
 
 Explanation of fonts used: *Terms in italics are groupings of metadata properties*; **[required (not nilable)]{.underline}**, **[required (nilable)]{.underline}**, and **[recommended]{.underline}** but optional metadata content; **number of values that can be specified are in gray**.
 
@@ -34,35 +32,35 @@ If these elements do not provide useful information, the metadata is considered 
 
 > **[Resource identifier]{.underline}** (**1 entry**): A globally unique, resolvable identifier for the resource described by the metadata record.
 >
-> **[Title]{.underline}** (**1 entry**): Succinct (preferably \<250 characters) name of the resource; should be sufficient to uniquely identify the resource for a human user.
+> **Title** (**1 entry**): Succinct (preferably \<250 characters) name of the resource; should be sufficient to uniquely identify the resource for a human user.
 >
-> **[Distribution:]{.underline}** **[URL, Distribution object,]{.underline}** or **[Access Instructions]{.underline}** (**1 entry**): If the resource is a digital object accessible online, provide a URL that will retrieve the resource. If the resource has multiple representations, provide a Distribution Object documenting the various options with a URL and representation profile for each. If it's not accessible online, provide a URL to a landing page used to access the resource, or minimally, provide a text description explaining how to access the resource in the metadata (Access Instructions).
+> **Distribution:  URL, Distribution object,** or **Access Instructions** (**1 entry**): If the resource is a digital object accessible online, provide a URL that will retrieve the resource. If the resource has multiple representations, provide a Distribution Object documenting the various options with a URL and representation profile for each. If it's not accessible online, provide a URL to a landing page used to access the resource, or minimally, provide a text description explaining how to access the resource in the metadata (Access Instructions).
 >
-> **[Rights]{.underline}** (**1 to many entry**): Information about required access permissions, licenses, contractual requirements, use constraints, and security constraints. Might be described in text or through links to external documents.
+> **Rights** (**1 to many entry**): Information about required access permissions, licenses, contractual requirements, use constraints, and security constraints. Might be described in text or through links to external documents.
 >
-> **[Metadata profile identifier]{.underline}** (**1 to many**) Identifier for metadata specification (profile) used to create this metadata record. Generally this will be populated automatically if the metadata is created using CDIF aware tools.
+> **Metadata profile identifier** (**1 to many**): Identifier for metadata specification (profile) used to create this metadata record. Generally this will be populated automatically if the metadata is created using CDIF aware tools.
 >
-> **[Resource type]{.underline}** (**1 to many**)**:** A scoped name (label with classification scheme) that specifies the kind of resource described by the metadata. The resource type might be used to determine validation requirements specific to descriptions for that kind of resource.
+> **Resource type** (**1 to many**): A scoped name (label with classification scheme) that specifies the kind of resource described by the metadata. The resource type might be used to determine validation requirements specific to descriptions for that kind of resource.
 
 ## Required, but nilable
 
 Content elements for which every resource should have useful information, but for which the information may not be available. Must be included in metadata record, but may have value \'nil:missing\', 'nil:unknown' or similar nil value. Use \'nil:notapplicable\' for Temporal Coverage or Geographic Extent when these are not applicable to the described resource.
 
-> o **[Description]{.underline}** (**1 entry**): Inform the reader about the resource\'s content, context, provenance, and any other information deemed useful for future cross-domain usage.
+> o **Description** (**1 entry**): Inform the reader about the resource\'s content, context, provenance, and any other information deemed useful for future cross-domain usage.
 >
-> o **[Originators]{.underline}** (**1 to many entries**): Agent object that specifies responsible party in some role related to the resource, e.g., author or editor.
+> o **Originators** (**1 to many entries**): Agent object that specifies responsible party in some role related to the resource, e.g., author or editor.
 >
-> o **[Modified Date]{.underline}** (**1 entry**): Date (not temporal extent) when any changes to the resource were completed. Use a \"year\" or [ISO 8601 date and time] format. Alternative date formatting must be machine-readable and consistent across all datasets.
+> o **Modified Date** (**1 entry**): Date (not temporal extent) when any changes to the resource were completed. Use a \"year\" or [ISO 8601 date and time] format. Alternative date formatting must be machine-readable and consistent across all datasets.
 
-## o [Distribution Agent]{.underline} (1 entry):The party (name of organization or person, etc.) to contact about accessing the resource. Agent object includes a name (label), identifier, and optional contact information. If there are multiple distribution options with different contact points, the Distribution Agent should be specified as part of the Distribution Object.
+## o Distribution Agent (1 entry):The party (name of organization or person, etc.) to contact about accessing the resource. Agent object includes a name (label), identifier, and optional contact information. If there are multiple distribution options with different contact points, the Distribution Agent should be specified as part of the Distribution Object.
 
-> o **[Temporal]{.underline}** **[coverage]{.underline}** (**0 or 1 entry**). The time period represented by the described resource. This could be the time interval when data were collected, or an archaeological or geological time period that is the subject of the resource. Need to account for clock time, calendar time (Gregorian, Julian, Hebrew, Islamic, Chinese, Mayan\...), cyclical time (summer, first quarter, mating season, new moon, pay day) and for named time ordinal eras (Jurassic, Younger Dryas, Early Minoan I, Late Stone Age). See OWL Time.
+> o **Temporalcoverage** (**0 or 1 entry**). The time period represented by the described resource. This could be the time interval when data were collected, or an archaeological or geological time period that is the subject of the resource. Need to account for clock time, calendar time (Gregorian, Julian, Hebrew, Islamic, Chinese, Mayan\...), cyclical time (summer, first quarter, mating season, new moon, pay day) and for named time ordinal eras (Jurassic, Younger Dryas, Early Minoan I, Late Stone Age). See OWL Time.
 >
-> o **[Geographic Extent - Horizontal]{.underline}** **(if applicable** **1 entry, minimum bounding rectangle or point**): Location coordinates must be given in decimal degrees using the [WGS 84] datum. Some resources may not be usefully described by a WGS 84 extent, in which case indicate nil:notapplicable; this would include extraterrestrial resources.
+> o **Geographic Extent - Horizontal** (**if applicable,  1 entry, minimum bounding rectangle or point**): Location coordinates must be given in decimal degrees using the [WGS 84] datum. Some resources may not be usefully described by a WGS 84 extent, in which case indicate nil:notapplicable; this would include extraterrestrial resources.
 
--   Bounding Rectangle: **[North Bounding Latitude, South Bounding Latitude, East Bounding Longitude, West Bounding Longitude]{.underline}**. The minimum rectangle that completely contains the coverage extent for the resource content. Coordinate order and syntax are determined by the serialization profile.
+-   Bounding Rectangle: **North Bounding Latitude, South Bounding Latitude, East Bounding Longitude, West Bounding Longitude}**. The minimum rectangle that completely contains the coverage extent for the resource content. Coordinate order and syntax are determined by the serialization profile.
 
--   Point: **[Latitude, Longitude]{.underline}**. A centroid point for the coverage extent of the resource, or the location of the resource content if a point location is appropriate. Coordinate order and syntax are determined by the serialization profile.
+-   Point: **Latitude, Longitude**. A centroid point for the coverage extent of the resource, or the location of the resource content if a point location is appropriate. Coordinate order and syntax are determined by the serialization profile.
 
 -   Named location: Place name referenced to some gazetteer. Use scoped name pattern {label, authority, optional identifier}.
 
@@ -70,11 +68,11 @@ Content elements for which every resource should have useful information, but fo
 
 These elements provide essential information for the operation of a distributed catalog system with harvesting of metadata between catalog servers. Values should be populated automatically by metadata creation tools, requiring no user input. Nil values are allowed.
 
-> o **[Metadata Date]{.underline}** (**1 entry**): Last metadata update/creation date-time stamp in [ISO 8601 date and time] format. This may be automatically updated on metadata import if a metadata format conversion is necessary.
+> o **Metadata Date** (**1 entry**): Last metadata update/creation date-time stamp in [ISO 8601 date and time] format. This may be automatically updated on metadata import if a metadata format conversion is necessary.
 >
-> o **[Metadata Contact Agent]{.underline}** (**1 entry**): The party responsible for metadata content and accuracy; Agent object includes a name (label), identifier, and optional contact information
+> o **Metadata Contact Agent** (**1 entry**): The party responsible for metadata content and accuracy; Agent object includes a name (label), identifier, and optional contact information
 >
-> o **[Metadata Identifier]{.underline}** (**1 entry**): The identifier for the Digital object that contains the metadata.
+> o **Metadata Identifier}** (**1 entry**): The identifier for the Digital object that contains the metadata.
 
 ## Recommended
 
@@ -116,15 +114,13 @@ The FDOF requires that there is a mechanism to dereference the identifier to get
 
 The CDIF metadata requirements outlined above include properties necessary to create a FDO PID Kernel information record (FDOFIdentificationRecord in Figure , below) as recommended by the Research Data Alliance (RDA)[^7]. The mapping from the PID Kernel information record to the CDIF metadata schema.org recommended implementation is shown in Appendix 2.
 
-![][1]
+## <a name="impapp" a/> Implementation approaches
 
-## Implementation approaches
+As a starting point, the resources of interest must be documented with metadata content that meets the requirements outlined in the [Metadata Content Requirements](#mdcontent) section, and is serialized following the CDIF schema.org profile *(currently in Appendix 1, likely to move to a separate document)*. Given that the metadata follows CDIF conventions, software can be written to extract information to enable client actions, whether that is populating a search index or accessing a useful resource representation. The workflow is reviewed here, and then discussed in more detail below.
 
-[As a starting point, the resources of interest must be documented with metadata content that meets the requirements outlined in the [[Metadata Content Requirements]{.underline}][2] section, and is serialized following the CDIF schema.org profile *(currently in Appendix 1, likely to move to a separate document)*. Given that the metadata follows CDIF conventions, software can be written to extract information to enable client actions, whether that is populating a search index or accessing a useful resource representation. The workflow is reviewed here, and then discussed in more detail below.]{.mark}
+Finding documents to index: Web-crawling is still an important approach to finding and indexing resources on the web, but a more proactive and widely used approach is the sitemap. A sitemap is a list of web locations (URLs) containing files that a hosting agent wants search engines to index. Many search engines enable providers to register sitemap locations. Alternatively, root directories on web servers can use a 'robots.txt' file to point to one or more sitemaps that should be indexed.
 
-[Finding documents to index]{.underline}: Web-crawling is still an important approach to finding and indexing resources on the web, but a more proactive and widely used approach is the sitemap. A sitemap is a list of web locations (URLs) containing files that a hosting agent wants search engines to index. Many search engines enable providers to register sitemap locations. Alternatively, root directories on web servers can use a 'robots.txt' file to point to one or more sitemaps that should be indexed.
-
-[Getting the metadata]{.underline}: Once a crawler for a search application finds a document that should be indexed, the question is where is the metadata to index, and what conventions does the metadata use. Common practice is to create a human-readable landing page for datasets or other non-textual resources published on the web. Metadata can be incorporated into the landing pages in several ways:
+Getting the metadata: Once a crawler for a search application finds a document that should be indexed, the question is where is the metadata to index, and what conventions does the metadata use. Common practice is to create a human-readable landing page for datasets or other non-textual resources published on the web. Metadata can be incorporated into the landing pages in several ways:
 
 1.  [Each resource has an html landing page that describes the resource for human users, and contains embedded CDIF]{.mark} [JSON-LD metadata (See [[Appendix 1]{.underline}][3]) for machine clients.]{.mark} Metadata can be embedded in landing pages using the HTML \<script\> element, in alignment with the Data on the Web Best Practices, specifically section 8.2, Metadata[^8]. This approach requires that each published resource has a human-readable landing page, intended to be the target of search by human users. Scripts are normally embedded in the \<head\> section of an HTML document. The \<script\> element has a 'type' attribute that provides a MIME-type specifying the type of script.
 
