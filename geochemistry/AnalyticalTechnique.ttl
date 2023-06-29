@@ -672,7 +672,7 @@ sdev:LAB47
   skos:definition "Instruments that measure isotopic ratios using thermal ionisation. Purified samples are heated to cause ionisation of atoms. Subsequently, ions are focused into a beam by an electromagnet and then separated into individual beams based on their mass/charge ratio."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "TIMS"@en ;
+  skos:notation "TIMS" ;
   skos:prefLabel "Thermal ionization mass spectrometer"@en ;
 .
 sdev:LAB48
@@ -688,7 +688,7 @@ sdev:LAB48
   skos:definition "Instruments that measure isotopic ratios using an electron ionisation source. Atoms in purified samples are ionised using a beam of electrons under vacuum. Subsequently, ions are focused into a beam by an electromagnet and then separated into individual beams based on their mass/charge ratio."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "IRMS"@en ;
+  skos:notation "IRMS" ;
   skos:prefLabel "Isotope ratio mass spectrometer"@en ;
 .
 sdev:LAB49
@@ -704,7 +704,7 @@ sdev:LAB49
   skos:definition "Instruments that illuminate the vapour from volatilised samples with light and quantify the intensity of light emitted, which is usually proportional to concentration."@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "AFS"@en ;
+  skos:notation "AFS" ;
   skos:prefLabel "Atomic fluorescence spectrometer"@en ;
 .
 sdev:LAB51
@@ -753,7 +753,7 @@ sdev:LAB51
   skos:definition "The Operational Land Imager (OLI) is a high resolution optical imager designed for land and vegetation observation. It measures in the visible, near-infrared, and short-wave infrared spectrums over nine spectral bands.  The OLI uses long detector arrays (of over 7000 detectors per spectral band) aligned across its focal plane to view across the swath. A four-mirror anastigmatic telescope focuses incident radiation onto the focal plane while providing a 15 degree field of view (FOV). Periodic sampling of the cross-track detectors as the observatory progresses along a ground track forms the multispectral digital images. The detectors are divided into 14 modules arranged in an alternating pattern along the centreline of the focal plane. The spectral differentiation is achieved by interference filters arranged in a butcher-block pattern over the detector arrays in each module. Silicon PIN (SiPIN) detectors collect the data for the visible and near-infrared spectral bands (bands 1 to 4 and 8) while Mercury-Cadmium-Telluride (MgCdTe) detectors are used for the shortwave infrared bands (bands 6, 7, and 9). The OLI has a swath width of 185 km and produces images with a 30 m multi-spectral spatial resolution. The wavelengths of the nine spectral bands are 0.433-0.453 micrometres, 0.450-0.515 micrometres, 0.525-0.600 micrometres, 0.630-0.680 micrometres, 0.845-0.885 micrometres, 1.560-1.660 micrometres,  2.100-2.300 micrometres,  0.500-0.680 micrometres and 1.360-1.390 micrometres. The OLI produced data calibrated to an uncertainty of less than 5 percent in terms of absolute, at-aperture spectral radiance and to an uncertainty of less than 3 percent in terms of top-of-atmosphere spectral reflectance for each of the spectral bands. Flown on Landsat. http://www.wmo-sat.info/oscar/instruments/view/375"@en ;
   skos:inScheme <http://vocab.nerc.ac.uk/scheme/SDNDEV/current> ;
   skos:inScheme analt:instrument ;
-  skos:notation "OLI"@en ;
+  skos:notation "OLI" ;
   skos:prefLabel "Operational land imager"@en ;
 .
 <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1083>
@@ -5040,6 +5040,16 @@ wrkf:laserablationsource
   skos:inScheme analt:workflow ;
   skos:prefLabel "Laser ablation source"@en ;
 .
+wrkf:laserfluorination
+  rdf:type skos:Concept ;
+  dcterm:source "EarthChem" ;
+  dcterm:source "https://sil.uoregon.edu/laser-fluorination/" ;
+  rdfs:label "Laser fluorination"@en ;
+  skos:broader wrkf:analyticalseparation ;
+  skos:definition "chemical process wherein oxygen is quantitatively extracted from oxygen-bearing compounds, without isotopic fractionation, and simultaneously converted to diatomic oxygen (O2) gas. This O2 gas may then be analyzed with isotope-ration mass spectrometer (IRMS) to determine its delta 17O and delta 18O ratios."@en ;
+  skos:inScheme analt:workflow ;
+  skos:prefLabel "Laser fluorination"@en ;
+.
 wrkf:liquidchromatographyseparation
   rdf:type skos:Concept ;
   dcterm:provenance [
@@ -5063,6 +5073,15 @@ wrkf:mediumpressureliquidchromatographyseparation
   skos:inScheme analt:workflow ;
   skos:notation "MPLC" ;
   skos:prefLabel "Medium pressure liquid chromatography separation"@en ;
+.
+wrkf:microscopevacuumheating
+  rdf:type skos:Concept ;
+  dcterm:source "https://www.thermofisher.com/us/en/home/materials-science/imaging-hot-samples.html" ;
+  rdfs:label "Microscope vacuum heating"@en ;
+  skos:altLabel "Hot stage microscopy"@en ;
+  skos:definition "sample analysis step in which sample is heated in a vacuum while being observed microscopically. Commonly linked with electron microscope for determination of effects of high temperature"@en ;
+  skos:inScheme analt:workflow ;
+  skos:prefLabel "Microscope heating stage"@en ;
 .
 wrkf:microtomy
   rdf:type skos:Concept ;
@@ -5159,6 +5178,15 @@ wrkf:solidphaseextraction
   skos:inScheme analt:workflow ;
   skos:notation "SPE" ;
   skos:prefLabel "Solid-phase extraction "@en ;
+.
+wrkf:steppedheating
+  rdf:type skos:Concept ;
+  dcterm:source "SMR add workflow components" ;
+  rdfs:label "Stepped heating"@en ;
+  skos:broader wrkf:analyticalseparation ;
+  skos:definition "separation technique in which a sample is heated to progressively higher temperatures to evaporate volatile constituents, which are then subject to further analysis, e.g. by mass spectrometry or optical spectrscopy."@en ;
+  skos:inScheme analt:workflow ;
+  skos:prefLabel "Stepped heating"@en ;
 .
 wrkf:thermalionization
   rdf:type skos:Concept ;
