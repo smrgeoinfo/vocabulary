@@ -52,7 +52,7 @@ o **Originators** ( **1 to many entries** ): Agent object that specifies respons
 
 o **Modified Date** ( **1 entry** ): Date (not temporal extent) when any changes to the resource were completed. Use a "year" or [ISO 8601 date and time](http://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations) format. Alternative date formatting must be machine-readable and consistent across all datasets.
 
-## oDistribution Agent (1 entry):The party (name of organization or person, etc.) to contact about accessing the resource. Agent object includes a name (label), identifier, and optional contact information. If there are multiple distribution options with different contact points, the Distribution Agent should be specified as part of the Distribution Object.
+o **Distribution Agent** (1 entry):The party (name of organization or person, etc.) to contact about accessing the resource. Agent object includes a name (label), identifier, and optional contact information. If there are multiple distribution options with different contact points, the Distribution Agent should be specified as part of the Distribution Object.
 
 o **Temporal**** coverage**(**0 or 1 entry**). The time period represented by the described resource. This could be the time interval when data were collected, or an archaeological or geological time period that is the subject of the resource. Need to account for clock time, calendar time (Gregorian, Julian, Hebrew, Islamic, Chinese, Mayan...), cyclical time (summer, first quarter, mating season, new moon, pay day) and for named time ordinal eras (Jurassic, Younger Dryas, Early Minoan I, Late Stone Age). See OWL Time.
 
