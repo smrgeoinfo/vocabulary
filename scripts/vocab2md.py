@@ -251,6 +251,9 @@ def termTree(g, v, r, depth=0):
     label = getObjects(g, r, skosT("prefLabel"))
 #    print(label)
     llabel = _labelToLink(r)
+    if not label:
+        label = []
+        label.insert(0, llabel)
     res = [f"{'    ' * depth}- [{label[0]}](#{llabel})"]
     for term in getNarrower(g, v, r):
         res += termTree(g, v, term, depth=depth + 1)
@@ -451,12 +454,11 @@ def main(ttl):
     """Generate Pandoc markdown from a SKOS vocabulary in Turtle.
 
     TTL may be a local file or URL.
-
     Output to STDOUT.
     """
     #for debugging
     #ttl = "https://raw.githubusercontent.com/smrgeoinfo/vocabulary/main/geochemistry/AnalyticalTechniqueMerg2.ttl"
-
+    #  ttl = "C:\\Workspace\\GithubC\\iSamples\\vocabularies\\src\\extensions\\specimenTypeExtension.ttl"
     vgraph = rdflib.ConjunctiveGraph()
     vgraph.parse(ttl, format="text/turtle")
     for k, v in NS.items():
